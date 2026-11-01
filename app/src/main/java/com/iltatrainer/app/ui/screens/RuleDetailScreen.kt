@@ -164,7 +164,8 @@ private fun RuleSummaryCard(rule: Rule) {
             LevelChip(level = rule.level)
         }
         val summary = rule.summary.localized()
-        if (summary.isNotBlank()) {
+        // Tense summaries duplicate the formula section below; keep the header clean.
+        if (rule.sectionId != "tenses" && summary.isNotBlank()) {
             Spacer(Modifier.height(8.dp))
             Text(
                 text = remember(summary) { formatRuleText(summary) },

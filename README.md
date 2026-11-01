@@ -4,10 +4,10 @@
 английских **артиклей** и **предлогов**.
 
 > **GitHub:** [github.com/Temnitsa/IlTa](https://github.com/Temnitsa/IlTa) ·
-> **Готовый APK:** [IlTa 2.9.0](https://github.com/Temnitsa/IlTa/releases/latest) — 7,6 МБ, Android 8.0+,
-> release-подпись, package `com.iltatrainer.app`, versionCode 11.
-> SHA-256: `1a106c04ad1c1df2060db6d3e2c7f9e0c15dd53305a27a7c9269f0d06da75f4d`.
-> Установка: скачайте APK из Releases или `adb install -r IlTa-v2.9.0-release.apk`.
+> **Готовый APK:** [IlTa 2.9.1](https://github.com/Temnitsa/IlTa/releases/latest) — 7,6 МБ, Android 8.0+,
+> release-подпись, package `com.iltatrainer.app`, versionCode 12.
+> SHA-256: `PLACEHOLDER_291`.
+> Установка: скачайте APK из Releases или `adb install -r IlTa-v2.9.1-release.apk`.
 
 ## Возможности
 

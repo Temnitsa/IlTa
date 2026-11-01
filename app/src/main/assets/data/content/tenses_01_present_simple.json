@@ -27,29 +27,14 @@
             "en": "Form"
           },
           "body": {
-            "ru": "(+) **V / V-s**\n(–) **do / does + not** + V\n(?) **Do / Does** + V?",
-            "en": "(+) **V / V-s**\n(–) **do / does + not** + V\n(?) **Do / Does** + V?"
-          },
-          "examples": [
-            "She works here.",
-            "She doesn't work here.",
-            "Does she work here?"
-          ]
-        },
-        {
-          "heading": {
-            "ru": "I / you / we / they · he / she / it",
-            "en": "I / you / we / they · he / she / it"
-          },
-          "body": {
-            "ru": "I / you / we / they + V\nhe / she / it + V-s",
-            "en": "I / you / we / they + V\nhe / she / it + V-s"
+            "ru": "(+) V/Vs\n(–) do/does + not + V\n(?) Do/Does + V?",
+            "en": "(+) V/Vs\n(–) do/does + not + V\n(?) Do/Does + V?"
           },
           "examples": [
             "I work here.",
-            "You work here.",
             "He works here.",
-            "They work here."
+            "They work here.",
+            "Does she work here?"
           ]
         },
         {
