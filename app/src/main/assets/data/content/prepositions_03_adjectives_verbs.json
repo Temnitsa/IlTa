@@ -1,0 +1,1661 @@
+{
+  "meta": {
+    "package": "prepositions_03_adjectives_verbs",
+    "version": 2
+  },
+  "rules": [
+    {
+      "id": "prep-adjectives",
+      "sectionId": "prepositions",
+      "order": 440,
+      "level": "A2",
+      "title": {
+        "ru": "Предлог после прилагательного",
+        "en": "Prepositions after adjectives"
+      },
+      "summary": {
+        "ru": "Многие прилагательные закреплены за определённым предлогом: afraid of, good at, interested in, famous for. Предлог нужно запоминать вместе с прилагательным.",
+        "en": "Many adjectives are fixed with a particular preposition: afraid of, good at, interested in, famous for. The preposition has to be learned together with the adjective."
+      },
+      "sections": [
+        {
+          "heading": {
+            "ru": "Предлог — часть прилагательного",
+            "en": "The preposition belongs to the adjective"
+          },
+          "body": {
+            "ru": "У прилагательного нет одного универсального предлога: выбор закреплён за конкретным словом. Поэтому сочетание учат целиком, а не переводят предлог с русского языка. Если сомневаетесь, проверяйте слово в словаре.",
+            "en": "There is no single universal preposition for adjectives: each adjective is fixed with its own. Learn the whole combination instead of translating the preposition from your language. When in doubt, check the word in a dictionary."
+          },
+          "examples": [
+            "afraid of the dark",
+            "proud of her work",
+            "full of water"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Of, at, for: основные значения",
+            "en": "Of, at, for: the main meanings"
+          },
+          "body": {
+            "ru": "Of часто называет источник чувства или содержание. At указывает на навык или умение. For говорит о причине, пользе или готовности. Эти подсказки помогают запомнить выбор, но решает всё само сочетание.",
+            "en": "Of often names the source of a feeling or what something contains. At points to a skill. For expresses a reason, a benefit or readiness. These hints help you remember, but the combination itself decides."
+          },
+          "examples": [
+            "afraid of spiders",
+            "good at chess",
+            "famous for its gardens",
+            "ready for the exam"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "To, about, with, from: адресат, тема, отличие",
+            "en": "To, about, with, from"
+          },
+          "body": {
+            "ru": "To обычно указывает на адресата или сходство, about — на тему переживания, with — на то, чем человек доволен или занят, from — на отличие. Предлог сохраняется и перед -ing-формой.",
+            "en": "To usually points to a person or a similarity, about to the subject of a feeling, with to something someone is pleased with or busy with, and from to a difference. The preposition stays the same before an -ing form."
+          },
+          "examples": [
+            "kind to animals",
+            "similar to her mother",
+            "worried about the exam",
+            "satisfied with the service",
+            "different from the old one"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Менее очевидные сочетания",
+            "en": "Less obvious combinations"
+          },
+          "body": {
+            "ru": "Часть сочетаний не подсказывает ни значение, ни русский перевод, поэтому их запоминают отдельно. Обращайте внимание на предлоги в текстах и выписывайте незнакомые пары.",
+            "en": "Some combinations are not suggested by the meaning or by translation, so they must be learned separately. Notice prepositions in texts and note down unfamiliar pairs."
+          },
+          "examples": [
+            "aware of the rules",
+            "capable of running the office",
+            "close to the station",
+            "late for the meeting",
+            "busy with the report"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prep-verbs",
+      "sectionId": "prepositions",
+      "order": 450,
+      "level": "A2",
+      "title": {
+        "ru": "Предлог после глагола",
+        "en": "Prepositions after verbs"
+      },
+      "summary": {
+        "ru": "После ряда глаголов нужен определённый предлог: depend on, wait for, listen to, belong to. Некоторые глаголы, наоборот, предлога не требуют: discuss, marry, enter, reach.",
+        "en": "Some verbs are followed by a particular preposition: depend on, wait for, listen to, belong to. Other verbs take no preposition at all: discuss, marry, enter, reach."
+      },
+      "sections": [
+        {
+          "heading": {
+            "ru": "Глагол диктует предлог",
+            "en": "The verb decides the preposition"
+          },
+          "body": {
+            "ru": "После глагола предлог часто не совпадает с русским: одно и то же действие в двух языках оформляется по-разному. Поэтому глагол учат сразу вместе с предлогом, а не отдельно.",
+            "en": "After a verb, the preposition often differs from Russian: the same action is framed differently in the two languages. Learn each verb together with its preposition, not on its own."
+          },
+          "examples": [
+            "depend on the weather",
+            "wait for the bus",
+            "listen to music",
+            "belong to the club"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "On, for, to: зависимость, ожидание, адресат",
+            "en": "On, for, to: dependence, expectation, listener"
+          },
+          "body": {
+            "ru": "On выражает зависимость, for — ожидание или причину, to — направление внимания и адресата. Предлог не меняется при изменении времени глагола. Часть сочетаний вводит тему (look, think), а for также причину извинения или благодарности.",
+            "en": "On expresses dependence, for expectation or a reason, and to the direction of attention or a listener. The preposition does not change with the tense. Some combinations introduce a topic (look, think), and for also gives the reason for an apology or thanks."
+          },
+          "examples": [
+            "look at the map",
+            "think about the offer",
+            "apologise for the delay",
+            "thank you for the help"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Arrive: at или in",
+            "en": "Arrive: at or in"
+          },
+          "body": {
+            "ru": "После arrive используем at, если речь идёт о точном месте или здании, и in, если речь идёт о городе или стране. Смысл глагола при этом не меняется.",
+            "en": "After arrive we use at for an exact place or a building, and in for a city or a country. The meaning of the verb stays the same."
+          },
+          "examples": [
+            "arrive at the station",
+            "arrive at the airport",
+            "arrive in Rome",
+            "arrive in Italy"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Глаголы без предлога",
+            "en": "Verbs that need no preposition"
+          },
+          "body": {
+            "ru": "Некоторые глаголы вводят дополнение сразу, без предлога. После них нельзя ставить лишний предлог, даже если он есть в русском переводе.",
+            "en": "Some verbs take their object directly, with no preposition at all. Do not add an extra preposition after them, even if the Russian translation suggests one."
+          },
+          "examples": [
+            "discuss the problem",
+            "marry someone",
+            "enter the room",
+            "reach the airport"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "prep3-0001",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Our little dog is afraid ___ loud noises.",
+      "translation": {
+        "ru": "Наша маленькая собака боится громких звуков."
+      },
+      "options": [
+        "of",
+        "from",
+        "at",
+        "with"
+      ],
+      "answer": "of",
+      "explanation": {
+        "ru": "Прилагательное afraid закреплено за предлогом of: afraid of something. Другие предлоги здесь невозможны.",
+        "en": "The adjective afraid is fixed with of: afraid of something. No other preposition works in this phrase."
+      }
+    },
+    {
+      "id": "prep3-0002",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "My parents were very proud ___ my exam results.",
+      "translation": {
+        "ru": "Мои родители очень гордились моими результатами на экзаменах."
+      },
+      "options": [
+        "of",
+        "from",
+        "with",
+        "at"
+      ],
+      "answer": "of",
+      "explanation": {
+        "ru": "Proud of — «гордиться чем-то»: предлог of входит в устойчивое сочетание с proud.",
+        "en": "Proud of means feeling pleased about something; the preposition of is part of the fixed phrase."
+      }
+    },
+    {
+      "id": "prep3-0003",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "My cousin is very interested ___ Japanese culture.",
+      "translation": {
+        "ru": "Моя двоюродная сестра очень интересуется японской культурой."
+      },
+      "options": [
+        "in",
+        "on",
+        "about",
+        "for"
+      ],
+      "answer": "in",
+      "explanation": {
+        "ru": "Interested in — «интересующийся чем-то»; после interested всегда стоит in.",
+        "en": "Interested in is the phrase for having an interest in something; interested always takes in."
+      }
+    },
+    {
+      "id": "prep3-0004",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "My younger brother is really good ___ chess.",
+      "translation": {
+        "ru": "Мой младший брат действительно хорошо играет в шахматы."
+      },
+      "options": [
+        "at",
+        "for",
+        "with",
+        "of"
+      ],
+      "answer": "at",
+      "explanation": {
+        "ru": "Good at — «хорошо уметь что-то делать»; at ставится перед названием навыка или умения.",
+        "en": "Good at describes a skill; at comes before the skill or activity: good at chess."
+      }
+    },
+    {
+      "id": "prep3-0005",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "My cousin is quite bad ___ solving difficult puzzles.",
+      "translation": {
+        "ru": "Моя двоюродная сестра довольно плохо решает сложные головоломки."
+      },
+      "options": [
+        "at",
+        "in",
+        "for",
+        "of"
+      ],
+      "answer": "at",
+      "explanation": {
+        "ru": "Bad at — «плохо уметь что-то»; перед названием навыка ставится at, как и в паре good at.",
+        "en": "Bad at means not skilled at something; the skill takes at, just like good at."
+      }
+    },
+    {
+      "id": "prep3-0007",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Are you ready ___ the maths test tomorrow?",
+      "translation": {
+        "ru": "Ты готов к контрольной по математике завтра?"
+      },
+      "options": [
+        "for",
+        "to",
+        "at",
+        "of"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Ready for ставится перед существительным: ready for the test. Перед глаголом было бы ready to start.",
+        "en": "Ready for is used before a noun: ready for the test. Before a verb we would use ready to start."
+      }
+    },
+    {
+      "id": "prep3-0009",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "My parents are worried ___ my grandfather's health.",
+      "translation": {
+        "ru": "Мои родители волнуются о здоровье дедушки."
+      },
+      "options": [
+        "about",
+        "of",
+        "at",
+        "with"
+      ],
+      "answer": "about",
+      "explanation": {
+        "ru": "Worried about — «беспокоиться о чём-то»; предлог about закреплён за worried.",
+        "en": "Worried about means anxious about something; worried is fixed with about."
+      }
+    },
+    {
+      "id": "prep3-0010",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The children are very excited ___ their summer holidays.",
+      "translation": {
+        "ru": "Дети очень радуются предстоящим летним каникулам."
+      },
+      "options": [
+        "about",
+        "of",
+        "at",
+        "with"
+      ],
+      "answer": "about",
+      "explanation": {
+        "ru": "Excited about — «радоваться чему-то, ждать с нетерпением»: предлог about закреплён за excited.",
+        "en": "Excited about means looking forward to something; the preposition about is fixed with excited."
+      }
+    },
+    {
+      "id": "prep3-0012",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The old attic was full ___ forgotten furniture.",
+      "translation": {
+        "ru": "Старый чердак был полон забытой мебели."
+      },
+      "options": [
+        "of",
+        "with",
+        "in",
+        "from"
+      ],
+      "answer": "of",
+      "explanation": {
+        "ru": "Full of — «полный чего-то»; после full ставится of, а с причастием filled используется filled with.",
+        "en": "Full of means containing a lot of something; with the participle filled we use filled with."
+      }
+    },
+    {
+      "id": "prep3-0013",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The office manager is responsible ___ ordering new supplies.",
+      "translation": {
+        "ru": "Офис-менеджер отвечает за заказ канцелярских товаров."
+      },
+      "options": [
+        "for",
+        "of",
+        "to",
+        "with"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Responsible for — «отвечать за что-то»; предлог for закреплён за responsible.",
+        "en": "Responsible for means having a duty for something; responsible takes for."
+      }
+    },
+    {
+      "id": "prep3-0016",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Regular exercise is very good ___ your heart.",
+      "translation": {
+        "ru": "Регулярные физические упражнения очень полезны для сердца."
+      },
+      "options": [
+        "for",
+        "to",
+        "at",
+        "of"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Good for — «полезный для чего-то»; о пользе говорим с for, а о навыке — с at.",
+        "en": "Good for means beneficial; for is used for benefit, while at is used for skills."
+      }
+    },
+    {
+      "id": "prep3-0017",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Too much sugar is bad ___ your teeth.",
+      "translation": {
+        "ru": "Слишком много сахара вредно для зубов."
+      },
+      "options": [
+        "for",
+        "to",
+        "at",
+        "of"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Bad for — «вредный для чего-то»; вред обозначается предлогом for, а не at.",
+        "en": "Bad for means harmful to something; the harm is expressed with for, not at."
+      }
+    },
+    {
+      "id": "prep3-0024",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "B1",
+      "sentence": "The students were well prepared ___ the final exam.",
+      "translation": {
+        "ru": "Студенты были хорошо подготовлены к выпускному экзамену."
+      },
+      "options": [
+        "for",
+        "to",
+        "at",
+        "of"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Prepared for — «подготовленный к чему-то»; перед существительным ставится for.",
+        "en": "Prepared for means ready for something; before a noun we use prepared for."
+      }
+    },
+    {
+      "id": "prep3-0038",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "B1",
+      "sentence": "The old church stands very close ___ the river.",
+      "translation": {
+        "ru": "Старая церковь стоит очень близко к реке."
+      },
+      "options": [
+        "to",
+        "from",
+        "at",
+        "of"
+      ],
+      "answer": "to",
+      "explanation": {
+        "ru": "Close to — «близко к чему-то»; после close ставится to.",
+        "en": "Close to means near something; close is followed by to."
+      }
+    },
+    {
+      "id": "prep3-0041",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "B1",
+      "sentence": "The machine is capable ___ printing two hundred pages a minute.",
+      "translation": {
+        "ru": "Машина способна печатать двести страниц в минуту."
+      },
+      "options": [
+        "of",
+        "to",
+        "at",
+        "for"
+      ],
+      "answer": "of",
+      "explanation": {
+        "ru": "Capable of — «способный что-то делать»; после capable идёт of и -ing-форма.",
+        "en": "Capable of means able to do something; capable takes of plus an -ing form."
+      }
+    },
+    {
+      "id": "prep3-0042",
+      "type": "match",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте прилагательное и подходящий предлог.",
+        "en": "Match each adjective with the correct preposition."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "afraid ___ (бояться)",
+            "en": "afraid ___"
+          },
+          "right": "My little brother is afraid of spiders."
+        },
+        {
+          "left": {
+            "ru": "good ___ (хорошо уметь)",
+            "en": "good ___"
+          },
+          "right": "Our teacher says I am good at drawing."
+        },
+        {
+          "left": {
+            "ru": "interested ___ (интересоваться)",
+            "en": "interested ___"
+          },
+          "right": "She became interested in astronomy at school."
+        },
+        {
+          "left": {
+            "ru": "famous ___ (знаменитый)",
+            "en": "famous ___"
+          },
+          "right": "The region is famous for its cheese and wine."
+        }
+      ],
+      "explanation": {
+        "ru": "Afraid of, good at, interested in и famous for — предлог закреплён за прилагательным и не меняется по смыслу.",
+        "en": "Afraid of, good at, interested in and famous for — the preposition is fixed with the adjective."
+      }
+    },
+    {
+      "id": "prep3-0043",
+      "type": "match",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте прилагательное и подходящий предлог.",
+        "en": "Match each adjective with the correct preposition."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "proud ___ (гордиться)",
+            "en": "proud ___"
+          },
+          "right": "We are proud of what our students achieved."
+        },
+        {
+          "left": {
+            "ru": "full ___ (полный)",
+            "en": "full ___"
+          },
+          "right": "The kitchen was full of the smell of fresh bread."
+        },
+        {
+          "left": {
+            "ru": "ready ___ (готовый)",
+            "en": "ready ___"
+          },
+          "right": "Is everybody ready for the final rehearsal?"
+        },
+        {
+          "left": {
+            "ru": "kind ___ (добрый)",
+            "en": "kind ___"
+          },
+          "right": "The nurses were very kind to the children."
+        }
+      ],
+      "explanation": {
+        "ru": "Proud of, full of, ready for и kind to — устойчивые сочетания прилагательного с предлогом.",
+        "en": "Proud of, full of, ready for and kind to are fixed combinations of an adjective with a preposition."
+      }
+    },
+    {
+      "id": "prep3-0044",
+      "type": "match",
+      "ruleId": "prep-adjectives",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте прилагательное и подходящий предлог.",
+        "en": "Match each adjective with the correct preposition."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "worried ___ (беспокоиться)",
+            "en": "worried ___"
+          },
+          "right": "I am a bit worried about tomorrow's interview."
+        },
+        {
+          "left": {
+            "ru": "responsible ___ (отвечать за)",
+            "en": "responsible ___"
+          },
+          "right": "The caretaker is responsible for the school building."
+        },
+        {
+          "left": {
+            "ru": "similar ___ (похожий)",
+            "en": "similar ___"
+          },
+          "right": "Her new bike is similar to mine."
+        },
+        {
+          "left": {
+            "ru": "different ___ (отличаться)",
+            "en": "different ___"
+          },
+          "right": "Life in a village is different from life in a city."
+        }
+      ],
+      "explanation": {
+        "ru": "Worried about, responsible for, similar to и different from — зависимые предлоги этих прилагательных.",
+        "en": "Worried about, responsible for, similar to and different from are the dependent prepositions of these adjectives."
+      }
+    },
+    {
+      "id": "prep3-0045",
+      "type": "match",
+      "ruleId": "prep-adjectives",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте прилагательное и подходящий предлог.",
+        "en": "Match each adjective with the correct preposition."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "capable ___ (способный)",
+            "en": "capable ___"
+          },
+          "right": "The young engineer is capable of solving complex problems."
+        },
+        {
+          "left": {
+            "ru": "aware ___ (осведомлённый)",
+            "en": "aware ___"
+          },
+          "right": "The staff were not aware of the new safety rules."
+        },
+        {
+          "left": {
+            "ru": "close ___ (близко)",
+            "en": "close ___"
+          },
+          "right": "The station is close to the market square."
+        },
+        {
+          "left": {
+            "ru": "satisfied ___ (довольный)",
+            "en": "satisfied ___"
+          },
+          "right": "The customer was satisfied with the service in the café."
+        }
+      ],
+      "explanation": {
+        "ru": "Capable of, aware of, close to и satisfied with — предлог входит в состав каждого сочетания.",
+        "en": "Capable of, aware of, close to and satisfied with — the preposition is part of each combination."
+      }
+    },
+    {
+      "id": "prep3-0091",
+      "type": "match",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте прилагательное и подходящий предлог.",
+        "en": "Match each adjective with the correct preposition."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "married ___ (замужем за)",
+            "en": "married ___"
+          },
+          "right": "My cousin has been married to a doctor for five years."
+        },
+        {
+          "left": {
+            "ru": "fond ___ (любить)",
+            "en": "fond ___"
+          },
+          "right": "My grandfather is fond of old detective films."
+        },
+        {
+          "left": {
+            "ru": "late ___ (опоздать на)",
+            "en": "late ___"
+          },
+          "right": "Sorry I'm late for the rehearsal — the bus was delayed."
+        },
+        {
+          "left": {
+            "ru": "nervous ___ (нервничать из-за)",
+            "en": "nervous ___"
+          },
+          "right": "She always feels nervous about job interviews."
+        }
+      ],
+      "explanation": {
+        "ru": "Married to, fond of, late for и nervous about — предлог закреплён за прилагательным.",
+        "en": "Married to, fond of, late for and nervous about — the preposition is fixed with the adjective."
+      }
+    },
+    {
+      "id": "prep3-0093",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The valley is famous ___ producing excellent wine.",
+      "translation": {
+        "ru": "Долина знаменита производством превосходного вина."
+      },
+      "options": [
+        "for",
+        "of",
+        "at",
+        "with"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Famous for — «знаменитый чем-то»; после famous ставится for.",
+        "en": "Famous for means well known because of something; famous is followed by for."
+      }
+    },
+    {
+      "id": "prep3-0094",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Your jacket looks very similar ___ your brother’s.",
+      "translation": {
+        "ru": "Твоя куртка очень похожа на куртку твоего брата."
+      },
+      "options": [
+        "to",
+        "with",
+        "from",
+        "for"
+      ],
+      "answer": "to",
+      "explanation": {
+        "ru": "Similar to — «похожий на что-то»; после similar ставится to.",
+        "en": "Similar to means like something else; similar takes to."
+      }
+    },
+    {
+      "id": "prep3-0095",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Our coach was always kind ___ younger players.",
+      "translation": {
+        "ru": "Наш тренер всегда был добр к более молодым игрокам."
+      },
+      "options": [
+        "to",
+        "with",
+        "for",
+        "at"
+      ],
+      "answer": "to",
+      "explanation": {
+        "ru": "Kind to — «добрый к кому-то»; прилагательное kind требует предлога to.",
+        "en": "Kind to means treating someone kindly; kind is followed by to."
+      }
+    },
+    {
+      "id": "prep3-0096",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The critic was not satisfied ___ the ending of the film.",
+      "translation": {
+        "ru": "Критик остался недоволен концовкой фильма."
+      },
+      "options": [
+        "with",
+        "of",
+        "for",
+        "at"
+      ],
+      "answer": "with",
+      "explanation": {
+        "ru": "Satisfied with — «довольный чем-то»; предлог with закреплён за satisfied.",
+        "en": "Satisfied with means pleased about something; satisfied is fixed with with."
+      }
+    },
+    {
+      "id": "prep3-0097",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Nobody was aware ___ the hidden camera in the room.",
+      "translation": {
+        "ru": "Никто не знал о скрытой камере в комнате."
+      },
+      "options": [
+        "of",
+        "about",
+        "on",
+        "for"
+      ],
+      "answer": "of",
+      "explanation": {
+        "ru": "Aware of — «знать о чём-то, осознавать»; после aware ставится of.",
+        "en": "Aware of means knowing about something; aware is followed by of."
+      }
+    },
+    {
+      "id": "prep3-0098",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Her brother got married ___ his childhood friend last summer.",
+      "translation": {
+        "ru": "Её брат женился на своей подруге детства прошлым летом."
+      },
+      "options": [
+        "to",
+        "with",
+        "for",
+        "of"
+      ],
+      "answer": "to",
+      "explanation": {
+        "ru": "Married to — «женатый на ком-то»; после married ставится to.",
+        "en": "Married to is the standard phrase for being someone's husband or wife; married takes to."
+      }
+    },
+    {
+      "id": "prep3-0099",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "She is fond ___ taking long walks in the park.",
+      "translation": {
+        "ru": "Она любит долгие прогулки в парке."
+      },
+      "options": [
+        "of",
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": "of",
+      "explanation": {
+        "ru": "Fond of — «любить что-то»; прилагательное fond всегда с of.",
+        "en": "Fond of means liking something; fond always takes of."
+      }
+    },
+    {
+      "id": "prep3-0100",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The students were late ___ the geography lesson.",
+      "translation": {
+        "ru": "Ученики опоздали на урок географии."
+      },
+      "options": [
+        "for",
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Late for — «опоздавший на что-то»: late for a lesson, late for work.",
+        "en": "Late for means not on time for something: late for a lesson, late for work."
+      }
+    },
+    {
+      "id": "prep3-0101",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "I always feel nervous ___ flying.",
+      "translation": {
+        "ru": "Я всегда нервничаю из-за полётов."
+      },
+      "options": [
+        "about",
+        "by",
+        "on",
+        "at"
+      ],
+      "answer": "about",
+      "explanation": {
+        "ru": "Nervous about — «нервничать из-за чего-то»; прилагательное nervous сочетается с about.",
+        "en": "Nervous about means worried about something; nervous is followed by about."
+      }
+    },
+    {
+      "id": "prep3-0102",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "By evening the basket was full ___ ripe apples.",
+      "translation": {
+        "ru": "К вечеру корзина была полна спелых яблок."
+      },
+      "options": [
+        "of",
+        "with",
+        "in",
+        "from"
+      ],
+      "answer": "of",
+      "explanation": {
+        "ru": "Full of — «полный чего-то»; после full ставится of.",
+        "en": "Full of means containing a lot of something; full is followed by of."
+      }
+    },
+    {
+      "id": "prep3-0046",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "Our weekend plans depend ___ the weather forecast.",
+      "translation": {
+        "ru": "Наши планы на выходные зависят от прогноза погоды."
+      },
+      "options": [
+        "on",
+        "of",
+        "in",
+        "from"
+      ],
+      "answer": "on",
+      "explanation": {
+        "ru": "Depend on — «зависеть от чего-то»; после depend ставится предлог on.",
+        "en": "Depend on means to be decided by something; depend is followed by on."
+      }
+    },
+    {
+      "id": "prep3-0047",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "The final decision will depend ___ the test results.",
+      "translation": {
+        "ru": "Окончательное решение будет зависеть от результатов теста."
+      },
+      "options": [
+        "on",
+        "of",
+        "at",
+        "with"
+      ],
+      "answer": "on",
+      "explanation": {
+        "ru": "Depend on — устойчивое сочетание; предлог of после depend невозможен.",
+        "en": "Depend on is a fixed combination; the preposition of cannot follow depend."
+      }
+    },
+    {
+      "id": "prep3-0048",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "We waited ___ the next train in the freezing cold.",
+      "translation": {
+        "ru": "Мы ждали следующий поезд на морозе."
+      },
+      "options": [
+        "for",
+        "to",
+        "of",
+        "about"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Wait for — «ждать кого-то или что-то»; глагол wait требует предлога for.",
+        "en": "Wait for means to stay until someone or something comes; wait is followed by for."
+      }
+    },
+    {
+      "id": "prep3-0050",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "My grandfather listens ___ the radio every morning.",
+      "translation": {
+        "ru": "Мой дедушка каждое утро слушает радио."
+      },
+      "options": [
+        "to",
+        "for",
+        "at",
+        "of"
+      ],
+      "answer": "to",
+      "explanation": {
+        "ru": "Listen to — «слушать что-то»; после listen ставится предлог to.",
+        "en": "Listen to means to pay attention to a sound; listen is followed by to."
+      }
+    },
+    {
+      "id": "prep3-0052",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "This old watch belonged ___ my grandfather.",
+      "translation": {
+        "ru": "Эти старые часы принадлежали моему деду."
+      },
+      "options": [
+        "to",
+        "of",
+        "for",
+        "with"
+      ],
+      "answer": "to",
+      "explanation": {
+        "ru": "Belong to — «принадлежать кому-то»; после belong ставится to.",
+        "en": "Belong to means to be owned by someone; belong is followed by to."
+      }
+    },
+    {
+      "id": "prep3-0054",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "Look ___ the board, please, and copy the words.",
+      "translation": {
+        "ru": "Посмотрите на доску, пожалуйста, и перепишите слова."
+      },
+      "options": [
+        "at",
+        "for",
+        "of",
+        "on"
+      ],
+      "answer": "at",
+      "explanation": {
+        "ru": "Look at — «смотреть на что-то»; после look в этом значении ставится at.",
+        "en": "Look at means to direct your eyes at something; look takes at."
+      }
+    },
+    {
+      "id": "prep3-0056",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "The hikers arrived ___ the top of the hill before sunset.",
+      "translation": {
+        "ru": "Туристы дошли до вершины холма ещё до заката."
+      },
+      "options": [
+        "at",
+        "in",
+        "to",
+        "for"
+      ],
+      "answer": "at",
+      "explanation": {
+        "ru": "Arrive at — для точного места или здания: arrive at the top, arrive at the station.",
+        "en": "Arrive at is used for an exact place or building: arrive at the top, arrive at the station."
+      }
+    },
+    {
+      "id": "prep3-0058",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "They arrived ___ Italy late on Friday evening.",
+      "translation": {
+        "ru": "Они приехали в Италию поздно вечером в пятницу."
+      },
+      "options": [
+        "in",
+        "at",
+        "to",
+        "on"
+      ],
+      "answer": "in",
+      "explanation": {
+        "ru": "Arrive in — для городов и стран: Italy — страна, поэтому нужен in.",
+        "en": "Arrive in is used for cities and countries: Italy is a country, so in is needed."
+      }
+    },
+    {
+      "id": "prep3-0060",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "He apologised ___ being late to the meeting.",
+      "translation": {
+        "ru": "Он извинился за опоздание на совещание."
+      },
+      "options": [
+        "for",
+        "to",
+        "of",
+        "with"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Apologise for — «извиняться за что-то»; после apologise ставится for.",
+        "en": "Apologise for means to say sorry for something; apologise is followed by for."
+      }
+    },
+    {
+      "id": "prep3-0062",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "I thanked my neighbour ___ helping me with the boxes.",
+      "translation": {
+        "ru": "Я поблагодарил соседа за помощь с коробками."
+      },
+      "options": [
+        "for",
+        "to",
+        "of",
+        "about"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Thank for — «благодарить за что-то»; после thank ставится for.",
+        "en": "Thank for means to express thanks for something; thank is followed by for."
+      }
+    },
+    {
+      "id": "prep3-0064",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "We discussed ___ the problem for over an hour.",
+      "translation": {
+        "ru": "Мы обсуждали проблему больше часа."
+      },
+      "options": [
+        "about",
+        "on",
+        "of",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Discuss предлога не требует: discuss the problem. Дополнение идёт сразу после глагола.",
+        "en": "Discuss takes no preposition: discuss the problem. The object follows the verb directly."
+      }
+    },
+    {
+      "id": "prep3-0065",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "My cousin married ___ her university boyfriend last June.",
+      "translation": {
+        "ru": "Моя двоюродная сестра вышла замуж за своего парня из университета в июне."
+      },
+      "options": [
+        "to",
+        "with",
+        "for",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Marry предлога не требует: marry someone. Предлог to нужен только в конструкции be married to.",
+        "en": "Marry takes no preposition: marry someone. The preposition to is needed only in be married to."
+      }
+    },
+    {
+      "id": "prep3-0078",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "B1",
+      "sentence": "Could you explain this exercise ___ me again?",
+      "translation": {
+        "ru": "Не мог бы ты ещё раз объяснить мне это упражнение?"
+      },
+      "options": [
+        "to",
+        "of",
+        "at",
+        "with"
+      ],
+      "answer": "to",
+      "explanation": {
+        "ru": "Explain to somebody — «объяснять кому-то»; после explain ставится to и адресат.",
+        "en": "Explain to somebody means to make something clear to that person; explain takes to before the listener."
+      }
+    },
+    {
+      "id": "prep3-0083",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "B1",
+      "sentence": "The students entered ___ the classroom quietly.",
+      "translation": {
+        "ru": "Студенты тихо вошли в класс."
+      },
+      "options": [
+        "in",
+        "into",
+        "—",
+        "to"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Enter в значении «войти» предлога не требует: enter the room.",
+        "en": "Enter meaning to go in takes no preposition: enter the room."
+      }
+    },
+    {
+      "id": "prep3-0085",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "B1",
+      "sentence": "We reached ___ the airport just before noon.",
+      "translation": {
+        "ru": "Мы добрались до аэропорта незадолго до полудня."
+      },
+      "options": [
+        "at",
+        "to",
+        "—",
+        "in"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Reach предлога не требует: reach the airport. At после reach — ошибка.",
+        "en": "Reach takes no preposition: reach the airport. Using at after reach is a mistake."
+      }
+    },
+    {
+      "id": "prep3-0087",
+      "type": "match",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте глагол и пример.",
+        "en": "Match each verb with an example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "depend ___ (зависеть)",
+            "en": "depend ___"
+          },
+          "right": "The price depends on the number of guests."
+        },
+        {
+          "left": {
+            "ru": "wait ___ (ждать)",
+            "en": "wait ___"
+          },
+          "right": "I waited for the bus for half an hour."
+        },
+        {
+          "left": {
+            "ru": "listen ___ (слушать)",
+            "en": "listen ___"
+          },
+          "right": "She listens to the news every evening."
+        },
+        {
+          "left": {
+            "ru": "belong ___ (принадлежать)",
+            "en": "belong ___"
+          },
+          "right": "This old bicycle belongs to my neighbour."
+        }
+      ],
+      "explanation": {
+        "ru": "Depend on, wait for, listen to и belong to — предлог закреплён за глаголом.",
+        "en": "Depend on, wait for, listen to and belong to — each verb is fixed with its preposition."
+      }
+    },
+    {
+      "id": "prep3-0088",
+      "type": "match",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте глагол и пример.",
+        "en": "Match each verb with an example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "look ___ (смотреть)",
+            "en": "look ___"
+          },
+          "right": "The children looked at the elephants in amazement."
+        },
+        {
+          "left": {
+            "ru": "apologise ___ (извиняться)",
+            "en": "apologise ___"
+          },
+          "right": "He apologised for breaking the window."
+        },
+        {
+          "left": {
+            "ru": "thank ___ (благодарить)",
+            "en": "thank ___"
+          },
+          "right": "We thanked her for the delicious dinner."
+        },
+        {
+          "left": {
+            "ru": "think ___ (думать)",
+            "en": "think ___"
+          },
+          "right": "I am thinking about your offer carefully."
+        }
+      ],
+      "explanation": {
+        "ru": "Look at, apologise for, thank for и think about — предлог входит в состав каждого сочетания.",
+        "en": "Look at, apologise for, thank for and think about — the preposition is part of each combination."
+      }
+    },
+    {
+      "id": "prep3-0089",
+      "type": "match",
+      "ruleId": "prep-verbs",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте глагол и пример.",
+        "en": "Match each verb with an example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "arrive at — здание или точное место",
+            "en": "arrive at — a building or exact place"
+          },
+          "right": "We arrived at the airport two hours before the flight."
+        },
+        {
+          "left": {
+            "ru": "arrive in — город или страна",
+            "en": "arrive in — a city or country"
+          },
+          "right": "They arrived in Canada last week."
+        },
+        {
+          "left": {
+            "ru": "explain ___ — объяснять кому-то",
+            "en": "explain ___ — explain to somebody"
+          },
+          "right": "The guide explained the route to the group."
+        },
+        {
+          "left": {
+            "ru": "discuss — без предлога",
+            "en": "discuss — no preposition"
+          },
+          "right": "The neighbours discussed the noise problem calmly."
+        }
+      ],
+      "explanation": {
+        "ru": "Arrive at — здания и точные места, arrive in — города и страны; explain to — объяснять кому-то; discuss предлога не требует.",
+        "en": "Arrive at is for buildings and exact places, arrive in for cities and countries; explain to means explain to somebody; discuss takes no preposition."
+      }
+    },
+    {
+      "id": "prep3-0090",
+      "type": "match",
+      "ruleId": "prep-verbs",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте глагол и пример. Некоторые глаголы предлога не требуют.",
+        "en": "Match each verb with an example. Some verbs take no preposition."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "marry — без предлога",
+            "en": "marry — no preposition"
+          },
+          "right": "She married her school friend in 2020."
+        },
+        {
+          "left": {
+            "ru": "enter — без предлога",
+            "en": "enter — no preposition"
+          },
+          "right": "A stranger entered the building through the back door."
+        },
+        {
+          "left": {
+            "ru": "reach — без предлога",
+            "en": "reach — no preposition"
+          },
+          "right": "We reached the village before dark."
+        },
+        {
+          "left": {
+            "ru": "belong ___ — с предлогом to",
+            "en": "belong ___ — with the preposition to"
+          },
+          "right": "That notebook belongs to my sister."
+        }
+      ],
+      "explanation": {
+        "ru": "Marry, enter и reach предлога не требуют, а belong требует to: belongs to my sister.",
+        "en": "Marry, enter and reach take no preposition, while belong requires to: belongs to my sister."
+      }
+    },
+    {
+      "id": "prep3-0092",
+      "type": "match",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте глагол и пример.",
+        "en": "Match each verb with an example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "ask ___ (просить)",
+            "en": "ask ___"
+          },
+          "right": "She asked for a glass of water."
+        },
+        {
+          "left": {
+            "ru": "pay ___ (платить)",
+            "en": "pay ___"
+          },
+          "right": "We paid for the tickets online."
+        },
+        {
+          "left": {
+            "ru": "agree ___ (соглашаться)",
+            "en": "agree ___"
+          },
+          "right": "I agree with your opinion on this."
+        },
+        {
+          "left": {
+            "ru": "laugh ___ (смеяться)",
+            "en": "laugh ___"
+          },
+          "right": "Don't laugh at other people's mistakes."
+        }
+      ],
+      "explanation": {
+        "ru": "Ask for, pay for, agree with и laugh at — предлог входит в состав глагольного сочетания.",
+        "en": "Ask for, pay for, agree with and laugh at — the preposition is part of each verb phrase."
+      }
+    },
+    {
+      "id": "prep3-0103",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "The size of the harvest depends ___ the summer rainfall.",
+      "translation": {
+        "ru": "Размер урожая зависит от летних дождей."
+      },
+      "options": [
+        "on",
+        "of",
+        "in",
+        "from"
+      ],
+      "answer": "on",
+      "explanation": {
+        "ru": "Depend on — «зависеть от чего-то»; предлог on обязателен.",
+        "en": "Depend on means to be decided by something; the preposition on is obligatory."
+      }
+    },
+    {
+      "id": "prep3-0104",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "Please wait ___ the green light before crossing.",
+      "translation": {
+        "ru": "Пожалуйста, дождись зелёного сигнала, прежде чем переходить."
+      },
+      "options": [
+        "for",
+        "to",
+        "of",
+        "about"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Wait for — «ждать чего-то»; предлог for закреплён за глаголом wait.",
+        "en": "Wait for means to stay until something happens; wait is followed by for."
+      }
+    },
+    {
+      "id": "prep3-0105",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "The audience listened ___ the orchestra in complete silence.",
+      "translation": {
+        "ru": "Публика слушала оркестр в полной тишине."
+      },
+      "options": [
+        "to",
+        "at",
+        "for",
+        "of"
+      ],
+      "answer": "to",
+      "explanation": {
+        "ru": "Listen to — «слушать что-то»; после listen ставится to.",
+        "en": "Listen to means to pay attention to a sound; listen is followed by to."
+      }
+    },
+    {
+      "id": "prep3-0106",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "This handbag belongs ___ the woman in the blue coat.",
+      "translation": {
+        "ru": "Эта сумочка принадлежит женщине в синем пальто."
+      },
+      "options": [
+        "to",
+        "of",
+        "for",
+        "with"
+      ],
+      "answer": "to",
+      "explanation": {
+        "ru": "Belong to — «принадлежать кому-то»; после belong ставится to.",
+        "en": "Belong to means to be owned by someone; belong is followed by to."
+      }
+    },
+    {
+      "id": "prep3-0107",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "Look ___ the moon — it's so bright tonight!",
+      "translation": {
+        "ru": "Посмотри на луну — она сегодня такая яркая!"
+      },
+      "options": [
+        "at",
+        "for",
+        "of",
+        "on"
+      ],
+      "answer": "at",
+      "explanation": {
+        "ru": "Look at — «смотреть на что-то»; после look в этом значении ставится at.",
+        "en": "Look at means to direct your eyes at something; look takes at."
+      }
+    },
+    {
+      "id": "prep3-0108",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "The coach arrived ___ the hotel gate at six.",
+      "translation": {
+        "ru": "Автобус прибыл к воротам отеля в шесть."
+      },
+      "options": [
+        "at",
+        "in",
+        "to",
+        "on"
+      ],
+      "answer": "at",
+      "explanation": {
+        "ru": "Arrive at — точное место или здание; ворота отеля — точка прибытия, поэтому at.",
+        "en": "Arrive at is used for an exact place or building; the hotel gate is the arrival point, so at is correct."
+      }
+    },
+    {
+      "id": "prep3-0109",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "My parents arrived ___ Madrid last Tuesday.",
+      "translation": {
+        "ru": "Мои родители приехали в Мадрид в прошлый вторник."
+      },
+      "options": [
+        "in",
+        "at",
+        "to",
+        "for"
+      ],
+      "answer": "in",
+      "explanation": {
+        "ru": "Arrive in — для городов и стран: Madrid — город, поэтому in.",
+        "en": "Arrive in is used for cities and countries: Madrid is a city, so in is correct."
+      }
+    },
+    {
+      "id": "prep3-0110",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "The airline apologised ___ cancelling the flight.",
+      "translation": {
+        "ru": "Авиакомпания извинилась за отмену рейса."
+      },
+      "options": [
+        "for",
+        "to",
+        "of",
+        "at"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Apologise for — «извиняться за что-то»; после apologise ставится for.",
+        "en": "Apologise for means to say sorry for something; apologise is followed by for."
+      }
+    },
+    {
+      "id": "prep3-0111",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "We thanked the guide ___ showing us the secret garden.",
+      "translation": {
+        "ru": "Мы поблагодарили гида за то, что он показал нам секретный сад."
+      },
+      "options": [
+        "for",
+        "to",
+        "of",
+        "about"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Thank for — «благодарить за что-то»; после thank ставится for.",
+        "en": "Thank for means to express thanks for something; thank is followed by for."
+      }
+    },
+    {
+      "id": "prep3-0112",
+      "type": "choice",
+      "ruleId": "prep-verbs",
+      "level": "A2",
+      "sentence": "The ferry reached ___ the harbour at sunrise.",
+      "translation": {
+        "ru": "Паром добрался до гавани на рассвете."
+      },
+      "options": [
+        "at",
+        "to",
+        "—",
+        "for"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Reach предлога не требует: reach the harbour. Дополнение идёт сразу после глагола.",
+        "en": "Reach takes no preposition: reach the harbour. The object follows the verb directly."
+      }
+    }
+  ]
+}

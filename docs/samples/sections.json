@@ -1,0 +1,26 @@
+{
+  "sections": [
+    {
+      "id": "articles",
+      "order": 10,
+      "emoji": "📘",
+      "title": { "ru": "Артикли", "en": "Articles" },
+      "short": { "ru": "a / an / the / нулевой", "en": "a / an / the / zero" },
+      "description": {
+        "ru": "Неопределённый, определённый и нулевой артикль: от базовых правил до устойчивых выражений и тонких исключений.",
+        "en": "Indefinite, definite and zero article: from the basics to fixed expressions and subtle exceptions."
+      }
+    },
+    {
+      "id": "prepositions",
+      "order": 20,
+      "emoji": "🧭",
+      "title": { "ru": "Предлоги", "en": "Prepositions" },
+      "short": { "ru": "at / on / in / to / …", "en": "at / on / in / to / …" },
+      "description": {
+        "ru": "Предлоги времени, места и движения, зависимые предлоги после прилагательных и глаголов, устойчивые сочетания.",
+        "en": "Prepositions of time, place and movement, dependent prepositions after adjectives and verbs, fixed phrases."
+      }
+    }
+  ]
+}

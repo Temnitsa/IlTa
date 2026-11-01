@@ -1,0 +1,24 @@
+# Build outputs
+/build/
+**/build/
+.gradle/
+.tooling/
+.android/
+.home/
+local.properties
+keystore.properties
+keystore/*.jks
+*.apk
+*.aab
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# OS
+.AppleDouble
+
+# Deploy key
+.deploy/
+.kotlin/

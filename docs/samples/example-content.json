@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "package": "example",
+    "version": 2
+  },
+  "rules": [
+    {
+      "id": "a-an-basics",
+      "sectionId": "articles",
+      "order": 10,
+      "level": "A1",
+      "title": {
+        "ru": "A / An: форма и звук",
+        "en": "A / An: form and sound"
+      },
+      "summary": {
+        "ru": "Выбор между a и an зависит от первого звука следующего слова.",
+        "en": "The choice between a and an depends on the first sound of the next word."
+      },
+      "sections": [
+        {
+          "heading": {
+            "ru": "Перед согласным звуком — a",
+            "en": "Before a consonant sound — a"
+          },
+          "body": {
+            "ru": "Артикль a/an выбирается по первому звуку следующего слова. Если слово начинается с согласного звука, ставим a; если с гласного — an. Написание при этом может быть разным.",
+            "en": "The article a/an depends on the first sound of the next word. Use a before a consonant sound and an before a vowel sound. The spelling can differ."
+          },
+          "examples": [
+            "a cat",
+            "a house",
+            "a university"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Перед гласным звуком — an",
+            "en": "Before a vowel sound — an"
+          },
+          "body": {
+            "ru": "Артикль a/an выбирается по первому звуку следующего слова. Если слово начинается с согласного звука, ставим a; если с гласного — an. Написание при этом может быть разным.",
+            "en": "The article a/an depends on the first sound of the next word. Use a before a consonant sound and an before a vowel sound. The spelling can differ."
+          },
+          "examples": [
+            "an apple",
+            "an hour",
+            "an MBA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prep-time",
+      "sectionId": "prepositions",
+      "order": 410,
+      "level": "A1",
+      "title": {
+        "ru": "Предлоги времени: at, on, in",
+        "en": "Prepositions of time: at, on, in"
+      },
+      "summary": {
+        "ru": "At — точное время, on — дни и даты, in — месяцы, годы и длительные периоды.",
+        "en": "At is for exact time, on for days and dates, in for months, years and longer periods."
+      },
+      "sections": [
+        {
+          "heading": {
+            "ru": "At — точное время",
+            "en": "At — exact time"
+          },
+          "body": {
+            "ru": "At ставится перед точным временем и в устойчивых сочетаниях; on — с днями недели и датами; in — с месяцами, годами и длительными периодами. Ориентируйтесь на масштаб времени.",
+            "en": "At is used with exact times and fixed phrases; on with days and dates; in with months, years and longer periods. Choose by the size of the time period."
+          },
+          "examples": [
+            "at 7 o'clock",
+            "at night",
+            "at the weekend"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "On — дни и даты",
+            "en": "On — days and dates"
+          },
+          "body": {
+            "ru": "At ставится перед точным временем и в устойчивых сочетаниях; on — с днями недели и датами; in — с месяцами, годами и длительными периодами. Ориентируйтесь на масштаб времени.",
+            "en": "At is used with exact times and fixed phrases; on with days and dates; in with months, years and longer periods. Choose by the size of the time period."
+          },
+          "examples": [
+            "on Monday",
+            "on 5 May",
+            "on my birthday"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "sample-0001",
+      "type": "choice",
+      "ruleId": "a-an-basics",
+      "level": "A1",
+      "sentence": "I saw ___ dog in the park.",
+      "translation": {
+        "ru": "Я увидел собаку в парке."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Dog начинается с согласного звука, а предмет упоминается впервые — нужен a.",
+        "en": "Dog begins with a consonant sound and is mentioned for the first time, so we use a."
+      }
+    },
+    {
+      "id": "sample-0002",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "The film starts ___ 8 o'clock.",
+      "translation": {
+        "ru": "Фильм начинается в 8 часов."
+      },
+      "options": [
+        "at",
+        "on",
+        "in",
+        "by"
+      ],
+      "answer": "at",
+      "explanation": {
+        "ru": "Точное время требует предлог at: at 8 o'clock.",
+        "en": "An exact time takes the preposition at: at 8 o'clock."
+      }
+    },
+    {
+      "id": "sample-0003",
+      "type": "match",
+      "ruleId": "prep-time",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте предлог и пример.",
+        "en": "Match each preposition with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "at — точное время",
+            "en": "at — exact time"
+          },
+          "right": "The class begins at nine o'clock."
+        },
+        {
+          "left": {
+            "ru": "on — день недели",
+            "en": "on — day of the week"
+          },
+          "right": "We are meeting on Friday."
+        },
+        {
+          "left": {
+            "ru": "in — месяц",
+            "en": "in — month"
+          },
+          "right": "Her birthday is in August."
+        },
+        {
+          "left": {
+            "ru": "in — длительный период",
+            "en": "in — longer period"
+          },
+          "right": "He learned to swim in two weeks."
+        }
+      ],
+      "explanation": {
+        "ru": "At — точное время, on — дни, in — месяцы и периоды.",
+        "en": "At is for exact time, on for days, in for months and periods."
+      }
+    }
+  ]
+}
