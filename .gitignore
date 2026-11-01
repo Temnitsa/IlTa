@@ -24,3 +24,4 @@ keystore/*.jks
 .kotlin/
 release-secrets.txt
 .content-v4-backup/
+__pycache__/
