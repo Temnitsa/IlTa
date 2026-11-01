@@ -17,8 +17,8 @@
         "en": "Future Continuous"
       },
       "summary": {
-        "ru": "will be + V-ing — процесс в определённый момент будущего. Формулы, случаи, маркеры и ошибки — коротко и по делу.",
-        "en": "will be + V-ing — an action in progress at a future moment. Formulas, uses, markers and mistakes — short and clear."
+        "ru": "(+) will be + V-ing · (–) will not be + V-ing · (?) Will + … + be + V-ing?",
+        "en": "(+) will be + V-ing · (–) will not be + V-ing · (?) Will + … + be + V-ing?"
       },
       "sections": [
         {
@@ -27,8 +27,8 @@
             "en": "Form"
           },
           "body": {
-            "ru": "(+) will be + V-ing\n(–) will not be + V-ing\n(?) Will … be + V-ing?\nОдна форма для всех лиц.",
-            "en": "(+) will be + V-ing\n(–) will not be + V-ing\n(?) Will … be + V-ing?\nThe same form for all persons."
+            "ru": "(+) **will be + V-ing**\n(–) **will not be** + V-ing\n(?) **Will** + … + **be** + V-ing?",
+            "en": "(+) **will be + V-ing**\n(–) **will not be** + V-ing\n(?) **Will** + … + **be** + V-ing?"
           },
           "examples": [
             "I will be working at nine tomorrow.",
@@ -64,21 +64,6 @@
             "This time next week she will be sailing.",
             "All day tomorrow we will be driving.",
             "While you are asleep, I will be working."
-          ]
-        },
-        {
-          "heading": {
-            "ru": "Ошибки",
-            "en": "Common mistakes"
-          },
-          "body": {
-            "ru": "• ❌ I will working — ✅ I will be working\n• ❌ I will be work — ✅ I will be working\n• процесс ≠ результат: will be doing / will do",
-            "en": "• ❌ I will working — ✅ I will be working\n• ❌ I will be work — ✅ I will be working\n• process ≠ result: will be doing / will do"
-          },
-          "examples": [
-            "I will be seeing her tomorrow.",
-            "I will call you when I get home.",
-            "He will be wearing a red jacket."
           ]
         }
       ]
@@ -611,7 +596,7 @@
       "ruleId": "tense-future-continuous",
       "level": "B1",
       "words": [
-        "I",
+        "i",
         "will",
         "be",
         "working",
@@ -620,7 +605,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "will",
           "be",
           "working",
@@ -632,8 +617,8 @@
         "ru": "Завтра я буду работать допоздна."
       },
       "explanation": {
-        "ru": "Future Continuous: will be + working; маркер tomorrow указывает на будущее.",
-        "en": "Future Continuous: will be + working; the marker tomorrow points to the future."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -648,7 +633,7 @@
       "ruleId": "tense-future-continuous",
       "level": "B1",
       "words": [
-        "She",
+        "she",
         "will",
         "not",
         "be",
@@ -659,7 +644,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "will",
           "not",
           "be",
@@ -673,8 +658,8 @@
         "ru": "Она не придёт на вечеринку."
       },
       "explanation": {
-        "ru": "Отрицание Future Continuous: will not be + coming.",
-        "en": "The negative Future Continuous: will not be + coming."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -689,7 +674,7 @@
       "ruleId": "tense-future-continuous",
       "level": "B1",
       "words": [
-        "At",
+        "at",
         "eight",
         "tomorrow",
         "we",
@@ -700,7 +685,7 @@
       ],
       "answers": [
         [
-          "At",
+          "at",
           "eight",
           "tomorrow",
           "we",
@@ -714,8 +699,8 @@
         "ru": "Завтра в восемь мы будем завтракать."
       },
       "explanation": {
-        "ru": "At eight tomorrow — момент будущего, в который действие будет в процессе: will be having.",
-        "en": "At eight tomorrow is the future moment when the action will be in progress: will be having."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -730,7 +715,7 @@
       "ruleId": "tense-future-continuous",
       "level": "B1",
       "words": [
-        "Will",
+        "will",
         "you",
         "be",
         "using",
@@ -741,7 +726,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "you",
           "be",
           "using",
@@ -755,8 +740,8 @@
         "ru": "Ты будешь пользоваться машиной сегодня днём?"
       },
       "explanation": {
-        "ru": "Вопрос Future Continuous: will + подлежащее + be + -ing.",
-        "en": "A Future Continuous question: will + subject + be + -ing."
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -771,7 +756,7 @@
       "ruleId": "tense-future-continuous",
       "level": "B1",
       "words": [
-        "They",
+        "they",
         "will",
         "probably",
         "be",
@@ -782,7 +767,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "will",
           "probably",
           "be",
@@ -792,7 +777,7 @@
           "station"
         ],
         [
-          "They",
+          "they",
           "probably",
           "will",
           "be",
@@ -806,8 +791,8 @@
         "ru": "Они, вероятно, будут ждать на вокзале."
       },
       "explanation": {
-        "ru": "Future Continuous с наречием вероятности: probably может стоять после will или перед ним.",
-        "en": "Future Continuous with an adverb of probability: probably can come after will or before it."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -823,23 +808,23 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "will",
         "be",
         "flying",
         "to",
-        "Paris",
+        "paris",
         "tomorrow",
         "morning"
       ],
       "answers": [
         [
-          "I",
+          "i",
           "will",
           "be",
           "flying",
           "to",
-          "Paris",
+          "paris",
           "tomorrow",
           "morning"
         ]
@@ -848,8 +833,8 @@
         "ru": "Завтра утром я буду лететь в Париж."
       },
       "explanation": {
-        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
-        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -865,7 +850,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "will",
         "be",
         "having",
@@ -876,7 +861,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "will",
           "be",
           "having",
@@ -890,8 +875,8 @@
         "ru": "Сегодня в семь мы будем ужинать."
       },
       "explanation": {
-        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
-        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -907,7 +892,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "will",
         "be",
         "working",
@@ -919,7 +904,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "will",
           "be",
           "working",
@@ -934,8 +919,8 @@
         "ru": "Всё утро она будет работать в саду."
       },
       "explanation": {
-        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
-        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -951,7 +936,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "children",
         "will",
         "be",
@@ -962,7 +947,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "children",
           "will",
           "be",
@@ -976,8 +961,8 @@
         "ru": "После школы дети будут играть в футбол."
       },
       "explanation": {
-        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
-        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -993,7 +978,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "At",
+        "at",
         "midnight",
         "we",
         "will",
@@ -1005,7 +990,7 @@
       ],
       "answers": [
         [
-          "At",
+          "at",
           "midnight",
           "we",
           "will",
@@ -1020,8 +1005,8 @@
         "ru": "В полночь мы будем ехать через горы."
       },
       "explanation": {
-        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
-        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1037,10 +1022,10 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "This",
+        "this",
         "time",
         "tomorrow",
-        "I",
+        "i",
         "will",
         "be",
         "sitting",
@@ -1050,10 +1035,10 @@
       ],
       "answers": [
         [
-          "This",
+          "this",
           "time",
           "tomorrow",
-          "I",
+          "i",
           "will",
           "be",
           "sitting",
@@ -1066,8 +1051,8 @@
         "ru": "Завтра в это время я буду сидеть в самолёте."
       },
       "explanation": {
-        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
-        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1083,7 +1068,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "chef",
         "will",
         "be",
@@ -1096,7 +1081,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "chef",
           "will",
           "be",
@@ -1112,8 +1097,8 @@
         "ru": "Когда придут гости, повар будет готовить ужин."
       },
       "explanation": {
-        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
-        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1129,7 +1114,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "My",
+        "my",
         "parents",
         "will",
         "be",
@@ -1142,7 +1127,7 @@
       ],
       "answers": [
         [
-          "My",
+          "my",
           "parents",
           "will",
           "be",
@@ -1158,8 +1143,8 @@
         "ru": "Мои родители будут ждать нас в аэропорту."
       },
       "explanation": {
-        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
-        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1175,7 +1160,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "will",
         "be",
         "studying",
@@ -1187,7 +1172,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "will",
           "be",
           "studying",
@@ -1202,8 +1187,8 @@
         "ru": "Весь вечер я буду заниматься в библиотеке."
       },
       "explanation": {
-        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
-        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1219,7 +1204,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "band",
         "will",
         "be",
@@ -1228,11 +1213,11 @@
         "the",
         "park",
         "next",
-        "Sunday"
+        "sunday"
       ],
       "answers": [
         [
-          "The",
+          "the",
           "band",
           "will",
           "be",
@@ -1241,15 +1226,15 @@
           "the",
           "park",
           "next",
-          "Sunday"
+          "sunday"
         ]
       ],
       "translation": {
         "ru": "В следующее воскресенье группа будет играть в парке."
       },
       "explanation": {
-        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
-        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1265,7 +1250,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "At",
+        "at",
         "nine",
         "tomorrow",
         "the",
@@ -1279,7 +1264,7 @@
       ],
       "answers": [
         [
-          "At",
+          "at",
           "nine",
           "tomorrow",
           "the",
@@ -1296,8 +1281,8 @@
         "ru": "Завтра в девять команда будет тренироваться в спортзале."
       },
       "explanation": {
-        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
-        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1313,7 +1298,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "will",
         "be",
         "taking",
@@ -1326,7 +1311,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "will",
           "be",
           "taking",
@@ -1342,8 +1327,8 @@
         "ru": "Завтра в десять она будет сдавать экзамен по вождению."
       },
       "explanation": {
-        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
-        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1359,7 +1344,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "will",
         "probably",
         "be",
@@ -1371,7 +1356,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "will",
           "probably",
           "be",
@@ -1382,7 +1367,7 @@
           "eight"
         ],
         [
-          "We",
+          "we",
           "probably",
           "will",
           "be",
@@ -1397,8 +1382,8 @@
         "ru": "В восемь мы, вероятно, будем смотреть матч."
       },
       "explanation": {
-        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
-        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1414,7 +1399,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "mechanic",
         "will",
         "be",
@@ -1426,7 +1411,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "mechanic",
           "will",
           "be",
@@ -1441,8 +1426,8 @@
         "ru": "Весь день механик будет чинить мою машину."
       },
       "explanation": {
-        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
-        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1458,7 +1443,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "My",
+        "my",
         "sister",
         "will",
         "be",
@@ -1472,7 +1457,7 @@
       ],
       "answers": [
         [
-          "My",
+          "my",
           "sister",
           "will",
           "be",
@@ -1489,8 +1474,8 @@
         "ru": "Сегодня днём сестра будет делать покупки в центре города."
       },
       "explanation": {
-        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
-        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1506,7 +1491,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "teacher",
         "will",
         "be",
@@ -1519,7 +1504,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "teacher",
           "will",
           "be",
@@ -1535,8 +1520,8 @@
         "ru": "В девять учитель будет объяснять новую тему."
       },
       "explanation": {
-        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
-        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1552,7 +1537,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "They",
+        "they",
         "will",
         "be",
         "building",
@@ -1564,7 +1549,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "will",
           "be",
           "building",
@@ -1579,8 +1564,8 @@
         "ru": "В следующем году они будут строить новый мост."
       },
       "explanation": {
-        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
-        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+        "ru": "Русское предложение: процесс в будущем моменте, поэтому используем Future Continuous: will be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment, so we use Future Continuous: will be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1596,7 +1581,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "will",
         "not",
         "be",
@@ -1606,7 +1591,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "will",
           "not",
           "be",
@@ -1619,8 +1604,8 @@
         "ru": "В эти выходные я не буду работать."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1636,7 +1621,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "will",
         "not",
         "be",
@@ -1647,7 +1632,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "will",
           "not",
           "be",
@@ -1661,8 +1646,8 @@
         "ru": "Она не будет обедать с нами."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1678,7 +1663,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "will",
         "not",
         "be",
@@ -1689,7 +1674,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "will",
           "not",
           "be",
@@ -1703,8 +1688,8 @@
         "ru": "Они не придут на совещание."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1720,7 +1705,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "will",
         "not",
         "be",
@@ -1731,7 +1716,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "will",
           "not",
           "be",
@@ -1745,8 +1730,8 @@
         "ru": "Завтра мы не будем пользоваться машиной."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1762,7 +1747,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "children",
         "will",
         "not",
@@ -1775,7 +1760,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "children",
           "will",
           "not",
@@ -1791,8 +1776,8 @@
         "ru": "В дождь дети не будут играть на улице."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1808,7 +1793,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "will",
         "not",
         "be",
@@ -1820,7 +1805,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "will",
           "not",
           "be",
@@ -1835,8 +1820,8 @@
         "ru": "На следующей неделе он не будет присутствовать на конференции."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1852,7 +1837,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "will",
         "not",
         "be",
@@ -1864,7 +1849,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "will",
           "not",
           "be",
@@ -1879,8 +1864,8 @@
         "ru": "После восьми я не буду тебя ждать."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1896,25 +1881,25 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "will",
         "not",
         "be",
         "living",
         "in",
-        "London",
+        "london",
         "next",
         "year"
       ],
       "answers": [
         [
-          "She",
+          "she",
           "will",
           "not",
           "be",
           "living",
           "in",
-          "London",
+          "london",
           "next",
           "year"
         ]
@@ -1923,8 +1908,8 @@
         "ru": "В следующем году она не будет жить в Лондоне."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1940,7 +1925,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "will",
         "not",
         "be",
@@ -1950,7 +1935,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "will",
           "not",
           "be",
@@ -1963,8 +1948,8 @@
         "ru": "Мы не будем уезжать раньше шести."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -1980,7 +1965,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "train",
         "will",
         "not",
@@ -1992,7 +1977,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "train",
           "will",
           "not",
@@ -2007,8 +1992,8 @@
         "ru": "Поезд не будет останавливаться на этой станции."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -2024,7 +2009,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "My",
+        "my",
         "brother",
         "will",
         "not",
@@ -2035,7 +2020,7 @@
       ],
       "answers": [
         [
-          "My",
+          "my",
           "brother",
           "will",
           "not",
@@ -2049,8 +2034,8 @@
         "ru": "Сегодня вечером брат не будет заниматься."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -2066,7 +2051,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "guests",
         "will",
         "not",
@@ -2077,7 +2062,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "guests",
           "will",
           "not",
@@ -2091,8 +2076,8 @@
         "ru": "Гости не приедут раньше десяти."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -2108,7 +2093,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "will",
         "not",
         "be",
@@ -2118,7 +2103,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "will",
           "not",
           "be",
@@ -2131,8 +2116,8 @@
         "ru": "Сегодня вечером я не буду смотреть телевизор."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -2148,7 +2133,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "will",
         "not",
         "be",
@@ -2161,7 +2146,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "will",
           "not",
           "be",
@@ -2177,8 +2162,8 @@
         "ru": "На вечеринку она не будет надевать платье."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -2194,33 +2179,33 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "will",
         "not",
         "be",
         "selling",
         "tickets",
         "after",
-        "Friday"
+        "friday"
       ],
       "answers": [
         [
-          "They",
+          "they",
           "will",
           "not",
           "be",
           "selling",
           "tickets",
           "after",
-          "Friday"
+          "friday"
         ]
       ],
       "translation": {
         "ru": "После пятницы они не будут продавать билеты."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -2236,7 +2221,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "dog",
         "will",
         "not",
@@ -2249,7 +2234,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "dog",
           "will",
           "not",
@@ -2265,8 +2250,8 @@
         "ru": "Сегодня ночью собака не будет спать в нашей комнате."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -2282,7 +2267,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "will",
         "probably",
         "not",
@@ -2294,7 +2279,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "will",
           "probably",
           "not",
@@ -2305,7 +2290,7 @@
           "train"
         ],
         [
-          "We",
+          "we",
           "probably",
           "will",
           "not",
@@ -2320,8 +2305,8 @@
         "ru": "Мы, вероятно, не поедем ранним поездом."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -2337,7 +2322,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "will",
         "not",
         "be",
@@ -2348,7 +2333,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "will",
           "not",
           "be",
@@ -2362,8 +2347,8 @@
         "ru": "Завтра он не будет давать интервью."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -2379,7 +2364,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "children",
         "will",
         "not",
@@ -2388,11 +2373,11 @@
         "to",
         "school",
         "on",
-        "Monday"
+        "monday"
       ],
       "answers": [
         [
-          "The",
+          "the",
           "children",
           "will",
           "not",
@@ -2401,15 +2386,15 @@
           "to",
           "school",
           "on",
-          "Monday"
+          "monday"
         ]
       ],
       "translation": {
         "ru": "В понедельник дети не пойдут в школу."
       },
       "explanation": {
-        "ru": "Future Continuous, отрицание: will not be + V-ing.",
-        "en": "Future Continuous, negative: will not be + V-ing."
+        "ru": "Русское предложение: процесс в будущем моменте в отрицании, поэтому используем Future Continuous: will not be + V-ing.",
+        "en": "The Russian sentence: a process at a future moment in the negative, so we use Future Continuous: will not be + V-ing."
       },
       "tags": [
         "tense-future-continuous",
@@ -2425,7 +2410,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "you",
         "be",
         "working",
@@ -2434,7 +2419,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "you",
           "be",
           "working",
@@ -2446,8 +2431,8 @@
         "ru": "Ты сегодня будешь работать допоздна?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing?",
-        "en": "Future Continuous, question: will … be + V-ing?"
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -2463,7 +2448,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "she",
         "be",
         "coming",
@@ -2473,7 +2458,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "she",
           "be",
           "coming",
@@ -2486,8 +2471,8 @@
         "ru": "Она придёт на концерт?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing?",
-        "en": "Future Continuous, question: will … be + V-ing?"
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -2503,7 +2488,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "they",
         "be",
         "staying",
@@ -2513,7 +2498,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "they",
           "be",
           "staying",
@@ -2526,8 +2511,8 @@
         "ru": "Они будут жить в отеле?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing?",
-        "en": "Future Continuous, question: will … be + V-ing?"
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -2543,7 +2528,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "he",
         "be",
         "playing",
@@ -2552,7 +2537,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "he",
           "be",
           "playing",
@@ -2564,8 +2549,8 @@
         "ru": "Он будет играть в теннис завтра?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing?",
-        "en": "Future Continuous, question: will … be + V-ing?"
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -2581,7 +2566,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "you",
         "be",
         "using",
@@ -2592,7 +2577,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "you",
           "be",
           "using",
@@ -2606,8 +2591,8 @@
         "ru": "Ты будешь пользоваться принтером сегодня утром?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing?",
-        "en": "Future Continuous, question: will … be + V-ing?"
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -2623,7 +2608,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "What",
+        "what",
         "will",
         "you",
         "be",
@@ -2633,7 +2618,7 @@
       ],
       "answers": [
         [
-          "What",
+          "what",
           "will",
           "you",
           "be",
@@ -2646,8 +2631,8 @@
         "ru": "Что ты будешь делать в восемь?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing? С вопросительным словом в начале.",
-        "en": "Future Continuous, question: will … be + V-ing? With a question word at the start."
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -2663,31 +2648,31 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Where",
+        "where",
         "will",
         "they",
         "be",
         "staying",
         "in",
-        "Rome"
+        "rome"
       ],
       "answers": [
         [
-          "Where",
+          "where",
           "will",
           "they",
           "be",
           "staying",
           "in",
-          "Rome"
+          "rome"
         ]
       ],
       "translation": {
         "ru": "Где они будут жить в Риме?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing? С вопросительным словом в начале.",
-        "en": "Future Continuous, question: will … be + V-ing? With a question word at the start."
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -2703,7 +2688,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "When",
+        "when",
         "will",
         "she",
         "be",
@@ -2714,7 +2699,7 @@
       ],
       "answers": [
         [
-          "When",
+          "when",
           "will",
           "she",
           "be",
@@ -2728,8 +2713,8 @@
         "ru": "Когда она прилетит в аэропорт?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing? С вопросительным словом в начале.",
-        "en": "Future Continuous, question: will … be + V-ing? With a question word at the start."
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -2745,7 +2730,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "What",
+        "what",
         "will",
         "the",
         "children",
@@ -2756,7 +2741,7 @@
       ],
       "answers": [
         [
-          "What",
+          "what",
           "will",
           "the",
           "children",
@@ -2770,8 +2755,8 @@
         "ru": "Что дети будут делать сегодня днём?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing? С вопросительным словом в начале.",
-        "en": "Future Continuous, question: will … be + V-ing? With a question word at the start."
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -2787,7 +2772,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "your",
         "parents",
         "be",
@@ -2798,7 +2783,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "your",
           "parents",
           "be",
@@ -2812,8 +2797,8 @@
         "ru": "Твои родители будут с нами ужинать?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing?",
-        "en": "Future Continuous, question: will … be + V-ing?"
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -2829,33 +2814,33 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "How",
+        "how",
         "long",
         "will",
         "you",
         "be",
         "staying",
         "in",
-        "Paris"
+        "paris"
       ],
       "answers": [
         [
-          "How",
+          "how",
           "long",
           "will",
           "you",
           "be",
           "staying",
           "in",
-          "Paris"
+          "paris"
         ]
       ],
       "translation": {
         "ru": "Сколько времени ты пробудешь в Париже?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing? С вопросительным словом в начале.",
-        "en": "Future Continuous, question: will … be + V-ing? With a question word at the start."
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -2871,7 +2856,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "the",
         "band",
         "be",
@@ -2881,7 +2866,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "the",
           "band",
           "be",
@@ -2894,8 +2879,8 @@
         "ru": "Группа будет играть весь вечер?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing?",
-        "en": "Future Continuous, question: will … be + V-ing?"
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -2911,33 +2896,33 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "you",
         "be",
         "flying",
         "to",
-        "Berlin",
+        "berlin",
         "on",
-        "Monday"
+        "monday"
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "you",
           "be",
           "flying",
           "to",
-          "Berlin",
+          "berlin",
           "on",
-          "Monday"
+          "monday"
         ]
       ],
       "translation": {
         "ru": "Ты полетишь в Берлин в понедельник?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing?",
-        "en": "Future Continuous, question: will … be + V-ing?"
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -2953,7 +2938,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Who",
+        "who",
         "will",
         "be",
         "speaking",
@@ -2963,7 +2948,7 @@
       ],
       "answers": [
         [
-          "Who",
+          "who",
           "will",
           "be",
           "speaking",
@@ -2976,8 +2961,8 @@
         "ru": "Кто будет выступать на совещании?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing? С вопросительным словом в начале.",
-        "en": "Future Continuous, question: will … be + V-ing? With a question word at the start."
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -2993,7 +2978,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "they",
         "be",
         "serving",
@@ -3004,7 +2989,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "they",
           "be",
           "serving",
@@ -3018,8 +3003,8 @@
         "ru": "В поезде будут подавать обед?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing?",
-        "en": "Future Continuous, question: will … be + V-ing?"
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -3035,7 +3020,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "the",
         "manager",
         "be",
@@ -3045,7 +3030,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "the",
           "manager",
           "be",
@@ -3058,8 +3043,8 @@
         "ru": "Менеджер будет присутствовать на собеседовании?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing?",
-        "en": "Future Continuous, question: will … be + V-ing?"
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -3075,7 +3060,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Why",
+        "why",
         "will",
         "you",
         "be",
@@ -3085,7 +3070,7 @@
       ],
       "answers": [
         [
-          "Why",
+          "why",
           "will",
           "you",
           "be",
@@ -3098,8 +3083,8 @@
         "ru": "Почему ты поедешь так поздно?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing? С вопросительным словом в начале.",
-        "en": "Future Continuous, question: will … be + V-ing? With a question word at the start."
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -3115,7 +3100,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "you",
         "be",
         "needing",
@@ -3124,7 +3109,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "you",
           "be",
           "needing",
@@ -3136,8 +3121,8 @@
         "ru": "Тебе понадобится что-нибудь ещё?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing?",
-        "en": "Future Continuous, question: will … be + V-ing?"
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",
@@ -3153,7 +3138,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "What",
+        "what",
         "time",
         "will",
         "the",
@@ -3163,7 +3148,7 @@
       ],
       "answers": [
         [
-          "What",
+          "what",
           "time",
           "will",
           "the",
@@ -3176,8 +3161,8 @@
         "ru": "Во сколько откроется магазин?"
       },
       "explanation": {
-        "ru": "Future Continuous, вопрос: will … be + V-ing? С вопросительным словом в начале.",
-        "en": "Future Continuous, question: will … be + V-ing? With a question word at the start."
+        "ru": "Русское предложение: вопрос о процессе в будущем, поэтому используем Future Continuous: Will … be + V-ing?",
+        "en": "The Russian sentence: a question about a process in the future, so we use Future Continuous: Will … be + V-ing?"
       },
       "tags": [
         "tense-future-continuous",

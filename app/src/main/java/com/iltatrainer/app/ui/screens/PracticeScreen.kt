@@ -270,15 +270,6 @@ private fun QuestionBody(
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             LevelChip(level = question.level)
-            Spacer(Modifier.width(8.dp))
-            Text(
-                text = rule?.title?.text(language).orEmpty(),
-                style = MaterialTheme.typography.labelLarge,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                maxLines = 1,
-                overflow = TextOverflow.Ellipsis,
-                modifier = Modifier.weight(1f),
-            )
         }
         Spacer(Modifier.height(10.dp))
         Text(

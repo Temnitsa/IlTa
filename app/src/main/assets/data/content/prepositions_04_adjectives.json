@@ -28,12 +28,12 @@
           },
           "body": {
             "ru": "У каждого прилагательного может быть свой постоянный предлог, и его нельзя угадать по переводу. Такие сочетания учат как одно целое: прилагательное + предлог + дополнение. После предлога глагол стоит в форме -ing.",
-            "en": "Each adjective may have its own fixed preposition, and it cannot be guessed from the translation. These combinations are learnt as one unit: adjective + preposition + object. After a preposition the verb takes the -ing form."
+            "en": "Each adjective may have its own fixed preposition, and it cannot be guessed **from** the translation. These combinations are learnt **as** one unit: adjective + preposition + object. After a preposition the verb takes the -ing form."
           },
           "examples": [
-            "afraid of dogs",
-            "good at maths",
-            "interested in art"
+            "afraid **of** dogs",
+            "good **at** maths",
+            "interested **in** art"
           ]
         },
         {
@@ -43,13 +43,13 @@
           },
           "body": {
             "ru": "Многие прилагательные о чувствах и отношении требуют конкретного предлога: он выражает причину, объект или источник чувства. Запоминайте пару целиком, а не переводите предлог с русского. После предлога глагол стоит в форме -ing.",
-            "en": "Many adjectives about feelings and attitudes take a particular preposition that expresses the cause, object or source of the feeling. Learn the pair as a whole instead of translating the preposition from your own language. After a preposition the verb takes the -ing form."
+            "en": "Many adjectives **about** feelings and attitudes take a particular preposition that expresses the cause, object or source **of** the feeling. Learn the pair **as** a whole **instead of** translating the preposition **from** your own language. After a preposition the verb takes the -ing form."
           },
           "examples": [
-            "proud of",
-            "worried about",
-            "excited about",
-            "jealous of"
+            "proud **of**",
+            "worried **about**",
+            "excited **about**",
+            "jealous **of**"
           ]
         },
         {
@@ -62,10 +62,10 @@
             "en": "Other combinations describe an ability, a quality or a fact, and here too the preposition is fixed. A wrong preposition changes the meaning or makes the phrase unnatural. After a preposition the verb takes the -ing form."
           },
           "examples": [
-            "good at",
-            "capable of",
-            "famous for",
-            "responsible for"
+            "good **at**",
+            "capable **of**",
+            "famous **for**",
+            "responsible **for**"
           ]
         },
         {
@@ -75,13 +75,13 @@
           },
           "body": {
             "ru": "Учите прилагательное вместе с предлогом и сразу с примером, а при сомнении проверяйте по словарю. Полезно группировать пары по предлогу: многие прилагательные собираются вокруг одного и того же. После предлога глагол стоит в форме -ing.",
-            "en": "Learn each adjective together with its preposition and an example, and check a dictionary when you are not sure. It helps to group pairs by preposition, as many adjectives share the same one. After a preposition the verb takes the -ing form."
+            "en": "Learn each adjective together **with** its preposition and an example, and check a dictionary when you are not sure. It helps **to** group pairs **by** preposition, **as** many adjectives share the same one. After a preposition the verb takes the -ing form."
           },
           "examples": [
-            "afraid of heights",
-            "full of energy",
-            "short of time",
-            "tired of waiting"
+            "afraid **of** heights",
+            "full **of** energy",
+            "short **of** time",
+            "tired **of** waiting"
           ]
         }
       ]

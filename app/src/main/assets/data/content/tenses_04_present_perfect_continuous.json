@@ -17,8 +17,8 @@
         "en": "Present Perfect Continuous"
       },
       "summary": {
-        "ru": "Present Perfect Continuous: **have/has been + V-ing** — действие шло до сих пор или только что закончилось.",
-        "en": "Present Perfect Continuous: **have/has been + V-ing** — an action lasted until now or has just stopped."
+        "ru": "(+) have / has been + V-ing · (–) have / has not been + V-ing · (?) Have / Has + … + been + V-ing?",
+        "en": "(+) have / has been + V-ing · (–) have / has not been + V-ing · (?) Have / Has + … + been + V-ing?"
       },
       "sections": [
         {
@@ -27,8 +27,8 @@
             "en": "Form"
           },
           "body": {
-            "ru": "**Формула времени**\n(+) I / you / we / they + **have been** + V-ing\n(+) he / she / it + **has been** + V-ing\n(–) **have not / has not been** + V-ing\n(?) **Have / Has** + … + **been** + V-ing?",
-            "en": "(+) I / you / we / they + **have been** + V-ing\n(+) he / she / it + **has been** + V-ing\n(–) **have not / has not been** + V-ing\n(?) **Have / Has** + … + **been** + V-ing?"
+            "ru": "(+) **have / has been + V-ing**\n(–) **have / has not been** + V-ing\n(?) **Have / Has** + … + **been** + V-ing?",
+            "en": "(+) **have / has been + V-ing**\n(–) **have / has not been** + V-ing\n(?) **Have / Has** + … + **been** + V-ing?"
           },
           "examples": [
             "I have been reading all evening.",
@@ -65,21 +65,6 @@
             "for two hours",
             "since 2020",
             "How long have you been learning English?"
-          ]
-        },
-        {
-          "heading": {
-            "ru": "Ошибки",
-            "en": "Mistakes"
-          },
-          "body": {
-            "ru": "• *has been knowing* → **has known** — глагол состояния\n• *have been went* → **have been going** — нужно been + V-ing\n• *I am waiting for two hours* → **I have been waiting for two hours** — длительность до сих пор",
-            "en": "• *has been knowing* → **has known**\n• *have been went* → **have been going**\n• *I am waiting for two hours* → **I have been waiting for two hours**"
-          },
-          "examples": [
-            "I have known her for ten years.",
-            "He has been studying since eight o'clock.",
-            "We have been planning this trip for months."
           ]
         }
       ]
@@ -587,22 +572,22 @@
       "ruleId": "tense-present-perfect-continuous",
       "level": "B1",
       "words": [
-        "He",
+        "he",
         "has",
         "been",
         "studying",
-        "English",
+        "english",
         "for",
         "three",
         "years"
       ],
       "answers": [
         [
-          "He",
+          "he",
           "has",
           "been",
           "studying",
-          "English",
+          "english",
           "for",
           "three",
           "years"
@@ -612,8 +597,8 @@
         "ru": "Он изучает английский три года."
       },
       "explanation": {
-        "ru": "Have/has been + -ing, а for + период показывает длительность.",
-        "en": "Have/has been + -ing, and for + a period shows duration."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -629,7 +614,7 @@
       "ruleId": "tense-present-perfect-continuous",
       "level": "B1",
       "words": [
-        "They",
+        "they",
         "have",
         "not",
         "been",
@@ -639,7 +624,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "have",
           "not",
           "been",
@@ -652,8 +637,8 @@
         "ru": "В последнее время они плохо спят."
       },
       "explanation": {
-        "ru": "Отрицание строится так: have/has not been + -ing.",
-        "en": "The negative is formed with have/has not been + -ing."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -668,33 +653,33 @@
       "ruleId": "tense-present-perfect-continuous",
       "level": "B1",
       "words": [
-        "How",
+        "how",
         "long",
         "have",
         "you",
         "been",
         "living",
         "in",
-        "London"
+        "london"
       ],
       "answers": [
         [
-          "How",
+          "how",
           "long",
           "have",
           "you",
           "been",
           "living",
           "in",
-          "London"
+          "london"
         ]
       ],
       "translation": {
         "ru": "Как долго ты живёшь в Лондоне?"
       },
       "explanation": {
-        "ru": "Вопрос how long строится с have/has + been + -ing.",
-        "en": "The question with how long is built with have/has + been + -ing."
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -710,7 +695,7 @@
       "ruleId": "tense-present-perfect-continuous",
       "level": "B1",
       "words": [
-        "She",
+        "she",
         "has",
         "been",
         "working",
@@ -719,7 +704,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "has",
           "been",
           "working",
@@ -727,7 +712,7 @@
           "recently"
         ],
         [
-          "She",
+          "she",
           "has",
           "recently",
           "been",
@@ -739,8 +724,8 @@
         "ru": "В последнее время она работает допоздна."
       },
       "explanation": {
-        "ru": "Наречие recently может стоять в конце или перед been; оба порядка верны.",
-        "en": "The adverb recently can come at the end or before been; both orders are correct."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -756,7 +741,7 @@
       "ruleId": "tense-present-perfect-continuous",
       "level": "B1",
       "words": [
-        "She",
+        "she",
         "has",
         "been",
         "reading",
@@ -769,7 +754,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "has",
           "been",
           "reading",
@@ -785,8 +770,8 @@
         "ru": "Она читает одну и ту же книгу с прошлого лета."
       },
       "explanation": {
-        "ru": "Since + точка отсчёта показывает, когда началось продолжающееся действие.",
-        "en": "Since + a starting point shows when the continuing action began."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1050,7 +1035,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "have",
         "been",
         "writing",
@@ -1061,7 +1046,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "have",
           "been",
           "writing",
@@ -1075,8 +1060,8 @@
         "ru": "Я пишу письма с девяти часов."
       },
       "explanation": {
-        "ru": "Формула: **have/has been + V-ing**.",
-        "en": "Form: **have/has been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1092,7 +1077,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "has",
         "been",
         "working",
@@ -1104,7 +1089,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "has",
           "been",
           "working",
@@ -1119,8 +1104,8 @@
         "ru": "Она работает в этом офисе с 2021 года."
       },
       "explanation": {
-        "ru": "Формула: **have/has been + V-ing**.",
-        "en": "Form: **have/has been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1136,7 +1121,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "They",
+        "they",
         "have",
         "been",
         "waiting",
@@ -1150,7 +1135,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "have",
           "been",
           "waiting",
@@ -1167,8 +1152,8 @@
         "ru": "Они ждут своего друга уже полчаса."
       },
       "explanation": {
-        "ru": "Формула: **have/has been + V-ing**.",
-        "en": "Form: **have/has been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1184,7 +1169,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "have",
         "been",
         "repairing",
@@ -1196,7 +1181,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "have",
           "been",
           "repairing",
@@ -1211,8 +1196,8 @@
         "ru": "Мы ремонтируем дом с прошлой весны."
       },
       "explanation": {
-        "ru": "Формула: **have/has been + V-ing**.",
-        "en": "Form: **have/has been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1228,7 +1213,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "children",
         "have",
         "been",
@@ -1241,7 +1226,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "children",
           "have",
           "been",
@@ -1257,8 +1242,8 @@
         "ru": "Дети играют в саду всё утро."
       },
       "explanation": {
-        "ru": "Формула: **have/has been + V-ing**.",
-        "en": "Form: **have/has been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1274,7 +1259,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "My",
+        "my",
         "brother",
         "has",
         "been",
@@ -1287,7 +1272,7 @@
       ],
       "answers": [
         [
-          "My",
+          "my",
           "brother",
           "has",
           "been",
@@ -1303,8 +1288,8 @@
         "ru": "Мой брат готовится к экзамену весь вечер."
       },
       "explanation": {
-        "ru": "Формула: **have/has been + V-ing**.",
-        "en": "Form: **have/has been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1320,7 +1305,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "has",
         "been",
         "writing",
@@ -1332,7 +1317,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "has",
           "been",
           "writing",
@@ -1347,8 +1332,8 @@
         "ru": "Она пишет отчёт с утра."
       },
       "explanation": {
-        "ru": "Формула: **have/has been + V-ing**.",
-        "en": "Form: **have/has been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1364,7 +1349,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "have",
         "been",
         "discussing",
@@ -1376,7 +1361,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "have",
           "been",
           "discussing",
@@ -1391,8 +1376,8 @@
         "ru": "Мы обсуждаем этот план уже неделю."
       },
       "explanation": {
-        "ru": "Формула: **have/has been + V-ing**.",
-        "en": "Form: **have/has been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1408,7 +1393,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "dog",
         "has",
         "been",
@@ -1422,7 +1407,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "dog",
           "has",
           "been",
@@ -1439,8 +1424,8 @@
         "ru": "Собака лает во дворе уже десять минут."
       },
       "explanation": {
-        "ru": "Формула: **have/has been + V-ing**.",
-        "en": "Form: **have/has been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1456,7 +1441,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "He",
+        "he",
         "has",
         "been",
         "training",
@@ -1468,7 +1453,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "has",
           "been",
           "training",
@@ -1483,8 +1468,8 @@
         "ru": "Он тренируется в спортзале всё утро."
       },
       "explanation": {
-        "ru": "Формула: **have/has been + V-ing**.",
-        "en": "Form: **have/has been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1500,7 +1485,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "have",
         "been",
         "learning",
@@ -1512,7 +1497,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "have",
           "been",
           "learning",
@@ -1527,8 +1512,8 @@
         "ru": "Я учусь водить машину уже месяц."
       },
       "explanation": {
-        "ru": "Формула: **have/has been + V-ing**.",
-        "en": "Form: **have/has been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1544,7 +1529,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "They",
+        "they",
         "have",
         "been",
         "building",
@@ -1557,7 +1542,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "have",
           "been",
           "building",
@@ -1573,8 +1558,8 @@
         "ru": "Они строят новый мост с прошлого года."
       },
       "explanation": {
-        "ru": "Формула: **have/has been + V-ing**.",
-        "en": "Form: **have/has been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1590,7 +1575,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "Mum",
+        "mum",
         "has",
         "been",
         "cooking",
@@ -1601,7 +1586,7 @@
       ],
       "answers": [
         [
-          "Mum",
+          "mum",
           "has",
           "been",
           "cooking",
@@ -1615,8 +1600,8 @@
         "ru": "Мама готовит ужин уже час."
       },
       "explanation": {
-        "ru": "Формула: **have/has been + V-ing**.",
-        "en": "Form: **have/has been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1632,7 +1617,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "students",
         "have",
         "been",
@@ -1645,7 +1630,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "students",
           "have",
           "been",
@@ -1661,8 +1646,8 @@
         "ru": "Студенты готовятся к экзаменам всю неделю."
       },
       "explanation": {
-        "ru": "Формула: **have/has been + V-ing**.",
-        "en": "Form: **have/has been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1678,7 +1663,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "has",
         "been",
         "looking",
@@ -1686,11 +1671,11 @@
         "a",
         "job",
         "since",
-        "January"
+        "january"
       ],
       "answers": [
         [
-          "She",
+          "she",
           "has",
           "been",
           "looking",
@@ -1698,15 +1683,15 @@
           "a",
           "job",
           "since",
-          "January"
+          "january"
         ]
       ],
       "translation": {
         "ru": "Она ищет работу с января."
       },
       "explanation": {
-        "ru": "Формула: **have/has been + V-ing**.",
-        "en": "Form: **have/has been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1722,7 +1707,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "have",
         "been",
         "following",
@@ -1733,7 +1718,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "have",
           "been",
           "following",
@@ -1747,8 +1732,8 @@
         "ru": "Мы слушаем эту группу много лет."
       },
       "explanation": {
-        "ru": "Формула: **have/has been + V-ing**.",
-        "en": "Form: **have/has been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1764,7 +1749,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "He",
+        "he",
         "has",
         "been",
         "writing",
@@ -1774,7 +1759,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "has",
           "been",
           "writing",
@@ -1787,8 +1772,8 @@
         "ru": "Он пишет стихи с детства."
       },
       "explanation": {
-        "ru": "Формула: **have/has been + V-ing**.",
-        "en": "Form: **have/has been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего, поэтому используем Present Perfect Continuous: have / has been + V-ing.",
+        "en": "The Russian sentence: duration up to now, so we use Present Perfect Continuous: have / has been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1804,7 +1789,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "have",
         "not",
         "been",
@@ -1814,7 +1799,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "have",
           "not",
           "been",
@@ -1827,8 +1812,8 @@
         "ru": "Я не сплю хорошо в последнее время."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1844,7 +1829,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "has",
         "not",
         "been",
@@ -1854,7 +1839,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "has",
           "not",
           "been",
@@ -1867,8 +1852,8 @@
         "ru": "Она не ест весь день."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1884,7 +1869,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "have",
         "not",
         "been",
@@ -1898,7 +1883,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "have",
           "not",
           "been",
@@ -1915,8 +1900,8 @@
         "ru": "Они не разговаривают друг с другом с прошлой недели."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1932,7 +1917,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "has",
         "not",
         "been",
@@ -1944,7 +1929,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "has",
           "not",
           "been",
@@ -1959,8 +1944,8 @@
         "ru": "Он не работает здесь с прошлого года."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -1976,7 +1961,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "have",
         "not",
         "been",
@@ -1985,7 +1970,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "have",
           "not",
           "been",
@@ -1997,8 +1982,8 @@
         "ru": "Мы не тренируемся в последнее время."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2014,7 +1999,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "children",
         "have",
         "not",
@@ -2027,7 +2012,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "children",
           "have",
           "not",
@@ -2043,8 +2028,8 @@
         "ru": "Дети не делают домашнюю работу всю неделю."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2060,7 +2045,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "My",
+        "my",
         "brother",
         "has",
         "not",
@@ -2073,7 +2058,7 @@
       ],
       "answers": [
         [
-          "My",
+          "my",
           "brother",
           "has",
           "not",
@@ -2089,8 +2074,8 @@
         "ru": "Мой брат не играет в футбол с прошлой зимы."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2106,7 +2091,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "have",
         "not",
         "been",
@@ -2117,7 +2102,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "have",
           "not",
           "been",
@@ -2131,8 +2116,8 @@
         "ru": "Я не смотрю новости в последнее время."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2148,7 +2133,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "has",
         "not",
         "been",
@@ -2159,7 +2144,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "has",
           "not",
           "been",
@@ -2173,8 +2158,8 @@
         "ru": "Она не готовит дома в последнее время."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2190,7 +2175,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "have",
         "not",
         "been",
@@ -2198,11 +2183,11 @@
         "the",
         "car",
         "since",
-        "Monday"
+        "monday"
       ],
       "answers": [
         [
-          "We",
+          "we",
           "have",
           "not",
           "been",
@@ -2210,15 +2195,15 @@
           "the",
           "car",
           "since",
-          "Monday"
+          "monday"
         ]
       ],
       "translation": {
         "ru": "Мы не пользуемся машиной с понедельника."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2234,7 +2219,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "has",
         "not",
         "been",
@@ -2247,7 +2232,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "has",
           "not",
           "been",
@@ -2263,8 +2248,8 @@
         "ru": "Он не бегает последние две недели."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2280,7 +2265,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "You",
+        "you",
         "have",
         "not",
         "been",
@@ -2292,7 +2277,7 @@
       ],
       "answers": [
         [
-          "You",
+          "you",
           "have",
           "not",
           "been",
@@ -2307,8 +2292,8 @@
         "ru": "Ты не слушаешь меня всё утро."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2324,7 +2309,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "My",
+        "my",
         "grandmother",
         "has",
         "not",
@@ -2335,7 +2320,7 @@
       ],
       "answers": [
         [
-          "My",
+          "my",
           "grandmother",
           "has",
           "not",
@@ -2349,8 +2334,8 @@
         "ru": "Бабушка не пьёт кофе в последнее время."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2366,7 +2351,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "dog",
         "has",
         "not",
@@ -2378,7 +2363,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "dog",
           "has",
           "not",
@@ -2393,8 +2378,8 @@
         "ru": "Собака не лает с тех пор, как ты ушёл."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2410,23 +2395,23 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "have",
         "not",
         "been",
         "watching",
-        "TV",
+        "tv",
         "all",
         "evening"
       ],
       "answers": [
         [
-          "We",
+          "we",
           "have",
           "not",
           "been",
           "watching",
-          "TV",
+          "tv",
           "all",
           "evening"
         ]
@@ -2435,8 +2420,8 @@
         "ru": "Мы не смотрим телевизор весь вечер."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2452,7 +2437,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "has",
         "not",
         "been",
@@ -2465,7 +2450,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "has",
           "not",
           "been",
@@ -2481,8 +2466,8 @@
         "ru": "Она не отвечает на письма с прошлого месяца."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2498,7 +2483,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "phone",
         "has",
         "not",
@@ -2511,7 +2496,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "phone",
           "has",
           "not",
@@ -2527,8 +2512,8 @@
         "ru": "Телефон не работает нормально с последнего обновления."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2544,7 +2529,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "have",
         "not",
         "been",
@@ -2554,7 +2539,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "have",
           "not",
           "been",
@@ -2567,8 +2552,8 @@
         "ru": "Я не занимаюсь спортом в этом году."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2584,7 +2569,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "has",
         "not",
         "been",
@@ -2594,7 +2579,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "has",
           "not",
           "been",
@@ -2607,8 +2592,8 @@
         "ru": "Он неважно себя чувствует в последнее время."
       },
       "explanation": {
-        "ru": "Отрицание: **have/has not been + V-ing**.",
-        "en": "Negative: **have/has not been + V-ing**."
+        "ru": "Русское предложение: длительность до настоящего в отрицании, поэтому используем Present Perfect Continuous: have / has not been + V-ing.",
+        "en": "The Russian sentence: duration up to now in the negative, so we use Present Perfect Continuous: have / has not been + V-ing."
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2624,7 +2609,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "What",
+        "what",
         "have",
         "you",
         "been",
@@ -2634,7 +2619,7 @@
       ],
       "answers": [
         [
-          "What",
+          "what",
           "have",
           "you",
           "been",
@@ -2647,8 +2632,8 @@
         "ru": "Что ты делал всё утро?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2664,31 +2649,31 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "How",
+        "how",
         "long",
         "have",
         "you",
         "been",
         "learning",
-        "English"
+        "english"
       ],
       "answers": [
         [
-          "How",
+          "how",
           "long",
           "have",
           "you",
           "been",
           "learning",
-          "English"
+          "english"
         ]
       ],
       "translation": {
         "ru": "Сколько времени ты изучаешь английский?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2704,7 +2689,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Have",
+        "have",
         "you",
         "been",
         "waiting",
@@ -2712,7 +2697,7 @@
       ],
       "answers": [
         [
-          "Have",
+          "have",
           "you",
           "been",
           "waiting",
@@ -2723,8 +2708,8 @@
         "ru": "Ты ждал долго?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2740,14 +2725,14 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Have",
+        "have",
         "you",
         "been",
         "running"
       ],
       "answers": [
         [
-          "Have",
+          "have",
           "you",
           "been",
           "running"
@@ -2757,8 +2742,8 @@
         "ru": "Ты бегал?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2774,7 +2759,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Has",
+        "has",
         "she",
         "been",
         "working",
@@ -2783,7 +2768,7 @@
       ],
       "answers": [
         [
-          "Has",
+          "has",
           "she",
           "been",
           "working",
@@ -2795,8 +2780,8 @@
         "ru": "Она работает здесь давно?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2812,7 +2797,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Who",
+        "who",
         "has",
         "been",
         "cooking",
@@ -2822,7 +2807,7 @@
       ],
       "answers": [
         [
-          "Who",
+          "who",
           "has",
           "been",
           "cooking",
@@ -2835,8 +2820,8 @@
         "ru": "Кто готовил на кухне?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2852,7 +2837,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Why",
+        "why",
         "have",
         "you",
         "been",
@@ -2860,7 +2845,7 @@
       ],
       "answers": [
         [
-          "Why",
+          "why",
           "have",
           "you",
           "been",
@@ -2871,8 +2856,8 @@
         "ru": "Почему ты плакал?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2888,7 +2873,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "How",
+        "how",
         "long",
         "have",
         "they",
@@ -2897,7 +2882,7 @@
       ],
       "answers": [
         [
-          "How",
+          "how",
           "long",
           "have",
           "they",
@@ -2909,8 +2894,8 @@
         "ru": "Сколько времени они путешествуют?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2926,7 +2911,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Have",
+        "have",
         "you",
         "been",
         "listening",
@@ -2935,7 +2920,7 @@
       ],
       "answers": [
         [
-          "Have",
+          "have",
           "you",
           "been",
           "listening",
@@ -2947,8 +2932,8 @@
         "ru": "Ты слушаешь меня?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -2964,7 +2949,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "What",
+        "what",
         "has",
         "she",
         "been",
@@ -2974,7 +2959,7 @@
       ],
       "answers": [
         [
-          "What",
+          "what",
           "has",
           "she",
           "been",
@@ -2987,8 +2972,8 @@
         "ru": "Что она читала весь вечер?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -3004,7 +2989,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Have",
+        "have",
         "you",
         "been",
         "working",
@@ -3014,7 +2999,7 @@
       ],
       "answers": [
         [
-          "Have",
+          "have",
           "you",
           "been",
           "working",
@@ -3027,8 +3012,8 @@
         "ru": "Ты работал в саду?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -3044,7 +3029,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Has",
+        "has",
         "he",
         "been",
         "waiting",
@@ -3054,7 +3039,7 @@
       ],
       "answers": [
         [
-          "Has",
+          "has",
           "he",
           "been",
           "waiting",
@@ -3067,8 +3052,8 @@
         "ru": "Он ждёт нас давно?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -3084,7 +3069,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "How",
+        "how",
         "long",
         "have",
         "you",
@@ -3095,7 +3080,7 @@
       ],
       "answers": [
         [
-          "How",
+          "how",
           "long",
           "have",
           "you",
@@ -3109,8 +3094,8 @@
         "ru": "Сколько времени вы ремонтируете квартиру?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -3126,7 +3111,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Have",
+        "have",
         "you",
         "been",
         "watching",
@@ -3135,7 +3120,7 @@
       ],
       "answers": [
         [
-          "Have",
+          "have",
           "you",
           "been",
           "watching",
@@ -3147,8 +3132,8 @@
         "ru": "Ты смотрел новости?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -3164,7 +3149,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Why",
+        "why",
         "have",
         "you",
         "not",
@@ -3173,7 +3158,7 @@
       ],
       "answers": [
         [
-          "Why",
+          "why",
           "have",
           "you",
           "not",
@@ -3185,8 +3170,8 @@
         "ru": "Почему ты не отвечал?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -3202,33 +3187,33 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "How",
+        "how",
         "long",
         "has",
         "she",
         "been",
         "living",
         "in",
-        "Paris"
+        "paris"
       ],
       "answers": [
         [
-          "How",
+          "how",
           "long",
           "has",
           "she",
           "been",
           "living",
           "in",
-          "Paris"
+          "paris"
         ]
       ],
       "translation": {
         "ru": "Сколько времени она живёт в Париже?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -3244,7 +3229,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Have",
+        "have",
         "you",
         "been",
         "discussing",
@@ -3253,7 +3238,7 @@
       ],
       "answers": [
         [
-          "Have",
+          "have",
           "you",
           "been",
           "discussing",
@@ -3265,8 +3250,8 @@
         "ru": "Вы обсуждали этот вопрос?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -3282,7 +3267,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "What",
+        "what",
         "have",
         "you",
         "been",
@@ -3293,7 +3278,7 @@
       ],
       "answers": [
         [
-          "What",
+          "what",
           "have",
           "you",
           "been",
@@ -3307,8 +3292,8 @@
         "ru": "Что вы делали с восьми часов?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",
@@ -3324,7 +3309,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Have",
+        "have",
         "you",
         "been",
         "sleeping",
@@ -3333,7 +3318,7 @@
       ],
       "answers": [
         [
-          "Have",
+          "have",
           "you",
           "been",
           "sleeping",
@@ -3345,8 +3330,8 @@
         "ru": "Ты хорошо спал в последнее время?"
       },
       "explanation": {
-        "ru": "Вопрос: **Have/Has … been + V-ing?**",
-        "en": "Question: **Have/Has … been + V-ing?**"
+        "ru": "Русское предложение: вопрос о длительности до настоящего, поэтому используем Present Perfect Continuous: Have / Has … been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to now, so we use Present Perfect Continuous: Have / Has … been + V-ing?"
       },
       "tags": [
         "tense-present-perfect-continuous",

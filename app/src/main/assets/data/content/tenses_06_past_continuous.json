@@ -17,8 +17,8 @@
         "en": "Past Continuous"
       },
       "summary": {
-        "ru": "Past Continuous: **was/were + V-ing** — действие шло в определённый момент прошлого или было фоном для другого события.",
-        "en": "Past Continuous: **was/were + V-ing** — an action in progress at a past moment or a background for another event."
+        "ru": "(+) was / were + V-ing · (–) was / were + not + V-ing · (?) Was / Were + V-ing?",
+        "en": "(+) was / were + V-ing · (–) was / were + not + V-ing · (?) Was / Were + V-ing?"
       },
       "sections": [
         {
@@ -27,8 +27,8 @@
             "en": "Form"
           },
           "body": {
-            "ru": "**Формула времени**\n(+) I / he / she / it + **was** + V-ing\n(+) you / we / they + **were** + V-ing\n(–) **was not / were not** + V-ing\n(?) **Was / Were** + … + V-ing?",
-            "en": "(+) I / he / she / it + **was** + V-ing\n(+) you / we / they + **were** + V-ing\n(–) **was not / were not** + V-ing\n(?) **Was / Were** + … + V-ing?"
+            "ru": "(+) **was / were + V-ing**\n(–) **was / were + not** + V-ing\n(?) **Was / Were** + V-ing?",
+            "en": "(+) **was / were + V-ing**\n(–) **was / were + not** + V-ing\n(?) **Was / Were** + V-ing?"
           },
           "examples": [
             "I was reading at ten o'clock.",
@@ -64,21 +64,6 @@
             "At nine o'clock last night I was studying.",
             "They were watching films all evening.",
             "While I was cooking, the doorbell rang."
-          ]
-        },
-        {
-          "heading": {
-            "ru": "Ошибки",
-            "en": "Mistakes"
-          },
-          "body": {
-            "ru": "• *I were watching* → **I was watching** — с I только was\n• *She was watch* → **She was watching** — нужна форма V-ing\n• *Did you were waiting* → **Were you waiting** — вопрос без did\n• *He was knowing* → **He knew** — глагол состояния",
-            "en": "• *I were watching* → **I was watching**\n• *She was watch* → **She was watching**\n• *Did you were waiting* → **Were you waiting**\n• *He was knowing* → **He knew**"
-          },
-          "examples": [
-            "The teacher was writing on the board.",
-            "We were waiting for the bus.",
-            "He was not listening to the radio."
           ]
         }
       ]
@@ -573,20 +558,20 @@
       "ruleId": "tense-past-continuous",
       "level": "A2",
       "words": [
-        "I",
+        "i",
         "was",
         "watching",
-        "TV",
+        "tv",
         "at",
         "eight",
         "o'clock"
       ],
       "answers": [
         [
-          "I",
+          "i",
           "was",
           "watching",
-          "TV",
+          "tv",
           "at",
           "eight",
           "o'clock"
@@ -596,8 +581,8 @@
         "ru": "В восемь часов я смотрел телевизор."
       },
       "explanation": {
-        "ru": "Утверждение: подлежащее + was/were + глагол с -ing.",
-        "en": "An affirmative sentence: subject + was/were + the -ing form."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -612,7 +597,7 @@
       "ruleId": "tense-past-continuous",
       "level": "A2",
       "words": [
-        "She",
+        "she",
         "was",
         "not",
         "listening",
@@ -622,7 +607,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "was",
           "not",
           "listening",
@@ -635,8 +620,8 @@
         "ru": "Она не слушала учителя."
       },
       "explanation": {
-        "ru": "Отрицание: was/were not + глагол с -ing.",
-        "en": "The negative: was/were not + the -ing form."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -651,7 +636,7 @@
       "ruleId": "tense-past-continuous",
       "level": "A2",
       "words": [
-        "What",
+        "what",
         "were",
         "you",
         "doing",
@@ -661,7 +646,7 @@
       ],
       "answers": [
         [
-          "What",
+          "what",
           "were",
           "you",
           "doing",
@@ -674,8 +659,8 @@
         "ru": "Что ты делал в десять часов?"
       },
       "explanation": {
-        "ru": "Вопрос: what + was/were + подлежащее + -ing.",
-        "en": "A question: what + was/were + subject + -ing."
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -690,7 +675,7 @@
       "ruleId": "tense-past-continuous",
       "level": "A2",
       "words": [
-        "She",
+        "she",
         "was",
         "driving",
         "carefully",
@@ -700,7 +685,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "was",
           "driving",
           "carefully",
@@ -709,7 +694,7 @@
           "rain"
         ],
         [
-          "She",
+          "she",
           "was",
           "carefully",
           "driving",
@@ -722,8 +707,8 @@
         "ru": "Она осторожно ехала под дождём."
       },
       "explanation": {
-        "ru": "Наречие carefully может стоять после глагола или перед ним; оба порядка верны.",
-        "en": "The adverb carefully can come after the verb or before it; both orders are correct."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -738,7 +723,7 @@
       "ruleId": "tense-past-continuous",
       "level": "A2",
       "words": [
-        "While",
+        "while",
         "the",
         "children",
         "were",
@@ -751,7 +736,7 @@
       ],
       "answers": [
         [
-          "While",
+          "while",
           "the",
           "children",
           "were",
@@ -767,7 +752,7 @@
           "started",
           "to",
           "snow",
-          "While",
+          "while",
           "the",
           "children",
           "were",
@@ -779,8 +764,8 @@
         "ru": "Пока дети играли на улице, начался снег."
       },
       "explanation": {
-        "ru": "While вводит длительное действие в Past Continuous, а затем идёт короткое событие в Past Simple.",
-        "en": "While introduces the long Past Continuous action, followed by a short Past Simple event."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1043,7 +1028,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "was",
         "making",
         "dinner",
@@ -1053,7 +1038,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "was",
           "making",
           "dinner",
@@ -1066,8 +1051,8 @@
         "ru": "В семь часов я готовил ужин."
       },
       "explanation": {
-        "ru": "Формула: **was/were + V-ing**.",
-        "en": "Form: **was/were + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1083,7 +1068,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "They",
+        "they",
         "were",
         "playing",
         "football",
@@ -1092,7 +1077,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "were",
           "playing",
           "football",
@@ -1104,8 +1089,8 @@
         "ru": "Они играли в футбол вчера днём."
       },
       "explanation": {
-        "ru": "Формула: **was/were + V-ing**.",
-        "en": "Form: **was/were + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1121,24 +1106,24 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "was",
         "reading",
         "a",
         "book",
         "when",
-        "I",
+        "i",
         "called"
       ],
       "answers": [
         [
-          "She",
+          "she",
           "was",
           "reading",
           "a",
           "book",
           "when",
-          "I",
+          "i",
           "called"
         ]
       ],
@@ -1146,8 +1131,8 @@
         "ru": "Она читала книгу, когда я позвонил."
       },
       "explanation": {
-        "ru": "Формула: **was/were + V-ing**.",
-        "en": "Form: **was/were + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1163,7 +1148,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "were",
         "walking",
         "home",
@@ -1173,7 +1158,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "were",
           "walking",
           "home",
@@ -1186,8 +1171,8 @@
         "ru": "Мы шли домой под дождём."
       },
       "explanation": {
-        "ru": "Формула: **was/were + V-ing**.",
-        "en": "Form: **was/were + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1203,7 +1188,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "children",
         "were",
         "sleeping",
@@ -1213,7 +1198,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "children",
           "were",
           "sleeping",
@@ -1226,8 +1211,8 @@
         "ru": "Дети спали, когда мы вернулись."
       },
       "explanation": {
-        "ru": "Формула: **was/were + V-ing**.",
-        "en": "Form: **was/were + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1243,31 +1228,31 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "He",
+        "he",
         "was",
         "painting",
         "the",
         "fence",
         "last",
-        "Sunday"
+        "sunday"
       ],
       "answers": [
         [
-          "He",
+          "he",
           "was",
           "painting",
           "the",
           "fence",
           "last",
-          "Sunday"
+          "sunday"
         ]
       ],
       "translation": {
         "ru": "Он красил забор в прошлое воскресенье."
       },
       "explanation": {
-        "ru": "Формула: **was/were + V-ing**.",
-        "en": "Form: **was/were + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1283,7 +1268,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "was",
         "listening",
         "to",
@@ -1295,7 +1280,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "was",
           "listening",
           "to",
@@ -1310,8 +1295,8 @@
         "ru": "Я слушал музыку, когда зазвонил телефон."
       },
       "explanation": {
-        "ru": "Формула: **was/were + V-ing**.",
-        "en": "Form: **was/were + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1327,25 +1312,25 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "My",
+        "my",
         "sister",
         "was",
         "cooking",
         "lunch",
         "while",
-        "I",
+        "i",
         "was",
         "cleaning"
       ],
       "answers": [
         [
-          "My",
+          "my",
           "sister",
           "was",
           "cooking",
           "lunch",
           "while",
-          "I",
+          "i",
           "was",
           "cleaning"
         ]
@@ -1354,8 +1339,8 @@
         "ru": "Моя сестра готовила обед, пока я убирал."
       },
       "explanation": {
-        "ru": "Формула: **was/were + V-ing**.",
-        "en": "Form: **was/were + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1371,7 +1356,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "They",
+        "they",
         "were",
         "waiting",
         "for",
@@ -1383,7 +1368,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "were",
           "waiting",
           "for",
@@ -1398,8 +1383,8 @@
         "ru": "Они ждали автобус на остановке."
       },
       "explanation": {
-        "ru": "Формула: **was/were + V-ing**.",
-        "en": "Form: **was/were + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1415,7 +1400,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "teacher",
         "was",
         "writing",
@@ -1430,7 +1415,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "teacher",
           "was",
           "writing",
@@ -1448,8 +1433,8 @@
         "ru": "Учитель писал на доске, когда вошёл директор."
       },
       "explanation": {
-        "ru": "Формула: **was/were + V-ing**.",
-        "en": "Form: **was/were + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1465,7 +1450,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "were",
         "watching",
         "a",
@@ -1477,7 +1462,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "were",
           "watching",
           "a",
@@ -1492,8 +1477,8 @@
         "ru": "Мы смотрели фильм вчера в девять."
       },
       "explanation": {
-        "ru": "Формула: **was/were + V-ing**.",
-        "en": "Form: **was/were + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1509,7 +1494,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "was",
         "walking",
         "in",
@@ -1522,7 +1507,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "was",
           "walking",
           "in",
@@ -1538,8 +1523,8 @@
         "ru": "Она шла по парку и слушала музыку."
       },
       "explanation": {
-        "ru": "Формула: **was/were + V-ing**.",
-        "en": "Form: **was/were + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1555,7 +1540,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "cat",
         "was",
         "sleeping",
@@ -1567,7 +1552,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "cat",
           "was",
           "sleeping",
@@ -1582,8 +1567,8 @@
         "ru": "Кошка спала на диване весь вечер."
       },
       "explanation": {
-        "ru": "Формула: **was/were + V-ing**.",
-        "en": "Form: **was/were + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1599,7 +1584,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "students",
         "were",
         "working",
@@ -1614,7 +1599,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "students",
           "were",
           "working",
@@ -1632,8 +1617,8 @@
         "ru": "Студенты делали проект, когда погас свет."
       },
       "explanation": {
-        "ru": "Формула: **was/were + V-ing**.",
-        "en": "Form: **was/were + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1649,7 +1634,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "was",
         "waiting",
         "for",
@@ -1663,7 +1648,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "was",
           "waiting",
           "for",
@@ -1680,8 +1665,8 @@
         "ru": "Я ждал такси, когда начался дождь."
       },
       "explanation": {
-        "ru": "Формула: **was/were + V-ing**.",
-        "en": "Form: **was/were + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1697,27 +1682,27 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "My",
+        "my",
         "brother",
         "was",
         "playing",
         "computer",
         "games",
         "while",
-        "I",
+        "i",
         "was",
         "reading"
       ],
       "answers": [
         [
-          "My",
+          "my",
           "brother",
           "was",
           "playing",
           "computer",
           "games",
           "while",
-          "I",
+          "i",
           "was",
           "reading"
         ]
@@ -1726,8 +1711,8 @@
         "ru": "Мой брат играл в компьютерные игры, пока я читал."
       },
       "explanation": {
-        "ru": "Формула: **was/were + V-ing**.",
-        "en": "Form: **was/were + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1743,23 +1728,23 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "was",
         "making",
         "breakfast",
         "when",
-        "I",
+        "i",
         "woke",
         "up"
       ],
       "answers": [
         [
-          "She",
+          "she",
           "was",
           "making",
           "breakfast",
           "when",
-          "I",
+          "i",
           "woke",
           "up"
         ]
@@ -1768,8 +1753,8 @@
         "ru": "Она готовила завтрак, когда я проснулся."
       },
       "explanation": {
-        "ru": "Формула: **was/were + V-ing**.",
-        "en": "Form: **was/were + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом, поэтому используем Past Continuous: was / were + V-ing.",
+        "en": "The Russian sentence: a process in the past, so we use Past Continuous: was / were + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1785,21 +1770,21 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "was",
         "not",
         "watching",
-        "TV",
+        "tv",
         "at",
         "eight"
       ],
       "answers": [
         [
-          "I",
+          "i",
           "was",
           "not",
           "watching",
-          "TV",
+          "tv",
           "at",
           "eight"
         ]
@@ -1808,8 +1793,8 @@
         "ru": "Я не смотрел телевизор в восемь."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1825,22 +1810,22 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "was",
         "not",
         "sleeping",
         "when",
-        "I",
+        "i",
         "arrived"
       ],
       "answers": [
         [
-          "She",
+          "she",
           "was",
           "not",
           "sleeping",
           "when",
-          "I",
+          "i",
           "arrived"
         ]
       ],
@@ -1848,8 +1833,8 @@
         "ru": "Она не спала, когда я пришёл."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1865,7 +1850,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "were",
         "not",
         "playing",
@@ -1877,7 +1862,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "were",
           "not",
           "playing",
@@ -1892,8 +1877,8 @@
         "ru": "Они не играли в футбол из-за дождя."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1909,7 +1894,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "were",
         "not",
         "waiting",
@@ -1919,7 +1904,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "were",
           "not",
           "waiting",
@@ -1932,8 +1917,8 @@
         "ru": "Мы не ждали автобус."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1949,7 +1934,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "was",
         "not",
         "listening",
@@ -1959,7 +1944,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "was",
           "not",
           "listening",
@@ -1972,8 +1957,8 @@
         "ru": "Он не слушал радио."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -1989,7 +1974,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "children",
         "were",
         "not",
@@ -2000,7 +1985,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "children",
           "were",
           "not",
@@ -2014,8 +1999,8 @@
         "ru": "Дети не спали в десять часов."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -2031,7 +2016,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "was",
         "not",
         "working",
@@ -2040,7 +2025,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "was",
           "not",
           "working",
@@ -2052,8 +2037,8 @@
         "ru": "Я не работал в тот день."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -2069,7 +2054,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "was",
         "not",
         "cooking",
@@ -2080,7 +2065,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "was",
           "not",
           "cooking",
@@ -2094,8 +2079,8 @@
         "ru": "Она не готовила ужин в это время."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -2111,7 +2096,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "were",
         "not",
         "watching",
@@ -2122,7 +2107,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "were",
           "not",
           "watching",
@@ -2136,8 +2121,8 @@
         "ru": "Мы не смотрели фильм вчера вечером."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -2153,7 +2138,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "was",
         "not",
         "driving",
@@ -2163,7 +2148,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "was",
           "not",
           "driving",
@@ -2176,8 +2161,8 @@
         "ru": "Он не ехал домой в шесть."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -2193,7 +2178,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "were",
         "not",
         "waiting",
@@ -2205,7 +2190,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "were",
           "not",
           "waiting",
@@ -2220,8 +2205,8 @@
         "ru": "Они не ждали нас на станции."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -2237,7 +2222,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "was",
         "not",
         "reading",
@@ -2249,7 +2234,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "was",
           "not",
           "reading",
@@ -2264,8 +2249,8 @@
         "ru": "Я не читал книгу, когда ты позвонил."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -2281,7 +2266,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "My",
+        "my",
         "brother",
         "was",
         "not",
@@ -2291,7 +2276,7 @@
       ],
       "answers": [
         [
-          "My",
+          "my",
           "brother",
           "was",
           "not",
@@ -2304,8 +2289,8 @@
         "ru": "Мой брат не играл в теннис вчера."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -2321,7 +2306,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "teacher",
         "was",
         "not",
@@ -2332,7 +2317,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "teacher",
           "was",
           "not",
@@ -2346,8 +2331,8 @@
         "ru": "Учитель не писал на доске."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -2363,23 +2348,23 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "were",
         "not",
         "talking",
         "when",
-        "Mum",
+        "mum",
         "came",
         "in"
       ],
       "answers": [
         [
-          "We",
+          "we",
           "were",
           "not",
           "talking",
           "when",
-          "Mum",
+          "mum",
           "came",
           "in"
         ]
@@ -2388,8 +2373,8 @@
         "ru": "Мы не разговаривали, когда вошла мама."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -2405,7 +2390,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "was",
         "not",
         "sitting",
@@ -2415,7 +2400,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "was",
           "not",
           "sitting",
@@ -2428,8 +2413,8 @@
         "ru": "Она не сидела у окна."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -2445,7 +2430,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "were",
         "not",
         "working",
@@ -2457,7 +2442,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "were",
           "not",
           "working",
@@ -2472,8 +2457,8 @@
         "ru": "Они не работали над проектом весь вечер."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -2489,7 +2474,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "was",
         "not",
         "listening",
@@ -2502,7 +2487,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "was",
           "not",
           "listening",
@@ -2518,8 +2503,8 @@
         "ru": "Я не слушал музыку, когда ты вошёл."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -2535,7 +2520,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "was",
         "not",
         "walking",
@@ -2547,7 +2532,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "was",
           "not",
           "walking",
@@ -2562,8 +2547,8 @@
         "ru": "Он не гулял в парке вчера утром."
       },
       "explanation": {
-        "ru": "Отрицание: **was/were not + V-ing**.",
-        "en": "Negative: **was/were not + V-ing**."
+        "ru": "Русское предложение: процесс в прошлом в отрицании, поэтому используем Past Continuous: was / were + not + V-ing.",
+        "en": "The Russian sentence: a process in the past in the negative, so we use Past Continuous: was / were + not + V-ing."
       },
       "tags": [
         "tense-past-continuous",
@@ -2579,7 +2564,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "What",
+        "what",
         "were",
         "you",
         "doing",
@@ -2589,7 +2574,7 @@
       ],
       "answers": [
         [
-          "What",
+          "what",
           "were",
           "you",
           "doing",
@@ -2602,8 +2587,8 @@
         "ru": "Что ты делал вчера в восемь?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -2619,22 +2604,22 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Were",
+        "were",
         "you",
         "watching",
-        "TV",
+        "tv",
         "when",
-        "I",
+        "i",
         "called"
       ],
       "answers": [
         [
-          "Were",
+          "were",
           "you",
           "watching",
-          "TV",
+          "tv",
           "when",
-          "I",
+          "i",
           "called"
         ]
       ],
@@ -2642,8 +2627,8 @@
         "ru": "Ты смотрел телевизор, когда я позвонил?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -2659,7 +2644,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Was",
+        "was",
         "she",
         "sleeping",
         "when",
@@ -2668,7 +2653,7 @@
       ],
       "answers": [
         [
-          "Was",
+          "was",
           "she",
           "sleeping",
           "when",
@@ -2680,8 +2665,8 @@
         "ru": "Она спала, когда ты пришёл?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -2697,7 +2682,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Where",
+        "where",
         "were",
         "you",
         "going",
@@ -2706,7 +2691,7 @@
       ],
       "answers": [
         [
-          "Where",
+          "where",
           "were",
           "you",
           "going",
@@ -2718,8 +2703,8 @@
         "ru": "Куда вы шли вчера вечером?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -2735,7 +2720,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "What",
+        "what",
         "were",
         "the",
         "children",
@@ -2746,7 +2731,7 @@
       ],
       "answers": [
         [
-          "What",
+          "what",
           "were",
           "the",
           "children",
@@ -2760,8 +2745,8 @@
         "ru": "Что делали дети в саду?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -2777,14 +2762,14 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Why",
+        "why",
         "were",
         "you",
         "crying"
       ],
       "answers": [
         [
-          "Why",
+          "why",
           "were",
           "you",
           "crying"
@@ -2794,8 +2779,8 @@
         "ru": "Почему ты плакал?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -2811,25 +2796,25 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Were",
+        "were",
         "you",
         "listening",
         "to",
         "me",
         "when",
-        "I",
+        "i",
         "was",
         "speaking"
       ],
       "answers": [
         [
-          "Were",
+          "were",
           "you",
           "listening",
           "to",
           "me",
           "when",
-          "I",
+          "i",
           "was",
           "speaking"
         ]
@@ -2838,8 +2823,8 @@
         "ru": "Ты слушал меня, когда я говорил?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -2855,7 +2840,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Who",
+        "who",
         "was",
         "playing",
         "the",
@@ -2863,7 +2848,7 @@
       ],
       "answers": [
         [
-          "Who",
+          "who",
           "was",
           "playing",
           "the",
@@ -2874,8 +2859,8 @@
         "ru": "Кто играл на пианино?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -2891,7 +2876,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "What",
+        "what",
         "were",
         "you",
         "doing",
@@ -2901,7 +2886,7 @@
       ],
       "answers": [
         [
-          "What",
+          "what",
           "were",
           "you",
           "doing",
@@ -2914,8 +2899,8 @@
         "ru": "Что ты делал, когда они позвонили?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -2931,7 +2916,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Was",
+        "was",
         "she",
         "cooking",
         "lunch",
@@ -2941,7 +2926,7 @@
       ],
       "answers": [
         [
-          "Was",
+          "was",
           "she",
           "cooking",
           "lunch",
@@ -2954,8 +2939,8 @@
         "ru": "Она готовила обед, когда ты вернулся?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -2971,7 +2956,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "What",
+        "what",
         "was",
         "he",
         "writing",
@@ -2981,7 +2966,7 @@
       ],
       "answers": [
         [
-          "What",
+          "what",
           "was",
           "he",
           "writing",
@@ -2994,8 +2979,8 @@
         "ru": "Что он писал на доске?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -3011,7 +2996,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Were",
+        "were",
         "you",
         "waiting",
         "for",
@@ -3019,7 +3004,7 @@
       ],
       "answers": [
         [
-          "Were",
+          "were",
           "you",
           "waiting",
           "for",
@@ -3030,8 +3015,8 @@
         "ru": "Вы ждали нас?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -3047,7 +3032,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Why",
+        "why",
         "was",
         "the",
         "car",
@@ -3057,7 +3042,7 @@
       ],
       "answers": [
         [
-          "Why",
+          "why",
           "was",
           "the",
           "car",
@@ -3070,8 +3055,8 @@
         "ru": "Почему машина ехала так медленно?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -3087,7 +3072,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "What",
+        "what",
         "were",
         "you",
         "reading",
@@ -3096,7 +3081,7 @@
       ],
       "answers": [
         [
-          "What",
+          "what",
           "were",
           "you",
           "reading",
@@ -3108,8 +3093,8 @@
         "ru": "Что ты читал весь вечер?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -3125,7 +3110,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Were",
+        "were",
         "they",
         "working",
         "that",
@@ -3133,7 +3118,7 @@
       ],
       "answers": [
         [
-          "Were",
+          "were",
           "they",
           "working",
           "that",
@@ -3144,8 +3129,8 @@
         "ru": "Они работали в тот день?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -3161,7 +3146,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Were",
+        "were",
         "you",
         "walking",
         "home",
@@ -3173,7 +3158,7 @@
       ],
       "answers": [
         [
-          "Were",
+          "were",
           "you",
           "walking",
           "home",
@@ -3188,8 +3173,8 @@
         "ru": "Ты шёл домой, когда начался дождь?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -3205,7 +3190,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Who",
+        "who",
         "was",
         "talking",
         "on",
@@ -3214,7 +3199,7 @@
       ],
       "answers": [
         [
-          "Who",
+          "who",
           "was",
           "talking",
           "on",
@@ -3226,8 +3211,8 @@
         "ru": "Кто разговаривал по телефону?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -3243,9 +3228,9 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "What",
+        "what",
         "was",
-        "Mum",
+        "mum",
         "cooking",
         "when",
         "you",
@@ -3254,9 +3239,9 @@
       ],
       "answers": [
         [
-          "What",
+          "what",
           "was",
-          "Mum",
+          "mum",
           "cooking",
           "when",
           "you",
@@ -3268,8 +3253,8 @@
         "ru": "Что мама готовила, когда ты пришёл?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",
@@ -3285,7 +3270,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Why",
+        "why",
         "were",
         "you",
         "not",
@@ -3295,7 +3280,7 @@
       ],
       "answers": [
         [
-          "Why",
+          "why",
           "were",
           "you",
           "not",
@@ -3308,8 +3293,8 @@
         "ru": "Почему ты не слушал меня?"
       },
       "explanation": {
-        "ru": "Вопрос: **Was/Were … + V-ing?**",
-        "en": "Question: **Was/Were … + V-ing?**"
+        "ru": "Русское предложение: вопрос о процессе в прошлом, поэтому используем Past Continuous: Was / Were + V-ing?",
+        "en": "The Russian sentence: a question about a process in the past, so we use Past Continuous: Was / Were + V-ing?"
       },
       "tags": [
         "tense-past-continuous",

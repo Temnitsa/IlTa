@@ -17,8 +17,8 @@
         "en": "Past Perfect"
       },
       "summary": {
-        "ru": "**had + V3** для действия, которое завершилось раньше другого прошлого; маркеры: *by the time*, *already*, *never*.",
-        "en": "**had + V3** for an action completed before another past action; markers: *by the time*, *already*, *never*."
+        "ru": "(+) had + V3 · (–) had + not + V3 · (?) Had + V3?",
+        "en": "(+) had + V3 · (–) had + not + V3 · (?) Had + V3?"
       },
       "sections": [
         {
@@ -27,8 +27,8 @@
             "en": "Form"
           },
           "body": {
-            "ru": "**(+)** had + V3 — утверждение\n**(–)** had not + V3\n**(?)** Had + V3?\n**V3** = go → gone, see → seen, finish → finished.",
-            "en": "**(+)** had + V3\n**(–)** had not + V3\n**(?)** Had + V3?\n**V3** = go → gone, see → seen, finish → finished."
+            "ru": "(+) **had + V3**\n(–) **had + not** + V3\n(?) **Had** + V3?",
+            "en": "(+) **had + V3**\n(–) **had + not** + V3\n(?) **Had** + V3?"
           },
           "examples": [
             "She had finished the report.",
@@ -64,21 +64,6 @@
             "I had already left when he phoned.",
             "She had just finished.",
             "He had never flown before."
-          ]
-        },
-        {
-          "heading": {
-            "ru": "Ошибки",
-            "en": "Mistakes"
-          },
-          "body": {
-            "ru": "- **не** ставим Past Perfect без второго прошлого → Past Simple\n- **не** *had went* → *had gone*\n- **не** ставим *yesterday/last year* с Past Perfect",
-            "en": "- **no** Past Perfect without a second past action → Past Simple\n- **no** *had went* → *had gone*\n- **no** *yesterday/last year* with Past Perfect"
-          },
-          "examples": [
-            "He had gone home before the party ended.",
-            "They moved house last year.",
-            "Had the shop closed before you arrived?"
           ]
         }
       ]
@@ -611,7 +596,7 @@
       "ruleId": "tense-past-perfect",
       "level": "B1",
       "words": [
-        "We",
+        "we",
         "had",
         "finished",
         "dinner",
@@ -622,7 +607,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "had",
           "finished",
           "dinner",
@@ -636,8 +621,8 @@
         "ru": "Мы закончили ужин до прихода гостей."
       },
       "explanation": {
-        "ru": "Past Perfect had finished показывает более раннее действие, before вводит более позднее действие в Past Simple.",
-        "en": "Past Perfect had finished shows the earlier action; before introduces the later Past Simple action."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -652,7 +637,7 @@
       "ruleId": "tense-past-perfect",
       "level": "B1",
       "words": [
-        "We",
+        "we",
         "had",
         "booked",
         "the",
@@ -666,7 +651,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "had",
           "booked",
           "the",
@@ -683,8 +668,8 @@
         "ru": "Мы забронировали билеты к тому времени, как цена выросла."
       },
       "explanation": {
-        "ru": "By the time вводит более позднее действие в Past Simple, а более раннее стоит в Past Perfect.",
-        "en": "By the time introduces the later Past Simple action, while the earlier action is in Past Perfect."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -699,26 +684,26 @@
       "ruleId": "tense-past-perfect",
       "level": "B1",
       "words": [
-        "She",
+        "she",
         "had",
         "already",
         "finished",
         "the",
         "letter",
         "when",
-        "I",
+        "i",
         "called"
       ],
       "answers": [
         [
-          "She",
+          "she",
           "had",
           "already",
           "finished",
           "the",
           "letter",
           "when",
-          "I",
+          "i",
           "called"
         ]
       ],
@@ -726,8 +711,8 @@
         "ru": "Она уже закончила письмо, когда я позвонил."
       },
       "explanation": {
-        "ru": "Past Perfect с already показывает, что действие завершилось до другого прошлого события.",
-        "en": "Past Perfect with already shows that the action was complete before another past event."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -742,7 +727,7 @@
       "ruleId": "tense-past-perfect",
       "level": "B1",
       "words": [
-        "Had",
+        "had",
         "you",
         "finished",
         "your",
@@ -752,7 +737,7 @@
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "you",
           "finished",
           "your",
@@ -765,8 +750,8 @@
         "ru": "Ты сделал домашнюю работу до ужина?"
       },
       "explanation": {
-        "ru": "Вопрос Past Perfect: **Had + V3?**",
-        "en": "Past Perfect question: **Had + V3?**"
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -781,7 +766,7 @@
       "ruleId": "tense-past-perfect",
       "level": "B1",
       "words": [
-        "The",
+        "the",
         "guests",
         "had",
         "not",
@@ -793,7 +778,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "guests",
           "had",
           "not",
@@ -808,8 +793,8 @@
         "ru": "Гости ещё не ушли, когда началась гроза."
       },
       "explanation": {
-        "ru": "Отрицание: **had not + V3**; when вводит более позднее действие.",
-        "en": "Negative: **had not + V3**; when introduces the later action."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1070,7 +1055,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "film",
         "had",
         "started",
@@ -1083,7 +1068,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "film",
           "had",
           "started",
@@ -1099,8 +1084,8 @@
         "ru": "Фильм начался, когда мы пришли в кинотеатр."
       },
       "explanation": {
-        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
-        "en": "Past Perfect: had + V3. The action was completed before another past action."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1115,7 +1100,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "He",
+        "he",
         "had",
         "already",
         "eaten",
@@ -1128,7 +1113,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "had",
           "already",
           "eaten",
@@ -1144,8 +1129,8 @@
         "ru": "Он уже позавтракал до того, как дети проснулись."
       },
       "explanation": {
-        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
-        "en": "Past Perfect: had + V3. The action was completed before another past action."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1160,7 +1145,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "They",
+        "they",
         "had",
         "booked",
         "the",
@@ -1173,7 +1158,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "had",
           "booked",
           "the",
@@ -1189,8 +1174,8 @@
         "ru": "Они забронировали отель до того, как цены выросли."
       },
       "explanation": {
-        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
-        "en": "Past Perfect: had + V3. The action was completed before another past action."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1205,7 +1190,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "had",
         "waited",
         "for",
@@ -1221,7 +1206,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "had",
           "waited",
           "for",
@@ -1240,8 +1225,8 @@
         "ru": "Мы ждали уже полчаса, когда пришёл автобус."
       },
       "explanation": {
-        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
-        "en": "Past Perfect: had + V3. The action was completed before another past action."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1256,7 +1241,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "had",
         "finished",
         "the",
@@ -1267,7 +1252,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "had",
           "finished",
           "the",
@@ -1281,8 +1266,8 @@
         "ru": "Она закончила проект до срока."
       },
       "explanation": {
-        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
-        "en": "Past Perfect: had + V3. The action was completed before another past action."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1297,7 +1282,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "bus",
         "had",
         "left",
@@ -1309,7 +1294,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "bus",
           "had",
           "left",
@@ -1324,8 +1309,8 @@
         "ru": "Автобус ушёл, когда мы добрались до остановки."
       },
       "explanation": {
-        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
-        "en": "Past Perfect: had + V3. The action was completed before another past action."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1340,7 +1325,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "had",
         "seen",
         "the",
@@ -1353,7 +1338,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "had",
           "seen",
           "the",
@@ -1369,8 +1354,8 @@
         "ru": "Мы видели фильм до того, как он получил награду."
       },
       "explanation": {
-        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
-        "en": "Past Perfect: had + V3. The action was completed before another past action."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1385,39 +1370,39 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "My",
+        "my",
         "parents",
         "had",
         "lived",
         "in",
-        "Berlin",
+        "berlin",
         "before",
         "they",
         "moved",
         "to",
-        "Rome"
+        "rome"
       ],
       "answers": [
         [
-          "My",
+          "my",
           "parents",
           "had",
           "lived",
           "in",
-          "Berlin",
+          "berlin",
           "before",
           "they",
           "moved",
           "to",
-          "Rome"
+          "rome"
         ]
       ],
       "translation": {
         "ru": "Мои родители жили в Берлине до переезда в Рим."
       },
       "explanation": {
-        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
-        "en": "Past Perfect: had + V3. The action was completed before another past action."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1432,7 +1417,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "students",
         "had",
         "read",
@@ -1445,7 +1430,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "students",
           "had",
           "read",
@@ -1461,8 +1446,8 @@
         "ru": "Студенты прочитали всю книгу до теста."
       },
       "explanation": {
-        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
-        "en": "Past Perfect: had + V3. The action was completed before another past action."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1477,7 +1462,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "He",
+        "he",
         "had",
         "repaired",
         "his",
@@ -1489,7 +1474,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "had",
           "repaired",
           "his",
@@ -1504,8 +1489,8 @@
         "ru": "Он починил велосипед до начала гонки."
       },
       "explanation": {
-        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
-        "en": "Past Perfect: had + V3. The action was completed before another past action."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1520,7 +1505,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "had",
         "sent",
         "the",
@@ -1533,7 +1518,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "had",
           "sent",
           "the",
@@ -1549,8 +1534,8 @@
         "ru": "Я отправил посылку к тому времени, как они позвонили."
       },
       "explanation": {
-        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
-        "en": "Past Perfect: had + V3. The action was completed before another past action."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1565,7 +1550,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "guests",
         "had",
         "arrived",
@@ -1577,7 +1562,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "guests",
           "had",
           "arrived",
@@ -1592,8 +1577,8 @@
         "ru": "Гости пришли раньше, чем была готова еда."
       },
       "explanation": {
-        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
-        "en": "Past Perfect: had + V3. The action was completed before another past action."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1608,7 +1593,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "By",
+        "by",
         "the",
         "time",
         "the",
@@ -1622,7 +1607,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "time",
           "the",
@@ -1639,8 +1624,8 @@
         "ru": "К тому времени, как выглянуло солнце, дождь прекратился."
       },
       "explanation": {
-        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
-        "en": "Past Perfect: had + V3. The action was completed before another past action."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1655,7 +1640,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "They",
+        "they",
         "had",
         "known",
         "each",
@@ -1669,7 +1654,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "had",
           "known",
           "each",
@@ -1686,8 +1671,8 @@
         "ru": "Они знали друг друга много лет до свадьбы."
       },
       "explanation": {
-        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
-        "en": "Past Perfect: had + V3. The action was completed before another past action."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1702,11 +1687,11 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "had",
         "never",
         "eaten",
-        "Thai",
+        "thai",
         "food",
         "before",
         "that",
@@ -1714,11 +1699,11 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "had",
           "never",
           "eaten",
-          "Thai",
+          "thai",
           "food",
           "before",
           "that",
@@ -1729,8 +1714,8 @@
         "ru": "Она никогда не ела тайскую еду до той поездки."
       },
       "explanation": {
-        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
-        "en": "Past Perfect: had + V3. The action was completed before another past action."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1745,7 +1730,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "had",
         "just",
         "finished",
@@ -1757,7 +1742,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "had",
           "just",
           "finished",
@@ -1772,8 +1757,8 @@
         "ru": "Мы только что закончили ужин, когда началась гроза."
       },
       "explanation": {
-        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
-        "en": "Past Perfect: had + V3. The action was completed before another past action."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1788,7 +1773,7 @@
       "level": "B1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "children",
         "had",
         "already",
@@ -1803,7 +1788,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "children",
           "had",
           "already",
@@ -1821,8 +1806,8 @@
         "ru": "Дети уже легли спать, когда отец вернулся домой."
       },
       "explanation": {
-        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
-        "en": "Past Perfect: had + V3. The action was completed before another past action."
+        "ru": "Русское предложение: действие раньше другого прошедшего, поэтому используем Past Perfect: had + V3.",
+        "en": "The Russian sentence: an action before another past action, so we use Past Perfect: had + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1837,7 +1822,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "had",
         "not",
         "seen",
@@ -1849,7 +1834,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "had",
           "not",
           "seen",
@@ -1864,8 +1849,8 @@
         "ru": "Я не видел сообщение до самого вечера."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1880,7 +1865,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "had",
         "not",
         "finished",
@@ -1892,7 +1877,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "had",
           "not",
           "finished",
@@ -1907,8 +1892,8 @@
         "ru": "Они не закончили работу до срока."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1923,24 +1908,24 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "had",
         "not",
         "been",
         "to",
-        "London",
+        "london",
         "before",
         "that",
         "spring"
       ],
       "answers": [
         [
-          "She",
+          "she",
           "had",
           "not",
           "been",
           "to",
-          "London",
+          "london",
           "before",
           "that",
           "spring"
@@ -1950,8 +1935,8 @@
         "ru": "Она не была в Лондоне до той весны."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -1966,7 +1951,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "had",
         "not",
         "met",
@@ -1978,7 +1963,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "had",
           "not",
           "met",
@@ -1993,8 +1978,8 @@
         "ru": "Мы не встречались до конференции."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -2009,7 +1994,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "shop",
         "had",
         "not",
@@ -2020,7 +2005,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "shop",
           "had",
           "not",
@@ -2034,8 +2019,8 @@
         "ru": "Магазин ещё не открылся, когда мы пришли."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -2050,7 +2035,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "had",
         "not",
         "eaten",
@@ -2060,7 +2045,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "had",
           "not",
           "eaten",
@@ -2073,8 +2058,8 @@
         "ru": "Он ничего не ел с самого утра."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -2089,7 +2074,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "children",
         "had",
         "not",
@@ -2103,7 +2088,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "children",
           "had",
           "not",
@@ -2120,8 +2105,8 @@
         "ru": "Дети не сделали домашнюю работу, когда пришёл учитель."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -2136,7 +2121,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "had",
         "not",
         "heard",
@@ -2149,7 +2134,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "had",
           "not",
           "heard",
@@ -2165,8 +2150,8 @@
         "ru": "Я не слышал новость до того, как ты мне рассказал."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -2181,7 +2166,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "had",
         "not",
         "decided",
@@ -2195,7 +2180,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "had",
           "not",
           "decided",
@@ -2212,8 +2197,8 @@
         "ru": "К концу собрания они ничего не решили."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -2228,7 +2213,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "had",
         "not",
         "read",
@@ -2240,7 +2225,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "had",
           "not",
           "read",
@@ -2255,8 +2240,8 @@
         "ru": "Она не прочитала отчёт до обсуждения."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -2271,7 +2256,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "had",
         "not",
         "reached",
@@ -2284,7 +2269,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "had",
           "not",
           "reached",
@@ -2300,8 +2285,8 @@
         "ru": "Мы не добрались до отеля, когда началась гроза."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -2316,7 +2301,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "train",
         "had",
         "not",
@@ -2329,7 +2314,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "train",
           "had",
           "not",
@@ -2345,8 +2330,8 @@
         "ru": "Поезд ещё не ушёл, когда мы добрались до платформы."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -2361,7 +2346,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "had",
         "not",
         "started",
@@ -2374,7 +2359,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "had",
           "not",
           "started",
@@ -2390,8 +2375,8 @@
         "ru": "В то время он ещё не начал новую работу."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -2406,7 +2391,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "had",
         "not",
         "cleaned",
@@ -2419,7 +2404,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "had",
           "not",
           "cleaned",
@@ -2435,8 +2420,8 @@
         "ru": "Они не убрали квартиру до прихода гостей."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -2451,7 +2436,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "had",
         "not",
         "finished",
@@ -2464,7 +2449,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "had",
           "not",
           "finished",
@@ -2480,8 +2465,8 @@
         "ru": "Я не закончил письмо, когда зазвонил телефон."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -2496,7 +2481,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "film",
         "had",
         "not",
@@ -2509,7 +2494,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "film",
           "had",
           "not",
@@ -2525,8 +2510,8 @@
         "ru": "Фильм ещё не начался, когда мы сели на места."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -2541,7 +2526,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "had",
         "not",
         "learned",
@@ -2553,7 +2538,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "had",
           "not",
           "learned",
@@ -2568,8 +2553,8 @@
         "ru": "Она не научилась плавать до того лета."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -2584,33 +2569,33 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "had",
         "not",
         "booked",
         "the",
         "tickets",
         "by",
-        "Friday"
+        "friday"
       ],
       "answers": [
         [
-          "We",
+          "we",
           "had",
           "not",
           "booked",
           "the",
           "tickets",
           "by",
-          "Friday"
+          "friday"
         ]
       ],
       "translation": {
         "ru": "К пятнице мы не забронировали билеты."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -2625,7 +2610,7 @@
       "level": "B1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "workers",
         "had",
         "not",
@@ -2639,7 +2624,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "workers",
           "had",
           "not",
@@ -2656,8 +2641,8 @@
         "ru": "Рабочие не починили крышу до начала дождя."
       },
       "explanation": {
-        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
-        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+        "ru": "Русское предложение: действие раньше другого прошедшего в отрицании, поэтому используем Past Perfect: had + not + V3.",
+        "en": "The Russian sentence: an action before another past action in the negative, so we use Past Perfect: had + not + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -2672,7 +2657,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "you",
         "seen",
         "the",
@@ -2683,7 +2668,7 @@
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "you",
           "seen",
           "the",
@@ -2697,8 +2682,8 @@
         "ru": "Ты видел фильм до поездки?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -2713,7 +2698,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "they",
         "arrived",
         "before",
@@ -2723,7 +2708,7 @@
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "they",
           "arrived",
           "before",
@@ -2736,8 +2721,8 @@
         "ru": "Они приехали до начала церемонии?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -2752,31 +2737,31 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "she",
         "finished",
         "the",
         "report",
         "by",
-        "Monday"
+        "monday"
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "she",
           "finished",
           "the",
           "report",
           "by",
-          "Monday"
+          "monday"
         ]
       ],
       "translation": {
         "ru": "Она закончила отчёт к понедельнику?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -2791,7 +2776,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "he",
         "heard",
         "the",
@@ -2802,7 +2787,7 @@
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "he",
           "heard",
           "the",
@@ -2816,8 +2801,8 @@
         "ru": "Он слышал новость до собрания?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -2832,7 +2817,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "you",
         "eaten",
         "anything",
@@ -2842,7 +2827,7 @@
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "you",
           "eaten",
           "anything",
@@ -2855,8 +2840,8 @@
         "ru": "Ты что-нибудь ел до поездки?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -2871,7 +2856,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "they",
         "booked",
         "a",
@@ -2882,7 +2867,7 @@
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "they",
           "booked",
           "a",
@@ -2896,8 +2881,8 @@
         "ru": "Они забронировали столик до праздника?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -2912,7 +2897,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "she",
         "met",
         "his",
@@ -2923,7 +2908,7 @@
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "she",
           "met",
           "his",
@@ -2937,8 +2922,8 @@
         "ru": "Она познакомилась с его родителями до свадьбы?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -2953,7 +2938,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "the",
         "children",
         "gone",
@@ -2966,7 +2951,7 @@
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "the",
           "children",
           "gone",
@@ -2982,8 +2967,8 @@
         "ru": "Дети ушли в школу до начала дождя?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -2998,7 +2983,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "you",
         "read",
         "the",
@@ -3011,7 +2996,7 @@
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "you",
           "read",
           "the",
@@ -3027,8 +3012,8 @@
         "ru": "Ты прочитал книгу до выхода фильма?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -3043,7 +3028,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "they",
         "finished",
         "the",
@@ -3055,7 +3040,7 @@
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "they",
           "finished",
           "the",
@@ -3070,8 +3055,8 @@
         "ru": "Они закончили матч до темноты?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -3086,7 +3071,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "he",
         "repaired",
         "the",
@@ -3097,7 +3082,7 @@
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "he",
           "repaired",
           "the",
@@ -3111,8 +3096,8 @@
         "ru": "Он починил машину к выходным?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -3127,7 +3112,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "you",
         "finished",
         "your",
@@ -3140,7 +3125,7 @@
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "you",
           "finished",
           "your",
@@ -3156,8 +3141,8 @@
         "ru": "Ты закончил курс до того, как нашёл работу?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -3172,35 +3157,35 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "she",
         "learned",
-        "Spanish",
+        "spanish",
         "before",
         "she",
         "moved",
         "to",
-        "Madrid"
+        "madrid"
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "she",
           "learned",
-          "Spanish",
+          "spanish",
           "before",
           "she",
           "moved",
           "to",
-          "Madrid"
+          "madrid"
         ]
       ],
       "translation": {
         "ru": "Она выучила испанский до переезда в Мадрид?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -3215,7 +3200,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "they",
         "sold",
         "the",
@@ -3229,7 +3214,7 @@
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "they",
           "sold",
           "the",
@@ -3246,8 +3231,8 @@
         "ru": "Они продали дом к концу года?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -3262,7 +3247,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "you",
         "checked",
         "the",
@@ -3273,7 +3258,7 @@
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "you",
           "checked",
           "the",
@@ -3287,8 +3272,8 @@
         "ru": "Ты проверил билеты перед уходом?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -3303,7 +3288,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "the",
         "train",
         "left",
@@ -3313,7 +3298,7 @@
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "the",
           "train",
           "left",
@@ -3326,8 +3311,8 @@
         "ru": "Поезд ушёл, когда ты приехал?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -3342,7 +3327,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "she",
         "ever",
         "flown",
@@ -3352,7 +3337,7 @@
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "she",
           "ever",
           "flown",
@@ -3365,8 +3350,8 @@
         "ru": "Она когда-нибудь летала до того дня?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -3381,7 +3366,7 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "they",
         "cleaned",
         "the",
@@ -3393,7 +3378,7 @@
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "they",
           "cleaned",
           "the",
@@ -3408,8 +3393,8 @@
         "ru": "Они убрали комнату до прихода гостей?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",
@@ -3424,31 +3409,31 @@
       "level": "B1",
       "buildKind": "question",
       "words": [
-        "Had",
+        "had",
         "he",
         "started",
         "the",
         "course",
         "by",
-        "September"
+        "september"
       ],
       "answers": [
         [
-          "Had",
+          "had",
           "he",
           "started",
           "the",
           "course",
           "by",
-          "September"
+          "september"
         ]
       ],
       "translation": {
         "ru": "Он начал курс к сентябрю?"
       },
       "explanation": {
-        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
-        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+        "ru": "Русское предложение: вопрос о действии раньше другого прошедшего, поэтому используем Past Perfect: Had + V3?",
+        "en": "The Russian sentence: a question about an action before another past action, so we use Past Perfect: Had + V3?"
       },
       "tags": [
         "tense-past-perfect",

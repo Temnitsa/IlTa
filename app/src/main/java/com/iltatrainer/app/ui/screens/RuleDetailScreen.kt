@@ -167,7 +167,7 @@ private fun RuleSummaryCard(rule: Rule) {
         if (summary.isNotBlank()) {
             Spacer(Modifier.height(8.dp))
             Text(
-                text = summary,
+                text = remember(summary) { formatRuleText(summary) },
                 style = MaterialTheme.typography.bodyLarge.copy(
                     lineBreak = LineBreak.Heading,
                     lineHeight = 26.sp,
@@ -245,7 +245,7 @@ private fun RuleSectionCard(section: RuleSection) {
             Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                 section.examples.forEach { example ->
                     Text(
-                        text = "• $example",
+                        text = remember(example) { formatRuleText("• $example") },
                         style = MaterialTheme.typography.bodyMedium.copy(lineHeight = 22.sp),
                     )
                 }

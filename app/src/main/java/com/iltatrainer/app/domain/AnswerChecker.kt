@@ -30,7 +30,17 @@ object AnswerChecker {
 
     /** Human-readable correct answer for any non-choice exercise. */
     fun correctText(question: Question): String = when {
-        question.isBuild -> question.answers.firstOrNull()?.joinToString(" ")?.plus(".").orEmpty()
+        question.isBuild -> {
+            val raw = question.answers.firstOrNull()?.joinToString(" ").orEmpty()
+            if (raw.isBlank()) {
+                ""
+            } else {
+                val sentence = raw
+                    .replaceFirstChar { char -> char.uppercaseChar() }
+                    .replace(Regex("\\bi\\b"), "I")
+                sentence + if (question.buildKind == "question") "?" else "."
+            }
+        }
         else -> ""
     }
 

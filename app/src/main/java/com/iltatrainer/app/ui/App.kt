@@ -119,6 +119,7 @@ private fun AppContent(container: AppContainer, content: ContentLoadResult) {
     }
 
     val quickTitle = if (language == AppLanguage.RU) "Быстрая тренировка" else "Quick practice"
+    val topicTitle = if (language == AppLanguage.RU) "Тренировка" else "Practice"
     val mistakesTitle = if (language == AppLanguage.RU) "Работа над ошибками" else "Mistake practice"
 
     Scaffold(
@@ -207,7 +208,6 @@ private fun AppContent(container: AppContainer, content: ContentLoadResult) {
 
                 is Screen.RuleDetail -> {
                     val ruleId = screen.ruleId
-                    val ruleTitle = content.rulesById[ruleId]?.title?.text(language).orEmpty()
                     RuleDetailScreen(
                         rule = content.rulesById[ruleId],
                         questions = content.questions.filter { it.ruleId == ruleId },
@@ -220,7 +220,7 @@ private fun AppContent(container: AppContainer, content: ContentLoadResult) {
                                     ruleId = ruleId,
                                     size = TOPIC_SESSION_SIZE,
                                 ),
-                                ruleTitle,
+                                topicTitle,
                             )
                         },
                     )

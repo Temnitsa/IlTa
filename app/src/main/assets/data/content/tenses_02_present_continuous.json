@@ -17,8 +17,8 @@
         "en": "Present Continuous: form and meaning"
       },
       "summary": {
-        "ru": "Формулы, случаи употребления, маркеры и типичные ошибки Present Continuous — коротко и по делу.",
-        "en": "Present Continuous formulas, uses, markers and typical mistakes — short and clear."
+        "ru": "(+) am / is / are + V-ing · (–) am / is / are + not + V-ing · (?) Am / Is / Are + V-ing?",
+        "en": "(+) am / is / are + V-ing · (–) am / is / are + not + V-ing · (?) Am / Is / Are + V-ing?"
       },
       "sections": [
         {
@@ -27,8 +27,8 @@
             "en": "Form"
           },
           "body": {
-            "ru": "(+) am / is / are + V-ing\n(–) am / is / are + not + V-ing\n(?) Am / Is / Are + V-ing?",
-            "en": "(+) am / is / are + V-ing\n(–) am / is / are + not + V-ing\n(?) Am / Is / Are + V-ing?"
+            "ru": "(+) **am / is / are + V-ing**\n(–) **am / is / are + not** + V-ing\n(?) **Am / Is / Are** + V-ing?",
+            "en": "(+) **am / is / are + V-ing**\n(–) **am / is / are + not** + V-ing\n(?) **Am / Is / Are** + V-ing?"
           },
           "examples": [
             "I am reading.",
@@ -64,21 +64,6 @@
             "She is talking on the phone now.",
             "They are decorating the flat at the moment.",
             "He is learning to drive these days."
-          ]
-        },
-        {
-          "heading": {
-            "ru": "Ошибки",
-            "en": "Mistakes"
-          },
-          "body": {
-            "ru": "• She is cook dinner → She is cooking dinner\n• They is playing → They are playing\n• He not working → He is not working",
-            "en": "• She is cook dinner → She is cooking dinner\n• They is playing → They are playing\n• He not working → He is not working"
-          },
-          "examples": [
-            "She is cooking dinner.",
-            "They are playing chess.",
-            "He is not working today."
           ]
         }
       ]
@@ -591,7 +576,7 @@
       "ruleId": "tense-present-continuous",
       "level": "A1",
       "words": [
-        "The",
+        "the",
         "children",
         "are",
         "playing",
@@ -601,7 +586,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "children",
           "are",
           "playing",
@@ -614,8 +599,8 @@
         "ru": "Дети играют в саду."
       },
       "explanation": {
-        "ru": "Present Continuous: are + V-ing; действие происходит сейчас.",
-        "en": "Present Continuous: are + V-ing; the action is happening now."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -630,7 +615,7 @@
       "ruleId": "tense-present-continuous",
       "level": "A1",
       "words": [
-        "She",
+        "she",
         "is",
         "not",
         "listening",
@@ -640,7 +625,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "is",
           "not",
           "listening",
@@ -653,8 +638,8 @@
         "ru": "Она не слушает радио."
       },
       "explanation": {
-        "ru": "Отрицание в Present Continuous: is not + V-ing.",
-        "en": "The Present Continuous negative: is not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -669,7 +654,7 @@
       "ruleId": "tense-present-continuous",
       "level": "A1",
       "words": [
-        "Are",
+        "are",
         "you",
         "waiting",
         "for",
@@ -678,7 +663,7 @@
       ],
       "answers": [
         [
-          "Are",
+          "are",
           "you",
           "waiting",
           "for",
@@ -690,8 +675,8 @@
         "ru": "Ты ждёшь автобус?"
       },
       "explanation": {
-        "ru": "Вопрос в Present Continuous: Are + подлежащее + V-ing.",
-        "en": "A Present Continuous question: Are + subject + V-ing."
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -706,7 +691,7 @@
       "ruleId": "tense-present-continuous",
       "level": "A1",
       "words": [
-        "I",
+        "i",
         "am",
         "working",
         "from",
@@ -716,7 +701,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "am",
           "working",
           "from",
@@ -729,8 +714,8 @@
         "ru": "На этой неделе я работаю из дома."
       },
       "explanation": {
-        "ru": "This week — временная ситуация, поэтому Present Continuous: am working.",
-        "en": "This week signals a temporary situation, so Present Continuous is used: am working."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -745,7 +730,7 @@
       "ruleId": "tense-present-continuous",
       "level": "A1",
       "words": [
-        "He",
+        "he",
         "is",
         "running",
         "in",
@@ -754,7 +739,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "is",
           "running",
           "in",
@@ -766,8 +751,8 @@
         "ru": "Он бегает в парке."
       },
       "explanation": {
-        "ru": "Удвоение конечной согласной: run → running.",
-        "en": "The final consonant doubles: run → running."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1028,7 +1013,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "am",
         "reading",
         "a",
@@ -1036,7 +1021,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "am",
           "reading",
           "a",
@@ -1047,8 +1032,8 @@
         "ru": "Я читаю книгу."
       },
       "explanation": {
-        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
-        "en": "Present Continuous affirmative: am / is / are + V-ing."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1063,7 +1048,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "You",
+        "you",
         "are",
         "listening",
         "to",
@@ -1071,7 +1056,7 @@
       ],
       "answers": [
         [
-          "You",
+          "you",
           "are",
           "listening",
           "to",
@@ -1082,8 +1067,8 @@
         "ru": "Ты слушаешь музыку."
       },
       "explanation": {
-        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
-        "en": "Present Continuous affirmative: am / is / are + V-ing."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1098,7 +1083,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "are",
         "waiting",
         "for",
@@ -1107,7 +1092,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "are",
           "waiting",
           "for",
@@ -1119,8 +1104,8 @@
         "ru": "Мы ждём автобус."
       },
       "explanation": {
-        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
-        "en": "Present Continuous affirmative: am / is / are + V-ing."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1135,7 +1120,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "They",
+        "they",
         "are",
         "playing",
         "in",
@@ -1144,7 +1129,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "are",
           "playing",
           "in",
@@ -1156,8 +1141,8 @@
         "ru": "Они играют в саду."
       },
       "explanation": {
-        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
-        "en": "Present Continuous affirmative: am / is / are + V-ing."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1172,7 +1157,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "He",
+        "he",
         "is",
         "working",
         "in",
@@ -1182,7 +1167,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "is",
           "working",
           "in",
@@ -1195,8 +1180,8 @@
         "ru": "Сегодня он работает в офисе."
       },
       "explanation": {
-        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
-        "en": "Present Continuous affirmative: am / is / are + V-ing."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1211,7 +1196,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "is",
         "cooking",
         "dinner",
@@ -1219,7 +1204,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "is",
           "cooking",
           "dinner",
@@ -1230,8 +1215,8 @@
         "ru": "Сейчас она готовит ужин."
       },
       "explanation": {
-        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
-        "en": "Present Continuous affirmative: am / is / are + V-ing."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1246,7 +1231,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "My",
+        "my",
         "sister",
         "is",
         "studying",
@@ -1256,7 +1241,7 @@
       ],
       "answers": [
         [
-          "My",
+          "my",
           "sister",
           "is",
           "studying",
@@ -1269,8 +1254,8 @@
         "ru": "Моя сестра готовится к экзаменам."
       },
       "explanation": {
-        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
-        "en": "Present Continuous affirmative: am / is / are + V-ing."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1285,7 +1270,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "children",
         "are",
         "watching",
@@ -1294,7 +1279,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "children",
           "are",
           "watching",
@@ -1306,8 +1291,8 @@
         "ru": "Дети смотрят фильм."
       },
       "explanation": {
-        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
-        "en": "Present Continuous affirmative: am / is / are + V-ing."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1322,7 +1307,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "am",
         "looking",
         "for",
@@ -1331,7 +1316,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "am",
           "looking",
           "for",
@@ -1343,8 +1328,8 @@
         "ru": "Я ищу свои ключи."
       },
       "explanation": {
-        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
-        "en": "Present Continuous affirmative: am / is / are + V-ing."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1359,14 +1344,14 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "It",
+        "it",
         "is",
         "raining",
         "outside"
       ],
       "answers": [
         [
-          "It",
+          "it",
           "is",
           "raining",
           "outside"
@@ -1376,8 +1361,8 @@
         "ru": "На улице идёт дождь."
       },
       "explanation": {
-        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
-        "en": "Present Continuous affirmative: am / is / are + V-ing."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1392,29 +1377,29 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "My",
+        "my",
         "parents",
         "are",
         "travelling",
         "in",
-        "Italy"
+        "italy"
       ],
       "answers": [
         [
-          "My",
+          "my",
           "parents",
           "are",
           "travelling",
           "in",
-          "Italy"
+          "italy"
         ]
       ],
       "translation": {
         "ru": "Мои родители путешествуют по Италии."
       },
       "explanation": {
-        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
-        "en": "Present Continuous affirmative: am / is / are + V-ing."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1429,7 +1414,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "He",
+        "he",
         "is",
         "learning",
         "to",
@@ -1439,7 +1424,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "is",
           "learning",
           "to",
@@ -1452,8 +1437,8 @@
         "ru": "В этом месяце он учится водить машину."
       },
       "explanation": {
-        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
-        "en": "Present Continuous affirmative: am / is / are + V-ing."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1468,7 +1453,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "are",
         "staying",
         "in",
@@ -1478,7 +1463,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "are",
           "staying",
           "in",
@@ -1491,8 +1476,8 @@
         "ru": "Мы живём в маленьком отеле."
       },
       "explanation": {
-        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
-        "en": "Present Continuous affirmative: am / is / are + V-ing."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1507,7 +1492,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "is",
         "wearing",
         "a",
@@ -1517,7 +1502,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "is",
           "wearing",
           "a",
@@ -1530,8 +1515,8 @@
         "ru": "Сегодня она в синем платье."
       },
       "explanation": {
-        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
-        "en": "Present Continuous affirmative: am / is / are + V-ing."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1546,7 +1531,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "doctor",
         "is",
         "seeing",
@@ -1556,7 +1541,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "doctor",
           "is",
           "seeing",
@@ -1569,8 +1554,8 @@
         "ru": "Сейчас врач принимает пациента."
       },
       "explanation": {
-        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
-        "en": "Present Continuous affirmative: am / is / are + V-ing."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1585,7 +1570,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "They",
+        "they",
         "are",
         "building",
         "a",
@@ -1594,7 +1579,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "are",
           "building",
           "a",
@@ -1606,8 +1591,8 @@
         "ru": "Они строят новую школу."
       },
       "explanation": {
-        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
-        "en": "Present Continuous affirmative: am / is / are + V-ing."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1622,7 +1607,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "My",
+        "my",
         "brother",
         "is",
         "playing",
@@ -1631,7 +1616,7 @@
       ],
       "answers": [
         [
-          "My",
+          "my",
           "brother",
           "is",
           "playing",
@@ -1643,8 +1628,8 @@
         "ru": "Мой брат играет в компьютерные игры."
       },
       "explanation": {
-        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
-        "en": "Present Continuous affirmative: am / is / are + V-ing."
+        "ru": "Русское предложение: действие сейчас или временная ситуация, поэтому используем Present Continuous: am / is / are + V-ing.",
+        "en": "The Russian sentence: an action now or a temporary situation, so we use Present Continuous: am / is / are + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1659,7 +1644,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "am",
         "not",
         "listening",
@@ -1668,7 +1653,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "am",
           "not",
           "listening",
@@ -1680,8 +1665,8 @@
         "ru": "Я тебя не слушаю."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1696,7 +1681,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "You",
+        "you",
         "are",
         "not",
         "wearing",
@@ -1705,7 +1690,7 @@
       ],
       "answers": [
         [
-          "You",
+          "you",
           "are",
           "not",
           "wearing",
@@ -1717,8 +1702,8 @@
         "ru": "Ты не в пальто."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1733,7 +1718,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "are",
         "not",
         "working",
@@ -1741,7 +1726,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "are",
           "not",
           "working",
@@ -1752,8 +1737,8 @@
         "ru": "Сегодня мы не работаем."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1768,7 +1753,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "are",
         "not",
         "coming",
@@ -1778,7 +1763,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "are",
           "not",
           "coming",
@@ -1791,8 +1776,8 @@
         "ru": "Они не придут на вечеринку."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1807,14 +1792,14 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "is",
         "not",
         "sleeping"
       ],
       "answers": [
         [
-          "He",
+          "he",
           "is",
           "not",
           "sleeping"
@@ -1824,8 +1809,8 @@
         "ru": "Он не спит."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1840,7 +1825,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "is",
         "not",
         "feeling",
@@ -1848,7 +1833,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "is",
           "not",
           "feeling",
@@ -1859,8 +1844,8 @@
         "ru": "Она плохо себя чувствует."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1875,7 +1860,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "My",
+        "my",
         "sister",
         "is",
         "not",
@@ -1884,7 +1869,7 @@
       ],
       "answers": [
         [
-          "My",
+          "my",
           "sister",
           "is",
           "not",
@@ -1896,8 +1881,8 @@
         "ru": "Моя сестра нам не помогает."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1912,7 +1897,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "children",
         "are",
         "not",
@@ -1922,7 +1907,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "children",
           "are",
           "not",
@@ -1935,8 +1920,8 @@
         "ru": "Дети не делают домашнее задание."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1951,7 +1936,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "am",
         "not",
         "using",
@@ -1961,7 +1946,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "am",
           "not",
           "using",
@@ -1974,8 +1959,8 @@
         "ru": "Сейчас я не пользуюсь телефоном."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -1990,7 +1975,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "It",
+        "it",
         "is",
         "not",
         "snowing",
@@ -1998,7 +1983,7 @@
       ],
       "answers": [
         [
-          "It",
+          "it",
           "is",
           "not",
           "snowing",
@@ -2009,8 +1994,8 @@
         "ru": "Сегодня не идёт снег."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -2025,29 +2010,29 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "Her",
+        "her",
         "parents",
         "are",
         "not",
         "watching",
-        "TV"
+        "tv"
       ],
       "answers": [
         [
-          "Her",
+          "her",
           "parents",
           "are",
           "not",
           "watching",
-          "TV"
+          "tv"
         ]
       ],
       "translation": {
         "ru": "Её родители не смотрят телевизор."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -2062,7 +2047,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "are",
         "not",
         "listening",
@@ -2071,7 +2056,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "are",
           "not",
           "listening",
@@ -2083,8 +2068,8 @@
         "ru": "Мы не слушаем музыку."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -2099,7 +2084,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "is",
         "not",
         "working",
@@ -2109,7 +2094,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "is",
           "not",
           "working",
@@ -2122,8 +2107,8 @@
         "ru": "Сегодня он не работает из дома."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -2138,7 +2123,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "is",
         "not",
         "talking",
@@ -2148,7 +2133,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "is",
           "not",
           "talking",
@@ -2161,8 +2146,8 @@
         "ru": "Она не говорит по телефону."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -2177,7 +2162,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "are",
         "not",
         "playing",
@@ -2186,7 +2171,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "are",
           "not",
           "playing",
@@ -2198,8 +2183,8 @@
         "ru": "Сегодня они не играют в футбол."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -2214,7 +2199,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "You",
+        "you",
         "are",
         "not",
         "listening",
@@ -2222,7 +2207,7 @@
       ],
       "answers": [
         [
-          "You",
+          "you",
           "are",
           "not",
           "listening",
@@ -2233,8 +2218,8 @@
         "ru": "Ты не слушаешь внимательно."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -2249,7 +2234,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "My",
+        "my",
         "brother",
         "is",
         "not",
@@ -2260,7 +2245,7 @@
       ],
       "answers": [
         [
-          "My",
+          "my",
           "brother",
           "is",
           "not",
@@ -2274,8 +2259,8 @@
         "ru": "В данный момент мой брат не занимается."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -2290,7 +2275,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "train",
         "is",
         "not",
@@ -2298,7 +2283,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "train",
           "is",
           "not",
@@ -2309,8 +2294,8 @@
         "ru": "Поезд не движется."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -2325,7 +2310,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "am",
         "not",
         "eating",
@@ -2334,7 +2319,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "am",
           "not",
           "eating",
@@ -2346,8 +2331,8 @@
         "ru": "Сегодня я не ем мясо."
       },
       "explanation": {
-        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
-        "en": "Present Continuous negative: am / is / are + not + V-ing."
+        "ru": "Русское предложение: действие сейчас в отрицании, поэтому используем Present Continuous: am / is / are + not + V-ing.",
+        "en": "The Russian sentence: an action now in the negative, so we use Present Continuous: am / is / are + not + V-ing."
       },
       "tags": [
         "tense-present-continuous",
@@ -2362,7 +2347,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Are",
+        "are",
         "you",
         "listening",
         "to",
@@ -2370,7 +2355,7 @@
       ],
       "answers": [
         [
-          "Are",
+          "are",
           "you",
           "listening",
           "to",
@@ -2381,8 +2366,8 @@
         "ru": "Ты меня слушаешь?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -2397,14 +2382,14 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Is",
+        "is",
         "she",
         "working",
         "today"
       ],
       "answers": [
         [
-          "Is",
+          "is",
           "she",
           "working",
           "today"
@@ -2414,8 +2399,8 @@
         "ru": "Она сегодня работает?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -2430,7 +2415,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Are",
+        "are",
         "they",
         "coming",
         "to",
@@ -2439,7 +2424,7 @@
       ],
       "answers": [
         [
-          "Are",
+          "are",
           "they",
           "coming",
           "to",
@@ -2451,8 +2436,8 @@
         "ru": "Они идут на вечеринку?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -2467,13 +2452,13 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Is",
+        "is",
         "he",
         "sleeping"
       ],
       "answers": [
         [
-          "Is",
+          "is",
           "he",
           "sleeping"
         ]
@@ -2482,8 +2467,8 @@
         "ru": "Он спит?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -2498,7 +2483,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Are",
+        "are",
         "we",
         "going",
         "the",
@@ -2507,7 +2492,7 @@
       ],
       "answers": [
         [
-          "Are",
+          "are",
           "we",
           "going",
           "the",
@@ -2519,8 +2504,8 @@
         "ru": "Мы идём в правильном направлении?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -2535,14 +2520,14 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Is",
+        "is",
         "your",
         "sister",
         "studying"
       ],
       "answers": [
         [
-          "Is",
+          "is",
           "your",
           "sister",
           "studying"
@@ -2552,8 +2537,8 @@
         "ru": "Твоя сестра занимается?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -2568,16 +2553,16 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Am",
-        "I",
+        "am",
+        "i",
         "doing",
         "this",
         "correctly"
       ],
       "answers": [
         [
-          "Am",
-          "I",
+          "am",
+          "i",
           "doing",
           "this",
           "correctly"
@@ -2587,8 +2572,8 @@
         "ru": "Я делаю это правильно?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -2603,14 +2588,14 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Is",
+        "is",
         "it",
         "raining",
         "outside"
       ],
       "answers": [
         [
-          "Is",
+          "is",
           "it",
           "raining",
           "outside"
@@ -2620,8 +2605,8 @@
         "ru": "На улице идёт дождь?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -2636,7 +2621,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Are",
+        "are",
         "the",
         "children",
         "playing",
@@ -2646,7 +2631,7 @@
       ],
       "answers": [
         [
-          "Are",
+          "are",
           "the",
           "children",
           "playing",
@@ -2659,8 +2644,8 @@
         "ru": "Дети играют в саду?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -2675,14 +2660,14 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Is",
+        "is",
         "the",
         "bus",
         "coming"
       ],
       "answers": [
         [
-          "Is",
+          "is",
           "the",
           "bus",
           "coming"
@@ -2692,8 +2677,8 @@
         "ru": "Автобус едет?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -2708,7 +2693,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Are",
+        "are",
         "you",
         "waiting",
         "for",
@@ -2716,7 +2701,7 @@
       ],
       "answers": [
         [
-          "Are",
+          "are",
           "you",
           "waiting",
           "for",
@@ -2727,8 +2712,8 @@
         "ru": "Ты кого-то ждёшь?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -2743,7 +2728,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Is",
+        "is",
         "she",
         "wearing",
         "a",
@@ -2752,7 +2737,7 @@
       ],
       "answers": [
         [
-          "Is",
+          "is",
           "she",
           "wearing",
           "a",
@@ -2764,8 +2749,8 @@
         "ru": "Она в красном платье?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -2780,14 +2765,14 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Are",
+        "are",
         "they",
         "watching",
         "television"
       ],
       "answers": [
         [
-          "Are",
+          "are",
           "they",
           "watching",
           "television"
@@ -2797,8 +2782,8 @@
         "ru": "Они смотрят телевизор?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -2813,7 +2798,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Is",
+        "is",
         "he",
         "working",
         "from",
@@ -2823,7 +2808,7 @@
       ],
       "answers": [
         [
-          "Is",
+          "is",
           "he",
           "working",
           "from",
@@ -2836,8 +2821,8 @@
         "ru": "На этой неделе он работает из дома?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -2852,7 +2837,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Are",
+        "are",
         "you",
         "cooking",
         "dinner",
@@ -2860,7 +2845,7 @@
       ],
       "answers": [
         [
-          "Are",
+          "are",
           "you",
           "cooking",
           "dinner",
@@ -2871,8 +2856,8 @@
         "ru": "Ты сейчас готовишь ужин?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -2887,7 +2872,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Is",
+        "is",
         "your",
         "brother",
         "playing",
@@ -2895,7 +2880,7 @@
       ],
       "answers": [
         [
-          "Is",
+          "is",
           "your",
           "brother",
           "playing",
@@ -2906,8 +2891,8 @@
         "ru": "Твой брат играет в футбол?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -2922,7 +2907,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Are",
+        "are",
         "we",
         "meeting",
         "at",
@@ -2930,7 +2915,7 @@
       ],
       "answers": [
         [
-          "Are",
+          "are",
           "we",
           "meeting",
           "at",
@@ -2941,8 +2926,8 @@
         "ru": "Мы встречаемся в восемь?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -2957,7 +2942,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Is",
+        "is",
         "the",
         "train",
         "leaving",
@@ -2965,7 +2950,7 @@
       ],
       "answers": [
         [
-          "Is",
+          "is",
           "the",
           "train",
           "leaving",
@@ -2976,8 +2961,8 @@
         "ru": "Поезд сейчас отправляется?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",
@@ -2992,7 +2977,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Are",
+        "are",
         "her",
         "friends",
         "coming",
@@ -3000,7 +2985,7 @@
       ],
       "answers": [
         [
-          "Are",
+          "are",
           "her",
           "friends",
           "coming",
@@ -3011,8 +2996,8 @@
         "ru": "Её друзья приезжают завтра?"
       },
       "explanation": {
-        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
-        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+        "ru": "Русское предложение: вопрос о действии сейчас, поэтому используем Present Continuous: Am / Is / Are + V-ing?",
+        "en": "The Russian sentence: a question about an action now, so we use Present Continuous: Am / Is / Are + V-ing?"
       },
       "tags": [
         "tense-present-continuous",

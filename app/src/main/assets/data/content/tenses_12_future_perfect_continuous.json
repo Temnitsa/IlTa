@@ -17,8 +17,8 @@
         "en": "Future Perfect Continuous"
       },
       "summary": {
-        "ru": "will have been + V-ing — длительность к определённому моменту будущего. Формулы, случаи, маркеры и ошибки — коротко и по делу.",
-        "en": "will have been + V-ing — duration up to a particular future moment. Formulas, uses, markers and mistakes — short and clear."
+        "ru": "(+) will have been + V-ing · (–) will not have been + V-ing · (?) Will + … + have been + V-ing?",
+        "en": "(+) will have been + V-ing · (–) will not have been + V-ing · (?) Will + … + have been + V-ing?"
       },
       "sections": [
         {
@@ -27,8 +27,8 @@
             "en": "Form"
           },
           "body": {
-            "ru": "(+) will have been + V-ing\n(–) will not have been + V-ing\n(?) Will … have been + V-ing?\nОдна форма для всех лиц.",
-            "en": "(+) will have been + V-ing\n(–) will not have been + V-ing\n(?) Will … have been + V-ing?\nThe same form for all persons."
+            "ru": "(+) **will have been + V-ing**\n(–) **will not have been** + V-ing\n(?) **Will** + … + **have been** + V-ing?",
+            "en": "(+) **will have been + V-ing**\n(–) **will not have been** + V-ing\n(?) **Will** + … + **have been** + V-ing?"
           },
           "examples": [
             "By June I will have been studying English for five years.",
@@ -64,21 +64,6 @@
             "By 2035 she will have been running the company for twenty-five years.",
             "By then I will have been waiting for two hours.",
             "Next month she will have been working here for a decade."
-          ]
-        },
-        {
-          "heading": {
-            "ru": "Ошибки",
-            "en": "Common mistakes"
-          },
-          "body": {
-            "ru": "• ❌ will have been + V3 — ✅ will have been + V-ing\n• длительность ≠ завершённость: will have been doing / will have done\n• глаголы состояния обычно без -ing",
-            "en": "• ❌ will have been + V3 — ✅ will have been + V-ing\n• duration ≠ completion: will have been doing / will have done\n• state verbs usually take no -ing form"
-          },
-          "examples": [
-            "By Friday I will have written the report.",
-            "By Friday I will have been writing it for three days.",
-            "By ten he will have been sleeping for two hours."
           ]
         }
       ]
@@ -611,52 +596,52 @@
       "ruleId": "tense-future-perfect-continuous",
       "level": "B2",
       "words": [
-        "By",
-        "June",
-        "I",
+        "by",
+        "june",
+        "i",
         "will",
         "have",
         "been",
         "learning",
-        "English",
+        "english",
         "for",
         "five",
         "years"
       ],
       "answers": [
         [
-          "By",
-          "June",
-          "I",
+          "by",
+          "june",
+          "i",
           "will",
           "have",
           "been",
           "learning",
-          "English",
+          "english",
           "for",
           "five",
           "years"
         ],
         [
-          "I",
+          "i",
           "will",
           "have",
           "been",
           "learning",
-          "English",
+          "english",
           "for",
           "five",
           "years",
-          "By",
-          "June"
+          "by",
+          "june"
         ]
       ],
       "translation": {
         "ru": "К июню я буду учить английский пять лет."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous: will have been + learning; by June задаёт срок, for five years — длительность.",
-        "en": "Future Perfect Continuous: will have been + learning; by June + for five years."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -671,7 +656,7 @@
       "ruleId": "tense-future-perfect-continuous",
       "level": "B2",
       "words": [
-        "By",
+        "by",
         "the",
         "end",
         "of",
@@ -683,14 +668,14 @@
         "been",
         "living",
         "in",
-        "Rome",
+        "rome",
         "for",
         "a",
         "decade"
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "end",
           "of",
@@ -702,7 +687,7 @@
           "been",
           "living",
           "in",
-          "Rome",
+          "rome",
           "for",
           "a",
           "decade"
@@ -712,8 +697,8 @@
         "ru": "К концу года она будет жить в Риме десять лет."
       },
       "explanation": {
-        "ru": "Форма will have been + living; by the end of the year задаёт срок, for a decade — длительность.",
-        "en": "The form is will have been + living; by the end of the year sets the deadline and for a decade the duration."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -728,7 +713,7 @@
       "ruleId": "tense-future-perfect-continuous",
       "level": "B2",
       "words": [
-        "They",
+        "they",
         "will",
         "not",
         "have",
@@ -744,7 +729,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "will",
           "not",
           "have",
@@ -763,8 +748,8 @@
         "ru": "К нашему приходу они будут ждать недолго."
       },
       "explanation": {
-        "ru": "Отрицание Future Perfect Continuous: will not have been + waiting.",
-        "en": "The negative Future Perfect Continuous: will not have been + waiting."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -779,7 +764,7 @@
       "ruleId": "tense-future-perfect-continuous",
       "level": "B2",
       "words": [
-        "Will",
+        "will",
         "you",
         "have",
         "been",
@@ -793,7 +778,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "you",
           "have",
           "been",
@@ -810,8 +795,8 @@
         "ru": "В следующем месяце будет десять лет, как ты здесь работаешь?"
       },
       "explanation": {
-        "ru": "Вопрос: will + you + have been + working; for ten years — длительность.",
-        "en": "A question: will + you + have been + working; for ten years is the duration."
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -826,7 +811,7 @@
       "ruleId": "tense-future-perfect-continuous",
       "level": "B2",
       "words": [
-        "By",
+        "by",
         "next",
         "spring",
         "he",
@@ -841,7 +826,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "next",
           "spring",
           "he",
@@ -855,7 +840,7 @@
           "years"
         ],
         [
-          "By",
+          "by",
           "next",
           "spring",
           "he",
@@ -873,8 +858,8 @@
         "ru": "К следующей весне он, вероятно, будет преподавать уже двадцать лет."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous с наречием вероятности: probably может стоять после will или перед ним.",
-        "en": "Future Perfect Continuous with an adverb of probability: probably can come after will or before it."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -890,9 +875,9 @@
       "level": "B2",
       "buildKind": "affirmative",
       "words": [
-        "By",
-        "June",
-        "I",
+        "by",
+        "june",
+        "i",
         "will",
         "have",
         "been",
@@ -906,9 +891,9 @@
       ],
       "answers": [
         [
-          "By",
-          "June",
-          "I",
+          "by",
+          "june",
+          "i",
           "will",
           "have",
           "been",
@@ -925,8 +910,8 @@
         "ru": "К июню я буду работать в этой школе три года."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
-        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -942,7 +927,7 @@
       "level": "B2",
       "buildKind": "affirmative",
       "words": [
-        "By",
+        "by",
         "next",
         "month",
         "he",
@@ -950,14 +935,14 @@
         "have",
         "been",
         "studying",
-        "Chinese",
+        "chinese",
         "for",
         "two",
         "years"
       ],
       "answers": [
         [
-          "By",
+          "by",
           "next",
           "month",
           "he",
@@ -965,7 +950,7 @@
           "have",
           "been",
           "studying",
-          "Chinese",
+          "chinese",
           "for",
           "two",
           "years"
@@ -975,8 +960,8 @@
         "ru": "К следующему месяцу он будет изучать китайский два года."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
-        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -992,7 +977,7 @@
       "level": "B2",
       "buildKind": "affirmative",
       "words": [
-        "By",
+        "by",
         "the",
         "time",
         "we",
@@ -1009,7 +994,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "time",
           "we",
@@ -1029,8 +1014,8 @@
         "ru": "К нашему приходу дети будут спать уже два часа."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
-        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -1046,7 +1031,7 @@
       "level": "B2",
       "buildKind": "affirmative",
       "words": [
-        "Next",
+        "next",
         "week",
         "my",
         "parents",
@@ -1063,7 +1048,7 @@
       ],
       "answers": [
         [
-          "Next",
+          "next",
           "week",
           "my",
           "parents",
@@ -1083,8 +1068,8 @@
         "ru": "На следующей неделе мои родители будут жить в этом доме тридцать лет."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
-        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -1100,7 +1085,7 @@
       "level": "B2",
       "buildKind": "affirmative",
       "words": [
-        "By",
+        "by",
         "five",
         "o'clock",
         "the",
@@ -1115,7 +1100,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "five",
           "o'clock",
           "the",
@@ -1133,8 +1118,8 @@
         "ru": "К пяти часам команда будет тренироваться шесть часов."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
-        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -1150,7 +1135,7 @@
       "level": "B2",
       "buildKind": "affirmative",
       "words": [
-        "By",
+        "by",
         "the",
         "time",
         "she",
@@ -1166,7 +1151,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "time",
           "she",
@@ -1185,8 +1170,8 @@
         "ru": "К моменту выхода на пенсию она будет преподавать сорок лет."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
-        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -1202,7 +1187,7 @@
       "level": "B2",
       "buildKind": "affirmative",
       "words": [
-        "By",
+        "by",
         "the",
         "end",
         "of",
@@ -1223,7 +1208,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "end",
           "of",
@@ -1247,8 +1232,8 @@
         "ru": "К концу месяца строители будут работать на крыше три недели."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
-        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -1264,9 +1249,9 @@
       "level": "B2",
       "buildKind": "affirmative",
       "words": [
-        "By",
+        "by",
         "then",
-        "I",
+        "i",
         "will",
         "have",
         "been",
@@ -1280,9 +1265,9 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "then",
-          "I",
+          "i",
           "will",
           "have",
           "been",
@@ -1299,8 +1284,8 @@
         "ru": "К тому моменту я буду ждать твоего ответа неделю."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
-        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -1316,7 +1301,7 @@
       "level": "B2",
       "buildKind": "affirmative",
       "words": [
-        "By",
+        "by",
         "2030",
         "the",
         "company",
@@ -1331,7 +1316,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "2030",
           "the",
           "company",
@@ -1349,8 +1334,8 @@
         "ru": "К 2030 году компания будет выпускать машины пятьдесят лет."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
-        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -1366,8 +1351,8 @@
       "level": "B2",
       "buildKind": "affirmative",
       "words": [
-        "Next",
-        "April",
+        "next",
+        "april",
         "my",
         "uncle",
         "will",
@@ -1381,8 +1366,8 @@
       ],
       "answers": [
         [
-          "Next",
-          "April",
+          "next",
+          "april",
           "my",
           "uncle",
           "will",
@@ -1399,8 +1384,8 @@
         "ru": "В апреле дядя будет водить грузовики двадцать лет."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
-        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -1416,7 +1401,7 @@
       "level": "B2",
       "buildKind": "affirmative",
       "words": [
-        "By",
+        "by",
         "the",
         "end",
         "of",
@@ -1434,7 +1419,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "end",
           "of",
@@ -1455,8 +1440,8 @@
         "ru": "К концу урока мы будем сидеть здесь три часа."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
-        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -1472,7 +1457,7 @@
       "level": "B2",
       "buildKind": "affirmative",
       "words": [
-        "By",
+        "by",
         "the",
         "end",
         "of",
@@ -1490,7 +1475,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "end",
           "of",
@@ -1511,8 +1496,8 @@
         "ru": "К концу смены медсестра будет работать двенадцать часов."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
-        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -1528,7 +1513,7 @@
       "level": "B2",
       "buildKind": "affirmative",
       "words": [
-        "When",
+        "when",
         "the",
         "marathon",
         "ends",
@@ -1545,7 +1530,7 @@
       ],
       "answers": [
         [
-          "When",
+          "when",
           "the",
           "marathon",
           "ends",
@@ -1565,8 +1550,8 @@
         "ru": "Когда марафон закончится, бегуны будут бежать почти пять часов."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
-        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -1582,7 +1567,7 @@
       "level": "B2",
       "buildKind": "affirmative",
       "words": [
-        "By",
+        "by",
         "the",
         "time",
         "the",
@@ -1600,7 +1585,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "time",
           "the",
@@ -1621,8 +1606,8 @@
         "ru": "К уходу гостей повар будет готовить шесть часов."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
-        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -1638,7 +1623,7 @@
       "level": "B2",
       "buildKind": "affirmative",
       "words": [
-        "By",
+        "by",
         "next",
         "summer",
         "she",
@@ -1646,14 +1631,14 @@
         "have",
         "been",
         "learning",
-        "French",
+        "french",
         "for",
         "five",
         "years"
       ],
       "answers": [
         [
-          "By",
+          "by",
           "next",
           "summer",
           "she",
@@ -1661,7 +1646,7 @@
           "have",
           "been",
           "learning",
-          "French",
+          "french",
           "for",
           "five",
           "years"
@@ -1671,8 +1656,8 @@
         "ru": "К следующему лету она будет учить французский пять лет."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
-        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -1688,7 +1673,7 @@
       "level": "B2",
       "buildKind": "affirmative",
       "words": [
-        "By",
+        "by",
         "the",
         "end",
         "of",
@@ -1706,7 +1691,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "end",
           "of",
@@ -1727,8 +1712,8 @@
         "ru": "К концу тура группа будет гастролировать шесть месяцев."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
-        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -1744,7 +1729,7 @@
       "level": "B2",
       "buildKind": "affirmative",
       "words": [
-        "By",
+        "by",
         "the",
         "time",
         "you",
@@ -1762,7 +1747,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "time",
           "you",
@@ -1783,8 +1768,8 @@
         "ru": "К тому времени, как ты закончишь, ты будешь читать этот роман три недели."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
-        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+        "ru": "Русское предложение: длительность к будущему моменту, поэтому используем Future Perfect Continuous: will have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment, so we use Future Perfect Continuous: will have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -1800,7 +1785,7 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "By",
+        "by",
         "next",
         "week",
         "he",
@@ -1816,7 +1801,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "next",
           "week",
           "he",
@@ -1835,8 +1820,8 @@
         "ru": "К следующей неделе он ещё не проработает здесь год."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -1852,7 +1837,7 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "By",
+        "by",
         "the",
         "end",
         "of",
@@ -1870,7 +1855,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "end",
           "of",
@@ -1891,8 +1876,8 @@
         "ru": "К концу месяца мы будем жить здесь ещё недолго."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -1908,7 +1893,7 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "By",
+        "by",
         "nine",
         "o'clock",
         "they",
@@ -1922,7 +1907,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "nine",
           "o'clock",
           "they",
@@ -1939,8 +1924,8 @@
         "ru": "К девяти часам они будут ехать ещё недолго."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -1956,7 +1941,7 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "By",
+        "by",
         "the",
         "time",
         "she",
@@ -1973,7 +1958,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "time",
           "she",
@@ -1993,8 +1978,8 @@
         "ru": "К её возвращению дети будут спать ещё недолго."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2010,31 +1995,31 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "By",
+        "by",
         "next",
         "summer",
-        "I",
+        "i",
         "will",
         "not",
         "have",
         "been",
         "studying",
-        "German",
+        "german",
         "for",
         "long"
       ],
       "answers": [
         [
-          "By",
+          "by",
           "next",
           "summer",
-          "I",
+          "i",
           "will",
           "not",
           "have",
           "been",
           "studying",
-          "German",
+          "german",
           "for",
           "long"
         ]
@@ -2043,8 +2028,8 @@
         "ru": "К следующему лету я буду изучать немецкий ещё недолго."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2060,7 +2045,7 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "By",
+        "by",
         "the",
         "end",
         "of",
@@ -2078,7 +2063,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "end",
           "of",
@@ -2099,8 +2084,8 @@
         "ru": "К концу недели команда будет тренироваться ещё недолго."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2116,7 +2101,7 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "Next",
+        "next",
         "month",
         "she",
         "will",
@@ -2132,7 +2117,7 @@
       ],
       "answers": [
         [
-          "Next",
+          "next",
           "month",
           "she",
           "will",
@@ -2151,8 +2136,8 @@
         "ru": "В следующем месяце она будет преподавать в этой школе ещё недолго."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2168,7 +2153,7 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "By",
+        "by",
         "midnight",
         "we",
         "will",
@@ -2183,7 +2168,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "midnight",
           "we",
           "will",
@@ -2201,8 +2186,8 @@
         "ru": "К полуночи мы будем смотреть фильм ещё недолго."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2218,7 +2203,7 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "By",
+        "by",
         "the",
         "time",
         "the",
@@ -2235,7 +2220,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "time",
           "the",
@@ -2255,8 +2240,8 @@
         "ru": "К приходу гостей мы будем готовить ещё недолго."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2272,9 +2257,9 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "By",
+        "by",
         "next",
-        "May",
+        "may",
         "he",
         "will",
         "not",
@@ -2282,16 +2267,16 @@
         "been",
         "living",
         "in",
-        "Spain",
+        "spain",
         "for",
         "a",
         "year"
       ],
       "answers": [
         [
-          "By",
+          "by",
           "next",
-          "May",
+          "may",
           "he",
           "will",
           "not",
@@ -2299,7 +2284,7 @@
           "been",
           "living",
           "in",
-          "Spain",
+          "spain",
           "for",
           "a",
           "year"
@@ -2309,8 +2294,8 @@
         "ru": "К следующему маю он ещё не проживёт в Испании и года."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2326,7 +2311,7 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "By",
+        "by",
         "the",
         "end",
         "of",
@@ -2344,7 +2329,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "end",
           "of",
@@ -2365,8 +2350,8 @@
         "ru": "К концу концерта музыканты будут играть ещё недолго."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2382,10 +2367,10 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "By",
+        "by",
         "tomorrow",
         "morning",
-        "I",
+        "i",
         "will",
         "not",
         "have",
@@ -2399,10 +2384,10 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "tomorrow",
           "morning",
-          "I",
+          "i",
           "will",
           "not",
           "have",
@@ -2419,8 +2404,8 @@
         "ru": "К завтрашнему утру я буду работать над этой задачей ещё недолго."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2436,7 +2421,7 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "By",
+        "by",
         "the",
         "end",
         "of",
@@ -2453,7 +2438,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "end",
           "of",
@@ -2473,8 +2458,8 @@
         "ru": "К концу дня они будут ждать ещё недолго."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2490,7 +2475,7 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "By",
+        "by",
         "next",
         "month",
         "we",
@@ -2506,7 +2491,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "next",
           "month",
           "we",
@@ -2525,8 +2510,8 @@
         "ru": "К следующему месяцу мы будем планировать поездку ещё недолго."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2542,7 +2527,7 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "By",
+        "by",
         "the",
         "time",
         "the",
@@ -2560,7 +2545,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "time",
           "the",
@@ -2581,8 +2566,8 @@
         "ru": "К открытию магазина мы будем стоять здесь ещё недолго."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2598,8 +2583,8 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "By",
-        "Friday",
+        "by",
+        "friday",
         "she",
         "will",
         "not",
@@ -2614,8 +2599,8 @@
       ],
       "answers": [
         [
-          "By",
-          "Friday",
+          "by",
+          "friday",
           "she",
           "will",
           "not",
@@ -2633,8 +2618,8 @@
         "ru": "К пятнице она будет работать над проектом ещё недолго."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2650,7 +2635,7 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "By",
+        "by",
         "the",
         "end",
         "of",
@@ -2667,7 +2652,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "end",
           "of",
@@ -2687,8 +2672,8 @@
         "ru": "К концу года он будет водить ещё недолго."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2704,7 +2689,7 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "By",
+        "by",
         "the",
         "time",
         "the",
@@ -2722,7 +2707,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "the",
           "time",
           "the",
@@ -2743,8 +2728,8 @@
         "ru": "К началу забега бегуны будут бежать ещё недолго."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2760,7 +2745,7 @@
       "level": "B2",
       "buildKind": "negative",
       "words": [
-        "By",
+        "by",
         "next",
         "spring",
         "they",
@@ -2776,7 +2761,7 @@
       ],
       "answers": [
         [
-          "By",
+          "by",
           "next",
           "spring",
           "they",
@@ -2795,8 +2780,8 @@
         "ru": "К следующей весне они будут строить дом ещё недолго."
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
-        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+        "ru": "Русское предложение: длительность к будущему моменту в отрицании, поэтому используем Future Perfect Continuous: will not have been + V-ing.",
+        "en": "The Russian sentence: duration up to a future moment in the negative, so we use Future Perfect Continuous: will not have been + V-ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2812,7 +2797,7 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "you",
         "have",
         "been",
@@ -2828,7 +2813,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "you",
           "have",
           "been",
@@ -2847,8 +2832,8 @@
         "ru": "В следующем месяце будет десять лет, как ты преподаёшь в этой школе?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2864,28 +2849,28 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "How",
+        "how",
         "long",
         "will",
         "you",
         "have",
         "been",
         "studying",
-        "English",
+        "english",
         "by",
         "the",
         "exam"
       ],
       "answers": [
         [
-          "How",
+          "how",
           "long",
           "will",
           "you",
           "have",
           "been",
           "studying",
-          "English",
+          "english",
           "by",
           "the",
           "exam"
@@ -2895,8 +2880,8 @@
         "ru": "Как долго ты будешь учить английский к экзамену?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing? С вопросительным словом в начале.",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing? With a question word at the start."
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2912,13 +2897,13 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "she",
         "have",
         "been",
         "living",
         "in",
-        "London",
+        "london",
         "for",
         "five",
         "years",
@@ -2927,13 +2912,13 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "she",
           "have",
           "been",
           "living",
           "in",
-          "London",
+          "london",
           "for",
           "five",
           "years",
@@ -2945,8 +2930,8 @@
         "ru": "К тому времени она будет жить в Лондоне пять лет?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -2962,7 +2947,7 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "they",
         "have",
         "been",
@@ -2978,7 +2963,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "they",
           "have",
           "been",
@@ -2997,8 +2982,8 @@
         "ru": "К нашему приходу они будут ждать два часа?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3014,7 +2999,7 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "How",
+        "how",
         "long",
         "will",
         "the",
@@ -3028,7 +3013,7 @@
       ],
       "answers": [
         [
-          "How",
+          "how",
           "long",
           "will",
           "the",
@@ -3045,8 +3030,8 @@
         "ru": "Как долго будет идти совещание к полудню?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing? С вопросительным словом в начале.",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing? With a question word at the start."
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3062,7 +3047,7 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "he",
         "have",
         "been",
@@ -3079,7 +3064,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "he",
           "have",
           "been",
@@ -3099,8 +3084,8 @@
         "ru": "К концу дня он будет тренироваться шесть часов?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3116,7 +3101,7 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "How",
+        "how",
         "long",
         "will",
         "you",
@@ -3132,7 +3117,7 @@
       ],
       "answers": [
         [
-          "How",
+          "how",
           "long",
           "will",
           "you",
@@ -3151,8 +3136,8 @@
         "ru": "Как долго ты будешь жить в этом городе к следующему году?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing? С вопросительным словом в начале.",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing? With a question word at the start."
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3168,7 +3153,7 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "the",
         "children",
         "have",
@@ -3182,7 +3167,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "the",
           "children",
           "have",
@@ -3199,8 +3184,8 @@
         "ru": "К полуночи дети будут спать два часа?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3216,7 +3201,7 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "How",
+        "how",
         "long",
         "will",
         "she",
@@ -3231,7 +3216,7 @@
       ],
       "answers": [
         [
-          "How",
+          "how",
           "long",
           "will",
           "she",
@@ -3249,8 +3234,8 @@
         "ru": "Как долго она будет преподавать к моменту выхода на пенсию?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing? С вопросительным словом в начале.",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing? With a question word at the start."
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3266,7 +3251,7 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "they",
         "have",
         "been",
@@ -3278,11 +3263,11 @@
         "three",
         "weeks",
         "by",
-        "Friday"
+        "friday"
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "they",
           "have",
           "been",
@@ -3294,15 +3279,15 @@
           "three",
           "weeks",
           "by",
-          "Friday"
+          "friday"
         ]
       ],
       "translation": {
         "ru": "К пятнице они будут работать над проектом три недели?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3318,7 +3303,7 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "How",
+        "how",
         "long",
         "will",
         "you",
@@ -3330,11 +3315,11 @@
         "time",
         "we",
         "reach",
-        "Paris"
+        "paris"
       ],
       "answers": [
         [
-          "How",
+          "how",
           "long",
           "will",
           "you",
@@ -3346,15 +3331,15 @@
           "time",
           "we",
           "reach",
-          "Paris"
+          "paris"
         ]
       ],
       "translation": {
         "ru": "Как долго ты будешь за рулём к тому времени, как мы доберёмся до Парижа?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing? С вопросительным словом в начале.",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing? With a question word at the start."
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3370,7 +3355,7 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "the",
         "band",
         "have",
@@ -3385,7 +3370,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "the",
           "band",
           "have",
@@ -3403,8 +3388,8 @@
         "ru": "К десяти часам группа будет играть два часа?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3420,7 +3405,7 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "How",
+        "how",
         "long",
         "will",
         "the",
@@ -3437,7 +3422,7 @@
       ],
       "answers": [
         [
-          "How",
+          "how",
           "long",
           "will",
           "the",
@@ -3457,8 +3442,8 @@
         "ru": "Как долго дети будут читать к концу урока?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing? С вопросительным словом в начале.",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing? With a question word at the start."
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3474,7 +3459,7 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "you",
         "have",
         "been",
@@ -3490,7 +3475,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "you",
           "have",
           "been",
@@ -3509,8 +3494,8 @@
         "ru": "К приходу автобуса ты будешь ждать долго?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3526,7 +3511,7 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "How",
+        "how",
         "long",
         "will",
         "he",
@@ -3534,14 +3519,14 @@
         "been",
         "living",
         "in",
-        "Rome",
+        "rome",
         "by",
         "next",
         "summer"
       ],
       "answers": [
         [
-          "How",
+          "how",
           "long",
           "will",
           "he",
@@ -3549,7 +3534,7 @@
           "been",
           "living",
           "in",
-          "Rome",
+          "rome",
           "by",
           "next",
           "summer"
@@ -3559,8 +3544,8 @@
         "ru": "Как долго он будет жить в Риме к следующему лету?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing? С вопросительным словом в начале.",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing? With a question word at the start."
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3576,7 +3561,7 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "they",
         "have",
         "been",
@@ -3587,11 +3572,11 @@
         "a",
         "year",
         "by",
-        "June"
+        "june"
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "they",
           "have",
           "been",
@@ -3602,15 +3587,15 @@
           "a",
           "year",
           "by",
-          "June"
+          "june"
         ]
       ],
       "translation": {
         "ru": "К июню они будут строить дорогу год?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3626,7 +3611,7 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "How",
+        "how",
         "long",
         "will",
         "she",
@@ -3643,7 +3628,7 @@
       ],
       "answers": [
         [
-          "How",
+          "how",
           "long",
           "will",
           "she",
@@ -3663,8 +3648,8 @@
         "ru": "Как долго она будет работать здесь к концу года?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing? С вопросительным словом в начале.",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing? With a question word at the start."
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3680,7 +3665,7 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "the",
         "chef",
         "have",
@@ -3698,7 +3683,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "the",
           "chef",
           "have",
@@ -3719,8 +3704,8 @@
         "ru": "К приходу гостей повар будет готовить три часа?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3736,7 +3721,7 @@
       "level": "B2",
       "buildKind": "question",
       "words": [
-        "How",
+        "how",
         "long",
         "will",
         "you",
@@ -3751,7 +3736,7 @@
       ],
       "answers": [
         [
-          "How",
+          "how",
           "long",
           "will",
           "you",
@@ -3769,8 +3754,8 @@
         "ru": "Как долго ты будешь играть на пианино к концерту?"
       },
       "explanation": {
-        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing? С вопросительным словом в начале.",
-        "en": "Future Perfect Continuous, question: will … have been + V-ing? With a question word at the start."
+        "ru": "Русское предложение: вопрос о длительности к будущему моменту, поэтому используем Future Perfect Continuous: Will … have been + V-ing?",
+        "en": "The Russian sentence: a question about duration up to a future moment, so we use Future Perfect Continuous: Will … have been + V-ing?"
       },
       "tags": [
         "tense-future-perfect-continuous",

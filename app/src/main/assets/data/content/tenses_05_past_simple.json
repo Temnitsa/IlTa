@@ -17,8 +17,8 @@
         "en": "Past Simple"
       },
       "summary": {
-        "ru": "Past Simple: **V-ed / V2** — законченное действие в прошлом; отрицание и вопрос — с **did**.",
-        "en": "Past Simple: **V-ed / V2** — a finished action in the past; negatives and questions use **did**."
+        "ru": "(+) V-ed / V2 · (–) did + not + V · (?) Did + V?",
+        "en": "(+) V-ed / V2 · (–) did + not + V · (?) Did + V?"
       },
       "sections": [
         {
@@ -27,8 +27,8 @@
             "en": "Form"
           },
           "body": {
-            "ru": "(+) **V-ed** (правильные) / **V2** (неправильные)\n(–) **did not** + V\n(?) **Did** + … + V?\n+ **was / were**",
-            "en": "(+) **V-ed** (regular) / **V2** (irregular)\n(–) **did not** + V\n(?) **Did** + … + V?\n+ **was / were**"
+            "ru": "(+) **V-ed / V2**\n(–) **did + not** + V\n(?) **Did** + V?\nbe: **was / were**",
+            "en": "(+) **V-ed / V2**\n(–) **did + not** + V\n(?) **Did** + V?\nbe: **was / were**"
           },
           "examples": [
             "She watched a film last night.",
@@ -65,21 +65,6 @@
             "We met yesterday.",
             "She called me two hours ago.",
             "He moved to Paris in 2019."
-          ]
-        },
-        {
-          "heading": {
-            "ru": "Ошибки",
-            "en": "Mistakes"
-          },
-          "body": {
-            "ru": "• *did went* → **went** — после did начальная форма\n• *Did you saw* → **Did you see** — V, не V2\n• *I were* → **I was** — с I только was\n• *He didn't came* → **He didn't come** — начальная форма",
-            "en": "• *did went* → **went**\n• *Did you saw* → **Did you see**\n• *I were* → **I was**\n• *He didn't came* → **He didn't come**"
-          },
-          "examples": [
-            "He did not go to school.",
-            "Were you at home?",
-            "I was very tired."
           ]
         }
       ]
@@ -588,7 +573,7 @@
       "ruleId": "tense-past-simple",
       "level": "A1",
       "words": [
-        "I",
+        "i",
         "visited",
         "my",
         "grandparents",
@@ -597,7 +582,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "visited",
           "my",
           "grandparents",
@@ -609,8 +594,8 @@
         "ru": "В прошлые выходные я навестил бабушку и дедушку."
       },
       "explanation": {
-        "ru": "Утверждение в Past Simple: подлежащее + глагол с -ed + остальные слова.",
-        "en": "An affirmative Past Simple sentence: subject + verb with -ed + the rest."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -626,7 +611,7 @@
       "ruleId": "tense-past-simple",
       "level": "A1",
       "words": [
-        "She",
+        "she",
         "did",
         "not",
         "like",
@@ -635,7 +620,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "did",
           "not",
           "like",
@@ -647,8 +632,8 @@
         "ru": "Ей не понравился фильм."
       },
       "explanation": {
-        "ru": "Отрицание: did not + начальная форма глагола like.",
-        "en": "The negative uses did not + the base verb like."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -663,7 +648,7 @@
       "ruleId": "tense-past-simple",
       "level": "A1",
       "words": [
-        "Did",
+        "did",
         "you",
         "enjoy",
         "the",
@@ -672,7 +657,7 @@
       ],
       "answers": [
         [
-          "Did",
+          "did",
           "you",
           "enjoy",
           "the",
@@ -684,8 +669,8 @@
         "ru": "Тебе понравился вчерашний концерт?"
       },
       "explanation": {
-        "ru": "Вопрос: Did + подлежащее + начальная форма глагола.",
-        "en": "A question uses Did + subject + the base verb."
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -700,7 +685,7 @@
       "ruleId": "tense-past-simple",
       "level": "A1",
       "words": [
-        "She",
+        "she",
         "finished",
         "her",
         "homework",
@@ -708,14 +693,14 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "finished",
           "her",
           "homework",
           "quickly"
         ],
         [
-          "She",
+          "she",
           "quickly",
           "finished",
           "her",
@@ -726,8 +711,8 @@
         "ru": "Она быстро сделала домашнюю работу."
       },
       "explanation": {
-        "ru": "Наречие quickly может стоять после дополнения или перед глаголом; оба порядка верны.",
-        "en": "The adverb quickly can come after the object or before the verb; both orders are correct."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -742,7 +727,7 @@
       "ruleId": "tense-past-simple",
       "level": "A1",
       "words": [
-        "After",
+        "after",
         "school",
         "we",
         "played",
@@ -754,7 +739,7 @@
       ],
       "answers": [
         [
-          "After",
+          "after",
           "school",
           "we",
           "played",
@@ -768,7 +753,7 @@
           "we",
           "played",
           "football",
-          "After",
+          "after",
           "school",
           "and",
           "then",
@@ -780,8 +765,8 @@
         "ru": "После школы мы поиграли в футбол и потом пошли домой."
       },
       "explanation": {
-        "ru": "Несколько законченных действий в прошлом идут по порядку: played, then went.",
-        "en": "Several finished past actions follow in order: played, then went."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -1043,14 +1028,14 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "played",
         "football",
         "yesterday"
       ],
       "answers": [
         [
-          "I",
+          "i",
           "played",
           "football",
           "yesterday"
@@ -1060,8 +1045,8 @@
         "ru": "Я играл в футбол вчера."
       },
       "explanation": {
-        "ru": "Past Simple: к правильному глаголу добавляем **-ed**.",
-        "en": "Past Simple: add **-ed** to a regular verb."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -1077,7 +1062,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "cooked",
         "dinner",
         "last",
@@ -1085,7 +1070,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "cooked",
           "dinner",
           "last",
@@ -1096,8 +1081,8 @@
         "ru": "Она приготовила ужин вчера вечером."
       },
       "explanation": {
-        "ru": "Past Simple: к правильному глаголу добавляем **-ed**.",
-        "en": "Past Simple: add **-ed** to a regular verb."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -1113,19 +1098,19 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "went",
         "to",
-        "London",
+        "london",
         "last",
         "summer"
       ],
       "answers": [
         [
-          "We",
+          "we",
           "went",
           "to",
-          "London",
+          "london",
           "last",
           "summer"
         ]
@@ -1134,8 +1119,8 @@
         "ru": "Мы ездили в Лондон прошлым летом."
       },
       "explanation": {
-        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
-        "en": "Past Simple: an irregular verb has a special **V2** form."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -1151,7 +1136,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "He",
+        "he",
         "bought",
         "a",
         "new",
@@ -1161,7 +1146,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "bought",
           "a",
           "new",
@@ -1174,8 +1159,8 @@
         "ru": "Он купил новую машину в прошлом месяце."
       },
       "explanation": {
-        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
-        "en": "Past Simple: an irregular verb has a special **V2** form."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -1191,7 +1176,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "They",
+        "they",
         "met",
         "in",
         "the",
@@ -1202,7 +1187,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "met",
           "in",
           "the",
@@ -1216,8 +1201,8 @@
         "ru": "Они встретились в парке два часа назад."
       },
       "explanation": {
-        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
-        "en": "Past Simple: an irregular verb has a special **V2** form."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -1233,29 +1218,29 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "saw",
         "this",
         "film",
         "last",
-        "Friday"
+        "friday"
       ],
       "answers": [
         [
-          "I",
+          "i",
           "saw",
           "this",
           "film",
           "last",
-          "Friday"
+          "friday"
         ]
       ],
       "translation": {
         "ru": "Я видел этот фильм в прошлую пятницу."
       },
       "explanation": {
-        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
-        "en": "Past Simple: an irregular verb has a special **V2** form."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -1271,7 +1256,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "My",
+        "my",
         "sister",
         "finished",
         "school",
@@ -1280,7 +1265,7 @@
       ],
       "answers": [
         [
-          "My",
+          "my",
           "sister",
           "finished",
           "school",
@@ -1292,8 +1277,8 @@
         "ru": "Моя сестра закончила школу в 2020 году."
       },
       "explanation": {
-        "ru": "Past Simple: к правильному глаголу добавляем **-ed**.",
-        "en": "Past Simple: add **-ed** to a regular verb."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -1309,14 +1294,14 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "came",
         "home",
         "late"
       ],
       "answers": [
         [
-          "We",
+          "we",
           "came",
           "home",
           "late"
@@ -1326,8 +1311,8 @@
         "ru": "Мы пришли домой поздно."
       },
       "explanation": {
-        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
-        "en": "Past Simple: an irregular verb has a special **V2** form."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -1343,7 +1328,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "lost",
         "her",
         "keys",
@@ -1352,7 +1337,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "lost",
           "her",
           "keys",
@@ -1364,8 +1349,8 @@
         "ru": "Она потеряла ключи вчера утром."
       },
       "explanation": {
-        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
-        "en": "Past Simple: an irregular verb has a special **V2** form."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -1381,7 +1366,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "He",
+        "he",
         "wrote",
         "me",
         "a",
@@ -1391,7 +1376,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "wrote",
           "me",
           "a",
@@ -1404,8 +1389,8 @@
         "ru": "Он написал мне письмо на прошлой неделе."
       },
       "explanation": {
-        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
-        "en": "Past Simple: an irregular verb has a special **V2** form."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -1421,7 +1406,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "children",
         "played",
         "in",
@@ -1432,7 +1417,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "children",
           "played",
           "in",
@@ -1446,8 +1431,8 @@
         "ru": "Дети поиграли в саду после школы."
       },
       "explanation": {
-        "ru": "Past Simple: к правильному глаголу добавляем **-ed**.",
-        "en": "Past Simple: add **-ed** to a regular verb."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -1463,7 +1448,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "did",
         "my",
         "homework",
@@ -1472,7 +1457,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "did",
           "my",
           "homework",
@@ -1484,8 +1469,8 @@
         "ru": "Я сделал уроки до ужина."
       },
       "explanation": {
-        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
-        "en": "Past Simple: an irregular verb has a special **V2** form."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -1501,7 +1486,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "bought",
         "some",
         "bread",
@@ -1512,7 +1497,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "bought",
           "some",
           "bread",
@@ -1526,8 +1511,8 @@
         "ru": "Мы купили хлеб по дороге домой."
       },
       "explanation": {
-        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
-        "en": "Past Simple: an irregular verb has a special **V2** form."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -1543,7 +1528,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "called",
         "me",
         "three",
@@ -1552,7 +1537,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "called",
           "me",
           "three",
@@ -1564,8 +1549,8 @@
         "ru": "Она позвонила мне три дня назад."
       },
       "explanation": {
-        "ru": "Past Simple: к правильному глаголу добавляем **-ed**.",
-        "en": "Past Simple: add **-ed** to a regular verb."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -1581,7 +1566,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "He",
+        "he",
         "worked",
         "in",
         "the",
@@ -1591,7 +1576,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "worked",
           "in",
           "the",
@@ -1604,8 +1589,8 @@
         "ru": "Он работал в саду всё утро."
       },
       "explanation": {
-        "ru": "Past Simple: к правильному глаголу добавляем **-ed**.",
-        "en": "Past Simple: add **-ed** to a regular verb."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -1621,7 +1606,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "stayed",
         "in",
         "a",
@@ -1630,7 +1615,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "stayed",
           "in",
           "a",
@@ -1642,8 +1627,8 @@
         "ru": "Мы остановились в маленьком отеле."
       },
       "explanation": {
-        "ru": "Past Simple: к правильному глаголу добавляем **-ed**.",
-        "en": "Past Simple: add **-ed** to a regular verb."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -1659,7 +1644,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "forgot",
         "my",
         "umbrella",
@@ -1669,7 +1654,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "forgot",
           "my",
           "umbrella",
@@ -1682,8 +1667,8 @@
         "ru": "Я забыл свой зонт в автобусе."
       },
       "explanation": {
-        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
-        "en": "Past Simple: an irregular verb has a special **V2** form."
+        "ru": "Русское предложение: законченное действие в прошлом, поэтому используем Past Simple: V2.",
+        "en": "The Russian sentence: a finished action in the past, so we use Past Simple: V2."
       },
       "tags": [
         "tense-past-simple",
@@ -1699,7 +1684,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "did",
         "not",
         "see",
@@ -1708,7 +1693,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "did",
           "not",
           "see",
@@ -1720,8 +1705,8 @@
         "ru": "Я не видел этот фильм."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V** (начальная форма).",
-        "en": "Negative: **did not + V** (base form)."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -1737,7 +1722,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "did",
         "not",
         "come",
@@ -1747,7 +1732,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "did",
           "not",
           "come",
@@ -1760,8 +1745,8 @@
         "ru": "Она не пришла на вечеринку."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V** (начальная форма).",
-        "en": "Negative: **did not + V** (base form)."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -1777,7 +1762,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "did",
         "not",
         "know",
@@ -1786,7 +1771,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "did",
           "not",
           "know",
@@ -1798,8 +1783,8 @@
         "ru": "Мы не знали ответа."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V** (начальная форма).",
-        "en": "Negative: **did not + V** (base form)."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -1815,7 +1800,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "did",
         "not",
         "answer",
@@ -1824,7 +1809,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "did",
           "not",
           "answer",
@@ -1836,8 +1821,8 @@
         "ru": "Он не ответил на звонок."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V**.",
-        "en": "Negative: **did not + V**."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -1853,7 +1838,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "did",
         "not",
         "go",
@@ -1862,7 +1847,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "did",
           "not",
           "go",
@@ -1874,8 +1859,8 @@
         "ru": "Они не поехали на поезде."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V** (начальная форма).",
-        "en": "Negative: **did not + V** (base form)."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -1891,7 +1876,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "did",
         "not",
         "hear",
@@ -1900,7 +1885,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "did",
           "not",
           "hear",
@@ -1912,8 +1897,8 @@
         "ru": "Я не слышал будильник."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V** (начальная форма).",
-        "en": "Negative: **did not + V** (base form)."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -1929,7 +1914,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "did",
         "not",
         "have",
@@ -1939,7 +1924,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "did",
           "not",
           "have",
@@ -1952,8 +1937,8 @@
         "ru": "Она не позавтракала сегодня утром."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V** (начальная форма).",
-        "en": "Negative: **did not + V** (base form)."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -1969,7 +1954,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "did",
         "not",
         "play",
@@ -1978,7 +1963,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "did",
           "not",
           "play",
@@ -1990,8 +1975,8 @@
         "ru": "Мы не играли в теннис вчера."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V**.",
-        "en": "Negative: **did not + V**."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -2007,7 +1992,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "did",
         "not",
         "buy",
@@ -2016,7 +2001,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "did",
           "not",
           "buy",
@@ -2028,8 +2013,8 @@
         "ru": "Он не купил билеты."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V** (начальная форма).",
-        "en": "Negative: **did not + V** (base form)."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -2045,7 +2030,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "children",
         "did",
         "not",
@@ -2057,7 +2042,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "children",
           "did",
           "not",
@@ -2072,8 +2057,8 @@
         "ru": "Дети не легли спать вовремя."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V** (начальная форма).",
-        "en": "Negative: **did not + V** (base form)."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -2089,7 +2074,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "did",
         "not",
         "read",
@@ -2098,7 +2083,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "did",
           "not",
           "read",
@@ -2110,8 +2095,8 @@
         "ru": "Я не читал эту статью."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V** (начальная форма).",
-        "en": "Negative: **did not + V** (base form)."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -2127,7 +2112,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "did",
         "not",
         "tell",
@@ -2137,7 +2122,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "did",
           "not",
           "tell",
@@ -2150,8 +2135,8 @@
         "ru": "Она не сказала мне правду."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V** (начальная форма).",
-        "en": "Negative: **did not + V** (base form)."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -2167,7 +2152,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "did",
         "not",
         "live",
@@ -2177,7 +2162,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "did",
           "not",
           "live",
@@ -2190,8 +2175,8 @@
         "ru": "Они не жили в этом доме."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V**.",
-        "en": "Negative: **did not + V**."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -2207,7 +2192,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "My",
+        "my",
         "brother",
         "did",
         "not",
@@ -2217,7 +2202,7 @@
       ],
       "answers": [
         [
-          "My",
+          "my",
           "brother",
           "did",
           "not",
@@ -2230,8 +2215,8 @@
         "ru": "Мой брат не сдал экзамен."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V**.",
-        "en": "Negative: **did not + V**."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -2247,7 +2232,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "did",
         "not",
         "meet",
@@ -2258,7 +2243,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "did",
           "not",
           "meet",
@@ -2272,8 +2257,8 @@
         "ru": "Мы не встретили их на станции."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V** (начальная форма).",
-        "en": "Negative: **did not + V** (base form)."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -2289,7 +2274,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "did",
         "not",
         "forget",
@@ -2298,7 +2283,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "did",
           "not",
           "forget",
@@ -2310,8 +2295,8 @@
         "ru": "Он не забыл ключи."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V** (начальная форма).",
-        "en": "Negative: **did not + V** (base form)."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -2327,29 +2312,29 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "did",
         "not",
         "work",
         "on",
-        "Saturday"
+        "saturday"
       ],
       "answers": [
         [
-          "I",
+          "i",
           "did",
           "not",
           "work",
           "on",
-          "Saturday"
+          "saturday"
         ]
       ],
       "translation": {
         "ru": "Я не работал в субботу."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V**.",
-        "en": "Negative: **did not + V**."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -2365,7 +2350,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "did",
         "not",
         "open",
@@ -2374,7 +2359,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "did",
           "not",
           "open",
@@ -2386,8 +2371,8 @@
         "ru": "Она не открыла окно."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V**.",
-        "en": "Negative: **did not + V**."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -2403,7 +2388,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "did",
         "not",
         "catch",
@@ -2413,7 +2398,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "did",
           "not",
           "catch",
@@ -2426,8 +2411,8 @@
         "ru": "Они не успели на последний автобус."
       },
       "explanation": {
-        "ru": "Отрицание: **did not + V** (начальная форма).",
-        "en": "Negative: **did not + V** (base form)."
+        "ru": "Русское предложение: законченное действие в прошлом в отрицании, поэтому используем Past Simple: did + not + V.",
+        "en": "The Russian sentence: a finished action in the past in the negative, so we use Past Simple: did + not + V."
       },
       "tags": [
         "tense-past-simple",
@@ -2443,18 +2428,18 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Did",
+        "did",
         "you",
         "watch",
-        "TV",
+        "tv",
         "yesterday"
       ],
       "answers": [
         [
-          "Did",
+          "did",
           "you",
           "watch",
-          "TV",
+          "tv",
           "yesterday"
         ]
       ],
@@ -2462,8 +2447,8 @@
         "ru": "Ты смотрел телевизор вчера?"
       },
       "explanation": {
-        "ru": "Вопрос: **Did + V …?**",
-        "en": "Question: **Did + V …?**"
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -2479,7 +2464,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Where",
+        "where",
         "were",
         "you",
         "last",
@@ -2487,7 +2472,7 @@
       ],
       "answers": [
         [
-          "Where",
+          "where",
           "were",
           "you",
           "last",
@@ -2498,8 +2483,8 @@
         "ru": "Где ты был вчера вечером?"
       },
       "explanation": {
-        "ru": "Вопрос с be: **Was / Were …?**",
-        "en": "Question with be: **Was / Were …?**"
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -2515,14 +2500,14 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Where",
+        "where",
         "did",
         "they",
         "go"
       ],
       "answers": [
         [
-          "Where",
+          "where",
           "did",
           "they",
           "go"
@@ -2532,8 +2517,8 @@
         "ru": "Куда они пошли?"
       },
       "explanation": {
-        "ru": "Вопрос: **Did + V …?** (начальная форма).",
-        "en": "Question: **Did + V …?** (base form)."
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -2549,14 +2534,14 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "What",
+        "what",
         "did",
         "she",
         "say"
       ],
       "answers": [
         [
-          "What",
+          "what",
           "did",
           "she",
           "say"
@@ -2566,8 +2551,8 @@
         "ru": "Что она сказала?"
       },
       "explanation": {
-        "ru": "Вопрос: **Did + V …?** (начальная форма).",
-        "en": "Question: **Did + V …?** (base form)."
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -2583,7 +2568,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Did",
+        "did",
         "you",
         "like",
         "the",
@@ -2591,7 +2576,7 @@
       ],
       "answers": [
         [
-          "Did",
+          "did",
           "you",
           "like",
           "the",
@@ -2602,8 +2587,8 @@
         "ru": "Тебе понравился фильм?"
       },
       "explanation": {
-        "ru": "Вопрос: **Did + V …?**",
-        "en": "Question: **Did + V …?**"
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -2619,14 +2604,14 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "When",
+        "when",
         "did",
         "he",
         "call"
       ],
       "answers": [
         [
-          "When",
+          "when",
           "did",
           "he",
           "call"
@@ -2636,8 +2621,8 @@
         "ru": "Когда он позвонил?"
       },
       "explanation": {
-        "ru": "Вопрос: **Did + V …?**",
-        "en": "Question: **Did + V …?**"
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -2653,14 +2638,14 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Why",
+        "why",
         "were",
         "you",
         "late"
       ],
       "answers": [
         [
-          "Why",
+          "why",
           "were",
           "you",
           "late"
@@ -2670,8 +2655,8 @@
         "ru": "Почему ты опоздал?"
       },
       "explanation": {
-        "ru": "Вопрос с be: **Was / Were …?**",
-        "en": "Question with be: **Was / Were …?**"
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -2687,7 +2672,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Did",
+        "did",
         "you",
         "meet",
         "in",
@@ -2696,7 +2681,7 @@
       ],
       "answers": [
         [
-          "Did",
+          "did",
           "you",
           "meet",
           "in",
@@ -2708,8 +2693,8 @@
         "ru": "Вы встретились в парке?"
       },
       "explanation": {
-        "ru": "Вопрос: **Did + V …?** (начальная форма).",
-        "en": "Question: **Did + V …?** (base form)."
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -2725,7 +2710,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "How",
+        "how",
         "long",
         "did",
         "it",
@@ -2733,7 +2718,7 @@
       ],
       "answers": [
         [
-          "How",
+          "how",
           "long",
           "did",
           "it",
@@ -2744,8 +2729,8 @@
         "ru": "Сколько времени это заняло?"
       },
       "explanation": {
-        "ru": "Вопрос: **Did + V …?** (начальная форма).",
-        "en": "Question: **Did + V …?** (base form)."
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -2761,14 +2746,14 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Who",
+        "who",
         "opened",
         "the",
         "door"
       ],
       "answers": [
         [
-          "Who",
+          "who",
           "opened",
           "the",
           "door"
@@ -2778,8 +2763,8 @@
         "ru": "Кто открыл дверь?"
       },
       "explanation": {
-        "ru": "Вопрос: **Did + V …?**",
-        "en": "Question: **Did + V …?**"
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -2795,7 +2780,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Did",
+        "did",
         "you",
         "buy",
         "the",
@@ -2803,7 +2788,7 @@
       ],
       "answers": [
         [
-          "Did",
+          "did",
           "you",
           "buy",
           "the",
@@ -2814,8 +2799,8 @@
         "ru": "Ты купил билеты?"
       },
       "explanation": {
-        "ru": "Вопрос: **Did + V …?** (начальная форма).",
-        "en": "Question: **Did + V …?** (base form)."
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -2831,7 +2816,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "How",
+        "how",
         "did",
         "she",
         "get",
@@ -2839,7 +2824,7 @@
       ],
       "answers": [
         [
-          "How",
+          "how",
           "did",
           "she",
           "get",
@@ -2850,8 +2835,8 @@
         "ru": "Как она добралась до дома?"
       },
       "explanation": {
-        "ru": "Вопрос: **Did + V …?** (начальная форма).",
-        "en": "Question: **Did + V …?** (base form)."
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -2867,7 +2852,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Did",
+        "did",
         "they",
         "arrive",
         "on",
@@ -2875,7 +2860,7 @@
       ],
       "answers": [
         [
-          "Did",
+          "did",
           "they",
           "arrive",
           "on",
@@ -2886,8 +2871,8 @@
         "ru": "Они пришли вовремя?"
       },
       "explanation": {
-        "ru": "Вопрос: **Did + V …?**",
-        "en": "Question: **Did + V …?**"
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -2903,7 +2888,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Did",
+        "did",
         "you",
         "see",
         "my",
@@ -2911,7 +2896,7 @@
       ],
       "answers": [
         [
-          "Did",
+          "did",
           "you",
           "see",
           "my",
@@ -2922,8 +2907,8 @@
         "ru": "Ты видел мои ключи?"
       },
       "explanation": {
-        "ru": "Вопрос: **Did + V …?** (начальная форма).",
-        "en": "Question: **Did + V …?** (base form)."
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -2939,7 +2924,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Why",
+        "why",
         "did",
         "she",
         "not",
@@ -2947,7 +2932,7 @@
       ],
       "answers": [
         [
-          "Why",
+          "why",
           "did",
           "she",
           "not",
@@ -2958,8 +2943,8 @@
         "ru": "Почему она не позвонила?"
       },
       "explanation": {
-        "ru": "Вопрос: **Did + V …?**",
-        "en": "Question: **Did + V …?**"
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -2975,7 +2960,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "What",
+        "what",
         "did",
         "you",
         "eat",
@@ -2984,7 +2969,7 @@
       ],
       "answers": [
         [
-          "What",
+          "what",
           "did",
           "you",
           "eat",
@@ -2996,8 +2981,8 @@
         "ru": "Что вы ели на ужин?"
       },
       "explanation": {
-        "ru": "Вопрос: **Did + V …?** (начальная форма).",
-        "en": "Question: **Did + V …?** (base form)."
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -3013,7 +2998,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Were",
+        "were",
         "you",
         "at",
         "the",
@@ -3021,7 +3006,7 @@
       ],
       "answers": [
         [
-          "Were",
+          "were",
           "you",
           "at",
           "the",
@@ -3032,8 +3017,8 @@
         "ru": "Ты был в музее?"
       },
       "explanation": {
-        "ru": "Вопрос с be: **Was / Were …?**",
-        "en": "Question with be: **Was / Were …?**"
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -3049,14 +3034,14 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Where",
+        "where",
         "did",
         "you",
         "stay"
       ],
       "answers": [
         [
-          "Where",
+          "where",
           "did",
           "you",
           "stay"
@@ -3066,8 +3051,8 @@
         "ru": "Где вы остановились?"
       },
       "explanation": {
-        "ru": "Вопрос: **Did + V …?**",
-        "en": "Question: **Did + V …?**"
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",
@@ -3083,7 +3068,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "When",
+        "when",
         "did",
         "the",
         "concert",
@@ -3091,7 +3076,7 @@
       ],
       "answers": [
         [
-          "When",
+          "when",
           "did",
           "the",
           "concert",
@@ -3102,8 +3087,8 @@
         "ru": "Когда начался концерт?"
       },
       "explanation": {
-        "ru": "Вопрос: **Did + V …?**",
-        "en": "Question: **Did + V …?**"
+        "ru": "Русское предложение: вопрос о законченном действии, поэтому используем Past Simple: Did + V?",
+        "en": "The Russian sentence: a question about a finished action, so we use Past Simple: Did + V?"
       },
       "tags": [
         "tense-past-simple",

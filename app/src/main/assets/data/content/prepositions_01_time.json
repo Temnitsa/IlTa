@@ -27,14 +27,14 @@
             "en": "At: exact time"
           },
           "body": {
-            "ru": "Предлог at используется, когда время воспринимается как точка: точное время по часам, полдень, полночь, время обеда. Сюда же относятся устойчивые сочетания со словами night, weekend и названиями праздников — в них at фиксирован. Праздник как период (рождественские каникулы) обычно требует at, а конкретный день праздника — on.",
-            "en": "We use at when time is seen as a point: an exact clock time, noon, midnight or lunchtime. The same preposition appears in fixed phrases with night, weekend and the names of holidays, where at is fixed. A holiday as a period usually takes at, while the specific day of a holiday takes on."
+            "ru": "Предлог **at** используется, когда время воспринимается как точка: точное время по часам, полдень, полночь, время обеда. Сюда же относятся устойчивые сочетания со словами night, weekend и названиями праздников — в них **at** фиксирован. Праздник как период (рождественские каникулы) обычно требует **at**, а конкретный день праздника — **on**.",
+            "en": "We use **at** when time is seen **as** a point: an exact clock time, noon, midnight or lunchtime. The same preposition appears **in** fixed phrases **with** night, weekend and the names **of** holidays, where **at** is fixed. A holiday **as** a period usually takes **at**, while the specific day **of** a holiday takes **on**."
           },
           "examples": [
-            "at 7 o'clock",
-            "at noon",
-            "at night",
-            "at Christmas"
+            "**at** 7 o'clock",
+            "**at** noon",
+            "**at night**",
+            "**at** Christmas"
           ]
         },
         {
@@ -43,14 +43,14 @@
             "en": "On: days and dates"
           },
           "body": {
-            "ru": "Предлог on нужен для дней недели, календарных дат и дней с уточнением. Если день сочетается с частью дня, предлог выбирается по дню, а не по части дня.",
-            "en": "We use on for days of the week, calendar dates and days with a modifier. When a day is combined with a part of the day, the preposition comes from the day, not from the part of the day."
+            "ru": "Предлог **on** нужен для дней недели, календарных дат и дней с уточнением. Если день сочетается с частью дня, предлог выбирается по дню, а не по части дня.",
+            "en": "We use **on** **for** days **of** the week, calendar dates and days **with** a modifier. When a day is combined **with** a part **of** the day, the preposition comes **from** the day, not **from** the part **of** the day."
           },
           "examples": [
-            "on Monday",
-            "on 5 May",
-            "on Monday morning",
-            "on a rainy morning"
+            "**on Monday**",
+            "**on** 5 May",
+            "**on Monday** morning",
+            "**on** a rainy morning"
           ]
         },
         {
@@ -59,15 +59,15 @@
             "en": "In: months, years, seasons, parts of the day"
           },
           "body": {
-            "ru": "Предлог in ставим с месяцами, годами, десятилетиями, веками, временами года и частями дня, если не названа конкретная дата. In с отрезком времени в будущем значит «через». Слова last, next, this и every предлога не требуют.",
-            "en": "We use in with months, years, decades, centuries, seasons and parts of the day when no particular date is given. With a period of time in the future in means 'after'. The words last, next, this and every take no preposition."
+            "ru": "Предлог **in** ставим с месяцами, годами, десятилетиями, веками, временами года и частями дня, если не названа конкретная дата. **In** с отрезком времени в будущем значит «через». Слова last, next, this и every предлога не требуют.",
+            "en": "We use **in** **with** months, years, decades, centuries, seasons and parts **of** the day when no particular date is given. **With** a period **of** time **in** the future **in** means 'after'. The words last, next, this and every take no preposition."
           },
           "examples": [
-            "in July",
-            "in 2025",
-            "in the morning",
-            "in winter",
-            "in two hours"
+            "**in** July",
+            "**in** 2025",
+            "**in the morning**",
+            "**in** winter",
+            "**in** two hours"
           ]
         },
         {
@@ -76,15 +76,15 @@
             "en": "By, until, for, since, during"
           },
           "body": {
-            "ru": "By указывает на срок, к которому действие завершится; until — на момент, до которого действие продолжается. For называет длительность, since — начало отсчёта в Perfect, during — период или событие, внутри которого что-то происходит. Для порядка событий используем before и after; from … to … показывает начало и конец периода; till/until — «до какого момента».",
-            "en": "By marks a deadline by which something is finished; until marks the moment up to which an action continues. For names a length of time, since marks the starting point in perfect tenses, and during names a period or event within which something happens. For the order of events use before and after; from … to … marks the start and end of a period; till/until means “up to a point in time”."
+            "ru": "**By** указывает на срок, к которому действие завершится; **until** — на момент, до которого действие продолжается. **For** называет длительность, **since** — начало отсчёта в Perfect, **during** — период или событие, внутри которого что-то происходит. Для порядка событий используем before и after; **from** … **to** … показывает начало и конец периода; till/**until** — «до какого момента».",
+            "en": "**By** marks a deadline **by** which something is finished; **until** marks the moment **up** **to** which an action continues. **For** names a length **of** time, **since** marks the starting point **in** perfect tenses, and **during** names a period or event within which something happens. **For** the order **of** events use before and after; **from** … **to** … marks the start and end **of** a period; till/**until** means “**up** **to** a point **in time**”."
           },
           "examples": [
-            "by Friday",
-            "until midnight",
-            "for two weeks",
-            "since 2018",
-            "during the lesson"
+            "**by** Friday",
+            "**until** midnight",
+            "**for** two weeks",
+            "**since** 2018",
+            "**during** the lesson"
           ]
         }
       ]

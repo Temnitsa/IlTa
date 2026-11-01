@@ -17,8 +17,8 @@
         "en": "Future Simple"
       },
       "summary": {
-        "ru": "**will + V** для будущего: предсказания, обещания, решения сейчас и предложения помощи; маркеры: *tomorrow*, *next week*, *soon*.",
-        "en": "**will + V** for the future: predictions, promises, decisions now and offers of help; markers: *tomorrow*, *next week*, *soon*."
+        "ru": "(+) will + V · (–) will + not + V · (?) Will + V?",
+        "en": "(+) will + V · (–) will + not + V · (?) Will + V?"
       },
       "sections": [
         {
@@ -27,8 +27,8 @@
             "en": "Form"
           },
           "body": {
-            "ru": "**(+)** will + V — утверждение\n**(–)** will not + V\n**(?)** Will + V?\n**V** = go, see, finish.",
-            "en": "**(+)** will + V\n**(–)** will not + V\n**(?)** Will + V?\n**V** = go, see, finish."
+            "ru": "(+) **will + V**\n(–) **will + not** + V\n(?) **Will** + V?",
+            "en": "(+) **will + V**\n(–) **will + not** + V\n(?) **Will** + V?"
           },
           "examples": [
             "I will phone you later.",
@@ -64,21 +64,6 @@
             "We will meet next week.",
             "The film will start at eight.",
             "She will start her new job next year."
-          ]
-        },
-        {
-          "heading": {
-            "ru": "Ошибки",
-            "en": "Mistakes"
-          },
-          "body": {
-            "ru": "- **не** *will to go* → *will go*\n- **не** *will goes* → *will go*\n- *when/if/before/after* + Present Simple, *will* — только в главной части",
-            "en": "- **no** *will to go* → *will go*\n- **no** *will goes* → *will go*\n- *when/if/before/after* + Present Simple, *will* only in the main clause"
-          },
-          "examples": [
-            "I will call you when I get home.",
-            "If it is cold, we will stay inside.",
-            "We will leave when the taxi comes."
           ]
         }
       ]
@@ -611,7 +596,7 @@
       "ruleId": "tense-future-simple",
       "level": "A1",
       "words": [
-        "I",
+        "i",
         "will",
         "send",
         "you",
@@ -620,7 +605,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "will",
           "send",
           "you",
@@ -632,8 +617,8 @@
         "ru": "Я отправлю тебе письмо по электронной почте."
       },
       "explanation": {
-        "ru": "Future Simple: **will + V** — will стоит перед глаголом.",
-        "en": "Future Simple: **will + V**."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -648,7 +633,7 @@
       "ruleId": "tense-future-simple",
       "level": "A1",
       "words": [
-        "He",
+        "he",
         "will",
         "not",
         "be",
@@ -658,7 +643,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "will",
           "not",
           "be",
@@ -671,8 +656,8 @@
         "ru": "Завтра его не будет в школе."
       },
       "explanation": {
-        "ru": "Отрицание в Future Simple: will not + начальная форма; tomorrow указывает на будущее.",
-        "en": "Future Simple negative: will not + base form; tomorrow shows the future."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -687,7 +672,7 @@
       "ruleId": "tense-future-simple",
       "level": "A1",
       "words": [
-        "Will",
+        "will",
         "they",
         "help",
         "us",
@@ -697,7 +682,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "they",
           "help",
           "us",
@@ -710,8 +695,8 @@
         "ru": "Они помогут нам с сумками?"
       },
       "explanation": {
-        "ru": "Вопрос Future Simple: **Will + V?**",
-        "en": "Future Simple question: **Will + V?**"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -726,7 +711,7 @@
       "ruleId": "tense-future-simple",
       "level": "A1",
       "words": [
-        "They",
+        "they",
         "will",
         "arrive",
         "at",
@@ -737,7 +722,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "will",
           "arrive",
           "at",
@@ -751,8 +736,8 @@
         "ru": "Завтра утром они приедут на вокзал."
       },
       "explanation": {
-        "ru": "Future Simple: will + arrive; обстоятельство времени tomorrow morning стоит в конце.",
-        "en": "Future Simple: will + arrive; the time phrase tomorrow morning comes at the end."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -767,7 +752,7 @@
       "ruleId": "tense-future-simple",
       "level": "A1",
       "words": [
-        "It",
+        "it",
         "will",
         "be",
         "sunny",
@@ -778,7 +763,7 @@
       ],
       "answers": [
         [
-          "It",
+          "it",
           "will",
           "be",
           "sunny",
@@ -792,8 +777,8 @@
         "ru": "На следующей неделе будет солнечно и тепло."
       },
       "explanation": {
-        "ru": "Предсказание о погоде: will be + прилагательные; next week — маркер будущего.",
-        "en": "A weather prediction: will be + adjectives; next week is a future marker."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1054,7 +1039,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "will",
         "call",
         "you",
@@ -1062,7 +1047,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "will",
           "call",
           "you",
@@ -1073,8 +1058,8 @@
         "ru": "Я позвоню тебе позже."
       },
       "explanation": {
-        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
-        "en": "Future Simple: will + V. A future action or prediction."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1089,7 +1074,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "will",
         "meet",
         "at",
@@ -1100,7 +1085,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "will",
           "meet",
           "at",
@@ -1114,8 +1099,8 @@
         "ru": "Мы встретимся в кинотеатре в семь."
       },
       "explanation": {
-        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
-        "en": "Future Simple: will + V. A future action or prediction."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1130,33 +1115,33 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "will",
         "start",
         "her",
         "new",
         "job",
         "on",
-        "Monday"
+        "monday"
       ],
       "answers": [
         [
-          "She",
+          "she",
           "will",
           "start",
           "her",
           "new",
           "job",
           "on",
-          "Monday"
+          "monday"
         ]
       ],
       "translation": {
         "ru": "Она начнёт новую работу в понедельник."
       },
       "explanation": {
-        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
-        "en": "Future Simple: will + V. A future action or prediction."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1171,7 +1156,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "They",
+        "they",
         "will",
         "move",
         "to",
@@ -1183,7 +1168,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "will",
           "move",
           "to",
@@ -1198,8 +1183,8 @@
         "ru": "В следующем году они переедут в дом побольше."
       },
       "explanation": {
-        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
-        "en": "Future Simple: will + V. A future action or prediction."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1214,7 +1199,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "He",
+        "he",
         "will",
         "bring",
         "the",
@@ -1223,7 +1208,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "will",
           "bring",
           "the",
@@ -1235,8 +1220,8 @@
         "ru": "Завтра он принесёт документы."
       },
       "explanation": {
-        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
-        "en": "Future Simple: will + V. A future action or prediction."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1251,7 +1236,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "will",
         "help",
         "you",
@@ -1261,7 +1246,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "will",
           "help",
           "you",
@@ -1274,8 +1259,8 @@
         "ru": "Я помогу тебе с ужином."
       },
       "explanation": {
-        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
-        "en": "Future Simple: will + V. A future action or prediction."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1290,7 +1275,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "train",
         "will",
         "arrive",
@@ -1299,7 +1284,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "train",
           "will",
           "arrive",
@@ -1311,8 +1296,8 @@
         "ru": "Поезд прибудет в шесть."
       },
       "explanation": {
-        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
-        "en": "Future Simple: will + V. A future action or prediction."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1327,7 +1312,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "will",
         "visit",
         "our",
@@ -1337,7 +1322,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "will",
           "visit",
           "our",
@@ -1350,8 +1335,8 @@
         "ru": "В следующие выходные мы навестим бабушку с дедушкой."
       },
       "explanation": {
-        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
-        "en": "Future Simple: will + V. A future action or prediction."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1366,7 +1351,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "will",
         "send",
         "me",
@@ -1376,7 +1361,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "will",
           "send",
           "me",
@@ -1389,8 +1374,8 @@
         "ru": "Сегодня вечером она пришлёт мне фотографии."
       },
       "explanation": {
-        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
-        "en": "Future Simple: will + V. A future action or prediction."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1405,7 +1390,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "They",
+        "they",
         "will",
         "play",
         "football",
@@ -1414,7 +1399,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "will",
           "play",
           "football",
@@ -1426,8 +1411,8 @@
         "ru": "После школы они будут играть в футбол."
       },
       "explanation": {
-        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
-        "en": "Future Simple: will + V. A future action or prediction."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1442,31 +1427,31 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "He",
+        "he",
         "will",
         "finish",
         "the",
         "report",
         "by",
-        "Friday"
+        "friday"
       ],
       "answers": [
         [
-          "He",
+          "he",
           "will",
           "finish",
           "the",
           "report",
           "by",
-          "Friday"
+          "friday"
         ]
       ],
       "translation": {
         "ru": "К пятнице он закончит отчёт."
       },
       "explanation": {
-        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
-        "en": "Future Simple: will + V. A future action or prediction."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1481,7 +1466,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "will",
         "see",
         "you",
@@ -1492,7 +1477,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "will",
           "see",
           "you",
@@ -1506,8 +1491,8 @@
         "ru": "Завтра я увижу тебя на собрании."
       },
       "explanation": {
-        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
-        "en": "Future Simple: will + V. A future action or prediction."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1522,7 +1507,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "concert",
         "will",
         "begin",
@@ -1531,7 +1516,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "concert",
           "will",
           "begin",
@@ -1543,8 +1528,8 @@
         "ru": "Концерт начнётся в восемь."
       },
       "explanation": {
-        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
-        "en": "Future Simple: will + V. A future action or prediction."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1559,7 +1544,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "will",
         "buy",
         "the",
@@ -1568,7 +1553,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "will",
           "buy",
           "the",
@@ -1580,8 +1565,8 @@
         "ru": "Мы купим билеты онлайн."
       },
       "explanation": {
-        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
-        "en": "Future Simple: will + V. A future action or prediction."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1596,7 +1581,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "will",
         "learn",
         "to",
@@ -1606,7 +1591,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "will",
           "learn",
           "to",
@@ -1619,8 +1604,8 @@
         "ru": "Следующим летом она научится водить."
       },
       "explanation": {
-        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
-        "en": "Future Simple: will + V. A future action or prediction."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1635,7 +1620,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "They",
+        "they",
         "will",
         "stay",
         "in",
@@ -1647,7 +1632,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "will",
           "stay",
           "in",
@@ -1662,8 +1647,8 @@
         "ru": "Они остановятся в отеле у пляжа."
       },
       "explanation": {
-        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
-        "en": "Future Simple: will + V. A future action or prediction."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1678,7 +1663,7 @@
       "level": "A1",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "shop",
         "will",
         "open",
@@ -1688,7 +1673,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "shop",
           "will",
           "open",
@@ -1701,8 +1686,8 @@
         "ru": "Завтра магазин откроется в девять."
       },
       "explanation": {
-        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
-        "en": "Future Simple: will + V. A future action or prediction."
+        "ru": "Русское предложение: решение, обещание или предсказание, поэтому используем Future Simple: will + V.",
+        "en": "The Russian sentence: a decision, promise or prediction, so we use Future Simple: will + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1717,7 +1702,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "will",
         "not",
         "be",
@@ -1726,7 +1711,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "will",
           "not",
           "be",
@@ -1738,8 +1723,8 @@
         "ru": "Я больше не опоздаю."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1754,7 +1739,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "will",
         "not",
         "forget",
@@ -1763,7 +1748,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "will",
           "not",
           "forget",
@@ -1775,8 +1760,8 @@
         "ru": "Мы не забудем твой день рождения."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1791,7 +1776,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "will",
         "not",
         "come",
@@ -1802,7 +1787,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "will",
           "not",
           "come",
@@ -1816,8 +1801,8 @@
         "ru": "Сегодня вечером она не придёт на вечеринку."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1832,7 +1817,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "will",
         "not",
         "finish",
@@ -1842,7 +1827,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "will",
           "not",
           "finish",
@@ -1855,8 +1840,8 @@
         "ru": "Сегодня они не закончат работу."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1871,7 +1856,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "will",
         "not",
         "buy",
@@ -1881,7 +1866,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "will",
           "not",
           "buy",
@@ -1894,8 +1879,8 @@
         "ru": "Он не купит ту дорогую машину."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1910,7 +1895,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "will",
         "not",
         "tell",
@@ -1920,7 +1905,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "will",
           "not",
           "tell",
@@ -1933,8 +1918,8 @@
         "ru": "Я никому не расскажу твой секрет."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1949,7 +1934,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "children",
         "will",
         "not",
@@ -1960,7 +1945,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "children",
           "will",
           "not",
@@ -1974,8 +1959,8 @@
         "ru": "Дети не лягут спать поздно."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -1990,7 +1975,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "will",
         "not",
         "need",
@@ -2000,7 +1985,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "will",
           "not",
           "need",
@@ -2013,8 +1998,8 @@
         "ru": "Завтра нам не понадобится машина."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -2029,7 +2014,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "will",
         "not",
         "speak",
@@ -2039,7 +2024,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "will",
           "not",
           "speak",
@@ -2052,8 +2037,8 @@
         "ru": "Она не будет выступать на собрании."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -2068,7 +2053,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "will",
         "not",
         "arrive",
@@ -2077,7 +2062,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "will",
           "not",
           "arrive",
@@ -2089,8 +2074,8 @@
         "ru": "Они не приедут до полудня."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -2105,7 +2090,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "will",
         "not",
         "play",
@@ -2116,7 +2101,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "will",
           "not",
           "play",
@@ -2130,8 +2115,8 @@
         "ru": "Он не сыграет в финальном матче."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -2146,7 +2131,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "will",
         "not",
         "drink",
@@ -2156,7 +2141,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "will",
           "not",
           "drink",
@@ -2169,8 +2154,8 @@
         "ru": "Я не буду пить кофе после ужина."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -2185,31 +2170,31 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "restaurant",
         "will",
         "not",
         "open",
         "on",
-        "Sunday"
+        "sunday"
       ],
       "answers": [
         [
-          "The",
+          "the",
           "restaurant",
           "will",
           "not",
           "open",
           "on",
-          "Sunday"
+          "sunday"
         ]
       ],
       "translation": {
         "ru": "Ресторан не откроется в воскресенье."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -2224,7 +2209,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "will",
         "not",
         "stay",
@@ -2235,7 +2220,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "will",
           "not",
           "stay",
@@ -2249,8 +2234,8 @@
         "ru": "Мы больше не остановимся в том отеле."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -2265,7 +2250,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "will",
         "not",
         "wear",
@@ -2275,7 +2260,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "will",
           "not",
           "wear",
@@ -2288,8 +2273,8 @@
         "ru": "Она не наденет зелёное платье."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -2304,7 +2289,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "will",
         "not",
         "sell",
@@ -2314,7 +2299,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "will",
           "not",
           "sell",
@@ -2327,8 +2312,8 @@
         "ru": "Они не продадут старый дом."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -2343,7 +2328,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "will",
         "not",
         "answer",
@@ -2354,7 +2339,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "will",
           "not",
           "answer",
@@ -2368,8 +2353,8 @@
         "ru": "Он не ответит на звонок во время обеда."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -2384,7 +2369,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "will",
         "not",
         "take",
@@ -2395,7 +2380,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "will",
           "not",
           "take",
@@ -2409,8 +2394,8 @@
         "ru": "На этот раз мы не поедем на поезде."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -2425,7 +2410,7 @@
       "level": "A1",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "meeting",
         "will",
         "not",
@@ -2434,7 +2419,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "meeting",
           "will",
           "not",
@@ -2446,8 +2431,8 @@
         "ru": "Собрание не продлится долго."
       },
       "explanation": {
-        "ru": "Future Simple, отрицание: will not + V.",
-        "en": "Future Simple negative: will not + V."
+        "ru": "Русское предложение: решение или обещание в отрицании, поэтому используем Future Simple: will + not + V.",
+        "en": "The Russian sentence: a decision or promise in the negative, so we use Future Simple: will + not + V."
       },
       "tags": [
         "tense-future-simple",
@@ -2462,7 +2447,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "you",
         "come",
         "to",
@@ -2471,7 +2456,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "you",
           "come",
           "to",
@@ -2483,8 +2468,8 @@
         "ru": "Ты придёшь на вечеринку?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -2499,7 +2484,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "she",
         "join",
         "us",
@@ -2508,7 +2493,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "she",
           "join",
           "us",
@@ -2520,8 +2505,8 @@
         "ru": "Она присоединится к нам на ужин?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -2536,31 +2521,31 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "they",
         "finish",
         "the",
         "project",
         "by",
-        "Friday"
+        "friday"
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "they",
           "finish",
           "the",
           "project",
           "by",
-          "Friday"
+          "friday"
         ]
       ],
       "translation": {
         "ru": "Они закончат проект к пятнице?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -2575,7 +2560,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "he",
         "call",
         "me",
@@ -2583,7 +2568,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "he",
           "call",
           "me",
@@ -2594,8 +2579,8 @@
         "ru": "Он позвонит мне сегодня вечером?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -2610,7 +2595,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "we",
         "need",
         "an",
@@ -2619,7 +2604,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "we",
           "need",
           "an",
@@ -2631,8 +2616,8 @@
         "ru": "Завтра нам понадобится зонт?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -2647,7 +2632,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "you",
         "help",
         "me",
@@ -2657,7 +2642,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "you",
           "help",
           "me",
@@ -2670,8 +2655,8 @@
         "ru": "Ты поможешь мне с багажом?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -2686,7 +2671,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "the",
         "train",
         "arrive",
@@ -2695,7 +2680,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "the",
           "train",
           "arrive",
@@ -2707,8 +2692,8 @@
         "ru": "Поезд прибудет вовремя?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -2723,7 +2708,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "she",
         "bring",
         "her",
@@ -2734,7 +2719,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "she",
           "bring",
           "her",
@@ -2748,8 +2733,8 @@
         "ru": "Она приведёт сестру на концерт?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -2764,7 +2749,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "they",
         "move",
         "house",
@@ -2773,7 +2758,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "they",
           "move",
           "house",
@@ -2785,8 +2770,8 @@
         "ru": "В следующем месяце они переедут?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -2801,7 +2786,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "he",
         "find",
         "a",
@@ -2811,7 +2796,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "he",
           "find",
           "a",
@@ -2824,8 +2809,8 @@
         "ru": "Он скоро найдёт новую работу?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -2840,7 +2825,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "you",
         "be",
         "at",
@@ -2850,7 +2835,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "you",
           "be",
           "at",
@@ -2863,8 +2848,8 @@
         "ru": "Ты будешь дома сегодня вечером?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -2879,31 +2864,31 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "the",
         "shop",
         "be",
         "open",
         "on",
-        "Sunday"
+        "sunday"
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "the",
           "shop",
           "be",
           "open",
           "on",
-          "Sunday"
+          "sunday"
         ]
       ],
       "translation": {
         "ru": "Магазин будет открыт в воскресенье?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -2918,7 +2903,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "we",
         "have",
         "enough",
@@ -2928,7 +2913,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "we",
           "have",
           "enough",
@@ -2941,8 +2926,8 @@
         "ru": "У нас будет достаточно времени на обед?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -2957,7 +2942,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "she",
         "tell",
         "us",
@@ -2966,7 +2951,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "she",
           "tell",
           "us",
@@ -2978,8 +2963,8 @@
         "ru": "Она скажет нам правду?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -2994,7 +2979,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "they",
         "invite",
         "their",
@@ -3002,7 +2987,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "they",
           "invite",
           "their",
@@ -3013,8 +2998,8 @@
         "ru": "Они пригласят соседей?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -3029,7 +3014,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "he",
         "come",
         "to",
@@ -3038,7 +3023,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "he",
           "come",
           "to",
@@ -3050,8 +3035,8 @@
         "ru": "Он придёт на собрание?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -3066,7 +3051,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "you",
         "send",
         "me",
@@ -3075,7 +3060,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "you",
           "send",
           "me",
@@ -3087,8 +3072,8 @@
         "ru": "Ты пришлёшь мне адрес?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -3103,7 +3088,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "it",
         "be",
         "cold",
@@ -3111,7 +3096,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "it",
           "be",
           "cold",
@@ -3122,8 +3107,8 @@
         "ru": "Сегодня вечером будет холодно?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",
@@ -3138,7 +3123,7 @@
       "level": "A1",
       "buildKind": "question",
       "words": [
-        "Will",
+        "will",
         "we",
         "see",
         "you",
@@ -3148,7 +3133,7 @@
       ],
       "answers": [
         [
-          "Will",
+          "will",
           "we",
           "see",
           "you",
@@ -3161,8 +3146,8 @@
         "ru": "Мы увидим тебя на выходных?"
       },
       "explanation": {
-        "ru": "Future Simple, вопрос: Will + V?",
-        "en": "Future Simple question: Will + V?"
+        "ru": "Русское предложение: вопрос о будущем решении, поэтому используем Future Simple: Will + V?",
+        "en": "The Russian sentence: a question about a future decision, so we use Future Simple: Will + V?"
       },
       "tags": [
         "tense-future-simple",

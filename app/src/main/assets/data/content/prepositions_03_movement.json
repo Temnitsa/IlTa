@@ -27,15 +27,15 @@
             "en": "To, into, onto, out of, off"
           },
           "body": {
-            "ru": "To называет конечную точку движения. Into означает движение внутрь пространства, onto — на поверхность. Out of — движение изнутри наружу, off — с поверхности или с транспорта.",
-            "en": "To names the end point of movement. Into means moving inside a space, onto means moving onto a surface. Out of means movement from inside to outside, and off means away from a surface or a vehicle."
+            "ru": "**To** называет конечную точку движения. **Into** означает движение внутрь пространства, **onto** — на поверхность. **Out of** — движение изнутри наружу, **off** — с поверхности или с транспорта.",
+            "en": "**To** names the end point **of** movement. **Into** means moving **inside** a space, **onto** means moving **onto** a surface. **Out of** means movement **from** **inside** **to** **outside**, and **off** means away **from** a surface or a vehicle."
           },
           "examples": [
-            "to work",
-            "into the house",
-            "onto the table",
-            "out of the car",
-            "off the bike"
+            "**to** work",
+            "**into** the house",
+            "**onto** the table",
+            "**out of** the car",
+            "**off** the bike"
           ]
         },
         {
@@ -44,14 +44,14 @@
             "en": "Through, across, along"
           },
           "body": {
-            "ru": "Through — движение сквозь замкнутое пространство или внутри него. Across — с одной стороны на другую. Along — вдоль линии или поверхности.",
-            "en": "Through is movement inside an enclosed space or from one end of it to the other. Across is movement from one side to the other. Along is movement following a line or a surface."
+            "ru": "**Through** — движение сквозь замкнутое пространство или внутри него. **Across** — с одной стороны на другую. **Along** — вдоль линии или поверхности.",
+            "en": "**Through** is movement **inside** an enclosed space or **from** one end **of** it **to** the other. **Across** is movement **from** one side **to** the other. **Along** is movement following a line or a surface."
           },
           "examples": [
-            "through the tunnel",
-            "across the road",
-            "along the river",
-            "through the forest"
+            "**through** the tunnel",
+            "**across** the road",
+            "**along** the river",
+            "**through** the forest"
           ]
         },
         {
@@ -60,13 +60,13 @@
             "en": "Over, under, towards, past"
           },
           "body": {
-            "ru": "Over — над препятствием или через его верх, under — под чем-то. Towards показывает направление, но не обязательно достижение цели. Past — мимо чего-то с продолжением движения.",
-            "en": "Over is above an obstacle or across its top, and under is below something. Towards shows a direction without necessarily reaching the goal. Past means moving by something and continuing."
+            "ru": "**Over** — над препятствием или через его верх, **under** — под чем-то. **Towards** показывает направление, но не обязательно достижение цели. Past — мимо чего-то с продолжением движения.",
+            "en": "**Over** is **above** an obstacle or **across** its top, and **under** is **below** something. **Towards** shows a direction **without** necessarily reaching the goal. Past means moving **by** something and continuing."
           },
           "examples": [
-            "over the fence",
-            "under the bridge",
-            "towards the station",
+            "**over** the fence",
+            "**under** the bridge",
+            "**towards** the station",
             "past the school"
           ]
         },
@@ -76,13 +76,13 @@
             "en": "Around/round and other combinations"
           },
           "body": {
-            "ru": "Around, а в британском английском и round, описывает круговое движение или движение вокруг чего-то. From … to называет начало и конец маршрута; в речи встречаются и другие пары предлогов.",
-            "en": "Around — and in British English also round — describes circular movement or movement surrounding something. From … to names the start and end of a route; other pairs of prepositions also occur in speech."
+            "ru": "**Around**, а в британском английском и round, описывает круговое движение или движение вокруг чего-то. **From** … **to** называет начало и конец маршрута; в речи встречаются и другие пары предлогов.",
+            "en": "**Around** — and **in** British English also round — describes circular movement or movement surrounding something. **From** … **to** names the start and end **of** a route; other pairs **of** prepositions also occur **in** speech."
           },
           "examples": [
-            "around the lake",
+            "**around** the lake",
             "round the garden",
-            "from the village to the coast"
+            "**from** the village **to** the coast"
           ]
         }
       ]

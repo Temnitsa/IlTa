@@ -17,8 +17,8 @@
         "en": "Present Perfect: form and meaning"
       },
       "summary": {
-        "ru": "Формулы, случаи употребления, маркеры и типичные ошибки Present Perfect — коротко и по делу.",
-        "en": "Present Perfect formulas, uses, markers and typical mistakes — short and clear."
+        "ru": "(+) have / has + V3 · (–) have / has + not + V3 · (?) Have / Has + V3?",
+        "en": "(+) have / has + V3 · (–) have / has + not + V3 · (?) Have / Has + V3?"
       },
       "sections": [
         {
@@ -27,8 +27,8 @@
             "en": "Form"
           },
           "body": {
-            "ru": "(+) have / has + V3\n(–) have not / has not + V3\n(?) Have / Has + V3?",
-            "en": "(+) have / has + V3\n(–) have not / has not + V3\n(?) Have / Has + V3?"
+            "ru": "(+) **have / has + V3**\n(–) **have / has + not** + V3\n(?) **Have / Has** + V3?",
+            "en": "(+) **have / has + V3**\n(–) **have / has + not** + V3\n(?) **Have / Has** + V3?"
           },
           "examples": [
             "I have finished.",
@@ -64,21 +64,6 @@
             "She has just called.",
             "We have already eaten.",
             "He has not started yet."
-          ]
-        },
-        {
-          "heading": {
-            "ru": "Ошибки",
-            "en": "Mistakes"
-          },
-          "body": {
-            "ru": "• I have went → I have gone\n• She has wrote → She has written\n• We have met him yesterday → We met him yesterday",
-            "en": "• I have went → I have gone\n• She has wrote → She has written\n• We have met him yesterday → We met him yesterday"
-          },
-          "examples": [
-            "I have gone home.",
-            "She has written a letter.",
-            "We saw them last week."
           ]
         }
       ]
@@ -591,7 +576,7 @@
       "ruleId": "tense-present-perfect",
       "level": "A2",
       "words": [
-        "She",
+        "she",
         "has",
         "finished",
         "her",
@@ -599,7 +584,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "has",
           "finished",
           "her",
@@ -610,8 +595,8 @@
         "ru": "Она сделала домашнее задание."
       },
       "explanation": {
-        "ru": "Present Perfect: has + причастие finished; подлежащее she требует has.",
-        "en": "Present Perfect: has + the participle finished; the subject she requires has."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -626,7 +611,7 @@
       "ruleId": "tense-present-perfect",
       "level": "A2",
       "words": [
-        "They",
+        "they",
         "have",
         "not",
         "seen",
@@ -637,7 +622,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "have",
           "not",
           "seen",
@@ -647,7 +632,7 @@
           "yet"
         ],
         [
-          "They",
+          "they",
           "have",
           "not",
           "yet",
@@ -661,8 +646,8 @@
         "ru": "Они ещё не видели новый фильм."
       },
       "explanation": {
-        "ru": "Отрицание: have not + причастие seen; yet стоит в конце.",
-        "en": "The negative: have not + the participle seen; yet comes at the end."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -677,29 +662,29 @@
       "ruleId": "tense-present-perfect",
       "level": "A2",
       "words": [
-        "Have",
+        "have",
         "you",
         "ever",
         "been",
         "to",
-        "Japan"
+        "japan"
       ],
       "answers": [
         [
-          "Have",
+          "have",
           "you",
           "ever",
           "been",
           "to",
-          "Japan"
+          "japan"
         ]
       ],
       "translation": {
         "ru": "Ты когда-нибудь был в Японии?"
       },
       "explanation": {
-        "ru": "Вопрос об опыте: Have + подлежащее + ever + причастие been.",
-        "en": "An experience question: Have + subject + ever + the participle been."
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -714,7 +699,7 @@
       "ruleId": "tense-present-perfect",
       "level": "A2",
       "words": [
-        "He",
+        "he",
         "has",
         "worked",
         "here",
@@ -724,7 +709,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "has",
           "worked",
           "here",
@@ -737,8 +722,8 @@
         "ru": "Он работает здесь три года."
       },
       "explanation": {
-        "ru": "For + длительность (three years) с Present Perfect.",
-        "en": "For + a length of time (three years) with Present Perfect."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -753,7 +738,7 @@
       "ruleId": "tense-present-perfect",
       "level": "A2",
       "words": [
-        "I",
+        "i",
         "have",
         "lived",
         "in",
@@ -764,7 +749,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "have",
           "lived",
           "in",
@@ -778,8 +763,8 @@
         "ru": "Я живу в этом городе с 2018 года."
       },
       "explanation": {
-        "ru": "Since + точка отсчёта (2018) с Present Perfect.",
-        "en": "Since + a starting point (2018) with Present Perfect."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1040,7 +1025,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "have",
         "finished",
         "my",
@@ -1048,7 +1033,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "have",
           "finished",
           "my",
@@ -1059,8 +1044,8 @@
         "ru": "Я закончил домашнее задание."
       },
       "explanation": {
-        "ru": "Present Perfect, утверждение: have / has + V3.",
-        "en": "Present Perfect affirmative: have / has + V3."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1075,7 +1060,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "You",
+        "you",
         "have",
         "passed",
         "the",
@@ -1083,7 +1068,7 @@
       ],
       "answers": [
         [
-          "You",
+          "you",
           "have",
           "passed",
           "the",
@@ -1094,8 +1079,8 @@
         "ru": "Ты сдал экзамен."
       },
       "explanation": {
-        "ru": "Present Perfect, утверждение: have / has + V3.",
-        "en": "Present Perfect affirmative: have / has + V3."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1110,14 +1095,14 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "have",
         "already",
         "eaten"
       ],
       "answers": [
         [
-          "We",
+          "we",
           "have",
           "already",
           "eaten"
@@ -1127,8 +1112,8 @@
         "ru": "Мы уже поели."
       },
       "explanation": {
-        "ru": "Present Perfect, утверждение: have / has + V3.",
-        "en": "Present Perfect affirmative: have / has + V3."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1143,7 +1128,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "They",
+        "they",
         "have",
         "arrived",
         "at",
@@ -1152,7 +1137,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "have",
           "arrived",
           "at",
@@ -1164,8 +1149,8 @@
         "ru": "Они прибыли в отель."
       },
       "explanation": {
-        "ru": "Present Perfect, утверждение: have / has + V3.",
-        "en": "Present Perfect affirmative: have / has + V3."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1180,7 +1165,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "He",
+        "he",
         "has",
         "just",
         "called",
@@ -1188,7 +1173,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "has",
           "just",
           "called",
@@ -1199,8 +1184,8 @@
         "ru": "Он только что мне позвонил."
       },
       "explanation": {
-        "ru": "Present Perfect, утверждение: have / has + V3.",
-        "en": "Present Perfect affirmative: have / has + V3."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1215,7 +1200,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "has",
         "written",
         "three",
@@ -1223,7 +1208,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "has",
           "written",
           "three",
@@ -1234,8 +1219,8 @@
         "ru": "Она написала три письма."
       },
       "explanation": {
-        "ru": "Present Perfect, утверждение: have / has + V3.",
-        "en": "Present Perfect affirmative: have / has + V3."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1250,7 +1235,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "My",
+        "my",
         "sister",
         "has",
         "cleaned",
@@ -1259,7 +1244,7 @@
       ],
       "answers": [
         [
-          "My",
+          "my",
           "sister",
           "has",
           "cleaned",
@@ -1271,8 +1256,8 @@
         "ru": "Моя сестра убрала свою комнату."
       },
       "explanation": {
-        "ru": "Present Perfect, утверждение: have / has + V3.",
-        "en": "Present Perfect affirmative: have / has + V3."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1287,7 +1272,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "have",
         "seen",
         "this",
@@ -1296,7 +1281,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "have",
           "seen",
           "this",
@@ -1308,8 +1293,8 @@
         "ru": "Я смотрел этот фильм два раза."
       },
       "explanation": {
-        "ru": "Present Perfect, утверждение: have / has + V3.",
-        "en": "Present Perfect affirmative: have / has + V3."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1324,7 +1309,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "The",
+        "the",
         "train",
         "has",
         "left",
@@ -1333,7 +1318,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "train",
           "has",
           "left",
@@ -1345,8 +1330,8 @@
         "ru": "Поезд уже ушёл со станции."
       },
       "explanation": {
-        "ru": "Present Perfect, утверждение: have / has + V3.",
-        "en": "Present Perfect affirmative: have / has + V3."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1361,7 +1346,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "We",
+        "we",
         "have",
         "known",
         "each",
@@ -1371,7 +1356,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "have",
           "known",
           "each",
@@ -1380,7 +1365,7 @@
           "years"
         ],
         [
-          "We",
+          "we",
           "have",
           "known",
           "each",
@@ -1393,8 +1378,8 @@
         "ru": "Мы знакомы много лет."
       },
       "explanation": {
-        "ru": "Present Perfect, утверждение: have / has + V3.",
-        "en": "Present Perfect affirmative: have / has + V3."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1409,7 +1394,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "My",
+        "my",
         "parents",
         "have",
         "lived",
@@ -1419,7 +1404,7 @@
       ],
       "answers": [
         [
-          "My",
+          "my",
           "parents",
           "have",
           "lived",
@@ -1432,8 +1417,8 @@
         "ru": "Мои родители живут здесь с 2010 года."
       },
       "explanation": {
-        "ru": "Present Perfect, утверждение: have / has + V3.",
-        "en": "Present Perfect affirmative: have / has + V3."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1448,7 +1433,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "He",
+        "he",
         "has",
         "broken",
         "his",
@@ -1456,7 +1441,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "has",
           "broken",
           "his",
@@ -1467,8 +1452,8 @@
         "ru": "Он разбил свой телефон."
       },
       "explanation": {
-        "ru": "Present Perfect, утверждение: have / has + V3.",
-        "en": "Present Perfect affirmative: have / has + V3."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1483,7 +1468,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "She",
+        "she",
         "has",
         "bought",
         "a",
@@ -1492,7 +1477,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "has",
           "bought",
           "a",
@@ -1504,8 +1489,8 @@
         "ru": "Она купила новую машину."
       },
       "explanation": {
-        "ru": "Present Perfect, утверждение: have / has + V3.",
-        "en": "Present Perfect affirmative: have / has + V3."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1520,18 +1505,18 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "They",
+        "they",
         "have",
         "visited",
-        "Rome",
+        "rome",
         "twice"
       ],
       "answers": [
         [
-          "They",
+          "they",
           "have",
           "visited",
-          "Rome",
+          "rome",
           "twice"
         ]
       ],
@@ -1539,8 +1524,8 @@
         "ru": "Они дважды были в Риме."
       },
       "explanation": {
-        "ru": "Present Perfect, утверждение: have / has + V3.",
-        "en": "Present Perfect affirmative: have / has + V3."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1555,7 +1540,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "I",
+        "i",
         "have",
         "just",
         "finished",
@@ -1563,7 +1548,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "have",
           "just",
           "finished",
@@ -1574,8 +1559,8 @@
         "ru": "Я только что закончил обед."
       },
       "explanation": {
-        "ru": "Present Perfect, утверждение: have / has + V3.",
-        "en": "Present Perfect affirmative: have / has + V3."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1590,7 +1575,7 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "Our",
+        "our",
         "team",
         "has",
         "won",
@@ -1599,7 +1584,7 @@
       ],
       "answers": [
         [
-          "Our",
+          "our",
           "team",
           "has",
           "won",
@@ -1611,8 +1596,8 @@
         "ru": "Наша команда выиграла три матча."
       },
       "explanation": {
-        "ru": "Present Perfect, утверждение: have / has + V3.",
-        "en": "Present Perfect affirmative: have / has + V3."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1627,29 +1612,29 @@
       "level": "A2",
       "buildKind": "affirmative",
       "words": [
-        "His",
+        "his",
         "brother",
         "has",
         "gone",
         "to",
-        "London"
+        "london"
       ],
       "answers": [
         [
-          "His",
+          "his",
           "brother",
           "has",
           "gone",
           "to",
-          "London"
+          "london"
         ]
       ],
       "translation": {
         "ru": "Его брат уехал в Лондон."
       },
       "explanation": {
-        "ru": "Present Perfect, утверждение: have / has + V3.",
-        "en": "Present Perfect affirmative: have / has + V3."
+        "ru": "Русское предложение: результат к настоящему или опыт, поэтому используем Present Perfect: have / has + V3.",
+        "en": "The Russian sentence: a result now or experience, so we use Present Perfect: have / has + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1664,7 +1649,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "have",
         "not",
         "seen",
@@ -1673,7 +1658,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "have",
           "not",
           "seen",
@@ -1685,8 +1670,8 @@
         "ru": "Я не видел этот фильм."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1701,7 +1686,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "You",
+        "you",
         "have",
         "not",
         "finished",
@@ -1711,7 +1696,7 @@
       ],
       "answers": [
         [
-          "You",
+          "you",
           "have",
           "not",
           "finished",
@@ -1724,8 +1709,8 @@
         "ru": "Ты ещё не закончил задание."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1740,7 +1725,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "have",
         "not",
         "decided",
@@ -1748,7 +1733,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "have",
           "not",
           "decided",
@@ -1759,8 +1744,8 @@
         "ru": "Мы ещё не решили."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1775,14 +1760,14 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "have",
         "not",
         "arrived"
       ],
       "answers": [
         [
-          "They",
+          "they",
           "have",
           "not",
           "arrived"
@@ -1792,8 +1777,8 @@
         "ru": "Они не приехали."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1808,7 +1793,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "has",
         "not",
         "done",
@@ -1817,7 +1802,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "has",
           "not",
           "done",
@@ -1829,8 +1814,8 @@
         "ru": "Он не сделал домашнее задание."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1845,7 +1830,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "has",
         "not",
         "called",
@@ -1854,7 +1839,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "has",
           "not",
           "called",
@@ -1866,8 +1851,8 @@
         "ru": "Она не перезвонила мне."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1882,7 +1867,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "My",
+        "my",
         "brother",
         "has",
         "not",
@@ -1892,7 +1877,7 @@
       ],
       "answers": [
         [
-          "My",
+          "my",
           "brother",
           "has",
           "not",
@@ -1905,8 +1890,8 @@
         "ru": "Мой брат ещё не пришёл домой."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1921,7 +1906,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "have",
         "not",
         "eaten",
@@ -1930,7 +1915,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "have",
           "not",
           "eaten",
@@ -1942,8 +1927,8 @@
         "ru": "Я не ел с утра."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1958,7 +1943,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "shop",
         "has",
         "not",
@@ -1967,7 +1952,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "shop",
           "has",
           "not",
@@ -1979,8 +1964,8 @@
         "ru": "Магазин ещё не открылся."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -1995,7 +1980,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "have",
         "not",
         "met",
@@ -2003,7 +1988,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "have",
           "not",
           "met",
@@ -2014,8 +1999,8 @@
         "ru": "Мы раньше не встречались."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -2030,7 +2015,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "He",
+        "he",
         "has",
         "not",
         "slept",
@@ -2039,7 +2024,7 @@
       ],
       "answers": [
         [
-          "He",
+          "he",
           "has",
           "not",
           "slept",
@@ -2051,8 +2036,8 @@
         "ru": "В последнее время он плохо спал."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -2067,7 +2052,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "has",
         "not",
         "seen",
@@ -2078,7 +2063,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "has",
           "not",
           "seen",
@@ -2092,8 +2077,8 @@
         "ru": "Она не видела друзей несколько недель."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -2108,7 +2093,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "They",
+        "they",
         "have",
         "not",
         "paid",
@@ -2117,7 +2102,7 @@
       ],
       "answers": [
         [
-          "They",
+          "they",
           "have",
           "not",
           "paid",
@@ -2129,8 +2114,8 @@
         "ru": "Они не оплатили счёт."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -2145,7 +2130,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "You",
+        "you",
         "have",
         "not",
         "changed",
@@ -2154,7 +2139,7 @@
       ],
       "answers": [
         [
-          "You",
+          "you",
           "have",
           "not",
           "changed",
@@ -2166,8 +2151,8 @@
         "ru": "Ты совсем не изменился."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -2182,7 +2167,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "I",
+        "i",
         "have",
         "not",
         "caught",
@@ -2193,7 +2178,7 @@
       ],
       "answers": [
         [
-          "I",
+          "i",
           "have",
           "not",
           "caught",
@@ -2207,8 +2192,8 @@
         "ru": "Я много лет не простужался."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -2223,7 +2208,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "The",
+        "the",
         "children",
         "have",
         "not",
@@ -2233,7 +2218,7 @@
       ],
       "answers": [
         [
-          "The",
+          "the",
           "children",
           "have",
           "not",
@@ -2246,8 +2231,8 @@
         "ru": "Дети не сделали работу по дому."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -2262,7 +2247,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "She",
+        "she",
         "has",
         "not",
         "answered",
@@ -2271,7 +2256,7 @@
       ],
       "answers": [
         [
-          "She",
+          "she",
           "has",
           "not",
           "answered",
@@ -2283,8 +2268,8 @@
         "ru": "Она не ответила на моё письмо."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -2299,7 +2284,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "We",
+        "we",
         "have",
         "not",
         "visited",
@@ -2310,7 +2295,7 @@
       ],
       "answers": [
         [
-          "We",
+          "we",
           "have",
           "not",
           "visited",
@@ -2324,8 +2309,8 @@
         "ru": "В этом месяце мы не навещали бабушку и дедушку."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -2340,7 +2325,7 @@
       "level": "A2",
       "buildKind": "negative",
       "words": [
-        "His",
+        "his",
         "parents",
         "have",
         "not",
@@ -2350,7 +2335,7 @@
       ],
       "answers": [
         [
-          "His",
+          "his",
           "parents",
           "have",
           "not",
@@ -2363,8 +2348,8 @@
         "ru": "Его родители не продали дом."
       },
       "explanation": {
-        "ru": "Present Perfect, отрицание: have not / has not + V3.",
-        "en": "Present Perfect negative: have not / has not + V3."
+        "ru": "Русское предложение: результат к настоящему в отрицании, поэтому используем Present Perfect: have / has + not + V3.",
+        "en": "The Russian sentence: a result now in the negative, so we use Present Perfect: have / has + not + V3."
       },
       "tags": [
         "tense-present-perfect",
@@ -2379,29 +2364,29 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Have",
+        "have",
         "you",
         "ever",
         "been",
         "to",
-        "Paris"
+        "paris"
       ],
       "answers": [
         [
-          "Have",
+          "have",
           "you",
           "ever",
           "been",
           "to",
-          "Paris"
+          "paris"
         ]
       ],
       "translation": {
         "ru": "Ты когда-нибудь был в Париже?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -2416,7 +2401,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Has",
+        "has",
         "she",
         "finished",
         "her",
@@ -2424,7 +2409,7 @@
       ],
       "answers": [
         [
-          "Has",
+          "has",
           "she",
           "finished",
           "her",
@@ -2435,8 +2420,8 @@
         "ru": "Она закончила домашнее задание?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -2451,14 +2436,14 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Have",
+        "have",
         "they",
         "arrived",
         "yet"
       ],
       "answers": [
         [
-          "Have",
+          "have",
           "they",
           "arrived",
           "yet"
@@ -2468,8 +2453,8 @@
         "ru": "Они уже прибыли?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -2484,14 +2469,14 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Has",
+        "has",
         "he",
         "called",
         "you"
       ],
       "answers": [
         [
-          "Has",
+          "has",
           "he",
           "called",
           "you"
@@ -2501,8 +2486,8 @@
         "ru": "Он тебе позвонил?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -2517,14 +2502,14 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Have",
+        "have",
         "we",
         "met",
         "before"
       ],
       "answers": [
         [
-          "Have",
+          "have",
           "we",
           "met",
           "before"
@@ -2534,8 +2519,8 @@
         "ru": "Мы раньше встречались?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -2550,7 +2535,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Has",
+        "has",
         "your",
         "sister",
         "seen",
@@ -2559,7 +2544,7 @@
       ],
       "answers": [
         [
-          "Has",
+          "has",
           "your",
           "sister",
           "seen",
@@ -2571,8 +2556,8 @@
         "ru": "Твоя сестра смотрела этот фильм?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -2587,7 +2572,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Have",
+        "have",
         "you",
         "ever",
         "eaten",
@@ -2595,7 +2580,7 @@
       ],
       "answers": [
         [
-          "Have",
+          "have",
           "you",
           "ever",
           "eaten",
@@ -2606,8 +2591,8 @@
         "ru": "Ты когда-нибудь ел суши?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -2622,14 +2607,14 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Has",
+        "has",
         "the",
         "train",
         "left"
       ],
       "answers": [
         [
-          "Has",
+          "has",
           "the",
           "train",
           "left"
@@ -2639,8 +2624,8 @@
         "ru": "Поезд ушёл?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -2655,7 +2640,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Have",
+        "have",
         "you",
         "finished",
         "your",
@@ -2663,7 +2648,7 @@
       ],
       "answers": [
         [
-          "Have",
+          "have",
           "you",
           "finished",
           "your",
@@ -2674,8 +2659,8 @@
         "ru": "Ты закончил работу?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -2690,7 +2675,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Has",
+        "has",
         "she",
         "ever",
         "worked",
@@ -2698,7 +2683,7 @@
       ],
       "answers": [
         [
-          "Has",
+          "has",
           "she",
           "ever",
           "worked",
@@ -2709,8 +2694,8 @@
         "ru": "Она когда-нибудь работала за границей?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -2725,7 +2710,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Have",
+        "have",
         "they",
         "lived",
         "here",
@@ -2733,7 +2718,7 @@
       ],
       "answers": [
         [
-          "Have",
+          "have",
           "they",
           "lived",
           "here",
@@ -2744,8 +2729,8 @@
         "ru": "Они долго здесь живут?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -2760,7 +2745,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Has",
+        "has",
         "he",
         "broken",
         "his",
@@ -2768,7 +2753,7 @@
       ],
       "answers": [
         [
-          "Has",
+          "has",
           "he",
           "broken",
           "his",
@@ -2779,8 +2764,8 @@
         "ru": "Он сломал ногу?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -2795,7 +2780,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Have",
+        "have",
         "you",
         "seen",
         "my",
@@ -2803,7 +2788,7 @@
       ],
       "answers": [
         [
-          "Have",
+          "have",
           "you",
           "seen",
           "my",
@@ -2814,8 +2799,8 @@
         "ru": "Ты видел мои ключи?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -2830,7 +2815,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Has",
+        "has",
         "she",
         "bought",
         "a",
@@ -2839,7 +2824,7 @@
       ],
       "answers": [
         [
-          "Has",
+          "has",
           "she",
           "bought",
           "a",
@@ -2851,8 +2836,8 @@
         "ru": "Она купила новый телефон?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -2867,7 +2852,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Have",
+        "have",
         "your",
         "parents",
         "sold",
@@ -2876,7 +2861,7 @@
       ],
       "answers": [
         [
-          "Have",
+          "have",
           "your",
           "parents",
           "sold",
@@ -2888,8 +2873,8 @@
         "ru": "Твои родители продали дом?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -2904,7 +2889,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Has",
+        "has",
         "he",
         "done",
         "his",
@@ -2912,7 +2897,7 @@
       ],
       "answers": [
         [
-          "Has",
+          "has",
           "he",
           "done",
           "his",
@@ -2923,8 +2908,8 @@
         "ru": "Он сделал домашнее задание?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -2939,7 +2924,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Have",
+        "have",
         "we",
         "paid",
         "the",
@@ -2947,7 +2932,7 @@
       ],
       "answers": [
         [
-          "Have",
+          "have",
           "we",
           "paid",
           "the",
@@ -2958,8 +2943,8 @@
         "ru": "Мы оплатили счёт?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -2974,14 +2959,14 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Has",
+        "has",
         "your",
         "friend",
         "arrived"
       ],
       "answers": [
         [
-          "Has",
+          "has",
           "your",
           "friend",
           "arrived"
@@ -2991,8 +2976,8 @@
         "ru": "Твой друг приехал?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
@@ -3007,7 +2992,7 @@
       "level": "A2",
       "buildKind": "question",
       "words": [
-        "Have",
+        "have",
         "they",
         "finished",
         "the",
@@ -3015,7 +3000,7 @@
       ],
       "answers": [
         [
-          "Have",
+          "have",
           "they",
           "finished",
           "the",
@@ -3026,8 +3011,8 @@
         "ru": "Они закончили проект?"
       },
       "explanation": {
-        "ru": "Present Perfect, вопрос: Have / Has + V3?",
-        "en": "Present Perfect question: Have / Has + V3?"
+        "ru": "Русское предложение: вопрос об опыте или результате, поэтому используем Present Perfect: Have / Has + V3?",
+        "en": "The Russian sentence: a question about experience or a result, so we use Present Perfect: Have / Has + V3?"
       },
       "tags": [
         "tense-present-perfect",
