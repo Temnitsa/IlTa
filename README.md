@@ -3,10 +3,11 @@
 Офлайн-приложение для Android (Kotlin + Jetpack Compose, Material 3) для отработки
 английских **артиклей** и **предлогов**.
 
-> **Готовый APK:** [IlTa-2.3.0-debug.apk](IlTa-2.3.0-debug.apk) — 10,2 МБ, Android 8.0+, версия 2.3.0,
-> подпись debug, package `com.iltatrainer.app`, versionCode 5.
-> SHA-256: `119612dc1e30ea959c7d114446c0db7c34c413a8296f134ca50ed2aab8f26409`.
-> Установка: `adb install -r IlTa-2.3.0-debug.apk` или откройте файл на телефоне.
+> **GitHub:** [github.com/Temnitsa/IlTa](https://github.com/Temnitsa/IlTa) ·
+> **Готовый APK:** [IlTa 2.4.0](https://github.com/Temnitsa/IlTa/releases/latest) — 7,0 МБ, Android 8.0+,
+> release-подпись, package `com.iltatrainer.app`, versionCode 6.
+> SHA-256: `1a258529a60db2ab267fd86599e33375a6b8c1ee535797da567503448cbd06e2`.
+> Установка: скачайте APK из Releases или `adb install -r IlTa-v2.4.0-release.apk`.
 
 ## Возможности
 
@@ -32,8 +33,14 @@
   (примеры — отдельным списком под правилом). В фидбеке ответа — структурированная сноска
   «Верно/Неверно → Почему → Перевод».
 - **Двуязычный интерфейс RU/EN**, **тёмная/светлая тема**, динамические цвета Material You.
-- **Полностью офлайн**: контент и прогресс хранятся на устройстве.
+- **Офлайн-первый**: контент и прогресс хранятся на устройстве; интернет нужен только
+  для проверки обновлений.
 - **Экспорт/импорт прогресса** в JSON с максимальной совместимостью между версиями.
+- **Обновления по воздуху**: при запуске и вручную приложение проверяет GitHub Releases;
+  если доступна новая версия — у шестерёнки «Настройки» появляется красная точка,
+  а в настройках — версия, заметки и кнопка «Скачать и установить». APK проверяется по
+  пакету, `versionCode` и подписи, установка — через системный установщик.
+  Подробности: [docs/github-release-setup.md](docs/github-release-setup.md).
 
 ## Скриншоты
 
@@ -52,6 +59,10 @@
 | Результат тренировки | Статистика | Настройки |
 |---|---|---|
 | ![Результат](art/screenshots/86_result.png) | ![Статистика](art/screenshots/87_stats.png) | ![Настройки](art/screenshots/88_settings.png) |
+
+| Проверка обновлений | Обновление доступно | Установка |
+|---|---|---|
+| ![Обновления](art/screenshots/97_settings_updates.png) | ![Badge](art/screenshots/99_update_badge.png) | ![Установка](art/screenshots/100_update_available.png) |
 
 ## Требования
 
@@ -171,7 +182,7 @@ scripts/gradle.sh :app:testDebugUnitTest
 
 ## Проверка
 
-- 43 unit-теста и валидатор контента — зелёные.
+- 45 unit-тестов и валидатор контента — зелёные.
 - QA-ревью контента: [статьи v2.2](docs/qa-review-v3-articles.md),
   [предлоги v2.2](docs/qa-review-v3-prepositions.md),
   [новые вопросы статей v2.3](docs/qa-review-v4-articles.md),
@@ -179,6 +190,13 @@ scripts/gradle.sh :app:testDebugUnitTest
 - Ручная проверка на эмуляторе Android 15: навигация, 30 вопросов в теме, фидбек,
   создание ошибки → её закрытие после «исходного + 3 похожих», рост прогресса темы,
   экспорт конфига schema 3 (с `mistakes`/`closedMistakes`), отсутствие избранного.
+
+## Обновления
+
+Репозиторий: [Temnitsa/IlTa](https://github.com/Temnitsa/IlTa). Релизы собираются GitHub Actions
+по тегу `v*` (`.github/workflows/release.yml`): подписанный APK + `checksums.txt`.
+Для локальной сборки release нужен `keystore.properties` с постоянным ключом подписи;
+ключ и пароли не коммитятся. Инструкция — [docs/github-release-setup.md](docs/github-release-setup.md).
 
 ## Лицензия
 
