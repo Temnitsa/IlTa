@@ -17,64 +17,64 @@
         "en": "Present Perfect Continuous"
       },
       "summary": {
-        "ru": "Present Perfect Continuous (have/has been + -ing) показывает действие, которое началось в прошлом и длится до сих пор или только что закончилось; важны длительность и видимый результат.",
-        "en": "The Present Perfect Continuous (have/has been + -ing) describes an action that started in the past and continues up to now or has just stopped; duration and a visible result matter."
+        "ru": "Present Perfect Continuous: **have/has been + V-ing** — действие шло до сих пор или только что закончилось.",
+        "en": "Present Perfect Continuous: **have/has been + V-ing** — an action lasted until now or has just stopped."
       },
       "sections": [
         {
           "heading": {
-            "ru": "Форма: have/has been + -ing",
-            "en": "Form: have/has been + -ing"
+            "ru": "Форма",
+            "en": "Form"
           },
           "body": {
-            "ru": "Сказуемое строится из have или has, формы been и смыслового глагола с окончанием -ing. Have используется с I, you, we и they, has — с he, she и it; отрицание и вопрос образуются без did.",
-            "en": "The verb phrase is built with have or has, the form been and the -ing form of the main verb. Have goes with I, you, we and they; has goes with he, she and it, and questions and negatives are formed without did."
+            "ru": "**Формула времени**\n(+) I / you / we / they + **have been** + V-ing\n(+) he / she / it + **has been** + V-ing\n(–) **have not / has not been** + V-ing\n(?) **Have / Has** + … + **been** + V-ing?",
+            "en": "(+) I / you / we / they + **have been** + V-ing\n(+) he / she / it + **has been** + V-ing\n(–) **have not / has not been** + V-ing\n(?) **Have / Has** + … + **been** + V-ing?"
           },
           "examples": [
             "I have been reading all evening.",
             "She has been working since morning.",
-            "They have been waiting for the bus."
+            "They have not been sleeping well.",
+            "Have you been waiting long?"
           ]
         },
         {
           "heading": {
-            "ru": "Значение: длительность и результат",
-            "en": "Meaning: duration and result"
+            "ru": "Когда используем",
+            "en": "When we use it"
           },
           "body": {
-            "ru": "Основное значение — действие длится уже некоторое время и ещё не закончилось. Другое значение — действие только что прекратилось, но его результат или последствия видны в настоящем.",
-            "en": "The main meaning is an action that has been going on for some time and has not finished. The other meaning is an action that has just stopped, but its result or effects are visible in the present."
+            "ru": "• действие началось в прошлом и **всё ещё продолжается**\n• важна **длительность**: как долго?\n• **результат** виден сейчас\n• повторяющееся действие до сих пор",
+            "en": "• the action started in the past and is **still going on**\n• **duration** matters: how long?\n• the **result** is visible now\n• a repeated action up to now"
           },
           "examples": [
             "The ground is wet because it has been raining.",
             "You look tired — have you been working all day?",
-            "I have been learning English for three years."
+            "It has been raining all morning."
           ]
         },
         {
           "heading": {
-            "ru": "Маркеры времени: for и since",
-            "en": "Time markers: for and since"
+            "ru": "Маркеры",
+            "en": "Markers"
           },
           "body": {
-            "ru": "Длительность выражается через for с периодом времени и since с точкой отсчёта. В вопросах о длительности используется how long; также типичны lately, recently и all day.",
-            "en": "Duration is expressed with for and a period of time, and with since and a starting point. Questions about duration use how long; lately, recently and all day are also typical."
+            "ru": "• **for** + длительность\n• **since** + начало\n• **how long**\n• **lately / recently**\n• **all day / all morning**",
+            "en": "• **for** + duration\n• **since** + a starting point\n• **how long**\n• **lately / recently**\n• **all day / all morning**"
           },
           "examples": [
             "for two hours",
-            "since Monday",
-            "How long have you been living here?",
-            "I have been feeling better recently."
+            "since 2020",
+            "How long have you been learning English?"
           ]
         },
         {
           "heading": {
-            "ru": "Типичные ошибки",
-            "en": "Common mistakes"
+            "ru": "Ошибки",
+            "en": "Mistakes"
           },
           "body": {
-            "ru": "Не пропускайте been и не ставьте вместо него прошедшую форму глагола. С глаголами состояния (know, be, like) это время обычно не употребляется — нужна форма Present Perfect.",
-            "en": "Do not leave out been or use a past form of the verb instead. State verbs such as know, be and like are not normally used in this tense, so the Present Perfect form is needed."
+            "ru": "• *has been knowing* → **has known** — глагол состояния\n• *have been went* → **have been going** — нужно been + V-ing\n• *I am waiting for two hours* → **I have been waiting for two hours** — длительность до сих пор",
+            "en": "• *has been knowing* → **has known**\n• *have been went* → **have been going**\n• *I am waiting for two hours* → **I have been waiting for two hours**"
           },
           "examples": [
             "I have known her for ten years.",
@@ -620,7 +620,8 @@
         "build",
         "affirmative",
         "for"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-present-perfect-continuous-0022",
@@ -658,7 +659,8 @@
         "tense-present-perfect-continuous",
         "build",
         "negative"
-      ]
+      ],
+      "buildKind": "negative"
     },
     {
       "id": "tense-present-perfect-continuous-0023",
@@ -699,7 +701,8 @@
         "build",
         "question",
         "how-long"
-      ]
+      ],
+      "buildKind": "question"
     },
     {
       "id": "tense-present-perfect-continuous-0024",
@@ -744,7 +747,8 @@
         "build",
         "adverb",
         "recently"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-present-perfect-continuous-0025",
@@ -789,7 +793,8 @@
         "build",
         "time-clause",
         "since"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-present-perfect-continuous-0026",
@@ -1036,6 +1041,2563 @@
         "tense-present-perfect-continuous",
         "match",
         "usage"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0031",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "have",
+        "been",
+        "writing",
+        "emails",
+        "since",
+        "nine",
+        "o'clock"
+      ],
+      "answers": [
+        [
+          "I",
+          "have",
+          "been",
+          "writing",
+          "emails",
+          "since",
+          "nine",
+          "o'clock"
+        ]
+      ],
+      "translation": {
+        "ru": "Я пишу письма с девяти часов."
+      },
+      "explanation": {
+        "ru": "Формула: **have/has been + V-ing**.",
+        "en": "Form: **have/has been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "affirmative",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0032",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "has",
+        "been",
+        "working",
+        "in",
+        "this",
+        "office",
+        "since",
+        "2021"
+      ],
+      "answers": [
+        [
+          "She",
+          "has",
+          "been",
+          "working",
+          "in",
+          "this",
+          "office",
+          "since",
+          "2021"
+        ]
+      ],
+      "translation": {
+        "ru": "Она работает в этом офисе с 2021 года."
+      },
+      "explanation": {
+        "ru": "Формула: **have/has been + V-ing**.",
+        "en": "Form: **have/has been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "affirmative",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0033",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "have",
+        "been",
+        "waiting",
+        "for",
+        "their",
+        "friend",
+        "for",
+        "half",
+        "an",
+        "hour"
+      ],
+      "answers": [
+        [
+          "They",
+          "have",
+          "been",
+          "waiting",
+          "for",
+          "their",
+          "friend",
+          "for",
+          "half",
+          "an",
+          "hour"
+        ]
+      ],
+      "translation": {
+        "ru": "Они ждут своего друга уже полчаса."
+      },
+      "explanation": {
+        "ru": "Формула: **have/has been + V-ing**.",
+        "en": "Form: **have/has been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "affirmative",
+        "for"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0034",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "have",
+        "been",
+        "repairing",
+        "the",
+        "house",
+        "since",
+        "last",
+        "spring"
+      ],
+      "answers": [
+        [
+          "We",
+          "have",
+          "been",
+          "repairing",
+          "the",
+          "house",
+          "since",
+          "last",
+          "spring"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы ремонтируем дом с прошлой весны."
+      },
+      "explanation": {
+        "ru": "Формула: **have/has been + V-ing**.",
+        "en": "Form: **have/has been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "affirmative",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0035",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "children",
+        "have",
+        "been",
+        "playing",
+        "in",
+        "the",
+        "garden",
+        "all",
+        "morning"
+      ],
+      "answers": [
+        [
+          "The",
+          "children",
+          "have",
+          "been",
+          "playing",
+          "in",
+          "the",
+          "garden",
+          "all",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Дети играют в саду всё утро."
+      },
+      "explanation": {
+        "ru": "Формула: **have/has been + V-ing**.",
+        "en": "Form: **have/has been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0036",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "My",
+        "brother",
+        "has",
+        "been",
+        "preparing",
+        "for",
+        "the",
+        "exam",
+        "all",
+        "evening"
+      ],
+      "answers": [
+        [
+          "My",
+          "brother",
+          "has",
+          "been",
+          "preparing",
+          "for",
+          "the",
+          "exam",
+          "all",
+          "evening"
+        ]
+      ],
+      "translation": {
+        "ru": "Мой брат готовится к экзамену весь вечер."
+      },
+      "explanation": {
+        "ru": "Формула: **have/has been + V-ing**.",
+        "en": "Form: **have/has been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0037",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "has",
+        "been",
+        "writing",
+        "the",
+        "report",
+        "since",
+        "this",
+        "morning"
+      ],
+      "answers": [
+        [
+          "She",
+          "has",
+          "been",
+          "writing",
+          "the",
+          "report",
+          "since",
+          "this",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Она пишет отчёт с утра."
+      },
+      "explanation": {
+        "ru": "Формула: **have/has been + V-ing**.",
+        "en": "Form: **have/has been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "affirmative",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0038",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "have",
+        "been",
+        "discussing",
+        "this",
+        "plan",
+        "for",
+        "a",
+        "week"
+      ],
+      "answers": [
+        [
+          "We",
+          "have",
+          "been",
+          "discussing",
+          "this",
+          "plan",
+          "for",
+          "a",
+          "week"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы обсуждаем этот план уже неделю."
+      },
+      "explanation": {
+        "ru": "Формула: **have/has been + V-ing**.",
+        "en": "Form: **have/has been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "affirmative",
+        "for"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0039",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "dog",
+        "has",
+        "been",
+        "barking",
+        "in",
+        "the",
+        "yard",
+        "for",
+        "ten",
+        "minutes"
+      ],
+      "answers": [
+        [
+          "The",
+          "dog",
+          "has",
+          "been",
+          "barking",
+          "in",
+          "the",
+          "yard",
+          "for",
+          "ten",
+          "minutes"
+        ]
+      ],
+      "translation": {
+        "ru": "Собака лает во дворе уже десять минут."
+      },
+      "explanation": {
+        "ru": "Формула: **have/has been + V-ing**.",
+        "en": "Form: **have/has been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "affirmative",
+        "for"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0040",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "has",
+        "been",
+        "training",
+        "at",
+        "the",
+        "gym",
+        "all",
+        "morning"
+      ],
+      "answers": [
+        [
+          "He",
+          "has",
+          "been",
+          "training",
+          "at",
+          "the",
+          "gym",
+          "all",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Он тренируется в спортзале всё утро."
+      },
+      "explanation": {
+        "ru": "Формула: **have/has been + V-ing**.",
+        "en": "Form: **have/has been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0041",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "have",
+        "been",
+        "learning",
+        "to",
+        "drive",
+        "for",
+        "a",
+        "month"
+      ],
+      "answers": [
+        [
+          "I",
+          "have",
+          "been",
+          "learning",
+          "to",
+          "drive",
+          "for",
+          "a",
+          "month"
+        ]
+      ],
+      "translation": {
+        "ru": "Я учусь водить машину уже месяц."
+      },
+      "explanation": {
+        "ru": "Формула: **have/has been + V-ing**.",
+        "en": "Form: **have/has been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "affirmative",
+        "for"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0042",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "have",
+        "been",
+        "building",
+        "a",
+        "new",
+        "bridge",
+        "since",
+        "last",
+        "year"
+      ],
+      "answers": [
+        [
+          "They",
+          "have",
+          "been",
+          "building",
+          "a",
+          "new",
+          "bridge",
+          "since",
+          "last",
+          "year"
+        ]
+      ],
+      "translation": {
+        "ru": "Они строят новый мост с прошлого года."
+      },
+      "explanation": {
+        "ru": "Формула: **have/has been + V-ing**.",
+        "en": "Form: **have/has been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "affirmative",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0043",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "Mum",
+        "has",
+        "been",
+        "cooking",
+        "dinner",
+        "for",
+        "an",
+        "hour"
+      ],
+      "answers": [
+        [
+          "Mum",
+          "has",
+          "been",
+          "cooking",
+          "dinner",
+          "for",
+          "an",
+          "hour"
+        ]
+      ],
+      "translation": {
+        "ru": "Мама готовит ужин уже час."
+      },
+      "explanation": {
+        "ru": "Формула: **have/has been + V-ing**.",
+        "en": "Form: **have/has been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "affirmative",
+        "for"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0044",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "students",
+        "have",
+        "been",
+        "preparing",
+        "for",
+        "their",
+        "exams",
+        "all",
+        "week"
+      ],
+      "answers": [
+        [
+          "The",
+          "students",
+          "have",
+          "been",
+          "preparing",
+          "for",
+          "their",
+          "exams",
+          "all",
+          "week"
+        ]
+      ],
+      "translation": {
+        "ru": "Студенты готовятся к экзаменам всю неделю."
+      },
+      "explanation": {
+        "ru": "Формула: **have/has been + V-ing**.",
+        "en": "Form: **have/has been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0045",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "has",
+        "been",
+        "looking",
+        "for",
+        "a",
+        "job",
+        "since",
+        "January"
+      ],
+      "answers": [
+        [
+          "She",
+          "has",
+          "been",
+          "looking",
+          "for",
+          "a",
+          "job",
+          "since",
+          "January"
+        ]
+      ],
+      "translation": {
+        "ru": "Она ищет работу с января."
+      },
+      "explanation": {
+        "ru": "Формула: **have/has been + V-ing**.",
+        "en": "Form: **have/has been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "affirmative",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0046",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "have",
+        "been",
+        "following",
+        "this",
+        "band",
+        "for",
+        "years"
+      ],
+      "answers": [
+        [
+          "We",
+          "have",
+          "been",
+          "following",
+          "this",
+          "band",
+          "for",
+          "years"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы слушаем эту группу много лет."
+      },
+      "explanation": {
+        "ru": "Формула: **have/has been + V-ing**.",
+        "en": "Form: **have/has been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "affirmative",
+        "for"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0047",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "has",
+        "been",
+        "writing",
+        "poems",
+        "since",
+        "childhood"
+      ],
+      "answers": [
+        [
+          "He",
+          "has",
+          "been",
+          "writing",
+          "poems",
+          "since",
+          "childhood"
+        ]
+      ],
+      "translation": {
+        "ru": "Он пишет стихи с детства."
+      },
+      "explanation": {
+        "ru": "Формула: **have/has been + V-ing**.",
+        "en": "Form: **have/has been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "affirmative",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0048",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "have",
+        "not",
+        "been",
+        "sleeping",
+        "well",
+        "recently"
+      ],
+      "answers": [
+        [
+          "I",
+          "have",
+          "not",
+          "been",
+          "sleeping",
+          "well",
+          "recently"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не сплю хорошо в последнее время."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "recently"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0049",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "has",
+        "not",
+        "been",
+        "eating",
+        "all",
+        "day"
+      ],
+      "answers": [
+        [
+          "She",
+          "has",
+          "not",
+          "been",
+          "eating",
+          "all",
+          "day"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не ест весь день."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0050",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "have",
+        "not",
+        "been",
+        "talking",
+        "to",
+        "each",
+        "other",
+        "since",
+        "last",
+        "week"
+      ],
+      "answers": [
+        [
+          "They",
+          "have",
+          "not",
+          "been",
+          "talking",
+          "to",
+          "each",
+          "other",
+          "since",
+          "last",
+          "week"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не разговаривают друг с другом с прошлой недели."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0051",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "has",
+        "not",
+        "been",
+        "working",
+        "here",
+        "since",
+        "last",
+        "year"
+      ],
+      "answers": [
+        [
+          "He",
+          "has",
+          "not",
+          "been",
+          "working",
+          "here",
+          "since",
+          "last",
+          "year"
+        ]
+      ],
+      "translation": {
+        "ru": "Он не работает здесь с прошлого года."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0052",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "have",
+        "not",
+        "been",
+        "training",
+        "lately"
+      ],
+      "answers": [
+        [
+          "We",
+          "have",
+          "not",
+          "been",
+          "training",
+          "lately"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы не тренируемся в последнее время."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "recently"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0053",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "children",
+        "have",
+        "not",
+        "been",
+        "doing",
+        "their",
+        "homework",
+        "all",
+        "week"
+      ],
+      "answers": [
+        [
+          "The",
+          "children",
+          "have",
+          "not",
+          "been",
+          "doing",
+          "their",
+          "homework",
+          "all",
+          "week"
+        ]
+      ],
+      "translation": {
+        "ru": "Дети не делают домашнюю работу всю неделю."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0054",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "My",
+        "brother",
+        "has",
+        "not",
+        "been",
+        "playing",
+        "football",
+        "since",
+        "last",
+        "winter"
+      ],
+      "answers": [
+        [
+          "My",
+          "brother",
+          "has",
+          "not",
+          "been",
+          "playing",
+          "football",
+          "since",
+          "last",
+          "winter"
+        ]
+      ],
+      "translation": {
+        "ru": "Мой брат не играет в футбол с прошлой зимы."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0055",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "have",
+        "not",
+        "been",
+        "watching",
+        "the",
+        "news",
+        "recently"
+      ],
+      "answers": [
+        [
+          "I",
+          "have",
+          "not",
+          "been",
+          "watching",
+          "the",
+          "news",
+          "recently"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не смотрю новости в последнее время."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "recently"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0056",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "has",
+        "not",
+        "been",
+        "cooking",
+        "at",
+        "home",
+        "lately"
+      ],
+      "answers": [
+        [
+          "She",
+          "has",
+          "not",
+          "been",
+          "cooking",
+          "at",
+          "home",
+          "lately"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не готовит дома в последнее время."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "recently"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0057",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "have",
+        "not",
+        "been",
+        "using",
+        "the",
+        "car",
+        "since",
+        "Monday"
+      ],
+      "answers": [
+        [
+          "We",
+          "have",
+          "not",
+          "been",
+          "using",
+          "the",
+          "car",
+          "since",
+          "Monday"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы не пользуемся машиной с понедельника."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0058",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "has",
+        "not",
+        "been",
+        "running",
+        "for",
+        "the",
+        "last",
+        "two",
+        "weeks"
+      ],
+      "answers": [
+        [
+          "He",
+          "has",
+          "not",
+          "been",
+          "running",
+          "for",
+          "the",
+          "last",
+          "two",
+          "weeks"
+        ]
+      ],
+      "translation": {
+        "ru": "Он не бегает последние две недели."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "for"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0059",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "You",
+        "have",
+        "not",
+        "been",
+        "listening",
+        "to",
+        "me",
+        "all",
+        "morning"
+      ],
+      "answers": [
+        [
+          "You",
+          "have",
+          "not",
+          "been",
+          "listening",
+          "to",
+          "me",
+          "all",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты не слушаешь меня всё утро."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0060",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "My",
+        "grandmother",
+        "has",
+        "not",
+        "been",
+        "drinking",
+        "coffee",
+        "recently"
+      ],
+      "answers": [
+        [
+          "My",
+          "grandmother",
+          "has",
+          "not",
+          "been",
+          "drinking",
+          "coffee",
+          "recently"
+        ]
+      ],
+      "translation": {
+        "ru": "Бабушка не пьёт кофе в последнее время."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "recently"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0061",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "dog",
+        "has",
+        "not",
+        "been",
+        "barking",
+        "since",
+        "you",
+        "left"
+      ],
+      "answers": [
+        [
+          "The",
+          "dog",
+          "has",
+          "not",
+          "been",
+          "barking",
+          "since",
+          "you",
+          "left"
+        ]
+      ],
+      "translation": {
+        "ru": "Собака не лает с тех пор, как ты ушёл."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0062",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "have",
+        "not",
+        "been",
+        "watching",
+        "TV",
+        "all",
+        "evening"
+      ],
+      "answers": [
+        [
+          "We",
+          "have",
+          "not",
+          "been",
+          "watching",
+          "TV",
+          "all",
+          "evening"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы не смотрим телевизор весь вечер."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0063",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "has",
+        "not",
+        "been",
+        "answering",
+        "her",
+        "emails",
+        "since",
+        "last",
+        "month"
+      ],
+      "answers": [
+        [
+          "She",
+          "has",
+          "not",
+          "been",
+          "answering",
+          "her",
+          "emails",
+          "since",
+          "last",
+          "month"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не отвечает на письма с прошлого месяца."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0064",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "phone",
+        "has",
+        "not",
+        "been",
+        "working",
+        "properly",
+        "since",
+        "the",
+        "update"
+      ],
+      "answers": [
+        [
+          "The",
+          "phone",
+          "has",
+          "not",
+          "been",
+          "working",
+          "properly",
+          "since",
+          "the",
+          "update"
+        ]
+      ],
+      "translation": {
+        "ru": "Телефон не работает нормально с последнего обновления."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0065",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "have",
+        "not",
+        "been",
+        "exercising",
+        "this",
+        "year"
+      ],
+      "answers": [
+        [
+          "I",
+          "have",
+          "not",
+          "been",
+          "exercising",
+          "this",
+          "year"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не занимаюсь спортом в этом году."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0066",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "has",
+        "not",
+        "been",
+        "feeling",
+        "well",
+        "lately"
+      ],
+      "answers": [
+        [
+          "He",
+          "has",
+          "not",
+          "been",
+          "feeling",
+          "well",
+          "lately"
+        ]
+      ],
+      "translation": {
+        "ru": "Он неважно себя чувствует в последнее время."
+      },
+      "explanation": {
+        "ru": "Отрицание: **have/has not been + V-ing**.",
+        "en": "Negative: **have/has not been + V-ing**."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative",
+        "recently"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0067",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "What",
+        "have",
+        "you",
+        "been",
+        "doing",
+        "all",
+        "morning"
+      ],
+      "answers": [
+        [
+          "What",
+          "have",
+          "you",
+          "been",
+          "doing",
+          "all",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Что ты делал всё утро?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "what"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0068",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "How",
+        "long",
+        "have",
+        "you",
+        "been",
+        "learning",
+        "English"
+      ],
+      "answers": [
+        [
+          "How",
+          "long",
+          "have",
+          "you",
+          "been",
+          "learning",
+          "English"
+        ]
+      ],
+      "translation": {
+        "ru": "Сколько времени ты изучаешь английский?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "how-long"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0069",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Have",
+        "you",
+        "been",
+        "waiting",
+        "long"
+      ],
+      "answers": [
+        [
+          "Have",
+          "you",
+          "been",
+          "waiting",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты ждал долго?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "yes-no"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0070",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Have",
+        "you",
+        "been",
+        "running"
+      ],
+      "answers": [
+        [
+          "Have",
+          "you",
+          "been",
+          "running"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты бегал?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "yes-no"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0071",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Has",
+        "she",
+        "been",
+        "working",
+        "here",
+        "long"
+      ],
+      "answers": [
+        [
+          "Has",
+          "she",
+          "been",
+          "working",
+          "here",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "Она работает здесь давно?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "yes-no"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0072",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Who",
+        "has",
+        "been",
+        "cooking",
+        "in",
+        "the",
+        "kitchen"
+      ],
+      "answers": [
+        [
+          "Who",
+          "has",
+          "been",
+          "cooking",
+          "in",
+          "the",
+          "kitchen"
+        ]
+      ],
+      "translation": {
+        "ru": "Кто готовил на кухне?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "who"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0073",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Why",
+        "have",
+        "you",
+        "been",
+        "crying"
+      ],
+      "answers": [
+        [
+          "Why",
+          "have",
+          "you",
+          "been",
+          "crying"
+        ]
+      ],
+      "translation": {
+        "ru": "Почему ты плакал?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "why"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0074",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "How",
+        "long",
+        "have",
+        "they",
+        "been",
+        "travelling"
+      ],
+      "answers": [
+        [
+          "How",
+          "long",
+          "have",
+          "they",
+          "been",
+          "travelling"
+        ]
+      ],
+      "translation": {
+        "ru": "Сколько времени они путешествуют?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "how-long"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0075",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Have",
+        "you",
+        "been",
+        "listening",
+        "to",
+        "me"
+      ],
+      "answers": [
+        [
+          "Have",
+          "you",
+          "been",
+          "listening",
+          "to",
+          "me"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты слушаешь меня?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "yes-no"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0076",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "What",
+        "has",
+        "she",
+        "been",
+        "reading",
+        "all",
+        "evening"
+      ],
+      "answers": [
+        [
+          "What",
+          "has",
+          "she",
+          "been",
+          "reading",
+          "all",
+          "evening"
+        ]
+      ],
+      "translation": {
+        "ru": "Что она читала весь вечер?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "what"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0077",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Have",
+        "you",
+        "been",
+        "working",
+        "in",
+        "the",
+        "garden"
+      ],
+      "answers": [
+        [
+          "Have",
+          "you",
+          "been",
+          "working",
+          "in",
+          "the",
+          "garden"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты работал в саду?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "yes-no"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0078",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Has",
+        "he",
+        "been",
+        "waiting",
+        "for",
+        "us",
+        "long"
+      ],
+      "answers": [
+        [
+          "Has",
+          "he",
+          "been",
+          "waiting",
+          "for",
+          "us",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "Он ждёт нас давно?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "yes-no"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0079",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "How",
+        "long",
+        "have",
+        "you",
+        "been",
+        "repairing",
+        "the",
+        "flat"
+      ],
+      "answers": [
+        [
+          "How",
+          "long",
+          "have",
+          "you",
+          "been",
+          "repairing",
+          "the",
+          "flat"
+        ]
+      ],
+      "translation": {
+        "ru": "Сколько времени вы ремонтируете квартиру?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "how-long"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0080",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Have",
+        "you",
+        "been",
+        "watching",
+        "the",
+        "news"
+      ],
+      "answers": [
+        [
+          "Have",
+          "you",
+          "been",
+          "watching",
+          "the",
+          "news"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты смотрел новости?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "yes-no"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0081",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Why",
+        "have",
+        "you",
+        "not",
+        "been",
+        "answering"
+      ],
+      "answers": [
+        [
+          "Why",
+          "have",
+          "you",
+          "not",
+          "been",
+          "answering"
+        ]
+      ],
+      "translation": {
+        "ru": "Почему ты не отвечал?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "why"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0082",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "How",
+        "long",
+        "has",
+        "she",
+        "been",
+        "living",
+        "in",
+        "Paris"
+      ],
+      "answers": [
+        [
+          "How",
+          "long",
+          "has",
+          "she",
+          "been",
+          "living",
+          "in",
+          "Paris"
+        ]
+      ],
+      "translation": {
+        "ru": "Сколько времени она живёт в Париже?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "how-long"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0083",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Have",
+        "you",
+        "been",
+        "discussing",
+        "this",
+        "question"
+      ],
+      "answers": [
+        [
+          "Have",
+          "you",
+          "been",
+          "discussing",
+          "this",
+          "question"
+        ]
+      ],
+      "translation": {
+        "ru": "Вы обсуждали этот вопрос?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "yes-no"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0084",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "What",
+        "have",
+        "you",
+        "been",
+        "doing",
+        "since",
+        "eight",
+        "o'clock"
+      ],
+      "answers": [
+        [
+          "What",
+          "have",
+          "you",
+          "been",
+          "doing",
+          "since",
+          "eight",
+          "o'clock"
+        ]
+      ],
+      "translation": {
+        "ru": "Что вы делали с восьми часов?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "what"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0085",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Have",
+        "you",
+        "been",
+        "sleeping",
+        "well",
+        "recently"
+      ],
+      "answers": [
+        [
+          "Have",
+          "you",
+          "been",
+          "sleeping",
+          "well",
+          "recently"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты хорошо спал в последнее время?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Have/Has … been + V-ing?**",
+        "en": "Question: **Have/Has … been + V-ing?**"
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "yes-no"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0086",
+      "type": "match",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте длительность и пример.",
+        "en": "Match the duration with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "for + период",
+            "en": "for + a period"
+          },
+          "right": "I have been writing emails for two hours."
+        },
+        {
+          "left": {
+            "ru": "since + начало",
+            "en": "since + a starting point"
+          },
+          "right": "He has been living here since 2020."
+        },
+        {
+          "left": {
+            "ru": "весь день / all day",
+            "en": "all day"
+          },
+          "right": "It has been raining all day."
+        },
+        {
+          "left": {
+            "ru": "как долго? / How long …?",
+            "en": "How long …?"
+          },
+          "right": "How long have they been waiting?"
+        }
+      ],
+      "explanation": {
+        "ru": "For называет длительность, since — начало, all day подчёркивает весь период, а how long спрашивает о длительности.",
+        "en": "For gives duration, since gives the starting point, all day stresses the whole period, and how long asks about duration."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "match",
+        "marker"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0087",
+      "type": "match",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте тип действия и пример.",
+        "en": "Match the type of action with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Продолжается до сих пор",
+            "en": "Still going on"
+          },
+          "right": "He has been learning Chinese since last year."
+        },
+        {
+          "left": {
+            "ru": "Повторяется до сих пор",
+            "en": "Repeated up to now"
+          },
+          "right": "Someone has been ringing the doorbell for ten minutes."
+        },
+        {
+          "left": {
+            "ru": "Только что закончилось",
+            "en": "Just stopped"
+          },
+          "right": "They have been washing the car."
+        },
+        {
+          "left": {
+            "ru": "Виден результат",
+            "en": "A visible result"
+          },
+          "right": "He is tired because he has been running."
+        }
+      ],
+      "explanation": {
+        "ru": "Время показывает действие, которое продолжается, повторяется или только что закончилось с видимым результатом.",
+        "en": "The tense shows an action that continues, repeats or has just stopped with a visible result."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "match",
+        "meaning"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0088",
+      "type": "match",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте глагол и форму в Present Perfect Continuous.",
+        "en": "Match the verb with its form in the Present Perfect Continuous."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "study (учить) →",
+            "en": "study →"
+          },
+          "right": "She has been studying all evening."
+        },
+        {
+          "left": {
+            "ru": "run (бегать) →",
+            "en": "run →"
+          },
+          "right": "They have been running in the park."
+        },
+        {
+          "left": {
+            "ru": "write (писать) →",
+            "en": "write →"
+          },
+          "right": "He has been writing a report."
+        },
+        {
+          "left": {
+            "ru": "sit (сидеть) →",
+            "en": "sit →"
+          },
+          "right": "I have been sitting here for an hour."
+        }
+      ],
+      "explanation": {
+        "ru": "Форма всегда have/has been + V-ing, поэтому у всех глаголов появляется -ing.",
+        "en": "The form is always have/has been + V-ing, so every verb takes -ing."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "match",
+        "form"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0089",
+      "type": "match",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте ошибку и правильный пример.",
+        "en": "Match the mistake with the correct example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Ошибка: *I have been knowing him* →",
+            "en": "*I have been knowing him* →"
+          },
+          "right": "I have known him for years."
+        },
+        {
+          "left": {
+            "ru": "Ошибка: *She has been went* →",
+            "en": "*She has been went* →"
+          },
+          "right": "She has been going to the gym."
+        },
+        {
+          "left": {
+            "ru": "Ошибка: *We have waiting for an hour* →",
+            "en": "*We have waiting for an hour* →"
+          },
+          "right": "We have been waiting for half an hour."
+        },
+        {
+          "left": {
+            "ru": "Ошибка: *He has been work here* →",
+            "en": "*He has been work here* →"
+          },
+          "right": "He has been working here since May."
+        }
+      ],
+      "explanation": {
+        "ru": "После have/has обязательно идёт been: **has been going**, **have been waiting**; с глаголами состояния форма -ing не используется.",
+        "en": "After have/has the word been is required: **has been going**, **have been waiting**; state verbs do not take the -ing form."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "match",
+        "mistakes"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0090",
+      "type": "match",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте вопрос и пример.",
+        "en": "Match the question with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "как долго? / How long …?",
+            "en": "How long …?"
+          },
+          "right": "How long have you been living here?"
+        },
+        {
+          "left": {
+            "ru": "что? / What …?",
+            "en": "What …?"
+          },
+          "right": "What have you been doing all day?"
+        },
+        {
+          "left": {
+            "ru": "почему? / Why …?",
+            "en": "Why …?"
+          },
+          "right": "Why have you been crying?"
+        },
+        {
+          "left": {
+            "ru": "ты уже…? / Have you …?",
+            "en": "Have you …?"
+          },
+          "right": "Have you been sleeping well?"
+        }
+      ],
+      "explanation": {
+        "ru": "Вопрос строится с Have/Has + … + been + V-ing; вопросительное слово ставится в начало.",
+        "en": "The question is built with Have/Has + … + been + V-ing; the question word comes first."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "match",
+        "question"
       ]
     }
   ]

@@ -17,8 +17,8 @@
         "en": "Future Continuous"
       },
       "summary": {
-        "ru": "Future Continuous (will be + -ing) описывает действие, которое будет происходить в определённый момент в будущем, а также запланированные и ожидаемые процессы.",
-        "en": "The Future Continuous (will be + -ing) describes an action that will be in progress at a particular future moment, as well as planned and expected processes."
+        "ru": "will be + V-ing — процесс в определённый момент будущего. Формулы, случаи, маркеры и ошибки — коротко и по делу.",
+        "en": "will be + V-ing — an action in progress at a future moment. Formulas, uses, markers and mistakes — short and clear."
       },
       "sections": [
         {
@@ -27,58 +27,58 @@
             "en": "Form"
           },
           "body": {
-            "ru": "Future Continuous строится по схеме will be + глагол с окончанием -ing; форма одинакова для всех лиц. Отрицание — will not be + -ing, а в вопросе will выходит на первое место, тогда как be и -ing остаются вместе.",
-            "en": "The Future Continuous is formed with will be + the -ing form, the same for all persons. The negative is will not be + -ing, and in questions will comes first while be and the -ing form stay together."
+            "ru": "(+) will be + V-ing\n(–) will not be + V-ing\n(?) Will … be + V-ing?\nОдна форма для всех лиц.",
+            "en": "(+) will be + V-ing\n(–) will not be + V-ing\n(?) Will … be + V-ing?\nThe same form for all persons."
           },
           "examples": [
-            "I will be working late on Friday.",
-            "She will not be coming to the meeting.",
+            "I will be working at nine tomorrow.",
+            "She will not be coming tonight.",
             "Will you be using the car later?"
           ]
         },
         {
           "heading": {
-            "ru": "Значение",
-            "en": "Meaning"
+            "ru": "Когда используем",
+            "en": "When we use it"
           },
           "body": {
-            "ru": "Время показывает действие в процессе в конкретный момент будущего: оно уже будет идти, когда произойдёт что-то ещё. Так же говорят об ожидаемых событиях и одновременных процессах, не акцентируя результат. В вежливых вопросах о планах на будущее Future Continuous звучит мягче: Will you be using the car tonight?",
-            "en": "This tense shows an action in progress at a particular future moment: it will already be happening when something else occurs. It also describes expected events and simultaneous processes, without focusing on the result. In polite questions about future plans the Future Continuous sounds softer: Will you be using the car tonight?"
+            "ru": "• процесс в конкретный момент будущего\n• когда произойдёт что-то ещё\n• ожидаемые события\n• одновременные процессы",
+            "en": "• a process at a particular future moment\n• when something else happens\n• expected events\n• simultaneous processes"
           },
           "examples": [
-            "At eight tomorrow I will be flying to Rome.",
-            "When you arrive, I will be waiting at the station.",
-            "While you are cooking, I will be setting the table."
+            "At eight I will be flying to Rome.",
+            "When you arrive, I will be waiting.",
+            "While you cook, I will be setting the table."
           ]
         },
         {
           "heading": {
-            "ru": "Маркеры времени",
-            "en": "Time markers"
+            "ru": "Маркеры",
+            "en": "Markers"
           },
           "body": {
-            "ru": "Указатели времени — точный будущий момент (at this time tomorrow, at eight o'clock) и придаточные с when или while, где глагол стоит в настоящем времени. Обстоятельства длительности подчёркивают процесс, а не отдельный результат.",
-            "en": "Typical time markers are a precise future moment (at this time tomorrow, at eight o'clock) and clauses with when or while whose verb is in the present tense. Adverbials of duration emphasise the process rather than a single result."
+            "ru": "• at this time tomorrow\n• at eight o'clock tomorrow\n• this time next week\n• all day tomorrow\n• when / while + настоящее",
+            "en": "• at this time tomorrow\n• at eight o'clock tomorrow\n• this time next week\n• all day tomorrow\n• when / while + present"
           },
           "examples": [
-            "This time next week she will be sitting in her new office.",
-            "All day tomorrow we will be driving north.",
-            "While you are asleep, the team will be preparing the hall."
+            "This time next week she will be sailing.",
+            "All day tomorrow we will be driving.",
+            "While you are asleep, I will be working."
           ]
         },
         {
           "heading": {
-            "ru": "Ошибки и сравнение с Future Simple",
-            "en": "Mistakes and contrast with the Future Simple"
+            "ru": "Ошибки",
+            "en": "Common mistakes"
           },
           "body": {
-            "ru": "Частая ошибка — опускать be или ставить present continuous там, где нужен процесс в будущем. Сравнивайте с Future Simple: он передаёт решение, обещание или результат, а Future Continuous — процесс в указанный момент.",
-            "en": "A common mistake is to leave out be or to use the present continuous where a future process is meant. Compare the Future Simple: it gives a decision, promise or result, while the Future Continuous describes a process at a given moment."
+            "ru": "• ❌ I will working — ✅ I will be working\n• ❌ I will be work — ✅ I will be working\n• процесс ≠ результат: will be doing / will do",
+            "en": "• ❌ I will working — ✅ I will be working\n• ❌ I will be work — ✅ I will be working\n• process ≠ result: will be doing / will do"
           },
           "examples": [
-            "I will be seeing her tomorrow, so I can pass on the message.",
+            "I will be seeing her tomorrow.",
             "I will call you when I get home.",
-            "You will recognise him — he will be wearing a red jacket."
+            "He will be wearing a red jacket."
           ]
         }
       ]
@@ -637,8 +637,10 @@
       },
       "tags": [
         "tense-future-continuous",
-        "build"
-      ]
+        "build",
+        "affirmative"
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-future-continuous-0022",
@@ -676,8 +678,10 @@
       },
       "tags": [
         "tense-future-continuous",
-        "build"
-      ]
+        "build",
+        "negative"
+      ],
+      "buildKind": "negative"
     },
     {
       "id": "tense-future-continuous-0023",
@@ -715,8 +719,10 @@
       },
       "tags": [
         "tense-future-continuous",
-        "build"
-      ]
+        "build",
+        "affirmative"
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-future-continuous-0024",
@@ -754,8 +760,10 @@
       },
       "tags": [
         "tense-future-continuous",
-        "build"
-      ]
+        "build",
+        "question"
+      ],
+      "buildKind": "question"
     },
     {
       "id": "tense-future-continuous-0025",
@@ -803,7 +811,2379 @@
       },
       "tags": [
         "tense-future-continuous",
-        "build"
+        "build",
+        "affirmative"
+      ],
+      "buildKind": "affirmative"
+    },
+    {
+      "id": "tense-future-continuous-0031",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "will",
+        "be",
+        "flying",
+        "to",
+        "Paris",
+        "tomorrow",
+        "morning"
+      ],
+      "answers": [
+        [
+          "I",
+          "will",
+          "be",
+          "flying",
+          "to",
+          "Paris",
+          "tomorrow",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Завтра утром я буду лететь в Париж."
+      },
+      "explanation": {
+        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
+        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "affirmative",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0032",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "will",
+        "be",
+        "having",
+        "dinner",
+        "at",
+        "seven",
+        "tonight"
+      ],
+      "answers": [
+        [
+          "We",
+          "will",
+          "be",
+          "having",
+          "dinner",
+          "at",
+          "seven",
+          "tonight"
+        ]
+      ],
+      "translation": {
+        "ru": "Сегодня в семь мы будем ужинать."
+      },
+      "explanation": {
+        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
+        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "affirmative",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0033",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "will",
+        "be",
+        "working",
+        "in",
+        "the",
+        "garden",
+        "all",
+        "morning"
+      ],
+      "answers": [
+        [
+          "She",
+          "will",
+          "be",
+          "working",
+          "in",
+          "the",
+          "garden",
+          "all",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Всё утро она будет работать в саду."
+      },
+      "explanation": {
+        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
+        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "affirmative",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0034",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "children",
+        "will",
+        "be",
+        "playing",
+        "football",
+        "after",
+        "school"
+      ],
+      "answers": [
+        [
+          "The",
+          "children",
+          "will",
+          "be",
+          "playing",
+          "football",
+          "after",
+          "school"
+        ]
+      ],
+      "translation": {
+        "ru": "После школы дети будут играть в футбол."
+      },
+      "explanation": {
+        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
+        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "affirmative",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0035",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "At",
+        "midnight",
+        "we",
+        "will",
+        "be",
+        "travelling",
+        "through",
+        "the",
+        "mountains"
+      ],
+      "answers": [
+        [
+          "At",
+          "midnight",
+          "we",
+          "will",
+          "be",
+          "travelling",
+          "through",
+          "the",
+          "mountains"
+        ]
+      ],
+      "translation": {
+        "ru": "В полночь мы будем ехать через горы."
+      },
+      "explanation": {
+        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
+        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "affirmative",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0036",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "This",
+        "time",
+        "tomorrow",
+        "I",
+        "will",
+        "be",
+        "sitting",
+        "on",
+        "a",
+        "plane"
+      ],
+      "answers": [
+        [
+          "This",
+          "time",
+          "tomorrow",
+          "I",
+          "will",
+          "be",
+          "sitting",
+          "on",
+          "a",
+          "plane"
+        ]
+      ],
+      "translation": {
+        "ru": "Завтра в это время я буду сидеть в самолёте."
+      },
+      "explanation": {
+        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
+        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "affirmative",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0037",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "chef",
+        "will",
+        "be",
+        "preparing",
+        "dinner",
+        "when",
+        "the",
+        "guests",
+        "arrive"
+      ],
+      "answers": [
+        [
+          "The",
+          "chef",
+          "will",
+          "be",
+          "preparing",
+          "dinner",
+          "when",
+          "the",
+          "guests",
+          "arrive"
+        ]
+      ],
+      "translation": {
+        "ru": "Когда придут гости, повар будет готовить ужин."
+      },
+      "explanation": {
+        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
+        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "affirmative",
+        "simultaneous"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0038",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "My",
+        "parents",
+        "will",
+        "be",
+        "waiting",
+        "for",
+        "us",
+        "at",
+        "the",
+        "airport"
+      ],
+      "answers": [
+        [
+          "My",
+          "parents",
+          "will",
+          "be",
+          "waiting",
+          "for",
+          "us",
+          "at",
+          "the",
+          "airport"
+        ]
+      ],
+      "translation": {
+        "ru": "Мои родители будут ждать нас в аэропорту."
+      },
+      "explanation": {
+        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
+        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "affirmative",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0039",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "will",
+        "be",
+        "studying",
+        "in",
+        "the",
+        "library",
+        "all",
+        "evening"
+      ],
+      "answers": [
+        [
+          "I",
+          "will",
+          "be",
+          "studying",
+          "in",
+          "the",
+          "library",
+          "all",
+          "evening"
+        ]
+      ],
+      "translation": {
+        "ru": "Весь вечер я буду заниматься в библиотеке."
+      },
+      "explanation": {
+        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
+        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "affirmative",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0040",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "band",
+        "will",
+        "be",
+        "playing",
+        "in",
+        "the",
+        "park",
+        "next",
+        "Sunday"
+      ],
+      "answers": [
+        [
+          "The",
+          "band",
+          "will",
+          "be",
+          "playing",
+          "in",
+          "the",
+          "park",
+          "next",
+          "Sunday"
+        ]
+      ],
+      "translation": {
+        "ru": "В следующее воскресенье группа будет играть в парке."
+      },
+      "explanation": {
+        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
+        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "affirmative",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0041",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "At",
+        "nine",
+        "tomorrow",
+        "the",
+        "team",
+        "will",
+        "be",
+        "training",
+        "in",
+        "the",
+        "gym"
+      ],
+      "answers": [
+        [
+          "At",
+          "nine",
+          "tomorrow",
+          "the",
+          "team",
+          "will",
+          "be",
+          "training",
+          "in",
+          "the",
+          "gym"
+        ]
+      ],
+      "translation": {
+        "ru": "Завтра в девять команда будет тренироваться в спортзале."
+      },
+      "explanation": {
+        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
+        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "affirmative",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0042",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "will",
+        "be",
+        "taking",
+        "her",
+        "driving",
+        "test",
+        "at",
+        "ten",
+        "tomorrow"
+      ],
+      "answers": [
+        [
+          "She",
+          "will",
+          "be",
+          "taking",
+          "her",
+          "driving",
+          "test",
+          "at",
+          "ten",
+          "tomorrow"
+        ]
+      ],
+      "translation": {
+        "ru": "Завтра в десять она будет сдавать экзамен по вождению."
+      },
+      "explanation": {
+        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
+        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "affirmative",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0043",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "will",
+        "probably",
+        "be",
+        "watching",
+        "the",
+        "match",
+        "at",
+        "eight"
+      ],
+      "answers": [
+        [
+          "We",
+          "will",
+          "probably",
+          "be",
+          "watching",
+          "the",
+          "match",
+          "at",
+          "eight"
+        ],
+        [
+          "We",
+          "probably",
+          "will",
+          "be",
+          "watching",
+          "the",
+          "match",
+          "at",
+          "eight"
+        ]
+      ],
+      "translation": {
+        "ru": "В восемь мы, вероятно, будем смотреть матч."
+      },
+      "explanation": {
+        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
+        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "affirmative",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0044",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "mechanic",
+        "will",
+        "be",
+        "repairing",
+        "my",
+        "car",
+        "all",
+        "day"
+      ],
+      "answers": [
+        [
+          "The",
+          "mechanic",
+          "will",
+          "be",
+          "repairing",
+          "my",
+          "car",
+          "all",
+          "day"
+        ]
+      ],
+      "translation": {
+        "ru": "Весь день механик будет чинить мою машину."
+      },
+      "explanation": {
+        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
+        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "affirmative",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0045",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "My",
+        "sister",
+        "will",
+        "be",
+        "shopping",
+        "in",
+        "the",
+        "city",
+        "centre",
+        "this",
+        "afternoon"
+      ],
+      "answers": [
+        [
+          "My",
+          "sister",
+          "will",
+          "be",
+          "shopping",
+          "in",
+          "the",
+          "city",
+          "centre",
+          "this",
+          "afternoon"
+        ]
+      ],
+      "translation": {
+        "ru": "Сегодня днём сестра будет делать покупки в центре города."
+      },
+      "explanation": {
+        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
+        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "affirmative",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0046",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "teacher",
+        "will",
+        "be",
+        "explaining",
+        "the",
+        "new",
+        "topic",
+        "at",
+        "nine"
+      ],
+      "answers": [
+        [
+          "The",
+          "teacher",
+          "will",
+          "be",
+          "explaining",
+          "the",
+          "new",
+          "topic",
+          "at",
+          "nine"
+        ]
+      ],
+      "translation": {
+        "ru": "В девять учитель будет объяснять новую тему."
+      },
+      "explanation": {
+        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
+        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "affirmative",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0047",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "will",
+        "be",
+        "building",
+        "a",
+        "new",
+        "bridge",
+        "next",
+        "year"
+      ],
+      "answers": [
+        [
+          "They",
+          "will",
+          "be",
+          "building",
+          "a",
+          "new",
+          "bridge",
+          "next",
+          "year"
+        ]
+      ],
+      "translation": {
+        "ru": "В следующем году они будут строить новый мост."
+      },
+      "explanation": {
+        "ru": "Future Continuous, утверждение: will be + V-ing; маркер показывает момент процесса.",
+        "en": "Future Continuous, affirmative: will be + V-ing; the marker shows the moment of the process."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "affirmative",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0048",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "will",
+        "not",
+        "be",
+        "working",
+        "this",
+        "weekend"
+      ],
+      "answers": [
+        [
+          "I",
+          "will",
+          "not",
+          "be",
+          "working",
+          "this",
+          "weekend"
+        ]
+      ],
+      "translation": {
+        "ru": "В эти выходные я не буду работать."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0049",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "will",
+        "not",
+        "be",
+        "joining",
+        "us",
+        "for",
+        "lunch"
+      ],
+      "answers": [
+        [
+          "She",
+          "will",
+          "not",
+          "be",
+          "joining",
+          "us",
+          "for",
+          "lunch"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не будет обедать с нами."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0050",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "will",
+        "not",
+        "be",
+        "coming",
+        "to",
+        "the",
+        "meeting"
+      ],
+      "answers": [
+        [
+          "They",
+          "will",
+          "not",
+          "be",
+          "coming",
+          "to",
+          "the",
+          "meeting"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не придут на совещание."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0051",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "will",
+        "not",
+        "be",
+        "using",
+        "the",
+        "car",
+        "tomorrow"
+      ],
+      "answers": [
+        [
+          "We",
+          "will",
+          "not",
+          "be",
+          "using",
+          "the",
+          "car",
+          "tomorrow"
+        ]
+      ],
+      "translation": {
+        "ru": "Завтра мы не будем пользоваться машиной."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0052",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "children",
+        "will",
+        "not",
+        "be",
+        "playing",
+        "outside",
+        "in",
+        "the",
+        "rain"
+      ],
+      "answers": [
+        [
+          "The",
+          "children",
+          "will",
+          "not",
+          "be",
+          "playing",
+          "outside",
+          "in",
+          "the",
+          "rain"
+        ]
+      ],
+      "translation": {
+        "ru": "В дождь дети не будут играть на улице."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0053",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "will",
+        "not",
+        "be",
+        "attending",
+        "the",
+        "conference",
+        "next",
+        "week"
+      ],
+      "answers": [
+        [
+          "He",
+          "will",
+          "not",
+          "be",
+          "attending",
+          "the",
+          "conference",
+          "next",
+          "week"
+        ]
+      ],
+      "translation": {
+        "ru": "На следующей неделе он не будет присутствовать на конференции."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0054",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "will",
+        "not",
+        "be",
+        "waiting",
+        "for",
+        "you",
+        "after",
+        "eight"
+      ],
+      "answers": [
+        [
+          "I",
+          "will",
+          "not",
+          "be",
+          "waiting",
+          "for",
+          "you",
+          "after",
+          "eight"
+        ]
+      ],
+      "translation": {
+        "ru": "После восьми я не буду тебя ждать."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0055",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "will",
+        "not",
+        "be",
+        "living",
+        "in",
+        "London",
+        "next",
+        "year"
+      ],
+      "answers": [
+        [
+          "She",
+          "will",
+          "not",
+          "be",
+          "living",
+          "in",
+          "London",
+          "next",
+          "year"
+        ]
+      ],
+      "translation": {
+        "ru": "В следующем году она не будет жить в Лондоне."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0056",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "will",
+        "not",
+        "be",
+        "leaving",
+        "before",
+        "six"
+      ],
+      "answers": [
+        [
+          "We",
+          "will",
+          "not",
+          "be",
+          "leaving",
+          "before",
+          "six"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы не будем уезжать раньше шести."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0057",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "train",
+        "will",
+        "not",
+        "be",
+        "stopping",
+        "at",
+        "this",
+        "station"
+      ],
+      "answers": [
+        [
+          "The",
+          "train",
+          "will",
+          "not",
+          "be",
+          "stopping",
+          "at",
+          "this",
+          "station"
+        ]
+      ],
+      "translation": {
+        "ru": "Поезд не будет останавливаться на этой станции."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0058",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "My",
+        "brother",
+        "will",
+        "not",
+        "be",
+        "studying",
+        "this",
+        "evening"
+      ],
+      "answers": [
+        [
+          "My",
+          "brother",
+          "will",
+          "not",
+          "be",
+          "studying",
+          "this",
+          "evening"
+        ]
+      ],
+      "translation": {
+        "ru": "Сегодня вечером брат не будет заниматься."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0059",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "guests",
+        "will",
+        "not",
+        "be",
+        "arriving",
+        "before",
+        "ten"
+      ],
+      "answers": [
+        [
+          "The",
+          "guests",
+          "will",
+          "not",
+          "be",
+          "arriving",
+          "before",
+          "ten"
+        ]
+      ],
+      "translation": {
+        "ru": "Гости не приедут раньше десяти."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0060",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "will",
+        "not",
+        "be",
+        "watching",
+        "television",
+        "tonight"
+      ],
+      "answers": [
+        [
+          "I",
+          "will",
+          "not",
+          "be",
+          "watching",
+          "television",
+          "tonight"
+        ]
+      ],
+      "translation": {
+        "ru": "Сегодня вечером я не буду смотреть телевизор."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0061",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "will",
+        "not",
+        "be",
+        "wearing",
+        "a",
+        "dress",
+        "to",
+        "the",
+        "party"
+      ],
+      "answers": [
+        [
+          "She",
+          "will",
+          "not",
+          "be",
+          "wearing",
+          "a",
+          "dress",
+          "to",
+          "the",
+          "party"
+        ]
+      ],
+      "translation": {
+        "ru": "На вечеринку она не будет надевать платье."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0062",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "will",
+        "not",
+        "be",
+        "selling",
+        "tickets",
+        "after",
+        "Friday"
+      ],
+      "answers": [
+        [
+          "They",
+          "will",
+          "not",
+          "be",
+          "selling",
+          "tickets",
+          "after",
+          "Friday"
+        ]
+      ],
+      "translation": {
+        "ru": "После пятницы они не будут продавать билеты."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0063",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "dog",
+        "will",
+        "not",
+        "be",
+        "sleeping",
+        "in",
+        "our",
+        "room",
+        "tonight"
+      ],
+      "answers": [
+        [
+          "The",
+          "dog",
+          "will",
+          "not",
+          "be",
+          "sleeping",
+          "in",
+          "our",
+          "room",
+          "tonight"
+        ]
+      ],
+      "translation": {
+        "ru": "Сегодня ночью собака не будет спать в нашей комнате."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0064",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "will",
+        "probably",
+        "not",
+        "be",
+        "taking",
+        "the",
+        "early",
+        "train"
+      ],
+      "answers": [
+        [
+          "We",
+          "will",
+          "probably",
+          "not",
+          "be",
+          "taking",
+          "the",
+          "early",
+          "train"
+        ],
+        [
+          "We",
+          "probably",
+          "will",
+          "not",
+          "be",
+          "taking",
+          "the",
+          "early",
+          "train"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы, вероятно, не поедем ранним поездом."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0065",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "will",
+        "not",
+        "be",
+        "giving",
+        "any",
+        "interviews",
+        "tomorrow"
+      ],
+      "answers": [
+        [
+          "He",
+          "will",
+          "not",
+          "be",
+          "giving",
+          "any",
+          "interviews",
+          "tomorrow"
+        ]
+      ],
+      "translation": {
+        "ru": "Завтра он не будет давать интервью."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0066",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "children",
+        "will",
+        "not",
+        "be",
+        "going",
+        "to",
+        "school",
+        "on",
+        "Monday"
+      ],
+      "answers": [
+        [
+          "The",
+          "children",
+          "will",
+          "not",
+          "be",
+          "going",
+          "to",
+          "school",
+          "on",
+          "Monday"
+        ]
+      ],
+      "translation": {
+        "ru": "В понедельник дети не пойдут в школу."
+      },
+      "explanation": {
+        "ru": "Future Continuous, отрицание: will not be + V-ing.",
+        "en": "Future Continuous, negative: will not be + V-ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0067",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "you",
+        "be",
+        "working",
+        "late",
+        "tonight"
+      ],
+      "answers": [
+        [
+          "Will",
+          "you",
+          "be",
+          "working",
+          "late",
+          "tonight"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты сегодня будешь работать допоздна?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing?",
+        "en": "Future Continuous, question: will … be + V-ing?"
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0068",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "she",
+        "be",
+        "coming",
+        "to",
+        "the",
+        "concert"
+      ],
+      "answers": [
+        [
+          "Will",
+          "she",
+          "be",
+          "coming",
+          "to",
+          "the",
+          "concert"
+        ]
+      ],
+      "translation": {
+        "ru": "Она придёт на концерт?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing?",
+        "en": "Future Continuous, question: will … be + V-ing?"
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0069",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "they",
+        "be",
+        "staying",
+        "at",
+        "the",
+        "hotel"
+      ],
+      "answers": [
+        [
+          "Will",
+          "they",
+          "be",
+          "staying",
+          "at",
+          "the",
+          "hotel"
+        ]
+      ],
+      "translation": {
+        "ru": "Они будут жить в отеле?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing?",
+        "en": "Future Continuous, question: will … be + V-ing?"
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0070",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "he",
+        "be",
+        "playing",
+        "tennis",
+        "tomorrow"
+      ],
+      "answers": [
+        [
+          "Will",
+          "he",
+          "be",
+          "playing",
+          "tennis",
+          "tomorrow"
+        ]
+      ],
+      "translation": {
+        "ru": "Он будет играть в теннис завтра?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing?",
+        "en": "Future Continuous, question: will … be + V-ing?"
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0071",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "you",
+        "be",
+        "using",
+        "the",
+        "printer",
+        "this",
+        "morning"
+      ],
+      "answers": [
+        [
+          "Will",
+          "you",
+          "be",
+          "using",
+          "the",
+          "printer",
+          "this",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты будешь пользоваться принтером сегодня утром?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing?",
+        "en": "Future Continuous, question: will … be + V-ing?"
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0072",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "What",
+        "will",
+        "you",
+        "be",
+        "doing",
+        "at",
+        "eight"
+      ],
+      "answers": [
+        [
+          "What",
+          "will",
+          "you",
+          "be",
+          "doing",
+          "at",
+          "eight"
+        ]
+      ],
+      "translation": {
+        "ru": "Что ты будешь делать в восемь?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing? С вопросительным словом в начале.",
+        "en": "Future Continuous, question: will … be + V-ing? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0073",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Where",
+        "will",
+        "they",
+        "be",
+        "staying",
+        "in",
+        "Rome"
+      ],
+      "answers": [
+        [
+          "Where",
+          "will",
+          "they",
+          "be",
+          "staying",
+          "in",
+          "Rome"
+        ]
+      ],
+      "translation": {
+        "ru": "Где они будут жить в Риме?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing? С вопросительным словом в начале.",
+        "en": "Future Continuous, question: will … be + V-ing? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0074",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "When",
+        "will",
+        "she",
+        "be",
+        "arriving",
+        "at",
+        "the",
+        "airport"
+      ],
+      "answers": [
+        [
+          "When",
+          "will",
+          "she",
+          "be",
+          "arriving",
+          "at",
+          "the",
+          "airport"
+        ]
+      ],
+      "translation": {
+        "ru": "Когда она прилетит в аэропорт?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing? С вопросительным словом в начале.",
+        "en": "Future Continuous, question: will … be + V-ing? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0075",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "What",
+        "will",
+        "the",
+        "children",
+        "be",
+        "doing",
+        "this",
+        "afternoon"
+      ],
+      "answers": [
+        [
+          "What",
+          "will",
+          "the",
+          "children",
+          "be",
+          "doing",
+          "this",
+          "afternoon"
+        ]
+      ],
+      "translation": {
+        "ru": "Что дети будут делать сегодня днём?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing? С вопросительным словом в начале.",
+        "en": "Future Continuous, question: will … be + V-ing? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0076",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "your",
+        "parents",
+        "be",
+        "joining",
+        "us",
+        "for",
+        "dinner"
+      ],
+      "answers": [
+        [
+          "Will",
+          "your",
+          "parents",
+          "be",
+          "joining",
+          "us",
+          "for",
+          "dinner"
+        ]
+      ],
+      "translation": {
+        "ru": "Твои родители будут с нами ужинать?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing?",
+        "en": "Future Continuous, question: will … be + V-ing?"
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0077",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "How",
+        "long",
+        "will",
+        "you",
+        "be",
+        "staying",
+        "in",
+        "Paris"
+      ],
+      "answers": [
+        [
+          "How",
+          "long",
+          "will",
+          "you",
+          "be",
+          "staying",
+          "in",
+          "Paris"
+        ]
+      ],
+      "translation": {
+        "ru": "Сколько времени ты пробудешь в Париже?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing? С вопросительным словом в начале.",
+        "en": "Future Continuous, question: will … be + V-ing? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0078",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "the",
+        "band",
+        "be",
+        "playing",
+        "all",
+        "evening"
+      ],
+      "answers": [
+        [
+          "Will",
+          "the",
+          "band",
+          "be",
+          "playing",
+          "all",
+          "evening"
+        ]
+      ],
+      "translation": {
+        "ru": "Группа будет играть весь вечер?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing?",
+        "en": "Future Continuous, question: will … be + V-ing?"
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0079",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "you",
+        "be",
+        "flying",
+        "to",
+        "Berlin",
+        "on",
+        "Monday"
+      ],
+      "answers": [
+        [
+          "Will",
+          "you",
+          "be",
+          "flying",
+          "to",
+          "Berlin",
+          "on",
+          "Monday"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты полетишь в Берлин в понедельник?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing?",
+        "en": "Future Continuous, question: will … be + V-ing?"
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0080",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Who",
+        "will",
+        "be",
+        "speaking",
+        "at",
+        "the",
+        "meeting"
+      ],
+      "answers": [
+        [
+          "Who",
+          "will",
+          "be",
+          "speaking",
+          "at",
+          "the",
+          "meeting"
+        ]
+      ],
+      "translation": {
+        "ru": "Кто будет выступать на совещании?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing? С вопросительным словом в начале.",
+        "en": "Future Continuous, question: will … be + V-ing? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0081",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "they",
+        "be",
+        "serving",
+        "lunch",
+        "on",
+        "the",
+        "train"
+      ],
+      "answers": [
+        [
+          "Will",
+          "they",
+          "be",
+          "serving",
+          "lunch",
+          "on",
+          "the",
+          "train"
+        ]
+      ],
+      "translation": {
+        "ru": "В поезде будут подавать обед?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing?",
+        "en": "Future Continuous, question: will … be + V-ing?"
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0082",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "the",
+        "manager",
+        "be",
+        "attending",
+        "the",
+        "interview"
+      ],
+      "answers": [
+        [
+          "Will",
+          "the",
+          "manager",
+          "be",
+          "attending",
+          "the",
+          "interview"
+        ]
+      ],
+      "translation": {
+        "ru": "Менеджер будет присутствовать на собеседовании?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing?",
+        "en": "Future Continuous, question: will … be + V-ing?"
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0083",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Why",
+        "will",
+        "you",
+        "be",
+        "travelling",
+        "so",
+        "late"
+      ],
+      "answers": [
+        [
+          "Why",
+          "will",
+          "you",
+          "be",
+          "travelling",
+          "so",
+          "late"
+        ]
+      ],
+      "translation": {
+        "ru": "Почему ты поедешь так поздно?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing? С вопросительным словом в начале.",
+        "en": "Future Continuous, question: will … be + V-ing? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0084",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "you",
+        "be",
+        "needing",
+        "anything",
+        "else"
+      ],
+      "answers": [
+        [
+          "Will",
+          "you",
+          "be",
+          "needing",
+          "anything",
+          "else"
+        ]
+      ],
+      "translation": {
+        "ru": "Тебе понадобится что-нибудь ещё?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing?",
+        "en": "Future Continuous, question: will … be + V-ing?"
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0085",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "What",
+        "time",
+        "will",
+        "the",
+        "shop",
+        "be",
+        "opening"
+      ],
+      "answers": [
+        [
+          "What",
+          "time",
+          "will",
+          "the",
+          "shop",
+          "be",
+          "opening"
+        ]
+      ],
+      "translation": {
+        "ru": "Во сколько откроется магазин?"
+      },
+      "explanation": {
+        "ru": "Future Continuous, вопрос: will … be + V-ing? С вопросительным словом в начале.",
+        "en": "Future Continuous, question: will … be + V-ing? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build",
+        "question",
+        "question-form"
       ]
     },
     {
@@ -1044,6 +3424,251 @@
       "tags": [
         "tense-future-continuous",
         "match"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0086",
+      "type": "match",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте вопрос и краткий ответ.",
+        "en": "Match each question with a short answer."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Ты будешь работать допоздна сегодня?",
+            "en": "Will you be working late tonight?"
+          },
+          "right": "No, I will not be working late tonight."
+        },
+        {
+          "left": {
+            "ru": "Она придёт на вечеринку?",
+            "en": "Will she be coming to the party?"
+          },
+          "right": "Yes, she will be coming to the party."
+        },
+        {
+          "left": {
+            "ru": "Они будут пользоваться машиной завтра?",
+            "en": "Will they be using the car tomorrow?"
+          },
+          "right": "No, they will not be using the car tomorrow."
+        },
+        {
+          "left": {
+            "ru": "Он будет играть в теннис в воскресенье?",
+            "en": "Will he be playing tennis on Sunday?"
+          },
+          "right": "Yes, he will be playing tennis on Sunday."
+        }
+      ],
+      "explanation": {
+        "ru": "Вопрос о процессе в будущем строится с will … be + V-ing, а ответ повторяет ту же форму с yes или no.",
+        "en": "A question about a future process uses will … be + V-ing, and the answer repeats the same form with yes or no."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "match",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0087",
+      "type": "match",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте временной маркер и предложение.",
+        "en": "Match each time marker with a sentence."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "at midnight — в полночь",
+            "en": "at midnight"
+          },
+          "right": "At midnight the train will be crossing the border."
+        },
+        {
+          "left": {
+            "ru": "in ten minutes — через десять минут",
+            "en": "in ten minutes"
+          },
+          "right": "In ten minutes we will be landing in Madrid."
+        },
+        {
+          "left": {
+            "ru": "while you are asleep — пока ты спишь",
+            "en": "while you are asleep"
+          },
+          "right": "While you are asleep, the team will be decorating the hall."
+        },
+        {
+          "left": {
+            "ru": "between two and four — между двумя и четырьмя",
+            "en": "between two and four"
+          },
+          "right": "Between two and four I will be teaching my evening class."
+        }
+      ],
+      "explanation": {
+        "ru": "Все маркеры задают момент или промежуток в будущем, в который действие будет идти.",
+        "en": "All the markers set a future moment or interval at which the action will be going on."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "match",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0088",
+      "type": "match",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте ошибку и исправленное предложение.",
+        "en": "Match each mistake with the corrected sentence."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "❌ I will working tomorrow. — ошибка в форме",
+            "en": "❌ I will working tomorrow."
+          },
+          "right": "I will be working tomorrow."
+        },
+        {
+          "left": {
+            "ru": "❌ She will be work at nine. — ошибка в форме",
+            "en": "❌ She will be work at nine."
+          },
+          "right": "She will be working at nine."
+        },
+        {
+          "left": {
+            "ru": "❌ Will you be use the car? — ошибка в форме",
+            "en": "❌ Will you be use the car?"
+          },
+          "right": "Will you be using the car?"
+        },
+        {
+          "left": {
+            "ru": "❌ They not will be coming. — ошибка в форме",
+            "en": "❌ They not will be coming."
+          },
+          "right": "They will not be coming."
+        }
+      ],
+      "explanation": {
+        "ru": "После will обязательно be, а основной глагол стоит в форме -ing; отрицание — will not be.",
+        "en": "After will we always need be, and the main verb takes the -ing form; the negative is will not be."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "match",
+        "mistakes"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0089",
+      "type": "match",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте ситуацию и предложение.",
+        "en": "Match each situation with a sentence."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Процесс идёт, когда придут гости",
+            "en": "The process is going on when the guests arrive"
+          },
+          "right": "When the guests arrive, the chef will be cooking."
+        },
+        {
+          "left": {
+            "ru": "Действие будет идти весь день",
+            "en": "The action will go on all day"
+          },
+          "right": "All day tomorrow we will be painting the fence."
+        },
+        {
+          "left": {
+            "ru": "Одновременные процессы",
+            "en": "Simultaneous processes"
+          },
+          "right": "While I am cooking, my brother will be setting the table."
+        },
+        {
+          "left": {
+            "ru": "Этот момент на следующей неделе",
+            "en": "The same moment next week"
+          },
+          "right": "This time next week I will be sitting in a meeting."
+        }
+      ],
+      "explanation": {
+        "ru": "Каждая ситуация описывает процесс в будущем: в момент, одновременно с другим действием или в течение длительного времени.",
+        "en": "Each situation describes a future process: at a moment, at the same time as another action, or over a long period."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "match",
+        "situations"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0090",
+      "type": "match",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте форму и пример.",
+        "en": "Match each form with an example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "(+) will be + V-ing — утверждение",
+            "en": "(+) will be + V-ing"
+          },
+          "right": "I will be flying to Rome tomorrow."
+        },
+        {
+          "left": {
+            "ru": "(–) will not be + V-ing — отрицание",
+            "en": "(–) will not be + V-ing"
+          },
+          "right": "She will not be coming to the party."
+        },
+        {
+          "left": {
+            "ru": "(?) Will … be + V-ing? — вопрос",
+            "en": "(?) Will … be + V-ing?"
+          },
+          "right": "Will they be waiting for us at the station?"
+        },
+        {
+          "left": {
+            "ru": "Процесс при другом действии",
+            "en": "A process at another action"
+          },
+          "right": "When you arrive, I will be holding a sign with your name."
+        }
+      ],
+      "explanation": {
+        "ru": "Утверждение, отрицание и вопрос различаются порядком will, а последний пример показывает процесс в момент другого действия.",
+        "en": "The affirmative, negative and question forms differ in the position of will, while the last example shows a process at another action."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "match",
+        "form"
       ]
     }
   ]

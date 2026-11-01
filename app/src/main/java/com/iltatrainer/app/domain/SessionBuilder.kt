@@ -29,6 +29,8 @@ data class SessionConfig(
     val ruleIds: List<String> = emptyList(),
     val size: Int = 10,
     val questionIds: List<String> = emptyList(),
+    /** Optional exercise-type filter (choice/match/build); empty = all types. */
+    val types: Set<String> = emptySet(),
 )
 
 data class SessionMistake(
@@ -70,7 +72,9 @@ object SessionBuilder {
             PracticeMode.MISTAKES -> buildMistakeReview(state, questions, size, random)
             PracticeMode.BUILD -> weightedPick(questions.filter { it.isBuild }, state, size, random)
             PracticeMode.QUICK -> weightedPick(
-                if (config.ruleIds.isEmpty()) questions else questions.filter { it.ruleId in config.ruleIds },
+                questions
+                    .filter { config.ruleIds.isEmpty() || it.ruleId in config.ruleIds }
+                    .filter { config.types.isEmpty() || it.type in config.types },
                 state,
                 size,
                 random,
@@ -177,11 +181,17 @@ object SessionBuilder {
         random: Random,
     ): List<Question> {
         if (pool.size <= size) return pool.shuffled(random)
+        if (pool.any { it.isBuild }) {
+            val matches = pool.filter { it.isMatch }.shuffled(random).take(5.coerceAtMost(pool.count { it.isMatch }))
+            val builds = pool.filter { it.isBuild }.shuffled(random).take(15.coerceAtMost(pool.count { it.isBuild }))
+            val choiceCount = (size - matches.size - builds.size).coerceAtLeast(0)
+            val choices = weightedPick(pool.filter { it.isChoice }, state, choiceCount, random)
+            return (matches + builds + choices).shuffled(random)
+        }
         val matches = pool.filter { it.isMatch }.shuffled(random).take(5)
-        val builds = pool.filter { it.isBuild }.shuffled(random).take(5)
-        val choiceCount = (size - matches.size - builds.size).coerceAtLeast(0)
+        val choiceCount = (size - matches.size).coerceAtLeast(0)
         val choices = weightedPick(pool.filter { it.isChoice }, state, choiceCount, random)
-        return (matches + builds + choices).shuffled(random)
+        return (matches + choices).shuffled(random)
     }
 
     private fun accuracy(state: ProgressState, questionId: String): Float {

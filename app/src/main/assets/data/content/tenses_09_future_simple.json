@@ -17,8 +17,8 @@
         "en": "Future Simple"
       },
       "summary": {
-        "ru": "Future Simple (will + начальная форма глагола) говорит о будущем: предсказаниях, обещаниях, решениях в момент речи и предложениях помощи.",
-        "en": "Future Simple (will + base form of the verb) talks about the future: predictions, promises, decisions made at the moment of speaking and offers of help."
+        "ru": "**will + V** для будущего: предсказания, обещания, решения сейчас и предложения помощи; маркеры: *tomorrow*, *next week*, *soon*.",
+        "en": "**will + V** for the future: predictions, promises, decisions now and offers of help; markers: *tomorrow*, *next week*, *soon*."
       },
       "sections": [
         {
@@ -27,8 +27,8 @@
             "en": "Form"
           },
           "body": {
-            "ru": "Future Simple одинаков для всех лиц: will + начальная форма глагола. Отрицание — will not, в вопросе will стоит перед подлежащим. В разговорной речи используются сокращения.",
-            "en": "Future Simple has the same form for all persons: will + the base form of the verb. The negative is will not, and in questions will comes before the subject. In conversation contractions are used."
+            "ru": "**(+)** will + V — утверждение\n**(–)** will not + V\n**(?)** Will + V?\n**V** = go, see, finish.",
+            "en": "**(+)** will + V\n**(–)** will not + V\n**(?)** Will + V?\n**V** = go, see, finish."
           },
           "examples": [
             "I will phone you later.",
@@ -42,8 +42,8 @@
             "en": "When we use it"
           },
           "body": {
-            "ru": "Future Simple говорит о будущем: о предсказаниях, обещаниях, решениях, принятых прямо сейчас, и предложениях помощи. Время не называет план заранее — решение или мысль о будущем возникает в момент речи. Для заранее запланированного будущего и предсказаний по очевидным признакам используется be going to; will и going to различаются по степени заранее принятого решения.",
-            "en": "Future Simple talks about the future: predictions, promises, decisions made at the moment of speaking and offers of help. It does not describe a plan made earlier — the decision or thought about the future comes at the moment of speaking. For pre-arranged plans and predictions based on present evidence we use be going to; will and going to differ in how pre-planned the decision is."
+            "ru": "- предсказание\n- обещание\n- решение **сейчас**\n- предложение помощи",
+            "en": "- a prediction\n- a promise\n- a decision **now**\n- an offer of help"
           },
           "examples": [
             "I will open the window.",
@@ -53,12 +53,12 @@
         },
         {
           "heading": {
-            "ru": "Маркеры будущего",
-            "en": "Future markers"
+            "ru": "Маркеры",
+            "en": "Markers"
           },
           "body": {
-            "ru": "Время часто подсказывают маркеры: tomorrow, next week, next month, next year, soon, later, in two days, one day. С ними обычно ставим will + глагол.",
-            "en": "The future is often signalled by markers: tomorrow, next week, next month, next year, soon, later, in two days, one day. With them we usually use will + verb."
+            "ru": "- *tomorrow*, *soon*, *later* — будущее\n- *next week/month/year*\n- *in two days*, *one day*",
+            "en": "- *tomorrow*, *soon*, *later*\n- *next week/month/year*\n- *in two days*, *one day*"
           },
           "examples": [
             "We will meet next week.",
@@ -68,12 +68,12 @@
         },
         {
           "heading": {
-            "ru": "Типичные ошибки",
-            "en": "Common mistakes"
+            "ru": "Ошибки",
+            "en": "Mistakes"
           },
           "body": {
-            "ru": "После will глагол стоит без to и без окончания -s. В придаточных с when, if, before и after о будущем используем Present Simple, а will — только в главной части.",
-            "en": "After will the verb stands without to and without the -s ending. In clauses with when, if, before and after about the future we use Present Simple, and will only in the main clause."
+            "ru": "- **не** *will to go* → *will go*\n- **не** *will goes* → *will go*\n- *when/if/before/after* + Present Simple, *will* — только в главной части",
+            "en": "- **no** *will to go* → *will go*\n- **no** *will goes* → *will go*\n- *when/if/before/after* + Present Simple, *will* only in the main clause"
           },
           "examples": [
             "I will call you when I get home.",
@@ -632,14 +632,15 @@
         "ru": "Я отправлю тебе письмо по электронной почте."
       },
       "explanation": {
-        "ru": "Future Simple: will + начальная форма глагола. Порядок: подлежащее, will, глагол, остальные слова.",
-        "en": "Future Simple: will + base form. The order is subject, will, verb, then the rest."
+        "ru": "Future Simple: **will + V** — will стоит перед глаголом.",
+        "en": "Future Simple: **will + V**."
       },
       "tags": [
         "tense-future-simple",
         "build",
         "will"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-future-simple-0022",
@@ -677,7 +678,8 @@
         "tense-future-simple",
         "build",
         "negative"
-      ]
+      ],
+      "buildKind": "negative"
     },
     {
       "id": "tense-future-simple-0023",
@@ -708,14 +710,15 @@
         "ru": "Они помогут нам с сумками?"
       },
       "explanation": {
-        "ru": "Вопрос в Future Simple: Will + подлежащее + начальная форма глагола.",
-        "en": "Future Simple question: Will + subject + base form."
+        "ru": "Вопрос Future Simple: **Will + V?**",
+        "en": "Future Simple question: **Will + V?**"
       },
       "tags": [
         "tense-future-simple",
         "build",
         "question"
-      ]
+      ],
+      "buildKind": "question"
     },
     {
       "id": "tense-future-simple-0024",
@@ -755,7 +758,8 @@
         "tense-future-simple",
         "build",
         "will"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-future-simple-0025",
@@ -795,7 +799,8 @@
         "tense-future-simple",
         "build",
         "prediction"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-future-simple-0026",
@@ -1040,6 +1045,2374 @@
         "tense-future-simple",
         "match",
         "time-clauses"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0031",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "will",
+        "call",
+        "you",
+        "later"
+      ],
+      "answers": [
+        [
+          "I",
+          "will",
+          "call",
+          "you",
+          "later"
+        ]
+      ],
+      "translation": {
+        "ru": "Я позвоню тебе позже."
+      },
+      "explanation": {
+        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
+        "en": "Future Simple: will + V. A future action or prediction."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0032",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "will",
+        "meet",
+        "at",
+        "the",
+        "cinema",
+        "at",
+        "seven"
+      ],
+      "answers": [
+        [
+          "We",
+          "will",
+          "meet",
+          "at",
+          "the",
+          "cinema",
+          "at",
+          "seven"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы встретимся в кинотеатре в семь."
+      },
+      "explanation": {
+        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
+        "en": "Future Simple: will + V. A future action or prediction."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0033",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "will",
+        "start",
+        "her",
+        "new",
+        "job",
+        "on",
+        "Monday"
+      ],
+      "answers": [
+        [
+          "She",
+          "will",
+          "start",
+          "her",
+          "new",
+          "job",
+          "on",
+          "Monday"
+        ]
+      ],
+      "translation": {
+        "ru": "Она начнёт новую работу в понедельник."
+      },
+      "explanation": {
+        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
+        "en": "Future Simple: will + V. A future action or prediction."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0034",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "will",
+        "move",
+        "to",
+        "a",
+        "bigger",
+        "house",
+        "next",
+        "year"
+      ],
+      "answers": [
+        [
+          "They",
+          "will",
+          "move",
+          "to",
+          "a",
+          "bigger",
+          "house",
+          "next",
+          "year"
+        ]
+      ],
+      "translation": {
+        "ru": "В следующем году они переедут в дом побольше."
+      },
+      "explanation": {
+        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
+        "en": "Future Simple: will + V. A future action or prediction."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0035",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "will",
+        "bring",
+        "the",
+        "documents",
+        "tomorrow"
+      ],
+      "answers": [
+        [
+          "He",
+          "will",
+          "bring",
+          "the",
+          "documents",
+          "tomorrow"
+        ]
+      ],
+      "translation": {
+        "ru": "Завтра он принесёт документы."
+      },
+      "explanation": {
+        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
+        "en": "Future Simple: will + V. A future action or prediction."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0036",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "will",
+        "help",
+        "you",
+        "with",
+        "the",
+        "dinner"
+      ],
+      "answers": [
+        [
+          "I",
+          "will",
+          "help",
+          "you",
+          "with",
+          "the",
+          "dinner"
+        ]
+      ],
+      "translation": {
+        "ru": "Я помогу тебе с ужином."
+      },
+      "explanation": {
+        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
+        "en": "Future Simple: will + V. A future action or prediction."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0037",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "train",
+        "will",
+        "arrive",
+        "at",
+        "six"
+      ],
+      "answers": [
+        [
+          "The",
+          "train",
+          "will",
+          "arrive",
+          "at",
+          "six"
+        ]
+      ],
+      "translation": {
+        "ru": "Поезд прибудет в шесть."
+      },
+      "explanation": {
+        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
+        "en": "Future Simple: will + V. A future action or prediction."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0038",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "will",
+        "visit",
+        "our",
+        "grandparents",
+        "next",
+        "weekend"
+      ],
+      "answers": [
+        [
+          "We",
+          "will",
+          "visit",
+          "our",
+          "grandparents",
+          "next",
+          "weekend"
+        ]
+      ],
+      "translation": {
+        "ru": "В следующие выходные мы навестим бабушку с дедушкой."
+      },
+      "explanation": {
+        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
+        "en": "Future Simple: will + V. A future action or prediction."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0039",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "will",
+        "send",
+        "me",
+        "the",
+        "photos",
+        "tonight"
+      ],
+      "answers": [
+        [
+          "She",
+          "will",
+          "send",
+          "me",
+          "the",
+          "photos",
+          "tonight"
+        ]
+      ],
+      "translation": {
+        "ru": "Сегодня вечером она пришлёт мне фотографии."
+      },
+      "explanation": {
+        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
+        "en": "Future Simple: will + V. A future action or prediction."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0040",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "will",
+        "play",
+        "football",
+        "after",
+        "school"
+      ],
+      "answers": [
+        [
+          "They",
+          "will",
+          "play",
+          "football",
+          "after",
+          "school"
+        ]
+      ],
+      "translation": {
+        "ru": "После школы они будут играть в футбол."
+      },
+      "explanation": {
+        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
+        "en": "Future Simple: will + V. A future action or prediction."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0041",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "will",
+        "finish",
+        "the",
+        "report",
+        "by",
+        "Friday"
+      ],
+      "answers": [
+        [
+          "He",
+          "will",
+          "finish",
+          "the",
+          "report",
+          "by",
+          "Friday"
+        ]
+      ],
+      "translation": {
+        "ru": "К пятнице он закончит отчёт."
+      },
+      "explanation": {
+        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
+        "en": "Future Simple: will + V. A future action or prediction."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0042",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "will",
+        "see",
+        "you",
+        "at",
+        "the",
+        "meeting",
+        "tomorrow"
+      ],
+      "answers": [
+        [
+          "I",
+          "will",
+          "see",
+          "you",
+          "at",
+          "the",
+          "meeting",
+          "tomorrow"
+        ]
+      ],
+      "translation": {
+        "ru": "Завтра я увижу тебя на собрании."
+      },
+      "explanation": {
+        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
+        "en": "Future Simple: will + V. A future action or prediction."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0043",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "concert",
+        "will",
+        "begin",
+        "at",
+        "eight"
+      ],
+      "answers": [
+        [
+          "The",
+          "concert",
+          "will",
+          "begin",
+          "at",
+          "eight"
+        ]
+      ],
+      "translation": {
+        "ru": "Концерт начнётся в восемь."
+      },
+      "explanation": {
+        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
+        "en": "Future Simple: will + V. A future action or prediction."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0044",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "will",
+        "buy",
+        "the",
+        "tickets",
+        "online"
+      ],
+      "answers": [
+        [
+          "We",
+          "will",
+          "buy",
+          "the",
+          "tickets",
+          "online"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы купим билеты онлайн."
+      },
+      "explanation": {
+        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
+        "en": "Future Simple: will + V. A future action or prediction."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0045",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "will",
+        "learn",
+        "to",
+        "drive",
+        "next",
+        "summer"
+      ],
+      "answers": [
+        [
+          "She",
+          "will",
+          "learn",
+          "to",
+          "drive",
+          "next",
+          "summer"
+        ]
+      ],
+      "translation": {
+        "ru": "Следующим летом она научится водить."
+      },
+      "explanation": {
+        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
+        "en": "Future Simple: will + V. A future action or prediction."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0046",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "will",
+        "stay",
+        "in",
+        "a",
+        "hotel",
+        "near",
+        "the",
+        "beach"
+      ],
+      "answers": [
+        [
+          "They",
+          "will",
+          "stay",
+          "in",
+          "a",
+          "hotel",
+          "near",
+          "the",
+          "beach"
+        ]
+      ],
+      "translation": {
+        "ru": "Они остановятся в отеле у пляжа."
+      },
+      "explanation": {
+        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
+        "en": "Future Simple: will + V. A future action or prediction."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0047",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "shop",
+        "will",
+        "open",
+        "at",
+        "nine",
+        "tomorrow"
+      ],
+      "answers": [
+        [
+          "The",
+          "shop",
+          "will",
+          "open",
+          "at",
+          "nine",
+          "tomorrow"
+        ]
+      ],
+      "translation": {
+        "ru": "Завтра магазин откроется в девять."
+      },
+      "explanation": {
+        "ru": "Future Simple: will + V. Будущее действие или предсказание.",
+        "en": "Future Simple: will + V. A future action or prediction."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0048",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "will",
+        "not",
+        "be",
+        "late",
+        "again"
+      ],
+      "answers": [
+        [
+          "I",
+          "will",
+          "not",
+          "be",
+          "late",
+          "again"
+        ]
+      ],
+      "translation": {
+        "ru": "Я больше не опоздаю."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0049",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "will",
+        "not",
+        "forget",
+        "your",
+        "birthday"
+      ],
+      "answers": [
+        [
+          "We",
+          "will",
+          "not",
+          "forget",
+          "your",
+          "birthday"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы не забудем твой день рождения."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0050",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "will",
+        "not",
+        "come",
+        "to",
+        "the",
+        "party",
+        "tonight"
+      ],
+      "answers": [
+        [
+          "She",
+          "will",
+          "not",
+          "come",
+          "to",
+          "the",
+          "party",
+          "tonight"
+        ]
+      ],
+      "translation": {
+        "ru": "Сегодня вечером она не придёт на вечеринку."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0051",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "will",
+        "not",
+        "finish",
+        "the",
+        "work",
+        "today"
+      ],
+      "answers": [
+        [
+          "They",
+          "will",
+          "not",
+          "finish",
+          "the",
+          "work",
+          "today"
+        ]
+      ],
+      "translation": {
+        "ru": "Сегодня они не закончат работу."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0052",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "will",
+        "not",
+        "buy",
+        "that",
+        "expensive",
+        "car"
+      ],
+      "answers": [
+        [
+          "He",
+          "will",
+          "not",
+          "buy",
+          "that",
+          "expensive",
+          "car"
+        ]
+      ],
+      "translation": {
+        "ru": "Он не купит ту дорогую машину."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0053",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "will",
+        "not",
+        "tell",
+        "anyone",
+        "your",
+        "secret"
+      ],
+      "answers": [
+        [
+          "I",
+          "will",
+          "not",
+          "tell",
+          "anyone",
+          "your",
+          "secret"
+        ]
+      ],
+      "translation": {
+        "ru": "Я никому не расскажу твой секрет."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0054",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "children",
+        "will",
+        "not",
+        "go",
+        "to",
+        "bed",
+        "late"
+      ],
+      "answers": [
+        [
+          "The",
+          "children",
+          "will",
+          "not",
+          "go",
+          "to",
+          "bed",
+          "late"
+        ]
+      ],
+      "translation": {
+        "ru": "Дети не лягут спать поздно."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0055",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "will",
+        "not",
+        "need",
+        "the",
+        "car",
+        "tomorrow"
+      ],
+      "answers": [
+        [
+          "We",
+          "will",
+          "not",
+          "need",
+          "the",
+          "car",
+          "tomorrow"
+        ]
+      ],
+      "translation": {
+        "ru": "Завтра нам не понадобится машина."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0056",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "will",
+        "not",
+        "speak",
+        "at",
+        "the",
+        "meeting"
+      ],
+      "answers": [
+        [
+          "She",
+          "will",
+          "not",
+          "speak",
+          "at",
+          "the",
+          "meeting"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не будет выступать на собрании."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0057",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "will",
+        "not",
+        "arrive",
+        "before",
+        "noon"
+      ],
+      "answers": [
+        [
+          "They",
+          "will",
+          "not",
+          "arrive",
+          "before",
+          "noon"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не приедут до полудня."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0058",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "will",
+        "not",
+        "play",
+        "in",
+        "the",
+        "final",
+        "match"
+      ],
+      "answers": [
+        [
+          "He",
+          "will",
+          "not",
+          "play",
+          "in",
+          "the",
+          "final",
+          "match"
+        ]
+      ],
+      "translation": {
+        "ru": "Он не сыграет в финальном матче."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0059",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "will",
+        "not",
+        "drink",
+        "coffee",
+        "after",
+        "dinner"
+      ],
+      "answers": [
+        [
+          "I",
+          "will",
+          "not",
+          "drink",
+          "coffee",
+          "after",
+          "dinner"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не буду пить кофе после ужина."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0060",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "restaurant",
+        "will",
+        "not",
+        "open",
+        "on",
+        "Sunday"
+      ],
+      "answers": [
+        [
+          "The",
+          "restaurant",
+          "will",
+          "not",
+          "open",
+          "on",
+          "Sunday"
+        ]
+      ],
+      "translation": {
+        "ru": "Ресторан не откроется в воскресенье."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0061",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "will",
+        "not",
+        "stay",
+        "at",
+        "that",
+        "hotel",
+        "again"
+      ],
+      "answers": [
+        [
+          "We",
+          "will",
+          "not",
+          "stay",
+          "at",
+          "that",
+          "hotel",
+          "again"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы больше не остановимся в том отеле."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0062",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "will",
+        "not",
+        "wear",
+        "the",
+        "green",
+        "dress"
+      ],
+      "answers": [
+        [
+          "She",
+          "will",
+          "not",
+          "wear",
+          "the",
+          "green",
+          "dress"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не наденет зелёное платье."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0063",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "will",
+        "not",
+        "sell",
+        "the",
+        "old",
+        "house"
+      ],
+      "answers": [
+        [
+          "They",
+          "will",
+          "not",
+          "sell",
+          "the",
+          "old",
+          "house"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не продадут старый дом."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0064",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "will",
+        "not",
+        "answer",
+        "the",
+        "phone",
+        "during",
+        "lunch"
+      ],
+      "answers": [
+        [
+          "He",
+          "will",
+          "not",
+          "answer",
+          "the",
+          "phone",
+          "during",
+          "lunch"
+        ]
+      ],
+      "translation": {
+        "ru": "Он не ответит на звонок во время обеда."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0065",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "will",
+        "not",
+        "take",
+        "the",
+        "train",
+        "this",
+        "time"
+      ],
+      "answers": [
+        [
+          "We",
+          "will",
+          "not",
+          "take",
+          "the",
+          "train",
+          "this",
+          "time"
+        ]
+      ],
+      "translation": {
+        "ru": "На этот раз мы не поедем на поезде."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0066",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "meeting",
+        "will",
+        "not",
+        "last",
+        "long"
+      ],
+      "answers": [
+        [
+          "The",
+          "meeting",
+          "will",
+          "not",
+          "last",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "Собрание не продлится долго."
+      },
+      "explanation": {
+        "ru": "Future Simple, отрицание: will not + V.",
+        "en": "Future Simple negative: will not + V."
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0067",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "you",
+        "come",
+        "to",
+        "the",
+        "party"
+      ],
+      "answers": [
+        [
+          "Will",
+          "you",
+          "come",
+          "to",
+          "the",
+          "party"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты придёшь на вечеринку?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0068",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "she",
+        "join",
+        "us",
+        "for",
+        "dinner"
+      ],
+      "answers": [
+        [
+          "Will",
+          "she",
+          "join",
+          "us",
+          "for",
+          "dinner"
+        ]
+      ],
+      "translation": {
+        "ru": "Она присоединится к нам на ужин?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0069",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "they",
+        "finish",
+        "the",
+        "project",
+        "by",
+        "Friday"
+      ],
+      "answers": [
+        [
+          "Will",
+          "they",
+          "finish",
+          "the",
+          "project",
+          "by",
+          "Friday"
+        ]
+      ],
+      "translation": {
+        "ru": "Они закончат проект к пятнице?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0070",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "he",
+        "call",
+        "me",
+        "tonight"
+      ],
+      "answers": [
+        [
+          "Will",
+          "he",
+          "call",
+          "me",
+          "tonight"
+        ]
+      ],
+      "translation": {
+        "ru": "Он позвонит мне сегодня вечером?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0071",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "we",
+        "need",
+        "an",
+        "umbrella",
+        "tomorrow"
+      ],
+      "answers": [
+        [
+          "Will",
+          "we",
+          "need",
+          "an",
+          "umbrella",
+          "tomorrow"
+        ]
+      ],
+      "translation": {
+        "ru": "Завтра нам понадобится зонт?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0072",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "you",
+        "help",
+        "me",
+        "with",
+        "the",
+        "luggage"
+      ],
+      "answers": [
+        [
+          "Will",
+          "you",
+          "help",
+          "me",
+          "with",
+          "the",
+          "luggage"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты поможешь мне с багажом?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0073",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "the",
+        "train",
+        "arrive",
+        "on",
+        "time"
+      ],
+      "answers": [
+        [
+          "Will",
+          "the",
+          "train",
+          "arrive",
+          "on",
+          "time"
+        ]
+      ],
+      "translation": {
+        "ru": "Поезд прибудет вовремя?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0074",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "she",
+        "bring",
+        "her",
+        "sister",
+        "to",
+        "the",
+        "concert"
+      ],
+      "answers": [
+        [
+          "Will",
+          "she",
+          "bring",
+          "her",
+          "sister",
+          "to",
+          "the",
+          "concert"
+        ]
+      ],
+      "translation": {
+        "ru": "Она приведёт сестру на концерт?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0075",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "they",
+        "move",
+        "house",
+        "next",
+        "month"
+      ],
+      "answers": [
+        [
+          "Will",
+          "they",
+          "move",
+          "house",
+          "next",
+          "month"
+        ]
+      ],
+      "translation": {
+        "ru": "В следующем месяце они переедут?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0076",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "he",
+        "find",
+        "a",
+        "new",
+        "job",
+        "soon"
+      ],
+      "answers": [
+        [
+          "Will",
+          "he",
+          "find",
+          "a",
+          "new",
+          "job",
+          "soon"
+        ]
+      ],
+      "translation": {
+        "ru": "Он скоро найдёт новую работу?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0077",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "you",
+        "be",
+        "at",
+        "home",
+        "this",
+        "evening"
+      ],
+      "answers": [
+        [
+          "Will",
+          "you",
+          "be",
+          "at",
+          "home",
+          "this",
+          "evening"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты будешь дома сегодня вечером?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0078",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "the",
+        "shop",
+        "be",
+        "open",
+        "on",
+        "Sunday"
+      ],
+      "answers": [
+        [
+          "Will",
+          "the",
+          "shop",
+          "be",
+          "open",
+          "on",
+          "Sunday"
+        ]
+      ],
+      "translation": {
+        "ru": "Магазин будет открыт в воскресенье?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0079",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "we",
+        "have",
+        "enough",
+        "time",
+        "for",
+        "lunch"
+      ],
+      "answers": [
+        [
+          "Will",
+          "we",
+          "have",
+          "enough",
+          "time",
+          "for",
+          "lunch"
+        ]
+      ],
+      "translation": {
+        "ru": "У нас будет достаточно времени на обед?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0080",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "she",
+        "tell",
+        "us",
+        "the",
+        "truth"
+      ],
+      "answers": [
+        [
+          "Will",
+          "she",
+          "tell",
+          "us",
+          "the",
+          "truth"
+        ]
+      ],
+      "translation": {
+        "ru": "Она скажет нам правду?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0081",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "they",
+        "invite",
+        "their",
+        "neighbours"
+      ],
+      "answers": [
+        [
+          "Will",
+          "they",
+          "invite",
+          "their",
+          "neighbours"
+        ]
+      ],
+      "translation": {
+        "ru": "Они пригласят соседей?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0082",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "he",
+        "come",
+        "to",
+        "the",
+        "meeting"
+      ],
+      "answers": [
+        [
+          "Will",
+          "he",
+          "come",
+          "to",
+          "the",
+          "meeting"
+        ]
+      ],
+      "translation": {
+        "ru": "Он придёт на собрание?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0083",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "you",
+        "send",
+        "me",
+        "the",
+        "address"
+      ],
+      "answers": [
+        [
+          "Will",
+          "you",
+          "send",
+          "me",
+          "the",
+          "address"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты пришлёшь мне адрес?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0084",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "it",
+        "be",
+        "cold",
+        "tonight"
+      ],
+      "answers": [
+        [
+          "Will",
+          "it",
+          "be",
+          "cold",
+          "tonight"
+        ]
+      ],
+      "translation": {
+        "ru": "Сегодня вечером будет холодно?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0085",
+      "type": "build",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "we",
+        "see",
+        "you",
+        "at",
+        "the",
+        "weekend"
+      ],
+      "answers": [
+        [
+          "Will",
+          "we",
+          "see",
+          "you",
+          "at",
+          "the",
+          "weekend"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы увидим тебя на выходных?"
+      },
+      "explanation": {
+        "ru": "Future Simple, вопрос: Will + V?",
+        "en": "Future Simple question: Will + V?"
+      },
+      "tags": [
+        "tense-future-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0086",
+      "type": "match",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте функцию и пример.",
+        "en": "Match the function with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "предсказание по признакам",
+            "en": "a prediction from evidence"
+          },
+          "right": "Look at the sky. It will snow soon."
+        },
+        {
+          "left": {
+            "ru": "твёрдое обещание",
+            "en": "a firm promise"
+          },
+          "right": "I will never forget your help."
+        },
+        {
+          "left": {
+            "ru": "заказ в кафе",
+            "en": "an order in a cafe"
+          },
+          "right": "I will have the soup, please."
+        },
+        {
+          "left": {
+            "ru": "отказ от просьбы",
+            "en": "a refusal of a request"
+          },
+          "right": "I will not lend him my car."
+        }
+      ],
+      "explanation": {
+        "ru": "Future Simple: предсказание, обещание, заказ и отказ — четыре типичных случая.",
+        "en": "Ways to use Future Simple: a prediction from evidence, a promise, an order and a refusal."
+      },
+      "tags": [
+        "tense-future-simple",
+        "match",
+        "uses-2"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0087",
+      "type": "match",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте форму и пример.",
+        "en": "Match the form with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "полное утверждение",
+            "en": "full affirmative"
+          },
+          "right": "We will need more chairs."
+        },
+        {
+          "left": {
+            "ru": "полное отрицание",
+            "en": "full negative"
+          },
+          "right": "The shop will not close early."
+        },
+        {
+          "left": {
+            "ru": "вопрос да/нет",
+            "en": "yes/no question"
+          },
+          "right": "Will you be at the station?"
+        },
+        {
+          "left": {
+            "ru": "полный ответ",
+            "en": "full answer"
+          },
+          "right": "Yes, we will be there."
+        }
+      ],
+      "explanation": {
+        "ru": "Утверждение: will + V; отрицание: will not + V; вопрос начинается с Will; ответ повторяет will.",
+        "en": "Affirmative: will + V; negative: will not + V; questions start with Will; answers repeat will."
+      },
+      "tags": [
+        "tense-future-simple",
+        "match",
+        "forms-2"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0088",
+      "type": "match",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте маркер и пример.",
+        "en": "Match the marker with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "next month: через месяц",
+            "en": "next month"
+          },
+          "right": "We will move next month."
+        },
+        {
+          "left": {
+            "ru": "later: позже",
+            "en": "later"
+          },
+          "right": "I will call you later."
+        },
+        {
+          "left": {
+            "ru": "one day: однажды",
+            "en": "one day"
+          },
+          "right": "One day she will be famous."
+        },
+        {
+          "left": {
+            "ru": "in a week: через неделю",
+            "en": "in a week"
+          },
+          "right": "They will come back in a week."
+        }
+      ],
+      "explanation": {
+        "ru": "Маркеры next month, later, one day и in a week указывают на будущее.",
+        "en": "The markers next month, later, one day and in a week point to the future."
+      },
+      "tags": [
+        "tense-future-simple",
+        "match",
+        "markers-2"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0089",
+      "type": "match",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте тип вопроса и пример.",
+        "en": "Match the question type with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "вопрос с what",
+            "en": "question with what"
+          },
+          "right": "What will you do after the exam?"
+        },
+        {
+          "left": {
+            "ru": "вопрос с when",
+            "en": "question with when"
+          },
+          "right": "When will the concert start?"
+        },
+        {
+          "left": {
+            "ru": "вопрос с who",
+            "en": "question with who"
+          },
+          "right": "Who will help the new student?"
+        },
+        {
+          "left": {
+            "ru": "вопрос да/нет",
+            "en": "yes/no question"
+          },
+          "right": "Will they join the club?"
+        }
+      ],
+      "explanation": {
+        "ru": "В вопросах Future Simple will стоит первым; вопросительное слово идёт перед will.",
+        "en": "In Future Simple questions will comes first; the question word comes before will."
+      },
+      "tags": [
+        "tense-future-simple",
+        "match",
+        "questions-2"
+      ]
+    },
+    {
+      "id": "tense-future-simple-0090",
+      "type": "match",
+      "ruleId": "tense-future-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте время и пример.",
+        "en": "Match the tense with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Future Simple: будущее",
+            "en": "Future Simple: the future"
+          },
+          "right": "I will meet you at the airport tomorrow."
+        },
+        {
+          "left": {
+            "ru": "Present Simple: расписание",
+            "en": "Present Simple: a timetable"
+          },
+          "right": "Our flight leaves at nine o'clock."
+        },
+        {
+          "left": {
+            "ru": "Past Simple: прошлое",
+            "en": "Past Simple: the past"
+          },
+          "right": "We met at the airport last year."
+        },
+        {
+          "left": {
+            "ru": "Present Perfect: результат",
+            "en": "Present Perfect: a result now"
+          },
+          "right": "She has just arrived at the airport."
+        }
+      ],
+      "explanation": {
+        "ru": "Future Simple — будущее, Present Simple — расписание, Past Simple — прошлое, Present Perfect — результат сейчас.",
+        "en": "Future Simple is the future, Present Simple a timetable, Past Simple the past, and Present Perfect a result now."
+      },
+      "tags": [
+        "tense-future-simple",
+        "match",
+        "tenses-2"
       ]
     }
   ]

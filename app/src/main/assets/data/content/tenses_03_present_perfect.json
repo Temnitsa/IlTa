@@ -17,8 +17,8 @@
         "en": "Present Perfect: form and meaning"
       },
       "summary": {
-        "ru": "Present Perfect связывает прошлое с настоящим: действие завершилось, но важен его результат сейчас, или речь идёт об опыте, незаконченном периоде и длительности до настоящего. Образуется с have/has и причастием прошедшего времени.",
-        "en": "Present Perfect links the past with the present: an action is finished but its result matters now, or we talk about experience, an unfinished period and duration up to now. It is formed with have/has and the past participle."
+        "ru": "Формулы, случаи употребления, маркеры и типичные ошибки Present Perfect — коротко и по делу.",
+        "en": "Present Perfect formulas, uses, markers and typical mistakes — short and clear."
       },
       "sections": [
         {
@@ -27,62 +27,58 @@
             "en": "Form"
           },
           "body": {
-            "ru": "Present Perfect состоит из have или has и причастия прошедшего времени (третьей формы глагола). Отрицание строится с have not или has not, а вопрос — с Have или Has перед подлежащим. Правильные глаголы образуют причастие с -ed, неправильные формы нужно запоминать.",
-            "en": "Present Perfect consists of have or has and the past participle (the third form of the verb). The negative is formed with have not or has not, and a question with Have or Has before the subject. Regular verbs form the participle with -ed, while irregular forms have to be learnt."
+            "ru": "(+) have / has + V3\n(–) have not / has not + V3\n(?) Have / Has + V3?",
+            "en": "(+) have / has + V3\n(–) have not / has not + V3\n(?) Have / Has + V3?"
           },
           "examples": [
-            "I have finished the report.",
-            "She has left the office.",
-            "They have not arrived.",
-            "Have you seen this film?"
+            "I have finished.",
+            "She has left.",
+            "Have you seen it?"
           ]
         },
         {
           "heading": {
-            "ru": "Значение",
-            "en": "Meaning"
+            "ru": "Когда используем",
+            "en": "When we use it"
           },
           "body": {
-            "ru": "Время связывает прошлое с настоящим: действие завершилось, но его результат важен сейчас, или речь идёт об опыте за всю жизнь, о незаконченном периоде (today, this week) и о действии, которое длится до сих пор.",
-            "en": "The tense links the past with the present: an action is finished but its result matters now, or we talk about experience in a lifetime, an unfinished period (today, this week) or an action that continues up to now."
+            "ru": "• результат важен сейчас\n• опыт за всю жизнь\n• незаконченный период (today, this week)\n• действие длится до сих пор",
+            "en": "• the result matters now\n• experience in a lifetime\n• an unfinished period (today, this week)\n• an action continuing up to now"
           },
           "examples": [
-            "I have lost my keys, so I cannot get in.",
+            "I have lost my keys.",
             "She has visited Rome twice.",
-            "I have read two books this week.",
-            "He has just finished his lunch."
+            "I have read two books this week."
           ]
         },
         {
           "heading": {
-            "ru": "Маркеры времени",
-            "en": "Time markers"
+            "ru": "Маркеры",
+            "en": "Markers"
           },
           "body": {
-            "ru": "На Present Perfect указывают just, already, yet, ever, never, recently, so far, since и for. Since называет точку отсчёта, а for — длительность. С законченным временем (yesterday, last year) используется Past Simple, а не Present Perfect.",
-            "en": "Present Perfect is signalled by just, already, yet, ever, never, recently, so far, since and for. Since marks the starting point, while for marks duration. Finished time expressions (yesterday, last year) go with the past simple, not the present perfect."
+            "ru": "• just / already / yet\n• ever / never\n• since / for\n• so far / recently",
+            "en": "• just / already / yet\n• ever / never\n• since / for\n• so far / recently"
           },
           "examples": [
-            "She has just called you.",
+            "She has just called.",
             "We have already eaten.",
-            "He has not started yet.",
-            "I have known her for ten years."
+            "He has not started yet."
           ]
         },
         {
           "heading": {
-            "ru": "Типичные ошибки",
-            "en": "Common mistakes"
+            "ru": "Ошибки",
+            "en": "Mistakes"
           },
           "body": {
-            "ru": "Нельзя ставить Present Perfect с законченным временем: о вчерашних событиях говорим в Past Simple. Также легко перепутать been («побывал и вернулся») и gone («уехал и ещё там»), а неправильная форма причастия — грубая ошибка.",
-            "en": "Present Perfect cannot be used with a finished time expression: events of yesterday are reported in the past simple. Learners also confuse been (went and came back) and gone (went and is still away), and a wrong participle form is a serious mistake."
+            "ru": "• I have went → I have gone\n• She has wrote → She has written\n• We have met him yesterday → We met him yesterday",
+            "en": "• I have went → I have gone\n• She has wrote → She has written\n• We have met him yesterday → We met him yesterday"
           },
           "examples": [
-            "I saw him yesterday.",
-            "I have been to Paris.",
-            "She has gone to Paris.",
-            "This is the first time I have seen it."
+            "I have gone home.",
+            "She has written a letter.",
+            "We saw them last week."
           ]
         }
       ]
@@ -621,7 +617,8 @@
         "tense-present-perfect",
         "build",
         "affirmative"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-present-perfect-0022",
@@ -671,7 +668,8 @@
         "tense-present-perfect",
         "build",
         "negative"
-      ]
+      ],
+      "buildKind": "negative"
     },
     {
       "id": "tense-present-perfect-0023",
@@ -707,7 +705,8 @@
         "tense-present-perfect",
         "build",
         "question"
-      ]
+      ],
+      "buildKind": "question"
     },
     {
       "id": "tense-present-perfect-0024",
@@ -745,7 +744,8 @@
         "tense-present-perfect",
         "build",
         "for-since"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-present-perfect-0025",
@@ -785,7 +785,8 @@
         "tense-present-perfect",
         "build",
         "for-since"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-present-perfect-0026",
@@ -1025,6 +1026,2253 @@
       "explanation": {
         "ru": "Been означает, что человек побывал и вернулся; gone — что он уехал и ещё там; с законченным временем нужен Past Simple.",
         "en": "Been means the person went and came back; gone means they went and are still away; finished time takes Past Simple."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "match",
+        "been-gone"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0031",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "have",
+        "finished",
+        "my",
+        "homework"
+      ],
+      "answers": [
+        [
+          "I",
+          "have",
+          "finished",
+          "my",
+          "homework"
+        ]
+      ],
+      "translation": {
+        "ru": "Я закончил домашнее задание."
+      },
+      "explanation": {
+        "ru": "Present Perfect, утверждение: have / has + V3.",
+        "en": "Present Perfect affirmative: have / has + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "affirmative",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0032",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "You",
+        "have",
+        "passed",
+        "the",
+        "exam"
+      ],
+      "answers": [
+        [
+          "You",
+          "have",
+          "passed",
+          "the",
+          "exam"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты сдал экзамен."
+      },
+      "explanation": {
+        "ru": "Present Perfect, утверждение: have / has + V3.",
+        "en": "Present Perfect affirmative: have / has + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "affirmative",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0033",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "have",
+        "already",
+        "eaten"
+      ],
+      "answers": [
+        [
+          "We",
+          "have",
+          "already",
+          "eaten"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы уже поели."
+      },
+      "explanation": {
+        "ru": "Present Perfect, утверждение: have / has + V3.",
+        "en": "Present Perfect affirmative: have / has + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "affirmative",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0034",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "have",
+        "arrived",
+        "at",
+        "the",
+        "hotel"
+      ],
+      "answers": [
+        [
+          "They",
+          "have",
+          "arrived",
+          "at",
+          "the",
+          "hotel"
+        ]
+      ],
+      "translation": {
+        "ru": "Они прибыли в отель."
+      },
+      "explanation": {
+        "ru": "Present Perfect, утверждение: have / has + V3.",
+        "en": "Present Perfect affirmative: have / has + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "affirmative",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0035",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "has",
+        "just",
+        "called",
+        "me"
+      ],
+      "answers": [
+        [
+          "He",
+          "has",
+          "just",
+          "called",
+          "me"
+        ]
+      ],
+      "translation": {
+        "ru": "Он только что мне позвонил."
+      },
+      "explanation": {
+        "ru": "Present Perfect, утверждение: have / has + V3.",
+        "en": "Present Perfect affirmative: have / has + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "affirmative",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0036",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "has",
+        "written",
+        "three",
+        "emails"
+      ],
+      "answers": [
+        [
+          "She",
+          "has",
+          "written",
+          "three",
+          "emails"
+        ]
+      ],
+      "translation": {
+        "ru": "Она написала три письма."
+      },
+      "explanation": {
+        "ru": "Present Perfect, утверждение: have / has + V3.",
+        "en": "Present Perfect affirmative: have / has + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "affirmative",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0037",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "My",
+        "sister",
+        "has",
+        "cleaned",
+        "her",
+        "room"
+      ],
+      "answers": [
+        [
+          "My",
+          "sister",
+          "has",
+          "cleaned",
+          "her",
+          "room"
+        ]
+      ],
+      "translation": {
+        "ru": "Моя сестра убрала свою комнату."
+      },
+      "explanation": {
+        "ru": "Present Perfect, утверждение: have / has + V3.",
+        "en": "Present Perfect affirmative: have / has + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "affirmative",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0038",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "have",
+        "seen",
+        "this",
+        "film",
+        "twice"
+      ],
+      "answers": [
+        [
+          "I",
+          "have",
+          "seen",
+          "this",
+          "film",
+          "twice"
+        ]
+      ],
+      "translation": {
+        "ru": "Я смотрел этот фильм два раза."
+      },
+      "explanation": {
+        "ru": "Present Perfect, утверждение: have / has + V3.",
+        "en": "Present Perfect affirmative: have / has + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "affirmative",
+        "experience"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0039",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "train",
+        "has",
+        "left",
+        "the",
+        "station"
+      ],
+      "answers": [
+        [
+          "The",
+          "train",
+          "has",
+          "left",
+          "the",
+          "station"
+        ]
+      ],
+      "translation": {
+        "ru": "Поезд уже ушёл со станции."
+      },
+      "explanation": {
+        "ru": "Present Perfect, утверждение: have / has + V3.",
+        "en": "Present Perfect affirmative: have / has + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "affirmative",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0040",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "have",
+        "known",
+        "each",
+        "other",
+        "for",
+        "years"
+      ],
+      "answers": [
+        [
+          "We",
+          "have",
+          "known",
+          "each",
+          "other",
+          "for",
+          "years"
+        ],
+        [
+          "We",
+          "have",
+          "known",
+          "each",
+          "other",
+          "years",
+          "for"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы знакомы много лет."
+      },
+      "explanation": {
+        "ru": "Present Perfect, утверждение: have / has + V3.",
+        "en": "Present Perfect affirmative: have / has + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "affirmative",
+        "for-since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0041",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "My",
+        "parents",
+        "have",
+        "lived",
+        "here",
+        "since",
+        "2010"
+      ],
+      "answers": [
+        [
+          "My",
+          "parents",
+          "have",
+          "lived",
+          "here",
+          "since",
+          "2010"
+        ]
+      ],
+      "translation": {
+        "ru": "Мои родители живут здесь с 2010 года."
+      },
+      "explanation": {
+        "ru": "Present Perfect, утверждение: have / has + V3.",
+        "en": "Present Perfect affirmative: have / has + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "affirmative",
+        "for-since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0042",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "has",
+        "broken",
+        "his",
+        "phone"
+      ],
+      "answers": [
+        [
+          "He",
+          "has",
+          "broken",
+          "his",
+          "phone"
+        ]
+      ],
+      "translation": {
+        "ru": "Он разбил свой телефон."
+      },
+      "explanation": {
+        "ru": "Present Perfect, утверждение: have / has + V3.",
+        "en": "Present Perfect affirmative: have / has + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "affirmative",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0043",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "has",
+        "bought",
+        "a",
+        "new",
+        "car"
+      ],
+      "answers": [
+        [
+          "She",
+          "has",
+          "bought",
+          "a",
+          "new",
+          "car"
+        ]
+      ],
+      "translation": {
+        "ru": "Она купила новую машину."
+      },
+      "explanation": {
+        "ru": "Present Perfect, утверждение: have / has + V3.",
+        "en": "Present Perfect affirmative: have / has + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "affirmative",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0044",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "have",
+        "visited",
+        "Rome",
+        "twice"
+      ],
+      "answers": [
+        [
+          "They",
+          "have",
+          "visited",
+          "Rome",
+          "twice"
+        ]
+      ],
+      "translation": {
+        "ru": "Они дважды были в Риме."
+      },
+      "explanation": {
+        "ru": "Present Perfect, утверждение: have / has + V3.",
+        "en": "Present Perfect affirmative: have / has + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "affirmative",
+        "experience"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0045",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "have",
+        "just",
+        "finished",
+        "lunch"
+      ],
+      "answers": [
+        [
+          "I",
+          "have",
+          "just",
+          "finished",
+          "lunch"
+        ]
+      ],
+      "translation": {
+        "ru": "Я только что закончил обед."
+      },
+      "explanation": {
+        "ru": "Present Perfect, утверждение: have / has + V3.",
+        "en": "Present Perfect affirmative: have / has + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "affirmative",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0046",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "Our",
+        "team",
+        "has",
+        "won",
+        "three",
+        "matches"
+      ],
+      "answers": [
+        [
+          "Our",
+          "team",
+          "has",
+          "won",
+          "three",
+          "matches"
+        ]
+      ],
+      "translation": {
+        "ru": "Наша команда выиграла три матча."
+      },
+      "explanation": {
+        "ru": "Present Perfect, утверждение: have / has + V3.",
+        "en": "Present Perfect affirmative: have / has + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "affirmative",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0047",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "His",
+        "brother",
+        "has",
+        "gone",
+        "to",
+        "London"
+      ],
+      "answers": [
+        [
+          "His",
+          "brother",
+          "has",
+          "gone",
+          "to",
+          "London"
+        ]
+      ],
+      "translation": {
+        "ru": "Его брат уехал в Лондон."
+      },
+      "explanation": {
+        "ru": "Present Perfect, утверждение: have / has + V3.",
+        "en": "Present Perfect affirmative: have / has + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "affirmative",
+        "been-gone"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0048",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "have",
+        "not",
+        "seen",
+        "that",
+        "film"
+      ],
+      "answers": [
+        [
+          "I",
+          "have",
+          "not",
+          "seen",
+          "that",
+          "film"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не видел этот фильм."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0049",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "You",
+        "have",
+        "not",
+        "finished",
+        "the",
+        "task",
+        "yet"
+      ],
+      "answers": [
+        [
+          "You",
+          "have",
+          "not",
+          "finished",
+          "the",
+          "task",
+          "yet"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты ещё не закончил задание."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0050",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "have",
+        "not",
+        "decided",
+        "yet"
+      ],
+      "answers": [
+        [
+          "We",
+          "have",
+          "not",
+          "decided",
+          "yet"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы ещё не решили."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0051",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "have",
+        "not",
+        "arrived"
+      ],
+      "answers": [
+        [
+          "They",
+          "have",
+          "not",
+          "arrived"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не приехали."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0052",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "has",
+        "not",
+        "done",
+        "his",
+        "homework"
+      ],
+      "answers": [
+        [
+          "He",
+          "has",
+          "not",
+          "done",
+          "his",
+          "homework"
+        ]
+      ],
+      "translation": {
+        "ru": "Он не сделал домашнее задание."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0053",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "has",
+        "not",
+        "called",
+        "me",
+        "back"
+      ],
+      "answers": [
+        [
+          "She",
+          "has",
+          "not",
+          "called",
+          "me",
+          "back"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не перезвонила мне."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0054",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "My",
+        "brother",
+        "has",
+        "not",
+        "come",
+        "home",
+        "yet"
+      ],
+      "answers": [
+        [
+          "My",
+          "brother",
+          "has",
+          "not",
+          "come",
+          "home",
+          "yet"
+        ]
+      ],
+      "translation": {
+        "ru": "Мой брат ещё не пришёл домой."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0055",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "have",
+        "not",
+        "eaten",
+        "since",
+        "morning"
+      ],
+      "answers": [
+        [
+          "I",
+          "have",
+          "not",
+          "eaten",
+          "since",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не ел с утра."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "for-since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0056",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "shop",
+        "has",
+        "not",
+        "opened",
+        "yet"
+      ],
+      "answers": [
+        [
+          "The",
+          "shop",
+          "has",
+          "not",
+          "opened",
+          "yet"
+        ]
+      ],
+      "translation": {
+        "ru": "Магазин ещё не открылся."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0057",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "have",
+        "not",
+        "met",
+        "before"
+      ],
+      "answers": [
+        [
+          "We",
+          "have",
+          "not",
+          "met",
+          "before"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы раньше не встречались."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "experience"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0058",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "has",
+        "not",
+        "slept",
+        "well",
+        "recently"
+      ],
+      "answers": [
+        [
+          "He",
+          "has",
+          "not",
+          "slept",
+          "well",
+          "recently"
+        ]
+      ],
+      "translation": {
+        "ru": "В последнее время он плохо спал."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0059",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "has",
+        "not",
+        "seen",
+        "her",
+        "friends",
+        "for",
+        "weeks"
+      ],
+      "answers": [
+        [
+          "She",
+          "has",
+          "not",
+          "seen",
+          "her",
+          "friends",
+          "for",
+          "weeks"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не видела друзей несколько недель."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "for-since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0060",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "have",
+        "not",
+        "paid",
+        "the",
+        "bill"
+      ],
+      "answers": [
+        [
+          "They",
+          "have",
+          "not",
+          "paid",
+          "the",
+          "bill"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не оплатили счёт."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0061",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "You",
+        "have",
+        "not",
+        "changed",
+        "at",
+        "all"
+      ],
+      "answers": [
+        [
+          "You",
+          "have",
+          "not",
+          "changed",
+          "at",
+          "all"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты совсем не изменился."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "experience"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0062",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "have",
+        "not",
+        "caught",
+        "a",
+        "cold",
+        "for",
+        "years"
+      ],
+      "answers": [
+        [
+          "I",
+          "have",
+          "not",
+          "caught",
+          "a",
+          "cold",
+          "for",
+          "years"
+        ]
+      ],
+      "translation": {
+        "ru": "Я много лет не простужался."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "for-since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0063",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "children",
+        "have",
+        "not",
+        "done",
+        "their",
+        "chores"
+      ],
+      "answers": [
+        [
+          "The",
+          "children",
+          "have",
+          "not",
+          "done",
+          "their",
+          "chores"
+        ]
+      ],
+      "translation": {
+        "ru": "Дети не сделали работу по дому."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0064",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "has",
+        "not",
+        "answered",
+        "my",
+        "email"
+      ],
+      "answers": [
+        [
+          "She",
+          "has",
+          "not",
+          "answered",
+          "my",
+          "email"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не ответила на моё письмо."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0065",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "have",
+        "not",
+        "visited",
+        "our",
+        "grandparents",
+        "this",
+        "month"
+      ],
+      "answers": [
+        [
+          "We",
+          "have",
+          "not",
+          "visited",
+          "our",
+          "grandparents",
+          "this",
+          "month"
+        ]
+      ],
+      "translation": {
+        "ru": "В этом месяце мы не навещали бабушку и дедушку."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "unfinished"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0066",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "His",
+        "parents",
+        "have",
+        "not",
+        "sold",
+        "the",
+        "house"
+      ],
+      "answers": [
+        [
+          "His",
+          "parents",
+          "have",
+          "not",
+          "sold",
+          "the",
+          "house"
+        ]
+      ],
+      "translation": {
+        "ru": "Его родители не продали дом."
+      },
+      "explanation": {
+        "ru": "Present Perfect, отрицание: have not / has not + V3.",
+        "en": "Present Perfect negative: have not / has not + V3."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0067",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Have",
+        "you",
+        "ever",
+        "been",
+        "to",
+        "Paris"
+      ],
+      "answers": [
+        [
+          "Have",
+          "you",
+          "ever",
+          "been",
+          "to",
+          "Paris"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты когда-нибудь был в Париже?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "ever"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0068",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Has",
+        "she",
+        "finished",
+        "her",
+        "homework"
+      ],
+      "answers": [
+        [
+          "Has",
+          "she",
+          "finished",
+          "her",
+          "homework"
+        ]
+      ],
+      "translation": {
+        "ru": "Она закончила домашнее задание?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0069",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Have",
+        "they",
+        "arrived",
+        "yet"
+      ],
+      "answers": [
+        [
+          "Have",
+          "they",
+          "arrived",
+          "yet"
+        ]
+      ],
+      "translation": {
+        "ru": "Они уже прибыли?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "yet"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0070",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Has",
+        "he",
+        "called",
+        "you"
+      ],
+      "answers": [
+        [
+          "Has",
+          "he",
+          "called",
+          "you"
+        ]
+      ],
+      "translation": {
+        "ru": "Он тебе позвонил?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0071",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Have",
+        "we",
+        "met",
+        "before"
+      ],
+      "answers": [
+        [
+          "Have",
+          "we",
+          "met",
+          "before"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы раньше встречались?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "ever"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0072",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Has",
+        "your",
+        "sister",
+        "seen",
+        "this",
+        "film"
+      ],
+      "answers": [
+        [
+          "Has",
+          "your",
+          "sister",
+          "seen",
+          "this",
+          "film"
+        ]
+      ],
+      "translation": {
+        "ru": "Твоя сестра смотрела этот фильм?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0073",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Have",
+        "you",
+        "ever",
+        "eaten",
+        "sushi"
+      ],
+      "answers": [
+        [
+          "Have",
+          "you",
+          "ever",
+          "eaten",
+          "sushi"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты когда-нибудь ел суши?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "ever"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0074",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Has",
+        "the",
+        "train",
+        "left"
+      ],
+      "answers": [
+        [
+          "Has",
+          "the",
+          "train",
+          "left"
+        ]
+      ],
+      "translation": {
+        "ru": "Поезд ушёл?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0075",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Have",
+        "you",
+        "finished",
+        "your",
+        "work"
+      ],
+      "answers": [
+        [
+          "Have",
+          "you",
+          "finished",
+          "your",
+          "work"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты закончил работу?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0076",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Has",
+        "she",
+        "ever",
+        "worked",
+        "abroad"
+      ],
+      "answers": [
+        [
+          "Has",
+          "she",
+          "ever",
+          "worked",
+          "abroad"
+        ]
+      ],
+      "translation": {
+        "ru": "Она когда-нибудь работала за границей?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "ever"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0077",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Have",
+        "they",
+        "lived",
+        "here",
+        "long"
+      ],
+      "answers": [
+        [
+          "Have",
+          "they",
+          "lived",
+          "here",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "Они долго здесь живут?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "for-since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0078",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Has",
+        "he",
+        "broken",
+        "his",
+        "leg"
+      ],
+      "answers": [
+        [
+          "Has",
+          "he",
+          "broken",
+          "his",
+          "leg"
+        ]
+      ],
+      "translation": {
+        "ru": "Он сломал ногу?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0079",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Have",
+        "you",
+        "seen",
+        "my",
+        "keys"
+      ],
+      "answers": [
+        [
+          "Have",
+          "you",
+          "seen",
+          "my",
+          "keys"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты видел мои ключи?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0080",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Has",
+        "she",
+        "bought",
+        "a",
+        "new",
+        "phone"
+      ],
+      "answers": [
+        [
+          "Has",
+          "she",
+          "bought",
+          "a",
+          "new",
+          "phone"
+        ]
+      ],
+      "translation": {
+        "ru": "Она купила новый телефон?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0081",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Have",
+        "your",
+        "parents",
+        "sold",
+        "the",
+        "house"
+      ],
+      "answers": [
+        [
+          "Have",
+          "your",
+          "parents",
+          "sold",
+          "the",
+          "house"
+        ]
+      ],
+      "translation": {
+        "ru": "Твои родители продали дом?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0082",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Has",
+        "he",
+        "done",
+        "his",
+        "homework"
+      ],
+      "answers": [
+        [
+          "Has",
+          "he",
+          "done",
+          "his",
+          "homework"
+        ]
+      ],
+      "translation": {
+        "ru": "Он сделал домашнее задание?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0083",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Have",
+        "we",
+        "paid",
+        "the",
+        "bill"
+      ],
+      "answers": [
+        [
+          "Have",
+          "we",
+          "paid",
+          "the",
+          "bill"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы оплатили счёт?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0084",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Has",
+        "your",
+        "friend",
+        "arrived"
+      ],
+      "answers": [
+        [
+          "Has",
+          "your",
+          "friend",
+          "arrived"
+        ]
+      ],
+      "translation": {
+        "ru": "Твой друг приехал?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0085",
+      "type": "build",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Have",
+        "they",
+        "finished",
+        "the",
+        "project"
+      ],
+      "answers": [
+        [
+          "Have",
+          "they",
+          "finished",
+          "the",
+          "project"
+        ]
+      ],
+      "translation": {
+        "ru": "Они закончили проект?"
+      },
+      "explanation": {
+        "ru": "Present Perfect, вопрос: Have / Has + V3?",
+        "en": "Present Perfect question: Have / Has + V3?"
+      },
+      "tags": [
+        "tense-present-perfect",
+        "question",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0086",
+      "type": "match",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте тип предложения и пример.",
+        "en": "Match each sentence type with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "(+) утверждение: have/has + V3",
+            "en": "(+) affirmative: have/has + V3"
+          },
+          "right": "I have finished the report."
+        },
+        {
+          "left": {
+            "ru": "(–) отрицание: have not / has not + V3",
+            "en": "(–) negative: have not / has not + V3"
+          },
+          "right": "She has not called yet."
+        },
+        {
+          "left": {
+            "ru": "(?) вопрос: Have/Has + V3?",
+            "en": "(?) question: Have/Has + V3?"
+          },
+          "right": "Have you finished your homework?"
+        },
+        {
+          "left": {
+            "ru": "краткий ответ",
+            "en": "short answer"
+          },
+          "right": "Yes, she has."
+        }
+      ],
+      "explanation": {
+        "ru": "Формула: have/has + V3; отрицание добавляет not, вопрос начинается с Have/Has.",
+        "en": "The formula is have/has + V3; the negative adds not and the question begins with Have/Has."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "match",
+        "form"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0087",
+      "type": "match",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте маркер и пример.",
+        "en": "Match each marker with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "just — только что",
+            "en": "just — a moment ago"
+          },
+          "right": "He has just left."
+        },
+        {
+          "left": {
+            "ru": "already — уже",
+            "en": "already — sooner than expected"
+          },
+          "right": "They have already booked the tickets."
+        },
+        {
+          "left": {
+            "ru": "yet — ещё",
+            "en": "yet — up to now"
+          },
+          "right": "The match has not started yet."
+        },
+        {
+          "left": {
+            "ru": "ever — когда-нибудь",
+            "en": "ever — at any time"
+          },
+          "right": "Have you ever tried sushi?"
+        }
+      ],
+      "explanation": {
+        "ru": "Маркеры just, already, yet и ever типичны для Present Perfect.",
+        "en": "The markers just, already, yet and ever are typical of Present Perfect."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "match",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0088",
+      "type": "match",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте правило for/since и пример.",
+        "en": "Match each for/since rule with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "for + длительность",
+            "en": "for + a length of time"
+          },
+          "right": "I have lived here for five years."
+        },
+        {
+          "left": {
+            "ru": "since + точка отсчёта",
+            "en": "since + a starting point"
+          },
+          "right": "She has worked here since 2019."
+        },
+        {
+          "left": {
+            "ru": "for + период",
+            "en": "for + a period"
+          },
+          "right": "We have known them for years."
+        },
+        {
+          "left": {
+            "ru": "since + конкретный день",
+            "en": "since + a particular day"
+          },
+          "right": "Nothing has changed since Friday."
+        }
+      ],
+      "explanation": {
+        "ru": "For называет длительность, since — точку отсчёта.",
+        "en": "For names a length of time and since names a starting point."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "match",
+        "for-since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0089",
+      "type": "match",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "результат важен сейчас",
+            "en": "the result matters now"
+          },
+          "right": "He has lost his wallet."
+        },
+        {
+          "left": {
+            "ru": "опыт в жизни",
+            "en": "experience in a lifetime"
+          },
+          "right": "My aunt has visited Spain twice."
+        },
+        {
+          "left": {
+            "ru": "незаконченный период",
+            "en": "an unfinished period"
+          },
+          "right": "I have read three articles this month."
+        },
+        {
+          "left": {
+            "ru": "только что завершилось",
+            "en": "just finished"
+          },
+          "right": "They have just arrived."
+        }
+      ],
+      "explanation": {
+        "ru": "Present Perfect связывает прошлое с настоящим: результат, опыт, незаконченный период и только что завершённое действие.",
+        "en": "Present Perfect links the past with the present: a result, experience, an unfinished period and a just-finished action."
+      },
+      "tags": [
+        "tense-present-perfect",
+        "match",
+        "meaning"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-0090",
+      "type": "match",
+      "ruleId": "tense-present-perfect",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример.",
+        "en": "Match each rule with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "been — был и вернулся",
+            "en": "been — went and came back"
+          },
+          "right": "I have been to Italy."
+        },
+        {
+          "left": {
+            "ru": "gone — уехал и ещё там",
+            "en": "gone — went and is still away"
+          },
+          "right": "She has gone to the shops."
+        },
+        {
+          "left": {
+            "ru": "впервые: first time + Present Perfect",
+            "en": "first time + Present Perfect"
+          },
+          "right": "This is the first time I have met him."
+        },
+        {
+          "left": {
+            "ru": "законченное время: Past Simple + yesterday",
+            "en": "Past Simple + yesterday"
+          },
+          "right": "We watched a film yesterday."
+        }
+      ],
+      "explanation": {
+        "ru": "Been значит «побывал и вернулся», gone — «уехал и ещё там»; с законченным временем нужен Past Simple.",
+        "en": "Been means went and came back; gone means went and is still away; finished time takes Past Simple."
       },
       "tags": [
         "tense-present-perfect",

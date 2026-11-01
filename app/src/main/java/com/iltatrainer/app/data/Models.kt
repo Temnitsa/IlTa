@@ -84,6 +84,7 @@ data class Question(
     /** Optional pattern tags used to pick truly similar questions for mistake review. */
     val tags: List<String> = emptyList(),
     /** Word bank for the sentence-building question. */
+    val buildKind: String = "affirmative",
     val words: List<String> = emptyList(),
     /** Accepted token sequences for the sentence-building question. */
     val answers: List<List<String>> = emptyList(),

@@ -17,8 +17,8 @@
         "en": "Present Simple: form and meaning"
       },
       "summary": {
-        "ru": "Present Simple описывает привычки, повторяющиеся действия, факты, расписания и постоянные состояния. В третьем лице единственного числа глагол получает -s или -es, отрицания и вопросы строятся с do/does.",
-        "en": "Present Simple describes habits, repeated actions, facts, timetables and permanent states. In the third person singular the verb takes -s or -es, and negatives and questions are formed with do/does."
+        "ru": "Формулы, случаи употребления, маркеры и типичные ошибки Present Simple — коротко и по делу.",
+        "en": "Present Simple formulas, uses, markers and typical mistakes — short and clear."
       },
       "sections": [
         {
@@ -27,62 +27,58 @@
             "en": "Form"
           },
           "body": {
-            "ru": "В утверждении глагол стоит в базовой форме, а в третьем лице единственного числа (he, she, it) получает окончание -s или -es. Отрицание строится с do not или does not и инфинитивом, вопрос — с Do или Does перед подлежащим; после does окончание -s у глагола исчезает.",
-            "en": "In the affirmative the verb has its base form, and in the third person singular (he, she, it) it takes -s or -es. The negative is formed with do not or does not plus the infinitive, and questions with Do or Does before the subject; after does the -s ending disappears from the verb."
+            "ru": "(+) V / V-s\n(–) don't / doesn't + V\n(?) Do / Does + V?",
+            "en": "(+) V / V-s\n(–) don't / doesn't + V\n(?) Do / Does + V?"
           },
           "examples": [
-            "I work in an office.",
-            "She works in a hospital.",
-            "He does not drive.",
-            "Do you speak English?"
+            "She works here.",
+            "She doesn't work here.",
+            "Does she work here?"
           ]
         },
         {
           "heading": {
-            "ru": "Значение",
-            "en": "Meaning"
+            "ru": "Когда используем",
+            "en": "When we use it"
           },
           "body": {
-            "ru": "Время описывает привычки и повторяющиеся действия, факты и общие истины, расписания и постоянные состояния. Важно, что действие не происходит прямо сейчас, а является обычным или постоянным.",
-            "en": "The tense describes habits and repeated actions, facts and general truths, timetables and permanent states. What matters is that the action is not happening right now but is usual or permanent."
+            "ru": "• привычки и регулярные действия\n• факты и расписания\n• постоянные состояния",
+            "en": "• habits and regular actions\n• facts and timetables\n• permanent states"
           },
           "examples": [
-            "I go to the gym twice a week.",
+            "I go to the gym every Monday.",
             "Water boils at 100 degrees.",
-            "The train leaves at 7:30.",
             "My parents live in Bristol."
           ]
         },
         {
           "heading": {
-            "ru": "Маркеры времени",
-            "en": "Time markers"
+            "ru": "Маркеры",
+            "en": "Markers"
           },
           "body": {
-            "ru": "На Present Simple обычно указывают always, usually, often, sometimes, never, every day или week, once a week и названия дней с предлогом on. Наречие частоты ставится перед смысловым глаголом, но после формы be.",
-            "en": "Present Simple is usually signalled by always, usually, often, sometimes, never, every day or week, once a week and days of the week with on. A frequency adverb goes before the main verb but after the form of be."
+            "ru": "• every day / every week\n• usually / often / sometimes / never\n• on Mondays",
+            "en": "• every day / every week\n• usually / often / sometimes / never\n• on Mondays"
           },
           "examples": [
-            "She always arrives early.",
-            "We usually eat at home.",
-            "He is never late.",
+            "She usually walks to work.",
+            "He never eats meat.",
             "They go hiking on Sundays."
           ]
         },
         {
           "heading": {
-            "ru": "Типичные ошибки",
-            "en": "Common mistakes"
+            "ru": "Ошибки",
+            "en": "Mistakes"
           },
           "body": {
-            "ru": "Частая ошибка — забыть окончание -s в третьем лице или добавить его после does. Глаголы состояния, такие как like, know и want, обычно не употребляются в длительной форме, поэтому привычки и чувства выражаем в простом времени.",
-            "en": "A common mistake is to forget the -s ending in the third person or to add it after does. State verbs such as like, know and want are not usually used in the continuous form, so habits and feelings are expressed in the simple tense."
+            "ru": "• He don't work → He doesn't work\n• She work here → She works here\n• Does he works here? → Does he work here?",
+            "en": "• He don't work → He doesn't work\n• She work here → She works here\n• Does he works here? → Does he work here?"
           },
           "examples": [
-            "He likes coffee.",
-            "She knows the answer.",
-            "They do not want to leave.",
-            "Does your brother play tennis?"
+            "He doesn't drive.",
+            "She studies English.",
+            "Does she live here?"
           ]
         }
       ]
@@ -623,7 +619,8 @@
         "tense-present-simple",
         "build",
         "affirmative"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-present-simple-0022",
@@ -663,7 +660,8 @@
         "tense-present-simple",
         "build",
         "negative"
-      ]
+      ],
+      "buildKind": "negative"
     },
     {
       "id": "tense-present-simple-0023",
@@ -699,7 +697,8 @@
         "tense-present-simple",
         "build",
         "question"
-      ]
+      ],
+      "buildKind": "question"
     },
     {
       "id": "tense-present-simple-0024",
@@ -737,7 +736,8 @@
         "tense-present-simple",
         "build",
         "frequency-adverbs"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-present-simple-0025",
@@ -773,7 +773,8 @@
         "tense-present-simple",
         "build",
         "third-person-s"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-present-simple-0026",
@@ -1018,6 +1019,2224 @@
         "tense-present-simple",
         "match",
         "rules"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0031",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "work",
+        "in",
+        "a",
+        "small",
+        "office"
+      ],
+      "answers": [
+        [
+          "I",
+          "work",
+          "in",
+          "a",
+          "small",
+          "office"
+        ]
+      ],
+      "translation": {
+        "ru": "Я работаю в маленьком офисе."
+      },
+      "explanation": {
+        "ru": "Present Simple, утверждение: V / V-s.",
+        "en": "Present Simple: (+) V / V-s."
+      },
+      "tags": [
+        "tense-present-simple",
+        "affirmative",
+        "routine"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0032",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "You",
+        "speak",
+        "English",
+        "very",
+        "well"
+      ],
+      "answers": [
+        [
+          "You",
+          "speak",
+          "English",
+          "very",
+          "well"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты очень хорошо говоришь по-английски."
+      },
+      "explanation": {
+        "ru": "Present Simple, утверждение: V / V-s.",
+        "en": "Present Simple: (+) V / V-s."
+      },
+      "tags": [
+        "tense-present-simple",
+        "affirmative",
+        "fact"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0033",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "live",
+        "near",
+        "the",
+        "city",
+        "centre"
+      ],
+      "answers": [
+        [
+          "We",
+          "live",
+          "near",
+          "the",
+          "city",
+          "centre"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы живём недалеко от центра города."
+      },
+      "explanation": {
+        "ru": "Present Simple, утверждение: V / V-s.",
+        "en": "Present Simple: (+) V / V-s."
+      },
+      "tags": [
+        "tense-present-simple",
+        "affirmative",
+        "fact"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0034",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "play",
+        "tennis",
+        "every",
+        "weekend"
+      ],
+      "answers": [
+        [
+          "They",
+          "play",
+          "tennis",
+          "every",
+          "weekend"
+        ]
+      ],
+      "translation": {
+        "ru": "Они играют в теннис каждые выходные."
+      },
+      "explanation": {
+        "ru": "Present Simple, утверждение: V / V-s.",
+        "en": "Present Simple: (+) V / V-s."
+      },
+      "tags": [
+        "tense-present-simple",
+        "affirmative",
+        "routine"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0035",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "works",
+        "in",
+        "a",
+        "bank"
+      ],
+      "answers": [
+        [
+          "He",
+          "works",
+          "in",
+          "a",
+          "bank"
+        ]
+      ],
+      "translation": {
+        "ru": "Он работает в банке."
+      },
+      "explanation": {
+        "ru": "Present Simple, утверждение: V / V-s.",
+        "en": "Present Simple: (+) V / V-s."
+      },
+      "tags": [
+        "tense-present-simple",
+        "affirmative",
+        "third-person"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0036",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "studies",
+        "at",
+        "university"
+      ],
+      "answers": [
+        [
+          "She",
+          "studies",
+          "at",
+          "university"
+        ]
+      ],
+      "translation": {
+        "ru": "Она учится в университете."
+      },
+      "explanation": {
+        "ru": "Present Simple, утверждение: V / V-s.",
+        "en": "Present Simple: (+) V / V-s."
+      },
+      "tags": [
+        "tense-present-simple",
+        "affirmative",
+        "third-person"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0037",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "My",
+        "brother",
+        "drives",
+        "a",
+        "red",
+        "car"
+      ],
+      "answers": [
+        [
+          "My",
+          "brother",
+          "drives",
+          "a",
+          "red",
+          "car"
+        ]
+      ],
+      "translation": {
+        "ru": "Мой брат водит красную машину."
+      },
+      "explanation": {
+        "ru": "Present Simple, утверждение: V / V-s.",
+        "en": "Present Simple: (+) V / V-s."
+      },
+      "tags": [
+        "tense-present-simple",
+        "affirmative",
+        "third-person"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0038",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "Her",
+        "sister",
+        "teaches",
+        "French",
+        "at",
+        "school"
+      ],
+      "answers": [
+        [
+          "Her",
+          "sister",
+          "teaches",
+          "French",
+          "at",
+          "school"
+        ]
+      ],
+      "translation": {
+        "ru": "Её сестра преподаёт французский в школе."
+      },
+      "explanation": {
+        "ru": "Present Simple, утверждение: V / V-s.",
+        "en": "Present Simple: (+) V / V-s."
+      },
+      "tags": [
+        "tense-present-simple",
+        "affirmative",
+        "third-person"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0039",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "train",
+        "leaves",
+        "at",
+        "half",
+        "past",
+        "seven"
+      ],
+      "answers": [
+        [
+          "The",
+          "train",
+          "leaves",
+          "at",
+          "half",
+          "past",
+          "seven"
+        ]
+      ],
+      "translation": {
+        "ru": "Поезд отправляется в половине восьмого."
+      },
+      "explanation": {
+        "ru": "Present Simple, утверждение: V / V-s.",
+        "en": "Present Simple: (+) V / V-s."
+      },
+      "tags": [
+        "tense-present-simple",
+        "affirmative",
+        "timetable"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0040",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "My",
+        "parents",
+        "live",
+        "in",
+        "a",
+        "small",
+        "village"
+      ],
+      "answers": [
+        [
+          "My",
+          "parents",
+          "live",
+          "in",
+          "a",
+          "small",
+          "village"
+        ]
+      ],
+      "translation": {
+        "ru": "Мои родители живут в маленькой деревне."
+      },
+      "explanation": {
+        "ru": "Present Simple, утверждение: V / V-s.",
+        "en": "Present Simple: (+) V / V-s."
+      },
+      "tags": [
+        "tense-present-simple",
+        "affirmative",
+        "fact"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0041",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "usually",
+        "get",
+        "up",
+        "at",
+        "six"
+      ],
+      "answers": [
+        [
+          "I",
+          "usually",
+          "get",
+          "up",
+          "at",
+          "six"
+        ]
+      ],
+      "translation": {
+        "ru": "Обычно я встаю в шесть."
+      },
+      "explanation": {
+        "ru": "Present Simple, утверждение: V / V-s.",
+        "en": "Present Simple: (+) V / V-s."
+      },
+      "tags": [
+        "tense-present-simple",
+        "affirmative",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0042",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "always",
+        "walks",
+        "to",
+        "work"
+      ],
+      "answers": [
+        [
+          "She",
+          "always",
+          "walks",
+          "to",
+          "work"
+        ]
+      ],
+      "translation": {
+        "ru": "Она всегда ходит на работу пешком."
+      },
+      "explanation": {
+        "ru": "Present Simple, утверждение: V / V-s.",
+        "en": "Present Simple: (+) V / V-s."
+      },
+      "tags": [
+        "tense-present-simple",
+        "affirmative",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0043",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "often",
+        "visits",
+        "his",
+        "grandparents"
+      ],
+      "answers": [
+        [
+          "He",
+          "often",
+          "visits",
+          "his",
+          "grandparents"
+        ],
+        [
+          "He",
+          "visits",
+          "his",
+          "grandparents",
+          "often"
+        ]
+      ],
+      "translation": {
+        "ru": "Он часто навещает бабушку и дедушку."
+      },
+      "explanation": {
+        "ru": "Present Simple, утверждение: V / V-s.",
+        "en": "Present Simple: (+) V / V-s."
+      },
+      "tags": [
+        "tense-present-simple",
+        "affirmative",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0044",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "sometimes",
+        "eat",
+        "dinner",
+        "in",
+        "a",
+        "café"
+      ],
+      "answers": [
+        [
+          "We",
+          "sometimes",
+          "eat",
+          "dinner",
+          "in",
+          "a",
+          "café"
+        ],
+        [
+          "We",
+          "eat",
+          "dinner",
+          "in",
+          "a",
+          "café",
+          "sometimes"
+        ]
+      ],
+      "translation": {
+        "ru": "Иногда мы ужинаем в кафе."
+      },
+      "explanation": {
+        "ru": "Present Simple, утверждение: V / V-s.",
+        "en": "Present Simple: (+) V / V-s."
+      },
+      "tags": [
+        "tense-present-simple",
+        "affirmative",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0045",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "never",
+        "watch",
+        "television",
+        "in",
+        "the",
+        "morning"
+      ],
+      "answers": [
+        [
+          "They",
+          "never",
+          "watch",
+          "television",
+          "in",
+          "the",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Они никогда не смотрят телевизор по утрам."
+      },
+      "explanation": {
+        "ru": "Present Simple, утверждение: V / V-s.",
+        "en": "Present Simple: (+) V / V-s."
+      },
+      "tags": [
+        "tense-present-simple",
+        "affirmative",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0046",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "My",
+        "sister",
+        "has",
+        "two",
+        "cats"
+      ],
+      "answers": [
+        [
+          "My",
+          "sister",
+          "has",
+          "two",
+          "cats"
+        ]
+      ],
+      "translation": {
+        "ru": "У моей сестры две кошки."
+      },
+      "explanation": {
+        "ru": "Present Simple, утверждение: V / V-s.",
+        "en": "Present Simple: (+) V / V-s."
+      },
+      "tags": [
+        "tense-present-simple",
+        "affirmative",
+        "state"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0047",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "His",
+        "uncle",
+        "knows",
+        "three",
+        "languages"
+      ],
+      "answers": [
+        [
+          "His",
+          "uncle",
+          "knows",
+          "three",
+          "languages"
+        ]
+      ],
+      "translation": {
+        "ru": "Его дядя знает три языка."
+      },
+      "explanation": {
+        "ru": "Present Simple, утверждение: V / V-s.",
+        "en": "Present Simple: (+) V / V-s."
+      },
+      "tags": [
+        "tense-present-simple",
+        "affirmative",
+        "state"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0048",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "don't",
+        "drink",
+        "coffee"
+      ],
+      "answers": [
+        [
+          "I",
+          "don't",
+          "drink",
+          "coffee"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не пью кофе."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "basic"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0049",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "You",
+        "don't",
+        "need",
+        "a",
+        "ticket"
+      ],
+      "answers": [
+        [
+          "You",
+          "don't",
+          "need",
+          "a",
+          "ticket"
+        ]
+      ],
+      "translation": {
+        "ru": "Тебе не нужен билет."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "basic"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0050",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "don't",
+        "work",
+        "on",
+        "Sundays"
+      ],
+      "answers": [
+        [
+          "We",
+          "don't",
+          "work",
+          "on",
+          "Sundays"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы не работаем по воскресеньям."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "basic"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0051",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "don't",
+        "live",
+        "far",
+        "from",
+        "here"
+      ],
+      "answers": [
+        [
+          "They",
+          "don't",
+          "live",
+          "far",
+          "from",
+          "here"
+        ]
+      ],
+      "translation": {
+        "ru": "Они живут недалеко отсюда."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "basic"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0052",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "doesn't",
+        "like",
+        "fish"
+      ],
+      "answers": [
+        [
+          "He",
+          "doesn't",
+          "like",
+          "fish"
+        ]
+      ],
+      "translation": {
+        "ru": "Он не любит рыбу."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "third-person"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0053",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "doesn't",
+        "speak",
+        "German"
+      ],
+      "answers": [
+        [
+          "She",
+          "doesn't",
+          "speak",
+          "German"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не говорит по-немецки."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "third-person"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0054",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "My",
+        "brother",
+        "doesn't",
+        "watch",
+        "football"
+      ],
+      "answers": [
+        [
+          "My",
+          "brother",
+          "doesn't",
+          "watch",
+          "football"
+        ]
+      ],
+      "translation": {
+        "ru": "Мой брат не смотрит футбол."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "third-person"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0055",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "Her",
+        "parents",
+        "don't",
+        "eat",
+        "meat"
+      ],
+      "answers": [
+        [
+          "Her",
+          "parents",
+          "don't",
+          "eat",
+          "meat"
+        ]
+      ],
+      "translation": {
+        "ru": "Её родители не едят мясо."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "basic"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0056",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "shop",
+        "doesn't",
+        "open",
+        "until",
+        "nine"
+      ],
+      "answers": [
+        [
+          "The",
+          "shop",
+          "doesn't",
+          "open",
+          "until",
+          "nine"
+        ]
+      ],
+      "translation": {
+        "ru": "Магазин не открывается до девяти."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "third-person"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0057",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "It",
+        "doesn't",
+        "snow",
+        "in",
+        "summer"
+      ],
+      "answers": [
+        [
+          "It",
+          "doesn't",
+          "snow",
+          "in",
+          "summer"
+        ]
+      ],
+      "translation": {
+        "ru": "Летом не идёт снег."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "third-person"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0058",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "don't",
+        "know",
+        "the",
+        "answer"
+      ],
+      "answers": [
+        [
+          "I",
+          "don't",
+          "know",
+          "the",
+          "answer"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не знаю ответа."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "state"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0059",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "doesn't",
+        "want",
+        "to",
+        "go",
+        "out"
+      ],
+      "answers": [
+        [
+          "She",
+          "doesn't",
+          "want",
+          "to",
+          "go",
+          "out"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не хочет выходить на улицу."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "state"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0060",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "don't",
+        "have",
+        "time",
+        "today"
+      ],
+      "answers": [
+        [
+          "We",
+          "don't",
+          "have",
+          "time",
+          "today"
+        ]
+      ],
+      "translation": {
+        "ru": "У нас нет времени сегодня."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "basic"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0061",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "My",
+        "parents",
+        "don't",
+        "watch",
+        "films",
+        "very",
+        "often"
+      ],
+      "answers": [
+        [
+          "My",
+          "parents",
+          "don't",
+          "watch",
+          "films",
+          "very",
+          "often"
+        ]
+      ],
+      "translation": {
+        "ru": "Мои родители не очень часто смотрят фильмы."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0062",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "doesn't",
+        "work",
+        "on",
+        "Fridays"
+      ],
+      "answers": [
+        [
+          "He",
+          "doesn't",
+          "work",
+          "on",
+          "Fridays"
+        ]
+      ],
+      "translation": {
+        "ru": "Он не работает по пятницам."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "third-person"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0063",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "You",
+        "don't",
+        "look",
+        "tired"
+      ],
+      "answers": [
+        [
+          "You",
+          "don't",
+          "look",
+          "tired"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты не выглядишь уставшим."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "state"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0064",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "don't",
+        "understand",
+        "the",
+        "question"
+      ],
+      "answers": [
+        [
+          "They",
+          "don't",
+          "understand",
+          "the",
+          "question"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не понимают вопрос."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "state"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0065",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "Our",
+        "teacher",
+        "doesn't",
+        "give",
+        "much",
+        "homework"
+      ],
+      "answers": [
+        [
+          "Our",
+          "teacher",
+          "doesn't",
+          "give",
+          "much",
+          "homework"
+        ]
+      ],
+      "translation": {
+        "ru": "Наш учитель не задаёт много домашних заданий."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "third-person"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0066",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "don't",
+        "play",
+        "computer",
+        "games"
+      ],
+      "answers": [
+        [
+          "I",
+          "don't",
+          "play",
+          "computer",
+          "games"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не играю в компьютерные игры."
+      },
+      "explanation": {
+        "ru": "Present Simple, отрицание: don't / doesn't + V.",
+        "en": "Present Simple: (–) don't / doesn't + V."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative",
+        "basic"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0067",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Do",
+        "you",
+        "like",
+        "tea"
+      ],
+      "answers": [
+        [
+          "Do",
+          "you",
+          "like",
+          "tea"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты любишь чай?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "do"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0068",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Does",
+        "she",
+        "live",
+        "in",
+        "London"
+      ],
+      "answers": [
+        [
+          "Does",
+          "she",
+          "live",
+          "in",
+          "London"
+        ]
+      ],
+      "translation": {
+        "ru": "Она живёт в Лондоне?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "does"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0069",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Do",
+        "they",
+        "work",
+        "together"
+      ],
+      "answers": [
+        [
+          "Do",
+          "they",
+          "work",
+          "together"
+        ]
+      ],
+      "translation": {
+        "ru": "Они работают вместе?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "do"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0070",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Does",
+        "he",
+        "speak",
+        "Spanish"
+      ],
+      "answers": [
+        [
+          "Does",
+          "he",
+          "speak",
+          "Spanish"
+        ]
+      ],
+      "translation": {
+        "ru": "Он говорит по-испански?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "does"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0071",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Do",
+        "we",
+        "need",
+        "a",
+        "map"
+      ],
+      "answers": [
+        [
+          "Do",
+          "we",
+          "need",
+          "a",
+          "map"
+        ]
+      ],
+      "translation": {
+        "ru": "Нам нужна карта?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "do"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0072",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Does",
+        "your",
+        "sister",
+        "study",
+        "English"
+      ],
+      "answers": [
+        [
+          "Does",
+          "your",
+          "sister",
+          "study",
+          "English"
+        ]
+      ],
+      "translation": {
+        "ru": "Твоя сестра изучает английский?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "does"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0073",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Do",
+        "I",
+        "need",
+        "to",
+        "pay",
+        "now"
+      ],
+      "answers": [
+        [
+          "Do",
+          "I",
+          "need",
+          "to",
+          "pay",
+          "now"
+        ]
+      ],
+      "translation": {
+        "ru": "Мне нужно заплатить сейчас?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "do"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0074",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Does",
+        "it",
+        "rain",
+        "a",
+        "lot",
+        "here"
+      ],
+      "answers": [
+        [
+          "Does",
+          "it",
+          "rain",
+          "a",
+          "lot",
+          "here"
+        ]
+      ],
+      "translation": {
+        "ru": "Здесь часто идёт дождь?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "does"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0075",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Do",
+        "your",
+        "parents",
+        "live",
+        "nearby"
+      ],
+      "answers": [
+        [
+          "Do",
+          "your",
+          "parents",
+          "live",
+          "nearby"
+        ]
+      ],
+      "translation": {
+        "ru": "Твои родители живут рядом?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "do"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0076",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Does",
+        "the",
+        "museum",
+        "open",
+        "at",
+        "nine"
+      ],
+      "answers": [
+        [
+          "Does",
+          "the",
+          "museum",
+          "open",
+          "at",
+          "nine"
+        ]
+      ],
+      "translation": {
+        "ru": "Музей открывается в девять?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "does"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0077",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Do",
+        "you",
+        "walk",
+        "to",
+        "school"
+      ],
+      "answers": [
+        [
+          "Do",
+          "you",
+          "walk",
+          "to",
+          "school"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты ходишь в школу пешком?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "do"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0078",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Does",
+        "she",
+        "know",
+        "my",
+        "brother"
+      ],
+      "answers": [
+        [
+          "Does",
+          "she",
+          "know",
+          "my",
+          "brother"
+        ]
+      ],
+      "translation": {
+        "ru": "Она знает моего брата?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "does"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0079",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Do",
+        "they",
+        "play",
+        "chess"
+      ],
+      "answers": [
+        [
+          "Do",
+          "they",
+          "play",
+          "chess"
+        ]
+      ],
+      "translation": {
+        "ru": "Они играют в шахматы?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "do"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0080",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Does",
+        "he",
+        "drink",
+        "coffee"
+      ],
+      "answers": [
+        [
+          "Does",
+          "he",
+          "drink",
+          "coffee"
+        ]
+      ],
+      "translation": {
+        "ru": "Он пьёт кофе?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "does"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0081",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Do",
+        "you",
+        "often",
+        "go",
+        "to",
+        "the",
+        "cinema"
+      ],
+      "answers": [
+        [
+          "Do",
+          "you",
+          "often",
+          "go",
+          "to",
+          "the",
+          "cinema"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты часто ходишь в кино?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "do"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0082",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Does",
+        "your",
+        "brother",
+        "drive",
+        "to",
+        "work"
+      ],
+      "answers": [
+        [
+          "Does",
+          "your",
+          "brother",
+          "drive",
+          "to",
+          "work"
+        ]
+      ],
+      "translation": {
+        "ru": "Твой брат ездит на работу на машине?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "does"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0083",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Do",
+        "we",
+        "have",
+        "enough",
+        "time"
+      ],
+      "answers": [
+        [
+          "Do",
+          "we",
+          "have",
+          "enough",
+          "time"
+        ]
+      ],
+      "translation": {
+        "ru": "У нас достаточно времени?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "do"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0084",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Does",
+        "this",
+        "bus",
+        "stop",
+        "here"
+      ],
+      "answers": [
+        [
+          "Does",
+          "this",
+          "bus",
+          "stop",
+          "here"
+        ]
+      ],
+      "translation": {
+        "ru": "Этот автобус останавливается здесь?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "does"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0085",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Do",
+        "her",
+        "friends",
+        "live",
+        "in",
+        "Manchester"
+      ],
+      "answers": [
+        [
+          "Do",
+          "her",
+          "friends",
+          "live",
+          "in",
+          "Manchester"
+        ]
+      ],
+      "translation": {
+        "ru": "Её друзья живут в Манчестере?"
+      },
+      "explanation": {
+        "ru": "Present Simple, вопрос: Do / Does + V?",
+        "en": "Present Simple: (?) Do / Does + V?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question",
+        "do"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0086",
+      "type": "match",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте тип предложения и пример.",
+        "en": "Match each sentence type with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "(+) утверждение",
+            "en": "(+) affirmative"
+          },
+          "right": "They play tennis every weekend."
+        },
+        {
+          "left": {
+            "ru": "(–) отрицание",
+            "en": "(–) negative"
+          },
+          "right": "She does not eat meat."
+        },
+        {
+          "left": {
+            "ru": "(?) вопрос",
+            "en": "(?) question"
+          },
+          "right": "Do they live in London?"
+        },
+        {
+          "left": {
+            "ru": "краткий ответ",
+            "en": "short answer"
+          },
+          "right": "No, she does not."
+        }
+      ],
+      "explanation": {
+        "ru": "Утверждение — V / V-s, отрицание — don't / doesn't + V, вопрос — Do / Does + V?, краткий ответ повторяет do/does.",
+        "en": "Affirmative is V / V-s, negative is don't / doesn't + V, question is Do / Does + V?, and the short answer repeats do/does."
+      },
+      "tags": [
+        "tense-present-simple",
+        "match",
+        "form"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0087",
+      "type": "match",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте глагол и форму 3-го лица.",
+        "en": "Match each verb with its third-person form."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "форма: teach → teaches",
+            "en": "teach → teaches"
+          },
+          "right": "She teaches French."
+        },
+        {
+          "left": {
+            "ru": "форма: fly → flies",
+            "en": "fly → flies"
+          },
+          "right": "The plane flies to Paris."
+        },
+        {
+          "left": {
+            "ru": "форма: miss → misses",
+            "en": "miss → misses"
+          },
+          "right": "He misses his family."
+        },
+        {
+          "left": {
+            "ru": "форма: do → does",
+            "en": "do → does"
+          },
+          "right": "She does her homework."
+        }
+      ],
+      "explanation": {
+        "ru": "В 3-м лице единственного числа: -s, -es, а конечная -y после согласной переходит в -ies.",
+        "en": "In the third person singular: -s, -es, and a final -y after a consonant becomes -ies."
+      },
+      "tags": [
+        "tense-present-simple",
+        "match",
+        "spelling"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0088",
+      "type": "match",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте маркер и пример.",
+        "en": "Match each marker with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "маркер: on Mondays",
+            "en": "on Mondays"
+          },
+          "right": "The shop opens late on Mondays."
+        },
+        {
+          "left": {
+            "ru": "маркер: twice a week",
+            "en": "twice a week"
+          },
+          "right": "She visits her grandmother twice a week."
+        },
+        {
+          "left": {
+            "ru": "маркер: never",
+            "en": "never"
+          },
+          "right": "He never drinks coffee."
+        },
+        {
+          "left": {
+            "ru": "маркер: sometimes",
+            "en": "sometimes"
+          },
+          "right": "We sometimes eat out."
+        }
+      ],
+      "explanation": {
+        "ru": "Маркеры every day, on Mondays, twice a week, never и sometimes показывают регулярное действие.",
+        "en": "The markers every day, on Mondays, twice a week, never and sometimes show a regular action."
+      },
+      "tags": [
+        "tense-present-simple",
+        "match",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0089",
+      "type": "match",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "расписание",
+            "en": "timetable"
+          },
+          "right": "The film starts at eight."
+        },
+        {
+          "left": {
+            "ru": "факт",
+            "en": "fact"
+          },
+          "right": "The Earth goes around the Sun."
+        },
+        {
+          "left": {
+            "ru": "привычка",
+            "en": "habit"
+          },
+          "right": "My father reads the newspaper every day."
+        },
+        {
+          "left": {
+            "ru": "постоянное состояние",
+            "en": "permanent state"
+          },
+          "right": "She has two brothers."
+        }
+      ],
+      "explanation": {
+        "ru": "Present Simple называет расписания, факты, привычки и постоянные состояния.",
+        "en": "Present Simple names timetables, facts, habits and permanent states."
+      },
+      "tags": [
+        "tense-present-simple",
+        "match",
+        "meaning"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0090",
+      "type": "match",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте ошибку и исправление.",
+        "en": "Match each mistake with the correct sentence."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Ошибка: He don't work here.",
+            "en": "He don't work here."
+          },
+          "right": "He doesn't work here."
+        },
+        {
+          "left": {
+            "ru": "Ошибка: She work in a shop.",
+            "en": "She work in a shop."
+          },
+          "right": "She works in a shop."
+        },
+        {
+          "left": {
+            "ru": "Ошибка: Does he works here?",
+            "en": "Does he works here?"
+          },
+          "right": "Does he work here?"
+        },
+        {
+          "left": {
+            "ru": "Ошибка: They doesn't like tea.",
+            "en": "They doesn't like tea."
+          },
+          "right": "They don't like tea."
+        }
+      ],
+      "explanation": {
+        "ru": "После he/she/it — doesn't и V-s; после does глагол стоит без -s; с they — don't.",
+        "en": "After he/she/it use doesn't and V-s; after does the verb has no -s; with they use don't."
+      },
+      "tags": [
+        "tense-present-simple",
+        "match",
+        "mistakes"
       ]
     }
   ]

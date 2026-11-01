@@ -118,15 +118,16 @@ A topic training session draws **30 questions** from the pool: all five matching
 25 choice questions (weak/unseen questions are preferred). The pool stays 70, so different
 sessions show different examples.
 
-**Tense themes** (section `tenses`) have **exactly 30 questions**: 20 `choice` + 5 `build` + 5 `match`.
-A tense theme session plays all 30.
+**Tense themes** (section `tenses`) have a pool of **exactly 90 questions**:
+20 `choice` + 10 `match` + 60 `build`. A tense theme session draws
+**10 choice + 5 match + 15 build** = 30 questions.
 
 **Preposition themes** (section `prepositions`) have a pool of **50–60 questions**
 (at least 25 `choice` and 5 `match`). A topic session draws **30** questions: all five matching
 questions plus 25 choice questions.
 
 This is enforced by `scripts/validate_content.py`. The full set is
-9 article themes × 70 + 12 tense themes × 30 + 6 preposition themes × 50/60 = **1300 questions**.
+9 article themes × 70 + 12 tense themes × 90 + 6 preposition themes × 50/60 = **2020 questions**.
 The “Длина сессии” setting does not affect topic training.
 
 ## 4. Question objects — **choice**, **match** and **build**
@@ -222,6 +223,7 @@ all right values distinct; every left unambiguously corresponds to exactly one r
   "type": "build",
   "ruleId": "tense-present-perfect",
   "level": "A2",
+  "buildKind": "affirmative",
   "words": ["She", "has", "lived", "in", "London", "for", "five", "years"],
   "answers": [
     ["She", "has", "lived", "in", "London", "for", "five", "years"],
@@ -237,6 +239,7 @@ all right values distinct; every left unambiguously corresponds to exactly one r
 ```
 
 Rules:
+- `buildKind` — `affirmative`, `negative` or `question` (shown as (+), (–), (?));
 - `words` — 3–20 tokens (each a non-empty string; keep contractions as one token, e.g. `"don't"`;
   no separate final punctuation token);
 - `answers` — 1–4 **accepted token sequences**; each must be a permutation of `words`
@@ -280,7 +283,7 @@ Rules:
 | prepositions_04_adjectives.json | prep-adjectives | 50 |
 | prepositions_05_verbs.json | prep-verbs | 50 |
 | prepositions_06_fixed_advanced.json | prep-fixed | 60 |
-| tenses_01_present_simple.json | tense-present-simple | 30 |
+| tenses_01_present_simple.json | tense-present-simple | 90 |
 | tenses_02_present_continuous.json | tense-present-continuous | 30 |
 | tenses_03_present_perfect.json | tense-present-perfect | 30 |
 | tenses_04_present_perfect_continuous.json | tense-present-perfect-continuous | 30 |
@@ -293,7 +296,7 @@ Rules:
 | tenses_11_future_perfect.json | tense-future-perfect | 30 |
 | tenses_12_future_perfect_continuous.json | tense-future-perfect-continuous | 30 |
 
-Target: **1300 questions total** (9×70 articles + 12×30 tenses + 5×50 + 60 prepositions), 27 rules, 3 sections.
+Target: **2020 questions total** (9×70 articles + 12×90 tenses + 5×50 + 60 prepositions), 27 rules, 3 sections.
 
 ## Validation
 

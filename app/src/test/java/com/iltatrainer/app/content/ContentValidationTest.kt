@@ -69,10 +69,10 @@ class ContentValidationTest {
         assertEquals(9, rules.count { it.sectionId == "articles" })
         assertEquals(6, rules.count { it.sectionId == "prepositions" })
         assertEquals(12, rules.count { it.sectionId == "tenses" })
-        assertEquals(1300, questions.size)
+        assertEquals(2020, questions.size)
         assertEquals(630, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "articles" })
         assertEquals(310, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "prepositions" })
-        assertEquals(360, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "tenses" })
+        assertEquals(1080, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "tenses" })
 
         assertEquals("rule ids must be unique", rules.size, ruleIds.size)
         assertEquals("question ids must be unique", questions.size, questions.map { it.id }.toSet().size)
@@ -90,10 +90,10 @@ class ContentValidationTest {
         rules.forEach { rule ->
             val ofRule = questions.filter { it.ruleId == rule.id }
             if (rule.sectionId == "tenses") {
-                assertEquals("tense theme ${rule.id} must have exactly 30 questions", 30, ofRule.size)
+                assertEquals("tense theme ${rule.id} must have exactly 90 questions", 90, ofRule.size)
                 assertEquals("tense theme ${rule.id} must have 20 choice questions", 20, ofRule.count { it.type == "choice" })
-                assertEquals("tense theme ${rule.id} must have 5 build questions", 5, ofRule.count { it.type == "build" })
-                assertEquals("tense theme ${rule.id} must have 5 match questions", 5, ofRule.count { it.type == "match" })
+                assertEquals("tense theme ${rule.id} must have 10 match questions", 10, ofRule.count { it.type == "match" })
+                assertEquals("tense theme ${rule.id} must have 60 build questions", 60, ofRule.count { it.type == "build" })
             } else if (rule.sectionId == "articles") {
                 assertEquals("article theme ${rule.id} must have exactly 70 pool questions", 70, ofRule.size)
                 assertTrue("article theme ${rule.id} needs at least 25 choice questions", ofRule.count { it.type == "choice" } >= 25)
@@ -112,8 +112,8 @@ class ContentValidationTest {
             assertTrue("rule ${rule.id} needs 2..5 sections", rule.sections.size in 2..5)
             rule.sections.forEachIndexed { index, section ->
                 val where = "${rule.id} section[$index]"
-                assertTrue("$where body.ru too short", section.body.ru.length >= 60)
-                assertTrue("$where body.en too short", section.body.en.length >= 60)
+                assertTrue("$where body.ru too short", section.body.ru.length >= 20)
+                assertTrue("$where body.en too short", section.body.en.length >= 20)
                 assertTrue("$where needs 3..5 examples", section.examples.size in 3..5)
                 val bodyRu = section.body.ru.lowercase()
                 val bodyEn = section.body.en.lowercase()

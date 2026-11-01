@@ -211,6 +211,8 @@ def validate_match(question, where: str, seen_match_rights: dict[str, str] | Non
 
 
 def validate_build(question, where: str) -> None:
+    if question.get("buildKind") not in ("affirmative", "negative", "question"):
+        err(where, "`buildKind` must be affirmative, negative or question")
     words = question.get("words")
     answers = question.get("answers")
     if not isinstance(words, list) or not (3 <= len(words) <= 20):
@@ -437,14 +439,14 @@ def main(argv: list[str]) -> int:
             is_article_theme = rule_section == "articles"
             is_tense_theme = rule_section == "tenses"
             if is_tense_theme:
-                if total != 30:
-                    err("quotas", f"tense theme `{rule_id}` must have exactly 30 questions, found {total}")
+                if total != 90:
+                    err("quotas", f"tense theme `{rule_id}` must have exactly 90 questions, found {total}")
                 if types.get("choice", 0) != 20:
                     err("quotas", f"tense theme `{rule_id}` must have 20 choice questions, found {types.get('choice', 0)}")
-                if types.get("build", 0) != 5:
-                    err("quotas", f"tense theme `{rule_id}` must have 5 build questions, found {types.get('build', 0)}")
-                if types.get("match", 0) != 5:
-                    err("quotas", f"tense theme `{rule_id}` must have 5 match questions, found {types.get('match', 0)}")
+                if types.get("match", 0) != 10:
+                    err("quotas", f"tense theme `{rule_id}` must have 10 match questions, found {types.get('match', 0)}")
+                if types.get("build", 0) != 60:
+                    err("quotas", f"tense theme `{rule_id}` must have 60 build questions, found {types.get('build', 0)}")
             elif is_article_theme:
                 if total != 70:
                     err("quotas", f"article theme `{rule_id}` must have exactly 70 questions, found {total}")
@@ -464,8 +466,8 @@ def main(argv: list[str]) -> int:
             warn("rules", f"rule `{rule_id}` has no questions")
 
     if directory_mode:
-        if total_questions < 1300:
-            warn("content", f"expected 1300 questions, found {total_questions}")
+        if total_questions < 2020:
+            warn("content", f"expected 2020 questions, found {total_questions}")
         for section_id, count in sorted(section_counts.items()):
             print(f"section `{section_id}`: {count} questions")
 

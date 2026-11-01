@@ -17,8 +17,8 @@
         "en": "Future Perfect Continuous"
       },
       "summary": {
-        "ru": "Future Perfect Continuous (will have been + -ing) показывает, как долго действие будет длиться к определённому моменту в будущем; маркеры сочетают by с for и периодом.",
-        "en": "The Future Perfect Continuous (will have been + -ing) shows how long an action will have been going on up to a particular future moment; its markers combine by with for and a period."
+        "ru": "will have been + V-ing — длительность к определённому моменту будущего. Формулы, случаи, маркеры и ошибки — коротко и по делу.",
+        "en": "will have been + V-ing — duration up to a particular future moment. Formulas, uses, markers and mistakes — short and clear."
       },
       "sections": [
         {
@@ -27,57 +27,57 @@
             "en": "Form"
           },
           "body": {
-            "ru": "Future Perfect Continuous образуется с помощью will have been + глагол с окончанием -ing; форма не меняется по лицам. Отрицание — will not have been + -ing, а вопрос начинается с will: will you have been working.",
-            "en": "The Future Perfect Continuous is formed with will have been + the -ing form, and it does not change for different persons. The negative is will not have been + -ing, and questions begin with will."
+            "ru": "(+) will have been + V-ing\n(–) will not have been + V-ing\n(?) Will … have been + V-ing?\nОдна форма для всех лиц.",
+            "en": "(+) will have been + V-ing\n(–) will not have been + V-ing\n(?) Will … have been + V-ing?\nThe same form for all persons."
           },
           "examples": [
-            "By June I will have been studying medicine for five years.",
+            "By June I will have been studying English for five years.",
             "He will not have been working here long by then.",
-            "Will you have been living in London for ten years next month?"
+            "Will you have been living here for ten years next month?"
           ]
         },
         {
           "heading": {
-            "ru": "Значение",
-            "en": "Meaning"
+            "ru": "Когда используем",
+            "en": "When we use it"
           },
           "body": {
-            "ru": "Время показывает длительность действия до определённого будущего момента: сколько времени оно будет продолжаться, когда наступит срок. Подчёркивается сам процесс и его продолжительность, а не завершённый результат.",
-            "en": "This tense shows how long an action will have been going on up to a particular future moment. It emphasises the process and its length rather than a finished result."
+            "ru": "• сколько длится действие к моменту в будущем\n• акцент на процессе и длительности\n• виден результат процесса",
+            "en": "• how long the action lasts up to a future moment\n• focus on the process and its length\n• the result of the process is visible"
           },
           "examples": [
             "By the time we stop, we will have been driving for eight hours.",
-            "When she finishes the marathon, she will have been running for almost five hours.",
-            "By next week they will have been waiting for an answer for a month."
+            "When the match ends, the players will have been running all morning.",
+            "By next week they will have been waiting for a month."
           ]
         },
         {
           "heading": {
-            "ru": "Маркеры времени",
-            "en": "Time markers"
+            "ru": "Маркеры",
+            "en": "Markers"
           },
           "body": {
-            "ru": "Маркеры совмещают срок и длительность: by + момент вместе с for + период, а также by the time и by then. Предлог for обязателен, когда указано, как долго длится действие.",
-            "en": "Its markers combine a deadline and a duration: by + a point together with for + a period, as well as by the time and by then. The preposition for is obligatory when the length of the action is stated."
+            "ru": "• by + срок + for + период\n• by the time + настоящее + for\n• by then + for\n• next month + for",
+            "en": "• by + deadline + for + period\n• by the time + present + for\n• by then + for\n• next month + for"
           },
           "examples": [
-            "By 2035 he will have been teaching for twenty-five years.",
+            "By 2035 she will have been running the company for twenty-five years.",
             "By then I will have been waiting for two hours.",
-            "Next month she will have been working at the hospital for a decade."
+            "Next month she will have been working here for a decade."
           ]
         },
         {
           "heading": {
-            "ru": "Ошибки и сравнение",
-            "en": "Mistakes and contrast"
+            "ru": "Ошибки",
+            "en": "Common mistakes"
           },
           "body": {
-            "ru": "Частые ошибки — will have been + третья форма вместо -ing и смешение с Future Perfect: тот сообщает о завершённости, а это время — о длительности. Глаголы состояния (know, belong) обычно не употребляются в этой форме.",
-            "en": "Common mistakes are will have been + a past participle instead of the -ing form, and confusion with the Future Perfect: the latter reports completion, while this tense reports duration. Stative verbs such as know or belong are not usually used in this form."
+            "ru": "• ❌ will have been + V3 — ✅ will have been + V-ing\n• длительность ≠ завершённость: will have been doing / will have done\n• глаголы состояния обычно без -ing",
+            "en": "• ❌ will have been + V3 — ✅ will have been + V-ing\n• duration ≠ completion: will have been doing / will have done\n• state verbs usually take no -ing form"
           },
           "examples": [
             "By Friday I will have written the report.",
-            "By Friday I will have been writing the report for three days.",
+            "By Friday I will have been writing it for three days.",
             "By ten he will have been sleeping for two hours."
           ]
         }
@@ -660,8 +660,10 @@
       },
       "tags": [
         "tense-future-perfect-continuous",
-        "build"
-      ]
+        "build",
+        "affirmative"
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-future-perfect-continuous-0022",
@@ -715,8 +717,10 @@
       },
       "tags": [
         "tense-future-perfect-continuous",
-        "build"
-      ]
+        "build",
+        "affirmative"
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-future-perfect-continuous-0023",
@@ -764,8 +768,10 @@
       },
       "tags": [
         "tense-future-perfect-continuous",
-        "build"
-      ]
+        "build",
+        "negative"
+      ],
+      "buildKind": "negative"
     },
     {
       "id": "tense-future-perfect-continuous-0024",
@@ -809,8 +815,10 @@
       },
       "tags": [
         "tense-future-perfect-continuous",
-        "build"
-      ]
+        "build",
+        "question"
+      ],
+      "buildKind": "question"
     },
     {
       "id": "tense-future-perfect-continuous-0025",
@@ -870,7 +878,2905 @@
       },
       "tags": [
         "tense-future-perfect-continuous",
-        "build"
+        "build",
+        "affirmative"
+      ],
+      "buildKind": "affirmative"
+    },
+    {
+      "id": "tense-future-perfect-continuous-0031",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "June",
+        "I",
+        "will",
+        "have",
+        "been",
+        "working",
+        "at",
+        "this",
+        "school",
+        "for",
+        "three",
+        "years"
+      ],
+      "answers": [
+        [
+          "By",
+          "June",
+          "I",
+          "will",
+          "have",
+          "been",
+          "working",
+          "at",
+          "this",
+          "school",
+          "for",
+          "three",
+          "years"
+        ]
+      ],
+      "translation": {
+        "ru": "К июню я буду работать в этой школе три года."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
+        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration-to-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0032",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "next",
+        "month",
+        "he",
+        "will",
+        "have",
+        "been",
+        "studying",
+        "Chinese",
+        "for",
+        "two",
+        "years"
+      ],
+      "answers": [
+        [
+          "By",
+          "next",
+          "month",
+          "he",
+          "will",
+          "have",
+          "been",
+          "studying",
+          "Chinese",
+          "for",
+          "two",
+          "years"
+        ]
+      ],
+      "translation": {
+        "ru": "К следующему месяцу он будет изучать китайский два года."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
+        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration-to-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0033",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "the",
+        "time",
+        "we",
+        "arrive",
+        "the",
+        "children",
+        "will",
+        "have",
+        "been",
+        "sleeping",
+        "for",
+        "two",
+        "hours"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "time",
+          "we",
+          "arrive",
+          "the",
+          "children",
+          "will",
+          "have",
+          "been",
+          "sleeping",
+          "for",
+          "two",
+          "hours"
+        ]
+      ],
+      "translation": {
+        "ru": "К нашему приходу дети будут спать уже два часа."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
+        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration-to-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0034",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "Next",
+        "week",
+        "my",
+        "parents",
+        "will",
+        "have",
+        "been",
+        "living",
+        "in",
+        "this",
+        "house",
+        "for",
+        "thirty",
+        "years"
+      ],
+      "answers": [
+        [
+          "Next",
+          "week",
+          "my",
+          "parents",
+          "will",
+          "have",
+          "been",
+          "living",
+          "in",
+          "this",
+          "house",
+          "for",
+          "thirty",
+          "years"
+        ]
+      ],
+      "translation": {
+        "ru": "На следующей неделе мои родители будут жить в этом доме тридцать лет."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
+        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration-to-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0035",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "five",
+        "o'clock",
+        "the",
+        "team",
+        "will",
+        "have",
+        "been",
+        "training",
+        "for",
+        "six",
+        "hours"
+      ],
+      "answers": [
+        [
+          "By",
+          "five",
+          "o'clock",
+          "the",
+          "team",
+          "will",
+          "have",
+          "been",
+          "training",
+          "for",
+          "six",
+          "hours"
+        ]
+      ],
+      "translation": {
+        "ru": "К пяти часам команда будет тренироваться шесть часов."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
+        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration-to-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0036",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "the",
+        "time",
+        "she",
+        "retires",
+        "she",
+        "will",
+        "have",
+        "been",
+        "teaching",
+        "for",
+        "forty",
+        "years"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "time",
+          "she",
+          "retires",
+          "she",
+          "will",
+          "have",
+          "been",
+          "teaching",
+          "for",
+          "forty",
+          "years"
+        ]
+      ],
+      "translation": {
+        "ru": "К моменту выхода на пенсию она будет преподавать сорок лет."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
+        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration-to-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0037",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "the",
+        "end",
+        "of",
+        "the",
+        "month",
+        "the",
+        "builders",
+        "will",
+        "have",
+        "been",
+        "working",
+        "on",
+        "the",
+        "roof",
+        "for",
+        "three",
+        "weeks"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "end",
+          "of",
+          "the",
+          "month",
+          "the",
+          "builders",
+          "will",
+          "have",
+          "been",
+          "working",
+          "on",
+          "the",
+          "roof",
+          "for",
+          "three",
+          "weeks"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу месяца строители будут работать на крыше три недели."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
+        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration-to-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0038",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "then",
+        "I",
+        "will",
+        "have",
+        "been",
+        "waiting",
+        "for",
+        "your",
+        "answer",
+        "for",
+        "a",
+        "week"
+      ],
+      "answers": [
+        [
+          "By",
+          "then",
+          "I",
+          "will",
+          "have",
+          "been",
+          "waiting",
+          "for",
+          "your",
+          "answer",
+          "for",
+          "a",
+          "week"
+        ]
+      ],
+      "translation": {
+        "ru": "К тому моменту я буду ждать твоего ответа неделю."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
+        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration-to-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0039",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "2030",
+        "the",
+        "company",
+        "will",
+        "have",
+        "been",
+        "producing",
+        "cars",
+        "for",
+        "fifty",
+        "years"
+      ],
+      "answers": [
+        [
+          "By",
+          "2030",
+          "the",
+          "company",
+          "will",
+          "have",
+          "been",
+          "producing",
+          "cars",
+          "for",
+          "fifty",
+          "years"
+        ]
+      ],
+      "translation": {
+        "ru": "К 2030 году компания будет выпускать машины пятьдесят лет."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
+        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration-to-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0040",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "Next",
+        "April",
+        "my",
+        "uncle",
+        "will",
+        "have",
+        "been",
+        "driving",
+        "lorries",
+        "for",
+        "twenty",
+        "years"
+      ],
+      "answers": [
+        [
+          "Next",
+          "April",
+          "my",
+          "uncle",
+          "will",
+          "have",
+          "been",
+          "driving",
+          "lorries",
+          "for",
+          "twenty",
+          "years"
+        ]
+      ],
+      "translation": {
+        "ru": "В апреле дядя будет водить грузовики двадцать лет."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
+        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration-to-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0041",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "the",
+        "end",
+        "of",
+        "the",
+        "lesson",
+        "we",
+        "will",
+        "have",
+        "been",
+        "sitting",
+        "here",
+        "for",
+        "three",
+        "hours"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "end",
+          "of",
+          "the",
+          "lesson",
+          "we",
+          "will",
+          "have",
+          "been",
+          "sitting",
+          "here",
+          "for",
+          "three",
+          "hours"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу урока мы будем сидеть здесь три часа."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
+        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration-to-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0042",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "the",
+        "end",
+        "of",
+        "the",
+        "shift",
+        "the",
+        "nurse",
+        "will",
+        "have",
+        "been",
+        "working",
+        "for",
+        "twelve",
+        "hours"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "end",
+          "of",
+          "the",
+          "shift",
+          "the",
+          "nurse",
+          "will",
+          "have",
+          "been",
+          "working",
+          "for",
+          "twelve",
+          "hours"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу смены медсестра будет работать двенадцать часов."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
+        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration-to-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0043",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "When",
+        "the",
+        "marathon",
+        "ends",
+        "the",
+        "runners",
+        "will",
+        "have",
+        "been",
+        "running",
+        "for",
+        "nearly",
+        "five",
+        "hours"
+      ],
+      "answers": [
+        [
+          "When",
+          "the",
+          "marathon",
+          "ends",
+          "the",
+          "runners",
+          "will",
+          "have",
+          "been",
+          "running",
+          "for",
+          "nearly",
+          "five",
+          "hours"
+        ]
+      ],
+      "translation": {
+        "ru": "Когда марафон закончится, бегуны будут бежать почти пять часов."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
+        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration-to-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0044",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "the",
+        "time",
+        "the",
+        "guests",
+        "leave",
+        "the",
+        "chef",
+        "will",
+        "have",
+        "been",
+        "cooking",
+        "for",
+        "six",
+        "hours"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "time",
+          "the",
+          "guests",
+          "leave",
+          "the",
+          "chef",
+          "will",
+          "have",
+          "been",
+          "cooking",
+          "for",
+          "six",
+          "hours"
+        ]
+      ],
+      "translation": {
+        "ru": "К уходу гостей повар будет готовить шесть часов."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
+        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration-to-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0045",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "next",
+        "summer",
+        "she",
+        "will",
+        "have",
+        "been",
+        "learning",
+        "French",
+        "for",
+        "five",
+        "years"
+      ],
+      "answers": [
+        [
+          "By",
+          "next",
+          "summer",
+          "she",
+          "will",
+          "have",
+          "been",
+          "learning",
+          "French",
+          "for",
+          "five",
+          "years"
+        ]
+      ],
+      "translation": {
+        "ru": "К следующему лету она будет учить французский пять лет."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
+        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration-to-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0046",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "the",
+        "end",
+        "of",
+        "the",
+        "tour",
+        "the",
+        "band",
+        "will",
+        "have",
+        "been",
+        "touring",
+        "for",
+        "six",
+        "months"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "end",
+          "of",
+          "the",
+          "tour",
+          "the",
+          "band",
+          "will",
+          "have",
+          "been",
+          "touring",
+          "for",
+          "six",
+          "months"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу тура группа будет гастролировать шесть месяцев."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
+        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration-to-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0047",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "the",
+        "time",
+        "you",
+        "finish",
+        "you",
+        "will",
+        "have",
+        "been",
+        "reading",
+        "this",
+        "novel",
+        "for",
+        "three",
+        "weeks"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "time",
+          "you",
+          "finish",
+          "you",
+          "will",
+          "have",
+          "been",
+          "reading",
+          "this",
+          "novel",
+          "for",
+          "three",
+          "weeks"
+        ]
+      ],
+      "translation": {
+        "ru": "К тому времени, как ты закончишь, ты будешь читать этот роман три недели."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, утверждение: will have been + V-ing; показана длительность к сроку.",
+        "en": "Future Perfect Continuous, affirmative: will have been + V-ing; the duration up to the deadline is shown."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "affirmative",
+        "duration-to-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0048",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "next",
+        "week",
+        "he",
+        "will",
+        "not",
+        "have",
+        "been",
+        "working",
+        "here",
+        "for",
+        "a",
+        "year"
+      ],
+      "answers": [
+        [
+          "By",
+          "next",
+          "week",
+          "he",
+          "will",
+          "not",
+          "have",
+          "been",
+          "working",
+          "here",
+          "for",
+          "a",
+          "year"
+        ]
+      ],
+      "translation": {
+        "ru": "К следующей неделе он ещё не проработает здесь год."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0049",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "the",
+        "end",
+        "of",
+        "the",
+        "month",
+        "we",
+        "will",
+        "not",
+        "have",
+        "been",
+        "living",
+        "here",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "end",
+          "of",
+          "the",
+          "month",
+          "we",
+          "will",
+          "not",
+          "have",
+          "been",
+          "living",
+          "here",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу месяца мы будем жить здесь ещё недолго."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0050",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "nine",
+        "o'clock",
+        "they",
+        "will",
+        "not",
+        "have",
+        "been",
+        "driving",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "By",
+          "nine",
+          "o'clock",
+          "they",
+          "will",
+          "not",
+          "have",
+          "been",
+          "driving",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "К девяти часам они будут ехать ещё недолго."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0051",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "the",
+        "time",
+        "she",
+        "returns",
+        "the",
+        "children",
+        "will",
+        "not",
+        "have",
+        "been",
+        "sleeping",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "time",
+          "she",
+          "returns",
+          "the",
+          "children",
+          "will",
+          "not",
+          "have",
+          "been",
+          "sleeping",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "К её возвращению дети будут спать ещё недолго."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0052",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "next",
+        "summer",
+        "I",
+        "will",
+        "not",
+        "have",
+        "been",
+        "studying",
+        "German",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "By",
+          "next",
+          "summer",
+          "I",
+          "will",
+          "not",
+          "have",
+          "been",
+          "studying",
+          "German",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "К следующему лету я буду изучать немецкий ещё недолго."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0053",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "the",
+        "end",
+        "of",
+        "the",
+        "week",
+        "the",
+        "team",
+        "will",
+        "not",
+        "have",
+        "been",
+        "training",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "end",
+          "of",
+          "the",
+          "week",
+          "the",
+          "team",
+          "will",
+          "not",
+          "have",
+          "been",
+          "training",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу недели команда будет тренироваться ещё недолго."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0054",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "Next",
+        "month",
+        "she",
+        "will",
+        "not",
+        "have",
+        "been",
+        "teaching",
+        "at",
+        "this",
+        "school",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "Next",
+          "month",
+          "she",
+          "will",
+          "not",
+          "have",
+          "been",
+          "teaching",
+          "at",
+          "this",
+          "school",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "В следующем месяце она будет преподавать в этой школе ещё недолго."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0055",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "midnight",
+        "we",
+        "will",
+        "not",
+        "have",
+        "been",
+        "watching",
+        "the",
+        "film",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "By",
+          "midnight",
+          "we",
+          "will",
+          "not",
+          "have",
+          "been",
+          "watching",
+          "the",
+          "film",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "К полуночи мы будем смотреть фильм ещё недолго."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0056",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "the",
+        "time",
+        "the",
+        "guests",
+        "come",
+        "we",
+        "will",
+        "not",
+        "have",
+        "been",
+        "cooking",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "time",
+          "the",
+          "guests",
+          "come",
+          "we",
+          "will",
+          "not",
+          "have",
+          "been",
+          "cooking",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "К приходу гостей мы будем готовить ещё недолго."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0057",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "next",
+        "May",
+        "he",
+        "will",
+        "not",
+        "have",
+        "been",
+        "living",
+        "in",
+        "Spain",
+        "for",
+        "a",
+        "year"
+      ],
+      "answers": [
+        [
+          "By",
+          "next",
+          "May",
+          "he",
+          "will",
+          "not",
+          "have",
+          "been",
+          "living",
+          "in",
+          "Spain",
+          "for",
+          "a",
+          "year"
+        ]
+      ],
+      "translation": {
+        "ru": "К следующему маю он ещё не проживёт в Испании и года."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0058",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "the",
+        "end",
+        "of",
+        "the",
+        "concert",
+        "the",
+        "musicians",
+        "will",
+        "not",
+        "have",
+        "been",
+        "playing",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "end",
+          "of",
+          "the",
+          "concert",
+          "the",
+          "musicians",
+          "will",
+          "not",
+          "have",
+          "been",
+          "playing",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу концерта музыканты будут играть ещё недолго."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0059",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "tomorrow",
+        "morning",
+        "I",
+        "will",
+        "not",
+        "have",
+        "been",
+        "working",
+        "on",
+        "this",
+        "task",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "By",
+          "tomorrow",
+          "morning",
+          "I",
+          "will",
+          "not",
+          "have",
+          "been",
+          "working",
+          "on",
+          "this",
+          "task",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "К завтрашнему утру я буду работать над этой задачей ещё недолго."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0060",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "the",
+        "end",
+        "of",
+        "the",
+        "day",
+        "they",
+        "will",
+        "not",
+        "have",
+        "been",
+        "waiting",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "end",
+          "of",
+          "the",
+          "day",
+          "they",
+          "will",
+          "not",
+          "have",
+          "been",
+          "waiting",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу дня они будут ждать ещё недолго."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0061",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "next",
+        "month",
+        "we",
+        "will",
+        "not",
+        "have",
+        "been",
+        "planning",
+        "the",
+        "trip",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "By",
+          "next",
+          "month",
+          "we",
+          "will",
+          "not",
+          "have",
+          "been",
+          "planning",
+          "the",
+          "trip",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "К следующему месяцу мы будем планировать поездку ещё недолго."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0062",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "the",
+        "time",
+        "the",
+        "shop",
+        "opens",
+        "we",
+        "will",
+        "not",
+        "have",
+        "been",
+        "standing",
+        "here",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "time",
+          "the",
+          "shop",
+          "opens",
+          "we",
+          "will",
+          "not",
+          "have",
+          "been",
+          "standing",
+          "here",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "К открытию магазина мы будем стоять здесь ещё недолго."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0063",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "Friday",
+        "she",
+        "will",
+        "not",
+        "have",
+        "been",
+        "working",
+        "on",
+        "the",
+        "project",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "By",
+          "Friday",
+          "she",
+          "will",
+          "not",
+          "have",
+          "been",
+          "working",
+          "on",
+          "the",
+          "project",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "К пятнице она будет работать над проектом ещё недолго."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0064",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "the",
+        "end",
+        "of",
+        "the",
+        "year",
+        "he",
+        "will",
+        "not",
+        "have",
+        "been",
+        "driving",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "end",
+          "of",
+          "the",
+          "year",
+          "he",
+          "will",
+          "not",
+          "have",
+          "been",
+          "driving",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу года он будет водить ещё недолго."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0065",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "the",
+        "time",
+        "the",
+        "race",
+        "starts",
+        "the",
+        "runners",
+        "will",
+        "not",
+        "have",
+        "been",
+        "running",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "time",
+          "the",
+          "race",
+          "starts",
+          "the",
+          "runners",
+          "will",
+          "not",
+          "have",
+          "been",
+          "running",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "К началу забега бегуны будут бежать ещё недолго."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0066",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "next",
+        "spring",
+        "they",
+        "will",
+        "not",
+        "have",
+        "been",
+        "building",
+        "the",
+        "house",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "By",
+          "next",
+          "spring",
+          "they",
+          "will",
+          "not",
+          "have",
+          "been",
+          "building",
+          "the",
+          "house",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "К следующей весне они будут строить дом ещё недолго."
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, отрицание: will not have been + V-ing.",
+        "en": "Future Perfect Continuous, negative: will not have been + V-ing."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0067",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "you",
+        "have",
+        "been",
+        "teaching",
+        "at",
+        "this",
+        "school",
+        "for",
+        "ten",
+        "years",
+        "next",
+        "month"
+      ],
+      "answers": [
+        [
+          "Will",
+          "you",
+          "have",
+          "been",
+          "teaching",
+          "at",
+          "this",
+          "school",
+          "for",
+          "ten",
+          "years",
+          "next",
+          "month"
+        ]
+      ],
+      "translation": {
+        "ru": "В следующем месяце будет десять лет, как ты преподаёшь в этой школе?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0068",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "How",
+        "long",
+        "will",
+        "you",
+        "have",
+        "been",
+        "studying",
+        "English",
+        "by",
+        "the",
+        "exam"
+      ],
+      "answers": [
+        [
+          "How",
+          "long",
+          "will",
+          "you",
+          "have",
+          "been",
+          "studying",
+          "English",
+          "by",
+          "the",
+          "exam"
+        ]
+      ],
+      "translation": {
+        "ru": "Как долго ты будешь учить английский к экзамену?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing? С вопросительным словом в начале.",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0069",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "she",
+        "have",
+        "been",
+        "living",
+        "in",
+        "London",
+        "for",
+        "five",
+        "years",
+        "by",
+        "then"
+      ],
+      "answers": [
+        [
+          "Will",
+          "she",
+          "have",
+          "been",
+          "living",
+          "in",
+          "London",
+          "for",
+          "five",
+          "years",
+          "by",
+          "then"
+        ]
+      ],
+      "translation": {
+        "ru": "К тому времени она будет жить в Лондоне пять лет?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0070",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "they",
+        "have",
+        "been",
+        "waiting",
+        "for",
+        "two",
+        "hours",
+        "by",
+        "the",
+        "time",
+        "we",
+        "arrive"
+      ],
+      "answers": [
+        [
+          "Will",
+          "they",
+          "have",
+          "been",
+          "waiting",
+          "for",
+          "two",
+          "hours",
+          "by",
+          "the",
+          "time",
+          "we",
+          "arrive"
+        ]
+      ],
+      "translation": {
+        "ru": "К нашему приходу они будут ждать два часа?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0071",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "How",
+        "long",
+        "will",
+        "the",
+        "meeting",
+        "have",
+        "been",
+        "going",
+        "on",
+        "by",
+        "noon"
+      ],
+      "answers": [
+        [
+          "How",
+          "long",
+          "will",
+          "the",
+          "meeting",
+          "have",
+          "been",
+          "going",
+          "on",
+          "by",
+          "noon"
+        ]
+      ],
+      "translation": {
+        "ru": "Как долго будет идти совещание к полудню?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing? С вопросительным словом в начале.",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0072",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "he",
+        "have",
+        "been",
+        "training",
+        "for",
+        "six",
+        "hours",
+        "by",
+        "the",
+        "end",
+        "of",
+        "the",
+        "day"
+      ],
+      "answers": [
+        [
+          "Will",
+          "he",
+          "have",
+          "been",
+          "training",
+          "for",
+          "six",
+          "hours",
+          "by",
+          "the",
+          "end",
+          "of",
+          "the",
+          "day"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу дня он будет тренироваться шесть часов?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0073",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "How",
+        "long",
+        "will",
+        "you",
+        "have",
+        "been",
+        "living",
+        "in",
+        "this",
+        "city",
+        "by",
+        "next",
+        "year"
+      ],
+      "answers": [
+        [
+          "How",
+          "long",
+          "will",
+          "you",
+          "have",
+          "been",
+          "living",
+          "in",
+          "this",
+          "city",
+          "by",
+          "next",
+          "year"
+        ]
+      ],
+      "translation": {
+        "ru": "Как долго ты будешь жить в этом городе к следующему году?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing? С вопросительным словом в начале.",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0074",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "the",
+        "children",
+        "have",
+        "been",
+        "sleeping",
+        "for",
+        "two",
+        "hours",
+        "by",
+        "midnight"
+      ],
+      "answers": [
+        [
+          "Will",
+          "the",
+          "children",
+          "have",
+          "been",
+          "sleeping",
+          "for",
+          "two",
+          "hours",
+          "by",
+          "midnight"
+        ]
+      ],
+      "translation": {
+        "ru": "К полуночи дети будут спать два часа?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0075",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "How",
+        "long",
+        "will",
+        "she",
+        "have",
+        "been",
+        "teaching",
+        "by",
+        "the",
+        "time",
+        "she",
+        "retires"
+      ],
+      "answers": [
+        [
+          "How",
+          "long",
+          "will",
+          "she",
+          "have",
+          "been",
+          "teaching",
+          "by",
+          "the",
+          "time",
+          "she",
+          "retires"
+        ]
+      ],
+      "translation": {
+        "ru": "Как долго она будет преподавать к моменту выхода на пенсию?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing? С вопросительным словом в начале.",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0076",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "they",
+        "have",
+        "been",
+        "working",
+        "on",
+        "the",
+        "project",
+        "for",
+        "three",
+        "weeks",
+        "by",
+        "Friday"
+      ],
+      "answers": [
+        [
+          "Will",
+          "they",
+          "have",
+          "been",
+          "working",
+          "on",
+          "the",
+          "project",
+          "for",
+          "three",
+          "weeks",
+          "by",
+          "Friday"
+        ]
+      ],
+      "translation": {
+        "ru": "К пятнице они будут работать над проектом три недели?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0077",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "How",
+        "long",
+        "will",
+        "you",
+        "have",
+        "been",
+        "driving",
+        "by",
+        "the",
+        "time",
+        "we",
+        "reach",
+        "Paris"
+      ],
+      "answers": [
+        [
+          "How",
+          "long",
+          "will",
+          "you",
+          "have",
+          "been",
+          "driving",
+          "by",
+          "the",
+          "time",
+          "we",
+          "reach",
+          "Paris"
+        ]
+      ],
+      "translation": {
+        "ru": "Как долго ты будешь за рулём к тому времени, как мы доберёмся до Парижа?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing? С вопросительным словом в начале.",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0078",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "the",
+        "band",
+        "have",
+        "been",
+        "playing",
+        "for",
+        "two",
+        "hours",
+        "by",
+        "ten",
+        "o'clock"
+      ],
+      "answers": [
+        [
+          "Will",
+          "the",
+          "band",
+          "have",
+          "been",
+          "playing",
+          "for",
+          "two",
+          "hours",
+          "by",
+          "ten",
+          "o'clock"
+        ]
+      ],
+      "translation": {
+        "ru": "К десяти часам группа будет играть два часа?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0079",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "How",
+        "long",
+        "will",
+        "the",
+        "children",
+        "have",
+        "been",
+        "reading",
+        "by",
+        "the",
+        "end",
+        "of",
+        "the",
+        "lesson"
+      ],
+      "answers": [
+        [
+          "How",
+          "long",
+          "will",
+          "the",
+          "children",
+          "have",
+          "been",
+          "reading",
+          "by",
+          "the",
+          "end",
+          "of",
+          "the",
+          "lesson"
+        ]
+      ],
+      "translation": {
+        "ru": "Как долго дети будут читать к концу урока?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing? С вопросительным словом в начале.",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0080",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "you",
+        "have",
+        "been",
+        "waiting",
+        "for",
+        "long",
+        "by",
+        "the",
+        "time",
+        "the",
+        "bus",
+        "comes"
+      ],
+      "answers": [
+        [
+          "Will",
+          "you",
+          "have",
+          "been",
+          "waiting",
+          "for",
+          "long",
+          "by",
+          "the",
+          "time",
+          "the",
+          "bus",
+          "comes"
+        ]
+      ],
+      "translation": {
+        "ru": "К приходу автобуса ты будешь ждать долго?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0081",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "How",
+        "long",
+        "will",
+        "he",
+        "have",
+        "been",
+        "living",
+        "in",
+        "Rome",
+        "by",
+        "next",
+        "summer"
+      ],
+      "answers": [
+        [
+          "How",
+          "long",
+          "will",
+          "he",
+          "have",
+          "been",
+          "living",
+          "in",
+          "Rome",
+          "by",
+          "next",
+          "summer"
+        ]
+      ],
+      "translation": {
+        "ru": "Как долго он будет жить в Риме к следующему лету?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing? С вопросительным словом в начале.",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0082",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "they",
+        "have",
+        "been",
+        "building",
+        "the",
+        "road",
+        "for",
+        "a",
+        "year",
+        "by",
+        "June"
+      ],
+      "answers": [
+        [
+          "Will",
+          "they",
+          "have",
+          "been",
+          "building",
+          "the",
+          "road",
+          "for",
+          "a",
+          "year",
+          "by",
+          "June"
+        ]
+      ],
+      "translation": {
+        "ru": "К июню они будут строить дорогу год?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0083",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "How",
+        "long",
+        "will",
+        "she",
+        "have",
+        "been",
+        "working",
+        "here",
+        "by",
+        "the",
+        "end",
+        "of",
+        "the",
+        "year"
+      ],
+      "answers": [
+        [
+          "How",
+          "long",
+          "will",
+          "she",
+          "have",
+          "been",
+          "working",
+          "here",
+          "by",
+          "the",
+          "end",
+          "of",
+          "the",
+          "year"
+        ]
+      ],
+      "translation": {
+        "ru": "Как долго она будет работать здесь к концу года?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing? С вопросительным словом в начале.",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0084",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "the",
+        "chef",
+        "have",
+        "been",
+        "cooking",
+        "for",
+        "three",
+        "hours",
+        "by",
+        "the",
+        "time",
+        "the",
+        "guests",
+        "arrive"
+      ],
+      "answers": [
+        [
+          "Will",
+          "the",
+          "chef",
+          "have",
+          "been",
+          "cooking",
+          "for",
+          "three",
+          "hours",
+          "by",
+          "the",
+          "time",
+          "the",
+          "guests",
+          "arrive"
+        ]
+      ],
+      "translation": {
+        "ru": "К приходу гостей повар будет готовить три часа?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing?",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing?"
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0085",
+      "type": "build",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "How",
+        "long",
+        "will",
+        "you",
+        "have",
+        "been",
+        "playing",
+        "the",
+        "piano",
+        "by",
+        "the",
+        "concert"
+      ],
+      "answers": [
+        [
+          "How",
+          "long",
+          "will",
+          "you",
+          "have",
+          "been",
+          "playing",
+          "the",
+          "piano",
+          "by",
+          "the",
+          "concert"
+        ]
+      ],
+      "translation": {
+        "ru": "Как долго ты будешь играть на пианино к концерту?"
+      },
+      "explanation": {
+        "ru": "Future Perfect Continuous, вопрос: will … have been + V-ing? С вопросительным словом в начале.",
+        "en": "Future Perfect Continuous, question: will … have been + V-ing? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "build",
+        "question",
+        "question-form"
       ]
     },
     {
@@ -1111,6 +4017,251 @@
       "tags": [
         "tense-future-perfect-continuous",
         "match"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0086",
+      "type": "match",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте вопрос и краткий ответ.",
+        "en": "Match each question with a short answer."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "В следующем месяце будет десять лет, как ты живёшь в этом городе?",
+            "en": "Will you have been living in this city for ten years next month?"
+          },
+          "right": "Yes, I will have been living here for ten years next month."
+        },
+        {
+          "left": {
+            "ru": "К нашему приходу они будут ждать два часа?",
+            "en": "Will they have been waiting for two hours by the time we arrive?"
+          },
+          "right": "Yes, they will have been waiting at the gate since noon."
+        },
+        {
+          "left": {
+            "ru": "К июню она будет учиться здесь год?",
+            "en": "Will she have been studying here for a year by June?"
+          },
+          "right": "No, she will not have been studying here for a year by June."
+        },
+        {
+          "left": {
+            "ru": "К полуночи они будут работать шесть часов?",
+            "en": "Will they have been working for six hours by midnight?"
+          },
+          "right": "No, they will not have been working for six hours by midnight."
+        }
+      ],
+      "explanation": {
+        "ru": "Вопрос о длительности к сроку строится с will … have been + V-ing, а краткий ответ повторяет ту же форму.",
+        "en": "A question about duration up to a deadline uses will … have been + V-ing, and the short answer repeats the same form."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "match",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0087",
+      "type": "match",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте временной маркер и предложение.",
+        "en": "Match each time marker with a sentence."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "by + срок + for + период",
+            "en": "by + deadline + for + period"
+          },
+          "right": "By next December he will have been living in Berlin for ten years."
+        },
+        {
+          "left": {
+            "ru": "by the time + настоящее + for",
+            "en": "by the time + present + for"
+          },
+          "right": "By the time the film ends, we will have been sitting here for three hours."
+        },
+        {
+          "left": {
+            "ru": "by then + for + период — к тому моменту",
+            "en": "by then + for"
+          },
+          "right": "By then she will have been studying medicine for six years."
+        },
+        {
+          "left": {
+            "ru": "next month + for + период — в следующем месяце",
+            "en": "next month + for"
+          },
+          "right": "Next month we will have been running this café for two years."
+        }
+      ],
+      "explanation": {
+        "ru": "Каждый маркер соединяет срок и длительность: к моменту в будущем действие будет длиться указанный период.",
+        "en": "Each marker combines a deadline and a duration: by that future moment the action will have been going on for the stated period."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "match",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0088",
+      "type": "match",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте ошибку и исправленное предложение.",
+        "en": "Match each mistake with the corrected sentence."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "❌ She will have been work here for five years. — ошибка в форме",
+            "en": "❌ She will have been work here for five years."
+          },
+          "right": "She will have been working here for five years."
+        },
+        {
+          "left": {
+            "ru": "❌ By June I will have been worked here for a year. — ошибка в форме",
+            "en": "❌ By June I will have been worked here for a year."
+          },
+          "right": "By June I will have been working here for a year."
+        },
+        {
+          "left": {
+            "ru": "❌ Will you have been study for two hours? — ошибка в форме",
+            "en": "❌ Will you have been study for two hours?"
+          },
+          "right": "Will you have been studying for two hours?"
+        },
+        {
+          "left": {
+            "ru": "❌ They will not have been waited for long. — ошибка в форме",
+            "en": "❌ They will not have been waited for long."
+          },
+          "right": "They will not have been waiting for long."
+        }
+      ],
+      "explanation": {
+        "ru": "После will have been нужна форма -ing; третья форма глагола здесь не употребляется.",
+        "en": "After will have been we need the -ing form; the third form of the verb is not used here."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "match",
+        "mistakes"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0089",
+      "type": "match",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте ситуацию и предложение.",
+        "en": "Match each situation with a sentence."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "К сроку длительность достигнет пятнадцати лет",
+            "en": "By the deadline the duration will reach fifteen years"
+          },
+          "right": "By 2030 he will have been teaching for fifteen years."
+        },
+        {
+          "left": {
+            "ru": "Действие длится к моменту другого события",
+            "en": "The action lasts up to another event"
+          },
+          "right": "By the time the guests arrive, we will have been preparing the meal for three hours."
+        },
+        {
+          "left": {
+            "ru": "К концу периода длительность будет большой",
+            "en": "By the end of the period the duration will be long"
+          },
+          "right": "By the end of the season, they will have been farming this land for twenty years."
+        },
+        {
+          "left": {
+            "ru": "Длительное ожидание к моменту возвращения",
+            "en": "A long wait by the moment of return"
+          },
+          "right": "By the time you return, we will have been queuing for tickets for an hour."
+        }
+      ],
+      "explanation": {
+        "ru": "Все предложения показывают, как долго действие будет длиться к указанному моменту будущего.",
+        "en": "All the sentences show how long an action will have been going on up to the stated future moment."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "match",
+        "situations"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-continuous-0090",
+      "type": "match",
+      "ruleId": "tense-future-perfect-continuous",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте форму и пример.",
+        "en": "Match each form with an example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "(+) will have been + V-ing — утверждение",
+            "en": "(+) will have been + V-ing — affirmative"
+          },
+          "right": "They will have been living in the same house for twenty years."
+        },
+        {
+          "left": {
+            "ru": "(–) will not have been + V-ing — отрицание",
+            "en": "(–) will not have been + V-ing — negative"
+          },
+          "right": "I will not have been waiting for long."
+        },
+        {
+          "left": {
+            "ru": "(?) Will … have been + V-ing? — вопрос",
+            "en": "(?) Will … have been + V-ing? — question"
+          },
+          "right": "Will they have been driving for six hours by then?"
+        },
+        {
+          "left": {
+            "ru": "Длительность до срока",
+            "en": "Duration up to a deadline"
+          },
+          "right": "By Friday we will have been painting the house for a week."
+        }
+      ],
+      "explanation": {
+        "ru": "Утверждение, отрицание и вопрос различаются порядком will, а последний пример подчёркивает длительность к сроку.",
+        "en": "The affirmative, negative and question forms differ in the position of will, while the last example emphasises duration up to a deadline."
+      },
+      "tags": [
+        "tense-future-perfect-continuous",
+        "match",
+        "form"
       ]
     }
   ]

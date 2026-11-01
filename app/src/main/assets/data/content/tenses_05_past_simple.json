@@ -17,65 +17,64 @@
         "en": "Past Simple"
       },
       "summary": {
-        "ru": "Past Simple описывает законченное действие в прошлом: правильные глаголы получают -ed, неправильные меняют форму, а вопросы и отрицания строятся с did.",
-        "en": "The Past Simple describes a finished action in the past: regular verbs take -ed, irregular verbs change form, and questions and negatives use did."
+        "ru": "Past Simple: **V-ed / V2** — законченное действие в прошлом; отрицание и вопрос — с **did**.",
+        "en": "Past Simple: **V-ed / V2** — a finished action in the past; negatives and questions use **did**."
       },
       "sections": [
         {
           "heading": {
-            "ru": "Форма: -ed и неправильные глаголы",
-            "en": "Form: -ed and irregular verbs"
+            "ru": "Форма",
+            "en": "Form"
           },
           "body": {
-            "ru": "Правильные глаголы в утверждении получают окончание -ed, неправильные образуют особую форму, которую нужно запомнить. Для всех лиц форма утверждения одинаковая. Глагол be в прошедшем времени имеет формы was (I, he, she, it) и were (you, we, they); отрицание и вопрос строятся без did: I was not at home. Were you at home?",
-            "en": "Regular verbs in the affirmative take the ending -ed, while irregular verbs form a special past form that must be memorised. The affirmative form is the same for all persons. The verb be has the past forms was (I, he, she, it) and were (you, we, they); negatives and questions are formed without did: I was not at home. Were you at home?"
+            "ru": "(+) **V-ed** (правильные) / **V2** (неправильные)\n(–) **did not** + V\n(?) **Did** + … + V?\n+ **was / were**",
+            "en": "(+) **V-ed** (regular) / **V2** (irregular)\n(–) **did not** + V\n(?) **Did** + … + V?\n+ **was / were**"
           },
           "examples": [
             "She watched a film last night.",
             "We went home early.",
-            "They bought a new car.",
-            "I was at home last night."
+            "I did not see him yesterday.",
+            "Did you enjoy the party?"
           ]
         },
         {
           "heading": {
-            "ru": "Отрицание и вопрос: did",
-            "en": "Negative and question: did"
+            "ru": "Когда используем",
+            "en": "When we use it"
           },
           "body": {
-            "ru": "Отрицание строится с did not и начальной формой глагола, вопрос — с did в начале. В этих конструкциях смысловой глагол не меняется.",
-            "en": "The negative is formed with did not and the base form of the verb, and the question starts with did. In these structures the main verb does not change."
+            "ru": "• законченное действие в прошлом\n• известно **когда**\n• **последовательность** событий\n• привычка в прошлом",
+            "en": "• a finished action in the past\n• we know **when** it happened\n• a **sequence** of events\n• a past habit"
           },
           "examples": [
-            "I did not see him yesterday.",
-            "Did you enjoy the party?",
-            "She did not call me back."
+            "We visited the museum last Sunday.",
+            "He opened the door and walked in.",
+            "Every summer we spent a week by the sea."
           ]
         },
         {
           "heading": {
-            "ru": "Значение и маркеры времени",
-            "en": "Meaning and time markers"
+            "ru": "Маркеры",
+            "en": "Markers"
           },
           "body": {
-            "ru": "Время обозначает действие, которое закончилось в прошлом, часто с указанием времени: yesterday, last week, two days ago, in 2019. Несколько событий могут идти друг за другом по порядку.",
-            "en": "The tense describes an action that finished in the past, often with a time expression: yesterday, last week, two days ago, in 2019. Several events can follow one another in order."
+            "ru": "• **yesterday** (вчера)\n• **last week / last summer** (на прошлой неделе / прошлым летом)\n• **two hours ago** (два часа назад)\n• **in 2019** (в 2019 году)\n• **when I was a child** (когда я был ребёнком)",
+            "en": "• **yesterday**\n• **last week / last summer**\n• **two hours ago**\n• **in 2019**\n• **when I was a child**"
           },
           "examples": [
             "We met yesterday.",
-            "He moved to Paris in 2019.",
             "She called me two hours ago.",
-            "I finished school last summer."
+            "He moved to Paris in 2019."
           ]
         },
         {
           "heading": {
-            "ru": "Типичные ошибки",
-            "en": "Common mistakes"
+            "ru": "Ошибки",
+            "en": "Mistakes"
           },
           "body": {
-            "ru": "Типичная ошибка — ставить прошедшую форму после did. После did нужна начальная форма глагола; также не забывайте про was и were, которые не используют did.",
-            "en": "A common mistake is using a past form after did. After did the base form of the verb is needed; also remember was and were, which do not use did."
+            "ru": "• *did went* → **went** — после did начальная форма\n• *Did you saw* → **Did you see** — V, не V2\n• *I were* → **I was** — с I только was\n• *He didn't came* → **He didn't come** — начальная форма",
+            "en": "• *did went* → **went**\n• *Did you saw* → **Did you see**\n• *I were* → **I was**\n• *He didn't came* → **He didn't come**"
           },
           "examples": [
             "He did not go to school.",
@@ -618,7 +617,8 @@
         "build",
         "affirmative",
         "regular"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-past-simple-0022",
@@ -654,7 +654,8 @@
         "tense-past-simple",
         "build",
         "negative"
-      ]
+      ],
+      "buildKind": "negative"
     },
     {
       "id": "tense-past-simple-0023",
@@ -690,7 +691,8 @@
         "tense-past-simple",
         "build",
         "question"
-      ]
+      ],
+      "buildKind": "question"
     },
     {
       "id": "tense-past-simple-0024",
@@ -731,7 +733,8 @@
         "tense-past-simple",
         "build",
         "adverb"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-past-simple-0025",
@@ -784,7 +787,8 @@
         "tense-past-simple",
         "build",
         "sequence"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-past-simple-0026",
@@ -1025,6 +1029,2327 @@
       "explanation": {
         "ru": "Past Simple передаёт законченные действия, их последовательность и привычки в прошлом; точное время тоже указывается в этом времени.",
         "en": "The Past Simple reports finished actions, their sequence and past habits; exact past times also go with this tense."
+      },
+      "tags": [
+        "tense-past-simple",
+        "match",
+        "usage"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0031",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "played",
+        "football",
+        "yesterday"
+      ],
+      "answers": [
+        [
+          "I",
+          "played",
+          "football",
+          "yesterday"
+        ]
+      ],
+      "translation": {
+        "ru": "Я играл в футбол вчера."
+      },
+      "explanation": {
+        "ru": "Past Simple: к правильному глаголу добавляем **-ed**.",
+        "en": "Past Simple: add **-ed** to a regular verb."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "affirmative",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0032",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "cooked",
+        "dinner",
+        "last",
+        "night"
+      ],
+      "answers": [
+        [
+          "She",
+          "cooked",
+          "dinner",
+          "last",
+          "night"
+        ]
+      ],
+      "translation": {
+        "ru": "Она приготовила ужин вчера вечером."
+      },
+      "explanation": {
+        "ru": "Past Simple: к правильному глаголу добавляем **-ed**.",
+        "en": "Past Simple: add **-ed** to a regular verb."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "affirmative",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0033",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "went",
+        "to",
+        "London",
+        "last",
+        "summer"
+      ],
+      "answers": [
+        [
+          "We",
+          "went",
+          "to",
+          "London",
+          "last",
+          "summer"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы ездили в Лондон прошлым летом."
+      },
+      "explanation": {
+        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
+        "en": "Past Simple: an irregular verb has a special **V2** form."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "affirmative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0034",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "bought",
+        "a",
+        "new",
+        "car",
+        "last",
+        "month"
+      ],
+      "answers": [
+        [
+          "He",
+          "bought",
+          "a",
+          "new",
+          "car",
+          "last",
+          "month"
+        ]
+      ],
+      "translation": {
+        "ru": "Он купил новую машину в прошлом месяце."
+      },
+      "explanation": {
+        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
+        "en": "Past Simple: an irregular verb has a special **V2** form."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "affirmative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0035",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "met",
+        "in",
+        "the",
+        "park",
+        "two",
+        "hours",
+        "ago"
+      ],
+      "answers": [
+        [
+          "They",
+          "met",
+          "in",
+          "the",
+          "park",
+          "two",
+          "hours",
+          "ago"
+        ]
+      ],
+      "translation": {
+        "ru": "Они встретились в парке два часа назад."
+      },
+      "explanation": {
+        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
+        "en": "Past Simple: an irregular verb has a special **V2** form."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "affirmative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0036",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "saw",
+        "this",
+        "film",
+        "last",
+        "Friday"
+      ],
+      "answers": [
+        [
+          "I",
+          "saw",
+          "this",
+          "film",
+          "last",
+          "Friday"
+        ]
+      ],
+      "translation": {
+        "ru": "Я видел этот фильм в прошлую пятницу."
+      },
+      "explanation": {
+        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
+        "en": "Past Simple: an irregular verb has a special **V2** form."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "affirmative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0037",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "My",
+        "sister",
+        "finished",
+        "school",
+        "in",
+        "2020"
+      ],
+      "answers": [
+        [
+          "My",
+          "sister",
+          "finished",
+          "school",
+          "in",
+          "2020"
+        ]
+      ],
+      "translation": {
+        "ru": "Моя сестра закончила школу в 2020 году."
+      },
+      "explanation": {
+        "ru": "Past Simple: к правильному глаголу добавляем **-ed**.",
+        "en": "Past Simple: add **-ed** to a regular verb."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "affirmative",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0038",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "came",
+        "home",
+        "late"
+      ],
+      "answers": [
+        [
+          "We",
+          "came",
+          "home",
+          "late"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы пришли домой поздно."
+      },
+      "explanation": {
+        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
+        "en": "Past Simple: an irregular verb has a special **V2** form."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "affirmative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0039",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "lost",
+        "her",
+        "keys",
+        "yesterday",
+        "morning"
+      ],
+      "answers": [
+        [
+          "She",
+          "lost",
+          "her",
+          "keys",
+          "yesterday",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Она потеряла ключи вчера утром."
+      },
+      "explanation": {
+        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
+        "en": "Past Simple: an irregular verb has a special **V2** form."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "affirmative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0040",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "wrote",
+        "me",
+        "a",
+        "letter",
+        "last",
+        "week"
+      ],
+      "answers": [
+        [
+          "He",
+          "wrote",
+          "me",
+          "a",
+          "letter",
+          "last",
+          "week"
+        ]
+      ],
+      "translation": {
+        "ru": "Он написал мне письмо на прошлой неделе."
+      },
+      "explanation": {
+        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
+        "en": "Past Simple: an irregular verb has a special **V2** form."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "affirmative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0041",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "children",
+        "played",
+        "in",
+        "the",
+        "garden",
+        "after",
+        "school"
+      ],
+      "answers": [
+        [
+          "The",
+          "children",
+          "played",
+          "in",
+          "the",
+          "garden",
+          "after",
+          "school"
+        ]
+      ],
+      "translation": {
+        "ru": "Дети поиграли в саду после школы."
+      },
+      "explanation": {
+        "ru": "Past Simple: к правильному глаголу добавляем **-ed**.",
+        "en": "Past Simple: add **-ed** to a regular verb."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "affirmative",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0042",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "did",
+        "my",
+        "homework",
+        "before",
+        "dinner"
+      ],
+      "answers": [
+        [
+          "I",
+          "did",
+          "my",
+          "homework",
+          "before",
+          "dinner"
+        ]
+      ],
+      "translation": {
+        "ru": "Я сделал уроки до ужина."
+      },
+      "explanation": {
+        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
+        "en": "Past Simple: an irregular verb has a special **V2** form."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "affirmative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0043",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "bought",
+        "some",
+        "bread",
+        "on",
+        "the",
+        "way",
+        "home"
+      ],
+      "answers": [
+        [
+          "We",
+          "bought",
+          "some",
+          "bread",
+          "on",
+          "the",
+          "way",
+          "home"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы купили хлеб по дороге домой."
+      },
+      "explanation": {
+        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
+        "en": "Past Simple: an irregular verb has a special **V2** form."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "affirmative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0044",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "called",
+        "me",
+        "three",
+        "days",
+        "ago"
+      ],
+      "answers": [
+        [
+          "She",
+          "called",
+          "me",
+          "three",
+          "days",
+          "ago"
+        ]
+      ],
+      "translation": {
+        "ru": "Она позвонила мне три дня назад."
+      },
+      "explanation": {
+        "ru": "Past Simple: к правильному глаголу добавляем **-ed**.",
+        "en": "Past Simple: add **-ed** to a regular verb."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "affirmative",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0045",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "worked",
+        "in",
+        "the",
+        "garden",
+        "all",
+        "morning"
+      ],
+      "answers": [
+        [
+          "He",
+          "worked",
+          "in",
+          "the",
+          "garden",
+          "all",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Он работал в саду всё утро."
+      },
+      "explanation": {
+        "ru": "Past Simple: к правильному глаголу добавляем **-ed**.",
+        "en": "Past Simple: add **-ed** to a regular verb."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "affirmative",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0046",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "stayed",
+        "in",
+        "a",
+        "small",
+        "hotel"
+      ],
+      "answers": [
+        [
+          "We",
+          "stayed",
+          "in",
+          "a",
+          "small",
+          "hotel"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы остановились в маленьком отеле."
+      },
+      "explanation": {
+        "ru": "Past Simple: к правильному глаголу добавляем **-ed**.",
+        "en": "Past Simple: add **-ed** to a regular verb."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "affirmative",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0047",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "forgot",
+        "my",
+        "umbrella",
+        "on",
+        "the",
+        "bus"
+      ],
+      "answers": [
+        [
+          "I",
+          "forgot",
+          "my",
+          "umbrella",
+          "on",
+          "the",
+          "bus"
+        ]
+      ],
+      "translation": {
+        "ru": "Я забыл свой зонт в автобусе."
+      },
+      "explanation": {
+        "ru": "Past Simple: у неправильного глагола особая форма **V2**.",
+        "en": "Past Simple: an irregular verb has a special **V2** form."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "affirmative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0048",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "did",
+        "not",
+        "see",
+        "this",
+        "film"
+      ],
+      "answers": [
+        [
+          "I",
+          "did",
+          "not",
+          "see",
+          "this",
+          "film"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не видел этот фильм."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V** (начальная форма).",
+        "en": "Negative: **did not + V** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0049",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "did",
+        "not",
+        "come",
+        "to",
+        "the",
+        "party"
+      ],
+      "answers": [
+        [
+          "She",
+          "did",
+          "not",
+          "come",
+          "to",
+          "the",
+          "party"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не пришла на вечеринку."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V** (начальная форма).",
+        "en": "Negative: **did not + V** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0050",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "did",
+        "not",
+        "know",
+        "the",
+        "answer"
+      ],
+      "answers": [
+        [
+          "We",
+          "did",
+          "not",
+          "know",
+          "the",
+          "answer"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы не знали ответа."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V** (начальная форма).",
+        "en": "Negative: **did not + V** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0051",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "did",
+        "not",
+        "answer",
+        "the",
+        "phone"
+      ],
+      "answers": [
+        [
+          "He",
+          "did",
+          "not",
+          "answer",
+          "the",
+          "phone"
+        ]
+      ],
+      "translation": {
+        "ru": "Он не ответил на звонок."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V**.",
+        "en": "Negative: **did not + V**."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0052",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "did",
+        "not",
+        "go",
+        "by",
+        "train"
+      ],
+      "answers": [
+        [
+          "They",
+          "did",
+          "not",
+          "go",
+          "by",
+          "train"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не поехали на поезде."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V** (начальная форма).",
+        "en": "Negative: **did not + V** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0053",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "did",
+        "not",
+        "hear",
+        "the",
+        "alarm"
+      ],
+      "answers": [
+        [
+          "I",
+          "did",
+          "not",
+          "hear",
+          "the",
+          "alarm"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не слышал будильник."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V** (начальная форма).",
+        "en": "Negative: **did not + V** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0054",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "did",
+        "not",
+        "have",
+        "breakfast",
+        "this",
+        "morning"
+      ],
+      "answers": [
+        [
+          "She",
+          "did",
+          "not",
+          "have",
+          "breakfast",
+          "this",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не позавтракала сегодня утром."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V** (начальная форма).",
+        "en": "Negative: **did not + V** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0055",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "did",
+        "not",
+        "play",
+        "tennis",
+        "yesterday"
+      ],
+      "answers": [
+        [
+          "We",
+          "did",
+          "not",
+          "play",
+          "tennis",
+          "yesterday"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы не играли в теннис вчера."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V**.",
+        "en": "Negative: **did not + V**."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0056",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "did",
+        "not",
+        "buy",
+        "the",
+        "tickets"
+      ],
+      "answers": [
+        [
+          "He",
+          "did",
+          "not",
+          "buy",
+          "the",
+          "tickets"
+        ]
+      ],
+      "translation": {
+        "ru": "Он не купил билеты."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V** (начальная форма).",
+        "en": "Negative: **did not + V** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0057",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "children",
+        "did",
+        "not",
+        "go",
+        "to",
+        "bed",
+        "on",
+        "time"
+      ],
+      "answers": [
+        [
+          "The",
+          "children",
+          "did",
+          "not",
+          "go",
+          "to",
+          "bed",
+          "on",
+          "time"
+        ]
+      ],
+      "translation": {
+        "ru": "Дети не легли спать вовремя."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V** (начальная форма).",
+        "en": "Negative: **did not + V** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0058",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "did",
+        "not",
+        "read",
+        "this",
+        "article"
+      ],
+      "answers": [
+        [
+          "I",
+          "did",
+          "not",
+          "read",
+          "this",
+          "article"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не читал эту статью."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V** (начальная форма).",
+        "en": "Negative: **did not + V** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0059",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "did",
+        "not",
+        "tell",
+        "me",
+        "the",
+        "truth"
+      ],
+      "answers": [
+        [
+          "She",
+          "did",
+          "not",
+          "tell",
+          "me",
+          "the",
+          "truth"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не сказала мне правду."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V** (начальная форма).",
+        "en": "Negative: **did not + V** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0060",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "did",
+        "not",
+        "live",
+        "in",
+        "this",
+        "house"
+      ],
+      "answers": [
+        [
+          "They",
+          "did",
+          "not",
+          "live",
+          "in",
+          "this",
+          "house"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не жили в этом доме."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V**.",
+        "en": "Negative: **did not + V**."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0061",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "My",
+        "brother",
+        "did",
+        "not",
+        "pass",
+        "the",
+        "exam"
+      ],
+      "answers": [
+        [
+          "My",
+          "brother",
+          "did",
+          "not",
+          "pass",
+          "the",
+          "exam"
+        ]
+      ],
+      "translation": {
+        "ru": "Мой брат не сдал экзамен."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V**.",
+        "en": "Negative: **did not + V**."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0062",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "did",
+        "not",
+        "meet",
+        "them",
+        "at",
+        "the",
+        "station"
+      ],
+      "answers": [
+        [
+          "We",
+          "did",
+          "not",
+          "meet",
+          "them",
+          "at",
+          "the",
+          "station"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы не встретили их на станции."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V** (начальная форма).",
+        "en": "Negative: **did not + V** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0063",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "did",
+        "not",
+        "forget",
+        "the",
+        "keys"
+      ],
+      "answers": [
+        [
+          "He",
+          "did",
+          "not",
+          "forget",
+          "the",
+          "keys"
+        ]
+      ],
+      "translation": {
+        "ru": "Он не забыл ключи."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V** (начальная форма).",
+        "en": "Negative: **did not + V** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0064",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "did",
+        "not",
+        "work",
+        "on",
+        "Saturday"
+      ],
+      "answers": [
+        [
+          "I",
+          "did",
+          "not",
+          "work",
+          "on",
+          "Saturday"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не работал в субботу."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V**.",
+        "en": "Negative: **did not + V**."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0065",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "did",
+        "not",
+        "open",
+        "the",
+        "window"
+      ],
+      "answers": [
+        [
+          "She",
+          "did",
+          "not",
+          "open",
+          "the",
+          "window"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не открыла окно."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V**.",
+        "en": "Negative: **did not + V**."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0066",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "did",
+        "not",
+        "catch",
+        "the",
+        "last",
+        "bus"
+      ],
+      "answers": [
+        [
+          "They",
+          "did",
+          "not",
+          "catch",
+          "the",
+          "last",
+          "bus"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не успели на последний автобус."
+      },
+      "explanation": {
+        "ru": "Отрицание: **did not + V** (начальная форма).",
+        "en": "Negative: **did not + V** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0067",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Did",
+        "you",
+        "watch",
+        "TV",
+        "yesterday"
+      ],
+      "answers": [
+        [
+          "Did",
+          "you",
+          "watch",
+          "TV",
+          "yesterday"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты смотрел телевизор вчера?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Did + V …?**",
+        "en": "Question: **Did + V …?**"
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0068",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Where",
+        "were",
+        "you",
+        "last",
+        "night"
+      ],
+      "answers": [
+        [
+          "Where",
+          "were",
+          "you",
+          "last",
+          "night"
+        ]
+      ],
+      "translation": {
+        "ru": "Где ты был вчера вечером?"
+      },
+      "explanation": {
+        "ru": "Вопрос с be: **Was / Were …?**",
+        "en": "Question with be: **Was / Were …?**"
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "be"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0069",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Where",
+        "did",
+        "they",
+        "go"
+      ],
+      "answers": [
+        [
+          "Where",
+          "did",
+          "they",
+          "go"
+        ]
+      ],
+      "translation": {
+        "ru": "Куда они пошли?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Did + V …?** (начальная форма).",
+        "en": "Question: **Did + V …?** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0070",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "What",
+        "did",
+        "she",
+        "say"
+      ],
+      "answers": [
+        [
+          "What",
+          "did",
+          "she",
+          "say"
+        ]
+      ],
+      "translation": {
+        "ru": "Что она сказала?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Did + V …?** (начальная форма).",
+        "en": "Question: **Did + V …?** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0071",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Did",
+        "you",
+        "like",
+        "the",
+        "film"
+      ],
+      "answers": [
+        [
+          "Did",
+          "you",
+          "like",
+          "the",
+          "film"
+        ]
+      ],
+      "translation": {
+        "ru": "Тебе понравился фильм?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Did + V …?**",
+        "en": "Question: **Did + V …?**"
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0072",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "When",
+        "did",
+        "he",
+        "call"
+      ],
+      "answers": [
+        [
+          "When",
+          "did",
+          "he",
+          "call"
+        ]
+      ],
+      "translation": {
+        "ru": "Когда он позвонил?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Did + V …?**",
+        "en": "Question: **Did + V …?**"
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0073",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Why",
+        "were",
+        "you",
+        "late"
+      ],
+      "answers": [
+        [
+          "Why",
+          "were",
+          "you",
+          "late"
+        ]
+      ],
+      "translation": {
+        "ru": "Почему ты опоздал?"
+      },
+      "explanation": {
+        "ru": "Вопрос с be: **Was / Were …?**",
+        "en": "Question with be: **Was / Were …?**"
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "be"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0074",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Did",
+        "you",
+        "meet",
+        "in",
+        "the",
+        "park"
+      ],
+      "answers": [
+        [
+          "Did",
+          "you",
+          "meet",
+          "in",
+          "the",
+          "park"
+        ]
+      ],
+      "translation": {
+        "ru": "Вы встретились в парке?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Did + V …?** (начальная форма).",
+        "en": "Question: **Did + V …?** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0075",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "How",
+        "long",
+        "did",
+        "it",
+        "take"
+      ],
+      "answers": [
+        [
+          "How",
+          "long",
+          "did",
+          "it",
+          "take"
+        ]
+      ],
+      "translation": {
+        "ru": "Сколько времени это заняло?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Did + V …?** (начальная форма).",
+        "en": "Question: **Did + V …?** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0076",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Who",
+        "opened",
+        "the",
+        "door"
+      ],
+      "answers": [
+        [
+          "Who",
+          "opened",
+          "the",
+          "door"
+        ]
+      ],
+      "translation": {
+        "ru": "Кто открыл дверь?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Did + V …?**",
+        "en": "Question: **Did + V …?**"
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0077",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Did",
+        "you",
+        "buy",
+        "the",
+        "tickets"
+      ],
+      "answers": [
+        [
+          "Did",
+          "you",
+          "buy",
+          "the",
+          "tickets"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты купил билеты?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Did + V …?** (начальная форма).",
+        "en": "Question: **Did + V …?** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0078",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "How",
+        "did",
+        "she",
+        "get",
+        "home"
+      ],
+      "answers": [
+        [
+          "How",
+          "did",
+          "she",
+          "get",
+          "home"
+        ]
+      ],
+      "translation": {
+        "ru": "Как она добралась до дома?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Did + V …?** (начальная форма).",
+        "en": "Question: **Did + V …?** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0079",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Did",
+        "they",
+        "arrive",
+        "on",
+        "time"
+      ],
+      "answers": [
+        [
+          "Did",
+          "they",
+          "arrive",
+          "on",
+          "time"
+        ]
+      ],
+      "translation": {
+        "ru": "Они пришли вовремя?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Did + V …?**",
+        "en": "Question: **Did + V …?**"
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0080",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Did",
+        "you",
+        "see",
+        "my",
+        "keys"
+      ],
+      "answers": [
+        [
+          "Did",
+          "you",
+          "see",
+          "my",
+          "keys"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты видел мои ключи?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Did + V …?** (начальная форма).",
+        "en": "Question: **Did + V …?** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0081",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Why",
+        "did",
+        "she",
+        "not",
+        "call"
+      ],
+      "answers": [
+        [
+          "Why",
+          "did",
+          "she",
+          "not",
+          "call"
+        ]
+      ],
+      "translation": {
+        "ru": "Почему она не позвонила?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Did + V …?**",
+        "en": "Question: **Did + V …?**"
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0082",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "What",
+        "did",
+        "you",
+        "eat",
+        "for",
+        "dinner"
+      ],
+      "answers": [
+        [
+          "What",
+          "did",
+          "you",
+          "eat",
+          "for",
+          "dinner"
+        ]
+      ],
+      "translation": {
+        "ru": "Что вы ели на ужин?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Did + V …?** (начальная форма).",
+        "en": "Question: **Did + V …?** (base form)."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "irregular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0083",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Were",
+        "you",
+        "at",
+        "the",
+        "museum"
+      ],
+      "answers": [
+        [
+          "Were",
+          "you",
+          "at",
+          "the",
+          "museum"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты был в музее?"
+      },
+      "explanation": {
+        "ru": "Вопрос с be: **Was / Were …?**",
+        "en": "Question with be: **Was / Were …?**"
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "be"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0084",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Where",
+        "did",
+        "you",
+        "stay"
+      ],
+      "answers": [
+        [
+          "Where",
+          "did",
+          "you",
+          "stay"
+        ]
+      ],
+      "translation": {
+        "ru": "Где вы остановились?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Did + V …?**",
+        "en": "Question: **Did + V …?**"
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0085",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "When",
+        "did",
+        "the",
+        "concert",
+        "start"
+      ],
+      "answers": [
+        [
+          "When",
+          "did",
+          "the",
+          "concert",
+          "start"
+        ]
+      ],
+      "translation": {
+        "ru": "Когда начался концерт?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Did + V …?**",
+        "en": "Question: **Did + V …?**"
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0086",
+      "type": "match",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте маркер времени и пример.",
+        "en": "Match the time marker with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "вчера",
+            "en": "yesterday"
+          },
+          "right": "She finished the report yesterday."
+        },
+        {
+          "left": {
+            "ru": "вчера вечером",
+            "en": "last night"
+          },
+          "right": "We saw a film last night."
+        },
+        {
+          "left": {
+            "ru": "два дня назад",
+            "en": "two days ago"
+          },
+          "right": "He called me two days ago."
+        },
+        {
+          "left": {
+            "ru": "в 2015 году",
+            "en": "in 2015"
+          },
+          "right": "They got married in 2015."
+        }
+      ],
+      "explanation": {
+        "ru": "Маркеры yesterday, last night, two days ago и in 2015 показывают законченное действие в прошлом.",
+        "en": "The markers yesterday, last night, two days ago and in 2015 show a finished action in the past."
+      },
+      "tags": [
+        "tense-past-simple",
+        "match",
+        "marker"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0087",
+      "type": "match",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте глагол и его форму в Past Simple.",
+        "en": "Match the verb with its Past Simple form."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "watch (смотреть) →",
+            "en": "watch →"
+          },
+          "right": "They watched TV after dinner."
+        },
+        {
+          "left": {
+            "ru": "write (писать) →",
+            "en": "write →"
+          },
+          "right": "She wrote a letter."
+        },
+        {
+          "left": {
+            "ru": "stop (останавливаться) →",
+            "en": "stop →"
+          },
+          "right": "The bus stopped at the corner."
+        },
+        {
+          "left": {
+            "ru": "take (брать) →",
+            "en": "take →"
+          },
+          "right": "He took my pen."
+        }
+      ],
+      "explanation": {
+        "ru": "Правильные глаголы получают -ed, а неправильные образуют особую форму: wrote, took, stopped.",
+        "en": "Regular verbs take -ed, while irregular verbs form a special past form: wrote, took, stopped."
+      },
+      "tags": [
+        "tense-past-simple",
+        "match",
+        "form"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0088",
+      "type": "match",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте форму be и пример.",
+        "en": "Match the past form of be with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "I / he / she / it (я, он, она, оно) →",
+            "en": "I / he / she / it →"
+          },
+          "right": "The film was very long."
+        },
+        {
+          "left": {
+            "ru": "you / we / they (ты, мы, они) →",
+            "en": "you / we / they →"
+          },
+          "right": "The shops were closed."
+        },
+        {
+          "left": {
+            "ru": "отрицание →",
+            "en": "was not / were not →"
+          },
+          "right": "The weather was not warm."
+        },
+        {
+          "left": {
+            "ru": "вопрос →",
+            "en": "Was / Were …? →"
+          },
+          "right": "Was the museum open?"
+        }
+      ],
+      "explanation": {
+        "ru": "В прошедшем времени be имеет формы was и were; отрицание и вопрос образуются без did.",
+        "en": "In the past be has the forms was and were; negatives and questions are formed without did."
+      },
+      "tags": [
+        "tense-past-simple",
+        "match",
+        "be"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0089",
+      "type": "match",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте ошибку и правильный пример.",
+        "en": "Match the mistake with the correct example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Ошибка: *did went* →",
+            "en": "*did went* →"
+          },
+          "right": "She went to school."
+        },
+        {
+          "left": {
+            "ru": "Ошибка: *Did you saw* →",
+            "en": "*Did you saw* →"
+          },
+          "right": "Did you see the film?"
+        },
+        {
+          "left": {
+            "ru": "Ошибка: *I were tired* →",
+            "en": "*I were tired* →"
+          },
+          "right": "I was tired."
+        },
+        {
+          "left": {
+            "ru": "Ошибка: *He didn't came* →",
+            "en": "*He didn't came* →"
+          },
+          "right": "He didn't come."
+        }
+      ],
+      "explanation": {
+        "ru": "После did нужна начальная форма глагола, а с I используется was: went, see, was, come.",
+        "en": "After did the base form is needed, and with I the form is was: went, see, was, come."
+      },
+      "tags": [
+        "tense-past-simple",
+        "match",
+        "mistakes"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0090",
+      "type": "match",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match the situation with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "законченное действие",
+            "en": "a finished action"
+          },
+          "right": "They visited the museum last year."
+        },
+        {
+          "left": {
+            "ru": "последовательность событий",
+            "en": "a sequence of events"
+          },
+          "right": "She opened the window and looked out."
+        },
+        {
+          "left": {
+            "ru": "привычка в прошлом",
+            "en": "a past habit"
+          },
+          "right": "We often played chess in the evening."
+        },
+        {
+          "left": {
+            "ru": "событие в точное время",
+            "en": "an event at an exact time"
+          },
+          "right": "The meeting finished at five o'clock."
+        }
+      ],
+      "explanation": {
+        "ru": "Past Simple передаёт законченные действия, их последовательность, привычки в прошлом и события в точное время.",
+        "en": "The Past Simple reports finished actions, their sequence, past habits and events at an exact time."
       },
       "tags": [
         "tense-past-simple",

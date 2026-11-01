@@ -40,7 +40,7 @@ optional pattern tags; preposition questions are tagged with the theme and a pat
 
 ## Section `tenses` — Времена / Tenses (12 themes, 360 questions)
 
-Each tense theme has exactly 30 questions: 20 choice + 5 build + 5 match.
+Each tense theme has a pool of 90 questions: 20 choice + 10 match + 60 build; a training session draws 10 choice + 5 match + 15 build.
 Build questions are assembled from word tiles; accepted word orders are stored in `answers`.
 
 | id | order | level | title (ru) | scope |

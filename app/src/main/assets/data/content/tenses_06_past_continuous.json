@@ -17,18 +17,18 @@
         "en": "Past Continuous"
       },
       "summary": {
-        "ru": "Past Continuous (was/were + -ing) описывает действие, которое происходило в определённый момент прошлого, или длительный фон для другого события.",
-        "en": "The Past Continuous (was/were + -ing) describes an action that was in progress at a particular moment in the past, or a longer background action for another event."
+        "ru": "Past Continuous: **was/were + V-ing** — действие шло в определённый момент прошлого или было фоном для другого события.",
+        "en": "Past Continuous: **was/were + V-ing** — an action in progress at a past moment or a background for another event."
       },
       "sections": [
         {
           "heading": {
-            "ru": "Форма: was/were + -ing",
-            "en": "Form: was/were + -ing"
+            "ru": "Форма",
+            "en": "Form"
           },
           "body": {
-            "ru": "Форма строится из was или were и глагола с окончанием -ing. Was ставим с I, he, she и it, were — с you, we и they; отрицание и вопрос образуются без did.",
-            "en": "The form is built with was or were and the -ing form of the verb. Was goes with I, he, she and it, and were with you, we and they; negatives and questions are formed without did."
+            "ru": "**Формула времени**\n(+) I / he / she / it + **was** + V-ing\n(+) you / we / they + **were** + V-ing\n(–) **was not / were not** + V-ing\n(?) **Was / Were** + … + V-ing?",
+            "en": "(+) I / he / she / it + **was** + V-ing\n(+) you / we / they + **were** + V-ing\n(–) **was not / were not** + V-ing\n(?) **Was / Were** + … + V-ing?"
           },
           "examples": [
             "I was reading at ten o'clock.",
@@ -38,47 +38,47 @@
         },
         {
           "heading": {
-            "ru": "Значение: действие в процессе",
-            "en": "Meaning: an action in progress"
+            "ru": "Когда используем",
+            "en": "When we use it"
           },
           "body": {
-            "ru": "Время показывает, что действие было в процессе в определённый момент прошлого. Этот момент может быть назван точным временем или другим коротким действием.",
-            "en": "The tense shows that an action was in progress at a particular moment in the past. That moment can be named by an exact time or by another short action."
+            "ru": "• действие в процессе в момент прошлого\n• **фон** для другого события\n• два **одновременных** действия\n• описание обстановки",
+            "en": "• an action in progress at a past moment\n• a **background** for another event\n• two **simultaneous** actions\n• describing the scene"
           },
           "examples": [
             "At eight o'clock I was having breakfast.",
-            "She was walking home at midnight.",
-            "The children were watching TV at that time."
-          ]
-        },
-        {
-          "heading": {
-            "ru": "Контраст с Past Simple: when и while",
-            "en": "Contrast with the Past Simple: when and while"
-          },
-          "body": {
-            "ru": "Длительное действие даётся в Past Continuous, а короткое событие, которое его прервало, — в Past Simple. Связки when и while помогают показать, какое действие длилось, а какое случилось. Если два действия шли одновременно, оба ставятся в Past Continuous: While I was cooking, my sister was drying the plates.",
-            "en": "A long action is given in the Past Continuous, while the short event that interrupted it is in the Past Simple. The linking words when and while help show which action lasted and which happened. If two actions were happening at the same time, both go in the Past Continuous: While I was cooking, my sister was drying the plates."
-          },
-          "examples": [
             "I was cooking when the phone rang.",
-            "While we were walking, it started to rain.",
-            "She was reading when the lights went out."
+            "While we were walking, it started to rain."
           ]
         },
         {
           "heading": {
-            "ru": "Маркеры и типичные ошибки",
-            "en": "Markers and common mistakes"
+            "ru": "Маркеры",
+            "en": "Markers"
           },
           "body": {
-            "ru": "С этим временем часто идут at that moment, all evening, while и when. Типичные ошибки — was или were без -ing, -ing после did и глаголы состояния в Continuous.",
-            "en": "This tense often goes with at that moment, all evening, while and when. Typical mistakes are was or were without -ing, -ing after did, and state verbs in the continuous form."
+            "ru": "• **at 8 o'clock yesterday** (вчера в 8)\n• **at that moment** (в тот момент)\n• **while** (пока)\n• **when** (когда)\n• **all evening** (весь вечер)",
+            "en": "• **at 8 o'clock yesterday**\n• **at that moment**\n• **while**\n• **when**\n• **all evening**"
           },
           "examples": [
             "At nine o'clock last night I was studying.",
-            "They were still sleeping at noon.",
+            "They were watching films all evening.",
             "While I was cooking, the doorbell rang."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Ошибки",
+            "en": "Mistakes"
+          },
+          "body": {
+            "ru": "• *I were watching* → **I was watching** — с I только was\n• *She was watch* → **She was watching** — нужна форма V-ing\n• *Did you were waiting* → **Were you waiting** — вопрос без did\n• *He was knowing* → **He knew** — глагол состояния",
+            "en": "• *I were watching* → **I was watching**\n• *She was watch* → **She was watching**\n• *Did you were waiting* → **Were you waiting**\n• *He was knowing* → **He knew**"
+          },
+          "examples": [
+            "The teacher was writing on the board.",
+            "We were waiting for the bus.",
+            "He was not listening to the radio."
           ]
         }
       ]
@@ -603,7 +603,8 @@
         "tense-past-continuous",
         "build",
         "affirmative"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-past-continuous-0022",
@@ -641,7 +642,8 @@
         "tense-past-continuous",
         "build",
         "negative"
-      ]
+      ],
+      "buildKind": "negative"
     },
     {
       "id": "tense-past-continuous-0023",
@@ -679,7 +681,8 @@
         "tense-past-continuous",
         "build",
         "question"
-      ]
+      ],
+      "buildKind": "question"
     },
     {
       "id": "tense-past-continuous-0024",
@@ -726,7 +729,8 @@
         "tense-past-continuous",
         "build",
         "adverb"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-past-continuous-0025",
@@ -783,7 +787,8 @@
         "build",
         "while",
         "time-clause"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-past-continuous-0026",
@@ -1029,6 +1034,2533 @@
         "match",
         "form",
         "state-verb"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0031",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "was",
+        "making",
+        "dinner",
+        "at",
+        "seven",
+        "o'clock"
+      ],
+      "answers": [
+        [
+          "I",
+          "was",
+          "making",
+          "dinner",
+          "at",
+          "seven",
+          "o'clock"
+        ]
+      ],
+      "translation": {
+        "ru": "В семь часов я готовил ужин."
+      },
+      "explanation": {
+        "ru": "Формула: **was/were + V-ing**.",
+        "en": "Form: **was/were + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "affirmative",
+        "at-time"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0032",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "were",
+        "playing",
+        "football",
+        "yesterday",
+        "afternoon"
+      ],
+      "answers": [
+        [
+          "They",
+          "were",
+          "playing",
+          "football",
+          "yesterday",
+          "afternoon"
+        ]
+      ],
+      "translation": {
+        "ru": "Они играли в футбол вчера днём."
+      },
+      "explanation": {
+        "ru": "Формула: **was/were + V-ing**.",
+        "en": "Form: **was/were + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "affirmative",
+        "background"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0033",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "was",
+        "reading",
+        "a",
+        "book",
+        "when",
+        "I",
+        "called"
+      ],
+      "answers": [
+        [
+          "She",
+          "was",
+          "reading",
+          "a",
+          "book",
+          "when",
+          "I",
+          "called"
+        ]
+      ],
+      "translation": {
+        "ru": "Она читала книгу, когда я позвонил."
+      },
+      "explanation": {
+        "ru": "Формула: **was/were + V-ing**.",
+        "en": "Form: **was/were + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "affirmative",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0034",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "were",
+        "walking",
+        "home",
+        "in",
+        "the",
+        "rain"
+      ],
+      "answers": [
+        [
+          "We",
+          "were",
+          "walking",
+          "home",
+          "in",
+          "the",
+          "rain"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы шли домой под дождём."
+      },
+      "explanation": {
+        "ru": "Формула: **was/were + V-ing**.",
+        "en": "Form: **was/were + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "affirmative",
+        "background"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0035",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "children",
+        "were",
+        "sleeping",
+        "when",
+        "we",
+        "returned"
+      ],
+      "answers": [
+        [
+          "The",
+          "children",
+          "were",
+          "sleeping",
+          "when",
+          "we",
+          "returned"
+        ]
+      ],
+      "translation": {
+        "ru": "Дети спали, когда мы вернулись."
+      },
+      "explanation": {
+        "ru": "Формула: **was/were + V-ing**.",
+        "en": "Form: **was/were + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "affirmative",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0036",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "was",
+        "painting",
+        "the",
+        "fence",
+        "last",
+        "Sunday"
+      ],
+      "answers": [
+        [
+          "He",
+          "was",
+          "painting",
+          "the",
+          "fence",
+          "last",
+          "Sunday"
+        ]
+      ],
+      "translation": {
+        "ru": "Он красил забор в прошлое воскресенье."
+      },
+      "explanation": {
+        "ru": "Формула: **was/were + V-ing**.",
+        "en": "Form: **was/were + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "affirmative",
+        "background"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0037",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "was",
+        "listening",
+        "to",
+        "music",
+        "when",
+        "the",
+        "phone",
+        "rang"
+      ],
+      "answers": [
+        [
+          "I",
+          "was",
+          "listening",
+          "to",
+          "music",
+          "when",
+          "the",
+          "phone",
+          "rang"
+        ]
+      ],
+      "translation": {
+        "ru": "Я слушал музыку, когда зазвонил телефон."
+      },
+      "explanation": {
+        "ru": "Формула: **was/were + V-ing**.",
+        "en": "Form: **was/were + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "affirmative",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0038",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "My",
+        "sister",
+        "was",
+        "cooking",
+        "lunch",
+        "while",
+        "I",
+        "was",
+        "cleaning"
+      ],
+      "answers": [
+        [
+          "My",
+          "sister",
+          "was",
+          "cooking",
+          "lunch",
+          "while",
+          "I",
+          "was",
+          "cleaning"
+        ]
+      ],
+      "translation": {
+        "ru": "Моя сестра готовила обед, пока я убирал."
+      },
+      "explanation": {
+        "ru": "Формула: **was/were + V-ing**.",
+        "en": "Form: **was/were + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "affirmative",
+        "simultaneous"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0039",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "were",
+        "waiting",
+        "for",
+        "the",
+        "bus",
+        "at",
+        "the",
+        "stop"
+      ],
+      "answers": [
+        [
+          "They",
+          "were",
+          "waiting",
+          "for",
+          "the",
+          "bus",
+          "at",
+          "the",
+          "stop"
+        ]
+      ],
+      "translation": {
+        "ru": "Они ждали автобус на остановке."
+      },
+      "explanation": {
+        "ru": "Формула: **was/were + V-ing**.",
+        "en": "Form: **was/were + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "affirmative",
+        "background"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0040",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "teacher",
+        "was",
+        "writing",
+        "on",
+        "the",
+        "board",
+        "when",
+        "the",
+        "headmaster",
+        "came",
+        "in"
+      ],
+      "answers": [
+        [
+          "The",
+          "teacher",
+          "was",
+          "writing",
+          "on",
+          "the",
+          "board",
+          "when",
+          "the",
+          "headmaster",
+          "came",
+          "in"
+        ]
+      ],
+      "translation": {
+        "ru": "Учитель писал на доске, когда вошёл директор."
+      },
+      "explanation": {
+        "ru": "Формула: **was/were + V-ing**.",
+        "en": "Form: **was/were + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "affirmative",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0041",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "were",
+        "watching",
+        "a",
+        "film",
+        "at",
+        "nine",
+        "last",
+        "night"
+      ],
+      "answers": [
+        [
+          "We",
+          "were",
+          "watching",
+          "a",
+          "film",
+          "at",
+          "nine",
+          "last",
+          "night"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы смотрели фильм вчера в девять."
+      },
+      "explanation": {
+        "ru": "Формула: **was/were + V-ing**.",
+        "en": "Form: **was/were + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "affirmative",
+        "at-time"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0042",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "was",
+        "walking",
+        "in",
+        "the",
+        "park",
+        "and",
+        "listening",
+        "to",
+        "music"
+      ],
+      "answers": [
+        [
+          "She",
+          "was",
+          "walking",
+          "in",
+          "the",
+          "park",
+          "and",
+          "listening",
+          "to",
+          "music"
+        ]
+      ],
+      "translation": {
+        "ru": "Она шла по парку и слушала музыку."
+      },
+      "explanation": {
+        "ru": "Формула: **was/were + V-ing**.",
+        "en": "Form: **was/were + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "affirmative",
+        "simultaneous"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0043",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "cat",
+        "was",
+        "sleeping",
+        "on",
+        "the",
+        "sofa",
+        "all",
+        "evening"
+      ],
+      "answers": [
+        [
+          "The",
+          "cat",
+          "was",
+          "sleeping",
+          "on",
+          "the",
+          "sofa",
+          "all",
+          "evening"
+        ]
+      ],
+      "translation": {
+        "ru": "Кошка спала на диване весь вечер."
+      },
+      "explanation": {
+        "ru": "Формула: **was/were + V-ing**.",
+        "en": "Form: **was/were + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "affirmative",
+        "all-evening"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0044",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "students",
+        "were",
+        "working",
+        "on",
+        "the",
+        "project",
+        "when",
+        "the",
+        "lights",
+        "went",
+        "out"
+      ],
+      "answers": [
+        [
+          "The",
+          "students",
+          "were",
+          "working",
+          "on",
+          "the",
+          "project",
+          "when",
+          "the",
+          "lights",
+          "went",
+          "out"
+        ]
+      ],
+      "translation": {
+        "ru": "Студенты делали проект, когда погас свет."
+      },
+      "explanation": {
+        "ru": "Формула: **was/were + V-ing**.",
+        "en": "Form: **was/were + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "affirmative",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0045",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "was",
+        "waiting",
+        "for",
+        "a",
+        "taxi",
+        "when",
+        "it",
+        "started",
+        "to",
+        "rain"
+      ],
+      "answers": [
+        [
+          "I",
+          "was",
+          "waiting",
+          "for",
+          "a",
+          "taxi",
+          "when",
+          "it",
+          "started",
+          "to",
+          "rain"
+        ]
+      ],
+      "translation": {
+        "ru": "Я ждал такси, когда начался дождь."
+      },
+      "explanation": {
+        "ru": "Формула: **was/were + V-ing**.",
+        "en": "Form: **was/were + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "affirmative",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0046",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "My",
+        "brother",
+        "was",
+        "playing",
+        "computer",
+        "games",
+        "while",
+        "I",
+        "was",
+        "reading"
+      ],
+      "answers": [
+        [
+          "My",
+          "brother",
+          "was",
+          "playing",
+          "computer",
+          "games",
+          "while",
+          "I",
+          "was",
+          "reading"
+        ]
+      ],
+      "translation": {
+        "ru": "Мой брат играл в компьютерные игры, пока я читал."
+      },
+      "explanation": {
+        "ru": "Формула: **was/were + V-ing**.",
+        "en": "Form: **was/were + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "affirmative",
+        "simultaneous"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0047",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "was",
+        "making",
+        "breakfast",
+        "when",
+        "I",
+        "woke",
+        "up"
+      ],
+      "answers": [
+        [
+          "She",
+          "was",
+          "making",
+          "breakfast",
+          "when",
+          "I",
+          "woke",
+          "up"
+        ]
+      ],
+      "translation": {
+        "ru": "Она готовила завтрак, когда я проснулся."
+      },
+      "explanation": {
+        "ru": "Формула: **was/were + V-ing**.",
+        "en": "Form: **was/were + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "affirmative",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0048",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "was",
+        "not",
+        "watching",
+        "TV",
+        "at",
+        "eight"
+      ],
+      "answers": [
+        [
+          "I",
+          "was",
+          "not",
+          "watching",
+          "TV",
+          "at",
+          "eight"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не смотрел телевизор в восемь."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0049",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "was",
+        "not",
+        "sleeping",
+        "when",
+        "I",
+        "arrived"
+      ],
+      "answers": [
+        [
+          "She",
+          "was",
+          "not",
+          "sleeping",
+          "when",
+          "I",
+          "arrived"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не спала, когда я пришёл."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0050",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "were",
+        "not",
+        "playing",
+        "football",
+        "because",
+        "of",
+        "the",
+        "rain"
+      ],
+      "answers": [
+        [
+          "They",
+          "were",
+          "not",
+          "playing",
+          "football",
+          "because",
+          "of",
+          "the",
+          "rain"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не играли в футбол из-за дождя."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0051",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "were",
+        "not",
+        "waiting",
+        "for",
+        "the",
+        "bus"
+      ],
+      "answers": [
+        [
+          "We",
+          "were",
+          "not",
+          "waiting",
+          "for",
+          "the",
+          "bus"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы не ждали автобус."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0052",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "was",
+        "not",
+        "listening",
+        "to",
+        "the",
+        "radio"
+      ],
+      "answers": [
+        [
+          "He",
+          "was",
+          "not",
+          "listening",
+          "to",
+          "the",
+          "radio"
+        ]
+      ],
+      "translation": {
+        "ru": "Он не слушал радио."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0053",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "children",
+        "were",
+        "not",
+        "sleeping",
+        "at",
+        "ten",
+        "o'clock"
+      ],
+      "answers": [
+        [
+          "The",
+          "children",
+          "were",
+          "not",
+          "sleeping",
+          "at",
+          "ten",
+          "o'clock"
+        ]
+      ],
+      "translation": {
+        "ru": "Дети не спали в десять часов."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0054",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "was",
+        "not",
+        "working",
+        "that",
+        "day"
+      ],
+      "answers": [
+        [
+          "I",
+          "was",
+          "not",
+          "working",
+          "that",
+          "day"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не работал в тот день."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0055",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "was",
+        "not",
+        "cooking",
+        "dinner",
+        "at",
+        "that",
+        "time"
+      ],
+      "answers": [
+        [
+          "She",
+          "was",
+          "not",
+          "cooking",
+          "dinner",
+          "at",
+          "that",
+          "time"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не готовила ужин в это время."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0056",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "were",
+        "not",
+        "watching",
+        "a",
+        "film",
+        "last",
+        "night"
+      ],
+      "answers": [
+        [
+          "We",
+          "were",
+          "not",
+          "watching",
+          "a",
+          "film",
+          "last",
+          "night"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы не смотрели фильм вчера вечером."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0057",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "was",
+        "not",
+        "driving",
+        "home",
+        "at",
+        "six"
+      ],
+      "answers": [
+        [
+          "He",
+          "was",
+          "not",
+          "driving",
+          "home",
+          "at",
+          "six"
+        ]
+      ],
+      "translation": {
+        "ru": "Он не ехал домой в шесть."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0058",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "were",
+        "not",
+        "waiting",
+        "for",
+        "us",
+        "at",
+        "the",
+        "station"
+      ],
+      "answers": [
+        [
+          "They",
+          "were",
+          "not",
+          "waiting",
+          "for",
+          "us",
+          "at",
+          "the",
+          "station"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не ждали нас на станции."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0059",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "was",
+        "not",
+        "reading",
+        "a",
+        "book",
+        "when",
+        "you",
+        "called"
+      ],
+      "answers": [
+        [
+          "I",
+          "was",
+          "not",
+          "reading",
+          "a",
+          "book",
+          "when",
+          "you",
+          "called"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не читал книгу, когда ты позвонил."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0060",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "My",
+        "brother",
+        "was",
+        "not",
+        "playing",
+        "tennis",
+        "yesterday"
+      ],
+      "answers": [
+        [
+          "My",
+          "brother",
+          "was",
+          "not",
+          "playing",
+          "tennis",
+          "yesterday"
+        ]
+      ],
+      "translation": {
+        "ru": "Мой брат не играл в теннис вчера."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0061",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "teacher",
+        "was",
+        "not",
+        "writing",
+        "on",
+        "the",
+        "board"
+      ],
+      "answers": [
+        [
+          "The",
+          "teacher",
+          "was",
+          "not",
+          "writing",
+          "on",
+          "the",
+          "board"
+        ]
+      ],
+      "translation": {
+        "ru": "Учитель не писал на доске."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0062",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "were",
+        "not",
+        "talking",
+        "when",
+        "Mum",
+        "came",
+        "in"
+      ],
+      "answers": [
+        [
+          "We",
+          "were",
+          "not",
+          "talking",
+          "when",
+          "Mum",
+          "came",
+          "in"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы не разговаривали, когда вошла мама."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0063",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "was",
+        "not",
+        "sitting",
+        "by",
+        "the",
+        "window"
+      ],
+      "answers": [
+        [
+          "She",
+          "was",
+          "not",
+          "sitting",
+          "by",
+          "the",
+          "window"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не сидела у окна."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0064",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "were",
+        "not",
+        "working",
+        "on",
+        "the",
+        "project",
+        "all",
+        "evening"
+      ],
+      "answers": [
+        [
+          "They",
+          "were",
+          "not",
+          "working",
+          "on",
+          "the",
+          "project",
+          "all",
+          "evening"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не работали над проектом весь вечер."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0065",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "was",
+        "not",
+        "listening",
+        "to",
+        "music",
+        "when",
+        "you",
+        "came",
+        "in"
+      ],
+      "answers": [
+        [
+          "I",
+          "was",
+          "not",
+          "listening",
+          "to",
+          "music",
+          "when",
+          "you",
+          "came",
+          "in"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не слушал музыку, когда ты вошёл."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0066",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "was",
+        "not",
+        "walking",
+        "in",
+        "the",
+        "park",
+        "yesterday",
+        "morning"
+      ],
+      "answers": [
+        [
+          "He",
+          "was",
+          "not",
+          "walking",
+          "in",
+          "the",
+          "park",
+          "yesterday",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Он не гулял в парке вчера утром."
+      },
+      "explanation": {
+        "ru": "Отрицание: **was/were not + V-ing**.",
+        "en": "Negative: **was/were not + V-ing**."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0067",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "What",
+        "were",
+        "you",
+        "doing",
+        "at",
+        "eight",
+        "yesterday"
+      ],
+      "answers": [
+        [
+          "What",
+          "were",
+          "you",
+          "doing",
+          "at",
+          "eight",
+          "yesterday"
+        ]
+      ],
+      "translation": {
+        "ru": "Что ты делал вчера в восемь?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "wh-question"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0068",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Were",
+        "you",
+        "watching",
+        "TV",
+        "when",
+        "I",
+        "called"
+      ],
+      "answers": [
+        [
+          "Were",
+          "you",
+          "watching",
+          "TV",
+          "when",
+          "I",
+          "called"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты смотрел телевизор, когда я позвонил?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "yes-no"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0069",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Was",
+        "she",
+        "sleeping",
+        "when",
+        "you",
+        "arrived"
+      ],
+      "answers": [
+        [
+          "Was",
+          "she",
+          "sleeping",
+          "when",
+          "you",
+          "arrived"
+        ]
+      ],
+      "translation": {
+        "ru": "Она спала, когда ты пришёл?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "yes-no"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0070",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Where",
+        "were",
+        "you",
+        "going",
+        "last",
+        "night"
+      ],
+      "answers": [
+        [
+          "Where",
+          "were",
+          "you",
+          "going",
+          "last",
+          "night"
+        ]
+      ],
+      "translation": {
+        "ru": "Куда вы шли вчера вечером?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "wh-question"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0071",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "What",
+        "were",
+        "the",
+        "children",
+        "doing",
+        "in",
+        "the",
+        "garden"
+      ],
+      "answers": [
+        [
+          "What",
+          "were",
+          "the",
+          "children",
+          "doing",
+          "in",
+          "the",
+          "garden"
+        ]
+      ],
+      "translation": {
+        "ru": "Что делали дети в саду?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "wh-question"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0072",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Why",
+        "were",
+        "you",
+        "crying"
+      ],
+      "answers": [
+        [
+          "Why",
+          "were",
+          "you",
+          "crying"
+        ]
+      ],
+      "translation": {
+        "ru": "Почему ты плакал?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "wh-question"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0073",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Were",
+        "you",
+        "listening",
+        "to",
+        "me",
+        "when",
+        "I",
+        "was",
+        "speaking"
+      ],
+      "answers": [
+        [
+          "Were",
+          "you",
+          "listening",
+          "to",
+          "me",
+          "when",
+          "I",
+          "was",
+          "speaking"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты слушал меня, когда я говорил?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "yes-no"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0074",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Who",
+        "was",
+        "playing",
+        "the",
+        "piano"
+      ],
+      "answers": [
+        [
+          "Who",
+          "was",
+          "playing",
+          "the",
+          "piano"
+        ]
+      ],
+      "translation": {
+        "ru": "Кто играл на пианино?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "wh-question"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0075",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "What",
+        "were",
+        "you",
+        "doing",
+        "when",
+        "they",
+        "called"
+      ],
+      "answers": [
+        [
+          "What",
+          "were",
+          "you",
+          "doing",
+          "when",
+          "they",
+          "called"
+        ]
+      ],
+      "translation": {
+        "ru": "Что ты делал, когда они позвонили?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "wh-question"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0076",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Was",
+        "she",
+        "cooking",
+        "lunch",
+        "when",
+        "you",
+        "returned"
+      ],
+      "answers": [
+        [
+          "Was",
+          "she",
+          "cooking",
+          "lunch",
+          "when",
+          "you",
+          "returned"
+        ]
+      ],
+      "translation": {
+        "ru": "Она готовила обед, когда ты вернулся?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "yes-no"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0077",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "What",
+        "was",
+        "he",
+        "writing",
+        "on",
+        "the",
+        "board"
+      ],
+      "answers": [
+        [
+          "What",
+          "was",
+          "he",
+          "writing",
+          "on",
+          "the",
+          "board"
+        ]
+      ],
+      "translation": {
+        "ru": "Что он писал на доске?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "wh-question"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0078",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Were",
+        "you",
+        "waiting",
+        "for",
+        "us"
+      ],
+      "answers": [
+        [
+          "Were",
+          "you",
+          "waiting",
+          "for",
+          "us"
+        ]
+      ],
+      "translation": {
+        "ru": "Вы ждали нас?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "yes-no"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0079",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Why",
+        "was",
+        "the",
+        "car",
+        "moving",
+        "so",
+        "slowly"
+      ],
+      "answers": [
+        [
+          "Why",
+          "was",
+          "the",
+          "car",
+          "moving",
+          "so",
+          "slowly"
+        ]
+      ],
+      "translation": {
+        "ru": "Почему машина ехала так медленно?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "wh-question"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0080",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "What",
+        "were",
+        "you",
+        "reading",
+        "all",
+        "evening"
+      ],
+      "answers": [
+        [
+          "What",
+          "were",
+          "you",
+          "reading",
+          "all",
+          "evening"
+        ]
+      ],
+      "translation": {
+        "ru": "Что ты читал весь вечер?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "wh-question"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0081",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Were",
+        "they",
+        "working",
+        "that",
+        "day"
+      ],
+      "answers": [
+        [
+          "Were",
+          "they",
+          "working",
+          "that",
+          "day"
+        ]
+      ],
+      "translation": {
+        "ru": "Они работали в тот день?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "yes-no"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0082",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Were",
+        "you",
+        "walking",
+        "home",
+        "when",
+        "it",
+        "started",
+        "to",
+        "rain"
+      ],
+      "answers": [
+        [
+          "Were",
+          "you",
+          "walking",
+          "home",
+          "when",
+          "it",
+          "started",
+          "to",
+          "rain"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты шёл домой, когда начался дождь?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "yes-no"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0083",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Who",
+        "was",
+        "talking",
+        "on",
+        "the",
+        "phone"
+      ],
+      "answers": [
+        [
+          "Who",
+          "was",
+          "talking",
+          "on",
+          "the",
+          "phone"
+        ]
+      ],
+      "translation": {
+        "ru": "Кто разговаривал по телефону?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "wh-question"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0084",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "What",
+        "was",
+        "Mum",
+        "cooking",
+        "when",
+        "you",
+        "came",
+        "in"
+      ],
+      "answers": [
+        [
+          "What",
+          "was",
+          "Mum",
+          "cooking",
+          "when",
+          "you",
+          "came",
+          "in"
+        ]
+      ],
+      "translation": {
+        "ru": "Что мама готовила, когда ты пришёл?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "wh-question"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0085",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "buildKind": "question",
+      "words": [
+        "Why",
+        "were",
+        "you",
+        "not",
+        "listening",
+        "to",
+        "me"
+      ],
+      "answers": [
+        [
+          "Why",
+          "were",
+          "you",
+          "not",
+          "listening",
+          "to",
+          "me"
+        ]
+      ],
+      "translation": {
+        "ru": "Почему ты не слушал меня?"
+      },
+      "explanation": {
+        "ru": "Вопрос: **Was/Were … + V-ing?**",
+        "en": "Question: **Was/Were … + V-ing?**"
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question",
+        "wh-question"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0086",
+      "type": "match",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте маркер времени и пример.",
+        "en": "Match the time marker with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "at + время",
+            "en": "at + time"
+          },
+          "right": "At seven o'clock I was having a shower."
+        },
+        {
+          "left": {
+            "ru": "пока / while",
+            "en": "while"
+          },
+          "right": "While I was cleaning, the phone rang."
+        },
+        {
+          "left": {
+            "ru": "весь вечер / all evening",
+            "en": "all evening"
+          },
+          "right": "They were playing cards all evening."
+        },
+        {
+          "left": {
+            "ru": "когда / when",
+            "en": "when"
+          },
+          "right": "We were walking home when it started to rain."
+        }
+      ],
+      "explanation": {
+        "ru": "Маркеры at + время, while, all evening и when показывают действие в процессе в прошлом.",
+        "en": "The markers at + time, while, all evening and when show an action in progress in the past."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "match",
+        "marker"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0087",
+      "type": "match",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте форму и пример.",
+        "en": "Match the form with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "I / he / she / it (я, он, она, оно) +",
+            "en": "I / he / she / it +"
+          },
+          "right": "The baby was sleeping."
+        },
+        {
+          "left": {
+            "ru": "you / we / they (ты, мы, они) +",
+            "en": "you / we / they +"
+          },
+          "right": "The students were talking."
+        },
+        {
+          "left": {
+            "ru": "отрицание →",
+            "en": "was not / were not + V-ing →"
+          },
+          "right": "It was not raining."
+        },
+        {
+          "left": {
+            "ru": "вопрос →",
+            "en": "Was / Were … + V-ing? →"
+          },
+          "right": "Were the children playing?"
+        }
+      ],
+      "explanation": {
+        "ru": "Was используется с I, he, she и it, were — с you, we и they; отрицание и вопрос строятся без did.",
+        "en": "Was goes with I, he, she and it, and were with you, we and they; negatives and questions are formed without did."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "match",
+        "form"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0088",
+      "type": "match",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте тип действия и пример.",
+        "en": "Match the type of action with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "длительное действие",
+            "en": "a long action"
+          },
+          "right": "She was writing a letter."
+        },
+        {
+          "left": {
+            "ru": "короткое событие",
+            "en": "a short event"
+          },
+          "right": "The lights went out."
+        },
+        {
+          "left": {
+            "ru": "два одновременных действия",
+            "en": "two simultaneous actions"
+          },
+          "right": "While I was reading, my brother was drawing."
+        },
+        {
+          "left": {
+            "ru": "фон для события",
+            "en": "a background for an event"
+          },
+          "right": "The rain was falling when we left."
+        }
+      ],
+      "explanation": {
+        "ru": "Длительное действие и фон идут в Past Continuous, а короткое событие — в Past Simple.",
+        "en": "The long action and background are in the Past Continuous, while the short event is in the Past Simple."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "match",
+        "meaning"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0089",
+      "type": "match",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте ошибку и правильный пример.",
+        "en": "Match the mistake with the correct example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Ошибка: *I were watching* →",
+            "en": "*I were watching* →"
+          },
+          "right": "I was watching TV."
+        },
+        {
+          "left": {
+            "ru": "Ошибка: *She was watch* →",
+            "en": "*She was watch* →"
+          },
+          "right": "She was watching a film."
+        },
+        {
+          "left": {
+            "ru": "Ошибка: *Did you were waiting* →",
+            "en": "*Did you were waiting* →"
+          },
+          "right": "Were you waiting for me?"
+        },
+        {
+          "left": {
+            "ru": "Ошибка: *He was knowing the answer* →",
+            "en": "*He was knowing the answer* →"
+          },
+          "right": "He knew the answer."
+        }
+      ],
+      "explanation": {
+        "ru": "С I используется was, после was/were нужна форма -ing, вопрос строится без did, а глаголы состояния не ставят в -ing.",
+        "en": "With I the form is was, was/were needs the -ing form, questions are formed without did, and state verbs do not take -ing."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "match",
+        "mistakes"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0090",
+      "type": "match",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match the situation with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "действие в процессе",
+            "en": "an action in progress"
+          },
+          "right": "At noon I was eating lunch."
+        },
+        {
+          "left": {
+            "ru": "описание обстановки",
+            "en": "describing the scene"
+          },
+          "right": "Snow was falling and the wind was blowing."
+        },
+        {
+          "left": {
+            "ru": "одновременные действия",
+            "en": "simultaneous actions"
+          },
+          "right": "She was singing while he was playing the guitar."
+        },
+        {
+          "left": {
+            "ru": "действие до и после события",
+            "en": "an action before and after an event"
+          },
+          "right": "We were still dancing at midnight."
+        }
+      ],
+      "explanation": {
+        "ru": "Past Continuous описывает процесс, обстановку, одновременные действия и действие, которое длилось до и после другого события.",
+        "en": "The Past Continuous describes a process, a scene, simultaneous actions and an action lasting before and after another event."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "match",
+        "usage"
       ]
     }
   ]

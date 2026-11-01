@@ -1,6 +1,7 @@
 package com.iltatrainer.app.ui.screens
 
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -13,10 +14,12 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FilterChip
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
@@ -59,6 +62,9 @@ import com.iltatrainer.app.ui.pluralRu
 import com.iltatrainer.app.ui.questionsLabel
 import com.iltatrainer.app.ui.tr
 
+/** Exercise types available in the quick-practice filter (Question.type values). */
+private val ALL_EXERCISE_TYPES = setOf("choice", "match", "build")
+
 @Composable
 fun TopicsScreen(
     sections: List<Section>,
@@ -66,21 +72,20 @@ fun TopicsScreen(
     questions: List<Question>,
     progress: ProgressState,
     contentErrors: List<String>,
-    onStartQuickPractice: (List<String>) -> Unit,
+    onStartQuickPractice: (selectedRuleIds: List<String>, selectedTypes: Set<String>) -> Unit,
     onStartMistakes: () -> Unit,
-    onStartBuildPractice: () -> Unit,
     onOpenSection: (sectionId: String) -> Unit,
     modifier: Modifier = Modifier,
 ) {
     val sessionSize = progress.settings.sessionSize
     val streak = StatsCalculator.streak(progress)
     val openMistakesCount = SessionBuilder.openMistakeCount(progress)
-    val buildTaskCount = questions.count { it.isBuild }
     val rulesBySection = remember(rules) { rules.groupBy { it.sectionId } }
     val questionsByRule = remember(questions) { questions.groupingBy { it.ruleId }.eachCount() }
 
     var showPicker by rememberSaveable { mutableStateOf(false) }
     var selectedRuleIds by rememberSaveable { mutableStateOf(rules.map { it.id }) }
+    var selectedTypes by rememberSaveable { mutableStateOf(ALL_EXERCISE_TYPES) }
 
     fun toggleSection(sectionId: String) {
         val sectionRuleIds = rulesBySection[sectionId].orEmpty().map { it.id }
@@ -134,13 +139,6 @@ fun TopicsScreen(
                     )
                 }
             }
-        }
-
-        item(key = "build-practice") {
-            BuildPracticeCard(
-                taskCount = buildTaskCount,
-                onClick = onStartBuildPractice,
-            )
         }
 
         item(key = "mistake-review") {
@@ -207,6 +205,7 @@ fun TopicsScreen(
             questionsByRule = questionsByRule,
             sessionSize = sessionSize,
             selectedRuleIds = selectedRuleIds,
+            selectedTypes = selectedTypes,
             onToggleRule = { ruleId ->
                 selectedRuleIds = if (ruleId in selectedRuleIds) {
                     selectedRuleIds - ruleId
@@ -217,12 +216,16 @@ fun TopicsScreen(
             onSelectAll = { selectedRuleIds = rules.map { it.id } },
             onClearAll = { selectedRuleIds = emptyList() },
             onToggleSection = { sectionId -> toggleSection(sectionId) },
+            onToggleType = { type ->
+                selectedTypes = if (type in selectedTypes) selectedTypes - type else selectedTypes + type
+            },
             onDismiss = { showPicker = false },
             onStart = {
                 val ruleIds = selectedRuleIds.toList()
+                val types = selectedTypes.toSet()
                 showPicker = false
-                if (ruleIds.isNotEmpty()) {
-                    onStartQuickPractice(ruleIds)
+                if (ruleIds.isNotEmpty() && types.isNotEmpty()) {
+                    onStartQuickPractice(ruleIds, types)
                 }
             },
         )
@@ -375,27 +378,49 @@ private fun QuickPracticePickerSheet(
     questionsByRule: Map<String, Int>,
     sessionSize: Int,
     selectedRuleIds: List<String>,
+    selectedTypes: Set<String>,
     onToggleRule: (ruleId: String) -> Unit,
     onSelectAll: () -> Unit,
     onClearAll: () -> Unit,
     onToggleSection: (String) -> Unit,
+    onToggleType: (String) -> Unit,
     onDismiss: () -> Unit,
     onStart: () -> Unit,
 ) {
     val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)
     val selectedRuleIdSet = remember(selectedRuleIds) { selectedRuleIds.toSet() }
+    var expandedSectionIds by remember { mutableStateOf(emptySet<String>()) }
+    val typeOptions = listOf(
+        "choice" to tr("Выбор", "Choice"),
+        "match" to tr("Соответствие", "Match"),
+        "build" to tr("Сборка", "Build"),
+    )
     val selectedQuestionCount = remember(selectedRuleIds, questionsByRule) {
         selectedRuleIds.sumOf { ruleId -> questionsByRule[ruleId] ?: 0 }
     }
     val selectedCount = selectedRuleIds.size
+    val allTypesSelected = selectedTypes.size == ALL_EXERCISE_TYPES.size
     val selectedSummary = tr(
         "Выбрано: $selectedCount ${pluralRu(selectedCount, "тема", "темы", "тем")} · ${questionsLabel(selectedQuestionCount)}",
         "Selected: $selectedCount ${if (selectedCount == 1) "topic" else "topics"} · ${questionsLabel(selectedQuestionCount)}",
     )
+    val typesSummary = if (!allTypesSelected) {
+        val labels = typeOptions
+            .filter { (type, _) -> type in selectedTypes }
+            .map { it.second }
+        if (labels.isEmpty()) {
+            tr("Тип заданий не выбран", "No exercise type selected")
+        } else {
+            tr("Типы: ${labels.joinToString(", ")}", "Types: ${labels.joinToString(", ")}")
+        }
+    } else {
+        null
+    }
     val sessionLine = tr(
         "В одной тренировке: ${questionsLabel(sessionSize)}",
         "Session size: ${questionsLabel(sessionSize)}",
     )
+    val canStart = selectedCount > 0 && selectedTypes.isNotEmpty()
 
     ModalBottomSheet(
         onDismissRequest = onDismiss,
@@ -419,7 +444,28 @@ private fun QuickPracticePickerSheet(
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
-            Spacer(Modifier.height(8.dp))
+            Spacer(Modifier.height(10.dp))
+            Text(
+                text = tr("Тип заданий", "Exercise types"),
+                style = MaterialTheme.typography.labelLarge,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            Spacer(Modifier.height(6.dp))
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .horizontalScroll(rememberScrollState()),
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
+                typeOptions.forEach { (type, label) ->
+                    FilterChip(
+                        selected = type in selectedTypes,
+                        onClick = { onToggleType(type) },
+                        label = { Text(label) },
+                    )
+                }
+            }
+            Spacer(Modifier.height(6.dp))
             Row(verticalAlignment = Alignment.CenterVertically) {
                 TextButton(onClick = onSelectAll) {
                     Text(tr("Выбрать все", "Select all"))
@@ -438,15 +484,22 @@ private fun QuickPracticePickerSheet(
                 sections.forEach { section ->
                     val sectionRules = rules.filter { it.sectionId == section.id }
                     if (sectionRules.isNotEmpty()) {
+                        val sectionRuleIds = sectionRules.map { it.id }
+                        val allSelected = sectionRuleIds.all { it in selectedRuleIdSet }
+                        val selectedInSection = sectionRuleIds.count { it in selectedRuleIdSet }
+                        val expanded = section.id in expandedSectionIds
                         item(key = "sheet-section-${section.id}") {
-                            val sectionRuleIds = sectionRules.map { it.id }
-                            val allSelected = sectionRuleIds.all { it in selectedRuleIdSet }
-                            val selectedInSection = sectionRuleIds.count { it in selectedRuleIdSet }
                             Row(
                                 verticalAlignment = Alignment.CenterVertically,
                                 modifier = Modifier
                                     .fillMaxWidth()
-                                    .clickable { onToggleSection(section.id) }
+                                    .clickable {
+                                        expandedSectionIds = if (expanded) {
+                                            expandedSectionIds - section.id
+                                        } else {
+                                            expandedSectionIds + section.id
+                                        }
+                                    }
                                     .padding(top = 8.dp, bottom = 2.dp),
                             ) {
                                 Checkbox(
@@ -469,15 +522,23 @@ private fun QuickPracticePickerSheet(
                                         style = MaterialTheme.typography.labelSmall,
                                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                                     )
+                                    Spacer(Modifier.width(6.dp))
                                 }
+                                Text(
+                                    text = if (expanded) "▾" else "▸",
+                                    fontSize = 18.sp,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                )
                             }
                         }
-                        items(items = sectionRules, key = { it.id }) { rule ->
-                            RuleCheckRow(
-                                rule = rule,
-                                checked = rule.id in selectedRuleIdSet,
-                                onToggle = { onToggleRule(rule.id) },
-                            )
+                        if (expanded) {
+                            items(items = sectionRules, key = { it.id }) { rule ->
+                                RuleCheckRow(
+                                    rule = rule,
+                                    checked = rule.id in selectedRuleIdSet,
+                                    onToggle = { onToggleRule(rule.id) },
+                                )
+                            }
                         }
                     }
                 }
@@ -488,6 +549,14 @@ private fun QuickPracticePickerSheet(
                 text = selectedSummary,
                 style = MaterialTheme.typography.titleMedium,
             )
+            if (typesSummary != null) {
+                Spacer(Modifier.height(2.dp))
+                Text(
+                    text = typesSummary,
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
             Spacer(Modifier.height(2.dp))
             Text(
                 text = sessionLine,
@@ -497,7 +566,7 @@ private fun QuickPracticePickerSheet(
             Spacer(Modifier.height(10.dp))
             Button(
                 onClick = onStart,
-                enabled = selectedCount > 0,
+                enabled = canStart,
                 shape = RoundedCornerShape(18.dp),
                 modifier = Modifier
                     .fillMaxWidth()
@@ -532,51 +601,6 @@ private fun RuleCheckRow(
             overflow = TextOverflow.Ellipsis,
             modifier = Modifier.weight(1f),
         )
-    }
-}
-
-@Composable
-private fun BuildPracticeCard(taskCount: Int, onClick: () -> Unit) {
-    val enabled = taskCount > 0
-    val caption = if (enabled) {
-        tr(
-            "$taskCount ${pluralRu(taskCount, "задание", "задания", "заданий")}",
-            "$taskCount ${if (taskCount == 1) "task" else "tasks"}",
-        )
-    } else {
-        tr("Пока нет заданий", "No tasks yet")
-    }
-    AppCard(
-        modifier = Modifier
-            .fillMaxWidth()
-            .alpha(if (enabled) 1f else 0.55f),
-        onClick = if (enabled) onClick else null,
-    ) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Text("🧩", fontSize = 26.sp)
-            Spacer(Modifier.width(12.dp))
-            Column(modifier = Modifier.weight(1f)) {
-                Text(
-                    text = tr("Сборка предложений", "Sentence building"),
-                    style = MaterialTheme.typography.titleMedium,
-                    maxLines = 1,
-                    overflow = TextOverflow.Ellipsis,
-                )
-                Spacer(Modifier.height(2.dp))
-                Text(
-                    text = caption,
-                    style = MaterialTheme.typography.labelSmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
-            }
-            if (enabled) {
-                Text(
-                    text = "›",
-                    fontSize = 26.sp,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
-            }
-        }
     }
 }
 

@@ -17,8 +17,8 @@
         "en": "Present Continuous: form and meaning"
       },
       "summary": {
-        "ru": "Present Continuous описывает действие в момент речи, временные ситуации, изменения и договорённые планы на будущее. Он строится с am/is/are и глаголом с окончанием -ing, а маркеры now, at the moment и Look! прямо указывают на это время.",
-        "en": "Present Continuous describes an action at the moment of speaking, temporary situations, changes and fixed future arrangements. It is formed with am/is/are and the -ing form, and markers such as now, at the moment and Look! point directly to this tense."
+        "ru": "Формулы, случаи употребления, маркеры и типичные ошибки Present Continuous — коротко и по делу.",
+        "en": "Present Continuous formulas, uses, markers and typical mistakes — short and clear."
       },
       "sections": [
         {
@@ -27,62 +27,58 @@
             "en": "Form"
           },
           "body": {
-            "ru": "Present Continuous строится из формы be (am, is, are) и глагола с окончанием -ing. Отрицание добавляет not к be, а вопрос начинается с формы be перед подлежащим. При добавлении -ing конечная e обычно исчезает, а короткая конечная согласная после гласной удваивается.",
-            "en": "Present Continuous is formed with a form of be (am, is, are) and the verb with the -ing ending. The negative adds not to be, and a question begins with the form of be before the subject. When -ing is added, a final e is usually dropped and a short final consonant after a vowel doubles."
+            "ru": "(+) am / is / are + V-ing\n(–) am / is / are + not + V-ing\n(?) Am / Is / Are + V-ing?",
+            "en": "(+) am / is / are + V-ing\n(–) am / is / are + not + V-ing\n(?) Am / Is / Are + V-ing?"
           },
           "examples": [
-            "I am reading a book.",
-            "She is cooking dinner.",
-            "They are playing chess.",
-            "He is not listening."
+            "I am reading.",
+            "She is not sleeping.",
+            "Are you listening?"
           ]
         },
         {
           "heading": {
-            "ru": "Значение",
-            "en": "Meaning"
+            "ru": "Когда используем",
+            "en": "When we use it"
           },
           "body": {
-            "ru": "Время описывает действие в момент речи, временную ситуацию вокруг настоящего, изменения и тенденции, а также заранее договорённые планы на будущее. С always оно может выражать раздражение из-за повторяющегося поведения.",
-            "en": "The tense describes an action at the moment of speaking, a temporary situation around now, changes and trends, and fixed future arrangements. With always it can express annoyance at repeated behaviour."
+            "ru": "• действие прямо сейчас\n• временная ситуация\n• договорённый план на будущее\n• изменения и тенденции",
+            "en": "• an action happening now\n• a temporary situation\n• a fixed future arrangement\n• changes and trends"
           },
           "examples": [
-            "Look! It is raining.",
-            "I am staying with my aunt this month.",
-            "We are meeting Anna tomorrow.",
-            "Prices are rising quickly."
+            "Look! It is snowing.",
+            "I am staying with friends this month.",
+            "We are meeting at six tomorrow."
           ]
         },
         {
           "heading": {
-            "ru": "Маркеры времени",
-            "en": "Time markers"
+            "ru": "Маркеры",
+            "en": "Markers"
           },
           "body": {
-            "ru": "На Present Continuous указывают now, right now, at the moment, currently, today, this week, these days, а также восклицания Look! и Listen! В предложении такие маркеры обычно стоят в начале или в конце.",
-            "en": "Present Continuous is signalled by now, right now, at the moment, currently, today, this week, these days, and by the exclamations Look! and Listen! Such markers usually come at the beginning or the end of the sentence."
+            "ru": "• now / right now\n• at the moment\n• today / this week / these days\n• Look! / Listen!",
+            "en": "• now / right now\n• at the moment\n• today / this week / these days\n• Look! / Listen!"
           },
           "examples": [
             "She is talking on the phone now.",
-            "I am looking for my glasses at the moment.",
-            "He is learning to drive these days.",
-            "Listen! The baby is crying."
+            "They are decorating the flat at the moment.",
+            "He is learning to drive these days."
           ]
         },
         {
           "heading": {
-            "ru": "Типичные ошибки",
-            "en": "Common mistakes"
+            "ru": "Ошибки",
+            "en": "Mistakes"
           },
           "body": {
-            "ru": "Нельзя забывать форму be и путать длительную форму с простым временем. Глаголы состояния, такие как know, want и believe, обычно не употребляются с -ing. Кроме того, при добавлении -ing легко ошибиться в написании: конечная e выпадает, а короткая согласная после гласной удваивается.",
-            "en": "Do not forget the form of be, and do not mix the continuous form with the simple tense. State verbs such as know, want and believe are not usually used with -ing. It is also easy to make a spelling mistake when adding -ing: a final e is dropped and a short consonant after a vowel doubles."
+            "ru": "• She is cook dinner → She is cooking dinner\n• They is playing → They are playing\n• He not working → He is not working",
+            "en": "• She is cook dinner → She is cooking dinner\n• They is playing → They are playing\n• He not working → He is not working"
           },
           "examples": [
-            "The dog is running after the ball.",
-            "She is making a cake.",
-            "The cat is lying in the sun.",
-            "He is studying for his exams."
+            "She is cooking dinner.",
+            "They are playing chess.",
+            "He is not working today."
           ]
         }
       ]
@@ -625,7 +621,8 @@
         "tense-present-continuous",
         "build",
         "affirmative"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-present-continuous-0022",
@@ -663,7 +660,8 @@
         "tense-present-continuous",
         "build",
         "negative"
-      ]
+      ],
+      "buildKind": "negative"
     },
     {
       "id": "tense-present-continuous-0023",
@@ -699,7 +697,8 @@
         "tense-present-continuous",
         "build",
         "question"
-      ]
+      ],
+      "buildKind": "question"
     },
     {
       "id": "tense-present-continuous-0024",
@@ -737,7 +736,8 @@
         "tense-present-continuous",
         "build",
         "temporary"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-present-continuous-0025",
@@ -773,7 +773,8 @@
         "tense-present-continuous",
         "build",
         "spelling"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-present-continuous-0026",
@@ -1013,6 +1014,2250 @@
       "explanation": {
         "ru": "Для привычек используется Present Simple, а для временных ситуаций вокруг настоящего — Present Continuous.",
         "en": "Habits take Present Simple, while temporary situations around now take Present Continuous."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "match",
+        "contrast"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0031",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "am",
+        "reading",
+        "a",
+        "book"
+      ],
+      "answers": [
+        [
+          "I",
+          "am",
+          "reading",
+          "a",
+          "book"
+        ]
+      ],
+      "translation": {
+        "ru": "Я читаю книгу."
+      },
+      "explanation": {
+        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
+        "en": "Present Continuous affirmative: am / is / are + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "affirmative",
+        "am"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0032",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "You",
+        "are",
+        "listening",
+        "to",
+        "music"
+      ],
+      "answers": [
+        [
+          "You",
+          "are",
+          "listening",
+          "to",
+          "music"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты слушаешь музыку."
+      },
+      "explanation": {
+        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
+        "en": "Present Continuous affirmative: am / is / are + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "affirmative",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0033",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "are",
+        "waiting",
+        "for",
+        "the",
+        "bus"
+      ],
+      "answers": [
+        [
+          "We",
+          "are",
+          "waiting",
+          "for",
+          "the",
+          "bus"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы ждём автобус."
+      },
+      "explanation": {
+        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
+        "en": "Present Continuous affirmative: am / is / are + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "affirmative",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0034",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "are",
+        "playing",
+        "in",
+        "the",
+        "garden"
+      ],
+      "answers": [
+        [
+          "They",
+          "are",
+          "playing",
+          "in",
+          "the",
+          "garden"
+        ]
+      ],
+      "translation": {
+        "ru": "Они играют в саду."
+      },
+      "explanation": {
+        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
+        "en": "Present Continuous affirmative: am / is / are + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "affirmative",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0035",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "is",
+        "working",
+        "in",
+        "the",
+        "office",
+        "today"
+      ],
+      "answers": [
+        [
+          "He",
+          "is",
+          "working",
+          "in",
+          "the",
+          "office",
+          "today"
+        ]
+      ],
+      "translation": {
+        "ru": "Сегодня он работает в офисе."
+      },
+      "explanation": {
+        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
+        "en": "Present Continuous affirmative: am / is / are + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "affirmative",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0036",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "is",
+        "cooking",
+        "dinner",
+        "now"
+      ],
+      "answers": [
+        [
+          "She",
+          "is",
+          "cooking",
+          "dinner",
+          "now"
+        ]
+      ],
+      "translation": {
+        "ru": "Сейчас она готовит ужин."
+      },
+      "explanation": {
+        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
+        "en": "Present Continuous affirmative: am / is / are + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "affirmative",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0037",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "My",
+        "sister",
+        "is",
+        "studying",
+        "for",
+        "her",
+        "exams"
+      ],
+      "answers": [
+        [
+          "My",
+          "sister",
+          "is",
+          "studying",
+          "for",
+          "her",
+          "exams"
+        ]
+      ],
+      "translation": {
+        "ru": "Моя сестра готовится к экзаменам."
+      },
+      "explanation": {
+        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
+        "en": "Present Continuous affirmative: am / is / are + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "affirmative",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0038",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "children",
+        "are",
+        "watching",
+        "a",
+        "film"
+      ],
+      "answers": [
+        [
+          "The",
+          "children",
+          "are",
+          "watching",
+          "a",
+          "film"
+        ]
+      ],
+      "translation": {
+        "ru": "Дети смотрят фильм."
+      },
+      "explanation": {
+        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
+        "en": "Present Continuous affirmative: am / is / are + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "affirmative",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0039",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "am",
+        "looking",
+        "for",
+        "my",
+        "keys"
+      ],
+      "answers": [
+        [
+          "I",
+          "am",
+          "looking",
+          "for",
+          "my",
+          "keys"
+        ]
+      ],
+      "translation": {
+        "ru": "Я ищу свои ключи."
+      },
+      "explanation": {
+        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
+        "en": "Present Continuous affirmative: am / is / are + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "affirmative",
+        "am"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0040",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "It",
+        "is",
+        "raining",
+        "outside"
+      ],
+      "answers": [
+        [
+          "It",
+          "is",
+          "raining",
+          "outside"
+        ]
+      ],
+      "translation": {
+        "ru": "На улице идёт дождь."
+      },
+      "explanation": {
+        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
+        "en": "Present Continuous affirmative: am / is / are + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "affirmative",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0041",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "My",
+        "parents",
+        "are",
+        "travelling",
+        "in",
+        "Italy"
+      ],
+      "answers": [
+        [
+          "My",
+          "parents",
+          "are",
+          "travelling",
+          "in",
+          "Italy"
+        ]
+      ],
+      "translation": {
+        "ru": "Мои родители путешествуют по Италии."
+      },
+      "explanation": {
+        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
+        "en": "Present Continuous affirmative: am / is / are + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "affirmative",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0042",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "is",
+        "learning",
+        "to",
+        "drive",
+        "this",
+        "month"
+      ],
+      "answers": [
+        [
+          "He",
+          "is",
+          "learning",
+          "to",
+          "drive",
+          "this",
+          "month"
+        ]
+      ],
+      "translation": {
+        "ru": "В этом месяце он учится водить машину."
+      },
+      "explanation": {
+        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
+        "en": "Present Continuous affirmative: am / is / are + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "affirmative",
+        "temporary"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0043",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "are",
+        "staying",
+        "in",
+        "a",
+        "small",
+        "hotel"
+      ],
+      "answers": [
+        [
+          "We",
+          "are",
+          "staying",
+          "in",
+          "a",
+          "small",
+          "hotel"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы живём в маленьком отеле."
+      },
+      "explanation": {
+        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
+        "en": "Present Continuous affirmative: am / is / are + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "affirmative",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0044",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "is",
+        "wearing",
+        "a",
+        "blue",
+        "dress",
+        "today"
+      ],
+      "answers": [
+        [
+          "She",
+          "is",
+          "wearing",
+          "a",
+          "blue",
+          "dress",
+          "today"
+        ]
+      ],
+      "translation": {
+        "ru": "Сегодня она в синем платье."
+      },
+      "explanation": {
+        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
+        "en": "Present Continuous affirmative: am / is / are + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "affirmative",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0045",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "doctor",
+        "is",
+        "seeing",
+        "a",
+        "patient",
+        "now"
+      ],
+      "answers": [
+        [
+          "The",
+          "doctor",
+          "is",
+          "seeing",
+          "a",
+          "patient",
+          "now"
+        ]
+      ],
+      "translation": {
+        "ru": "Сейчас врач принимает пациента."
+      },
+      "explanation": {
+        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
+        "en": "Present Continuous affirmative: am / is / are + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "affirmative",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0046",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "are",
+        "building",
+        "a",
+        "new",
+        "school"
+      ],
+      "answers": [
+        [
+          "They",
+          "are",
+          "building",
+          "a",
+          "new",
+          "school"
+        ]
+      ],
+      "translation": {
+        "ru": "Они строят новую школу."
+      },
+      "explanation": {
+        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
+        "en": "Present Continuous affirmative: am / is / are + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "affirmative",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0047",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "affirmative",
+      "words": [
+        "My",
+        "brother",
+        "is",
+        "playing",
+        "computer",
+        "games"
+      ],
+      "answers": [
+        [
+          "My",
+          "brother",
+          "is",
+          "playing",
+          "computer",
+          "games"
+        ]
+      ],
+      "translation": {
+        "ru": "Мой брат играет в компьютерные игры."
+      },
+      "explanation": {
+        "ru": "Present Continuous, утверждение: am / is / are + V-ing.",
+        "en": "Present Continuous affirmative: am / is / are + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "affirmative",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0048",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "am",
+        "not",
+        "listening",
+        "to",
+        "you"
+      ],
+      "answers": [
+        [
+          "I",
+          "am",
+          "not",
+          "listening",
+          "to",
+          "you"
+        ]
+      ],
+      "translation": {
+        "ru": "Я тебя не слушаю."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "am"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0049",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "You",
+        "are",
+        "not",
+        "wearing",
+        "a",
+        "coat"
+      ],
+      "answers": [
+        [
+          "You",
+          "are",
+          "not",
+          "wearing",
+          "a",
+          "coat"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты не в пальто."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0050",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "are",
+        "not",
+        "working",
+        "today"
+      ],
+      "answers": [
+        [
+          "We",
+          "are",
+          "not",
+          "working",
+          "today"
+        ]
+      ],
+      "translation": {
+        "ru": "Сегодня мы не работаем."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0051",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "are",
+        "not",
+        "coming",
+        "to",
+        "the",
+        "party"
+      ],
+      "answers": [
+        [
+          "They",
+          "are",
+          "not",
+          "coming",
+          "to",
+          "the",
+          "party"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не придут на вечеринку."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "future"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0052",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "is",
+        "not",
+        "sleeping"
+      ],
+      "answers": [
+        [
+          "He",
+          "is",
+          "not",
+          "sleeping"
+        ]
+      ],
+      "translation": {
+        "ru": "Он не спит."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0053",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "is",
+        "not",
+        "feeling",
+        "well"
+      ],
+      "answers": [
+        [
+          "She",
+          "is",
+          "not",
+          "feeling",
+          "well"
+        ]
+      ],
+      "translation": {
+        "ru": "Она плохо себя чувствует."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0054",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "My",
+        "sister",
+        "is",
+        "not",
+        "helping",
+        "us"
+      ],
+      "answers": [
+        [
+          "My",
+          "sister",
+          "is",
+          "not",
+          "helping",
+          "us"
+        ]
+      ],
+      "translation": {
+        "ru": "Моя сестра нам не помогает."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0055",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "children",
+        "are",
+        "not",
+        "doing",
+        "their",
+        "homework"
+      ],
+      "answers": [
+        [
+          "The",
+          "children",
+          "are",
+          "not",
+          "doing",
+          "their",
+          "homework"
+        ]
+      ],
+      "translation": {
+        "ru": "Дети не делают домашнее задание."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0056",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "am",
+        "not",
+        "using",
+        "my",
+        "phone",
+        "now"
+      ],
+      "answers": [
+        [
+          "I",
+          "am",
+          "not",
+          "using",
+          "my",
+          "phone",
+          "now"
+        ]
+      ],
+      "translation": {
+        "ru": "Сейчас я не пользуюсь телефоном."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "am"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0057",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "It",
+        "is",
+        "not",
+        "snowing",
+        "today"
+      ],
+      "answers": [
+        [
+          "It",
+          "is",
+          "not",
+          "snowing",
+          "today"
+        ]
+      ],
+      "translation": {
+        "ru": "Сегодня не идёт снег."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0058",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "Her",
+        "parents",
+        "are",
+        "not",
+        "watching",
+        "TV"
+      ],
+      "answers": [
+        [
+          "Her",
+          "parents",
+          "are",
+          "not",
+          "watching",
+          "TV"
+        ]
+      ],
+      "translation": {
+        "ru": "Её родители не смотрят телевизор."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0059",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "are",
+        "not",
+        "listening",
+        "to",
+        "music"
+      ],
+      "answers": [
+        [
+          "We",
+          "are",
+          "not",
+          "listening",
+          "to",
+          "music"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы не слушаем музыку."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0060",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "is",
+        "not",
+        "working",
+        "from",
+        "home",
+        "today"
+      ],
+      "answers": [
+        [
+          "He",
+          "is",
+          "not",
+          "working",
+          "from",
+          "home",
+          "today"
+        ]
+      ],
+      "translation": {
+        "ru": "Сегодня он не работает из дома."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0061",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "is",
+        "not",
+        "talking",
+        "on",
+        "the",
+        "phone"
+      ],
+      "answers": [
+        [
+          "She",
+          "is",
+          "not",
+          "talking",
+          "on",
+          "the",
+          "phone"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не говорит по телефону."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0062",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "are",
+        "not",
+        "playing",
+        "football",
+        "today"
+      ],
+      "answers": [
+        [
+          "They",
+          "are",
+          "not",
+          "playing",
+          "football",
+          "today"
+        ]
+      ],
+      "translation": {
+        "ru": "Сегодня они не играют в футбол."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0063",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "You",
+        "are",
+        "not",
+        "listening",
+        "carefully"
+      ],
+      "answers": [
+        [
+          "You",
+          "are",
+          "not",
+          "listening",
+          "carefully"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты не слушаешь внимательно."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0064",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "My",
+        "brother",
+        "is",
+        "not",
+        "studying",
+        "at",
+        "the",
+        "moment"
+      ],
+      "answers": [
+        [
+          "My",
+          "brother",
+          "is",
+          "not",
+          "studying",
+          "at",
+          "the",
+          "moment"
+        ]
+      ],
+      "translation": {
+        "ru": "В данный момент мой брат не занимается."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0065",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "train",
+        "is",
+        "not",
+        "moving"
+      ],
+      "answers": [
+        [
+          "The",
+          "train",
+          "is",
+          "not",
+          "moving"
+        ]
+      ],
+      "translation": {
+        "ru": "Поезд не движется."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0066",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "am",
+        "not",
+        "eating",
+        "meat",
+        "today"
+      ],
+      "answers": [
+        [
+          "I",
+          "am",
+          "not",
+          "eating",
+          "meat",
+          "today"
+        ]
+      ],
+      "translation": {
+        "ru": "Сегодня я не ем мясо."
+      },
+      "explanation": {
+        "ru": "Present Continuous, отрицание: am / is / are + not + V-ing.",
+        "en": "Present Continuous negative: am / is / are + not + V-ing."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "negative",
+        "am"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0067",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Are",
+        "you",
+        "listening",
+        "to",
+        "me"
+      ],
+      "answers": [
+        [
+          "Are",
+          "you",
+          "listening",
+          "to",
+          "me"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты меня слушаешь?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0068",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Is",
+        "she",
+        "working",
+        "today"
+      ],
+      "answers": [
+        [
+          "Is",
+          "she",
+          "working",
+          "today"
+        ]
+      ],
+      "translation": {
+        "ru": "Она сегодня работает?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0069",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Are",
+        "they",
+        "coming",
+        "to",
+        "the",
+        "party"
+      ],
+      "answers": [
+        [
+          "Are",
+          "they",
+          "coming",
+          "to",
+          "the",
+          "party"
+        ]
+      ],
+      "translation": {
+        "ru": "Они идут на вечеринку?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0070",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Is",
+        "he",
+        "sleeping"
+      ],
+      "answers": [
+        [
+          "Is",
+          "he",
+          "sleeping"
+        ]
+      ],
+      "translation": {
+        "ru": "Он спит?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0071",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Are",
+        "we",
+        "going",
+        "the",
+        "right",
+        "way"
+      ],
+      "answers": [
+        [
+          "Are",
+          "we",
+          "going",
+          "the",
+          "right",
+          "way"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы идём в правильном направлении?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0072",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Is",
+        "your",
+        "sister",
+        "studying"
+      ],
+      "answers": [
+        [
+          "Is",
+          "your",
+          "sister",
+          "studying"
+        ]
+      ],
+      "translation": {
+        "ru": "Твоя сестра занимается?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0073",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Am",
+        "I",
+        "doing",
+        "this",
+        "correctly"
+      ],
+      "answers": [
+        [
+          "Am",
+          "I",
+          "doing",
+          "this",
+          "correctly"
+        ]
+      ],
+      "translation": {
+        "ru": "Я делаю это правильно?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "am"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0074",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Is",
+        "it",
+        "raining",
+        "outside"
+      ],
+      "answers": [
+        [
+          "Is",
+          "it",
+          "raining",
+          "outside"
+        ]
+      ],
+      "translation": {
+        "ru": "На улице идёт дождь?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0075",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Are",
+        "the",
+        "children",
+        "playing",
+        "in",
+        "the",
+        "garden"
+      ],
+      "answers": [
+        [
+          "Are",
+          "the",
+          "children",
+          "playing",
+          "in",
+          "the",
+          "garden"
+        ]
+      ],
+      "translation": {
+        "ru": "Дети играют в саду?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0076",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Is",
+        "the",
+        "bus",
+        "coming"
+      ],
+      "answers": [
+        [
+          "Is",
+          "the",
+          "bus",
+          "coming"
+        ]
+      ],
+      "translation": {
+        "ru": "Автобус едет?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0077",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Are",
+        "you",
+        "waiting",
+        "for",
+        "someone"
+      ],
+      "answers": [
+        [
+          "Are",
+          "you",
+          "waiting",
+          "for",
+          "someone"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты кого-то ждёшь?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0078",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Is",
+        "she",
+        "wearing",
+        "a",
+        "red",
+        "dress"
+      ],
+      "answers": [
+        [
+          "Is",
+          "she",
+          "wearing",
+          "a",
+          "red",
+          "dress"
+        ]
+      ],
+      "translation": {
+        "ru": "Она в красном платье?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0079",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Are",
+        "they",
+        "watching",
+        "television"
+      ],
+      "answers": [
+        [
+          "Are",
+          "they",
+          "watching",
+          "television"
+        ]
+      ],
+      "translation": {
+        "ru": "Они смотрят телевизор?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0080",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Is",
+        "he",
+        "working",
+        "from",
+        "home",
+        "this",
+        "week"
+      ],
+      "answers": [
+        [
+          "Is",
+          "he",
+          "working",
+          "from",
+          "home",
+          "this",
+          "week"
+        ]
+      ],
+      "translation": {
+        "ru": "На этой неделе он работает из дома?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0081",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Are",
+        "you",
+        "cooking",
+        "dinner",
+        "now"
+      ],
+      "answers": [
+        [
+          "Are",
+          "you",
+          "cooking",
+          "dinner",
+          "now"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты сейчас готовишь ужин?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0082",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Is",
+        "your",
+        "brother",
+        "playing",
+        "football"
+      ],
+      "answers": [
+        [
+          "Is",
+          "your",
+          "brother",
+          "playing",
+          "football"
+        ]
+      ],
+      "translation": {
+        "ru": "Твой брат играет в футбол?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0083",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Are",
+        "we",
+        "meeting",
+        "at",
+        "eight"
+      ],
+      "answers": [
+        [
+          "Are",
+          "we",
+          "meeting",
+          "at",
+          "eight"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы встречаемся в восемь?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0084",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Is",
+        "the",
+        "train",
+        "leaving",
+        "now"
+      ],
+      "answers": [
+        [
+          "Is",
+          "the",
+          "train",
+          "leaving",
+          "now"
+        ]
+      ],
+      "translation": {
+        "ru": "Поезд сейчас отправляется?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "is"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0085",
+      "type": "build",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "buildKind": "question",
+      "words": [
+        "Are",
+        "her",
+        "friends",
+        "coming",
+        "tomorrow"
+      ],
+      "answers": [
+        [
+          "Are",
+          "her",
+          "friends",
+          "coming",
+          "tomorrow"
+        ]
+      ],
+      "translation": {
+        "ru": "Её друзья приезжают завтра?"
+      },
+      "explanation": {
+        "ru": "Present Continuous, вопрос: Am / Is / Are + V-ing?",
+        "en": "Present Continuous question: Am / Is / Are + V-ing?"
+      },
+      "tags": [
+        "tense-present-continuous",
+        "question",
+        "are"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0086",
+      "type": "match",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте тип предложения и пример.",
+        "en": "Match each sentence type with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "(+) утверждение: is + V-ing",
+            "en": "(+) affirmative: is + V-ing"
+          },
+          "right": "She is reading a book."
+        },
+        {
+          "left": {
+            "ru": "(–) отрицание: are not + V-ing",
+            "en": "(–) negative: are not + V-ing"
+          },
+          "right": "They are not watching TV."
+        },
+        {
+          "left": {
+            "ru": "(?) вопрос: Is + V-ing?",
+            "en": "(?) question: Is + V-ing?"
+          },
+          "right": "Is he sleeping?"
+        },
+        {
+          "left": {
+            "ru": "краткий ответ",
+            "en": "short answer"
+          },
+          "right": "Yes, she is."
+        }
+      ],
+      "explanation": {
+        "ru": "Формула: am / is / are + V-ing; отрицание добавляет not, вопрос начинается с формы be.",
+        "en": "The formula is am / is / are + V-ing; the negative adds not and the question begins with the form of be."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "match",
+        "form"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0087",
+      "type": "match",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте правило написания и пример.",
+        "en": "Match each spelling rule with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "make → making: выпадает e",
+            "en": "make → making: e is dropped"
+          },
+          "right": "She is making dinner."
+        },
+        {
+          "left": {
+            "ru": "run → running: удвоение",
+            "en": "run → running: consonant doubles"
+          },
+          "right": "The dog is running outside."
+        },
+        {
+          "left": {
+            "ru": "написание: lie → lying: ie → y",
+            "en": "lie → lying: ie becomes y"
+          },
+          "right": "The cat is lying on the bed."
+        },
+        {
+          "left": {
+            "ru": "написание: study → studying",
+            "en": "study → studying"
+          },
+          "right": "He is studying in his room."
+        }
+      ],
+      "explanation": {
+        "ru": "Перед -ing конечная e выпадает, короткая согласная удваивается, -ie переходит в -y.",
+        "en": "Before -ing a final e is dropped, a short consonant doubles, and -ie becomes -y."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "match",
+        "spelling"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0088",
+      "type": "match",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте маркер и пример.",
+        "en": "Match each marker with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "now — сейчас",
+            "en": "now — сейчас"
+          },
+          "right": "I am working now."
+        },
+        {
+          "left": {
+            "ru": "at the moment — в данный момент",
+            "en": "at the moment — в данный момент"
+          },
+          "right": "She is talking at the moment."
+        },
+        {
+          "left": {
+            "ru": "Look! — смотри!",
+            "en": "Look! — смотри!"
+          },
+          "right": "Look! It is snowing."
+        },
+        {
+          "left": {
+            "ru": "this week — на этой неделе",
+            "en": "this week — на этой неделе"
+          },
+          "right": "We are staying in a hotel this week."
+        }
+      ],
+      "explanation": {
+        "ru": "Маркеры now, at the moment, Look! и this week показывают действие вокруг настоящего.",
+        "en": "The markers now, at the moment, Look! and this week show an action around now."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "match",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0089",
+      "type": "match",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "действие сейчас",
+            "en": "action now"
+          },
+          "right": "The children are playing outside."
+        },
+        {
+          "left": {
+            "ru": "временная ситуация",
+            "en": "temporary situation"
+          },
+          "right": "My cousin is staying with us this month."
+        },
+        {
+          "left": {
+            "ru": "план на будущее",
+            "en": "future arrangement"
+          },
+          "right": "We are meeting at six tomorrow."
+        },
+        {
+          "left": {
+            "ru": "изменение или тенденция",
+            "en": "change or trend"
+          },
+          "right": "Prices are going up."
+        }
+      ],
+      "explanation": {
+        "ru": "Present Continuous называет действие сейчас, временную ситуацию, договорённый план и тенденцию.",
+        "en": "Present Continuous names an action now, a temporary situation, a fixed arrangement and a trend."
+      },
+      "tags": [
+        "tense-present-continuous",
+        "match",
+        "meaning"
+      ]
+    },
+    {
+      "id": "tense-present-continuous-0090",
+      "type": "match",
+      "ruleId": "tense-present-continuous",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте время и пример.",
+        "en": "Match each tense with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "обычно — Present Simple",
+            "en": "usually — Present Simple"
+          },
+          "right": "He usually walks to work."
+        },
+        {
+          "left": {
+            "ru": "сейчас — Present Continuous",
+            "en": "now — Present Continuous"
+          },
+          "right": "He is walking to work now."
+        },
+        {
+          "left": {
+            "ru": "каждый день — Present Simple",
+            "en": "every day — Present Simple"
+          },
+          "right": "She reads every day."
+        },
+        {
+          "left": {
+            "ru": "в данный момент — Present Continuous",
+            "en": "at the moment — Present Continuous"
+          },
+          "right": "She is reading at the moment."
+        }
+      ],
+      "explanation": {
+        "ru": "Привычка требует Present Simple, действие сейчас — Present Continuous.",
+        "en": "A habit takes Present Simple, while an action now takes Present Continuous."
       },
       "tags": [
         "tense-present-continuous",

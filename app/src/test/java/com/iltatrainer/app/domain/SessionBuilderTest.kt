@@ -162,6 +162,31 @@ class SessionBuilderTest {
     }
 
     @Test
+    fun `tense topic session contains ten choice five match and fifteen build questions`() {
+        val pool = (1..20).map { i -> question("c$i", "tense-pool") } +
+            (1..10).map { i -> question("m$i", "tense-pool").copy(type = "match") } +
+            (1..60).map { i ->
+                Question(
+                    id = "b$i", type = "build", ruleId = "tense-pool",
+                    words = listOf("I", "work", "here"),
+                    answers = listOf(listOf("I", "work", "here")),
+                    buildKind = "affirmative",
+                    explanation = Bilingual(ru = "тест", en = "test"),
+                )
+            }
+        val result = SessionBuilder.build(
+            config = SessionConfig(PracticeMode.TOPIC, ruleId = "tense-pool", size = 30),
+            questions = pool,
+            state = ProgressState(),
+            random = Random(6),
+        )
+        assertEquals(30, result.size)
+        assertEquals(10, result.count { it.type == "choice" })
+        assertEquals(5, result.count { it.type == "match" })
+        assertEquals(15, result.count { it.type == "build" })
+    }
+
+    @Test
     fun `topic session contains five matches and twenty five choice questions from a pool`() {
         val pool = (1..5).map { index ->
             Question(

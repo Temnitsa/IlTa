@@ -17,8 +17,8 @@
         "en": "Past Perfect"
       },
       "summary": {
-        "ru": "Past Perfect (had + past participle) показывает, что действие завершилось раньше другого события в прошлом, и часто идёт с by the time, when, already, just и never.",
-        "en": "Past Perfect (had + past participle) shows that an action was completed before another past event, and it often goes with by the time, when, already, just and never."
+        "ru": "**had + V3** для действия, которое завершилось раньше другого прошлого; маркеры: *by the time*, *already*, *never*.",
+        "en": "**had + V3** for an action completed before another past action; markers: *by the time*, *already*, *never*."
       },
       "sections": [
         {
@@ -27,54 +27,53 @@
             "en": "Form"
           },
           "body": {
-            "ru": "Past Perfect строится одинаково для всех лиц: had + третья форма глагола (past participle). Отрицание — had not, в вопросе had выходит на первое место. В разговорной речи had часто сокращается.",
-            "en": "Past Perfect has the same form for all persons: had + the third form of the verb (past participle). The negative is had not, and in questions had comes first. In conversation had is often contracted."
+            "ru": "**(+)** had + V3 — утверждение\n**(–)** had not + V3\n**(?)** Had + V3?\n**V3** = go → gone, see → seen, finish → finished.",
+            "en": "**(+)** had + V3\n**(–)** had not + V3\n**(?)** Had + V3?\n**V3** = go → gone, see → seen, finish → finished."
           },
           "examples": [
             "She had finished the report.",
             "They had not arrived.",
-            "Had you seen him before?",
-            "We had already eaten."
+            "Had you seen him before?"
           ]
         },
         {
           "heading": {
-            "ru": "Значение: раньше другого прошлого",
-            "en": "Meaning: earlier than another past action"
+            "ru": "Когда используем",
+            "en": "When we use it"
           },
           "body": {
-            "ru": "Past Perfect нужен, когда в рассказе о прошлом важно показать, что одно действие произошло раньше другого. Более позднее действие обычно стоит в Past Simple, а более раннее — в Past Perfect. Past Perfect также нужен после it was the first time, в косвенной речи (backshift) и в пассиве had been + V3.",
-            "en": "Past Perfect is used when a past narrative needs to show that one action happened before another. The later action is usually in Past Simple, and the earlier one is in Past Perfect. Past Perfect is also used after it was the first time, in reported speech (backshift) and in the passive had been + V3."
+            "ru": "- действие **раньше** другого прошлого\n- *by the time* + Past Simple\n- *It was the first time*\n- косвенная речь после *said*",
+            "en": "- an action **earlier** than another past action\n- *by the time* + Past Simple\n- *It was the first time*\n- reported speech after *said*"
           },
           "examples": [
             "When we got home, the film had started.",
             "By the time I called, she had left.",
-            "The match had started when we turned on the TV."
+            "She said she had finished the project."
           ]
         },
         {
           "heading": {
-            "ru": "Маркеры и выбор времени",
-            "en": "Markers and choosing the tense"
+            "ru": "Маркеры",
+            "en": "Markers"
           },
           "body": {
-            "ru": "Past Perfect часто идёт с by the time, when, before, after, already, just, never, ever и yet. После before и after иногда возможен и Past Simple, если порядок действий ясен. С конкретным прошедшим временем (last year, yesterday) нужен Past Simple, а не Past Perfect.",
-            "en": "Past Perfect often goes with by the time, when, before, after, already, just, never, ever and yet. After before and after, Past Simple is sometimes possible when the order is clear. With a specific past time such as last year or yesterday, use Past Simple, not Past Perfect."
+            "ru": "- *by the time*, *when*, *before*, *after* — время\n- *already*, *just*, *never*, *ever*, *yet* — частота",
+            "en": "- *by the time*, *when*, *before*, *after*\n- *already*, *just*, *never*, *ever*, *yet*"
           },
           "examples": [
             "I had already left when he phoned.",
-            "She had just finished when the lights went out.",
-            "They moved house last year."
+            "She had just finished.",
+            "He had never flown before."
           ]
         },
         {
           "heading": {
-            "ru": "Типичные ошибки",
-            "en": "Common mistakes"
+            "ru": "Ошибки",
+            "en": "Mistakes"
           },
           "body": {
-            "ru": "Не ставьте Past Perfect без опоры на другое прошлое событие: одиночное действие в прошлом передаёт Past Simple. Не используйте форму Past Simple вместо причастия (had went — ошибка). В вопросах и отрицаниях сохраняются had и третья форма глагола.",
-            "en": "Do not use Past Perfect without a later past reference: a single past action takes Past Simple. Do not use the Past Simple form instead of the past participle (had went is wrong). Questions and negatives keep had plus the third form of the verb."
+            "ru": "- **не** ставим Past Perfect без второго прошлого → Past Simple\n- **не** *had went* → *had gone*\n- **не** ставим *yesterday/last year* с Past Perfect",
+            "en": "- **no** Past Perfect without a second past action → Past Simple\n- **no** *had went* → *had gone*\n- **no** *yesterday/last year* with Past Perfect"
           },
           "examples": [
             "He had gone home before the party ended.",
@@ -155,8 +154,8 @@
       ],
       "answer": "fallen",
       "explanation": {
-        "ru": "После had нужна третья форма глагола: fall — fell — fallen.",
-        "en": "After had we need the third form of the verb: fall — fell — fallen."
+        "ru": "После had нужна **V3**: fall — fell — fallen.",
+        "en": "After had we need **V3**: fall — fell — fallen."
       },
       "tags": [
         "tense-past-perfect",
@@ -285,8 +284,8 @@
       ],
       "answer": "received",
       "explanation": {
-        "ru": "После had в отрицании стоит третья форма глагола: had not received.",
-        "en": "After had in a negative we use the third form: had not received."
+        "ru": "Отрицание: **had not + V3**.",
+        "en": "Negative: **had not + V3**."
       },
       "tags": [
         "tense-past-perfect",
@@ -363,8 +362,8 @@
       ],
       "answer": "seen",
       "explanation": {
-        "ru": "После had never нужна третья форма глагола: seen.",
-        "en": "After had never we need the third form of the verb: seen."
+        "ru": "После had never нужна **V3**: seen.",
+        "en": "After had never we need **V3**: seen."
       },
       "tags": [
         "tense-past-perfect",
@@ -389,8 +388,8 @@
       ],
       "answer": "read",
       "explanation": {
-        "ru": "После had в косвенном вопросе стоит третья форма глагола read.",
-        "en": "After had in this reported question we need the third form read."
+        "ru": "В косвенном вопросе после had — **V3** read.",
+        "en": "In this reported question had is followed by **V3** read."
       },
       "tags": [
         "tense-past-perfect",
@@ -415,8 +414,8 @@
       ],
       "answer": "won",
       "explanation": {
-        "ru": "После had ставим третью форму глагола win — won.",
-        "en": "After had we use the third form of win — won."
+        "ru": "После had ставим **V3** win → won.",
+        "en": "After had we use **V3** win → won."
       },
       "tags": [
         "tense-past-perfect",
@@ -493,8 +492,8 @@
       ],
       "answer": "Had",
       "explanation": {
-        "ru": "Вопрос о более раннем прошлом: Had + подлежащее + третья форма (flown).",
-        "en": "For an earlier past question we use Had + subject + third form (flown)."
+        "ru": "Вопрос о более раннем прошлом: **Had + V3?**",
+        "en": "An earlier past question: **Had + V3?**"
       },
       "tags": [
         "tense-past-perfect",
@@ -545,8 +544,8 @@
       ],
       "answer": "had been destroyed",
       "explanation": {
-        "ru": "Страдательный Past Perfect: had been + третья форма destroyed.",
-        "en": "Past Perfect passive: had been + the third form destroyed."
+        "ru": "Страдательный Past Perfect: **had been + V3** (destroyed).",
+        "en": "Past Perfect passive: **had been + V3**."
       },
       "tags": [
         "tense-past-perfect",
@@ -571,8 +570,8 @@
       ],
       "answer": "sold",
       "explanation": {
-        "ru": "После had нужна третья форма sell — sold.",
-        "en": "After had we need the third form of sell — sold."
+        "ru": "После had нужна **V3** sell → sold.",
+        "en": "After had we need **V3** sell → sold."
       },
       "tags": [
         "tense-past-perfect",
@@ -644,7 +643,8 @@
         "tense-past-perfect",
         "build",
         "before"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-past-perfect-0022",
@@ -690,7 +690,8 @@
         "tense-past-perfect",
         "build",
         "by-the-time"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-past-perfect-0023",
@@ -732,7 +733,8 @@
         "tense-past-perfect",
         "build",
         "already"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-past-perfect-0024",
@@ -763,14 +765,15 @@
         "ru": "Ты сделал домашнюю работу до ужина?"
       },
       "explanation": {
-        "ru": "Вопрос в Past Perfect: Had + подлежащее + третья форма глагола.",
-        "en": "Past Perfect question: Had + subject + the third form of the verb."
+        "ru": "Вопрос Past Perfect: **Had + V3?**",
+        "en": "Past Perfect question: **Had + V3?**"
       },
       "tags": [
         "tense-past-perfect",
         "build",
         "question"
-      ]
+      ],
+      "buildKind": "question"
     },
     {
       "id": "tense-past-perfect-0025",
@@ -805,14 +808,15 @@
         "ru": "Гости ещё не ушли, когда началась гроза."
       },
       "explanation": {
-        "ru": "Отрицательный Past Perfect: had not + третья форма; when вводит более позднее действие.",
-        "en": "Negative Past Perfect: had not + third form; when introduces the later action."
+        "ru": "Отрицание: **had not + V3**; when вводит более позднее действие.",
+        "en": "Negative: **had not + V3**; when introduces the later action."
       },
       "tags": [
         "tense-past-perfect",
         "build",
         "negative"
-      ]
+      ],
+      "buildKind": "negative"
     },
     {
       "id": "tense-past-perfect-0026",
@@ -903,8 +907,8 @@
         }
       ],
       "explanation": {
-        "ru": "Had + третья форма — утверждение; had not — отрицание; had в начале — вопрос; had been + третья форма — пассив.",
-        "en": "Had + third form is the affirmative; had not is the negative; had at the start makes a question; had been + third form is the passive."
+        "ru": "**had + V3** — утверждение; **had not** — отрицание; **Had + V3?** — вопрос; **had been + V3** — пассив.",
+        "en": "**had + V3** affirmative; **had not** negative; **Had + V3?** question; **had been + V3** passive."
       },
       "tags": [
         "tense-past-perfect",
@@ -1052,6 +1056,2644 @@
       "explanation": {
         "ru": "Past Perfect показывает более раннее действие, Past Simple — законченное время, Past Continuous — процесс, Present Perfect — результат к настоящему.",
         "en": "Past Perfect shows an earlier action, Past Simple a finished time, Past Continuous a process, and Present Perfect a result now."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "match",
+        "tenses"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0031",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "film",
+        "had",
+        "started",
+        "when",
+        "we",
+        "arrived",
+        "at",
+        "the",
+        "cinema"
+      ],
+      "answers": [
+        [
+          "The",
+          "film",
+          "had",
+          "started",
+          "when",
+          "we",
+          "arrived",
+          "at",
+          "the",
+          "cinema"
+        ]
+      ],
+      "translation": {
+        "ru": "Фильм начался, когда мы пришли в кинотеатр."
+      },
+      "explanation": {
+        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
+        "en": "Past Perfect: had + V3. The action was completed before another past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0032",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "had",
+        "already",
+        "eaten",
+        "breakfast",
+        "before",
+        "the",
+        "children",
+        "woke",
+        "up"
+      ],
+      "answers": [
+        [
+          "He",
+          "had",
+          "already",
+          "eaten",
+          "breakfast",
+          "before",
+          "the",
+          "children",
+          "woke",
+          "up"
+        ]
+      ],
+      "translation": {
+        "ru": "Он уже позавтракал до того, как дети проснулись."
+      },
+      "explanation": {
+        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
+        "en": "Past Perfect: had + V3. The action was completed before another past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0033",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "had",
+        "booked",
+        "the",
+        "hotel",
+        "before",
+        "the",
+        "prices",
+        "went",
+        "up"
+      ],
+      "answers": [
+        [
+          "They",
+          "had",
+          "booked",
+          "the",
+          "hotel",
+          "before",
+          "the",
+          "prices",
+          "went",
+          "up"
+        ]
+      ],
+      "translation": {
+        "ru": "Они забронировали отель до того, как цены выросли."
+      },
+      "explanation": {
+        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
+        "en": "Past Perfect: had + V3. The action was completed before another past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0034",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "had",
+        "waited",
+        "for",
+        "half",
+        "an",
+        "hour",
+        "by",
+        "the",
+        "time",
+        "the",
+        "bus",
+        "came"
+      ],
+      "answers": [
+        [
+          "We",
+          "had",
+          "waited",
+          "for",
+          "half",
+          "an",
+          "hour",
+          "by",
+          "the",
+          "time",
+          "the",
+          "bus",
+          "came"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы ждали уже полчаса, когда пришёл автобус."
+      },
+      "explanation": {
+        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
+        "en": "Past Perfect: had + V3. The action was completed before another past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0035",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "had",
+        "finished",
+        "the",
+        "project",
+        "before",
+        "the",
+        "deadline"
+      ],
+      "answers": [
+        [
+          "She",
+          "had",
+          "finished",
+          "the",
+          "project",
+          "before",
+          "the",
+          "deadline"
+        ]
+      ],
+      "translation": {
+        "ru": "Она закончила проект до срока."
+      },
+      "explanation": {
+        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
+        "en": "Past Perfect: had + V3. The action was completed before another past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0036",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "bus",
+        "had",
+        "left",
+        "when",
+        "we",
+        "reached",
+        "the",
+        "stop"
+      ],
+      "answers": [
+        [
+          "The",
+          "bus",
+          "had",
+          "left",
+          "when",
+          "we",
+          "reached",
+          "the",
+          "stop"
+        ]
+      ],
+      "translation": {
+        "ru": "Автобус ушёл, когда мы добрались до остановки."
+      },
+      "explanation": {
+        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
+        "en": "Past Perfect: had + V3. The action was completed before another past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0037",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "had",
+        "seen",
+        "the",
+        "film",
+        "before",
+        "it",
+        "won",
+        "the",
+        "award"
+      ],
+      "answers": [
+        [
+          "We",
+          "had",
+          "seen",
+          "the",
+          "film",
+          "before",
+          "it",
+          "won",
+          "the",
+          "award"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы видели фильм до того, как он получил награду."
+      },
+      "explanation": {
+        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
+        "en": "Past Perfect: had + V3. The action was completed before another past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0038",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "My",
+        "parents",
+        "had",
+        "lived",
+        "in",
+        "Berlin",
+        "before",
+        "they",
+        "moved",
+        "to",
+        "Rome"
+      ],
+      "answers": [
+        [
+          "My",
+          "parents",
+          "had",
+          "lived",
+          "in",
+          "Berlin",
+          "before",
+          "they",
+          "moved",
+          "to",
+          "Rome"
+        ]
+      ],
+      "translation": {
+        "ru": "Мои родители жили в Берлине до переезда в Рим."
+      },
+      "explanation": {
+        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
+        "en": "Past Perfect: had + V3. The action was completed before another past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0039",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "students",
+        "had",
+        "read",
+        "the",
+        "whole",
+        "book",
+        "before",
+        "the",
+        "test"
+      ],
+      "answers": [
+        [
+          "The",
+          "students",
+          "had",
+          "read",
+          "the",
+          "whole",
+          "book",
+          "before",
+          "the",
+          "test"
+        ]
+      ],
+      "translation": {
+        "ru": "Студенты прочитали всю книгу до теста."
+      },
+      "explanation": {
+        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
+        "en": "Past Perfect: had + V3. The action was completed before another past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0040",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "had",
+        "repaired",
+        "his",
+        "bike",
+        "before",
+        "the",
+        "race",
+        "began"
+      ],
+      "answers": [
+        [
+          "He",
+          "had",
+          "repaired",
+          "his",
+          "bike",
+          "before",
+          "the",
+          "race",
+          "began"
+        ]
+      ],
+      "translation": {
+        "ru": "Он починил велосипед до начала гонки."
+      },
+      "explanation": {
+        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
+        "en": "Past Perfect: had + V3. The action was completed before another past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0041",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "had",
+        "sent",
+        "the",
+        "parcel",
+        "by",
+        "the",
+        "time",
+        "they",
+        "called"
+      ],
+      "answers": [
+        [
+          "I",
+          "had",
+          "sent",
+          "the",
+          "parcel",
+          "by",
+          "the",
+          "time",
+          "they",
+          "called"
+        ]
+      ],
+      "translation": {
+        "ru": "Я отправил посылку к тому времени, как они позвонили."
+      },
+      "explanation": {
+        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
+        "en": "Past Perfect: had + V3. The action was completed before another past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0042",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "guests",
+        "had",
+        "arrived",
+        "before",
+        "the",
+        "food",
+        "was",
+        "ready"
+      ],
+      "answers": [
+        [
+          "The",
+          "guests",
+          "had",
+          "arrived",
+          "before",
+          "the",
+          "food",
+          "was",
+          "ready"
+        ]
+      ],
+      "translation": {
+        "ru": "Гости пришли раньше, чем была готова еда."
+      },
+      "explanation": {
+        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
+        "en": "Past Perfect: had + V3. The action was completed before another past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0043",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "the",
+        "time",
+        "the",
+        "sun",
+        "came",
+        "out",
+        "the",
+        "rain",
+        "had",
+        "stopped"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "time",
+          "the",
+          "sun",
+          "came",
+          "out",
+          "the",
+          "rain",
+          "had",
+          "stopped"
+        ]
+      ],
+      "translation": {
+        "ru": "К тому времени, как выглянуло солнце, дождь прекратился."
+      },
+      "explanation": {
+        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
+        "en": "Past Perfect: had + V3. The action was completed before another past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0044",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "had",
+        "known",
+        "each",
+        "other",
+        "for",
+        "many",
+        "years",
+        "before",
+        "the",
+        "wedding"
+      ],
+      "answers": [
+        [
+          "They",
+          "had",
+          "known",
+          "each",
+          "other",
+          "for",
+          "many",
+          "years",
+          "before",
+          "the",
+          "wedding"
+        ]
+      ],
+      "translation": {
+        "ru": "Они знали друг друга много лет до свадьбы."
+      },
+      "explanation": {
+        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
+        "en": "Past Perfect: had + V3. The action was completed before another past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0045",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "had",
+        "never",
+        "eaten",
+        "Thai",
+        "food",
+        "before",
+        "that",
+        "trip"
+      ],
+      "answers": [
+        [
+          "She",
+          "had",
+          "never",
+          "eaten",
+          "Thai",
+          "food",
+          "before",
+          "that",
+          "trip"
+        ]
+      ],
+      "translation": {
+        "ru": "Она никогда не ела тайскую еду до той поездки."
+      },
+      "explanation": {
+        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
+        "en": "Past Perfect: had + V3. The action was completed before another past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0046",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "had",
+        "just",
+        "finished",
+        "supper",
+        "when",
+        "the",
+        "storm",
+        "broke"
+      ],
+      "answers": [
+        [
+          "We",
+          "had",
+          "just",
+          "finished",
+          "supper",
+          "when",
+          "the",
+          "storm",
+          "broke"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы только что закончили ужин, когда началась гроза."
+      },
+      "explanation": {
+        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
+        "en": "Past Perfect: had + V3. The action was completed before another past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0047",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "children",
+        "had",
+        "already",
+        "gone",
+        "to",
+        "bed",
+        "when",
+        "their",
+        "father",
+        "came",
+        "home"
+      ],
+      "answers": [
+        [
+          "The",
+          "children",
+          "had",
+          "already",
+          "gone",
+          "to",
+          "bed",
+          "when",
+          "their",
+          "father",
+          "came",
+          "home"
+        ]
+      ],
+      "translation": {
+        "ru": "Дети уже легли спать, когда отец вернулся домой."
+      },
+      "explanation": {
+        "ru": "Past Perfect: had + V3. Действие завершилось раньше другого прошлого.",
+        "en": "Past Perfect: had + V3. The action was completed before another past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0048",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "had",
+        "not",
+        "seen",
+        "the",
+        "message",
+        "until",
+        "the",
+        "evening"
+      ],
+      "answers": [
+        [
+          "I",
+          "had",
+          "not",
+          "seen",
+          "the",
+          "message",
+          "until",
+          "the",
+          "evening"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не видел сообщение до самого вечера."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0049",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "had",
+        "not",
+        "finished",
+        "the",
+        "work",
+        "before",
+        "the",
+        "deadline"
+      ],
+      "answers": [
+        [
+          "They",
+          "had",
+          "not",
+          "finished",
+          "the",
+          "work",
+          "before",
+          "the",
+          "deadline"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не закончили работу до срока."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0050",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "had",
+        "not",
+        "been",
+        "to",
+        "London",
+        "before",
+        "that",
+        "spring"
+      ],
+      "answers": [
+        [
+          "She",
+          "had",
+          "not",
+          "been",
+          "to",
+          "London",
+          "before",
+          "that",
+          "spring"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не была в Лондоне до той весны."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0051",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "had",
+        "not",
+        "met",
+        "each",
+        "other",
+        "before",
+        "the",
+        "conference"
+      ],
+      "answers": [
+        [
+          "We",
+          "had",
+          "not",
+          "met",
+          "each",
+          "other",
+          "before",
+          "the",
+          "conference"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы не встречались до конференции."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0052",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "shop",
+        "had",
+        "not",
+        "opened",
+        "when",
+        "we",
+        "arrived"
+      ],
+      "answers": [
+        [
+          "The",
+          "shop",
+          "had",
+          "not",
+          "opened",
+          "when",
+          "we",
+          "arrived"
+        ]
+      ],
+      "translation": {
+        "ru": "Магазин ещё не открылся, когда мы пришли."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0053",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "had",
+        "not",
+        "eaten",
+        "anything",
+        "since",
+        "morning"
+      ],
+      "answers": [
+        [
+          "He",
+          "had",
+          "not",
+          "eaten",
+          "anything",
+          "since",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Он ничего не ел с самого утра."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0054",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "children",
+        "had",
+        "not",
+        "done",
+        "their",
+        "homework",
+        "when",
+        "the",
+        "teacher",
+        "came"
+      ],
+      "answers": [
+        [
+          "The",
+          "children",
+          "had",
+          "not",
+          "done",
+          "their",
+          "homework",
+          "when",
+          "the",
+          "teacher",
+          "came"
+        ]
+      ],
+      "translation": {
+        "ru": "Дети не сделали домашнюю работу, когда пришёл учитель."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0055",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "had",
+        "not",
+        "heard",
+        "the",
+        "news",
+        "before",
+        "you",
+        "told",
+        "me"
+      ],
+      "answers": [
+        [
+          "I",
+          "had",
+          "not",
+          "heard",
+          "the",
+          "news",
+          "before",
+          "you",
+          "told",
+          "me"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не слышал новость до того, как ты мне рассказал."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0056",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "had",
+        "not",
+        "decided",
+        "anything",
+        "by",
+        "the",
+        "end",
+        "of",
+        "the",
+        "meeting"
+      ],
+      "answers": [
+        [
+          "They",
+          "had",
+          "not",
+          "decided",
+          "anything",
+          "by",
+          "the",
+          "end",
+          "of",
+          "the",
+          "meeting"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу собрания они ничего не решили."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0057",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "had",
+        "not",
+        "read",
+        "the",
+        "report",
+        "before",
+        "the",
+        "discussion"
+      ],
+      "answers": [
+        [
+          "She",
+          "had",
+          "not",
+          "read",
+          "the",
+          "report",
+          "before",
+          "the",
+          "discussion"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не прочитала отчёт до обсуждения."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0058",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "had",
+        "not",
+        "reached",
+        "the",
+        "hotel",
+        "when",
+        "the",
+        "storm",
+        "started"
+      ],
+      "answers": [
+        [
+          "We",
+          "had",
+          "not",
+          "reached",
+          "the",
+          "hotel",
+          "when",
+          "the",
+          "storm",
+          "started"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы не добрались до отеля, когда началась гроза."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0059",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "train",
+        "had",
+        "not",
+        "left",
+        "when",
+        "we",
+        "reached",
+        "the",
+        "platform"
+      ],
+      "answers": [
+        [
+          "The",
+          "train",
+          "had",
+          "not",
+          "left",
+          "when",
+          "we",
+          "reached",
+          "the",
+          "platform"
+        ]
+      ],
+      "translation": {
+        "ru": "Поезд ещё не ушёл, когда мы добрались до платформы."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0060",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "had",
+        "not",
+        "started",
+        "his",
+        "new",
+        "job",
+        "at",
+        "that",
+        "time"
+      ],
+      "answers": [
+        [
+          "He",
+          "had",
+          "not",
+          "started",
+          "his",
+          "new",
+          "job",
+          "at",
+          "that",
+          "time"
+        ]
+      ],
+      "translation": {
+        "ru": "В то время он ещё не начал новую работу."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0061",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "had",
+        "not",
+        "cleaned",
+        "the",
+        "flat",
+        "before",
+        "the",
+        "guests",
+        "arrived"
+      ],
+      "answers": [
+        [
+          "They",
+          "had",
+          "not",
+          "cleaned",
+          "the",
+          "flat",
+          "before",
+          "the",
+          "guests",
+          "arrived"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не убрали квартиру до прихода гостей."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0062",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "had",
+        "not",
+        "finished",
+        "the",
+        "letter",
+        "when",
+        "the",
+        "phone",
+        "rang"
+      ],
+      "answers": [
+        [
+          "I",
+          "had",
+          "not",
+          "finished",
+          "the",
+          "letter",
+          "when",
+          "the",
+          "phone",
+          "rang"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не закончил письмо, когда зазвонил телефон."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0063",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "film",
+        "had",
+        "not",
+        "begun",
+        "when",
+        "we",
+        "took",
+        "our",
+        "seats"
+      ],
+      "answers": [
+        [
+          "The",
+          "film",
+          "had",
+          "not",
+          "begun",
+          "when",
+          "we",
+          "took",
+          "our",
+          "seats"
+        ]
+      ],
+      "translation": {
+        "ru": "Фильм ещё не начался, когда мы сели на места."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0064",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "had",
+        "not",
+        "learned",
+        "to",
+        "swim",
+        "before",
+        "that",
+        "summer"
+      ],
+      "answers": [
+        [
+          "She",
+          "had",
+          "not",
+          "learned",
+          "to",
+          "swim",
+          "before",
+          "that",
+          "summer"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не научилась плавать до того лета."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0065",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "had",
+        "not",
+        "booked",
+        "the",
+        "tickets",
+        "by",
+        "Friday"
+      ],
+      "answers": [
+        [
+          "We",
+          "had",
+          "not",
+          "booked",
+          "the",
+          "tickets",
+          "by",
+          "Friday"
+        ]
+      ],
+      "translation": {
+        "ru": "К пятнице мы не забронировали билеты."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0066",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "workers",
+        "had",
+        "not",
+        "repaired",
+        "the",
+        "roof",
+        "before",
+        "the",
+        "rain",
+        "began"
+      ],
+      "answers": [
+        [
+          "The",
+          "workers",
+          "had",
+          "not",
+          "repaired",
+          "the",
+          "roof",
+          "before",
+          "the",
+          "rain",
+          "began"
+        ]
+      ],
+      "translation": {
+        "ru": "Рабочие не починили крышу до начала дождя."
+      },
+      "explanation": {
+        "ru": "Past Perfect, отрицание: had not + V3. Действие не завершилось к прошлому моменту.",
+        "en": "Past Perfect negative: had not + V3. The action was not complete by a past moment."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0067",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "you",
+        "seen",
+        "the",
+        "film",
+        "before",
+        "the",
+        "trip"
+      ],
+      "answers": [
+        [
+          "Had",
+          "you",
+          "seen",
+          "the",
+          "film",
+          "before",
+          "the",
+          "trip"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты видел фильм до поездки?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0068",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "they",
+        "arrived",
+        "before",
+        "the",
+        "ceremony",
+        "started"
+      ],
+      "answers": [
+        [
+          "Had",
+          "they",
+          "arrived",
+          "before",
+          "the",
+          "ceremony",
+          "started"
+        ]
+      ],
+      "translation": {
+        "ru": "Они приехали до начала церемонии?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0069",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "she",
+        "finished",
+        "the",
+        "report",
+        "by",
+        "Monday"
+      ],
+      "answers": [
+        [
+          "Had",
+          "she",
+          "finished",
+          "the",
+          "report",
+          "by",
+          "Monday"
+        ]
+      ],
+      "translation": {
+        "ru": "Она закончила отчёт к понедельнику?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0070",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "he",
+        "heard",
+        "the",
+        "news",
+        "before",
+        "the",
+        "meeting"
+      ],
+      "answers": [
+        [
+          "Had",
+          "he",
+          "heard",
+          "the",
+          "news",
+          "before",
+          "the",
+          "meeting"
+        ]
+      ],
+      "translation": {
+        "ru": "Он слышал новость до собрания?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0071",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "you",
+        "eaten",
+        "anything",
+        "before",
+        "the",
+        "journey"
+      ],
+      "answers": [
+        [
+          "Had",
+          "you",
+          "eaten",
+          "anything",
+          "before",
+          "the",
+          "journey"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты что-нибудь ел до поездки?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0072",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "they",
+        "booked",
+        "a",
+        "table",
+        "before",
+        "the",
+        "holiday"
+      ],
+      "answers": [
+        [
+          "Had",
+          "they",
+          "booked",
+          "a",
+          "table",
+          "before",
+          "the",
+          "holiday"
+        ]
+      ],
+      "translation": {
+        "ru": "Они забронировали столик до праздника?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0073",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "she",
+        "met",
+        "his",
+        "parents",
+        "before",
+        "the",
+        "wedding"
+      ],
+      "answers": [
+        [
+          "Had",
+          "she",
+          "met",
+          "his",
+          "parents",
+          "before",
+          "the",
+          "wedding"
+        ]
+      ],
+      "translation": {
+        "ru": "Она познакомилась с его родителями до свадьбы?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0074",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "the",
+        "children",
+        "gone",
+        "to",
+        "school",
+        "before",
+        "the",
+        "rain",
+        "started"
+      ],
+      "answers": [
+        [
+          "Had",
+          "the",
+          "children",
+          "gone",
+          "to",
+          "school",
+          "before",
+          "the",
+          "rain",
+          "started"
+        ]
+      ],
+      "translation": {
+        "ru": "Дети ушли в школу до начала дождя?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0075",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "you",
+        "read",
+        "the",
+        "book",
+        "before",
+        "the",
+        "film",
+        "came",
+        "out"
+      ],
+      "answers": [
+        [
+          "Had",
+          "you",
+          "read",
+          "the",
+          "book",
+          "before",
+          "the",
+          "film",
+          "came",
+          "out"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты прочитал книгу до выхода фильма?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0076",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "they",
+        "finished",
+        "the",
+        "match",
+        "before",
+        "it",
+        "got",
+        "dark"
+      ],
+      "answers": [
+        [
+          "Had",
+          "they",
+          "finished",
+          "the",
+          "match",
+          "before",
+          "it",
+          "got",
+          "dark"
+        ]
+      ],
+      "translation": {
+        "ru": "Они закончили матч до темноты?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0077",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "he",
+        "repaired",
+        "the",
+        "car",
+        "by",
+        "the",
+        "weekend"
+      ],
+      "answers": [
+        [
+          "Had",
+          "he",
+          "repaired",
+          "the",
+          "car",
+          "by",
+          "the",
+          "weekend"
+        ]
+      ],
+      "translation": {
+        "ru": "Он починил машину к выходным?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0078",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "you",
+        "finished",
+        "your",
+        "course",
+        "before",
+        "you",
+        "found",
+        "a",
+        "job"
+      ],
+      "answers": [
+        [
+          "Had",
+          "you",
+          "finished",
+          "your",
+          "course",
+          "before",
+          "you",
+          "found",
+          "a",
+          "job"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты закончил курс до того, как нашёл работу?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0079",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "she",
+        "learned",
+        "Spanish",
+        "before",
+        "she",
+        "moved",
+        "to",
+        "Madrid"
+      ],
+      "answers": [
+        [
+          "Had",
+          "she",
+          "learned",
+          "Spanish",
+          "before",
+          "she",
+          "moved",
+          "to",
+          "Madrid"
+        ]
+      ],
+      "translation": {
+        "ru": "Она выучила испанский до переезда в Мадрид?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0080",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "they",
+        "sold",
+        "the",
+        "house",
+        "by",
+        "the",
+        "end",
+        "of",
+        "the",
+        "year"
+      ],
+      "answers": [
+        [
+          "Had",
+          "they",
+          "sold",
+          "the",
+          "house",
+          "by",
+          "the",
+          "end",
+          "of",
+          "the",
+          "year"
+        ]
+      ],
+      "translation": {
+        "ru": "Они продали дом к концу года?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0081",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "you",
+        "checked",
+        "the",
+        "tickets",
+        "before",
+        "you",
+        "left"
+      ],
+      "answers": [
+        [
+          "Had",
+          "you",
+          "checked",
+          "the",
+          "tickets",
+          "before",
+          "you",
+          "left"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты проверил билеты перед уходом?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0082",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "the",
+        "train",
+        "left",
+        "when",
+        "you",
+        "arrived"
+      ],
+      "answers": [
+        [
+          "Had",
+          "the",
+          "train",
+          "left",
+          "when",
+          "you",
+          "arrived"
+        ]
+      ],
+      "translation": {
+        "ru": "Поезд ушёл, когда ты приехал?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0083",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "she",
+        "ever",
+        "flown",
+        "before",
+        "that",
+        "day"
+      ],
+      "answers": [
+        [
+          "Had",
+          "she",
+          "ever",
+          "flown",
+          "before",
+          "that",
+          "day"
+        ]
+      ],
+      "translation": {
+        "ru": "Она когда-нибудь летала до того дня?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0084",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "they",
+        "cleaned",
+        "the",
+        "room",
+        "before",
+        "the",
+        "guests",
+        "came"
+      ],
+      "answers": [
+        [
+          "Had",
+          "they",
+          "cleaned",
+          "the",
+          "room",
+          "before",
+          "the",
+          "guests",
+          "came"
+        ]
+      ],
+      "translation": {
+        "ru": "Они убрали комнату до прихода гостей?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0085",
+      "type": "build",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "he",
+        "started",
+        "the",
+        "course",
+        "by",
+        "September"
+      ],
+      "answers": [
+        [
+          "Had",
+          "he",
+          "started",
+          "the",
+          "course",
+          "by",
+          "September"
+        ]
+      ],
+      "translation": {
+        "ru": "Он начал курс к сентябрю?"
+      },
+      "explanation": {
+        "ru": "Past Perfect, вопрос: Had + V3? Спрашиваем о более раннем прошлом.",
+        "en": "Past Perfect question: Had + V3? We ask about an earlier past action."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0086",
+      "type": "match",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте союз и пример.",
+        "en": "Match the conjunction with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "когда + Past Simple",
+            "en": "when + Past Simple"
+          },
+          "right": "When we arrived, the concert had already begun."
+        },
+        {
+          "left": {
+            "ru": "к тому времени + Past Simple",
+            "en": "by the time + Past Simple"
+          },
+          "right": "By the time you called, I had left the office."
+        },
+        {
+          "left": {
+            "ru": "до того как + Past Simple",
+            "en": "before + Past Simple"
+          },
+          "right": "She had packed her bags before the taxi arrived."
+        },
+        {
+          "left": {
+            "ru": "после того как + Past Perfect",
+            "en": "after + Past Perfect"
+          },
+          "right": "After he had finished work, he went to the gym."
+        }
+      ],
+      "explanation": {
+        "ru": "Союзы when, by the time, before и after показывают порядок событий: более раннее — в Past Perfect.",
+        "en": "The conjunctions when, by the time, before and after show the order of events: the earlier action is in Past Perfect."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "match",
+        "conjunctions"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0087",
+      "type": "match",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте глагол и пример с V3.",
+        "en": "Match the verb with its V3 example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "видеть → seen",
+            "en": "see → seen"
+          },
+          "right": "I had seen that film before."
+        },
+        {
+          "left": {
+            "ru": "ломать → broken",
+            "en": "break → broken"
+          },
+          "right": "The child had broken the window by the time his parents got home."
+        },
+        {
+          "left": {
+            "ru": "писать → written",
+            "en": "write → written"
+          },
+          "right": "He had written the report by Friday."
+        },
+        {
+          "left": {
+            "ru": "брать → taken",
+            "en": "take → taken"
+          },
+          "right": "Someone had taken my umbrella by mistake."
+        }
+      ],
+      "explanation": {
+        "ru": "После had стоит V3: seen, broken, written, taken.",
+        "en": "After had we use V3: seen, broken, written, taken."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "match",
+        "v3"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0088",
+      "type": "match",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте отрицание и пример.",
+        "en": "Match the negative form with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "полное отрицание",
+            "en": "full negative"
+          },
+          "right": "They had not finished the work."
+        },
+        {
+          "left": {
+            "ru": "отрицание с never",
+            "en": "negative with never"
+          },
+          "right": "I had never visited that museum."
+        },
+        {
+          "left": {
+            "ru": "вопрос-отрицание",
+            "en": "negative question"
+          },
+          "right": "Had you not seen the sign?"
+        },
+        {
+          "left": {
+            "ru": "отрицание с before",
+            "en": "negative with before"
+          },
+          "right": "She had not met him before that evening."
+        }
+      ],
+      "explanation": {
+        "ru": "Отрицание Past Perfect: had not + V3; never и before часто сопровождают его.",
+        "en": "Past Perfect negative: had not + V3; never and before often go with it."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "match",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0089",
+      "type": "match",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте вопрос и пример.",
+        "en": "Match the question with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "вопрос с when",
+            "en": "question with when"
+          },
+          "right": "When had she left the office?"
+        },
+        {
+          "left": {
+            "ru": "вопрос с why",
+            "en": "question with why"
+          },
+          "right": "Why had they cancelled the trip?"
+        },
+        {
+          "left": {
+            "ru": "вопрос с how long",
+            "en": "question with how long"
+          },
+          "right": "How long had he worked there before he retired?"
+        },
+        {
+          "left": {
+            "ru": "общий вопрос",
+            "en": "yes/no question"
+          },
+          "right": "Had you read the book before the lesson?"
+        }
+      ],
+      "explanation": {
+        "ru": "В вопросах Past Perfect had стоит первым; вопросительные слова идут перед had.",
+        "en": "In Past Perfect questions had comes first; question words come before had."
+      },
+      "tags": [
+        "tense-past-perfect",
+        "match",
+        "questions"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-0090",
+      "type": "match",
+      "ruleId": "tense-past-perfect",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте время и пример.",
+        "en": "Match the tense with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Past Perfect: раньше другого прошлого",
+            "en": "Past Perfect: earlier than another past action"
+          },
+          "right": "She had left before I arrived."
+        },
+        {
+          "left": {
+            "ru": "Past Simple: конкретное прошлое",
+            "en": "Past Simple: a specific past time"
+          },
+          "right": "She left at seven o'clock."
+        },
+        {
+          "left": {
+            "ru": "Present Perfect: результат сейчас",
+            "en": "Present Perfect: a result now"
+          },
+          "right": "She has just left the office."
+        },
+        {
+          "left": {
+            "ru": "Past Continuous: процесс тогда",
+            "en": "Past Continuous: a process then"
+          },
+          "right": "She was leaving when I called."
+        }
+      ],
+      "explanation": {
+        "ru": "Past Perfect — раньше другого прошлого, Past Simple — конкретное прошлое, Present Perfect — результат сейчас, Past Continuous — процесс.",
+        "en": "Past Perfect is earlier than another past action, Past Simple a specific past time, Present Perfect a result now, and Past Continuous a process."
       },
       "tags": [
         "tense-past-perfect",

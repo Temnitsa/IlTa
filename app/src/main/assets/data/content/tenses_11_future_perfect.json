@@ -17,8 +17,8 @@
         "en": "Future Perfect"
       },
       "summary": {
-        "ru": "Future Perfect (will have + причастие прошедшего времени) показывает, что действие завершится до определённого момента в будущем; типичные маркеры — by, by the time и by then.",
-        "en": "The Future Perfect (will have + past participle) shows that an action will be completed before a particular future moment; typical markers are by, by the time and by then."
+        "ru": "will have + V3 — результат к определённому моменту будущего. Формулы, случаи, маркеры и ошибки — коротко и по делу.",
+        "en": "will have + V3 — a result by a particular future moment. Formulas, uses, markers and mistakes — short and clear."
       },
       "sections": [
         {
@@ -27,38 +27,38 @@
             "en": "Form"
           },
           "body": {
-            "ru": "Future Perfect строится по схеме will have + третья форма глагола (past participle); она одинакова для всех лиц. Отрицание — will not have + V3, а в вопросе will ставится перед подлежащим, тогда как have остаётся рядом с причастием.",
-            "en": "The Future Perfect is formed with will have + the past participle, the same for all persons. The negative is will not have + past participle, and in questions will comes before the subject while have stays next to the participle."
+            "ru": "(+) will have + V3\n(–) will not have + V3\n(?) Will … have + V3?\nОдна форма для всех лиц.",
+            "en": "(+) will have + V3\n(–) will not have + V3\n(?) Will … have + V3?\nThe same form for all persons."
           },
           "examples": [
-            "By next Monday I will have finished the report.",
+            "By Friday I will have finished the report.",
             "They will not have arrived by noon.",
             "Will you have completed the course by June?"
           ]
         },
         {
           "heading": {
-            "ru": "Значение",
-            "en": "Meaning"
+            "ru": "Когда используем",
+            "en": "When we use it"
           },
           "body": {
-            "ru": "Время говорит, что действие закончится раньше указанного момента в будущем. Главное — результат к сроку: к этому времени действие уже будет завершено, поэтому форма часто звучит как обещание или прогноз.",
-            "en": "This tense says that an action will be completed before a stated future moment. The focus is on the result by that deadline: by then the action will already be finished, which is why the form often sounds like a promise or a prediction."
+            "ru": "• действие завершится до момента в будущем\n• важен результат к сроку\n• обещание или прогноз",
+            "en": "• the action will be complete before a future moment\n• the result by the deadline matters\n• a promise or a prediction"
           },
           "examples": [
             "By the time you get home, I will have cooked dinner.",
-            "She will have left the office before six.",
-            "In ten years' time he will have written three books."
+            "She will have left the office by six.",
+            "In ten years he will have written three books."
           ]
         },
         {
           "heading": {
-            "ru": "Маркеры времени",
-            "en": "Time markers"
+            "ru": "Маркеры",
+            "en": "Markers"
           },
           "body": {
-            "ru": "Основные маркеры — by и by the time перед сроком, а также by then и before. В придаточной части с by the time используется настоящее время, хотя речь идёт о будущем; главная часть показывает действие, завершённое к этому моменту.",
-            "en": "The main markers are by and by the time before a deadline, as well as by then and before. The by the time clause uses the present tense even though the meaning is future, while the main clause shows the action completed by that moment."
+            "ru": "• by + срок\n• by the time + настоящее\n• by then\n• before + срок\n• in + период",
+            "en": "• by + deadline\n• by the time + present\n• by then\n• before + deadline\n• in + period"
           },
           "examples": [
             "I will have spent all my savings by next month.",
@@ -68,16 +68,16 @@
         },
         {
           "heading": {
-            "ru": "Ошибки и сравнение",
-            "en": "Mistakes and contrast"
+            "ru": "Ошибки",
+            "en": "Common mistakes"
           },
           "body": {
-            "ru": "Типичные ошибки — will have + вторая форма вместо третьей и смешение с Future Continuous: тот показывает процесс в момент, а Future Perfect — завершённость к моменту. Для процесса, который длится до срока, нужна форма will have been doing.",
-            "en": "Typical mistakes are will have + the past simple instead of the past participle, and confusion with the Future Continuous: the latter shows a process at a moment, while the Future Perfect shows completion by a moment. For a process lasting up to a deadline, a different form is needed."
+            "ru": "• ❌ will have + V2 — ✅ will have + V3\n• завершённость ≠ процесс: will have done / will be doing\n• длительность до срока — will have been doing",
+            "en": "• ❌ will have + V2 — ✅ will have + V3\n• completion ≠ process: will have done / will be doing\n• duration up to a deadline — will have been doing"
           },
           "examples": [
-            "By the end of the month, they will have painted the whole house.",
-            "At eight tomorrow we will be having dinner.",
+            "By the end of the month they will have painted the house.",
+            "At eight we will be having dinner.",
             "By next June she will have been working here for ten years."
           ]
         }
@@ -651,8 +651,10 @@
       },
       "tags": [
         "tense-future-perfect",
-        "build"
-      ]
+        "build",
+        "affirmative"
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-future-perfect-0022",
@@ -688,8 +690,10 @@
       },
       "tags": [
         "tense-future-perfect",
-        "build"
-      ]
+        "build",
+        "negative"
+      ],
+      "buildKind": "negative"
     },
     {
       "id": "tense-future-perfect-0023",
@@ -727,8 +731,10 @@
       },
       "tags": [
         "tense-future-perfect",
-        "build"
-      ]
+        "build",
+        "question"
+      ],
+      "buildKind": "question"
     },
     {
       "id": "tense-future-perfect-0024",
@@ -785,8 +791,10 @@
       },
       "tags": [
         "tense-future-perfect",
-        "build"
-      ]
+        "build",
+        "affirmative"
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-future-perfect-0025",
@@ -831,7 +839,2539 @@
       },
       "tags": [
         "tense-future-perfect",
-        "build"
+        "build",
+        "affirmative"
+      ],
+      "buildKind": "affirmative"
+    },
+    {
+      "id": "tense-future-perfect-0031",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "next",
+        "Monday",
+        "I",
+        "will",
+        "have",
+        "finished",
+        "the",
+        "report"
+      ],
+      "answers": [
+        [
+          "By",
+          "next",
+          "Monday",
+          "I",
+          "will",
+          "have",
+          "finished",
+          "the",
+          "report"
+        ]
+      ],
+      "translation": {
+        "ru": "К следующему понедельнику я закончу отчёт."
+      },
+      "explanation": {
+        "ru": "Future Perfect, утверждение: will have + V3; к указанному сроку результат уже будет готов.",
+        "en": "Future Perfect, affirmative: will have + V3; by the stated deadline the result will be ready."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "affirmative",
+        "completion-by-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0032",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "the",
+        "time",
+        "you",
+        "arrive",
+        "I",
+        "will",
+        "have",
+        "cooked",
+        "dinner"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "time",
+          "you",
+          "arrive",
+          "I",
+          "will",
+          "have",
+          "cooked",
+          "dinner"
+        ]
+      ],
+      "translation": {
+        "ru": "К твоему приходу я приготовлю ужин."
+      },
+      "explanation": {
+        "ru": "Future Perfect, утверждение: will have + V3; к указанному сроку результат уже будет готов.",
+        "en": "Future Perfect, affirmative: will have + V3; by the stated deadline the result will be ready."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "affirmative",
+        "completion-by-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0033",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "will",
+        "have",
+        "left",
+        "the",
+        "office",
+        "by",
+        "six"
+      ],
+      "answers": [
+        [
+          "She",
+          "will",
+          "have",
+          "left",
+          "the",
+          "office",
+          "by",
+          "six"
+        ]
+      ],
+      "translation": {
+        "ru": "К шести она уже уйдёт из офиса."
+      },
+      "explanation": {
+        "ru": "Future Perfect, утверждение: will have + V3; к указанному сроку результат уже будет готов.",
+        "en": "Future Perfect, affirmative: will have + V3; by the stated deadline the result will be ready."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "affirmative",
+        "completion-by-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0034",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "the",
+        "end",
+        "of",
+        "June",
+        "we",
+        "will",
+        "have",
+        "painted",
+        "the",
+        "living",
+        "room"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "end",
+          "of",
+          "June",
+          "we",
+          "will",
+          "have",
+          "painted",
+          "the",
+          "living",
+          "room"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу июня мы покрасим гостиную."
+      },
+      "explanation": {
+        "ru": "Future Perfect, утверждение: will have + V3; к указанному сроку результат уже будет готов.",
+        "en": "Future Perfect, affirmative: will have + V3; by the stated deadline the result will be ready."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "affirmative",
+        "completion-by-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0035",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "will",
+        "have",
+        "built",
+        "three",
+        "new",
+        "schools",
+        "by",
+        "next",
+        "year"
+      ],
+      "answers": [
+        [
+          "They",
+          "will",
+          "have",
+          "built",
+          "three",
+          "new",
+          "schools",
+          "by",
+          "next",
+          "year"
+        ]
+      ],
+      "translation": {
+        "ru": "К следующему году они построят три новые школы."
+      },
+      "explanation": {
+        "ru": "Future Perfect, утверждение: will have + V3; к указанному сроку результат уже будет готов.",
+        "en": "Future Perfect, affirmative: will have + V3; by the stated deadline the result will be ready."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "affirmative",
+        "completion-by-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0036",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "will",
+        "have",
+        "read",
+        "the",
+        "whole",
+        "book",
+        "by",
+        "Friday"
+      ],
+      "answers": [
+        [
+          "I",
+          "will",
+          "have",
+          "read",
+          "the",
+          "whole",
+          "book",
+          "by",
+          "Friday"
+        ]
+      ],
+      "translation": {
+        "ru": "К пятнице я прочитаю всю книгу."
+      },
+      "explanation": {
+        "ru": "Future Perfect, утверждение: will have + V3; к указанному сроку результат уже будет готов.",
+        "en": "Future Perfect, affirmative: will have + V3; by the stated deadline the result will be ready."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "affirmative",
+        "completion-by-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0037",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "students",
+        "will",
+        "have",
+        "finished",
+        "the",
+        "course",
+        "by",
+        "June"
+      ],
+      "answers": [
+        [
+          "The",
+          "students",
+          "will",
+          "have",
+          "finished",
+          "the",
+          "course",
+          "by",
+          "June"
+        ]
+      ],
+      "translation": {
+        "ru": "К июню студенты закончат курс."
+      },
+      "explanation": {
+        "ru": "Future Perfect, утверждение: will have + V3; к указанному сроку результат уже будет готов.",
+        "en": "Future Perfect, affirmative: will have + V3; by the stated deadline the result will be ready."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "affirmative",
+        "completion-by-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0038",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "then",
+        "the",
+        "manager",
+        "will",
+        "have",
+        "signed",
+        "all",
+        "the",
+        "documents"
+      ],
+      "answers": [
+        [
+          "By",
+          "then",
+          "the",
+          "manager",
+          "will",
+          "have",
+          "signed",
+          "all",
+          "the",
+          "documents"
+        ]
+      ],
+      "translation": {
+        "ru": "К тому моменту менеджер подпишет все документы."
+      },
+      "explanation": {
+        "ru": "Future Perfect, утверждение: will have + V3; к указанному сроку результат уже будет готов.",
+        "en": "Future Perfect, affirmative: will have + V3; by the stated deadline the result will be ready."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "affirmative",
+        "completion-by-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0039",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "will",
+        "have",
+        "saved",
+        "enough",
+        "money",
+        "by",
+        "the",
+        "end",
+        "of",
+        "the",
+        "year"
+      ],
+      "answers": [
+        [
+          "He",
+          "will",
+          "have",
+          "saved",
+          "enough",
+          "money",
+          "by",
+          "the",
+          "end",
+          "of",
+          "the",
+          "year"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу года он накопит достаточно денег."
+      },
+      "explanation": {
+        "ru": "Future Perfect, утверждение: will have + V3; к указанному сроку результат уже будет готов.",
+        "en": "Future Perfect, affirmative: will have + V3; by the stated deadline the result will be ready."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "affirmative",
+        "completion-by-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0040",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "the",
+        "time",
+        "the",
+        "guests",
+        "come",
+        "we",
+        "will",
+        "have",
+        "chilled",
+        "the",
+        "drinks"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "time",
+          "the",
+          "guests",
+          "come",
+          "we",
+          "will",
+          "have",
+          "chilled",
+          "the",
+          "drinks"
+        ]
+      ],
+      "translation": {
+        "ru": "К приходу гостей мы охладим напитки."
+      },
+      "explanation": {
+        "ru": "Future Perfect, утверждение: will have + V3; к указанному сроку результат уже будет готов.",
+        "en": "Future Perfect, affirmative: will have + V3; by the stated deadline the result will be ready."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "affirmative",
+        "completion-by-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0041",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "In",
+        "five",
+        "years",
+        "she",
+        "will",
+        "have",
+        "become",
+        "a",
+        "doctor"
+      ],
+      "answers": [
+        [
+          "In",
+          "five",
+          "years",
+          "she",
+          "will",
+          "have",
+          "become",
+          "a",
+          "doctor"
+        ]
+      ],
+      "translation": {
+        "ru": "Через пять лет она станет врачом."
+      },
+      "explanation": {
+        "ru": "Future Perfect, утверждение: will have + V3; к указанному сроку результат уже будет готов.",
+        "en": "Future Perfect, affirmative: will have + V3; by the stated deadline the result will be ready."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "affirmative",
+        "completion-by-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0042",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "next",
+        "month",
+        "I",
+        "will",
+        "have",
+        "learnt",
+        "all",
+        "the",
+        "new",
+        "words"
+      ],
+      "answers": [
+        [
+          "By",
+          "next",
+          "month",
+          "I",
+          "will",
+          "have",
+          "learnt",
+          "all",
+          "the",
+          "new",
+          "words"
+        ]
+      ],
+      "translation": {
+        "ru": "К следующему месяцу я выучу все новые слова."
+      },
+      "explanation": {
+        "ru": "Future Perfect, утверждение: will have + V3; к указанному сроку результат уже будет готов.",
+        "en": "Future Perfect, affirmative: will have + V3; by the stated deadline the result will be ready."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "affirmative",
+        "completion-by-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0043",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "builders",
+        "will",
+        "have",
+        "completed",
+        "the",
+        "roof",
+        "by",
+        "the",
+        "weekend"
+      ],
+      "answers": [
+        [
+          "The",
+          "builders",
+          "will",
+          "have",
+          "completed",
+          "the",
+          "roof",
+          "by",
+          "the",
+          "weekend"
+        ]
+      ],
+      "translation": {
+        "ru": "К выходным строители закончат крышу."
+      },
+      "explanation": {
+        "ru": "Future Perfect, утверждение: will have + V3; к указанному сроку результат уже будет готов.",
+        "en": "Future Perfect, affirmative: will have + V3; by the stated deadline the result will be ready."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "affirmative",
+        "completion-by-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0044",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "the",
+        "end",
+        "of",
+        "the",
+        "concert",
+        "the",
+        "orchestra",
+        "will",
+        "have",
+        "performed",
+        "twelve",
+        "pieces"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "end",
+          "of",
+          "the",
+          "concert",
+          "the",
+          "orchestra",
+          "will",
+          "have",
+          "performed",
+          "twelve",
+          "pieces"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу концерта оркестр исполнит двенадцать произведений."
+      },
+      "explanation": {
+        "ru": "Future Perfect, утверждение: will have + V3; к указанному сроку результат уже будет готов.",
+        "en": "Future Perfect, affirmative: will have + V3; by the stated deadline the result will be ready."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "affirmative",
+        "completion-by-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0045",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "2030",
+        "the",
+        "city",
+        "will",
+        "have",
+        "doubled",
+        "in",
+        "size"
+      ],
+      "answers": [
+        [
+          "By",
+          "2030",
+          "the",
+          "city",
+          "will",
+          "have",
+          "doubled",
+          "in",
+          "size"
+        ]
+      ],
+      "translation": {
+        "ru": "К 2030 году город увеличится вдвое."
+      },
+      "explanation": {
+        "ru": "Future Perfect, утверждение: will have + V3; к указанному сроку результат уже будет готов.",
+        "en": "Future Perfect, affirmative: will have + V3; by the stated deadline the result will be ready."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "affirmative",
+        "completion-by-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0046",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "By",
+        "the",
+        "time",
+        "you",
+        "read",
+        "this",
+        "letter",
+        "I",
+        "will",
+        "have",
+        "left",
+        "the",
+        "country"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "time",
+          "you",
+          "read",
+          "this",
+          "letter",
+          "I",
+          "will",
+          "have",
+          "left",
+          "the",
+          "country"
+        ]
+      ],
+      "translation": {
+        "ru": "К тому времени, как ты прочитаешь это письмо, я покину страну."
+      },
+      "explanation": {
+        "ru": "Future Perfect, утверждение: will have + V3; к указанному сроку результат уже будет готов.",
+        "en": "Future Perfect, affirmative: will have + V3; by the stated deadline the result will be ready."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "affirmative",
+        "completion-by-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0047",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "will",
+        "have",
+        "watched",
+        "every",
+        "episode",
+        "by",
+        "the",
+        "end",
+        "of",
+        "the",
+        "month"
+      ],
+      "answers": [
+        [
+          "They",
+          "will",
+          "have",
+          "watched",
+          "every",
+          "episode",
+          "by",
+          "the",
+          "end",
+          "of",
+          "the",
+          "month"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу месяца они посмотрят все серии."
+      },
+      "explanation": {
+        "ru": "Future Perfect, утверждение: will have + V3; к указанному сроку результат уже будет готов.",
+        "en": "Future Perfect, affirmative: will have + V3; by the stated deadline the result will be ready."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "affirmative",
+        "completion-by-deadline"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0048",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "will",
+        "not",
+        "have",
+        "finished",
+        "the",
+        "essay",
+        "by",
+        "Monday"
+      ],
+      "answers": [
+        [
+          "I",
+          "will",
+          "not",
+          "have",
+          "finished",
+          "the",
+          "essay",
+          "by",
+          "Monday"
+        ]
+      ],
+      "translation": {
+        "ru": "К понедельнику я не закончу сочинение."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0049",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "will",
+        "not",
+        "have",
+        "arrived",
+        "by",
+        "noon"
+      ],
+      "answers": [
+        [
+          "They",
+          "will",
+          "not",
+          "have",
+          "arrived",
+          "by",
+          "noon"
+        ]
+      ],
+      "translation": {
+        "ru": "К полудню они ещё не приедут."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0050",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "By",
+        "the",
+        "time",
+        "we",
+        "get",
+        "there",
+        "the",
+        "film",
+        "will",
+        "not",
+        "have",
+        "started"
+      ],
+      "answers": [
+        [
+          "By",
+          "the",
+          "time",
+          "we",
+          "get",
+          "there",
+          "the",
+          "film",
+          "will",
+          "not",
+          "have",
+          "started"
+        ]
+      ],
+      "translation": {
+        "ru": "К тому времени, как мы придём, фильм ещё не начнётся."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0051",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "will",
+        "not",
+        "have",
+        "completed",
+        "the",
+        "project",
+        "by",
+        "June"
+      ],
+      "answers": [
+        [
+          "He",
+          "will",
+          "not",
+          "have",
+          "completed",
+          "the",
+          "project",
+          "by",
+          "June"
+        ]
+      ],
+      "translation": {
+        "ru": "К июню он не закончит проект."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0052",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "will",
+        "not",
+        "have",
+        "saved",
+        "enough",
+        "money",
+        "by",
+        "the",
+        "end",
+        "of",
+        "the",
+        "year"
+      ],
+      "answers": [
+        [
+          "We",
+          "will",
+          "not",
+          "have",
+          "saved",
+          "enough",
+          "money",
+          "by",
+          "the",
+          "end",
+          "of",
+          "the",
+          "year"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу года мы не накопим достаточно денег."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0053",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "shop",
+        "will",
+        "not",
+        "have",
+        "closed",
+        "by",
+        "the",
+        "time",
+        "we",
+        "arrive"
+      ],
+      "answers": [
+        [
+          "The",
+          "shop",
+          "will",
+          "not",
+          "have",
+          "closed",
+          "by",
+          "the",
+          "time",
+          "we",
+          "arrive"
+        ]
+      ],
+      "translation": {
+        "ru": "К нашему приходу магазин ещё не закроется."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0054",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "will",
+        "not",
+        "have",
+        "read",
+        "the",
+        "article",
+        "by",
+        "tomorrow"
+      ],
+      "answers": [
+        [
+          "She",
+          "will",
+          "not",
+          "have",
+          "read",
+          "the",
+          "article",
+          "by",
+          "tomorrow"
+        ]
+      ],
+      "translation": {
+        "ru": "К завтрашнему дню она не прочитает статью."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0055",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "will",
+        "not",
+        "have",
+        "written",
+        "the",
+        "letter",
+        "by",
+        "Friday"
+      ],
+      "answers": [
+        [
+          "I",
+          "will",
+          "not",
+          "have",
+          "written",
+          "the",
+          "letter",
+          "by",
+          "Friday"
+        ]
+      ],
+      "translation": {
+        "ru": "К пятнице я не напишу письмо."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0056",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "will",
+        "not",
+        "have",
+        "painted",
+        "the",
+        "house",
+        "by",
+        "next",
+        "month"
+      ],
+      "answers": [
+        [
+          "They",
+          "will",
+          "not",
+          "have",
+          "painted",
+          "the",
+          "house",
+          "by",
+          "next",
+          "month"
+        ]
+      ],
+      "translation": {
+        "ru": "К следующему месяцу они не покрасят дом."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0057",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "train",
+        "will",
+        "not",
+        "have",
+        "left",
+        "by",
+        "nine"
+      ],
+      "answers": [
+        [
+          "The",
+          "train",
+          "will",
+          "not",
+          "have",
+          "left",
+          "by",
+          "nine"
+        ]
+      ],
+      "translation": {
+        "ru": "К девяти поезд ещё не уйдёт."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0058",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "My",
+        "brother",
+        "will",
+        "not",
+        "have",
+        "returned",
+        "from",
+        "holiday",
+        "by",
+        "then"
+      ],
+      "answers": [
+        [
+          "My",
+          "brother",
+          "will",
+          "not",
+          "have",
+          "returned",
+          "from",
+          "holiday",
+          "by",
+          "then"
+        ]
+      ],
+      "translation": {
+        "ru": "К тому моменту мой брат ещё не вернётся из отпуска."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0059",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "will",
+        "not",
+        "have",
+        "built",
+        "the",
+        "new",
+        "stadium",
+        "by",
+        "2030"
+      ],
+      "answers": [
+        [
+          "We",
+          "will",
+          "not",
+          "have",
+          "built",
+          "the",
+          "new",
+          "stadium",
+          "by",
+          "2030"
+        ]
+      ],
+      "translation": {
+        "ru": "К 2030 году мы не построим новый стадион."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0060",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "will",
+        "not",
+        "have",
+        "finished",
+        "the",
+        "course",
+        "by",
+        "the",
+        "end",
+        "of",
+        "the",
+        "term"
+      ],
+      "answers": [
+        [
+          "She",
+          "will",
+          "not",
+          "have",
+          "finished",
+          "the",
+          "course",
+          "by",
+          "the",
+          "end",
+          "of",
+          "the",
+          "term"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу семестра она не закончит курс."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0061",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "will",
+        "not",
+        "have",
+        "eaten",
+        "anything",
+        "by",
+        "the",
+        "evening"
+      ],
+      "answers": [
+        [
+          "He",
+          "will",
+          "not",
+          "have",
+          "eaten",
+          "anything",
+          "by",
+          "the",
+          "evening"
+        ]
+      ],
+      "translation": {
+        "ru": "К вечеру он ещё ничего не съест."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0062",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "workers",
+        "will",
+        "not",
+        "have",
+        "finished",
+        "the",
+        "road",
+        "by",
+        "winter"
+      ],
+      "answers": [
+        [
+          "The",
+          "workers",
+          "will",
+          "not",
+          "have",
+          "finished",
+          "the",
+          "road",
+          "by",
+          "winter"
+        ]
+      ],
+      "translation": {
+        "ru": "К зиме рабочие не закончат дорогу."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0063",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "will",
+        "not",
+        "have",
+        "learnt",
+        "to",
+        "drive",
+        "by",
+        "next",
+        "summer"
+      ],
+      "answers": [
+        [
+          "I",
+          "will",
+          "not",
+          "have",
+          "learnt",
+          "to",
+          "drive",
+          "by",
+          "next",
+          "summer"
+        ]
+      ],
+      "translation": {
+        "ru": "К следующему лету я не научусь водить."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0064",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "will",
+        "not",
+        "have",
+        "sold",
+        "the",
+        "old",
+        "house",
+        "by",
+        "spring"
+      ],
+      "answers": [
+        [
+          "They",
+          "will",
+          "not",
+          "have",
+          "sold",
+          "the",
+          "old",
+          "house",
+          "by",
+          "spring"
+        ]
+      ],
+      "translation": {
+        "ru": "К весне они не продадут старый дом."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0065",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "children",
+        "will",
+        "not",
+        "have",
+        "done",
+        "their",
+        "homework",
+        "by",
+        "dinner"
+      ],
+      "answers": [
+        [
+          "The",
+          "children",
+          "will",
+          "not",
+          "have",
+          "done",
+          "their",
+          "homework",
+          "by",
+          "dinner"
+        ]
+      ],
+      "translation": {
+        "ru": "К ужину дети не сделают уроки."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0066",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "mechanic",
+        "will",
+        "not",
+        "have",
+        "repaired",
+        "my",
+        "car",
+        "by",
+        "Friday"
+      ],
+      "answers": [
+        [
+          "The",
+          "mechanic",
+          "will",
+          "not",
+          "have",
+          "repaired",
+          "my",
+          "car",
+          "by",
+          "Friday"
+        ]
+      ],
+      "translation": {
+        "ru": "К пятнице механик не починит мою машину."
+      },
+      "explanation": {
+        "ru": "Future Perfect, отрицание: will not have + V3.",
+        "en": "Future Perfect, negative: will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0067",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "you",
+        "have",
+        "finished",
+        "the",
+        "report",
+        "by",
+        "Friday"
+      ],
+      "answers": [
+        [
+          "Will",
+          "you",
+          "have",
+          "finished",
+          "the",
+          "report",
+          "by",
+          "Friday"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты закончишь отчёт к пятнице?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3?",
+        "en": "Future Perfect, question: will … have + V3?"
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0068",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "they",
+        "have",
+        "moved",
+        "to",
+        "the",
+        "new",
+        "flat",
+        "by",
+        "June"
+      ],
+      "answers": [
+        [
+          "Will",
+          "they",
+          "have",
+          "moved",
+          "to",
+          "the",
+          "new",
+          "flat",
+          "by",
+          "June"
+        ]
+      ],
+      "translation": {
+        "ru": "К июню они переедут в новую квартиру?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3?",
+        "en": "Future Perfect, question: will … have + V3?"
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0069",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "she",
+        "have",
+        "passed",
+        "her",
+        "driving",
+        "test",
+        "by",
+        "the",
+        "end",
+        "of",
+        "the",
+        "month"
+      ],
+      "answers": [
+        [
+          "Will",
+          "she",
+          "have",
+          "passed",
+          "her",
+          "driving",
+          "test",
+          "by",
+          "the",
+          "end",
+          "of",
+          "the",
+          "month"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу месяца она сдаст экзамен по вождению?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3?",
+        "en": "Future Perfect, question: will … have + V3?"
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0070",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "you",
+        "have",
+        "read",
+        "the",
+        "whole",
+        "book",
+        "by",
+        "Monday"
+      ],
+      "answers": [
+        [
+          "Will",
+          "you",
+          "have",
+          "read",
+          "the",
+          "whole",
+          "book",
+          "by",
+          "Monday"
+        ]
+      ],
+      "translation": {
+        "ru": "К понедельнику ты прочитаешь всю книгу?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3?",
+        "en": "Future Perfect, question: will … have + V3?"
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0071",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "the",
+        "film",
+        "have",
+        "started",
+        "by",
+        "the",
+        "time",
+        "we",
+        "arrive"
+      ],
+      "answers": [
+        [
+          "Will",
+          "the",
+          "film",
+          "have",
+          "started",
+          "by",
+          "the",
+          "time",
+          "we",
+          "arrive"
+        ]
+      ],
+      "translation": {
+        "ru": "К нашему приходу фильм уже начнётся?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3?",
+        "en": "Future Perfect, question: will … have + V3?"
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0072",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "What",
+        "will",
+        "you",
+        "have",
+        "achieved",
+        "by",
+        "the",
+        "end",
+        "of",
+        "the",
+        "year"
+      ],
+      "answers": [
+        [
+          "What",
+          "will",
+          "you",
+          "have",
+          "achieved",
+          "by",
+          "the",
+          "end",
+          "of",
+          "the",
+          "year"
+        ]
+      ],
+      "translation": {
+        "ru": "Чего ты достигнешь к концу года?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3? С вопросительным словом в начале.",
+        "en": "Future Perfect, question: will … have + V3? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0073",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "How",
+        "many",
+        "pages",
+        "will",
+        "you",
+        "have",
+        "read",
+        "by",
+        "tomorrow"
+      ],
+      "answers": [
+        [
+          "How",
+          "many",
+          "pages",
+          "will",
+          "you",
+          "have",
+          "read",
+          "by",
+          "tomorrow"
+        ]
+      ],
+      "translation": {
+        "ru": "Сколько страниц ты прочитаешь к завтрашнему дню?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3? С вопросительным словом в начале.",
+        "en": "Future Perfect, question: will … have + V3? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0074",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "How",
+        "many",
+        "countries",
+        "will",
+        "she",
+        "have",
+        "visited",
+        "by",
+        "then"
+      ],
+      "answers": [
+        [
+          "How",
+          "many",
+          "countries",
+          "will",
+          "she",
+          "have",
+          "visited",
+          "by",
+          "then"
+        ]
+      ],
+      "translation": {
+        "ru": "Сколько стран она посетит к тому времени?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3? С вопросительным словом в начале.",
+        "en": "Future Perfect, question: will … have + V3? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0075",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "the",
+        "builders",
+        "have",
+        "finished",
+        "the",
+        "roof",
+        "by",
+        "the",
+        "weekend"
+      ],
+      "answers": [
+        [
+          "Will",
+          "the",
+          "builders",
+          "have",
+          "finished",
+          "the",
+          "roof",
+          "by",
+          "the",
+          "weekend"
+        ]
+      ],
+      "translation": {
+        "ru": "К выходным строители закончат крышу?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3?",
+        "en": "Future Perfect, question: will … have + V3?"
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0076",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "your",
+        "parents",
+        "have",
+        "arrived",
+        "by",
+        "eight"
+      ],
+      "answers": [
+        [
+          "Will",
+          "your",
+          "parents",
+          "have",
+          "arrived",
+          "by",
+          "eight"
+        ]
+      ],
+      "translation": {
+        "ru": "Твои родители приедут к восьми?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3?",
+        "en": "Future Perfect, question: will … have + V3?"
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0077",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Who",
+        "will",
+        "have",
+        "finished",
+        "the",
+        "task",
+        "by",
+        "noon"
+      ],
+      "answers": [
+        [
+          "Who",
+          "will",
+          "have",
+          "finished",
+          "the",
+          "task",
+          "by",
+          "noon"
+        ]
+      ],
+      "translation": {
+        "ru": "Кто закончит задание к полудню?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3? С вопросительным словом в начале.",
+        "en": "Future Perfect, question: will … have + V3? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0078",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "he",
+        "have",
+        "saved",
+        "enough",
+        "money",
+        "by",
+        "the",
+        "end",
+        "of",
+        "the",
+        "year"
+      ],
+      "answers": [
+        [
+          "Will",
+          "he",
+          "have",
+          "saved",
+          "enough",
+          "money",
+          "by",
+          "the",
+          "end",
+          "of",
+          "the",
+          "year"
+        ]
+      ],
+      "translation": {
+        "ru": "К концу года он накопит достаточно денег?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3?",
+        "en": "Future Perfect, question: will … have + V3?"
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0079",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "What",
+        "will",
+        "she",
+        "have",
+        "cooked",
+        "by",
+        "the",
+        "time",
+        "we",
+        "arrive"
+      ],
+      "answers": [
+        [
+          "What",
+          "will",
+          "she",
+          "have",
+          "cooked",
+          "by",
+          "the",
+          "time",
+          "we",
+          "arrive"
+        ]
+      ],
+      "translation": {
+        "ru": "Что она приготовит к нашему приходу?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3? С вопросительным словом в начале.",
+        "en": "Future Perfect, question: will … have + V3? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0080",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "the",
+        "shop",
+        "have",
+        "closed",
+        "by",
+        "nine"
+      ],
+      "answers": [
+        [
+          "Will",
+          "the",
+          "shop",
+          "have",
+          "closed",
+          "by",
+          "nine"
+        ]
+      ],
+      "translation": {
+        "ru": "Магазин закроется к девяти?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3?",
+        "en": "Future Perfect, question: will … have + V3?"
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0081",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "you",
+        "have",
+        "written",
+        "the",
+        "article",
+        "by",
+        "tomorrow"
+      ],
+      "answers": [
+        [
+          "Will",
+          "you",
+          "have",
+          "written",
+          "the",
+          "article",
+          "by",
+          "tomorrow"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты напишешь статью к завтрашнему дню?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3?",
+        "en": "Future Perfect, question: will … have + V3?"
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0082",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "they",
+        "have",
+        "built",
+        "the",
+        "new",
+        "bridge",
+        "by",
+        "2030"
+      ],
+      "answers": [
+        [
+          "Will",
+          "they",
+          "have",
+          "built",
+          "the",
+          "new",
+          "bridge",
+          "by",
+          "2030"
+        ]
+      ],
+      "translation": {
+        "ru": "К 2030 году они построят новый мост?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3?",
+        "en": "Future Perfect, question: will … have + V3?"
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0083",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "the",
+        "guests",
+        "have",
+        "arrived",
+        "by",
+        "the",
+        "time",
+        "we",
+        "finish",
+        "dinner"
+      ],
+      "answers": [
+        [
+          "Will",
+          "the",
+          "guests",
+          "have",
+          "arrived",
+          "by",
+          "the",
+          "time",
+          "we",
+          "finish",
+          "dinner"
+        ]
+      ],
+      "translation": {
+        "ru": "Гости приедут к тому времени, как мы закончим ужин?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3?",
+        "en": "Future Perfect, question: will … have + V3?"
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0084",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Will",
+        "she",
+        "have",
+        "learnt",
+        "all",
+        "the",
+        "new",
+        "words",
+        "by",
+        "next",
+        "week"
+      ],
+      "answers": [
+        [
+          "Will",
+          "she",
+          "have",
+          "learnt",
+          "all",
+          "the",
+          "new",
+          "words",
+          "by",
+          "next",
+          "week"
+        ]
+      ],
+      "translation": {
+        "ru": "К следующей неделе она выучит все новые слова?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3?",
+        "en": "Future Perfect, question: will … have + V3?"
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0085",
+      "type": "build",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "What",
+        "will",
+        "they",
+        "have",
+        "done",
+        "by",
+        "the",
+        "end",
+        "of",
+        "the",
+        "day"
+      ],
+      "answers": [
+        [
+          "What",
+          "will",
+          "they",
+          "have",
+          "done",
+          "by",
+          "the",
+          "end",
+          "of",
+          "the",
+          "day"
+        ]
+      ],
+      "translation": {
+        "ru": "Что они сделают к концу дня?"
+      },
+      "explanation": {
+        "ru": "Future Perfect, вопрос: will … have + V3? С вопросительным словом в начале.",
+        "en": "Future Perfect, question: will … have + V3? With a question word at the start."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "build",
+        "question",
+        "question-form"
       ]
     },
     {
@@ -1072,6 +3612,251 @@
       "tags": [
         "tense-future-perfect",
         "match"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0086",
+      "type": "match",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте вопрос и краткий ответ.",
+        "en": "Match each question with a short answer."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Ты закончишь отчёт к пятнице?",
+            "en": "Will you have finished the report by Friday?"
+          },
+          "right": "Yes, I will have finished it by Friday."
+        },
+        {
+          "left": {
+            "ru": "К июню они переедут в новую квартиру?",
+            "en": "Will they have moved to the new flat by June?"
+          },
+          "right": "Yes, they will have moved by June."
+        },
+        {
+          "left": {
+            "ru": "К концу месяца она сдаст экзамен по вождению?",
+            "en": "Will she have passed her driving test by the end of the month?"
+          },
+          "right": "No, she will not have passed it by then."
+        },
+        {
+          "left": {
+            "ru": "К понедельнику ты прочитаешь всю книгу?",
+            "en": "Will you have read the whole book by Monday?"
+          },
+          "right": "No, I will not have read it by Monday."
+        }
+      ],
+      "explanation": {
+        "ru": "Вопрос о результате к сроку строится с will … have + V3, а краткий ответ повторяет ту же форму.",
+        "en": "A question about a result by a deadline uses will … have + V3, and the short answer repeats the same form."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "match",
+        "question-form"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0087",
+      "type": "match",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте временной маркер и предложение.",
+        "en": "Match each time marker with a sentence."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "by + срок — к сроку",
+            "en": "by + deadline"
+          },
+          "right": "By next summer she will have saved enough money for a car."
+        },
+        {
+          "left": {
+            "ru": "by the time + настоящее — к тому времени",
+            "en": "by the time + present"
+          },
+          "right": "By the time we get there, the children will have fallen asleep."
+        },
+        {
+          "left": {
+            "ru": "by then — к тому моменту",
+            "en": "by then"
+          },
+          "right": "By then the guests will have left the hotel."
+        },
+        {
+          "left": {
+            "ru": "in + период — через",
+            "en": "in + period"
+          },
+          "right": "In twenty years this village will have become a small city."
+        }
+      ],
+      "explanation": {
+        "ru": "Маркеры задают срок, к которому действие уже будет завершено.",
+        "en": "The markers set the deadline by which the action will already be complete."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "match",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0088",
+      "type": "match",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте ошибку и исправленное предложение.",
+        "en": "Match each mistake with the corrected sentence."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "❌ By Friday I will have finish the report. — ошибка в форме",
+            "en": "❌ By Friday I will have finish the report."
+          },
+          "right": "By Friday I will have finished the essay."
+        },
+        {
+          "left": {
+            "ru": "❌ She will have went home by six. — ошибка в форме",
+            "en": "❌ She will have went home by six."
+          },
+          "right": "She will have gone home by six."
+        },
+        {
+          "left": {
+            "ru": "❌ Will you finished the task by noon? — ошибка в форме",
+            "en": "❌ Will you finished the task by noon?"
+          },
+          "right": "Will you have finished the task by noon?"
+        },
+        {
+          "left": {
+            "ru": "❌ They will not finished by Monday. — ошибка в форме",
+            "en": "❌ They will not finished by Monday."
+          },
+          "right": "They will not have finished by Monday."
+        }
+      ],
+      "explanation": {
+        "ru": "После will have нужна третья форма глагола, а отрицание строится как will not have + V3.",
+        "en": "After will have we need the third form of the verb, and the negative is will not have + V3."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "match",
+        "mistakes"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0089",
+      "type": "match",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте ситуацию и предложение.",
+        "en": "Match each situation with a sentence."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Результат будет готов к сроку",
+            "en": "The result will be ready by the deadline"
+          },
+          "right": "By the end of August we will have finished the garden."
+        },
+        {
+          "left": {
+            "ru": "Действие завершится до другого события",
+            "en": "The action will be complete before another event"
+          },
+          "right": "By the time the guests come, we will have laid the table."
+        },
+        {
+          "left": {
+            "ru": "К указанному возрасту событие произойдёт",
+            "en": "By the stated age the event will have happened"
+          },
+          "right": "By the age of twenty-five he will have started his own company."
+        },
+        {
+          "left": {
+            "ru": "Обещание закончить к сроку",
+            "en": "A promise to finish by a deadline"
+          },
+          "right": "I will have repaired your bicycle by the weekend."
+        }
+      ],
+      "explanation": {
+        "ru": "Каждый пример показывает результат, который будет достигнут к указанному моменту в будущем.",
+        "en": "Each example shows a result that will be achieved by the stated future moment."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "match",
+        "situations"
+      ]
+    },
+    {
+      "id": "tense-future-perfect-0090",
+      "type": "match",
+      "ruleId": "tense-future-perfect",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте форму и пример.",
+        "en": "Match each form with an example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "(+) will have + V3 — утверждение",
+            "en": "(+) will have + V3 — affirmative"
+          },
+          "right": "They will have planted two hundred trees by spring."
+        },
+        {
+          "left": {
+            "ru": "(–) will not have + V3 — отрицание",
+            "en": "(–) will not have + V3 — negative"
+          },
+          "right": "The team will not have scored by half-time."
+        },
+        {
+          "left": {
+            "ru": "(?) Will … have + V3? — вопрос",
+            "en": "(?) Will … have + V3? — question"
+          },
+          "right": "Will the chef have prepared dinner by seven?"
+        },
+        {
+          "left": {
+            "ru": "Результат к моменту другого действия",
+            "en": "A result by another action"
+          },
+          "right": "By the time the concert starts, we will have eaten dinner."
+        }
+      ],
+      "explanation": {
+        "ru": "Утверждение, отрицание и вопрос различаются порядком will, а последний пример показывает результат к моменту другого действия.",
+        "en": "The affirmative, negative and question forms differ in the position of will, while the last example shows a result by another action."
+      },
+      "tags": [
+        "tense-future-perfect",
+        "match",
+        "form"
       ]
     }
   ]

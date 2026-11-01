@@ -120,7 +120,6 @@ private fun AppContent(container: AppContainer, content: ContentLoadResult) {
 
     val quickTitle = if (language == AppLanguage.RU) "Быстрая тренировка" else "Quick practice"
     val mistakesTitle = if (language == AppLanguage.RU) "Работа над ошибками" else "Mistake practice"
-    val buildTitle = if (language == AppLanguage.RU) "Сборка предложений" else "Sentence building"
 
     Scaffold(
         containerColor = MaterialTheme.colorScheme.background,
@@ -146,12 +145,13 @@ private fun AppContent(container: AppContainer, content: ContentLoadResult) {
                     questions = content.questions,
                     progress = progress,
                     contentErrors = content.errors,
-                    onStartQuickPractice = { ruleIds ->
+                    onStartQuickPractice = { ruleIds, types ->
                         startPractice(
                             SessionConfig(
                                 mode = PracticeMode.QUICK,
                                 size = progress.settings.sessionSize,
                                 ruleIds = ruleIds,
+                                types = types,
                             ),
                             quickTitle,
                         )
@@ -161,18 +161,6 @@ private fun AppContent(container: AppContainer, content: ContentLoadResult) {
                             SessionConfig(PracticeMode.MISTAKES, size = progress.settings.sessionSize),
                             mistakesTitle,
                         )
-                    },
-                    onStartBuildPractice = {
-                        val buildCount = content.questions.count { it.isBuild }
-                        if (buildCount > 0) {
-                            startPractice(
-                                SessionConfig(
-                                    PracticeMode.BUILD,
-                                    size = minOf(progress.settings.sessionSize, buildCount),
-                                ),
-                                buildTitle,
-                            )
-                        }
                     },
                     onOpenSection = { sectionId -> navigator.push(Screen.Section(sectionId)) },
                     modifier = Modifier.fillMaxSize(),

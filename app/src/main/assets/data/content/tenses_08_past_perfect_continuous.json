@@ -17,8 +17,8 @@
         "en": "Past Perfect Continuous"
       },
       "summary": {
-        "ru": "Past Perfect Continuous (had been + -ing) показывает, что действие длилось в течение периода до другого события в прошлом, и часто объясняет причину или видимый результат.",
-        "en": "Past Perfect Continuous (had been + -ing) shows that an action was in progress for a period up to another past event, and it often explains a cause or a visible result."
+        "ru": "**had been + Ving** для процесса, который длился до прошлого события; маркеры: *for*, *since*, *all morning*.",
+        "en": "**had been + Ving** for a process that lasted up to a past event; markers: *for*, *since*, *all morning*."
       },
       "sections": [
         {
@@ -27,8 +27,8 @@
             "en": "Form"
           },
           "body": {
-            "ru": "Past Perfect Continuous строится одинаково для всех лиц: had been + глагол с окончанием -ing. Отрицание — had not been, в вопросе had выходит на первое место.",
-            "en": "Past Perfect Continuous has the same form for all persons: had been + the -ing form of the verb. The negative is had not been, and in questions had comes first."
+            "ru": "**(+)** had been + Ving — утверждение\n**(–)** had not been + Ving\n**(?)** Had … been + Ving?\n**Ving** = work → working, sit → sitting.",
+            "en": "**(+)** had been + Ving\n**(–)** had not been + Ving\n**(?)** Had … been + Ving?\n**Ving** = work → working, sit → sitting."
           },
           "examples": [
             "She had been working all day.",
@@ -38,63 +38,47 @@
         },
         {
           "heading": {
-            "ru": "Значение: длительность до прошлого момента",
-            "en": "Meaning: duration up to a past moment"
+            "ru": "Когда используем",
+            "en": "When we use it"
           },
           "body": {
-            "ru": "Время показывает, что действие началось раньше другого прошлого события и продолжалось до него. Часто указана длительность: for, since, all morning, for hours. Само более позднее событие обычно стоит в Past Simple.",
-            "en": "The tense shows that an action started before another past event and continued up to it. The length is often given with for, since, all morning or for hours. The later event is usually in Past Simple."
+            "ru": "- процесс **до** прошлого события\n- длительность: *for*, *since*, *all morning*\n- причина видимого результата\n- процесс, а **не** результат",
+            "en": "- a process **before** a past event\n- duration: *for*, *since*, *all morning*\n- the cause of a visible result\n- a process, **not** a result"
           },
           "examples": [
             "He had been driving for hours before he stopped.",
-            "They had been living there for years before they moved.",
-            "We had been walking for an hour when it started to rain."
+            "The ground was wet because it had been raining.",
+            "She had been working there since 2019."
           ]
         },
         {
           "heading": {
-            "ru": "Причина и видимый результат",
-            "en": "Cause and visible result"
+            "ru": "Маркеры",
+            "en": "Markers"
           },
           "body": {
-            "ru": "Past Perfect Continuous часто объясняет, почему что-то было так в прошлом: он показывает процесс, который привёл к видимому результату. В главной части обычно Past Simple.",
-            "en": "Past Perfect Continuous often explains why something was the case in the past: it shows the process that led to a visible result. The main clause is usually in Past Simple."
+            "ru": "- *for* + длительность\n- *since* + начало\n- *all day*, *all morning*\n- *how long* в вопросе",
+            "en": "- *for* + duration\n- *since* + starting point\n- *all day*, *all morning*\n- *how long* in questions"
           },
           "examples": [
-            "Her hands were cold because she had been waiting outside.",
-            "The kitchen smelled wonderful because she had been baking.",
-            "The streets were empty because everyone had been watching the match."
+            "They had been waiting for two hours.",
+            "He had been living there since 2018.",
+            "We had been walking all morning."
           ]
         },
         {
           "heading": {
-            "ru": "Past Perfect Continuous и Past Perfect",
-            "en": "Past Perfect Continuous and Past Perfect"
+            "ru": "Ошибки",
+            "en": "Mistakes"
           },
           "body": {
-            "ru": "Past Perfect Continuous подчёркивает процесс и длительность, а Past Perfect — завершённый результат или количество. Сравните, что важнее в предложении: как долго длилось действие или что оно дало.",
-            "en": "Past Perfect Continuous emphasises the process and its duration, while Past Perfect emphasises the completed result or the number of times. Think about what matters in the sentence: how long the action lasted or what it produced."
-          },
-          "examples": [
-            "They had repaired the roof before the storm.",
-            "They had been repairing the roof all afternoon.",
-            "We had completed the course by June.",
-            "We had been studying for months."
-          ]
-        },
-        {
-          "heading": {
-            "ru": "Маркеры и типичные ошибки",
-            "en": "Markers and common mistakes"
-          },
-          "body": {
-            "ru": "С этим временем часто идут for, since, all day, all morning, before и by the time. Глаголы состояния (know, believe, belong) обычно не ставят в Continuous — для них используют Past Perfect.",
-            "en": "This tense often goes with for, since, all day, all morning, before and by the time. State verbs (know, believe, belong) are not usually used in the Continuous form — use Past Perfect instead."
+            "ru": "- **не** *had been know* → *had known*: глаголы состояния без Continuous\n- **не** *had been* без *-ing*\n- процесс → Continuous, результат → Past Perfect",
+            "en": "- **no** *had been know* → *had known*: state verbs avoid the Continuous\n- **no** *had been* without *-ing*\n- process → Continuous, result → Past Perfect"
           },
           "examples": [
             "They had known each other for years.",
-            "How long had she been studying?",
-            "The children had been playing outside since lunchtime."
+            "He had written three letters by noon.",
+            "She had been writing letters all morning."
           ]
         }
       ]
@@ -456,8 +440,8 @@
       ],
       "answer": "had",
       "explanation": {
-        "ru": "Вопрос в Past Perfect Continuous: How long + had + подлежащее + been + -ing.",
-        "en": "Past Perfect Continuous question: How long + had + subject + been + -ing."
+        "ru": "Вопрос Past Perfect Continuous: **How long + had + been + -ing?**",
+        "en": "Past Perfect Continuous question: **How long + had + been + -ing?**"
       },
       "tags": [
         "tense-past-perfect-continuous",
@@ -661,7 +645,8 @@
         "tense-past-perfect-continuous",
         "build",
         "duration"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-past-perfect-continuous-0022",
@@ -703,7 +688,8 @@
         "tense-past-perfect-continuous",
         "build",
         "since"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-past-perfect-continuous-0023",
@@ -743,7 +729,8 @@
         "tense-past-perfect-continuous",
         "build",
         "result"
-      ]
+      ],
+      "buildKind": "affirmative"
     },
     {
       "id": "tense-past-perfect-continuous-0024",
@@ -772,14 +759,15 @@
         "ru": "Они ехали весь день?"
       },
       "explanation": {
-        "ru": "Вопрос в Past Perfect Continuous: Had + подлежащее + been + -ing.",
-        "en": "Past Perfect Continuous question: Had + subject + been + -ing."
+        "ru": "Вопрос Past Perfect Continuous: **Had + been + -ing?**",
+        "en": "Past Perfect Continuous question: **Had + been + -ing?**"
       },
       "tags": [
         "tense-past-perfect-continuous",
         "build",
         "question"
-      ]
+      ],
+      "buildKind": "question"
     },
     {
       "id": "tense-past-perfect-continuous-0025",
@@ -829,7 +817,8 @@
         "tense-past-perfect-continuous",
         "build",
         "negative"
-      ]
+      ],
+      "buildKind": "negative"
     },
     {
       "id": "tense-past-perfect-continuous-0026",
@@ -1074,6 +1063,2736 @@
         "tense-past-perfect-continuous",
         "match",
         "meanings"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0031",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "workers",
+        "had",
+        "been",
+        "digging",
+        "in",
+        "the",
+        "garden",
+        "since",
+        "early",
+        "morning"
+      ],
+      "answers": [
+        [
+          "The",
+          "workers",
+          "had",
+          "been",
+          "digging",
+          "in",
+          "the",
+          "garden",
+          "since",
+          "early",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Рабочие копали в саду с самого утра."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous: had been + -ing. Процесс длился до прошлого события.",
+        "en": "Past Perfect Continuous: had been + -ing. The process lasted up to a past event."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0032",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "had",
+        "been",
+        "studying",
+        "English",
+        "for",
+        "three",
+        "years",
+        "before",
+        "she",
+        "took",
+        "the",
+        "exam"
+      ],
+      "answers": [
+        [
+          "She",
+          "had",
+          "been",
+          "studying",
+          "English",
+          "for",
+          "three",
+          "years",
+          "before",
+          "she",
+          "took",
+          "the",
+          "exam"
+        ]
+      ],
+      "translation": {
+        "ru": "Она учила английский три года до того, как сдала экзамен."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous: had been + -ing. Процесс длился до прошлого события.",
+        "en": "Past Perfect Continuous: had been + -ing. The process lasted up to a past event."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0033",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "had",
+        "been",
+        "walking",
+        "for",
+        "hours",
+        "when",
+        "we",
+        "reached",
+        "the",
+        "village"
+      ],
+      "answers": [
+        [
+          "We",
+          "had",
+          "been",
+          "walking",
+          "for",
+          "hours",
+          "when",
+          "we",
+          "reached",
+          "the",
+          "village"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы шли несколько часов, когда добрались до деревни."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous: had been + -ing. Процесс длился до прошлого события.",
+        "en": "Past Perfect Continuous: had been + -ing. The process lasted up to a past event."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0034",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "baby",
+        "had",
+        "been",
+        "sleeping",
+        "peacefully",
+        "for",
+        "an",
+        "hour"
+      ],
+      "answers": [
+        [
+          "The",
+          "baby",
+          "had",
+          "been",
+          "sleeping",
+          "peacefully",
+          "for",
+          "an",
+          "hour"
+        ]
+      ],
+      "translation": {
+        "ru": "Малыш мирно спал уже час."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous: had been + -ing. Процесс длился до прошлого события.",
+        "en": "Past Perfect Continuous: had been + -ing. The process lasted up to a past event."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0035",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "had",
+        "been",
+        "painting",
+        "the",
+        "fence",
+        "all",
+        "afternoon"
+      ],
+      "answers": [
+        [
+          "They",
+          "had",
+          "been",
+          "painting",
+          "the",
+          "fence",
+          "all",
+          "afternoon"
+        ]
+      ],
+      "translation": {
+        "ru": "Они красили забор всё послеобеденное время."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous: had been + -ing. Процесс длился до прошлого события.",
+        "en": "Past Perfect Continuous: had been + -ing. The process lasted up to a past event."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0036",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "had",
+        "been",
+        "waiting",
+        "for",
+        "the",
+        "bus",
+        "for",
+        "twenty",
+        "minutes"
+      ],
+      "answers": [
+        [
+          "He",
+          "had",
+          "been",
+          "waiting",
+          "for",
+          "the",
+          "bus",
+          "for",
+          "twenty",
+          "minutes"
+        ]
+      ],
+      "translation": {
+        "ru": "Он ждал автобус двадцать минут."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous: had been + -ing. Процесс длился до прошлого события.",
+        "en": "Past Perfect Continuous: had been + -ing. The process lasted up to a past event."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0037",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "My",
+        "sister",
+        "had",
+        "been",
+        "practising",
+        "the",
+        "piano",
+        "all",
+        "evening"
+      ],
+      "answers": [
+        [
+          "My",
+          "sister",
+          "had",
+          "been",
+          "practising",
+          "the",
+          "piano",
+          "all",
+          "evening"
+        ]
+      ],
+      "translation": {
+        "ru": "Моя сестра играла на пианино весь вечер."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous: had been + -ing. Процесс длился до прошлого события.",
+        "en": "Past Perfect Continuous: had been + -ing. The process lasted up to a past event."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0038",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "children",
+        "had",
+        "been",
+        "playing",
+        "outside",
+        "since",
+        "lunchtime"
+      ],
+      "answers": [
+        [
+          "The",
+          "children",
+          "had",
+          "been",
+          "playing",
+          "outside",
+          "since",
+          "lunchtime"
+        ]
+      ],
+      "translation": {
+        "ru": "Дети играли на улице с обеда."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous: had been + -ing. Процесс длился до прошлого события.",
+        "en": "Past Perfect Continuous: had been + -ing. The process lasted up to a past event."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0039",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "I",
+        "had",
+        "been",
+        "reading",
+        "that",
+        "book",
+        "for",
+        "weeks",
+        "before",
+        "I",
+        "finished",
+        "it"
+      ],
+      "answers": [
+        [
+          "I",
+          "had",
+          "been",
+          "reading",
+          "that",
+          "book",
+          "for",
+          "weeks",
+          "before",
+          "I",
+          "finished",
+          "it"
+        ]
+      ],
+      "translation": {
+        "ru": "Я читал эту книгу неделями, прежде чем закончил её."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous: had been + -ing. Процесс длился до прошлого события.",
+        "en": "Past Perfect Continuous: had been + -ing. The process lasted up to a past event."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0040",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "chef",
+        "had",
+        "been",
+        "cooking",
+        "since",
+        "noon"
+      ],
+      "answers": [
+        [
+          "The",
+          "chef",
+          "had",
+          "been",
+          "cooking",
+          "since",
+          "noon"
+        ]
+      ],
+      "translation": {
+        "ru": "Шеф готовил с самого полудня."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous: had been + -ing. Процесс длился до прошлого события.",
+        "en": "Past Perfect Continuous: had been + -ing. The process lasted up to a past event."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0041",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "students",
+        "had",
+        "been",
+        "preparing",
+        "for",
+        "the",
+        "exam",
+        "all",
+        "week"
+      ],
+      "answers": [
+        [
+          "The",
+          "students",
+          "had",
+          "been",
+          "preparing",
+          "for",
+          "the",
+          "exam",
+          "all",
+          "week"
+        ]
+      ],
+      "translation": {
+        "ru": "Студенты готовились к экзамену всю неделю."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous: had been + -ing. Процесс длился до прошлого события.",
+        "en": "Past Perfect Continuous: had been + -ing. The process lasted up to a past event."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0042",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "rain",
+        "had",
+        "been",
+        "falling",
+        "for",
+        "three",
+        "days",
+        "before",
+        "the",
+        "river",
+        "flooded"
+      ],
+      "answers": [
+        [
+          "The",
+          "rain",
+          "had",
+          "been",
+          "falling",
+          "for",
+          "three",
+          "days",
+          "before",
+          "the",
+          "river",
+          "flooded"
+        ]
+      ],
+      "translation": {
+        "ru": "Дождь шёл три дня, прежде чем река вышла из берегов."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous: had been + -ing. Процесс длился до прошлого события.",
+        "en": "Past Perfect Continuous: had been + -ing. The process lasted up to a past event."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0043",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "She",
+        "had",
+        "been",
+        "feeling",
+        "tired",
+        "all",
+        "week",
+        "before",
+        "the",
+        "holiday"
+      ],
+      "answers": [
+        [
+          "She",
+          "had",
+          "been",
+          "feeling",
+          "tired",
+          "all",
+          "week",
+          "before",
+          "the",
+          "holiday"
+        ]
+      ],
+      "translation": {
+        "ru": "Она чувствовала усталость всю неделю перед отпуском."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous: had been + -ing. Процесс длился до прошлого события.",
+        "en": "Past Perfect Continuous: had been + -ing. The process lasted up to a past event."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0044",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "They",
+        "had",
+        "been",
+        "living",
+        "in",
+        "that",
+        "flat",
+        "since",
+        "2018"
+      ],
+      "answers": [
+        [
+          "They",
+          "had",
+          "been",
+          "living",
+          "in",
+          "that",
+          "flat",
+          "since",
+          "2018"
+        ]
+      ],
+      "translation": {
+        "ru": "Они жили в той квартире с 2018 года."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous: had been + -ing. Процесс длился до прошлого события.",
+        "en": "Past Perfect Continuous: had been + -ing. The process lasted up to a past event."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0045",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "The",
+        "dog",
+        "had",
+        "been",
+        "barking",
+        "for",
+        "an",
+        "hour",
+        "before",
+        "the",
+        "owner",
+        "came",
+        "back"
+      ],
+      "answers": [
+        [
+          "The",
+          "dog",
+          "had",
+          "been",
+          "barking",
+          "for",
+          "an",
+          "hour",
+          "before",
+          "the",
+          "owner",
+          "came",
+          "back"
+        ]
+      ],
+      "translation": {
+        "ru": "Собака лаяла час, прежде чем вернулся хозяин."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous: had been + -ing. Процесс длился до прошлого события.",
+        "en": "Past Perfect Continuous: had been + -ing. The process lasted up to a past event."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0046",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "We",
+        "had",
+        "been",
+        "trying",
+        "to",
+        "reach",
+        "them",
+        "all",
+        "morning"
+      ],
+      "answers": [
+        [
+          "We",
+          "had",
+          "been",
+          "trying",
+          "to",
+          "reach",
+          "them",
+          "all",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы всё утро пытались до них дозвониться."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous: had been + -ing. Процесс длился до прошлого события.",
+        "en": "Past Perfect Continuous: had been + -ing. The process lasted up to a past event."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0047",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "affirmative",
+      "words": [
+        "He",
+        "had",
+        "been",
+        "working",
+        "at",
+        "the",
+        "camp",
+        "for",
+        "a",
+        "month",
+        "before",
+        "he",
+        "met",
+        "her"
+      ],
+      "answers": [
+        [
+          "He",
+          "had",
+          "been",
+          "working",
+          "at",
+          "the",
+          "camp",
+          "for",
+          "a",
+          "month",
+          "before",
+          "he",
+          "met",
+          "her"
+        ]
+      ],
+      "translation": {
+        "ru": "Он работал в лагере месяц, прежде чем познакомился с ней."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous: had been + -ing. Процесс длился до прошлого события.",
+        "en": "Past Perfect Continuous: had been + -ing. The process lasted up to a past event."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0048",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "had",
+        "not",
+        "been",
+        "sleeping",
+        "well",
+        "before",
+        "the",
+        "trip"
+      ],
+      "answers": [
+        [
+          "I",
+          "had",
+          "not",
+          "been",
+          "sleeping",
+          "well",
+          "before",
+          "the",
+          "trip"
+        ]
+      ],
+      "translation": {
+        "ru": "Я плохо спал перед поездкой."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0049",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "had",
+        "not",
+        "been",
+        "waiting",
+        "very",
+        "long",
+        "when",
+        "the",
+        "train",
+        "came"
+      ],
+      "answers": [
+        [
+          "They",
+          "had",
+          "not",
+          "been",
+          "waiting",
+          "very",
+          "long",
+          "when",
+          "the",
+          "train",
+          "came"
+        ]
+      ],
+      "translation": {
+        "ru": "Они ждали недолго, когда пришёл поезд."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0050",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "had",
+        "not",
+        "been",
+        "working",
+        "there",
+        "for",
+        "a",
+        "long",
+        "time",
+        "before",
+        "she",
+        "left"
+      ],
+      "answers": [
+        [
+          "She",
+          "had",
+          "not",
+          "been",
+          "working",
+          "there",
+          "for",
+          "a",
+          "long",
+          "time",
+          "before",
+          "she",
+          "left"
+        ]
+      ],
+      "translation": {
+        "ru": "Она работала там недолго до ухода."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0051",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "had",
+        "not",
+        "been",
+        "playing",
+        "football",
+        "for",
+        "an",
+        "hour",
+        "when",
+        "it",
+        "started",
+        "to",
+        "rain"
+      ],
+      "answers": [
+        [
+          "We",
+          "had",
+          "not",
+          "been",
+          "playing",
+          "football",
+          "for",
+          "an",
+          "hour",
+          "when",
+          "it",
+          "started",
+          "to",
+          "rain"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы играли в футбол меньше часа, когда начался дождь."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0052",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "children",
+        "had",
+        "not",
+        "been",
+        "studying",
+        "with",
+        "us",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "The",
+          "children",
+          "had",
+          "not",
+          "been",
+          "studying",
+          "with",
+          "us",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "Дети занимались с нами недолго."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0053",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "had",
+        "not",
+        "been",
+        "feeling",
+        "well",
+        "since",
+        "Monday"
+      ],
+      "answers": [
+        [
+          "He",
+          "had",
+          "not",
+          "been",
+          "feeling",
+          "well",
+          "since",
+          "Monday"
+        ]
+      ],
+      "translation": {
+        "ru": "Он плохо себя чувствовал с понедельника."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0054",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "machine",
+        "had",
+        "not",
+        "been",
+        "running",
+        "properly",
+        "all",
+        "week"
+      ],
+      "answers": [
+        [
+          "The",
+          "machine",
+          "had",
+          "not",
+          "been",
+          "running",
+          "properly",
+          "all",
+          "week"
+        ]
+      ],
+      "translation": {
+        "ru": "Машина всю неделю работала неправильно."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0055",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "had",
+        "not",
+        "been",
+        "listening",
+        "to",
+        "the",
+        "teacher",
+        "carefully"
+      ],
+      "answers": [
+        [
+          "They",
+          "had",
+          "not",
+          "been",
+          "listening",
+          "to",
+          "the",
+          "teacher",
+          "carefully"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не слушали учителя внимательно."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0056",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "had",
+        "not",
+        "been",
+        "cooking",
+        "for",
+        "more",
+        "than",
+        "ten",
+        "minutes"
+      ],
+      "answers": [
+        [
+          "She",
+          "had",
+          "not",
+          "been",
+          "cooking",
+          "for",
+          "more",
+          "than",
+          "ten",
+          "minutes"
+        ]
+      ],
+      "translation": {
+        "ru": "Она готовила не больше десяти минут."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0057",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "had",
+        "not",
+        "been",
+        "living",
+        "there",
+        "for",
+        "long",
+        "before",
+        "the",
+        "move"
+      ],
+      "answers": [
+        [
+          "We",
+          "had",
+          "not",
+          "been",
+          "living",
+          "there",
+          "for",
+          "long",
+          "before",
+          "the",
+          "move"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы жили там недолго до переезда."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0058",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "I",
+        "had",
+        "not",
+        "been",
+        "reading",
+        "that",
+        "magazine",
+        "before",
+        "you",
+        "recommended",
+        "it"
+      ],
+      "answers": [
+        [
+          "I",
+          "had",
+          "not",
+          "been",
+          "reading",
+          "that",
+          "magazine",
+          "before",
+          "you",
+          "recommended",
+          "it"
+        ]
+      ],
+      "translation": {
+        "ru": "Я не читал тот журнал до твоего совета."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0059",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "team",
+        "had",
+        "not",
+        "been",
+        "training",
+        "for",
+        "months",
+        "before",
+        "the",
+        "match"
+      ],
+      "answers": [
+        [
+          "The",
+          "team",
+          "had",
+          "not",
+          "been",
+          "training",
+          "for",
+          "months",
+          "before",
+          "the",
+          "match"
+        ]
+      ],
+      "translation": {
+        "ru": "Команда не тренировалась месяцами до матча."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0060",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "He",
+        "had",
+        "not",
+        "been",
+        "driving",
+        "for",
+        "long",
+        "when",
+        "the",
+        "car",
+        "broke",
+        "down"
+      ],
+      "answers": [
+        [
+          "He",
+          "had",
+          "not",
+          "been",
+          "driving",
+          "for",
+          "long",
+          "when",
+          "the",
+          "car",
+          "broke",
+          "down"
+        ]
+      ],
+      "translation": {
+        "ru": "Он ехал недолго, когда машина сломалась."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0061",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "She",
+        "had",
+        "not",
+        "been",
+        "waiting",
+        "outside",
+        "for",
+        "more",
+        "than",
+        "five",
+        "minutes"
+      ],
+      "answers": [
+        [
+          "She",
+          "had",
+          "not",
+          "been",
+          "waiting",
+          "outside",
+          "for",
+          "more",
+          "than",
+          "five",
+          "minutes"
+        ]
+      ],
+      "translation": {
+        "ru": "Она ждала снаружи не больше пяти минут."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0062",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "rain",
+        "had",
+        "not",
+        "been",
+        "falling",
+        "for",
+        "long",
+        "when",
+        "we",
+        "left"
+      ],
+      "answers": [
+        [
+          "The",
+          "rain",
+          "had",
+          "not",
+          "been",
+          "falling",
+          "for",
+          "long",
+          "when",
+          "we",
+          "left"
+        ]
+      ],
+      "translation": {
+        "ru": "Дождь шёл недолго, когда мы вышли."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0063",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "They",
+        "had",
+        "not",
+        "been",
+        "arguing",
+        "before",
+        "I",
+        "arrived"
+      ],
+      "answers": [
+        [
+          "They",
+          "had",
+          "not",
+          "been",
+          "arguing",
+          "before",
+          "I",
+          "arrived"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не ссорились до моего прихода."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0064",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "baby",
+        "had",
+        "not",
+        "been",
+        "crying",
+        "for",
+        "long",
+        "when",
+        "her",
+        "mother",
+        "came",
+        "in"
+      ],
+      "answers": [
+        [
+          "The",
+          "baby",
+          "had",
+          "not",
+          "been",
+          "crying",
+          "for",
+          "long",
+          "when",
+          "her",
+          "mother",
+          "came",
+          "in"
+        ]
+      ],
+      "translation": {
+        "ru": "Малыш плакал недолго, когда вошла мама."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0065",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "We",
+        "had",
+        "not",
+        "been",
+        "spending",
+        "much",
+        "time",
+        "together",
+        "before",
+        "that",
+        "summer"
+      ],
+      "answers": [
+        [
+          "We",
+          "had",
+          "not",
+          "been",
+          "spending",
+          "much",
+          "time",
+          "together",
+          "before",
+          "that",
+          "summer"
+        ]
+      ],
+      "translation": {
+        "ru": "Мы мало времени проводили вместе до того лета."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0066",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "negative",
+      "words": [
+        "The",
+        "players",
+        "had",
+        "not",
+        "been",
+        "practising",
+        "for",
+        "long",
+        "before",
+        "the",
+        "game"
+      ],
+      "answers": [
+        [
+          "The",
+          "players",
+          "had",
+          "not",
+          "been",
+          "practising",
+          "for",
+          "long",
+          "before",
+          "the",
+          "game"
+        ]
+      ],
+      "translation": {
+        "ru": "Игроки тренировались недолго до игры."
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, отрицание: had not been + -ing.",
+        "en": "Past Perfect Continuous negative: had not been + -ing."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0067",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "you",
+        "been",
+        "waiting",
+        "long",
+        "before",
+        "the",
+        "bus",
+        "came"
+      ],
+      "answers": [
+        [
+          "Had",
+          "you",
+          "been",
+          "waiting",
+          "long",
+          "before",
+          "the",
+          "bus",
+          "came"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты долго ждал до прихода автобуса?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0068",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "she",
+        "been",
+        "working",
+        "there",
+        "for",
+        "a",
+        "year",
+        "when",
+        "she",
+        "got",
+        "promoted"
+      ],
+      "answers": [
+        [
+          "Had",
+          "she",
+          "been",
+          "working",
+          "there",
+          "for",
+          "a",
+          "year",
+          "when",
+          "she",
+          "got",
+          "promoted"
+        ]
+      ],
+      "translation": {
+        "ru": "Она проработала там год, когда её повысили?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0069",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "they",
+        "been",
+        "travelling",
+        "all",
+        "morning",
+        "before",
+        "the",
+        "storm"
+      ],
+      "answers": [
+        [
+          "Had",
+          "they",
+          "been",
+          "travelling",
+          "all",
+          "morning",
+          "before",
+          "the",
+          "storm"
+        ]
+      ],
+      "translation": {
+        "ru": "Они ехали всё утро до шторма?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0070",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "he",
+        "been",
+        "studying",
+        "for",
+        "the",
+        "test",
+        "all",
+        "week"
+      ],
+      "answers": [
+        [
+          "Had",
+          "he",
+          "been",
+          "studying",
+          "for",
+          "the",
+          "test",
+          "all",
+          "week"
+        ]
+      ],
+      "translation": {
+        "ru": "Он готовился к тесту всю неделю?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0071",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "you",
+        "been",
+        "living",
+        "in",
+        "that",
+        "city",
+        "for",
+        "long"
+      ],
+      "answers": [
+        [
+          "Had",
+          "you",
+          "been",
+          "living",
+          "in",
+          "that",
+          "city",
+          "for",
+          "long"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты долго жил в том городе?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0072",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "it",
+        "been",
+        "raining",
+        "before",
+        "you",
+        "left",
+        "the",
+        "house"
+      ],
+      "answers": [
+        [
+          "Had",
+          "it",
+          "been",
+          "raining",
+          "before",
+          "you",
+          "left",
+          "the",
+          "house"
+        ]
+      ],
+      "translation": {
+        "ru": "Дождь шёл до того, как ты вышел из дома?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0073",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "the",
+        "children",
+        "been",
+        "playing",
+        "outside",
+        "all",
+        "afternoon"
+      ],
+      "answers": [
+        [
+          "Had",
+          "the",
+          "children",
+          "been",
+          "playing",
+          "outside",
+          "all",
+          "afternoon"
+        ]
+      ],
+      "translation": {
+        "ru": "Дети играли на улице всё послеобеденное время?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0074",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "she",
+        "been",
+        "feeling",
+        "unwell",
+        "before",
+        "the",
+        "meeting"
+      ],
+      "answers": [
+        [
+          "Had",
+          "she",
+          "been",
+          "feeling",
+          "unwell",
+          "before",
+          "the",
+          "meeting"
+        ]
+      ],
+      "translation": {
+        "ru": "Она плохо себя чувствовала до собрания?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0075",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "they",
+        "been",
+        "planning",
+        "the",
+        "trip",
+        "for",
+        "months"
+      ],
+      "answers": [
+        [
+          "Had",
+          "they",
+          "been",
+          "planning",
+          "the",
+          "trip",
+          "for",
+          "months"
+        ]
+      ],
+      "translation": {
+        "ru": "Они планировали поездку месяцами?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0076",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "you",
+        "been",
+        "reading",
+        "that",
+        "book",
+        "before",
+        "the",
+        "film",
+        "came",
+        "out"
+      ],
+      "answers": [
+        [
+          "Had",
+          "you",
+          "been",
+          "reading",
+          "that",
+          "book",
+          "before",
+          "the",
+          "film",
+          "came",
+          "out"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты читал ту книгу до выхода фильма?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0077",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "he",
+        "been",
+        "learning",
+        "English",
+        "for",
+        "two",
+        "years",
+        "before",
+        "the",
+        "move"
+      ],
+      "answers": [
+        [
+          "Had",
+          "he",
+          "been",
+          "learning",
+          "English",
+          "for",
+          "two",
+          "years",
+          "before",
+          "the",
+          "move"
+        ]
+      ],
+      "translation": {
+        "ru": "Он учил английский два года до переезда?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0078",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "they",
+        "been",
+        "waiting",
+        "at",
+        "the",
+        "station",
+        "since",
+        "morning"
+      ],
+      "answers": [
+        [
+          "Had",
+          "they",
+          "been",
+          "waiting",
+          "at",
+          "the",
+          "station",
+          "since",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Они ждали на вокзале с утра?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0079",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "you",
+        "been",
+        "working",
+        "on",
+        "the",
+        "project",
+        "before",
+        "I",
+        "joined"
+      ],
+      "answers": [
+        [
+          "Had",
+          "you",
+          "been",
+          "working",
+          "on",
+          "the",
+          "project",
+          "before",
+          "I",
+          "joined"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты работал над проектом до моего прихода?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0080",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "the",
+        "dog",
+        "been",
+        "barking",
+        "before",
+        "you",
+        "opened",
+        "the",
+        "door"
+      ],
+      "answers": [
+        [
+          "Had",
+          "the",
+          "dog",
+          "been",
+          "barking",
+          "before",
+          "you",
+          "opened",
+          "the",
+          "door"
+        ]
+      ],
+      "translation": {
+        "ru": "Собака лаяла до того, как ты открыл дверь?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0081",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "she",
+        "been",
+        "teaching",
+        "at",
+        "that",
+        "school",
+        "for",
+        "five",
+        "years"
+      ],
+      "answers": [
+        [
+          "Had",
+          "she",
+          "been",
+          "teaching",
+          "at",
+          "that",
+          "school",
+          "for",
+          "five",
+          "years"
+        ]
+      ],
+      "translation": {
+        "ru": "Она преподавала в той школе пять лет?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0082",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "they",
+        "been",
+        "living",
+        "in",
+        "London",
+        "before",
+        "the",
+        "war"
+      ],
+      "answers": [
+        [
+          "Had",
+          "they",
+          "been",
+          "living",
+          "in",
+          "London",
+          "before",
+          "the",
+          "war"
+        ]
+      ],
+      "translation": {
+        "ru": "Они жили в Лондоне до войны?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0083",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "you",
+        "been",
+        "practising",
+        "the",
+        "piano",
+        "all",
+        "evening"
+      ],
+      "answers": [
+        [
+          "Had",
+          "you",
+          "been",
+          "practising",
+          "the",
+          "piano",
+          "all",
+          "evening"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты играл на пианино весь вечер?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0084",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "he",
+        "been",
+        "trying",
+        "to",
+        "call",
+        "you",
+        "before",
+        "I",
+        "came"
+      ],
+      "answers": [
+        [
+          "Had",
+          "he",
+          "been",
+          "trying",
+          "to",
+          "call",
+          "you",
+          "before",
+          "I",
+          "came"
+        ]
+      ],
+      "translation": {
+        "ru": "Он пытался тебе позвонить до моего прихода?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0085",
+      "type": "build",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "buildKind": "question",
+      "words": [
+        "Had",
+        "the",
+        "workers",
+        "been",
+        "digging",
+        "since",
+        "early",
+        "morning"
+      ],
+      "answers": [
+        [
+          "Had",
+          "the",
+          "workers",
+          "been",
+          "digging",
+          "since",
+          "early",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Рабочие копали с самого утра?"
+      },
+      "explanation": {
+        "ru": "Past Perfect Continuous, вопрос: Had + … been + -ing?",
+        "en": "Past Perfect Continuous question: Had + … been + -ing?"
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0086",
+      "type": "match",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте результат и причину-пример.",
+        "en": "Match the result with its cause example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "видимый результат: мокро",
+            "en": "a visible result: wet"
+          },
+          "right": "The pavement was wet because it had been raining."
+        },
+        {
+          "left": {
+            "ru": "причина усталости",
+            "en": "the cause of tiredness"
+          },
+          "right": "She was exhausted because she had been working."
+        },
+        {
+          "left": {
+            "ru": "причина опоздания",
+            "en": "the cause of being late"
+          },
+          "right": "He was late because he had been waiting for a bus."
+        },
+        {
+          "left": {
+            "ru": "причина беспорядка",
+            "en": "the cause of the mess"
+          },
+          "right": "The kitchen was a mess because they had been cooking."
+        }
+      ],
+      "explanation": {
+        "ru": "Past Perfect Continuous объясняет, какой процесс привёл к видимому результату в прошлом.",
+        "en": "Past Perfect Continuous explains which process led to a visible result in the past."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "match",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0087",
+      "type": "match",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте длительность и пример.",
+        "en": "Match the duration marker with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "for: пять часов",
+            "en": "for: five hours"
+          },
+          "right": "They had been driving for five hours."
+        },
+        {
+          "left": {
+            "ru": "since: с 2019",
+            "en": "since: 2019"
+          },
+          "right": "He had been studying since 2019."
+        },
+        {
+          "left": {
+            "ru": "all day: весь день",
+            "en": "all day"
+          },
+          "right": "We had been painting the house all day."
+        },
+        {
+          "left": {
+            "ru": "how long: вопрос о времени",
+            "en": "how long: a question about time"
+          },
+          "right": "How long had she been waiting for us?"
+        }
+      ],
+      "explanation": {
+        "ru": "For называет длительность, since — начало, all day — период, how long — вопрос о времени.",
+        "en": "For names duration, since the start, all day the period, and how long asks about the time."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "match",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0088",
+      "type": "match",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте время и пример.",
+        "en": "Match the tense with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Past Perfect Continuous: процесс до прошлого",
+            "en": "Past Perfect Continuous: a process up to a past moment"
+          },
+          "right": "She had been writing novels for years before she became famous."
+        },
+        {
+          "left": {
+            "ru": "Past Perfect: результат к моменту",
+            "en": "Past Perfect: a result by a moment"
+          },
+          "right": "She had written two novels by 2010."
+        },
+        {
+          "left": {
+            "ru": "Past Continuous: процесс в прошлом",
+            "en": "Past Continuous: a past process"
+          },
+          "right": "She was writing a novel when I met her."
+        },
+        {
+          "left": {
+            "ru": "Past Simple: законченное действие",
+            "en": "Past Simple: a finished action"
+          },
+          "right": "She wrote a short story last month."
+        }
+      ],
+      "explanation": {
+        "ru": "Continuous подчёркивает процесс, Past Perfect — результат, Past Continuous — процесс в прошлом, Past Simple — факт.",
+        "en": "The Continuous emphasises the process, Past Perfect the result, Past Continuous a past process, and Past Simple a fact."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "match",
+        "tenses"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0089",
+      "type": "match",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте вопрос и пример.",
+        "en": "Match the question with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "общий вопрос",
+            "en": "yes/no question"
+          },
+          "right": "Had it been raining before you woke up?"
+        },
+        {
+          "left": {
+            "ru": "вопрос с how long",
+            "en": "question with how long"
+          },
+          "right": "How long had they been living there?"
+        },
+        {
+          "left": {
+            "ru": "вопрос с what",
+            "en": "question with what"
+          },
+          "right": "What had you been doing all afternoon?"
+        },
+        {
+          "left": {
+            "ru": "вопрос с why",
+            "en": "question with why"
+          },
+          "right": "Why had she been crying?"
+        }
+      ],
+      "explanation": {
+        "ru": "В вопросах **had** и **been** идут в начале, вопросительное слово — первым.",
+        "en": "In questions **had** and **been** come first; the question word comes first."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "match",
+        "questions"
+      ]
+    },
+    {
+      "id": "tense-past-perfect-continuous-0090",
+      "type": "match",
+      "ruleId": "tense-past-perfect-continuous",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match the situation with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "PPC после before",
+            "en": "PPC after before"
+          },
+          "right": "He had been learning German before he moved to Berlin."
+        },
+        {
+          "left": {
+            "ru": "PPC с since",
+            "en": "PPC with since"
+          },
+          "right": "I had been working there since January."
+        },
+        {
+          "left": {
+            "ru": "PPC с for",
+            "en": "PPC with for"
+          },
+          "right": "They had been travelling for weeks before they stopped."
+        },
+        {
+          "left": {
+            "ru": "PPC в вопросе",
+            "en": "PPC in a question"
+          },
+          "right": "Had he been working all night?"
+        }
+      ],
+      "explanation": {
+        "ru": "Before, since, for и вопрос — типичные контексты Past Perfect Continuous.",
+        "en": "Before, since, for and questions are typical contexts for Past Perfect Continuous."
+      },
+      "tags": [
+        "tense-past-perfect-continuous",
+        "match",
+        "situations"
       ]
     }
   ]

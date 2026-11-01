@@ -288,7 +288,7 @@ private fun QuestionBody(
                 question.isChoice ->
                     tr("Выберите правильный предлог", "Choose the correct preposition")
                 question.isBuild ->
-                    tr("Соберите предложение из слов", "Build the sentence from the words")
+                    tr("Переведите предложение на английский", "Translate the sentence into English")
                 else -> question.prompt?.text(language)
                     ?: tr("Сопоставьте правило и пример", "Match each rule with its example")
             },
@@ -611,38 +611,44 @@ private fun BuildBody(
         }
     }
 
+    val russianSentence = question.translation?.ru.orEmpty()
+
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        if (russianSentence.isNotBlank()) {
+            Surface(
+                shape = RoundedCornerShape(18.dp),
+                color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f),
+            ) {
+                Text(
+                    text = russianSentence,
+                    style = MaterialTheme.typography.titleLarge.copy(lineHeight = 28.sp),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp, vertical = 14.dp),
+                )
+            }
+        }
+
         Surface(
             shape = RoundedCornerShape(18.dp),
             color = MaterialTheme.colorScheme.surface,
             border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
         ) {
-            if (selected.isEmpty()) {
-                Text(
-                    text = tr(
-                        "Нажмите на слова ниже, чтобы собрать предложение",
-                        "Tap the words below to build the sentence",
-                    ),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 18.dp),
-                )
-            } else {
-                FlowRow(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(12.dp),
-                    horizontalArrangement = Arrangement.spacedBy(8.dp),
-                    verticalArrangement = Arrangement.spacedBy(8.dp),
-                ) {
-                    selected.forEach { wordIndex ->
-                        WordTile(
-                            word = words[wordIndex],
-                            filled = true,
-                            enabled = !answered,
-                            onClick = { toggle(wordIndex) },
-                        )
-                    }
+            FlowRow(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .heightIn(min = 64.dp)
+                    .padding(12.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
+                selected.forEach { wordIndex ->
+                    WordTile(
+                        word = words[wordIndex],
+                        filled = true,
+                        enabled = !answered,
+                        onClick = { toggle(wordIndex) },
+                    )
                 }
             }
         }
@@ -834,7 +840,7 @@ private fun FeedbackCard(
                 )
             }
             val translation = question.translation?.ru.orEmpty()
-            if (language == AppLanguage.RU && translation.isNotBlank()) {
+            if (!question.isBuild && language == AppLanguage.RU && translation.isNotBlank()) {
                 HorizontalDivider(color = content.copy(alpha = 0.2f))
                 Column(verticalArrangement = Arrangement.spacedBy(3.dp)) {
                     Text(
