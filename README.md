@@ -6,7 +6,7 @@
 > **GitHub:** [github.com/Temnitsa/IlTa](https://github.com/Temnitsa/IlTa) ·
 > **Готовый APK:** [IlTa 2.8.0](https://github.com/Temnitsa/IlTa/releases/latest) — 7,6 МБ, Android 8.0+,
 > release-подпись, package `com.iltatrainer.app`, versionCode 10.
-> SHA-256: `PLACEHOLDER_28`.
+> SHA-256: `83d9b13504dfe6b6bdb31088ee1d9ade36aa633f9366d80a474eeea6bc13b2e3`.
 > Установка: скачайте APK из Releases или `adb install -r IlTa-v2.8.0-release.apk`.
 
 ## Возможности
@@ -67,9 +67,13 @@
 |---|---|---|
 | ![Обновления](art/screenshots/97_settings_updates.png) | ![Badge](art/screenshots/107_update_2_6_badge.png) | ![Установка](art/screenshots/108_update_2_5_available.png) |
 
-| Сборка предложений | Соберите предложение | Проверка |
+| Времена: 12 тем | Быстрая тренировка: секции | Типы заданий |
 |---|---|---|
-| ![Сборка](art/screenshots/114_section_tenses.png) | ![Вопрос](art/screenshots/112_build_question.png) | ![Фидбек](art/screenshots/113_build_feedback.png) |
+| ![Времена](art/screenshots/114_section_tenses.png) | ![Секции](art/screenshots/116_quick_picker_collapsed.png) | ![Типы](art/screenshots/117_quick_picker_types.png) |
+
+| Сборка: русское предложение | Компактная теория |
+|---|---|
+| ![Сборка](art/screenshots/118_build_only_session.png) | ![Правило](art/screenshots/119_compact_rule.png) |
 
 ## Требования
 
