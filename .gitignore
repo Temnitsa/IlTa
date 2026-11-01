@@ -22,3 +22,4 @@ keystore/*.jks
 # Deploy key
 .deploy/
 .kotlin/
+release-secrets.txt

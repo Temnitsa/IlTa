@@ -62,7 +62,13 @@ jobs:
         with:
           name: IlTa ${{ github.ref_name }}
           tag_name: ${{ github.ref_name }}
-          generate_release_notes: true
+          body: |
+            ## IlTa ${{ github.ref_name }}
+
+            Встроенная проверка обновлений: приложение предложит установить эту версию.
+            APK подписан release-ключом IlTa; установка идёт через системный установщик.
+
+            Полный список изменений: https://github.com/${{ github.repository }}/commits/${{ github.ref_name }}
           files: |
             artifacts/*.apk
             artifacts/checksums.txt

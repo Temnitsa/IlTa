@@ -26,8 +26,8 @@ android {
         applicationId = "com.iltatrainer.app"
         minSdk = 26
         targetSdk = 35
-        versionCode = 6
-        versionName = "2.4.0"
+        versionCode = (project.findProperty("appVersionCode") as String?)?.toIntOrNull() ?: 6
+        versionName = (project.findProperty("appVersionName") as String?) ?: "2.4.0"
         buildConfigField("String", "UPDATE_REPO", "\"$updateRepo\"")
     }
 
