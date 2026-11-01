@@ -136,32 +136,32 @@ class StatsCalculatorTest {
         val perfect = ProgressState(
             questionStats = questions.associate { q -> q.id to QuestionStat(attempts = 1, correct = 1) },
         )
-        assertEquals(100, StatsCalculator.ruleProgress(perfect, questions))
+        assertEquals(100, StatsCalculator.ruleProgress(perfect, questions, sessionSize = 20))
 
         val clean = nineteenCorrect()
-        assertEquals(95, StatsCalculator.ruleProgress(clean, questions))
+        assertEquals(95, StatsCalculator.ruleProgress(clean, questions, sessionSize = 20))
 
         val oneMistake = clean.copy(
             questionStats = clean.questionStats + ("q20" to QuestionStat(attempts = 1, correct = 0)),
         )
-        assertEquals(85, StatsCalculator.ruleProgress(oneMistake, questions))
+        assertEquals(85, StatsCalculator.ruleProgress(oneMistake, questions, sessionSize = 20))
 
         val correctedAfterMistake = perfect.copy(
             questionStats = perfect.questionStats + ("q1" to QuestionStat(attempts = 2, correct = 1)),
         )
-        assertEquals(90, StatsCalculator.ruleProgress(correctedAfterMistake, questions))
+        assertEquals(90, StatsCalculator.ruleProgress(correctedAfterMistake, questions, sessionSize = 20))
 
-        assertEquals(0, StatsCalculator.ruleProgress(ProgressState(), questions))
+        assertEquals(0, StatsCalculator.ruleProgress(ProgressState(), questions, sessionSize = 20))
     }
 
     @Test
     fun `learning progress averages theme progress`() {
         val ruleA = com.iltatrainer.app.data.Rule(id = "rule-a", sectionId = "articles", order = 1, level = "A1")
         val ruleB = com.iltatrainer.app.data.Rule(id = "rule-b", sectionId = "articles", order = 2, level = "A1")
-        val questions = (1..20).map { question("a$it", "A1").copy(ruleId = "rule-a") } +
-            (1..20).map { question("b$it", "A1").copy(ruleId = "rule-b") }
+        val questions = (1..30).map { question("a$it", "A1").copy(ruleId = "rule-a") } +
+            (1..30).map { question("b$it", "A1").copy(ruleId = "rule-b") }
         val state = ProgressState(
-            questionStats = (1..20).associate { "a$it" to QuestionStat(attempts = 1, correct = 1) },
+            questionStats = (1..30).associate { "a$it" to QuestionStat(attempts = 1, correct = 1) },
         )
         assertEquals(50, StatsCalculator.learningProgress(state, listOf(ruleA, ruleB), questions))
         assertEquals(50, StatsCalculator.sectionProgress(state, listOf(ruleA, ruleB), questions))
@@ -191,7 +191,7 @@ class StatsCalculatorTest {
         val perfect = ProgressState(
             questionStats = questions.associate { q -> q.id to QuestionStat(attempts = 1, correct = 1) },
         )
-        assertEquals(100, StatsCalculator.ruleProgress(perfect, questions))
+        assertEquals(100, StatsCalculator.ruleProgress(perfect, questions, sessionSize = 20))
     }
 
 }

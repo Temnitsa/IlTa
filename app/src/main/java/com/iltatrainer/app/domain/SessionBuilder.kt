@@ -43,6 +43,8 @@ data class SessionResult(
     val mistakeIds: List<String> get() = mistakes.map { it.question.id }
 }
 
+const val TOPIC_SESSION_SIZE = 30
+
 object SessionBuilder {
 
     fun build(
@@ -56,14 +58,12 @@ object SessionBuilder {
 
         val selected = when (config.mode) {
             PracticeMode.RETRY -> config.questionIds.mapNotNull { byId[it] }.take(size)
-            PracticeMode.TOPIC -> questions
-                .filter { it.ruleId == config.ruleId }
-                .sortedWith(
-                    compareBy<Question> { if (it.id in state.questionStats) 1 else 0 }
-                        .thenBy { accuracy(state, it.id) }
-                )
-                .take(size)
-                .shuffled(random)
+            PracticeMode.TOPIC -> buildTopicSession(
+                pool = questions.filter { it.ruleId == config.ruleId },
+                state = state,
+                size = size,
+                random = random,
+            )
             PracticeMode.MISTAKES -> buildMistakeReview(state, questions, size, random)
             PracticeMode.QUICK -> weightedPick(
                 if (config.ruleIds.isEmpty()) questions else questions.filter { it.ruleId in config.ruleIds },
@@ -93,13 +93,17 @@ object SessionBuilder {
         if (open.isEmpty()) return emptyList()
         val maxMistakes = (size / 4).coerceAtLeast(1)
         val byId = questions.associateBy { it.id }
-        val byRule = questions.groupBy { it.ruleId }
         val pickedIds = LinkedHashSet<String>()
         open.take(maxMistakes).forEach { (questionId, entry) ->
             val original = byId[questionId] ?: return@forEach
             pickedIds += original.id
-            val similar = byRule[entry.ruleId].orEmpty()
+            val originalTags = original.tags.toSet()
+            val similar = questions
                 .filter { it.id != questionId && it.id !in pickedIds && it.id !in state.mistakes }
+                .filter { candidate ->
+                    originalTags.isNotEmpty() && candidate.tags.any { it in originalTags } ||
+                        candidate.ruleId == original.ruleId
+                }
                 .shuffled(random)
                 .sortedByDescending { candidate -> similarityScore(original, candidate) }
                 .take(3)
@@ -119,6 +123,11 @@ object SessionBuilder {
         val sentenceOverlap = jaccard(sentenceTokens(original), sentenceTokens(candidate))
         val explanationOverlap = jaccard(explanationTokens(original), explanationTokens(candidate))
         var score = sentenceOverlap * 0.75 + explanationOverlap * 0.25
+        if (original.tags.isNotEmpty() && candidate.tags.isNotEmpty()) {
+            val sharedTags = original.tags.count { it in candidate.tags }
+            val tagUnion = (original.tags + candidate.tags).distinct().size
+            if (tagUnion > 0) score += 0.5 * sharedTags / tagUnion
+        }
         if (original.answer != null && original.answer == candidate.answer) score += 0.2
         if (original.level == candidate.level) score += 0.03
         return score
@@ -151,6 +160,24 @@ object SessionBuilder {
             .map { it.value.replace("'", "") }
             .filter { it.length > 2 && it !in STOP_WORDS }
             .toSet()
+
+    /**
+     * Topic training always has 30 questions: all five matching questions are included,
+     * and the remaining slots are filled with the weakest/unseen choice questions.
+     * Pool of each article theme is larger (70), so different sessions show different items.
+     */
+    private fun buildTopicSession(
+        pool: List<Question>,
+        state: ProgressState,
+        size: Int,
+        random: Random,
+    ): List<Question> {
+        if (pool.size <= size) return pool.shuffled(random)
+        val matches = pool.filter { it.isMatch }.shuffled(random).take(5)
+        val choiceCount = (size - matches.size).coerceAtLeast(0)
+        val choices = weightedPick(pool.filter { it.isChoice }, state, choiceCount, random)
+        return (matches + choices).shuffled(random)
+    }
 
     private fun accuracy(state: ProgressState, questionId: String): Float {
         val stat = state.questionStats[questionId] ?: return 0f

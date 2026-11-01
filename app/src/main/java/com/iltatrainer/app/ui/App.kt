@@ -39,6 +39,7 @@ import com.iltatrainer.app.domain.PracticeMode
 import com.iltatrainer.app.data.UpdateManager
 import com.iltatrainer.app.data.UpdateState
 import com.iltatrainer.app.domain.SessionConfig
+import com.iltatrainer.app.domain.TOPIC_SESSION_SIZE
 import com.iltatrainer.app.ui.components.EmptyState
 import com.iltatrainer.app.ui.components.StatsBarIcon
 import com.iltatrainer.app.ui.screens.PracticeScreen
@@ -212,12 +213,11 @@ private fun AppContent(container: AppContainer, content: ContentLoadResult) {
                         progress = progress,
                         onBack = { navigator.pop() },
                         onTrain = {
-                            val ruleSize = content.questionsByRule[ruleId] ?: 20
                             startPractice(
                                 SessionConfig(
                                     mode = PracticeMode.TOPIC,
                                     ruleId = ruleId,
-                                    size = ruleSize.coerceAtLeast(1),
+                                    size = TOPIC_SESSION_SIZE,
                                 ),
                                 ruleTitle,
                             )

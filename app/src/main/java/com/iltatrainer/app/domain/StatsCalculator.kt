@@ -30,9 +30,13 @@ object StatsCalculator {
      * too, and replaying a theme raises it), every wrong attempt costs twice as much
      * (`2 * 100 / N`). The result is clamped to 0..100.
      */
-    fun ruleProgress(state: ProgressState, ruleQuestions: List<Question>): Int {
+    fun ruleProgress(
+        state: ProgressState,
+        ruleQuestions: List<Question>,
+        sessionSize: Int = TOPIC_SESSION_SIZE,
+    ): Int {
         if (ruleQuestions.isEmpty()) return 0
-        val step = 100.0 / ruleQuestions.size
+        val step = 100.0 / sessionSize.coerceAtLeast(1)
         var score = 0.0
         ruleQuestions.forEach { question ->
             val stat = state.questionStats[question.id] ?: return@forEach

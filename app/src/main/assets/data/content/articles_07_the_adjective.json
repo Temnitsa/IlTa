@@ -1,0 +1,2090 @@
+{
+  "meta": {
+    "package": "articles_07_the_adjective",
+    "version": 2,
+    "authors": [
+      "content-team"
+    ]
+  },
+  "rules": [
+    {
+      "id": "art-the-adjective",
+      "sectionId": "articles",
+      "order": 70,
+      "level": "B2",
+      "title": {
+        "ru": "the: прилагательные, национальности, учреждения",
+        "en": "the: adjectives, nationalities, institutions"
+      },
+      "summary": {
+        "ru": "Определённый артикль с прилагательными и названиями наций, обобщающий a/an, а также выбор артикля с учреждениями, местами досуга и при обозначении единственности.",
+        "en": "The definite article with adjectives and nationality names, generic a/an, and the article with institutions, leisure places and unique items."
+      },
+      "sections": [
+        {
+          "heading": {
+            "ru": "The + прилагательное = группа людей",
+            "en": "The + adjective = a group of people"
+          },
+          "body": {
+            "ru": "Прилагательное с определённым артиклем называет группу людей: значение множественное, поэтому и глагол ставится во множественном числе. Так говорят о социальных группах и категориях людей, а не об одном человеке.",
+            "en": "An adjective with the definite article names a group of people: the meaning is plural, so the verb is plural too. This pattern describes social groups and categories of people, not one individual."
+          },
+          "examples": [
+            "The rich often pay higher taxes.",
+            "The homeless need warm shelters.",
+            "The young often need advice."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "The + название нации",
+            "en": "The + nationality"
+          },
+          "body": {
+            "ru": "Названия наций, оканчивающиеся на -sh, -ch, -ese или -ss, употребляются с the и глаголом во множественном числе. Они обозначают нацию в целом, поэтому не путайте их с обычными прилагательными перед существительным.",
+            "en": "Nationality words ending in -sh, -ch, -ese or -ss take the and a plural verb. They name a nation as a whole, so do not confuse them with ordinary adjectives placed before a noun."
+          },
+          "examples": [
+            "The British love tea and cricket.",
+            "The Japanese are famous for their gardens.",
+            "The Chinese have a long history."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "A/an: любой представитель класса",
+            "en": "A/an: any member of a class"
+          },
+          "body": {
+            "ru": "Неопределённый артикль с существительным в единственном числе называет любого представителя класса: A tiger is a dangerous animal. Тот же класс можно назвать через the + единственное число (The tiger is a dangerous animal) или через множественное число без артикля (Tigers are dangerous animals).",
+            "en": "The indefinite article with a singular noun names any member of a class: A tiger is a dangerous animal. The same class can be named with the + singular (The tiger is a dangerous animal) or with a plural noun without an article (Tigers are dangerous animals)."
+          },
+          "examples": [
+            "A good mechanic checks the engine twice.",
+            "An architect designs buildings.",
+            "A chef must taste the food."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "The с учреждениями и местами",
+            "en": "The with institutions and places"
+          },
+          "body": {
+            "ru": "Слова school, hospital и подобные могут называть деятельность (учёбу, лечение) или здание. Для деятельности артикль не нужен, для конкретного здания или известного места ставится the. Названия мест досуга обычно употребляются с the постоянно.",
+            "en": "Words such as school or hospital can name an activity (studying, medical treatment) or a building. No article is used for the activity, while a particular building or known place takes the. Leisure places normally keep the as a fixed part of the phrase."
+          },
+          "examples": [
+            "Children start school at five.",
+            "We walked past the old school.",
+            "Shall we go to a concert tonight?",
+            "She is in the local hospital after the accident."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "The: превосходная степень и единственность",
+            "en": "The: superlatives and uniqueness"
+          },
+          "body": {
+            "ru": "С превосходной степенью, порядковыми числительными и словами only, same, next, last обычно ставится the — они выделяют единственный предмет в ряду. Если перед прилагательным уже стоит притяжательное местоимение, артикль не нужен: my best friend. В выражениях времени next и last идут без артикля: next week, last year.",
+            "en": "With superlatives, ordinal numbers and the words only, same, next, last we usually use the: they single out one item. If a possessive pronoun already stands before the adjective, no article is used: my best friend. In time expressions next and last take no article: next week, last year."
+          },
+          "examples": [
+            "She is the youngest member of the choir.",
+            "This is the first day of our holiday.",
+            "He is the only doctor on the island.",
+            "They chose the same route."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "def-0066",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "Shall we go to ___ cinema tonight?",
+      "translation": {
+        "ru": "Может, сходим сегодня вечером в кино?"
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "О походе в кино как о досуге говорим go to the cinema — с артиклем the.",
+        "en": "For the activity of going to the cinema we say go to the cinema with the."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0067",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "My parents love going to ___ theatre.",
+      "translation": {
+        "ru": "Мои родители любят ходить в театр."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "О походе в театр как о виде досуга говорим go to the theatre — с артиклем the.",
+        "en": "For the activity of going to the theatre we say go to the theatre with the."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0068",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "Children in Britain usually start ___ school at the age of five.",
+      "translation": {
+        "ru": "Дети в Британии обычно начинают ходить в школу в пять лет."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Start school — это процесс обучения, а не здание, поэтому артикль не нужен.",
+        "en": "Start school describes education as a process, not a building, so no article is used."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0069",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "My mother went to ___ school to speak to my teacher.",
+      "translation": {
+        "ru": "Мама пошла в школу, чтобы поговорить с моим учителем."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Мама пошла в здание школы как посетитель, а не учиться, поэтому ставим the school.",
+        "en": "My mother went to the school building as a visitor, not to study, so we use the school."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0070",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "We drove to ___ hospital where my aunt works, the one near the park.",
+      "translation": {
+        "ru": "Мы поехали в больницу, где работает моя тётя, — ту, что рядом с парком."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Придаточное where my aunt works делает больницу конкретной, и речь о здании — the hospital.",
+        "en": "The clause where my aunt works specifies the hospital building, so we use the hospital."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0071",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "After leaving ___ school at sixteen, my uncle became a mechanic.",
+      "translation": {
+        "ru": "Закончив школу в шестнадцать лет, мой дядя стал механиком."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Leave school значит «закончить учёбу», это процесс, поэтому артикль не ставим.",
+        "en": "Leave school means to finish education, a process, so no article is used."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0072",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "The film starts at eight, so let's meet in front of ___ cinema at half past seven.",
+      "translation": {
+        "ru": "Фильм начинается в восемь, поэтому давай встретимся перед кинотеатром в половине восьмого."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Речь о конкретном кинотеатре, куда мы идём по плану, поэтому ставим the.",
+        "en": "We mean the particular cinema we are going to, so we use the."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0073",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "My younger sister is only four, so she doesn't go to ___ school yet.",
+      "translation": {
+        "ru": "Моей младшей сестре всего четыре года, поэтому она ещё не ходит в школу."
+      },
+      "answer": "—",
+      "explanation": {
+        "ru": "Go to school — это учёба как процесс, артикль перед school не нужен.",
+        "en": "Go to school describes the process of education, so no article is used before school."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0074",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "I was at ___ hospital this morning to visit my friend, the one near the station.",
+      "translation": {
+        "ru": "Сегодня утром я был в больнице, чтобы навестить друга, — той, что рядом с вокзалом."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "Речь о здании больницы, куда приходят с визитом, поэтому ставим the hospital.",
+        "en": "Here the hospital means the building where people visit patients, so we use the hospital."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0075",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "After the play, we waited for the actors outside ___ theatre.",
+      "translation": {
+        "ru": "После спектакля мы ждали актёров у театра."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "Театр здесь — конкретное здание, где шёл спектакль, поэтому нужен the.",
+        "en": "The theatre is the particular building where the play was on, so we use the."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "art2-0017",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "In Britain, my uncle was in ___ hospital for two weeks after the accident.",
+      "translation": {
+        "ru": "Мой дядя пролежал в больнице две недели после аварии."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "В британском английском in hospital без артикля значит «в больнице как пациент», а in the hospital — «в здании больницы / с визитом». В британском контексте здесь нужен in hospital.",
+        "en": "In British English, in hospital with no article means being a patient. In the hospital means the building or a visit, so in this British context we use in hospital."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "art2-0018",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "We walked past ___ school where my mother used to teach, the one with the red roof.",
+      "translation": {
+        "ru": "Мы прошли мимо школы, где раньше преподавала моя мама, — той, что с красной крышей."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "School здесь обозначает конкретное здание, и придаточное where my mother used to teach его уточняет, поэтому нужен the: the school. Без артикля school означал бы учёбу как процесс.",
+        "en": "Here school means a specific building, and the clause where my mother used to teach identifies it, so we use the: the school. Without an article, school would mean the process of education."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0088",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "He was often late for ___ school last term.",
+      "translation": {
+        "ru": "В прошлой четверти он часто опаздывал в школу."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Late for school — это про учёбу как деятельность, поэтому артикль не ставится.",
+        "en": "Late for school describes education as an activity, so no article is used."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0089",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "The roof of ___ only school in the village was damaged in the storm.",
+      "translation": {
+        "ru": "Крышу единственной школы в деревне повредило во время бури."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Школа в деревне одна, поэтому она определённая — ставим the.",
+        "en": "The school is the only one in the village, so it is definite and takes the."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0090",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "We usually go to ___ cinema at least once a month.",
+      "translation": {
+        "ru": "Мы обычно ходим в кино хотя бы раз в месяц."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Поход в кино как вид досуга обозначается устойчивым сочетанием с определённым артиклем.",
+        "en": "Going to the cinema as a leisure activity is a fixed phrase with the definite article."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0163",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "There is a new film on at ___ cinema this weekend.",
+      "translation": {
+        "ru": "На этих выходных в кино идёт новый фильм."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Поход в кино как вид досуга обозначается устойчивым сочетанием с определённым артиклем.",
+        "en": "Going to the cinema as a leisure activity is a fixed phrase with the definite article."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0164",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "We saw a wonderful play at ___ theatre last night.",
+      "translation": {
+        "ru": "Вчера вечером мы посмотрели в театре прекрасный спектакль."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Театр как место досуга в устойчивом сочетании употребляется с the.",
+        "en": "The theatre as a leisure institution is a fixed phrase with the."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0165",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "He wants to finish ___ school and travel around the world.",
+      "translation": {
+        "ru": "Он хочет окончить школу и отправиться путешествовать по миру."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Finish school — это про завершение учёбы как процесса, поэтому артикль не ставим.",
+        "en": "Finish school describes finishing education as a process, so no article is used."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0166",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "The pupils often go swimming after ___ school.",
+      "translation": {
+        "ru": "Ученики часто ходят плавать после школы."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "After school — устойчивое выражение о деятельности, поэтому артикль не нужен.",
+        "en": "After school is a fixed expression about an activity, so no article is used."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0167",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "My brother left ___ school last summer and started an apprenticeship.",
+      "translation": {
+        "ru": "Прошлым летом мой брат окончил школу и начал осваивать рабочую профессию."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Leave school — это про завершение учёбы как процесса, поэтому артикль не ставим.",
+        "en": "Leave school means finishing education as a process, so no article is used."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0168",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "The new wing of ___ only school in the village opens in September.",
+      "translation": {
+        "ru": "Новое крыло единственной школы в деревне открывается в сентябре."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Школа в деревне одна, поэтому она определённая — ставим the.",
+        "en": "The school is the only one in the village, so it is definite and takes the."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0169",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "The parents waited outside ___ school gate for their children.",
+      "translation": {
+        "ru": "Родители ждали детей у школьных ворот."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Ворота относятся к известной родителям школе, поэтому ставим определённый артикль.",
+        "en": "The gate belongs to the school known to the parents, so the definite article is used."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0170",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "Every morning the children walk to ___ school together.",
+      "translation": {
+        "ru": "Каждое утро дети вместе идут в школу."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Walk to school — это ежедневный путь на учёбу, процесс, поэтому артикль не нужен.",
+        "en": "Walk to school describes the daily routine of education, so no article is used."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0171",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "___ bank where I keep my money — the one on the corner — has moved to a new building.",
+      "translation": {
+        "ru": "Банк, где я храню деньги, — тот, что на углу, — переехал в новое здание."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Придаточное where I keep my money выделяет конкретный банк, поэтому ставим the.",
+        "en": "The clause where I keep my money identifies the bank, so we use the."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0172",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "___ hospital where she was born — the one near the park — has been closed.",
+      "translation": {
+        "ru": "Больницу, где она родилась, — ту, что рядом с парком, — закрыли."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Придаточное where she was born указывает на конкретную больницу, поэтому нужен the.",
+        "en": "The clause where she was born points to a particular hospital, so we use the."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0076",
+      "type": "match",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример.",
+        "en": "Match each rule with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Кино как вид досуга",
+            "en": "The cinema as a leisure activity"
+          },
+          "right": "We rarely go to the cinema these days."
+        },
+        {
+          "left": {
+            "ru": "Школа как здание",
+            "en": "School as a building"
+          },
+          "right": "The school on the hill is very old."
+        },
+        {
+          "left": {
+            "ru": "Школа как процесс обучения",
+            "en": "School as a process of education"
+          },
+          "right": "Their children start school in September."
+        },
+        {
+          "left": {
+            "ru": "Больница как место визита",
+            "en": "The hospital as a place to visit"
+          },
+          "right": "She went to the hospital to visit her sister."
+        }
+      ],
+      "explanation": {
+        "ru": "The ставим, когда речь о здании или известном месте, а без артикля говорим о школе как о процессе учёбы.",
+        "en": "We use the for a building or a known place, and no article when school means the process of education."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0109",
+      "type": "match",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте тип места и пример.",
+        "en": "Match each type of place with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "школа как процесс — без артикля",
+            "en": "school as a process — no article"
+          },
+          "right": "In our village, children start school at six."
+        },
+        {
+          "left": {
+            "ru": "школа как здание — с the",
+            "en": "school as a building — with the"
+          },
+          "right": "The school has two gyms and a large library."
+        },
+        {
+          "left": {
+            "ru": "кино как досуг — с the",
+            "en": "cinema as a leisure activity — with the"
+          },
+          "right": "We went to the cinema to see a French film."
+        },
+        {
+          "left": {
+            "ru": "больница как конкретное место — с the",
+            "en": "hospital as a particular place — with the"
+          },
+          "right": "The ambulance took him to the hospital on Mill Street."
+        }
+      ],
+      "explanation": {
+        "ru": "О деятельности говорим без артикля, а о конкретном здании или месте — с определённым артиклем.",
+        "en": "We talk about an activity without an article, and about a particular building or place with the definite article."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0110",
+      "type": "match",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте тип места и пример.",
+        "en": "Match each type of place with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "школа: деятельность — без артикля",
+            "en": "school: activity — no article"
+          },
+          "right": "After school, the children play in the yard."
+        },
+        {
+          "left": {
+            "ru": "школа: здание — с the",
+            "en": "school: building — with the"
+          },
+          "right": "The school stands next to the church."
+        },
+        {
+          "left": {
+            "ru": "театр: досуг или место — с the",
+            "en": "theatre: leisure or place — with the"
+          },
+          "right": "We booked seats at the theatre for Saturday."
+        },
+        {
+          "left": {
+            "ru": "банк: конкретное место — с the",
+            "en": "bank: a particular place — with the"
+          },
+          "right": "The bank opens at nine every morning."
+        }
+      ],
+      "explanation": {
+        "ru": "Названия учреждений получают the, когда речь о конкретном здании или о деятельности, закреплённой за устойчивым сочетанием.",
+        "en": "Institution names take the when we mean a particular building or an activity fixed in a set phrase."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0111",
+      "type": "match",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте тип места и пример.",
+        "en": "Match each type of place with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "школа как процесс — без артикля",
+            "en": "school as a process — no article"
+          },
+          "right": "He leaves home at eight to get to school on time."
+        },
+        {
+          "left": {
+            "ru": "школа как здание — с the",
+            "en": "school as a building — with the"
+          },
+          "right": "The school was closed because of the snow."
+        },
+        {
+          "left": {
+            "ru": "кино как досуг — с the",
+            "en": "cinema as a leisure activity — with the"
+          },
+          "right": "Going to the cinema is my favourite way to relax."
+        },
+        {
+          "left": {
+            "ru": "больница как место работы — с the",
+            "en": "hospital as a workplace — with the"
+          },
+          "right": "My sister works at the hospital where our mother was treated."
+        }
+      ],
+      "explanation": {
+        "ru": "Если слово называет деятельность, артикль не нужен; если конкретное здание или место, ставим the.",
+        "en": "If the word names an activity, no article is needed; if it means a particular building or place, we use the."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "def-0112",
+      "type": "match",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте тип места и пример.",
+        "en": "Match each type of place with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "школа: деятельность — без артикля",
+            "en": "school: activity — no article"
+          },
+          "right": "Children learn to read and write at school."
+        },
+        {
+          "left": {
+            "ru": "школа: здание — с the",
+            "en": "school: building — with the"
+          },
+          "right": "The school is famous for its music programme."
+        },
+        {
+          "left": {
+            "ru": "театр: конкретное место — с the",
+            "en": "theatre: a particular place — with the"
+          },
+          "right": "We met outside the theatre at seven."
+        },
+        {
+          "left": {
+            "ru": "больница: известное место — с the",
+            "en": "hospital: a known place — with the"
+          },
+          "right": "She had an appointment at the hospital we visited last year."
+        }
+      ],
+      "explanation": {
+        "ru": "The ставим, когда речь о конкретном известном здании; деятельность без артикля образует устойчивые сочетания.",
+        "en": "The is used for a particular known building; an activity without an article forms fixed phrases."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-institutions"
+      ]
+    },
+    {
+      "id": "adv-0041",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "sentence": "Nowadays ___ rich are getting richer, while the poor are getting poorer.",
+      "translation": {
+        "ru": "Сегодня богатые становятся богаче, а бедные — беднее."
+      },
+      "options": [
+        "the",
+        "a",
+        "an",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The + прилагательное (the rich) обозначает группу людей; по смыслу сочетание множественное, поэтому всегда требует the.",
+        "en": "The + adjective (the rich) names a group of people; it is plural in meaning and always takes the."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0042",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "sentence": "This club is a favourite meeting place for ___ young.",
+      "translation": {
+        "ru": "Этот клуб — излюбленное место встреч молодёжи."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The young — «молодые, молодёжь»: прилагательное с the обозначает группу людей, и артикль здесь обязателен.",
+        "en": "The young means young people: an adjective with the names a group of people, and the article is obligatory."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0043",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "sentence": "It is well known that ___ British love tea and cricket.",
+      "translation": {
+        "ru": "Хорошо известно, что британцы любят чай и крикет."
+      },
+      "options": [
+        "the",
+        "a",
+        "an",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The British — нация в целом; названия наций на -ish, -ch, -ese, -ss всегда употребляются с the и глаголом во множественном числе.",
+        "en": "The British means the nation as a whole; nationality names ending in -ish, -ch, -ese and -ss always take the and a plural verb."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0044",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "sentence": "Every summer ___ French celebrate Bastille Day on the fourteenth of July.",
+      "translation": {
+        "ru": "Каждое лето французы отмечают День взятия Бастилии четырнадцатого июля."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The French — «французы» как нация; перед названием нации на -ch обязательно ставится the.",
+        "en": "The French means French people as a nation; a nationality ending in -ch always takes the."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0045",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "___ young often need help finding their first job.",
+      "translation": {
+        "ru": "Молодым часто нужна помощь в поиске первой работы."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The + прилагательное называет группу людей: the young = молодые. Глагол при этом во множественном числе.",
+        "en": "The + adjective names a group of people: the young = young people. The verb is plural."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-adjective"
+      ]
+    },
+    {
+      "id": "adv-0046",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "___ French celebrate Bastille Day in July.",
+      "translation": {
+        "ru": "Французы празднуют День Бастилии в июле."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Названия наций с the обозначают народ в целом: the French = французы.",
+        "en": "Nationality names with the refer to the nation as a whole: the French."
+      },
+      "tags": [
+        "art-the-adjective",
+        "nationality"
+      ]
+    },
+    {
+      "id": "adv-0047",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "___ tiger is a dangerous animal.",
+      "translation": {
+        "ru": "Тигр — опасное животное."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Для обобщения можно использовать the + существительное в единственном числе: the tiger = тигры как класс.",
+        "en": "We can generalise with the + singular noun: the tiger = tigers as a class."
+      },
+      "tags": [
+        "art-the-adjective",
+        "generic",
+        "the"
+      ]
+    },
+    {
+      "id": "adv-0048",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "___ computer has changed the way we work.",
+      "translation": {
+        "ru": "Компьютер изменил то, как мы работаем."
+      },
+      "options": [
+        "an",
+        "a",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Обобщение с the + единственное число называет класс предметов: the computer = компьютеры.",
+        "en": "Generic the + singular names a class: the computer = computers."
+      },
+      "tags": [
+        "art-the-adjective",
+        "generic",
+        "the"
+      ]
+    },
+    {
+      "id": "adv-0049",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "sentence": "In winter, ___ homeless often sleep in shelters.",
+      "translation": {
+        "ru": "Зимой бездомные часто ночуют в приютах."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "The homeless — «бездомные»: the + прилагательное обозначает группу людей и требует глагола во множественном числе.",
+        "en": "The homeless means homeless people: the + adjective names a group of people and takes a plural verb."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0050",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "sentence": "Life can be hard for ___ old in big cities.",
+      "translation": {
+        "ru": "Пожилым в больших городах бывает трудно."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "The old — «пожилые люди»; прилагательное с the в обобщающем значении обозначает целую группу.",
+        "en": "The old means elderly people; an adjective with the in a generic sense names a whole group."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0051",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B1",
+      "sentence": "___ elderly often need help with shopping.",
+      "translation": {
+        "ru": "Пожилым часто нужна помощь с покупками."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "The + прилагательное называет группу: the elderly = пожилые люди.",
+        "en": "The + adjective names a group: the elderly = elderly people."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-the-adjective",
+        "the-adjective"
+      ]
+    },
+    {
+      "id": "adv-0052",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "sentence": "For centuries, ___ Chinese have built magnificent palaces and bridges.",
+      "translation": {
+        "ru": "На протяжении веков китайцы строили великолепные дворцы и мосты."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "The Chinese — нация в целом; названия наций на -ese, -sh, -ch, -ss употребляются с the и глаголом во множественном числе.",
+        "en": "The Chinese means the Chinese people as a nation; nationality names ending in -ese, -sh, -ch and -ss take the and a plural verb."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "art2-0029",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "sentence": "___ unemployed often find it difficult to pay their rent.",
+      "translation": {
+        "ru": "Безработным часто трудно оплачивать аренду жилья."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The unemployed — обобщение через the + прилагательное: так называют группу людей. Так же: the rich, the young, the homeless.",
+        "en": "The unemployed is a generic phrase: the + adjective names a whole group of people. Compare: the rich, the young, the homeless."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0071",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "sentence": "New technologies can make life easier for ___ disabled.",
+      "translation": {
+        "ru": "Новые технологии могут облегчить жизнь людям с инвалидностью."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The disabled — обобщение через the + прилагательное; так называют группу людей.",
+        "en": "The disabled is a generic group formed with the + adjective."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0072",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "sentence": "___ Dutch are famous for their bicycles and canals.",
+      "translation": {
+        "ru": "Голландцы известны своими велосипедами и каналами."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The Dutch — название нации, которое употребляется с the и глаголом во множественном числе.",
+        "en": "The Dutch is a nationality name that takes the and a plural verb."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0053",
+      "type": "match",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример.",
+        "en": "Match each rule with an example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "The + прилагательное: богатые",
+            "en": "The + adjective: rich people"
+          },
+          "right": "The rich should pay their fair share of taxes."
+        },
+        {
+          "left": {
+            "ru": "The + прилагательное: молодые",
+            "en": "The + adjective: young people"
+          },
+          "right": "The young often dream of changing the world."
+        },
+        {
+          "left": {
+            "ru": "The + национальность на -ish",
+            "en": "The + nationality ending in -ish"
+          },
+          "right": "The British drink tea at five o'clock."
+        },
+        {
+          "left": {
+            "ru": "A/an в обобщающем значении: любой представитель класса",
+            "en": "A/an for any member of a class"
+          },
+          "right": "A good teacher always listens to students."
+        }
+      ],
+      "explanation": {
+        "ru": "The + прилагательное или национальность обозначает группу людей, а a/an перед существительным в единственном числе — любого представителя класса.",
+        "en": "The + adjective or nationality names a group of people, while a/an before a singular noun names any member of a class."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0087",
+      "type": "match",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте группу и пример.",
+        "en": "Match each group with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Богатые",
+            "en": "The rich"
+          },
+          "right": "The rich often have more opportunities."
+        },
+        {
+          "left": {
+            "ru": "Бедные",
+            "en": "The poor"
+          },
+          "right": "The poor need more support from the government."
+        },
+        {
+          "left": {
+            "ru": "Молодые",
+            "en": "The young"
+          },
+          "right": "The young are full of energy and new ideas."
+        },
+        {
+          "left": {
+            "ru": "Пожилые",
+            "en": "The old"
+          },
+          "right": "The old deserve our respect and care."
+        }
+      ],
+      "explanation": {
+        "ru": "The + прилагательное называет группу людей; такие сочетания множественные по смыслу и требуют глагола во множественном числе.",
+        "en": "The + adjective names a group of people; these phrases are plural in meaning and take a plural verb."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0088",
+      "type": "match",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте национальность и пример.",
+        "en": "Match each nationality with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Британцы",
+            "en": "The British"
+          },
+          "right": "The British enjoy talking about the weather."
+        },
+        {
+          "left": {
+            "ru": "Французы",
+            "en": "The French"
+          },
+          "right": "The French are proud of their cuisine."
+        },
+        {
+          "left": {
+            "ru": "Китайцы",
+            "en": "The Chinese"
+          },
+          "right": "The Chinese invented paper and printing."
+        },
+        {
+          "left": {
+            "ru": "Японцы",
+            "en": "The Japanese"
+          },
+          "right": "The Japanese are known for their technology."
+        }
+      ],
+      "explanation": {
+        "ru": "Названия наций на -sh, -ch, -ese и -ss употребляются с the и требуют глагола во множественном числе.",
+        "en": "Nationality names ending in -sh, -ch, -ese and -ss take the and a plural verb."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0089",
+      "type": "match",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте пример и значение.",
+        "en": "Match each example with its meaning."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Любой врач",
+            "en": "Any doctor"
+          },
+          "right": "A doctor should listen carefully to patients."
+        },
+        {
+          "left": {
+            "ru": "Любой учитель",
+            "en": "Any teacher"
+          },
+          "right": "A teacher needs a lot of patience."
+        },
+        {
+          "left": {
+            "ru": "Любой ребёнок",
+            "en": "Any child"
+          },
+          "right": "A child needs love and attention."
+        },
+        {
+          "left": {
+            "ru": "Любая хорошая книга",
+            "en": "Any good book"
+          },
+          "right": "A good book can change your life."
+        }
+      ],
+      "explanation": {
+        "ru": "A/an перед существительным в единственном числе обозначает любого представителя класса.",
+        "en": "A or an before a singular noun refers to any representative of the class."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0090",
+      "type": "match",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте группу и пример.",
+        "en": "Match each group with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Безработные",
+            "en": "The unemployed"
+          },
+          "right": "The unemployed often need retraining."
+        },
+        {
+          "left": {
+            "ru": "Бездомные",
+            "en": "The homeless"
+          },
+          "right": "The homeless need warm shelters in winter."
+        },
+        {
+          "left": {
+            "ru": "Голландцы",
+            "en": "The Dutch"
+          },
+          "right": "The Dutch use bicycles every day."
+        },
+        {
+          "left": {
+            "ru": "Любой инженер",
+            "en": "Any engineer"
+          },
+          "right": "An engineer must think carefully about safety."
+        }
+      ],
+      "explanation": {
+        "ru": "The unemployed, the homeless и the Dutch — группы людей с the, а an engineer — любой представитель класса.",
+        "en": "The unemployed, the homeless and the Dutch are groups formed with the, while an engineer is any member of the class."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0124",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "sentence": "In many countries, ___ rich pay higher taxes.",
+      "translation": {
+        "ru": "Во многих странах богатые платят более высокие налоги."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The + прилагательное (the rich) обозначает группу людей, поэтому нужен the.",
+        "en": "The + adjective (the rich) names a group of people, so it takes the."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0125",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "sentence": "Charities often help ___ poor in big cities.",
+      "translation": {
+        "ru": "Благотворительные организации часто помогают бедным в больших городах."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The poor — обобщающее название группы людей с определённым артиклем.",
+        "en": "The poor is a generic name for a group of people and takes the."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0126",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "sentence": "___ young often need advice from their parents.",
+      "translation": {
+        "ru": "Молодым часто нужен совет родителей."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The young — «молодые»; the + прилагательное обозначает группу людей.",
+        "en": "The young means young people: the + adjective names a group."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0127",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "sentence": "The new centre offers free lessons for ___ elderly.",
+      "translation": {
+        "ru": "Новый центр предлагает бесплатные занятия для пожилых."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The elderly — обобщение через the + прилагательное, группа людей.",
+        "en": "The elderly is a generic group formed with the + adjective."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0128",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "sentence": "Nurses take care of ___ sick in hospitals.",
+      "translation": {
+        "ru": "Медсёстры ухаживают за больными в больницах."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The sick — «больные» как группа людей; прилагательное с the требует артикля.",
+        "en": "The sick means sick people: the + adjective refers to a whole group."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0129",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "sentence": "___ Spanish are famous for their food and music.",
+      "translation": {
+        "ru": "Испанцы известны своей едой и музыкой."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The Spanish — название нации на -ish, оно употребляется с the.",
+        "en": "The Spanish is a nationality name ending in -ish, so it takes the."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0130",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "sentence": "___ Irish are known for their warm hospitality.",
+      "translation": {
+        "ru": "Ирландцы известны своим тёплым гостеприимством."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The Irish — название нации на -sh, поэтому ставим определённый артикль.",
+        "en": "The Irish is a nationality name ending in -sh, so it takes the."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0131",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "B2",
+      "sentence": "___ Welsh are famous for their singing.",
+      "translation": {
+        "ru": "Валлийцы известны своим пением."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The Welsh — название нации на -sh; такие названия всегда с the.",
+        "en": "The Welsh is a nationality name ending in -sh, and such names always take the."
+      },
+      "tags": [
+        "art-the-adjective",
+        "advanced-generic"
+      ]
+    },
+    {
+      "id": "adv-0132",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "A2",
+      "sentence": "Children go to ___ school to learn, not to play.",
+      "translation": {
+        "ru": "Дети ходят в школу учиться, а не играть."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "School в значении «учёба, процесс» употребляется без артикля: go to school.",
+        "en": "School meaning the activity has no article: go to school."
+      },
+      "tags": [
+        "art-the-adjective",
+        "institutions",
+        "zero"
+      ]
+    },
+    {
+      "id": "adv-0133",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "A2",
+      "sentence": "She went to ___ hospital to visit her aunt.",
+      "translation": {
+        "ru": "Она пошла в больницу навестить тётю."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Здесь hospital — конкретное здание, куда идёт посетитель, поэтому the hospital.",
+        "en": "Here hospital is a specific building the visitor goes to, so the hospital."
+      },
+      "tags": [
+        "art-the-adjective",
+        "institutions",
+        "the"
+      ]
+    },
+    {
+      "id": "def-0034",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "A2",
+      "sentence": "She was ___ first person to arrive at the party.",
+      "translation": {
+        "ru": "Она была первым человеком, пришедшим на вечеринку."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "Перед порядковым числительным first нужен артикль the.",
+        "en": "The ordinal number first needs the article the."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-the-adjective",
+        "the-superlatives"
+      ]
+    },
+    {
+      "id": "def-0035",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "A2",
+      "sentence": "My best friend and I live on ___ same street.",
+      "translation": {
+        "ru": "Мой лучший друг и я живём на одной и той же улице."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "The same — фиксированное сочетание с the, артикль обязателен.",
+        "en": "The same is a fixed combination with the; the article is obligatory."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-the-adjective",
+        "the-superlatives"
+      ]
+    },
+    {
+      "id": "def-0036",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "A2",
+      "sentence": "___ next flight to Paris leaves in an hour.",
+      "translation": {
+        "ru": "Следующий рейс в Париж вылетает через час."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "The next называет конкретный следующий рейс, поэтому нужен the.",
+        "en": "The next refers to the specific following flight, so we use the."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-the-adjective",
+        "the-superlatives"
+      ]
+    },
+    {
+      "id": "def-0037",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "A2",
+      "sentence": "That was ___ last time I saw her.",
+      "translation": {
+        "ru": "Это был последний раз, когда я её видел."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "Last в значении «последний раз» требует the: the last time.",
+        "en": "Last meaning the final time requires the: the last time."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-the-adjective",
+        "the-superlatives"
+      ]
+    },
+    {
+      "id": "art2-0012",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "A2",
+      "sentence": "Of all the museums I have visited this year, this one is ___ most interesting.",
+      "translation": {
+        "ru": "Из всех музеев, которые я посетил в этом году, этот — самый интересный."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Most interesting — превосходная степень, а она обычно требует the: the most interesting. Оборот of all the museums делает сравнение явным.",
+        "en": "Most interesting is a superlative, and superlatives usually take the: the most interesting. The phrase of all the museums makes the comparison explicit."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-superlatives"
+      ]
+    },
+    {
+      "id": "def-0133",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "A2",
+      "sentence": "Of all the hotels in the city, this one is ___ most expensive.",
+      "translation": {
+        "ru": "Из всех отелей города этот — самый дорогой."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Превосходная степень most expensive требует the: the most expensive. Оборот of all the hotels делает сравнение явным.",
+        "en": "The superlative most expensive takes the definite article: the most expensive. The phrase of all the hotels makes the comparison explicit."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-superlatives"
+      ]
+    },
+    {
+      "id": "def-0134",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "A2",
+      "sentence": "She is ___ youngest member of the team.",
+      "translation": {
+        "ru": "Она самая младшая в команде."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Превосходная степень youngest выделяет её среди всех членов команды, поэтому ставим the.",
+        "en": "The superlative youngest singles her out among all team members, so we use the."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-superlatives"
+      ]
+    },
+    {
+      "id": "def-0135",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "A2",
+      "sentence": "My grandfather tells ___ best stories in our family.",
+      "translation": {
+        "ru": "Мой дедушка рассказывает лучшие истории в нашей семье."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Best — превосходная степень, поэтому перед ней ставим определённый артикль the.",
+        "en": "Best is a superlative, so the definite article is used before it."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-superlatives"
+      ]
+    },
+    {
+      "id": "def-0136",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "A2",
+      "sentence": "___ first day of the new school year was exciting.",
+      "translation": {
+        "ru": "Первый день нового учебного года был волнительным."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Порядковое числительное first обычно требует определённого артикля the.",
+        "en": "The ordinal number first usually takes the definite article."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-superlatives"
+      ]
+    },
+    {
+      "id": "def-0137",
+      "type": "choice",
+      "ruleId": "art-the-adjective",
+      "level": "A2",
+      "sentence": "We took ___ first train to the coast.",
+      "translation": {
+        "ru": "Мы поехали к морю первым поездом."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Порядковое числительное first указывает на единственный поезд в ряду, поэтому ставим the.",
+        "en": "The ordinal first points to a unique train in the sequence, so we use the."
+      },
+      "tags": [
+        "art-the-adjective",
+        "the-superlatives"
+      ]
+    }
+  ]
+}

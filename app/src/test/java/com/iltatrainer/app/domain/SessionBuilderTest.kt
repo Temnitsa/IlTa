@@ -162,6 +162,36 @@ class SessionBuilderTest {
     }
 
     @Test
+    fun `topic session contains five matches and twenty five choice questions from a pool`() {
+        val pool = (1..5).map { index ->
+            Question(
+                id = "m$index",
+                type = "match",
+                ruleId = "art-pool",
+                sentence = null,
+                prompt = Bilingual(ru = "Сопоставьте $index", en = "Match $index"),
+                pairs = (1..4).map { pair ->
+                    com.iltatrainer.app.data.MatchPair(
+                        left = Bilingual(ru = "левая $pair", en = "left $pair"),
+                        right = "right $pair",
+                    )
+                },
+                explanation = Bilingual(ru = "тест", en = "test"),
+            )
+        } + (1..65).map { index -> question("c$index", "art-pool") }
+        val result = SessionBuilder.build(
+            config = SessionConfig(PracticeMode.TOPIC, ruleId = "art-pool", size = 30),
+            questions = pool,
+            state = ProgressState(),
+            random = Random(4),
+        )
+        assertEquals(30, result.size)
+        assertEquals(5, result.count { it.type == "match" })
+        assertEquals(25, result.count { it.type == "choice" })
+        assertEquals(30, result.map { it.id }.toSet().size)
+    }
+
+    @Test
     fun `unseen questions are preferred for a topic`() {
         val state = ProgressState(
             questionStats = mapOf("q1" to QuestionStat(attempts = 3, correct = 3)),

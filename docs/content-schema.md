@@ -110,14 +110,20 @@ Required: `id`, `sectionId`, `order`, `level` (A1|A2|B1|B2), `title.ru/en`,
 
 ## 3. Question quotas (fixed per theme)
 
-Every rule (theme) must contain **exactly 30 questions**:
-- **25 `choice`** questions;
-- **5 `match`** questions (each with 4 pairs).
+**Article themes** (section `articles`) have a larger pool of **exactly 70 questions**:
+- at least **25 `choice`** questions;
+- at least **5 `match`** questions (each with 4 pairs).
 
-This is enforced by `scripts/validate_content.py` for the file which defines the rule.
-The full set is therefore 27 rules × 30 = **810 questions**.
-The “Длина сессии” setting does not affect topic training: a theme is always practised
-with all 30 questions.
+A topic training session draws **30 questions** from the pool: all five matching questions plus
+25 choice questions (weak/unseen questions are preferred). The pool stays 70, so different
+sessions show different examples.
+
+**Preposition themes** (section `prepositions`) have **exactly 30 questions**: 25 `choice` + 5 `match`;
+a topic session plays all 30.
+
+This is enforced by `scripts/validate_content.py`. The full set is
+9 article themes × 70 + 7 preposition themes × 30 = **840 questions**.
+The “Длина сессии” setting does not affect topic training.
 
 ## 4. Question objects — only **choice** and **match**
 
@@ -215,23 +221,29 @@ all right values distinct; every left unambiguously corresponds to exactly one r
 - Explanations must teach the pattern, not just restate the answer.
 - Russian text: correct punctuation, «ё» where appropriate.
 - Sentences: 5–20 words for choice questions.
-- Every rule must be covered by enough questions: each rule ≥ 8 questions in its pack
-  (for 7–8 rule packs), and at least 3 match questions per pack.
+- Article themes have 70 pool questions (at least 25 choice + 5 match); preposition themes
+  have 30 (25 choice + 5 match). `tags` are optional lists of pattern labels used to pick
+  truly similar questions during mistake review.
 
 ## Current content files and ownership
 
-| File | Rules | Questions |
+| File | Rule | Questions |
 |---|---|---|
-| 01_indefinite_article.json | a-an-* (5, articles) | 150 |
-| 02_definite_article.json | the-* (6, articles) | 180 |
-| 03_zero_article.json | zero-* (4, articles) | 120 |
-| 04_idioms_advanced.json | idioms-*, advanced-* (5, articles) | 150 |
+| articles_01_system.json | art-system | 70 |
+| articles_02_a_an.json | art-a-an | 70 |
+| articles_03_the_known.json | art-the-known | 70 |
+| articles_04_a_an_special.json | art-a-an-special | 70 |
+| articles_05_zero.json | art-zero | 70 |
+| articles_06_names_geo.json | art-names-geo | 70 |
+| articles_07_the_adjective.json | art-the-adjective | 70 |
+| articles_08_contrasts.json | art-contrasts | 70 |
+| articles_09_academic.json | art-academic | 70 |
 | prepositions_01_time_place.json | prep-time, prep-place | 60 |
 | prepositions_02_movement.json | prep-movement | 30 |
 | prepositions_03_adjectives_verbs.json | prep-adjectives, prep-verbs | 60 |
 | prepositions_04_fixed_advanced.json | prep-fixed, prep-advanced | 60 |
 
-Target: **810 questions total** (30 per theme: 25 choice + 5 match), 27 rules, 2 sections.
+Target: **840 questions total** (9×70 articles + 7×30 prepositions), 16 rules, 2 sections.
 
 ## Validation
 

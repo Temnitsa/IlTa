@@ -1,0 +1,2208 @@
+{
+  "meta": {
+    "package": "articles_06_names_geo",
+    "version": 2,
+    "authors": [
+      "content-team"
+    ]
+  },
+  "rules": [
+    {
+      "id": "art-names-geo",
+      "sectionId": "articles",
+      "order": 60,
+      "level": "B1",
+      "title": {
+        "ru": "Имена, названия и география",
+        "en": "Names, places and geography"
+      },
+      "summary": {
+        "ru": "Правила артикля с именами, языками и календарём, с городами и странами, с реками и океанами, а также с названиями газет, отелей, музеев и организаций.",
+        "en": "Article rules for people's names, languages and calendar words, cities and countries, rivers and oceans, and for the names of newspapers, hotels, museums and organizations."
+      },
+      "sections": [
+        {
+          "heading": {
+            "ru": "Имена людей, языки и календарь",
+            "en": "People's names, languages and calendar words"
+          },
+          "body": {
+            "ru": "Имена людей, названия языков, дней недели, месяцев и праздников — это имена собственные, поэтому артикль перед ними не ставится. Титул или обращение перед фамилией тоже употребляются без артикля. Десятилетия и фамилии семей во множественном числе употребляются с the.",
+            "en": "People's names, language names, days of the week, months and holidays are proper names, so they take no article. A title or form of address before a surname also takes no article. Decades and family names in the plural take the."
+          },
+          "examples": [
+            "Anna is my cousin.",
+            "She speaks French fluently.",
+            "The exams start on Monday.",
+            "We met in July.",
+            "Christmas is a family holiday."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Города, страны и континенты",
+            "en": "Cities, countries and continents"
+          },
+          "body": {
+            "ru": "Названия городов, континентов и большинства стран употребляются без артикля. Определённый артикль нужен лишь некоторым названиям стран: объединениям, названиям во множественном числе и отдельным историческим исключениям.",
+            "en": "Cities, continents and most countries take no article. The definite article is needed only with some country names: unions, plural names and a few historical exceptions."
+          },
+          "examples": [
+            "My sister studies in Madrid.",
+            "Japan is an island country.",
+            "Africa is a large continent.",
+            "My parents went to the USA in 2020.",
+            "The UK has four parts."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Реки, моря, океаны и горы",
+            "en": "Rivers, seas, oceans and mountains"
+          },
+          "body": {
+            "ru": "С определённым артиклем употребляются названия рек, морей, океанов, проливов, заливов, горных цепей и пустынь. А отдельные озёра и отдельные горные вершины, наоборот, идут без артикля.",
+            "en": "The definite article is used with the names of rivers, seas, oceans, channels, bays, mountain ranges and deserts. Individual lakes and single mountain peaks, by contrast, take no article."
+          },
+          "examples": [
+            "the Thames",
+            "the Pacific Ocean",
+            "the Alps",
+            "Lake Victoria",
+            "Mont Blanc"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Газеты, отели, музеи и организации",
+            "en": "Newspapers, hotels, museums and organizations"
+          },
+          "body": {
+            "ru": "Названия газет и журналов, отелей, музеев и галерей, театров и организаций обычно употребляются с определённым артиклем, даже если само название состоит из обычных слов. Улицы, площади, вокзалы и аэропорты обычно идут без артикля; университеты, церкви и некоторые достопримечательности могут требовать the — это зависит от названия.",
+            "en": "The names of newspapers and magazines, hotels, museums and galleries, theatres and organizations usually take the definite article, even when the name itself consists of ordinary words. Streets, squares, stations and airports usually take no article; universities, churches and some landmarks may take the depending on the name."
+          },
+          "examples": [
+            "the Times",
+            "the Ritz",
+            "the Louvre",
+            "the United Nations"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Уникальные роли и устойчивые пары",
+            "en": "Unique roles and fixed pairs"
+          },
+          "body": {
+            "ru": "Если роль или должность единственная в данной ситуации, нужен определённый артикль; если таких людей много, ставим неопределённый. Некоторые пары выражений различаются только артиклем и имеют разный смысл, а в отдельных устойчивых оборотах артикль the обязателен — их нужно запоминать целиком.",
+            "en": "When a role or position is unique in the situation, the definite article is used; when many people can have that role, the indefinite article is used. Some pairs of expressions differ only in their article and have different meanings, and a few fixed phrases always include the definite article, so they should be learned as a whole."
+          },
+          "examples": [
+            "the Pope",
+            "take place",
+            "take the place of",
+            "in front of the station",
+            "in the front of the coach"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "zero-0021",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "My aunt ___ Maria lives in Madrid.",
+      "translation": {
+        "ru": "Моя тётя Мария живёт в Мадриде."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Перед именем человека артикль не нужен: my aunt Maria — типичный пример.",
+        "en": "No article is used before a person's name: my aunt Maria is a typical example."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0023",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "She has lived in ___ Japan for ten years.",
+      "translation": {
+        "ru": "Она живёт в Японии уже десять лет."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Japan — название страны, которое употребляется без артикля.",
+        "en": "Japan is a country name that takes no article."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0024",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "I speak ___ English at work every day.",
+      "translation": {
+        "ru": "Я каждый день говорю по-английски на работе."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "English — название языка, а перед языками артикль не ставится.",
+        "en": "English is a language name, and language names take no article."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0025",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "___ Friday is my favourite day of the week.",
+      "translation": {
+        "ru": "Пятница — мой любимый день недели."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Friday — название дня недели, а названия дней употребляются без артикля.",
+        "en": "Friday is a day of the week, and day names take no article."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0026",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "My birthday is in ___ August, and the weather is usually sunny then.",
+      "translation": {
+        "ru": "Мой день рождения в августе, и обычно в это время солнечно."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "August — название месяца, а перед месяцами артикль не нужен.",
+        "en": "August is a month name, and month names take no article."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0027",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "We always visit my grandmother at ___ Christmas.",
+      "translation": {
+        "ru": "Мы всегда навещаем бабушку на Рождество."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Christmas — название праздника, поэтому артикль перед ним не ставится.",
+        "en": "Christmas is a holiday name, so it takes no article."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0028",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A2",
+      "sentence": "___ Doctor Brown has worked in this hospital for twenty years.",
+      "translation": {
+        "ru": "Доктор Браун работает в этой больнице уже двадцать лет."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Титул вместе с фамилией употребляется без артикля: Doctor Brown.",
+        "en": "A title with a surname takes no article: Doctor Brown."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0031",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "___ Paris is the capital of France.",
+      "translation": {
+        "ru": "Париж — столица Франции."
+      },
+      "answer": "—",
+      "explanation": {
+        "ru": "Paris — название города, поэтому артикль перед ним не ставится.",
+        "en": "Paris is a city name, so it takes no article."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0032",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "She speaks ___ Japanese and Chinese at home.",
+      "translation": {
+        "ru": "Она говорит по-японски и по-китайски дома."
+      },
+      "answer": "—",
+      "explanation": {
+        "ru": "Japanese и Chinese — названия языков; перед языками артикль не нужен.",
+        "en": "Japanese and Chinese are language names, and languages take no article."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0033",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "We are going to ___ Italy next summer.",
+      "translation": {
+        "ru": "Следующим летом мы едем в Италию."
+      },
+      "answer": "—",
+      "explanation": {
+        "ru": "Italy — название страны без the, поэтому артикль не ставится.",
+        "en": "Italy is a country name that takes no article."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0034",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "___ Easter is a popular holiday in many countries.",
+      "translation": {
+        "ru": "Пасха — популярный праздник во многих странах."
+      },
+      "answer": "—",
+      "explanation": {
+        "ru": "Easter — название праздника; перед праздниками артикль не употребляется.",
+        "en": "Easter is a holiday name, and holidays take no article."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0036",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A2",
+      "sentence": "___ France has a long and interesting history.",
+      "translation": {
+        "ru": "У Франции долгая и интересная история."
+      },
+      "answer": "—",
+      "explanation": {
+        "ru": "France — название страны, которое употребляется без артикля.",
+        "en": "France is a country name that takes no article."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "art2-0020",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "My cousin spent a semester in ___ Lisbon and loved it.",
+      "translation": {
+        "ru": "Моя двоюродная сестра провела семестр в Лиссабоне и полюбила этот город."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Lisbon — название города, а названия городов и большинства стран употребляются без артикля: in Lisbon. Так же без артикля идут имена людей, языки и дни недели.",
+        "en": "Lisbon is the name of a city, and city names and most countries take no article: in Lisbon. Names of people, languages and days of the week follow the same rule."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0074",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "Next year we are going to visit ___ USA for the first time.",
+      "translation": {
+        "ru": "В следующем году мы впервые поедем в США."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "США — одно из немногих названий стран, которые требуют артикль the.",
+        "en": "The USA is one of the few country names that take the article the."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0075",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "My pen friend has lived in ___ UK for two years.",
+      "translation": {
+        "ru": "Моя подруга по переписке живёт в Великобритании уже два года."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Название the UK (Соединённое Королевство) всегда употребляется с the.",
+        "en": "The UK is a country name that always takes the."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0037",
+      "type": "match",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте тип названия и пример.",
+        "en": "Match each type of name with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Имя человека",
+            "en": "A person's name"
+          },
+          "right": "Anna works in a small bookshop."
+        },
+        {
+          "left": {
+            "ru": "Название города",
+            "en": "A city name"
+          },
+          "right": "Tokyo is a very big city."
+        },
+        {
+          "left": {
+            "ru": "Название языка",
+            "en": "A language"
+          },
+          "right": "He speaks Italian at home."
+        },
+        {
+          "left": {
+            "ru": "Название праздника",
+            "en": "A holiday"
+          },
+          "right": "Christmas is my favourite time of year."
+        }
+      ],
+      "explanation": {
+        "ru": "Перед именами людей, названиями городов, языков и праздников артикль не ставится.",
+        "en": "No article is used before people's names, city names, languages or holidays."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0079",
+      "type": "match",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте тип названия и пример.",
+        "en": "Match each name type with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Имя с титулом",
+            "en": "A name with a title"
+          },
+          "right": "My colleague Mr Smith speaks three languages."
+        },
+        {
+          "left": {
+            "ru": "Название города",
+            "en": "A city name"
+          },
+          "right": "We flew to Rome for a long weekend."
+        },
+        {
+          "left": {
+            "ru": "Название страны",
+            "en": "A country name"
+          },
+          "right": "Last summer we travelled around Spain by car."
+        },
+        {
+          "left": {
+            "ru": "Название языка",
+            "en": "A language name"
+          },
+          "right": "She is learning German at school."
+        }
+      ],
+      "explanation": {
+        "ru": "Перед именами людей, названиями городов, обычных стран и языков артикль не ставится.",
+        "en": "No article is used before people's names, city names, the names of most countries and languages."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0080",
+      "type": "match",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте тип названия и пример.",
+        "en": "Match each name type with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "День недели",
+            "en": "A day of the week"
+          },
+          "right": "We usually go shopping on Saturday."
+        },
+        {
+          "left": {
+            "ru": "Месяц",
+            "en": "A month"
+          },
+          "right": "The weather is usually warm in May."
+        },
+        {
+          "left": {
+            "ru": "Праздник",
+            "en": "A holiday"
+          },
+          "right": "Many children love Easter."
+        },
+        {
+          "left": {
+            "ru": "Город",
+            "en": "A city"
+          },
+          "right": "Berlin is one of the most interesting cities in Europe."
+        }
+      ],
+      "explanation": {
+        "ru": "Названия дней недели, месяцев, праздников и городов — имена собственные, поэтому артикль перед ними не нужен.",
+        "en": "Days of the week, months, holidays and cities are proper names, so they need no article."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0081",
+      "type": "match",
+      "ruleId": "art-names-geo",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте тип названия и пример.",
+        "en": "Match each name type with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Обычная страна — без артикля",
+            "en": "An ordinary country — no article"
+          },
+          "right": "Japan has many beautiful islands."
+        },
+        {
+          "left": {
+            "ru": "Страна с the — США",
+            "en": "A country with the — the USA"
+          },
+          "right": "They flew to the USA last month."
+        },
+        {
+          "left": {
+            "ru": "Страна с the — Нидерланды",
+            "en": "A country with the — the Netherlands"
+          },
+          "right": "Many tourists visit the Netherlands in spring."
+        },
+        {
+          "left": {
+            "ru": "Город — без артикля",
+            "en": "A city — no article"
+          },
+          "right": "Lisbon is a lovely city by the sea."
+        }
+      ],
+      "explanation": {
+        "ru": "Большинство стран и все города идут без артикля, но несколько названий стран, например the USA и the Netherlands, требуют the.",
+        "en": "Most countries and all cities take no article, but a few country names, such as the USA and the Netherlands, require the."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0082",
+      "type": "match",
+      "ruleId": "art-names-geo",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте тип названия и пример.",
+        "en": "Match each name type with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Титул с фамилией",
+            "en": "A title with a surname"
+          },
+          "right": "Professor Lee teaches physics at the university."
+        },
+        {
+          "left": {
+            "ru": "Праздник",
+            "en": "A holiday"
+          },
+          "right": "We always spend Easter with our family."
+        },
+        {
+          "left": {
+            "ru": "Месяц",
+            "en": "A month"
+          },
+          "right": "The garden looks beautiful in June."
+        },
+        {
+          "left": {
+            "ru": "Язык",
+            "en": "A language"
+          },
+          "right": "He is learning Spanish at school."
+        }
+      ],
+      "explanation": {
+        "ru": "Титул с фамилией, праздники, месяцы и языки употребляются без артикля, потому что это имена собственные.",
+        "en": "A title with a surname, holidays, months and languages take no article because they are proper names."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0099",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "Yesterday we met ___ Anna at the station.",
+      "translation": {
+        "ru": "Вчера мы встретили Анну на вокзале."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Перед именем человека артикль не ставится: Anna.",
+        "en": "No article is used before a person's name: Anna."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0100",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "___ Rome looks beautiful in spring.",
+      "translation": {
+        "ru": "Рим весной прекрасен."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Rome — название города, а перед названиями городов артикль не нужен.",
+        "en": "Rome is a city name, and city names take no article."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0101",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "My grandmother lives in ___ Canada.",
+      "translation": {
+        "ru": "Моя бабушка живёт в Канаде."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Canada — название страны, которое употребляется без артикля.",
+        "en": "Canada is a country name that takes no article."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0102",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "My cousin is learning ___ German before her trip to Berlin.",
+      "translation": {
+        "ru": "Моя двоюродная сестра учит немецкий перед поездкой в Берлин."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "German — название языка, а перед языками артикль не ставится.",
+        "en": "German is a language name, and languages take no article."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0103",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "We are flying to ___ Madrid on Monday.",
+      "translation": {
+        "ru": "В понедельник мы летим в Мадрид."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Madrid — название города, поэтому артикль перед ним не нужен.",
+        "en": "Madrid is a city name, so it takes no article."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0104",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "The festival takes place in ___ September.",
+      "translation": {
+        "ru": "Фестиваль проходит в сентябре."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "September — название месяца, а перед месяцами артикль не ставится.",
+        "en": "September is a month name, and months take no article."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0105",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "My sister speaks ___ Spanish very well.",
+      "translation": {
+        "ru": "Моя сестра очень хорошо говорит по-испански."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Spanish — название языка; артикль перед названиями языков не нужен.",
+        "en": "Spanish is a language name, and language names take no article."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0106",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "Many families in ___ Philippines speak English at home.",
+      "translation": {
+        "ru": "Многие семьи на Филиппинах говорят дома по-английски."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The Philippines — исключение: это название страны всегда употребляется с the.",
+        "en": "The Philippines is an exception: this country name always takes the."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0107",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "___ Professor Green teaches mathematics at our university.",
+      "translation": {
+        "ru": "Профессор Грин преподаёт математику в нашем университете."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Титул вместе с фамилией употребляется без артикля: Professor Green.",
+        "en": "A title with a surname takes no article: Professor Green."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "zero-0108",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "A1",
+      "sentence": "The capital of ___ Netherlands is Amsterdam.",
+      "translation": {
+        "ru": "Столица Нидерландов — Амстердам."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The Netherlands — название страны-исключения, которое всегда идёт с the.",
+        "en": "The Netherlands is an exceptional country name that always takes the."
+      },
+      "tags": [
+        "art-names-geo",
+        "zero-names"
+      ]
+    },
+    {
+      "id": "def-0054",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "___ Thames flows through the centre of London.",
+      "translation": {
+        "ru": "Темза протекает через центр Лондона."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Названия рек всегда употребляются с the, поэтому говорим the Thames.",
+        "en": "Names of rivers always take the, so we say the Thames."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0055",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "The highest peak of ___ Alps is Mont Blanc.",
+      "translation": {
+        "ru": "Самая высокая вершина Альп — Монблан."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Альпы — горная цепь, а названия горных цепей требуют the.",
+        "en": "Names of mountain ranges take the, for example the Alps."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0056",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "___ Pacific is the largest ocean on our planet.",
+      "translation": {
+        "ru": "Тихий океан — самый большой океан на нашей планете."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Названия океанов употребляются с определённым артиклем: the Pacific.",
+        "en": "Names of oceans take the definite article: the Pacific."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0057",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "My cousin has lived in ___ Netherlands for three years.",
+      "translation": {
+        "ru": "Мой двоюродный брат живёт в Нидерландах уже три года."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Название the Netherlands употребляется с the, потому что исторически это «нижние земли» во множественном числе.",
+        "en": "The Netherlands takes the because the name is historically plural, meaning the low lands."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0058",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "They are planning a trip to ___ USA next spring.",
+      "translation": {
+        "ru": "Следующей весной они планируют поездку в США."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "США — объединение штатов, поэтому название the USA всегда с артиклем the.",
+        "en": "The USA is a union of states, so the name always takes the article the."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0059",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "My pen friend lives in ___ Spain.",
+      "translation": {
+        "ru": "Моя подруга по переписке живёт в Испании."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "С большинством обычных названий стран артикль не нужен: Spain, France, Germany.",
+        "en": "Most ordinary country names take no article: Spain, France, Germany."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0060",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "Our hotel stood on the shore of ___ Lake Victoria.",
+      "translation": {
+        "ru": "Наш отель стоял на берегу озера Виктория."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Перед названием озера со словом Lake артикль не ставим: Lake Victoria.",
+        "en": "A lake name with the word Lake takes no article: Lake Victoria."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0061",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "The boat sailed down ___ Nile for three days.",
+      "translation": {
+        "ru": "Лодка плыла по Нилу три дня."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "Нил — река, а названия рек всегда требуют the.",
+        "en": "The Nile is a river, and river names always take the."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0062",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "My uncle has lived in ___ United Kingdom since 2015.",
+      "translation": {
+        "ru": "Мой дядя живёт в Соединённом Королевстве с 2015 года."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "The United Kingdom — объединение, поэтому название страны употребляется с the.",
+        "en": "The United Kingdom is a union, so the country name takes the."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0063",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "We usually spend our summer holidays in ___ Italy.",
+      "translation": {
+        "ru": "Мы обычно проводим летние каникулы в Италии."
+      },
+      "answer": "—",
+      "explanation": {
+        "ru": "С большинством названий стран артикль не используется: Italy, Spain, France.",
+        "en": "Most country names take no article: Italy, Spain, France."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "art2-0015",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "Have you ever sailed across ___ Atlantic Ocean?",
+      "translation": {
+        "ru": "Ты когда-нибудь переплывал Атлантический океан?"
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Океаны, моря и реки употребляются с the: the Atlantic Ocean, the Pacific, the Thames. Уникальные географические объекты требуют определённого артикля.",
+        "en": "Oceans, seas and rivers take the: the Atlantic Ocean, the Pacific, the Thames. Unique geographical features require the definite article."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0084",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "___ Amazon is the largest river by volume in the world.",
+      "translation": {
+        "ru": "Амазонка — самая полноводная река в мире."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Название реки требует определённого артикля, поэтому перед Amazon ставим the.",
+        "en": "A river name takes the definite article, so we use the before Amazon."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0085",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "They spent two weeks travelling around ___ Australia.",
+      "translation": {
+        "ru": "Они провели две недели, путешествуя по Австралии."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Австралия — обычное название страны с одним словом, такие названия употребляются без артикля.",
+        "en": "Australia is an ordinary single-word country name, and such names take no article."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0086",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "The ferry crosses ___ English Channel several times a day.",
+      "translation": {
+        "ru": "Паром несколько раз в день пересекает Ла-Манш."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Названия морей и проливов, как English Channel, употребляются с определённым артиклем.",
+        "en": "Names of seas and channels, such as the English Channel, take the definite article."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0087",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "We climbed ___ Mount Fuji early in the morning.",
+      "translation": {
+        "ru": "Мы поднялись на гору Фудзи рано утром."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "В названии отдельной горы слово mount уже входит в имя, поэтому артикль не нужен.",
+        "en": "In the name of a single mountain the word mount is part of the name, so no article is needed."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0153",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "___ Mississippi flows into the Gulf of Mexico.",
+      "translation": {
+        "ru": "Миссисипи впадает в Мексиканский залив."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Название реки требует определённого артикля, поэтому перед Mississippi ставим the.",
+        "en": "A river name takes the definite article, so we use the before Mississippi."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0154",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "They sailed across ___ Mediterranean Sea last summer.",
+      "translation": {
+        "ru": "Прошлым летом они переплыли Средиземное море."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Названия морей употребляются с the, поэтому говорим the Mediterranean Sea.",
+        "en": "Sea names take the, so we say the Mediterranean Sea."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0155",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "___ Rockies are popular with climbers.",
+      "translation": {
+        "ru": "Скалистые горы популярны у альпинистов."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Название горной цепи требует определённого артикля, поэтому ставим the.",
+        "en": "The name of a mountain range takes the definite article, so we use the."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0156",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "We travelled across ___ Greece by train.",
+      "translation": {
+        "ru": "Мы проехали по Греции на поезде."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Greece — обычное название страны с одним словом, такие названия идут без артикля.",
+        "en": "Greece is an ordinary single-word country name, and such names take no article."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0157",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "She has always wanted to visit ___ Japan.",
+      "translation": {
+        "ru": "Она всегда мечтала побывать в Японии."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Япония — обычное название страны, поэтому артикль перед ним не ставим.",
+        "en": "Japan is an ordinary country name, so no article is used."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0158",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "My uncle works in ___ United Arab Emirates.",
+      "translation": {
+        "ru": "Мой дядя работает в Объединённых Арабских Эмиратах."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Название-объединение United Arab Emirates требует определённого артикля the.",
+        "en": "The union name United Arab Emirates requires the definite article."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0159",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "They swam in ___ Lake Superior.",
+      "translation": {
+        "ru": "Они купались в озере Верхнее."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "В названии отдельного озера слово lake уже входит в имя, поэтому артикль не нужен.",
+        "en": "In the name of a single lake the word lake is part of the name, so no article is needed."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0160",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "They climbed ___ Kilimanjaro last year.",
+      "translation": {
+        "ru": "В прошлом году они поднялись на Килиманджаро."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Название отдельной горы употребляется без артикля.",
+        "en": "The name of a single mountain takes no article."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0161",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "___ Arctic is one of the coldest regions on Earth.",
+      "translation": {
+        "ru": "Арктика — один из самых холодных регионов на Земле."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Названия регионов и океанов, как the Arctic, употребляются с определённым артиклем.",
+        "en": "Names of regions and oceans, such as the Arctic, take the definite article."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0162",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "sentence": "He grew up in ___ Brazil.",
+      "translation": {
+        "ru": "Он вырос в Бразилии."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Бразилия — обычное название страны с одним словом, артикль не нужен.",
+        "en": "Brazil is an ordinary single-word country name, so no article is used."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0064",
+      "type": "match",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример.",
+        "en": "Match each rule with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Река",
+            "en": "A river"
+          },
+          "right": "The Thames is a famous river in England."
+        },
+        {
+          "left": {
+            "ru": "Океан",
+            "en": "An ocean"
+          },
+          "right": "The Pacific is very deep."
+        },
+        {
+          "left": {
+            "ru": "Горная цепь",
+            "en": "A mountain range"
+          },
+          "right": "The Alps attract many climbers."
+        },
+        {
+          "left": {
+            "ru": "Страна с артиклем",
+            "en": "A country with the"
+          },
+          "right": "She has visited the Netherlands twice."
+        }
+      ],
+      "explanation": {
+        "ru": "С the употребляются названия рек, океанов, горных цепей и некоторых стран, например the Netherlands.",
+        "en": "We use the with rivers, oceans, mountain ranges and some countries, for example the Netherlands."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0065",
+      "type": "match",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример.",
+        "en": "Match each rule with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Большинство стран — без артикля",
+            "en": "Most countries — no article"
+          },
+          "right": "He was born in Canada."
+        },
+        {
+          "left": {
+            "ru": "Озеро — без артикля",
+            "en": "A lake — no article"
+          },
+          "right": "Lake Baikal is famous for its clear water."
+        },
+        {
+          "left": {
+            "ru": "Страна во множественном числе — с the",
+            "en": "A plural country name — with the"
+          },
+          "right": "My aunt lives in the Philippines."
+        },
+        {
+          "left": {
+            "ru": "Название-объединение — с the",
+            "en": "A union name — with the"
+          },
+          "right": "They travelled across the United Kingdom."
+        }
+      ],
+      "explanation": {
+        "ru": "Большинство стран и отдельные озёра идут без артикля, а the нужен странам во множественном числе и объединениям.",
+        "en": "Most countries and single lakes take no article, while the is used with plural country names and unions."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "art2-0016",
+      "type": "match",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте тип географического названия и пример.",
+        "en": "Match each type of geographical name with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Континенты — без артикля",
+            "en": "Continents — no article"
+          },
+          "right": "Africa is home to many rare animals."
+        },
+        {
+          "left": {
+            "ru": "Пустыни — с the",
+            "en": "Deserts — with the"
+          },
+          "right": "The Sahara is the largest hot desert in the world."
+        },
+        {
+          "left": {
+            "ru": "Отдельные горы — без артикля",
+            "en": "Individual mountains — no article"
+          },
+          "right": "Mont Blanc is a popular destination for climbers."
+        },
+        {
+          "left": {
+            "ru": "Заливы — с the",
+            "en": "Bays — with the"
+          },
+          "right": "The Bay of Bengal lies between India and Bangladesh."
+        }
+      ],
+      "explanation": {
+        "ru": "Континенты и отдельные горы пишутся без артикля: Africa, Mont Blanc. Пустыни и заливы требуют the: the Sahara, the Bay of Bengal.",
+        "en": "Continents and individual mountains take no article: Africa, Mont Blanc. Deserts and bays take the: the Sahara, the Bay of Bengal."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0107",
+      "type": "match",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте тип названия и пример.",
+        "en": "Match each type of name with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "река — с the",
+            "en": "river — with the"
+          },
+          "right": "The Seine runs through the centre of Paris."
+        },
+        {
+          "left": {
+            "ru": "горная цепь — с the",
+            "en": "mountain range — with the"
+          },
+          "right": "The Andes stretch along the west coast of South America."
+        },
+        {
+          "left": {
+            "ru": "океан — с the",
+            "en": "ocean — with the"
+          },
+          "right": "The Atlantic separates Europe from North America."
+        },
+        {
+          "left": {
+            "ru": "страна — без артикля",
+            "en": "country — no article"
+          },
+          "right": "She travelled around Poland by train."
+        }
+      ],
+      "explanation": {
+        "ru": "Реки, горные цепи и океаны употребляются с the; обычные названия стран — без артикля.",
+        "en": "Rivers, mountain ranges and oceans take the; ordinary country names take no article."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "def-0108",
+      "type": "match",
+      "ruleId": "art-names-geo",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте тип названия и пример.",
+        "en": "Match each type of name with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "страна-объединение — с the",
+            "en": "union country name — with the"
+          },
+          "right": "She has relatives in the United Kingdom."
+        },
+        {
+          "left": {
+            "ru": "озеро — без артикля",
+            "en": "lake — no article"
+          },
+          "right": "They sailed across Lake Michigan in a small boat."
+        },
+        {
+          "left": {
+            "ru": "континент — без артикля",
+            "en": "continent — no article"
+          },
+          "right": "South America has a rich variety of wildlife."
+        },
+        {
+          "left": {
+            "ru": "страна во множественном числе — с the",
+            "en": "plural country name — with the"
+          },
+          "right": "The Netherlands is famous for its windmills and canals."
+        }
+      ],
+      "explanation": {
+        "ru": "Названия-объединения и страны во множественном числе требуют the, а отдельные озёра, континенты и обычные страны — нет.",
+        "en": "Union names and plural country names take the, while single lakes, continents and ordinary countries do not."
+      },
+      "tags": [
+        "art-names-geo",
+        "the-geography"
+      ]
+    },
+    {
+      "id": "adv-0064",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B2",
+      "sentence": "For most families, a holiday on the Moon is out of ___ question.",
+      "translation": {
+        "ru": "Для большинства семей отдых на Луне исключён."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "Out of the question — устойчивое выражение «не может быть и речи, исключено»; артикль the в нём обязателен.",
+        "en": "Out of the question is a fixed expression meaning impossible; the article the is obligatory in it."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-names-geo",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0073",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B2",
+      "sentence": "___ President of our country gave a short speech on television.",
+      "translation": {
+        "ru": "Президент нашей страны выступил с короткой речью по телевидению."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Президент нашей страны — уникальная роль в контексте, поэтому нужен определённый артикль the.",
+        "en": "The President of our country is a unique role in this context, so it takes the."
+      },
+      "tags": [
+        "art-names-geo",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0074",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B2",
+      "sentence": "My cousin wants to become ___ teacher.",
+      "translation": {
+        "ru": "Моя двоюродная сестра хочет стать учителем."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Учителей много, роль неуникальна, речь о профессии — поэтому a teacher.",
+        "en": "There are many teachers and this is a profession, so we use a teacher."
+      },
+      "tags": [
+        "art-names-geo",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0075",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B2",
+      "sentence": "The passenger was sitting in ___ front of the car, next to the driver.",
+      "translation": {
+        "ru": "Пассажир сидел в передней части машины, рядом с водителем."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "In the front of значит «в передней части, внутри»; in front of означало бы «снаружи, перед машиной».",
+        "en": "In the front of means inside the front part; in front of would mean outside, before the car."
+      },
+      "tags": [
+        "art-names-geo",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0076",
+      "type": "choice",
+      "ruleId": "art-names-geo",
+      "level": "B2",
+      "sentence": "The concert will take ___ place in the park.",
+      "translation": {
+        "ru": "Концерт пройдёт в парке."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Take place — устойчивое выражение без артикля; не путайте с take the place of.",
+        "en": "Take place is a fixed expression with no article; do not confuse it with take the place of."
+      },
+      "tags": [
+        "art-names-geo",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0065",
+      "type": "match",
+      "ruleId": "art-names-geo",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте тип названия и пример.",
+        "en": "Match each type of name with an example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Название газеты",
+            "en": "A newspaper title"
+          },
+          "right": "He reads the Times every morning."
+        },
+        {
+          "left": {
+            "ru": "Название отеля",
+            "en": "A hotel name"
+          },
+          "right": "They stayed at the Ritz for two nights."
+        },
+        {
+          "left": {
+            "ru": "Название музея",
+            "en": "A museum name"
+          },
+          "right": "We visited the Louvre on Monday."
+        },
+        {
+          "left": {
+            "ru": "Уникальная должность",
+            "en": "A unique role"
+          },
+          "right": "The Pope is visiting Brazil this week."
+        }
+      ],
+      "explanation": {
+        "ru": "Названия газет, отелей и музеев требуют the (the Times, the Ritz, the Louvre), и уникальная должность тоже: the Pope.",
+        "en": "Newspaper, hotel and museum titles take the (the Times, the Ritz, the Louvre), and so does a unique role: the Pope."
+      },
+      "tags": [
+        "art-names-geo",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "art2-0030",
+      "type": "match",
+      "ruleId": "art-names-geo",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте тип названия и пример с the.",
+        "en": "Match each type of name with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Название газеты — с the",
+            "en": "A newspaper title — with the"
+          },
+          "right": "My father reads the Daily Telegraph every morning."
+        },
+        {
+          "left": {
+            "ru": "Название отеля — с the",
+            "en": "A hotel name — with the"
+          },
+          "right": "We booked a room at the Grand Hotel."
+        },
+        {
+          "left": {
+            "ru": "Название музея — с the",
+            "en": "A museum name — with the"
+          },
+          "right": "The Prado is one of the most visited museums in Madrid."
+        },
+        {
+          "left": {
+            "ru": "Уникальная роль — с the",
+            "en": "A unique role — with the"
+          },
+          "right": "The Queen opened the new hospital last week."
+        }
+      ],
+      "explanation": {
+        "ru": "Названия газет, отелей и музеев обычно получают the: the Daily Telegraph, the Grand Hotel, the Prado. Определённый артикль также ставится перед уникальной ролью: the Queen, the Pope.",
+        "en": "Newspaper, hotel and museum names usually take the: the Daily Telegraph, the Grand Hotel, the Prado. The definite article is also used before a unique role: the Queen, the Pope."
+      },
+      "tags": [
+        "art-names-geo",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0091",
+      "type": "match",
+      "ruleId": "art-names-geo",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте название и пример.",
+        "en": "Match each name with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Газета — с the",
+            "en": "A newspaper — with the"
+          },
+          "right": "The Times is a British newspaper."
+        },
+        {
+          "left": {
+            "ru": "Отель — с the",
+            "en": "A hotel — with the"
+          },
+          "right": "They stayed at the Waldorf for three nights."
+        },
+        {
+          "left": {
+            "ru": "Музей — с the",
+            "en": "A museum — with the"
+          },
+          "right": "We spent the afternoon at the National Gallery."
+        },
+        {
+          "left": {
+            "ru": "Уникальная должность — с the",
+            "en": "A unique role — with the"
+          },
+          "right": "The headmaster opened the new library."
+        }
+      ],
+      "explanation": {
+        "ru": "Названия газет, отелей и музеев всегда идут с the, а уникальная роль в контексте тоже требует the.",
+        "en": "Names of newspapers, hotels and museums always take the, and a unique role in the context also requires the."
+      },
+      "tags": [
+        "art-names-geo",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0092",
+      "type": "match",
+      "ruleId": "art-names-geo",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте роль и пример.",
+        "en": "Match each role with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Единственная роль: Папа Римский",
+            "en": "A unique role: the Pope"
+          },
+          "right": "The Pope is visiting our country next week."
+        },
+        {
+          "left": {
+            "ru": "Единственная роль: директор школы",
+            "en": "A unique role: the headmaster"
+          },
+          "right": "The headmaster has called an emergency meeting."
+        },
+        {
+          "left": {
+            "ru": "Одна из многих ролей: медсестра",
+            "en": "One of many roles: a nurse"
+          },
+          "right": "My aunt works as a nurse in a large hospital."
+        },
+        {
+          "left": {
+            "ru": "Одна из многих ролей: учитель",
+            "en": "One of many roles: a teacher"
+          },
+          "right": "She works as a teacher at a primary school."
+        }
+      ],
+      "explanation": {
+        "ru": "Единственная роль в контексте требует the, а профессия или одна из многих ролей — a/an.",
+        "en": "A role that is unique in the context takes the, while a profession or one of many roles takes a or an."
+      },
+      "tags": [
+        "art-names-geo",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0093",
+      "type": "match",
+      "ruleId": "art-names-geo",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте выражение и пример.",
+        "en": "Match each expression with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Происходить — take place",
+            "en": "To happen — take place"
+          },
+          "right": "The meeting will take place in the main hall."
+        },
+        {
+          "left": {
+            "ru": "Заменять — take the place of",
+            "en": "To replace — take the place of"
+          },
+          "right": "Robots cannot take the place of human contact."
+        },
+        {
+          "left": {
+            "ru": "Перед, снаружи — in front of",
+            "en": "Outside, before — in front of"
+          },
+          "right": "A bike was parked in front of the house."
+        },
+        {
+          "left": {
+            "ru": "В передней части, внутри — in the front of",
+            "en": "Inside the front part — in the front of"
+          },
+          "right": "We sat in the front of the bus."
+        }
+      ],
+      "explanation": {
+        "ru": "Take place и in front of идут без the, а take the place of и in the front of — с the; это разные по смыслу пары.",
+        "en": "Take place and in front of take no the, while take the place of and in the front of take the; these pairs differ in meaning."
+      },
+      "tags": [
+        "art-names-geo",
+        "advanced-exceptions"
+      ]
+    }
+  ]
+}

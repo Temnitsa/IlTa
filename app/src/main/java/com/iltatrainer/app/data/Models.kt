@@ -81,6 +81,8 @@ data class Question(
     val prompt: Bilingual? = null,
     val pairs: List<MatchPair> = emptyList(),
     val explanation: Bilingual = Bilingual(),
+    /** Optional pattern tags used to pick truly similar questions for mistake review. */
+    val tags: List<String> = emptyList(),
 ) {
     val isChoice: Boolean get() = type == "choice"
     val isMatch: Boolean get() = type == "match"

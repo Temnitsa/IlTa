@@ -14,8 +14,8 @@ import org.junit.Test
 import java.io.File
 
 /**
- * Validates the bundled IlTa content: 27 themes × 20 questions (15 choice + 5 match),
- * clean rule texts (no examples repeated in bodies) and consistent question shape.
+ * Validates the bundled IlTa content: 9 article themes × 70 pool questions and
+ * 7 preposition themes × 30 questions, clean rule texts and consistent question shape.
  */
 class ContentValidationTest {
 
@@ -59,19 +59,17 @@ class ContentValidationTest {
     }
 
     @Test
-    fun `every theme has exactly thirty questions twenty five choice and five match`() {
+    fun `article themes have seventy pool questions and prepositions have thirty`() {
         val packages = loadPackages()
         val rules = packages.flatMap { it.rules }
         val questions = packages.flatMap { it.questions }
         val ruleIds = rules.map { it.id }.toSet()
 
-        assertEquals(27, rules.size)
-        assertEquals(20, rules.count { it.sectionId == "articles" })
+        assertEquals(16, rules.size)
+        assertEquals(9, rules.count { it.sectionId == "articles" })
         assertEquals(7, rules.count { it.sectionId == "prepositions" })
-        assertEquals(810, questions.size)
-        assertEquals(675, questions.count { it.type == "choice" })
-        assertEquals(135, questions.count { it.type == "match" })
-        assertEquals(600, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "articles" })
+        assertEquals(840, questions.size)
+        assertEquals(630, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "articles" })
         assertEquals(210, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "prepositions" })
 
         assertEquals("rule ids must be unique", rules.size, ruleIds.size)
@@ -89,9 +87,15 @@ class ContentValidationTest {
 
         rules.forEach { rule ->
             val ofRule = questions.filter { it.ruleId == rule.id }
-            assertEquals("theme ${rule.id} must have exactly 30 questions", 30, ofRule.size)
-            assertEquals("theme ${rule.id} must have 25 choice questions", 25, ofRule.count { it.type == "choice" })
-            assertEquals("theme ${rule.id} must have 5 match questions", 5, ofRule.count { it.type == "match" })
+            if (rule.sectionId == "articles") {
+                assertEquals("article theme ${rule.id} must have exactly 70 pool questions", 70, ofRule.size)
+                assertTrue("article theme ${rule.id} needs at least 25 choice questions", ofRule.count { it.type == "choice" } >= 25)
+                assertTrue("article theme ${rule.id} needs at least 5 match questions", ofRule.count { it.type == "match" } >= 5)
+            } else {
+                assertEquals("theme ${rule.id} must have exactly 30 questions", 30, ofRule.size)
+                assertEquals("theme ${rule.id} must have 25 choice questions", 25, ofRule.count { it.type == "choice" })
+                assertEquals("theme ${rule.id} must have 5 match questions", 5, ofRule.count { it.type == "match" })
+            }
         }
     }
 

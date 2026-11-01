@@ -1,0 +1,2064 @@
+{
+  "meta": {
+    "package": "articles_02_a_an",
+    "version": 2,
+    "authors": [
+      "content-team"
+    ]
+  },
+  "rules": [
+    {
+      "id": "art-a-an",
+      "sectionId": "articles",
+      "order": 20,
+      "level": "A1",
+      "title": {
+        "ru": "a/an: первое упоминание, профессии и единственная роль",
+        "en": "a/an: first mention, professions and a unique role"
+      },
+      "summary": {
+        "ru": "Неопределённый артикль вводит новый предмет и называет один из многих; он нужен перед названиями профессий и национальностей-существительных (a doctor, a Canadian), а если национальность или религия — прилагательное, артикль не нужен (He is Canadian).",
+        "en": "The indefinite article introduces a new thing and names one of many; it is used with profession and nationality nouns (a doctor, a Canadian), while nationality and religion adjectives take no article (He is Canadian)."
+      },
+      "sections": [
+        {
+          "heading": {
+            "ru": "Новая информация",
+            "en": "New information"
+          },
+          "body": {
+            "ru": "Когда предмет только появляется в разговоре, слушатель ещё не знает, какой именно предмет имеется в виду. Перед исчисляемым существительным в единственном числе ставим a/an, а при следующем упоминании того же предмета — the.",
+            "en": "When a thing first appears in the conversation, the listener does not yet know which particular thing is meant. A countable noun in the singular takes a/an on first mention, and the is used when the same thing is mentioned again."
+          },
+          "examples": [
+            "I saw a dog.",
+            "There is a message for you.",
+            "A woman called you.",
+            "I bought a book."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Профессии, национальности, религии",
+            "en": "Professions, nationalities, religions"
+          },
+          "body": {
+            "ru": "Название профессии или роли в единственном числе — исчисляемое существительное, поэтому перед ним ставим a/an, в том числе когда перед существительным есть прилагательное. Национальности и религии могут быть прилагательными — тогда артикль не нужен.",
+            "en": "A profession or role in the singular is a countable noun and takes a/an, including when an adjective comes before it. Nationalities and religions can be adjectives, and then no article is used."
+          },
+          "examples": [
+            "She is a doctor.",
+            "He works as an engineer.",
+            "She is a Canadian.",
+            "He is Canadian."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Единственная роль: the или a/an",
+            "en": "A unique role: the or a/an"
+          },
+          "body": {
+            "ru": "Если роль в данной ситуации единственная, перед ней ставим the — собеседник понимает, о ком именно речь. Если людей в этой роли много и называем одного из них, нужен a/an; при описании роли впервые тоже используется a/an.",
+            "en": "If a role is unique in the situation, we use the — the listener understands exactly who is meant. If many people have that role and we name one of them, a/an is used; when a role is described for the first time, a/an is also used."
+          },
+          "examples": [
+            "the headmaster of the school",
+            "the Pope",
+            "a nurse",
+            "a teacher"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "ind-0019",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "There is ___ strange noise coming from the attic.",
+      "translation": {
+        "ru": "Из чердака доносится странный шум."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Strange начинается с согласного звука, а шум упоминается впервые — ставим a.",
+        "en": "Strange begins with a consonant sound and the noise is new information, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0020",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "I met ___ woman in the queue who knew my sister.",
+      "translation": {
+        "ru": "В очереди я встретил женщину, которая знала мою сестру."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Женщина вводится в рассказ впервые, слушатель ещё не знает, о ком речь, поэтому ставим a.",
+        "en": "The woman is introduced for the first time, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0021",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "Let's watch ___ film tonight at home.",
+      "translation": {
+        "ru": "Давай посмотрим фильм сегодня вечером дома."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Film начинается с согласного звука, а фильм предлагается как один из многих — ставим a.",
+        "en": "Film begins with a consonant sound and the film is one of many, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0022",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "My father told us ___ funny story about his childhood.",
+      "translation": {
+        "ru": "Папа рассказал нам смешную историю о своём детстве."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Funny начинается с согласного звука, а история новая для слушателей — ставим a.",
+        "en": "Funny begins with a consonant sound and the story is new to the listeners, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0023",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "There is ___ empty seat next to me.",
+      "translation": {
+        "ru": "Рядом со мной есть свободное место."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Empty начинается с гласного звука, поэтому ставим an.",
+        "en": "Empty begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0024",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "A man came into the shop and asked for ___ newspaper.",
+      "translation": {
+        "ru": "Мужчина вошёл в магазин и попросил газету."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Газета упоминается впервые, поэтому говорим a newspaper, а не the newspaper.",
+        "en": "The newspaper is mentioned for the first time, so we say a newspaper, not the newspaper."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0025",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "We need to find ___ good dentist for my mother.",
+      "translation": {
+        "ru": "Нам нужно найти хорошего стоматолога для мамы."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Dentist начинается с согласного звука, а стоматолог упоминается впервые — ставим a.",
+        "en": "Dentist begins with a consonant sound and is mentioned for the first time, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0026",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "She invited ___ friend from work to dinner.",
+      "translation": {
+        "ru": "Она пригласила друга с работы на ужин."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Friend начинается с согласного звука, а друг упоминается впервые — ставим a.",
+        "en": "Friend begins with a consonant sound and is new information, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0027",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "I saw ___ beautiful rainbow after the storm.",
+      "translation": {
+        "ru": "После грозы я увидел красивую радугу."
+      },
+      "answer": "a",
+      "explanation": {
+        "ru": "Beautiful начинается с согласного звука, а радуга упоминается впервые — ставим a.",
+        "en": "Beautiful begins with a consonant sound and the rainbow is new information, so we use a."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0028",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "He wants to open ___ restaurant in the city centre.",
+      "translation": {
+        "ru": "Он хочет открыть ресторан в центре города."
+      },
+      "answer": "a",
+      "explanation": {
+        "ru": "Restaurant начинается с согласного звука, а ресторан — один из многих, поэтому ставим a.",
+        "en": "Restaurant begins with a consonant sound and it is one of many, so we use a."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0029",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "There was ___ interesting article in yesterday's newspaper.",
+      "translation": {
+        "ru": "Вчера в газете была интересная статья."
+      },
+      "answer": "an",
+      "explanation": {
+        "ru": "Interesting начинается с гласного звука, а статья упоминается впервые — ставим an.",
+        "en": "Interesting begins with a vowel sound and the article is new information, so we use an."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "art2-0003",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "We watched ___ documentary about elephants last night.",
+      "translation": {
+        "ru": "Вчера вечером мы посмотрели документальный фильм о слонах."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Documentary — исчисляемое существительное в единственном числе, о котором говорим впервые, поэтому нужен a. Слушатель ещё не знает, о каком фильме идёт речь.",
+        "en": "Documentary is a singular countable noun mentioned for the first time, so we use a. The listener does not know yet which documentary we mean."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "art2-0004",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "There is ___ interesting exhibition at the city museum this week.",
+      "translation": {
+        "ru": "На этой неделе в городском музее проходит интересная выставка."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Exhibition упоминается впервые, а слово interesting начинается с гласного звука, поэтому ставим an: an interesting exhibition. При первом упоминании используем a/an.",
+        "en": "Exhibition is mentioned for the first time, and interesting begins with a vowel sound, so we use an: an interesting exhibition. We use a/an to introduce something new."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0066",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "We found ___ lovely café near the station.",
+      "translation": {
+        "ru": "Мы нашли прелестное кафе рядом с вокзалом."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Café начинается с согласного звука, а кафе упоминается впервые — ставим a.",
+        "en": "Café begins with a consonant sound and the café is mentioned for the first time, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0067",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "Could you give me ___ example of this rule?",
+      "translation": {
+        "ru": "Не мог бы ты привести мне пример этого правила?"
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Example начинается с гласного звука, а пример вводится в разговор впервые — ставим an.",
+        "en": "Example begins with a vowel sound and is introduced for the first time, so we use an."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0107",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "There is ___ knock at the door.",
+      "translation": {
+        "ru": "В дверь стучат."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Knock начинается с согласного звука, а стук упоминается впервые — ставим a.",
+        "en": "Knock begins with a consonant sound and the knock is new information, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0108",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "I need ___ hammer to fix this shelf.",
+      "translation": {
+        "ru": "Мне нужен молоток, чтобы починить полку."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Hammer начинается с согласного звука, а предмет нужен любой, один из многих — ставим a.",
+        "en": "Hammer begins with a consonant sound and any one of many will do, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0109",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "She works in ___ office near the river.",
+      "translation": {
+        "ru": "Она работает в офисе недалеко от реки."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Office начинается с гласного звука, а офис упоминается впервые — ставим an.",
+        "en": "Office begins with a vowel sound and is mentioned for the first time, so we use an."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0110",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "We met ___ nice couple at the wedding.",
+      "translation": {
+        "ru": "На свадьбе мы познакомились с приятной парой."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Couple начинается с согласного звука, а пара вводится в разговор впервые — ставим a.",
+        "en": "Couple begins with a consonant sound and the couple is new information, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0111",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A2",
+      "sentence": "He showed us ___ amazing photo of the canyon.",
+      "translation": {
+        "ru": "Он показал нам удивительное фото каньона."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Amazing начинается с гласного звука, а фото упоминается впервые — ставим an.",
+        "en": "Amazing begins with a vowel sound and the photo is new information, so we use an."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0112",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "A car stopped outside and ___ man got out.",
+      "translation": {
+        "ru": "Снаружи остановилась машина, и из неё вышел мужчина."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Мужчина появляется в рассказе впервые, поэтому перед ним ставим a, а не the.",
+        "en": "The man appears in the story for the first time, so we use a, not the."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0113",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "I want to buy ___ gift for my mother's birthday.",
+      "translation": {
+        "ru": "Я хочу купить подарок на день рождения мамы."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Gift начинается с согласного звука, а подарок — один из многих, ещё не выбранный — ставим a.",
+        "en": "Gift begins with a consonant sound and is one of many, not yet chosen, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0114",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "There is ___ unusual tree in our garden.",
+      "translation": {
+        "ru": "В нашем саду растёт необычное дерево."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Unusual начинается с гласного звука, а дерево упоминается впервые — ставим an.",
+        "en": "Unusual begins with a vowel sound and the tree is new information, so we use an."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0115",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "She bought ___ lovely hat for the wedding.",
+      "translation": {
+        "ru": "Она купила прелестную шляпку для свадьбы."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Lovely начинается с согласного звука, а шляпка упоминается впервые — ставим a.",
+        "en": "Lovely begins with a consonant sound and the hat is mentioned for the first time, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0116",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "We visited ___ interesting museum during our holiday.",
+      "translation": {
+        "ru": "Во время отпуска мы посетили интересный музей."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Interesting начинается с гласного звука, а музей упоминается впервые — ставим an.",
+        "en": "Interesting begins with a vowel sound and the museum is new information, so we use an."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0030",
+      "type": "match",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример.",
+        "en": "Match each rule with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Новая информация для слушателя",
+            "en": "New information for the listener"
+          },
+          "right": "I've got some news: I finally found a good dentist."
+        },
+        {
+          "left": {
+            "ru": "Один из многих предметов (какой-то, неважно какой)",
+            "en": "One of many things (any one will do)"
+          },
+          "right": "He is looking for a flat; any flat near the metro will do."
+        },
+        {
+          "left": {
+            "ru": "Введение персонажа в рассказ",
+            "en": "Introducing a character into a story"
+          },
+          "right": "A young woman opened the door and smiled."
+        },
+        {
+          "left": {
+            "ru": "Конструкция there is",
+            "en": "The 'there is' construction"
+          },
+          "right": "There is a small café on the corner."
+        }
+      ],
+      "explanation": {
+        "ru": "Во всех примерах предмет или персонаж вводится впервые, поэтому нужен неопределённый артикль a/an.",
+        "en": "In all the examples something is introduced for the first time, so the indefinite article a/an is used."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0082",
+      "type": "match",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте ситуацию и пример с неопределённым артиклем.",
+        "en": "Match each situation with the example that uses the indefinite article."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "новый предмет в рассказе",
+            "en": "a new thing introduced in the story"
+          },
+          "right": "I found a wallet on the bus this morning."
+        },
+        {
+          "left": {
+            "ru": "новый персонаж в рассказе",
+            "en": "a new character introduced in the story"
+          },
+          "right": "A young man offered to carry my bags."
+        },
+        {
+          "left": {
+            "ru": "один из многих, подойдёт любой",
+            "en": "one of many, any one will do"
+          },
+          "right": "He needs a pen — any pen will do."
+        },
+        {
+          "left": {
+            "ru": "конструкция «there is»",
+            "en": "the ‘there is’ construction"
+          },
+          "right": "There is a letter for you on the table."
+        }
+      ],
+      "explanation": {
+        "ru": "Неопределённый артикль вводит новую информацию: предмет, персонажа или один из многих — собеседник ещё не знает, о каком именно идёт речь.",
+        "en": "The indefinite article introduces new information: a thing, a character or one of many — the listener does not yet know which one is meant."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0083",
+      "type": "match",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте упоминание и пример.",
+        "en": "Match each mention with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "первое упоминание: a kitten",
+            "en": "first mention: a kitten"
+          },
+          "right": "We adopted a kitten from the shelter."
+        },
+        {
+          "left": {
+            "ru": "повторное упоминание: the kitten",
+            "en": "second mention: the kitten"
+          },
+          "right": "The kitten slept all afternoon."
+        },
+        {
+          "left": {
+            "ru": "первое упоминание: a bicycle",
+            "en": "first mention: a bicycle"
+          },
+          "right": "He bought a bicycle for his trip."
+        },
+        {
+          "left": {
+            "ru": "повторное упоминание: the bicycle",
+            "en": "second mention: the bicycle"
+          },
+          "right": "The bicycle was standing by the door."
+        }
+      ],
+      "explanation": {
+        "ru": "Сначала предмет вводится с a/an, а при повторном упоминании ставим the.",
+        "en": "A thing is introduced with a/an first, and the definite article is used when it is mentioned again."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0084",
+      "type": "match",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте упоминание и пример.",
+        "en": "Match each mention with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "первое упоминание: an umbrella",
+            "en": "first mention: an umbrella"
+          },
+          "right": "She took an umbrella from the stand."
+        },
+        {
+          "left": {
+            "ru": "повторное упоминание: the umbrella",
+            "en": "second mention: the umbrella"
+          },
+          "right": "The umbrella was still wet from the rain."
+        },
+        {
+          "left": {
+            "ru": "первое упоминание: a camera",
+            "en": "first mention: a camera"
+          },
+          "right": "My brother bought a camera last week."
+        },
+        {
+          "left": {
+            "ru": "повторное упоминание: the camera",
+            "en": "second mention: the camera"
+          },
+          "right": "The camera takes very sharp photos."
+        }
+      ],
+      "explanation": {
+        "ru": "Первое упоминание идёт с a или an, повторное — с the: артикль показывает, что предмет уже знаком слушателю.",
+        "en": "The first mention takes a or an and the second mention takes the: the article shows that the listener already knows the thing."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0085",
+      "type": "match",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте упоминание и пример.",
+        "en": "Match each mention with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "первое упоминание: a painting",
+            "en": "first mention: a painting"
+          },
+          "right": "We saw a beautiful painting at the gallery."
+        },
+        {
+          "left": {
+            "ru": "повторное упоминание: the painting",
+            "en": "second mention: the painting"
+          },
+          "right": "The painting was worth a fortune."
+        },
+        {
+          "left": {
+            "ru": "первое упоминание: a necklace",
+            "en": "first mention: a necklace"
+          },
+          "right": "She wore a silver necklace to the party."
+        },
+        {
+          "left": {
+            "ru": "повторное упоминание: the necklace",
+            "en": "second mention: the necklace"
+          },
+          "right": "The necklace belonged to her grandmother."
+        }
+      ],
+      "explanation": {
+        "ru": "Неопределённый артикль вводит предмет в разговор, а при следующем упоминании того же предмета используется the.",
+        "en": "The indefinite article introduces a thing into the conversation, and the next mention of the same thing takes the."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention"
+      ]
+    },
+    {
+      "id": "ind-0031",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "My aunt is ___ nurse at a small hospital.",
+      "translation": {
+        "ru": "Моя тётя — медсестра в маленькой больнице."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Перед названием профессии нужен a/an, а nurse начинается с согласного звука — ставим a.",
+        "en": "A profession takes a/an, and nurse begins with a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0032",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "He studied hard and became ___ engineer.",
+      "translation": {
+        "ru": "Он усердно учился и стал инженером."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Перед профессией ставим a/an, а engineer начинается с гласного звука — нужен an.",
+        "en": "A profession takes a/an, and engineer begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0033",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "My sister is ___ amazing artist.",
+      "translation": {
+        "ru": "Моя сестра — потрясающая художница."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Amazing начинается с гласного звука, а перед профессией с прилагательным ставим a/an — нужен an.",
+        "en": "Amazing begins with a vowel sound, and a profession with an adjective takes a/an, so we use an."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0034",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "My friend is ___ Canadian who lives in London.",
+      "translation": {
+        "ru": "Мой друг — канадец, который живёт в Лондоне."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Перед названием национальности в роли существительного нужен a/an, а Canadian начинается с согласного звука — ставим a.",
+        "en": "A nationality used as a noun takes a/an, and Canadian begins with a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0035",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "Her grandmother is ___ Buddhist who prays every morning.",
+      "translation": {
+        "ru": "Её бабушка — буддистка, которая молится каждое утро."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Перед названием религии в роли существительного ставим a/an, а Buddhist начинается с согласного звука — нужен a.",
+        "en": "A religion used as a noun takes a/an, and Buddhist begins with a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0036",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "My brother wants to be ___ pilot when he grows up.",
+      "translation": {
+        "ru": "Мой брат хочет стать пилотом, когда вырастет."
+      },
+      "answer": "a",
+      "explanation": {
+        "ru": "Перед названием профессии нужен a/an, а pilot начинается с согласного звука — ставим a.",
+        "en": "A profession takes a/an, and pilot begins with a consonant sound, so we use a."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0037",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "She is ___ experienced teacher at our school.",
+      "translation": {
+        "ru": "Она опытная учительница в нашей школе."
+      },
+      "answer": "an",
+      "explanation": {
+        "ru": "Experienced начинается с гласного звука, а профессия с прилагательным требует a/an — ставим an.",
+        "en": "Experienced begins with a vowel sound, and a profession with an adjective takes a/an, so we use an."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0038",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "His father is ___ dentist in our town.",
+      "translation": {
+        "ru": "Его отец — дантист в нашем городе."
+      },
+      "answer": "a",
+      "explanation": {
+        "ru": "Dentist начинается с согласного звука, а перед профессией ставим a/an — нужен a.",
+        "en": "Dentist begins with a consonant sound, and a profession takes a/an, so we use a."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0068",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "My cousin works as ___ architect in Berlin.",
+      "translation": {
+        "ru": "Мой двоюродный брат работает архитектором в Берлине."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Архитектор — профессия, перед ней нужен a/an; architect начинается с гласного звука, поэтому an.",
+        "en": "Architect is a profession and takes a/an; the word begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0069",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "She wants to become ___ police officer after college.",
+      "translation": {
+        "ru": "После колледжа она хочет стать офицером полиции."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Police officer — название профессии в единственном числе, а слово начинается с согласного звука — нужен a.",
+        "en": "Police officer is a profession in the singular and begins with a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0070",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "His neighbour is ___ Italian who moved here last year.",
+      "translation": {
+        "ru": "Его сосед — итальянец, который переехал сюда в прошлом году."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Italian здесь существительное (национальность), а слово начинается с гласного звука — ставим an.",
+        "en": "Italian is a noun here (a nationality) and begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0071",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "After university he became ___ economist at a small bank.",
+      "translation": {
+        "ru": "После университета он стал экономистом в небольшом банке."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Economist — профессия, а слово начинается с гласного звука, поэтому после become ставим an.",
+        "en": "Economist is a profession and begins with a vowel sound, so we use an after become."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0072",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "My neighbour is ___ French, though she was born in Canada.",
+      "translation": {
+        "ru": "Моя соседка — француженка, хотя родилась в Канаде."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "French здесь прилагательное (национальность-характеристика), а после прилагательного артикль не нужен.",
+        "en": "French is an adjective here (a nationality characteristic), and an adjective takes no article."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0073",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "She is ___ very patient doctor at the children's hospital.",
+      "translation": {
+        "ru": "Она очень терпеливый врач в детской больнице."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Профессия с прилагательным сохраняет a/an; very начинается с согласного звука — ставим a.",
+        "en": "A profession with an adjective keeps a/an; very begins with a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0074",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "Her father is ___ well-known journalist in our city.",
+      "translation": {
+        "ru": "Её отец — известный журналист в нашем городе."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Journalist — профессия в единственном числе, а well-known начинается с согласного звука — нужен a.",
+        "en": "Journalist is a profession in the singular and well-known begins with a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0117",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "My cousin has become ___ successful lawyer.",
+      "translation": {
+        "ru": "Мой двоюродный брат стал успешным юристом."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Перед профессией нужен a/an, а successful начинается с согласного звука — ставим a.",
+        "en": "A profession takes a/an, and successful begins with a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0118",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "Her mother works as ___ interpreter at the UN.",
+      "translation": {
+        "ru": "Её мама работает переводчиком в ООН."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Interpreter — профессия, начинающаяся с гласного звука, поэтому ставим an.",
+        "en": "Interpreter is a profession that begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0119",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "He is ___ electrician with his own workshop.",
+      "translation": {
+        "ru": "Он электрик со своей мастерской."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Electrician — профессия на гласный звук, поэтому перед ней ставим an.",
+        "en": "Electrician is a profession beginning with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0120",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A2",
+      "sentence": "She wants to train as ___ physiotherapist.",
+      "translation": {
+        "ru": "Она хочет выучиться на физиотерапевта."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Physiotherapist — профессия на согласный звук, поэтому ставим a.",
+        "en": "Physiotherapist is a profession beginning with a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0121",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "___ Norwegian moved into the flat next door.",
+      "translation": {
+        "ru": "В соседнюю квартиру переехал норвежец."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Norwegian здесь существительное (национальность) и начинается с согласного звука — ставим a.",
+        "en": "Norwegian is a noun here (a nationality) and begins with a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0122",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "Our new neighbour is ___ professional footballer.",
+      "translation": {
+        "ru": "Наш новый сосед — профессиональный футболист."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Перед профессией с прилагательным сохраняется a/an, а professional начинается с согласного звука — ставим a.",
+        "en": "A profession with an adjective keeps a/an, and professional begins with a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0123",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "My grandfather was ___ Polish soldier during the war.",
+      "translation": {
+        "ru": "Мой дедушка был польским солдатом во время войны."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Polish soldier — исчисляемое единственное число, а Polish начинается с согласного звука — ставим a.",
+        "en": "Polish soldier is singular countable, and Polish begins with a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0124",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "Our new teacher is ___ British, but she speaks four languages.",
+      "translation": {
+        "ru": "Наша новая учительница — британка, но говорит на четырёх языках."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "British здесь прилагательное после глагола be, поэтому артикль не ставим.",
+        "en": "British is a predicative adjective here, so no article is used."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0125",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "The restaurant hired ___ Italian chef last month.",
+      "translation": {
+        "ru": "В прошлом месяце ресторан нанял итальянского повара."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Italian начинается с гласного звука, поэтому перед национальностью-прилагательным и существительным ставим an.",
+        "en": "Italian begins with a vowel sound, so the nationality adjective and noun take an."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0126",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "Her daughter is studying to become ___ vet.",
+      "translation": {
+        "ru": "Её дочь учится, чтобы стать ветеринаром."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Vet — профессия на согласный звук, поэтому после become ставим a.",
+        "en": "Vet is a profession beginning with a consonant sound, so we use a after become."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0039",
+      "type": "match",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример.",
+        "en": "Match each rule with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Профессия",
+            "en": "Profession"
+          },
+          "right": "My uncle is a firefighter."
+        },
+        {
+          "left": {
+            "ru": "Национальность",
+            "en": "Nationality"
+          },
+          "right": "Her husband is an American."
+        },
+        {
+          "left": {
+            "ru": "Религия",
+            "en": "Religion"
+          },
+          "right": "My neighbour is a Catholic."
+        },
+        {
+          "left": {
+            "ru": "Прилагательное + профессия",
+            "en": "Adjective + profession"
+          },
+          "right": "She is a very talented musician."
+        }
+      ],
+      "explanation": {
+        "ru": "Перед профессиями, а также национальностями и религиями в роли существительных в единственном числе ставим a/an, в том числе когда перед существительным есть прилагательное.",
+        "en": "Professions and nationalities/religions used as nouns in the singular take a/an, including when an adjective comes before the noun."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0086",
+      "type": "match",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте слово и пример с артиклем.",
+        "en": "Match each word with the example that needs an article."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "профессия: engineer",
+            "en": "profession: engineer"
+          },
+          "right": "My cousin works as an engineer for a big company."
+        },
+        {
+          "left": {
+            "ru": "национальность-существительное: Italian",
+            "en": "nationality noun: Italian"
+          },
+          "right": "Her colleague is an Italian from Milan."
+        },
+        {
+          "left": {
+            "ru": "религия-существительное: Catholic",
+            "en": "religion noun: Catholic"
+          },
+          "right": "My neighbour is a Catholic and goes to church on Sundays."
+        },
+        {
+          "left": {
+            "ru": "прилагательное + профессия: skilled surgeon",
+            "en": "adjective + profession: skilled surgeon"
+          },
+          "right": "He is a highly skilled surgeon at the city hospital."
+        }
+      ],
+      "explanation": {
+        "ru": "Профессии, а также национальности и религии в роли существительных требуют a/an; артикль сохраняется перед прилагательным.",
+        "en": "Professions, and nationalities or religions used as nouns, take a/an; the article stays when an adjective comes before the noun."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0087",
+      "type": "match",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте конструкцию и пример.",
+        "en": "Match each construction with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "профессия после be",
+            "en": "a profession after be"
+          },
+          "right": "His sister is a lawyer in London."
+        },
+        {
+          "left": {
+            "ru": "профессия после work as",
+            "en": "a profession after work as"
+          },
+          "right": "She works as a waitress in a café."
+        },
+        {
+          "left": {
+            "ru": "профессия после become",
+            "en": "a profession after become"
+          },
+          "right": "He became a famous writer after years of hard work."
+        },
+        {
+          "left": {
+            "ru": "национальность-прилагательное — без артикля",
+            "en": "nationality used as an adjective — no article"
+          },
+          "right": "My teacher is German but speaks perfect Russian."
+        }
+      ],
+      "explanation": {
+        "ru": "Перед профессией после be, work as и become ставим a/an. Если национальность — прилагательное, артикль не нужен.",
+        "en": "A profession after be, work as and become takes a/an. When a nationality is an adjective, no article is used."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0088",
+      "type": "match",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте форму слова и пример.",
+        "en": "Match each word form with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "профессия в единственном числе — a/an",
+            "en": "profession in the singular — a/an"
+          },
+          "right": "My brother is a mechanic at a local garage."
+        },
+        {
+          "left": {
+            "ru": "национальность-существительное — a/an",
+            "en": "nationality as a noun — a/an"
+          },
+          "right": "Her cousin is an Australian who loves cricket."
+        },
+        {
+          "left": {
+            "ru": "религия-существительное — a/an",
+            "en": "religion as a noun — a/an"
+          },
+          "right": "Her uncle is a Buddhist from Thailand."
+        },
+        {
+          "left": {
+            "ru": "национальность-прилагательное — без артикля",
+            "en": "nationality as an adjective — no article"
+          },
+          "right": "My colleagues are French and Spanish."
+        }
+      ],
+      "explanation": {
+        "ru": "Если слово называет профессию, национальность или религию как существительное, нужен a/an; прилагательное артикля не требует.",
+        "en": "If a word names a profession, nationality or religion as a noun, it takes a/an; an adjective needs no article."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "ind-0089",
+      "type": "match",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте пример и правило.",
+        "en": "Match each example with its rule."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "a перед профессией на согласный звук",
+            "en": "a before a profession with a consonant sound"
+          },
+          "right": "Our neighbour is a baker and starts work at four."
+        },
+        {
+          "left": {
+            "ru": "an перед профессией на гласный звук",
+            "en": "an before a profession with a vowel sound"
+          },
+          "right": "He is an architect who designs eco-friendly houses."
+        },
+        {
+          "left": {
+            "ru": "a/an перед прилагательным и профессией",
+            "en": "a/an before an adjective + profession"
+          },
+          "right": "She is a highly respected judge in our city."
+        },
+        {
+          "left": {
+            "ru": "религия-прилагательное — без артикля",
+            "en": "religion as an adjective — no article"
+          },
+          "right": "My friend is Christian and attends church regularly."
+        }
+      ],
+      "explanation": {
+        "ru": "Артикль перед профессией зависит от первого звука слова, которое идёт сразу после него; национальность-прилагательное употребляется без артикля.",
+        "en": "The article before a profession depends on the first sound of the following word; a nationality used as an adjective takes no article."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions"
+      ]
+    },
+    {
+      "id": "adv-0057",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A2",
+      "sentence": "According to the news, ___ Pope will visit our country next spring.",
+      "translation": {
+        "ru": "Судя по новостям, весной Папа Римский посетит нашу страну."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Папа Римский один, это уникальная должность, поэтому нужен the: the Pope. Если бы речь шла об одном из многих священников, мы сказали бы a priest.",
+        "en": "There is only one Pope, so the unique role takes the: the Pope. If we meant one priest among many, we would say a priest."
+      },
+      "tags": [
+        "art-a-an",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0058",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A2",
+      "sentence": "After the concert, some parents met ___ headmaster of the school in the main hall.",
+      "translation": {
+        "ru": "После концерта несколько родителей встретились с директором школы в главном зале."
+      },
+      "options": [
+        "the",
+        "a",
+        "an",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Директор в школе один — роль уникальна в контексте, поэтому the headmaster of the school. Для неуникальной роли понадобился бы a/an: a teacher.",
+        "en": "A school has only one headmaster, so the role is unique in this context and takes the. A non-unique role would take a/an: a teacher."
+      },
+      "tags": [
+        "art-a-an",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0059",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A2",
+      "sentence": "Maria works as ___ nurse at the city hospital.",
+      "translation": {
+        "ru": "Мария работает медсестрой в городской больнице."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Медсестёр в больнице много, роль не уникальна, и речь о профессии — поэтому a nurse. Сравните: the headmaster — единственная роль.",
+        "en": "A hospital has many nurses, so the role is not unique and the sentence describes a profession: a nurse. Compare the headmaster, a unique role."
+      },
+      "tags": [
+        "art-a-an",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "new-a-an-0001",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "There is ___ old church near the river.",
+      "translation": {
+        "ru": "У реки есть старая церковь."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Old начинается с гласного звука, это первое упоминание — ставим an.",
+        "en": "Old begins with a vowel sound and is mentioned for the first time, so an is used."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention",
+        "a-an"
+      ]
+    },
+    {
+      "id": "new-a-an-0002",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "My sister wants to become ___ engineer.",
+      "translation": {
+        "ru": "Моя сестра хочет стать инженером."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Engineer начинается с гласного звука; профессия называется впервые — an.",
+        "en": "Engineer begins with a vowel sound; the profession is introduced for the first time, so an is used."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions",
+        "a-an"
+      ]
+    },
+    {
+      "id": "new-a-an-0003",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "It was ___ easy test, so everyone finished early.",
+      "translation": {
+        "ru": "Это был лёгкий тест, поэтому все закончили рано."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Easy начинается с гласного звука, это первое упоминание — an.",
+        "en": "Easy begins with a vowel sound and is mentioned for the first time, so an is used."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention",
+        "a-an"
+      ]
+    },
+    {
+      "id": "new-a-an-0004",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "I saw ___ fox near the river.",
+      "translation": {
+        "ru": "Я увидел лису у реки."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Fox начинается с согласного звука, это первое упоминание — a.",
+        "en": "Fox begins with a consonant sound and is mentioned for the first time, so a is used."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention",
+        "a-an"
+      ]
+    },
+    {
+      "id": "new-a-an-0005",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "She is ___ honest person who always keeps her word.",
+      "translation": {
+        "ru": "Она честный человек, который всегда держит слово."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Honest начинается с гласного звука (h не читается), это описание человека — an.",
+        "en": "Honest begins with a vowel sound because h is silent, so an is used."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions",
+        "a-an"
+      ]
+    },
+    {
+      "id": "new-a-an-0006",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "He works as ___ nurse at the city hospital.",
+      "translation": {
+        "ru": "Он работает медбратом в городской больнице."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Nurse начинается с согласного звука; речь об одной из многих ролей — a.",
+        "en": "Nurse begins with a consonant sound; this is one of many roles, so a is used."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-professions",
+        "a-an"
+      ]
+    },
+    {
+      "id": "new-a-an-0007",
+      "type": "choice",
+      "ruleId": "art-a-an",
+      "level": "A1",
+      "sentence": "We stayed in ___ small hotel near the station.",
+      "translation": {
+        "ru": "Мы остановились в маленьком отеле рядом с вокзалом."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Small начинается с согласного звука, это первое упоминание — a.",
+        "en": "Small begins with a consonant sound and is mentioned for the first time, so a is used."
+      },
+      "tags": [
+        "art-a-an",
+        "a-an-first-mention",
+        "a-an"
+      ]
+    }
+  ]
+}

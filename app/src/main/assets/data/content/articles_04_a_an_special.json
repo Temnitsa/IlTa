@@ -1,0 +1,2095 @@
+{
+  "meta": {
+    "package": "articles_04_a_an_special",
+    "version": 2,
+    "authors": [
+      "content-team"
+    ]
+  },
+  "rules": [
+    {
+      "id": "art-a-an-special",
+      "sectionId": "articles",
+      "order": 40,
+      "level": "A2",
+      "title": {
+        "ru": "A/an: мера, частота и звуковые исключения",
+        "en": "A/an: measure, frequency and sound exceptions"
+      },
+      "summary": {
+        "ru": "A/an называет один предмет или любого представителя класса и используется в выражениях меры и частоты; форма a или an зависит от первого звука следующего слова.",
+        "en": "A/an names one thing or any representative of a class and is used in expressions of measure and frequency; the form a or an depends on the first sound of the next word."
+      },
+      "sections": [
+        {
+          "heading": {
+            "ru": "a/an в выражениях меры и частоты",
+            "en": "a/an in measures and frequency"
+          },
+          "body": {
+            "ru": "В выражениях частоты, цены, скорости и расхода a/an значит «за один период или единицу». Он показывает, сколько раз действие происходит за неделю, день или час, и сколько стоит или расходуется единица.",
+            "en": "In expressions of frequency, price, speed and consumption, a/an means per one period or unit. It shows how often something happens in a week, a day or an hour, and how much one unit costs or uses."
+          },
+          "examples": [
+            "twice a week",
+            "60 kilometres an hour",
+            "three times a day",
+            "two euros a kilo"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "a/an и one",
+            "en": "a/an and one"
+          },
+          "body": {
+            "ru": "A/an часто заменяет число один: он называет один предмет или приблизительное количество. One звучит точнее и используется, когда важно подчеркнуть именно один, а не два или больше.",
+            "en": "A/an often replaces the number one: it names a single thing or a rough quantity. One sounds more exact and is used when it is important to stress one rather than two or more."
+          },
+          "examples": [
+            "a hundred people",
+            "a dozen eggs",
+            "a couple of minutes",
+            "one coffee, please"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Half, such, quite: порядок слов",
+            "en": "Half, such and quite: word order"
+          },
+          "body": {
+            "ru": "В сочетаниях со словами half, such и quite артикль a/an стоит после них, непосредственно перед прилагательным или существительным. Запомните порядок: сначала half, such или quite, затем a/an. В восклицаниях с исчисляемым существительным в единственном числе используется What a + прилагательное + существительное!",
+            "en": "In combinations with half, such and quite, a/an comes after them and directly before the adjective or noun. Remember the order: first half, such or quite, then a or an. In exclamations with a singular countable noun we use What a + adjective + noun!"
+          },
+          "examples": [
+            "half an hour",
+            "half a kilo",
+            "such an interesting film",
+            "quite a difficult test",
+            "What a beautiful day!"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Звуковые исключения и аббревиатуры",
+            "en": "Sound exceptions and abbreviations"
+          },
+          "body": {
+            "ru": "Выбор a или an зависит от первого звука следующего слова, а не от его первой буквы. Немая h даёт гласный звук. Буква u и сочетание eu могут звучать как «ю», как и w в слове one. Аббревиатуры читают по названиям букв, поэтому их первый звук тоже определяет артикль.",
+            "en": "The choice between a and an depends on the first sound, not the first letter. A silent h gives a vowel sound. The letter u and the combination eu may sound like \"y\", and so does w in the word one. Abbreviations are read letter by letter, so their first sound also decides the article."
+          },
+          "examples": [
+            "an hour",
+            "an honest man",
+            "a university",
+            "a European country",
+            "an MBA"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "ind-0040",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "I go to the gym twice ___ week.",
+      "translation": {
+        "ru": "Я хожу в спортзал дважды в неделю."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Twice a week значит «дважды в неделю»: артикль a здесь означает «за один».",
+        "en": "Twice a week means two times per week: the article a here means 'per one'."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0041",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The doctor told him to take the medicine three times ___ day.",
+      "translation": {
+        "ru": "Врач велел ему принимать лекарство три раза в день."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "В выражении three times a day артикль a значит «в день, за один день».",
+        "en": "In three times a day the article a means 'per day, for one day'."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0042",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "They visit their grandparents once ___ month.",
+      "translation": {
+        "ru": "Они навещают бабушку и дедушку раз в месяц."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Once a month — «раз в месяц»: это устойчивое сочетание с артиклем a.",
+        "en": "Once a month means one time per month, a fixed expression with the article a."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0043",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The speed limit on this road is 60 kilometres ___ hour.",
+      "translation": {
+        "ru": "Ограничение скорости на этой дороге — 60 километров в час."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "В выражении «километров в час» ставим an hour: hour начинается с гласного звука, потому что h не читается.",
+        "en": "In 'kilometres per hour' we say an hour: hour begins with a vowel sound because the h is silent."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0044",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "These apples cost three dollars ___ kilo.",
+      "translation": {
+        "ru": "Эти яблоки стоят три доллара за килограмм."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "A kilo значит «за килограмм»: в цене за единицу используется a/an.",
+        "en": "A kilo means 'per kilogram': the price per unit takes a/an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0045",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The company organises a conference twice ___ year.",
+      "translation": {
+        "ru": "Компания проводит конференцию дважды в год."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Twice a year — «дважды в год»: артикль a значит «за один».",
+        "en": "Twice a year means two times per year, and a here means 'per one'."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0046",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The old clock chimes once ___ hour.",
+      "translation": {
+        "ru": "Старые часы бьют раз в час."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Once an hour — «раз в час»: hour начинается с гласного звука, поэтому ставим an.",
+        "en": "Once an hour means once per hour: hour begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0047",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "She earns about twenty pounds ___ hour in her new job.",
+      "translation": {
+        "ru": "На новой работе она зарабатывает около двадцати фунтов в час."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Оплата «в час» — это an hour, потому что hour начинается с гласного звука, а h не читается.",
+        "en": "Pay per hour takes an hour because hour begins with a vowel sound and the h is silent."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0048",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "He checks his email dozens of times ___ day.",
+      "translation": {
+        "ru": "Он проверяет почту десятки раз в день."
+      },
+      "answer": "a",
+      "explanation": {
+        "ru": "Dozens of times a day — «десятки раз в день»: артикль a значит «за один день».",
+        "en": "Dozens of times a day means many times per day: the article a means 'per one day'."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0049",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "This machine can print sixty pages ___ minute.",
+      "translation": {
+        "ru": "Этот аппарат может печатать шестьдесят страниц в минуту."
+      },
+      "answer": "a",
+      "explanation": {
+        "ru": "A minute значит «в минуту, за одну минуту» — так описывают скорость работы.",
+        "en": "A minute means 'per minute', the usual way to describe a rate of work."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0050",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "I visit my grandmother every weekend, so I see her about four times ___ month.",
+      "translation": {
+        "ru": "Я навещаю бабушку каждые выходные, так что вижусь с ней примерно четыре раза в месяц."
+      },
+      "answer": "a",
+      "explanation": {
+        "ru": "Four times a month — «четыре раза в месяц»: артикль a обозначает «за один».",
+        "en": "Four times a month means four times per month: the article a means 'per one'."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0051",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The ferry crosses the river twice ___ hour in summer.",
+      "translation": {
+        "ru": "Летом паром пересекает реку дважды в час."
+      },
+      "answer": "an",
+      "explanation": {
+        "ru": "Twice an hour — «дважды в час»: hour начинается с гласного звука, поэтому нужен an.",
+        "en": "Twice an hour means twice per hour: hour begins with a vowel sound, so we use an."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "art2-0006",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The swimming pool is cleaned twice ___ day in summer.",
+      "translation": {
+        "ru": "Летом бассейн чистят дважды в день."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Twice a day значит «дважды в день»: в выражениях частоты перед единицей измерения ставим a/an. Так же: once a week, three times a year.",
+        "en": "Twice a day means two times per day: frequency expressions take a/an before the unit. Compare: once a week, three times a year."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "art2-0007",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "Our team meets three times ___ year to plan the budget.",
+      "translation": {
+        "ru": "Наша команда собирается три раза в год, чтобы обсудить бюджет."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Three times a year — выражение частоты, поэтому перед year ставим a. В подобных сочетаниях a/an значит «в / за».",
+        "en": "Three times a year is a frequency expression, so year takes a. In such phrases a/an means per."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0075",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "This bus runs every ten minutes, so there are six buses ___ hour.",
+      "translation": {
+        "ru": "Этот автобус ходит каждые десять минут, так что получается шесть автобусов в час."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Конструкция six buses an hour означает «шесть автобусов в час»; hour начинается с гласного звука — ставим an.",
+        "en": "Six buses an hour means six buses per hour; hour begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0127",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The team trains four times ___ week before matches.",
+      "translation": {
+        "ru": "Перед матчами команда тренируется четыре раза в неделю."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Four times a week значит «четыре раза в неделю»: артикль a означает «за один».",
+        "en": "Four times a week means four times per week: the article a means 'per one'."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0128",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The baby is fed six times ___ day.",
+      "translation": {
+        "ru": "Малыша кормят шесть раз в день."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Six times a day — «шесть раз в день», где a значит «за один день».",
+        "en": "Six times a day means six times per day, where a means 'per one day'."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0129",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The magazine is published once ___ month.",
+      "translation": {
+        "ru": "Журнал выходит раз в месяц."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Once a month — «раз в месяц»: устойчивое сочетание с артиклем a.",
+        "en": "Once a month means one time per month, a fixed expression with a."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0130",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The factory pays its workers twice ___ month.",
+      "translation": {
+        "ru": "Завод платит рабочим дважды в месяц."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Twice a month — «дважды в месяц»: a обозначает «за один период».",
+        "en": "Twice a month means two times per month: a means 'per one period'."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0131",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The runners drink water several times ___ hour.",
+      "translation": {
+        "ru": "Бегуны пьют воду несколько раз в час."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Several times an hour — «несколько раз в час»: hour начинается с гласного звука, поэтому an.",
+        "en": "Several times an hour means several times per hour: hour begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0132",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "Our rent is paid four times ___ year.",
+      "translation": {
+        "ru": "Аренду мы платим четыре раза в год."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Four times a year — «четыре раза в год»: a здесь значит «за один год».",
+        "en": "Four times a year means four times per year: a here means 'per one year'."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0133",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The museum receives thousands of visitors ___ day.",
+      "translation": {
+        "ru": "Музей принимает тысячи посетителей в день."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Thousands of visitors a day — «тысячи посетителей в день»: a означает «за один день».",
+        "en": "Thousands of visitors a day means thousands of visitors per day: a means 'per one day'."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0134",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The heart beats about sixty times ___ minute at rest.",
+      "translation": {
+        "ru": "В покое сердце сокращается около шестидесяти раз в минуту."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Sixty times a minute — «шестьдесят раз в минуту»: a значит «за одну минуту».",
+        "en": "Sixty times a minute means sixty times per minute: a means 'per one minute'."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0135",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The cleaner comes to the office three times ___ week.",
+      "translation": {
+        "ru": "Уборщица приходит в офис три раза в неделю."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Three times a week — «три раза в неделю»: артикль a обозначает «за один период».",
+        "en": "Three times a week means three times per week: the article a means 'per one period'."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0136",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The plane flies at about 900 kilometres ___ hour.",
+      "translation": {
+        "ru": "Самолёт летит со скоростью около 900 километров в час."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Километры «в час» — kilometres an hour: hour начинается с гласного звука, поэтому an.",
+        "en": "Kilometres per hour is kilometres an hour: hour begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0052",
+      "type": "match",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте выражение частоты и пример.",
+        "en": "Match each frequency expression with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Раз в неделю",
+            "en": "Once a week"
+          },
+          "right": "I play football once a week."
+        },
+        {
+          "left": {
+            "ru": "Дважды в день",
+            "en": "Twice a day"
+          },
+          "right": "She waters the plants twice a day."
+        },
+        {
+          "left": {
+            "ru": "Цена за единицу",
+            "en": "Price per unit"
+          },
+          "right": "These bananas cost two dollars a kilo."
+        },
+        {
+          "left": {
+            "ru": "Скорость в час",
+            "en": "Speed per hour"
+          },
+          "right": "The wind was blowing at forty kilometres an hour."
+        }
+      ],
+      "explanation": {
+        "ru": "В выражениях частоты, скорости и цены a/an значит «за один период или единицу»: a week, a kilo, an hour.",
+        "en": "In frequency, speed and price expressions a/an means 'per one period or unit': a week, a kilo, an hour."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0090",
+      "type": "match",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте выражение частоты и пример.",
+        "en": "Match each frequency expression with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "раз в день",
+            "en": "once a day"
+          },
+          "right": "She takes this vitamin once a day."
+        },
+        {
+          "left": {
+            "ru": "дважды в месяц",
+            "en": "twice a month"
+          },
+          "right": "We visit our grandparents twice a month."
+        },
+        {
+          "left": {
+            "ru": "три раза в неделю",
+            "en": "three times a week"
+          },
+          "right": "He practises the guitar three times a week."
+        },
+        {
+          "left": {
+            "ru": "четыре раза в год",
+            "en": "four times a year"
+          },
+          "right": "The magazine is published four times a year."
+        }
+      ],
+      "explanation": {
+        "ru": "Со словами once, twice и three times артикль a/an называет частоту и значит «за один период».",
+        "en": "With once, twice and three times the article a/an expresses frequency and means 'per one period'."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0091",
+      "type": "match",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте единицу измерения и пример.",
+        "en": "Match each unit of measurement with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "цена за килограмм",
+            "en": "price per kilo"
+          },
+          "right": "These tomatoes cost two pounds a kilo."
+        },
+        {
+          "left": {
+            "ru": "скорость в час",
+            "en": "speed per hour"
+          },
+          "right": "The cyclist was riding at thirty kilometres an hour."
+        },
+        {
+          "left": {
+            "ru": "расход в день",
+            "en": "rate per day"
+          },
+          "right": "The factory produces a thousand bottles a day."
+        },
+        {
+          "left": {
+            "ru": "оплата в час",
+            "en": "pay per hour"
+          },
+          "right": "The babysitter earns ten pounds an hour."
+        }
+      ],
+      "explanation": {
+        "ru": "A/an в значении «на единицу» показывает цену, скорость, расход или оплату за один час, день или килограмм.",
+        "en": "A/an meaning 'per unit' shows the price, speed, rate or pay per one hour, day or kilo."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0092",
+      "type": "match",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте число раз и пример.",
+        "en": "Match each number of times with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "один раз в неделю",
+            "en": "once a week"
+          },
+          "right": "I have an English lesson once a week."
+        },
+        {
+          "left": {
+            "ru": "дважды в день",
+            "en": "twice a day"
+          },
+          "right": "The nurse checks his temperature twice a day."
+        },
+        {
+          "left": {
+            "ru": "три раза в год",
+            "en": "three times a year"
+          },
+          "right": "My parents go to the theatre three times a year."
+        },
+        {
+          "left": {
+            "ru": "несколько раз в месяц",
+            "en": "several times a month"
+          },
+          "right": "We eat out several times a month."
+        }
+      ],
+      "explanation": {
+        "ru": "Артикль a/an входит в выражения частоты: once a week, twice a day, several times a month.",
+        "en": "The article a/an is part of frequency expressions: once a week, twice a day, several times a month."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0093",
+      "type": "match",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте пример и значение артикля a/an.",
+        "en": "Match each example with the meaning of a/an."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "частота: сколько раз за период",
+            "en": "frequency: how many times per period"
+          },
+          "right": "She visits the gym twice a week."
+        },
+        {
+          "left": {
+            "ru": "скорость: сколько за час",
+            "en": "speed: how much per hour"
+          },
+          "right": "The train travels at 120 kilometres an hour."
+        },
+        {
+          "left": {
+            "ru": "цена: сколько за единицу",
+            "en": "price: how much per unit"
+          },
+          "right": "The grapes cost four euros a kilo."
+        },
+        {
+          "left": {
+            "ru": "расход: сколько за день",
+            "en": "rate: how much per day"
+          },
+          "right": "The old machine prints five hundred pages a day."
+        }
+      ],
+      "explanation": {
+        "ru": "A/an может обозначать частоту, скорость, цену или расход — то есть количество «за один» период или единицу.",
+        "en": "A/an can express frequency, speed, price or rate — the amount 'per one' period or unit."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency"
+      ]
+    },
+    {
+      "id": "ind-0053",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "We waited for ___ hour at the station.",
+      "translation": {
+        "ru": "Мы целый час ждали на вокзале."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Hour начинается с гласного звука: h не читается, поэтому ставим an.",
+        "en": "Hour begins with a vowel sound because the h is silent, so we use an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0054",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "He is ___ honest man who never lies.",
+      "translation": {
+        "ru": "Он честный человек и никогда не лжёт."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "В слове honest h не читается, слово начинается с гласного звука, поэтому ставим an.",
+        "en": "In honest the h is silent and the word begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0055",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "My cousin Anna works at ___ university in Canada.",
+      "translation": {
+        "ru": "Моя двоюродная сестра Анна работает в университете в Канаде."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "University начинается со звука «ю» — это согласный звук, поэтому ставим a.",
+        "en": "University begins with the 'yu' sound, which is a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0056",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "She works for ___ European company.",
+      "translation": {
+        "ru": "Она работает в европейской компании."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "European произносится со звуком «ю» в начале, поэтому ставим a, хотя слово пишется с гласной буквы.",
+        "en": "European is pronounced with the 'yu' sound at the start, so we use a even though it is written with a vowel letter."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0057",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "This is ___ one-way street, so drive carefully.",
+      "translation": {
+        "ru": "Это улица с односторонним движением, поэтому ведите машину осторожно."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "One-way начинается со звука «у» (как в слове won) — это согласный звук, поэтому ставим a.",
+        "en": "One-way begins with the 'w' sound (as in won), which is a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0058",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "He is doing ___ MBA at a business school.",
+      "translation": {
+        "ru": "Он получает степень MBA в бизнес-школе."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "MBA читается «эм-би-эй»: название буквы M начинается с гласного звука, поэтому ставим an.",
+        "en": "MBA is pronounced 'em-bee-ay': the name of the letter M begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0059",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "Please send me ___ SMS when you arrive.",
+      "translation": {
+        "ru": "Пожалуйста, пришли мне СМС, когда приедешь."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "SMS читается «эс-эм-эс»: название буквы S начинается с гласного звука, поэтому ставим an.",
+        "en": "SMS is pronounced 'es-em-es': the name of the letter S begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0060",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "It was ___ useful lesson for all of us.",
+      "translation": {
+        "ru": "Это был полезный урок для всех нас."
+      },
+      "answer": "a",
+      "explanation": {
+        "ru": "Useful начинается со звука «ю» — это согласный звук, поэтому ставим a.",
+        "en": "Useful begins with the 'yu' sound, a consonant sound, so we use a."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0061",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "She gave me ___ honest answer.",
+      "translation": {
+        "ru": "Она дала мне честный ответ."
+      },
+      "answer": "an",
+      "explanation": {
+        "ru": "В слове honest h не читается, первый звук гласный — ставим an.",
+        "en": "In honest the h is silent and the first sound is a vowel, so we use an."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0062",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "My brother is studying to become ___ FBI agent.",
+      "translation": {
+        "ru": "Мой брат учится, чтобы стать агентом ФБР."
+      },
+      "answer": "an",
+      "explanation": {
+        "ru": "FBI читается «эф-би-ай»: название буквы F начинается с гласного звука, поэтому ставим an.",
+        "en": "FBI is pronounced 'ef-bee-eye': the name of the letter F begins with a vowel sound, so we use an."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0063",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The doctor ordered ___ X-ray of his leg.",
+      "translation": {
+        "ru": "Врач направил его на рентген ноги."
+      },
+      "answer": "an",
+      "explanation": {
+        "ru": "X-ray читается «экс-рэй»: название буквы X начинается с гласного звука, поэтому ставим an.",
+        "en": "X-ray is pronounced 'ex-ray': the name of the letter X begins with a vowel sound, so we use an."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "art2-0008",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "She has ___ European passport and travels a lot.",
+      "translation": {
+        "ru": "У неё европейский паспорт, и она много путешествует."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "European начинается со звука /j/, то есть с согласного звука, поэтому ставим a, а не an. Так же: a university, a one-way street, a useful book.",
+        "en": "European begins with the /j/ sound, a consonant sound, so we use a, not an. Compare: a university, a one-way street, a useful book."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "art2-0009",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "It took him almost ___ hour to find a parking space.",
+      "translation": {
+        "ru": "Ему понадобился почти час, чтобы найти парковочное место."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Hour начинается с гласного звука, потому что h в нём не читается, поэтому нужен an: an hour. Так же: an honest man, an honest answer.",
+        "en": "Hour begins with a vowel sound because the h is silent, so we use an: an hour. Compare: an honest man, an honest answer."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0076",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "She made ___ one-minute speech at the end of the meeting.",
+      "translation": {
+        "ru": "В конце встречи она произнесла минутную речь."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "One-minute начинается со звука [w] — согласного, поэтому перед ним ставим a, а не an.",
+        "en": "One-minute begins with the /w/ sound, a consonant sound, so we use a, not an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0077",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "It was ___ honour to receive the award from the mayor.",
+      "translation": {
+        "ru": "Получить награду из рук мэра было честью."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "В слове honour h не читается, первый звук гласный — ставим an.",
+        "en": "In honour the h is silent and the first sound is a vowel, so we use an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0137",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "B1",
+      "sentence": "The professor received ___ honorary degree from Oxford University.",
+      "translation": {
+        "ru": "Профессор получил почётную степень от Оксфордского университета."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "В слове honorary h не читается, первый звук гласный — ставим an.",
+        "en": "In honorary the h is silent and the first sound is a vowel, so we use an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0138",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The company opened ___ European office in Warsaw.",
+      "translation": {
+        "ru": "Компания открыла европейский офис в Варшаве."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "European начинается со звука «ю» — согласного, поэтому ставим a.",
+        "en": "European begins with the 'yu' sound, a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0139",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "She paid ___ one-off fee for the course.",
+      "translation": {
+        "ru": "Она заплатила разовый взнос за курс."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "One-off начинается со звука [w] — согласного, поэтому ставим a, а не an.",
+        "en": "One-off begins with the /w/ sound, a consonant sound, so we use a, not an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0140",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The mechanic used ___ USB cable to charge the phone.",
+      "translation": {
+        "ru": "Механик использовал USB-кабель, чтобы зарядить телефон."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "USB читается «ю-эс-би»: название первой буквы U начинается со звука «ю», поэтому ставим a.",
+        "en": "USB is pronounced 'you-ess-bee': the name of the letter U begins with the 'yu' sound, so we use a."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0141",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "He saved the photos on ___ MP3 player.",
+      "translation": {
+        "ru": "Он сохранил фотографии на MP3-плеер."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "MP3 читается «эм-пи-три»: название буквы M начинается с гласного звука, поэтому ставим an.",
+        "en": "MP3 is pronounced 'em-pee-three': the name of the letter M begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0142",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The doctor sent him for ___ MRI scan of his knee.",
+      "translation": {
+        "ru": "Врач направил его на МРТ колена."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "MRI читается «эм-ар-ай»: название буквы M начинается с гласного звука — ставим an.",
+        "en": "MRI is pronounced 'em-ar-eye': the name of the letter M begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0143",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "B1",
+      "sentence": "The soldier put on ___ uniform and left the barracks.",
+      "translation": {
+        "ru": "Солдат надел форму и вышел из казармы."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Uniform начинается со звука «ю» — согласного, поэтому перед ним ставим a.",
+        "en": "Uniform begins with the 'yu' sound, a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0144",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "Everyone respected him as ___ honourable man.",
+      "translation": {
+        "ru": "Все уважали его как честного человека."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "В слове honourable h не читается, первый звук гласный — ставим an.",
+        "en": "In honourable the h is silent and the first sound is a vowel, so we use an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0145",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The company hired ___ MBA graduate from London.",
+      "translation": {
+        "ru": "Компания наняла выпускника MBA из Лондона."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "MBA читается «эм-би-эй»: название буквы M начинается с гласного звука, поэтому ставим an.",
+        "en": "MBA is pronounced 'em-bee-ay': the name of the letter M begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0146",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The children claimed they saw ___ UFO above the trees.",
+      "translation": {
+        "ru": "Дети утверждали, что видели НЛО над деревьями."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "UFO читается «ю-эф-оу»: название буквы U начинается со звука «ю», поэтому ставим a.",
+        "en": "UFO is pronounced 'you-eff-oh': the name of the letter U begins with the 'yu' sound, so we use a."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0064",
+      "type": "match",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример.",
+        "en": "Match each rule with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Немая h",
+            "en": "Silent h"
+          },
+          "right": "He gave an honest reply."
+        },
+        {
+          "left": {
+            "ru": "Звук «ю» в начале слова",
+            "en": "The 'yu' sound at the start"
+          },
+          "right": "They bought a European map."
+        },
+        {
+          "left": {
+            "ru": "Аббревиатура с гласным первым звуком",
+            "en": "Abbreviation with a vowel sound"
+          },
+          "right": "My sister works for an IT company."
+        },
+        {
+          "left": {
+            "ru": "Аббревиатура с согласным первым звуком",
+            "en": "Abbreviation with a consonant sound"
+          },
+          "right": "He fixed a PC in the office."
+        }
+      ],
+      "explanation": {
+        "ru": "Артикль выбирается по первому звуку: немая h и названия букв с гласным звуком требуют an, звук «ю» и названия букв с согласным звуком — a.",
+        "en": "The article depends on the first sound: a silent h and letter names with a vowel sound take an, while the 'yu' sound and letter names with a consonant sound take a."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0065",
+      "type": "match",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте сочетание и пример.",
+        "en": "Match each combination with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "an + hour (час)",
+            "en": "an + hour"
+          },
+          "right": "The concert started an hour late."
+        },
+        {
+          "left": {
+            "ru": "a + university (университет)",
+            "en": "a + university"
+          },
+          "right": "She teaches at a university in Rome."
+        },
+        {
+          "left": {
+            "ru": "a + one-way street (односторонняя улица)",
+            "en": "a + one-way street"
+          },
+          "right": "They live on a one-way street."
+        },
+        {
+          "left": {
+            "ru": "an + MBA (степень MBA)",
+            "en": "an + MBA"
+          },
+          "right": "My manager is taking an MBA course."
+        }
+      ],
+      "explanation": {
+        "ru": "Эти сочетания запоминаются по звуку: an hour и an MBA начинаются с гласного звука, а a university и a one-way street — с согласного.",
+        "en": "These combinations follow the sound: an hour and an MBA begin with a vowel sound, while a university and a one-way street begin with a consonant sound."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0094",
+      "type": "match",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте звук и пример с артиклем.",
+        "en": "Match each sound with the example that needs that article."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "немая h — гласный звук",
+            "en": "silent h — a vowel sound"
+          },
+          "right": "It took us an hour to walk home."
+        },
+        {
+          "left": {
+            "ru": "звук «ю» (u, eu) — согласный звук",
+            "en": "the 'yu' sound (u, eu) — a consonant sound"
+          },
+          "right": "They stayed in a European hotel."
+        },
+        {
+          "left": {
+            "ru": "звук [w] — согласный звук",
+            "en": "the /w/ sound — a consonant sound"
+          },
+          "right": "We drove along a one-way road."
+        },
+        {
+          "left": {
+            "ru": "аббревиатура с гласным первым звуком",
+            "en": "abbreviation with a vowel first sound"
+          },
+          "right": "She is studying for an MBA."
+        }
+      ],
+      "explanation": {
+        "ru": "Артикль выбирается по звуку: немая h и названия букв с гласным звуком требуют an, звуки «ю» и [w] — a.",
+        "en": "The article follows the sound: a silent h and letter names with a vowel sound take an, while the 'yu' and /w/ sounds take a."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0095",
+      "type": "match",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте слово и пример с правильным артиклем.",
+        "en": "Match each word with the example that uses the right article."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "honest — немая h",
+            "en": "honest — silent h"
+          },
+          "right": "We need an honest opinion, not a polite one."
+        },
+        {
+          "left": {
+            "ru": "useful — звук «ю»",
+            "en": "useful — the 'yu' sound"
+          },
+          "right": "This is a useful map of the old town."
+        },
+        {
+          "left": {
+            "ru": "one-hour — звук [w]",
+            "en": "one-hour — the /w/ sound"
+          },
+          "right": "They booked a one-hour tour of the castle."
+        },
+        {
+          "left": {
+            "ru": "X-ray — аббревиатура с гласным звуком",
+            "en": "X-ray — abbreviation with a vowel sound"
+          },
+          "right": "She needed an X-ray after the fall."
+        }
+      ],
+      "explanation": {
+        "ru": "Слова с немой h и аббревиатуры с гласным первым звуком получают an, а звуки «ю» и [w] требуют a.",
+        "en": "Words with a silent h and abbreviations with a vowel first sound take an, while the 'yu' and /w/ sounds take a."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "ind-0096",
+      "type": "match",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте пример и правило выбора артикля.",
+        "en": "Match each example with the article rule."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "an + немая h",
+            "en": "an + silent h"
+          },
+          "right": "The old man left his fortune to an heir."
+        },
+        {
+          "left": {
+            "ru": "a + звук «ю»",
+            "en": "a + the 'yu' sound"
+          },
+          "right": "They live in a European capital."
+        },
+        {
+          "left": {
+            "ru": "a + звук [w]",
+            "en": "a + the /w/ sound"
+          },
+          "right": "The children made a one-minute video."
+        },
+        {
+          "left": {
+            "ru": "an + аббревиатура с гласным звуком",
+            "en": "an + abbreviation with a vowel sound"
+          },
+          "right": "He confirmed the booking with an SMS message."
+        }
+      ],
+      "explanation": {
+        "ru": "Перед гласным звуком ставим an, перед согласным — a; исключения определяются произношением, а не написанием.",
+        "en": "A vowel sound takes an and a consonant sound takes a; the exceptions are decided by pronunciation, not spelling."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "aan-special-0001",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "It takes half ___ hour to walk to the station.",
+      "translation": {
+        "ru": "Дорога до вокзала занимает полчаса."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "В сочетании half an hour артикль an стоит перед hour, потому что h в этом слове не читается.",
+        "en": "In half an hour the article an comes before hour because the h in hour is silent."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency",
+        "half",
+        "silent-h"
+      ]
+    },
+    {
+      "id": "aan-special-0002",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "We bought half ___ kilo of cheese for the picnic.",
+      "translation": {
+        "ru": "Для пикника мы купили полкило сыра."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "После half перед исчисляемым существительным в единственном числе ставим a: half a kilo.",
+        "en": "After half, a singular countable noun takes a: half a kilo."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency",
+        "half",
+        "measure"
+      ]
+    },
+    {
+      "id": "aan-special-0003",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "She is such ___ kind person that everyone loves her.",
+      "translation": {
+        "ru": "Она такой добрый человек, что её все любят."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "После such перед исчисляемым существительным в единственном числе ставим a/an: such a kind person.",
+        "en": "After such, a singular countable noun takes a or an: such a kind person."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency",
+        "such",
+        "quantity"
+      ]
+    },
+    {
+      "id": "aan-special-0004",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "It was quite ___ difficult test, but I passed it.",
+      "translation": {
+        "ru": "Это был довольно трудный тест, но я его сдал."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Quite a + прилагательное + существительное — обычный порядок слов с артиклем a.",
+        "en": "Quite a + adjective + noun is the usual word order with the article a."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency",
+        "quite",
+        "quantity"
+      ]
+    },
+    {
+      "id": "aan-special-0005",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "We paid ___ hundred euros for the tickets.",
+      "translation": {
+        "ru": "Мы заплатили сто евро за билеты."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Перед hundred в значении «сто» ставим a: a hundred euros — это «одна сотня», то есть сто.",
+        "en": "Before hundred meaning one hundred we use a: a hundred euros means one hundred euros."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency",
+        "a-means-one",
+        "measure"
+      ]
+    },
+    {
+      "id": "aan-special-0006",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The recipe needs ___ dozen eggs.",
+      "translation": {
+        "ru": "Для этого рецепта нужна дюжина яиц."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "A dozen значит «дюжина, двенадцать»: перед dozen ставим a, как перед числом один.",
+        "en": "A dozen means twelve: dozen takes a, just like the number one."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency",
+        "a-means-one",
+        "measure"
+      ]
+    },
+    {
+      "id": "aan-special-0007",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "My sister has violin lessons twice ___ week.",
+      "translation": {
+        "ru": "Моя сестра дважды в неделю ходит на уроки скрипки."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Twice a week — выражение частоты, в котором a значит «за одну неделю».",
+        "en": "Twice a week is a frequency expression where a means per one week."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency",
+        "frequency",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "aan-special-0008",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The school library is open six days ___ week.",
+      "translation": {
+        "ru": "Школьная библиотека открыта шесть дней в неделю."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Six days a week — выражение частоты: a week значит «в неделю, за одну неделю».",
+        "en": "Six days a week is a frequency expression: a week means per one week."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-frequency",
+        "frequency",
+        "a-an-exceptions"
+      ]
+    },
+    {
+      "id": "aan-special-0009",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "The company published ___ UN report on climate change.",
+      "translation": {
+        "ru": "Компания опубликовала доклад ООН об изменении климата."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "UN читается «ю-эн»: первый звук — согласный «ю», поэтому ставим a, а не an.",
+        "en": "UN is pronounced with a consonant 'y' sound at the start, so it takes a, not an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions",
+        "abbreviation",
+        "consonant-sound"
+      ]
+    },
+    {
+      "id": "aan-special-0010",
+      "type": "choice",
+      "ruleId": "art-a-an-special",
+      "level": "A2",
+      "sentence": "We met ___ MP at the town hall yesterday.",
+      "translation": {
+        "ru": "Вчера в мэрии мы встретили члена парламента."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "MP читается «эм-пи»: название буквы M начинается с гласного звука, поэтому ставим an.",
+        "en": "MP is pronounced 'em-pee': the name of the letter M begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-a-an-special",
+        "a-an-exceptions",
+        "abbreviation",
+        "vowel-sound"
+      ]
+    }
+  ]
+}

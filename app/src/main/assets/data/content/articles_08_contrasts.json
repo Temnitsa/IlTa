@@ -1,0 +1,2091 @@
+{
+  "meta": {
+    "package": "articles_08_contrasts",
+    "version": 2,
+    "authors": [
+      "content-team"
+    ]
+  },
+  "rules": [
+    {
+      "id": "art-contrasts",
+      "sectionId": "articles",
+      "order": 80,
+      "level": "B2",
+      "title": {
+        "ru": "Устойчивые выражения и контрасты",
+        "en": "Fixed expressions and contrasts"
+      },
+      "summary": {
+        "ru": "Устойчивые выражения с the и a/an, количество с артиклем и без него, контрасты, где артикль меняет смысл, и артикль в названиях и уникальных ролях.",
+        "en": "Fixed expressions with the and a/an, quantity with and without the article, contrasts where the article changes the meaning, and articles in names and unique roles."
+      },
+      "sections": [
+        {
+          "heading": {
+            "ru": "Устойчивые выражения с the",
+            "en": "Fixed expressions with the"
+          },
+          "body": {
+            "ru": "В ряде сочетаний определённый артикль фиксирован и не выбирается по смыслу: это касается музыкальных инструментов, частей дня, выходных, сторон и вводных связок. Такие выражения запоминают целиком, вместе с артиклем.",
+            "en": "In many fixed expressions the definite article is part of the phrase and is not chosen by meaning: this covers musical instruments, parts of the day, weekends, sides and linking phrases. Learn such expressions as a whole, together with the article."
+          },
+          "examples": [
+            "My sister can play the piano.",
+            "I usually go for a run before breakfast.",
+            "We often spend the weekend by the sea.",
+            "In the end, we stayed at home.",
+            "On the other hand, the job pays well."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Устойчивые выражения с a/an",
+            "en": "Fixed expressions with a/an"
+          },
+          "body": {
+            "ru": "Другая группа сочетаний требует неопределённого артикля: названия болезней и состояний, просьбы и действия, а также выражения количества. Как и в сочетаниях с the, артикль здесь фиксирован и не заменяется другим.",
+            "en": "Another group of expressions requires the indefinite article: illnesses and states, requests and actions, and quantity phrases. As with the expressions that take the, the article is fixed and cannot be replaced."
+          },
+          "examples": [
+            "I think I have a cold.",
+            "Sorry, I'm in a hurry.",
+            "We must make a decision today.",
+            "Could you add a little salt?",
+            "As a rule, I get up at seven."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "A few / a little и few / little",
+            "en": "A few / a little vs few / little"
+          },
+          "body": {
+            "ru": "С артиклем a сочетания a few и a little значат «немного, несколько» — это положительная оценка количества. Без артикля few и little значат «мало, недостаточно», то есть передают нехватку.",
+            "en": "With the article a, a few and a little mean some — a positive amount. Without the article, few and little mean not enough, so they express a shortage."
+          },
+          "examples": [
+            "We still have a few minutes.",
+            "Add a little sugar to the tea.",
+            "Few visitors came to the museum.",
+            "There is little time left."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Контрасты, где артикль меняет смысл",
+            "en": "Contrasts where the article changes the meaning"
+          },
+          "body": {
+            "ru": "Некоторые пары выражений различаются только артиклем и имеют разный смысл: действие или процесс идёт без артикля, а замена или конкретный предмет требуют the. Сравнивайте обе формы и запоминайте их как разные единицы.",
+            "en": "Some pairs of expressions differ only in the article and mean different things: an action or process takes no article, while a replacement or a specific item requires the. Compare both forms and treat them as separate units."
+          },
+          "examples": [
+            "The wedding will take place in June.",
+            "Social media cannot take the place of real conversation.",
+            "In the end, we agreed.",
+            "At the end of the film, everyone cried."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Названия и уникальные роли",
+            "en": "Names and unique roles"
+          },
+          "body": {
+            "ru": "Названия газет, отелей и музеев, а также уникальные должности в контексте требуют определённого артикля. Если роль одна из многих или обозначает профессию, ставится a/an.",
+            "en": "Titles of newspapers, hotels and museums, and unique roles in context require the. When a role is one of many or simply names a profession, a/an is used."
+          },
+          "examples": [
+            "The Daily Mail is a British newspaper.",
+            "We booked a room at the Savoy.",
+            "The Queen opened the new gallery.",
+            "She is studying to become a dentist."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "adv-0001",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "My sister can play ___ piano beautifully.",
+      "translation": {
+        "ru": "Моя сестра прекрасно играет на пианино."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "В британском английском после глагола play перед названием музыкального инструмента ставится the: play the piano.",
+        "en": "In British English, the name of a musical instrument after play takes the: play the piano."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0002",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "I usually go for a run in ___ morning.",
+      "translation": {
+        "ru": "Обычно я хожу на пробежку утром."
+      },
+      "options": [
+        "the",
+        "a",
+        "an",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "In the morning — устойчивое выражение о времени суток, и артикль the в нём обязателен. Сравните: at night — без артикля.",
+        "en": "In the morning is a fixed phrase about the time of day, and the article the is obligatory in it. Compare at night, which has no article."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0003",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "We often spend the weekend at ___ seaside.",
+      "translation": {
+        "ru": "Мы часто проводим выходные на побережье."
+      },
+      "options": [
+        "the",
+        "a",
+        "an",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "At the seaside (на побережье) — устойчивое выражение, и артикль the входит в его состав.",
+        "en": "At the seaside is a fixed expression, and the article the is part of the phrase."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0004",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "In ___ end, we decided to stay at home.",
+      "translation": {
+        "ru": "В конце концов мы решили остаться дома."
+      },
+      "options": [
+        "the",
+        "a",
+        "an",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "In the end значит «в конце концов» и всегда пишется с the. Не путайте с at the end of the film — «в конце фильма».",
+        "en": "In the end means finally and always takes the. Do not confuse it with at the end of the film, which points to the final part of something."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0005",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "On ___ other hand, this job offers a good salary.",
+      "translation": {
+        "ru": "С другой стороны, эта работа хорошо оплачивается."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "On the other hand — устойчивая связка «с другой стороны», она требует the. Парное выражение — on the one hand.",
+        "en": "On the other hand is a fixed linker meaning from a different point of view, and it requires the. Its partner is on the one hand."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0006",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "We're going to the theatre at ___ weekend.",
+      "translation": {
+        "ru": "На выходных мы идём в театр."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "At the weekend — британское устойчивое выражение со значением «по выходным», и the входит в него.",
+        "en": "At the weekend is the British fixed phrase for on weekends, and the article the is part of it."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0007",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "The post office is on ___ left, opposite the bakery.",
+      "translation": {
+        "ru": "Почта слева, напротив пекарни."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "On the left и on the right (слева, справа) — устойчивые сочетания, они всегда употребляются с определённым артиклем.",
+        "en": "On the left and on the right are fixed phrases, so the definite article is always used."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0008",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "I'll finish the report in ___ afternoon and send it to you.",
+      "translation": {
+        "ru": "Я закончу отчёт после обеда и пришлю его тебе."
+      },
+      "options": [
+        "the",
+        "a",
+        "an",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "In the afternoon — устойчивое выражение, как и in the morning и in the evening; the в нём обязателен.",
+        "en": "In the afternoon is a fixed phrase, like in the morning and in the evening; the is obligatory in all of them."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0009",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "Every summer my grandparents go to ___ seaside for a month.",
+      "translation": {
+        "ru": "Каждое лето бабушка с дедушкой проводят месяц на море."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "Go to the seaside — устойчивое выражение, поэтому после go to стоит the, а не нулевой артикль.",
+        "en": "Go to the seaside is a fixed phrase, so the article the is used after go to, not the zero article."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0010",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "She practises ___ violin for an hour every evening.",
+      "translation": {
+        "ru": "Она занимается на скрипке час каждый вечер."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "В британском английском названия музыкальных инструментов после play и practise требуют the: practises the violin.",
+        "en": "In British English, the names of musical instruments after play and practise take the: practises the violin."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0011",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "He never watches TV in ___ evening.",
+      "translation": {
+        "ru": "Он никогда не смотрит телевизор вечером."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "In the evening — устойчивое обозначение времени суток с артиклем the; артикль не опускается, даже когда речь о привычке.",
+        "en": "In the evening is the fixed phrase for that part of the day and keeps the article the even when we describe a habit."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0012",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "On ___ one hand, the flat is cheap; on the other hand, it's far from work.",
+      "translation": {
+        "ru": "С одной стороны, квартира дешёвая, но с другой — далеко от работы."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "On the one hand — первая часть устойчивой пары on the one hand ... on the other hand, и the обязателен в обеих частях.",
+        "en": "On the one hand is the first half of the fixed pair on the one hand ... on the other hand, and the article is obligatory in both parts."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "art2-0024",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "I always feel sleepy in ___ afternoon after a big lunch.",
+      "translation": {
+        "ru": "После сытного обеда меня всегда клонит в сон днём."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "In the afternoon — устойчивое выражение со временем суток, оно всегда употребляется с the. Так же: in the morning, in the evening.",
+        "en": "In the afternoon is a fixed expression for a time of day and always takes the. Compare: in the morning, in the evening."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0066",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "My uncle plays ___ guitar in a local band.",
+      "translation": {
+        "ru": "Мой дядя играет на гитаре в местной группе."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "После глагола play название инструмента употребляется с the: play the guitar.",
+        "en": "After play, the name of an instrument takes the: play the guitar."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0067",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "The bank is on ___ right, just after the traffic lights.",
+      "translation": {
+        "ru": "Банк справа, сразу за светофором."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "On the right — устойчивое выражение, артикль the в нём обязателен.",
+        "en": "On the right is a fixed expression, so the is obligatory."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0013",
+      "type": "match",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте устойчивое выражение и пример.",
+        "en": "Match each fixed expression with an example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Играть на музыкальном инструменте",
+            "en": "Play a musical instrument"
+          },
+          "right": "My brother plays the piano very well."
+        },
+        {
+          "left": {
+            "ru": "Утром",
+            "en": "In the morning"
+          },
+          "right": "I always drink coffee in the morning."
+        },
+        {
+          "left": {
+            "ru": "По выходным",
+            "en": "At the weekend"
+          },
+          "right": "We usually go hiking at the weekend."
+        },
+        {
+          "left": {
+            "ru": "В конце концов",
+            "en": "In the end"
+          },
+          "right": "In the end, we missed the last train."
+        }
+      ],
+      "explanation": {
+        "ru": "Play the piano, in the morning, at the weekend и in the end — устойчивые выражения, в которых артикль the обязателен.",
+        "en": "Play the piano, in the morning, at the weekend and in the end are fixed expressions that require the definite article."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "art2-0025",
+      "type": "match",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте устойчивое выражение и пример с the.",
+        "en": "Match each fixed expression with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "вечером — in the evening",
+            "en": "in the evening — time of day"
+          },
+          "right": "We usually watch a film in the evening."
+        },
+        {
+          "left": {
+            "ru": "на море — at the seaside",
+            "en": "at the seaside — by the sea"
+          },
+          "right": "They spent a week at the seaside in July."
+        },
+        {
+          "left": {
+            "ru": "слева — on the left",
+            "en": "on the left — position"
+          },
+          "right": "The museum is on the left, just after the bridge."
+        },
+        {
+          "left": {
+            "ru": "с другой стороны — on the other hand",
+            "en": "on the other hand — contrast"
+          },
+          "right": "The hotel was expensive; on the other hand, the view was fantastic."
+        }
+      ],
+      "explanation": {
+        "ru": "В устойчивых выражениях in the evening, at the seaside, on the left и on the other hand определённый артикль the обязателен. Такие сочетания нужно запоминать целиком.",
+        "en": "The fixed expressions in the evening, at the seaside, on the left and on the other hand always keep the. These phrases need to be learned as whole units."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0077",
+      "type": "match",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте устойчивое выражение и пример.",
+        "en": "Match each fixed expression with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Утром",
+            "en": "In the morning"
+          },
+          "right": "I usually check my email in the morning."
+        },
+        {
+          "left": {
+            "ru": "В конце концов",
+            "en": "In the end"
+          },
+          "right": "In the end, we chose the cheaper flat."
+        },
+        {
+          "left": {
+            "ru": "На выходных",
+            "en": "At the weekend"
+          },
+          "right": "We often visit our grandparents at the weekend."
+        },
+        {
+          "left": {
+            "ru": "С другой стороны",
+            "en": "On the other hand"
+          },
+          "right": "The job is hard; on the other hand, it pays well."
+        }
+      ],
+      "explanation": {
+        "ru": "In the morning, at the weekend, in the end и on the other hand — устойчивые выражения, в которых артикль the обязателен.",
+        "en": "In the morning, at the weekend, in the end and on the other hand are fixed expressions that always take the."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0078",
+      "type": "match",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте устойчивое выражение и пример.",
+        "en": "Match each fixed expression with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Играть на пианино",
+            "en": "Play the piano"
+          },
+          "right": "My father plays the piano after dinner."
+        },
+        {
+          "left": {
+            "ru": "На побережье",
+            "en": "At the seaside"
+          },
+          "right": "The children built sandcastles at the seaside."
+        },
+        {
+          "left": {
+            "ru": "Слева",
+            "en": "On the left"
+          },
+          "right": "The restaurant is on the left, near the square."
+        },
+        {
+          "left": {
+            "ru": "Вечером",
+            "en": "In the evening"
+          },
+          "right": "We usually read in the evening."
+        }
+      ],
+      "explanation": {
+        "ru": "После play перед инструментом, а также в выражениях о побережье, стороне и времени суток ставится the.",
+        "en": "After play, instruments take the, and so do the fixed phrases about the seaside, sides and parts of the day."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0079",
+      "type": "match",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте устойчивое выражение и пример.",
+        "en": "Match each fixed expression with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "С одной стороны",
+            "en": "On the one hand"
+          },
+          "right": "On the one hand, the offer looks attractive."
+        },
+        {
+          "left": {
+            "ru": "С другой стороны",
+            "en": "On the other hand"
+          },
+          "right": "On the other hand, the hours are very long."
+        },
+        {
+          "left": {
+            "ru": "В конце концов",
+            "en": "In the end"
+          },
+          "right": "In the end, nobody complained."
+        },
+        {
+          "left": {
+            "ru": "В конце чего-либо",
+            "en": "At the end of something"
+          },
+          "right": "At the end of the film, everyone was crying."
+        }
+      ],
+      "explanation": {
+        "ru": "Связки со значением «с одной стороны» и «в конце концов» требуют the; не путайте in the end и at the end of something.",
+        "en": "The linking phrases meaning on the one hand and finally take the; do not confuse in the end with at the end of something."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0094",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "She is learning to play ___ flute.",
+      "translation": {
+        "ru": "Она учится играть на флейте."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "После глагола play перед названием инструмента ставится the: play the flute.",
+        "en": "After play, the name of an instrument takes the: play the flute."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0095",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "The streets are very quiet in ___ early morning.",
+      "translation": {
+        "ru": "Ранним утром улицы очень тихие."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "In the early morning — устойчивое выражение с определённым артиклем the.",
+        "en": "In the early morning is a fixed expression that takes the."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0096",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "Do you often go away at ___ weekend?",
+      "translation": {
+        "ru": "Ты часто уезжаешь на выходные?"
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "At the weekend — британское устойчивое выражение, артикль the в нём обязателен.",
+        "en": "At the weekend is a British fixed expression that always takes the."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0097",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "He plays ___ trumpet in the school band.",
+      "translation": {
+        "ru": "Он играет на трубе в школьном оркестре."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Название музыкального инструмента после play идёт с the: play the trumpet.",
+        "en": "An instrument after play takes the: play the trumpet."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0098",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "We usually have a cup of tea in ___ afternoon.",
+      "translation": {
+        "ru": "Обычно мы пьём чай после обеда."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "In the afternoon — устойчивое обозначение части дня с артиклем the.",
+        "en": "In the afternoon is a fixed part-of-the-day phrase with the."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0099",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "In ___ end, the plan worked.",
+      "translation": {
+        "ru": "В конце концов план сработал."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "In the end значит «в конце концов» и всегда употребляется с the.",
+        "en": "In the end means finally and always takes the."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0100",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "On ___ other hand, the flat was quite cheap.",
+      "translation": {
+        "ru": "С другой стороны, квартира была довольно дешёвой."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "On the other hand — устойчивая связка «с другой стороны» с артиклем the.",
+        "en": "On the other hand is a fixed linking phrase that takes the."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0101",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "The children spent the afternoon at ___ seaside.",
+      "translation": {
+        "ru": "Дети провели вторую половину дня на побережье."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "At the seaside — устойчивое выражение с артиклем the.",
+        "en": "At the seaside is a fixed expression that takes the."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0102",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "There is a small bakery on ___ left, just past the school.",
+      "translation": {
+        "ru": "Слева есть маленькая пекарня, сразу за школой."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "On the left — устойчивое выражение со сторонами, артикль the обязателен.",
+        "en": "On the left is a fixed expression about sides and always takes the."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0103",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "My sister practises ___ piano every day after school.",
+      "translation": {
+        "ru": "Моя сестра каждый день после школы занимается на пианино."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Названия музыкальных инструментов после play и practise требуют the.",
+        "en": "Instrument names after play and practise take the."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-the"
+      ]
+    },
+    {
+      "id": "adv-0014",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "I think I have ___ cold, so I'm staying at home today.",
+      "translation": {
+        "ru": "Кажется, я простудился, поэтому сегодня остаюсь дома."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Have a cold — устойчивое выражение со значением «быть простуженным», и перед cold стоит неопределённый артикль a.",
+        "en": "Have a cold is a fixed phrase meaning to be ill with a cold, and the noun takes the indefinite article a."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0015",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "Sorry, I can't talk now — I'm in ___ hurry.",
+      "translation": {
+        "ru": "Извини, сейчас не могу говорить — я тороплюсь."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "In a hurry — устойчивое выражение «в спешке», в нём всегда стоит a, а не нулевой артикль.",
+        "en": "In a hurry is a fixed phrase meaning quickly or in a rush, and it always takes a, never the zero article."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0016",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "Quite ___ few people came to the concert — over two hundred, in fact.",
+      "translation": {
+        "ru": "На концерт пришло довольно много людей — больше двухсот."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Сочетание quite a few значит «довольно много» и всегда пишется с артиклем a. Few без артикля имеет противоположный смысл — «мало, недостаточно».",
+        "en": "Quite a few means a fair number and always takes the article a. Few without the article has the opposite meaning: not many, not enough."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0017",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "Could you add ___ little salt to the soup, please?",
+      "translation": {
+        "ru": "Добавь, пожалуйста, немного соли в суп."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "A little — «немного» перед неисчисляемым существительным salt; little без артикля значит «мало, почти нет».",
+        "en": "A little means some before the uncountable noun salt; little without the article means almost none."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0018",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "We must make ___ decision about the house this week.",
+      "translation": {
+        "ru": "Нам нужно принять решение насчёт дома на этой неделе."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Make a decision — устойчивая коллокация; decision — исчисляемое существительное в единственном числе, поэтому a.",
+        "en": "Make a decision is a fixed collocation; decision is a singular countable noun, so it takes a."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0019",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "Everybody had ___ good time at the party last night.",
+      "translation": {
+        "ru": "Всем было очень весело на вчерашней вечеринке."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Have a good time — устойчивое выражение «хорошо провести время», и в нём всегда стоит a.",
+        "en": "Have a good time is a fixed expression meaning to enjoy oneself, and it always takes a."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0020",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "As ___ rule, I get up at seven on weekdays.",
+      "translation": {
+        "ru": "Как правило, по будням я встаю в семь."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "As a rule — устойчивое вводное выражение «как правило»; артикль a входит в него и не заменяется на the.",
+        "en": "As a rule is a fixed linking phrase meaning usually, and the article a is part of it."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0021",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "She takes ___ shower every morning before work.",
+      "translation": {
+        "ru": "Каждое утро перед работой она принимает душ."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Take a shower — устойчивое выражение, как и have a bath; перед shower ставится неопределённый артикль a.",
+        "en": "Take a shower is a fixed phrase, like have a bath, so the noun takes the indefinite article a."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0022",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "He caught ___ bad cold after walking home in the rain.",
+      "translation": {
+        "ru": "Он простудился, пока шёл домой под дождём."
+      },
+      "answer": "a",
+      "explanation": {
+        "ru": "Catch a cold — устойчивое выражение, такое же, как have a cold; в обоих случаях нужен a.",
+        "en": "Catch a cold is a fixed phrase, just like have a cold; both require the article a."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0023",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "Take ___ deep breath and count to ten.",
+      "translation": {
+        "ru": "Сделай глубокий вдох и сосчитай до десяти."
+      },
+      "answer": "a",
+      "explanation": {
+        "ru": "Take a deep breath — устойчивое выражение; breath начинается с согласного звука, поэтому a.",
+        "en": "Take a deep breath is a fixed expression; breath begins with a consonant sound, so a is used."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0024",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "There is ___ little milk in the fridge, so we can make pancakes.",
+      "translation": {
+        "ru": "В холодильнике есть немного молока, так что мы можем испечь блины."
+      },
+      "answer": "a",
+      "explanation": {
+        "ru": "A little milk значит «немного молока, но достаточно»; little без артикля означало бы «почти нет молока».",
+        "en": "A little milk means some milk, enough for pancakes; little without the article would mean almost no milk."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0025",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "Can I have ___ look at your holiday photos?",
+      "translation": {
+        "ru": "Можно мне взглянуть на твои фотографии с отпуска?"
+      },
+      "answer": "a",
+      "explanation": {
+        "ru": "Have a look — устойчивое выражение «взглянуть», и в нём всегда стоит a.",
+        "en": "Have a look is a fixed phrase meaning to look at something, and it always takes a."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "art2-0026",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "Don't worry — we still have ___ little time before the train leaves.",
+      "translation": {
+        "ru": "Не волнуйся: у нас ещё есть немного времени до отправления поезда."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "A little time значит «немного времени», а little time — «мало времени». В положительном значении «немного» перед little ставим a.",
+        "en": "A little time means some time, while little time means hardly any time. In the positive sense we use a before little."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "art2-0027",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "She is always in ___ hurry when she leaves for work.",
+      "translation": {
+        "ru": "Она всегда спешит, когда уходит на работу."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "In a hurry — устойчивое выражение «в спешке», оно всегда употребляется с a. Так же: have a cold, as a rule, make a decision.",
+        "en": "In a hurry is a fixed phrase and always takes a. Compare: have a cold, as a rule, make a decision."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0068",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "After the long walk, we stopped to have ___ rest.",
+      "translation": {
+        "ru": "После долгой прогулки мы остановились отдохнуть."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Have a rest — устойчивое выражение с неопределённым артиклем.",
+        "en": "Have a rest is a fixed phrase with the indefinite article."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0026",
+      "type": "match",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте устойчивое выражение и пример.",
+        "en": "Match each fixed expression with an example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Простудиться",
+            "en": "Catch a cold"
+          },
+          "right": "I caught a cold after the trip."
+        },
+        {
+          "left": {
+            "ru": "Торопиться",
+            "en": "Be in a hurry"
+          },
+          "right": "She was in a hurry and forgot her keys."
+        },
+        {
+          "left": {
+            "ru": "Немного (с неисчисляемыми)",
+            "en": "A little (with uncountable nouns)"
+          },
+          "right": "Add a little sugar to your tea."
+        },
+        {
+          "left": {
+            "ru": "Принять решение",
+            "en": "Make a decision"
+          },
+          "right": "We must make a decision by Friday."
+        }
+      ],
+      "explanation": {
+        "ru": "Все примеры содержат устойчивые выражения с a/an: catch a cold, be in a hurry, a little, make a decision.",
+        "en": "All the examples contain fixed phrases with a/an: catch a cold, be in a hurry, a little and make a decision."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0080",
+      "type": "match",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте устойчивое выражение и пример.",
+        "en": "Match each fixed expression with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Быть простуженным",
+            "en": "Have a cold"
+          },
+          "right": "She has a bad cold and cannot come to work."
+        },
+        {
+          "left": {
+            "ru": "Торопиться",
+            "en": "Be in a hurry"
+          },
+          "right": "They left in a hurry and forgot the tickets."
+        },
+        {
+          "left": {
+            "ru": "Хорошо провести время",
+            "en": "Have a good time"
+          },
+          "right": "The children had a good time at the zoo."
+        },
+        {
+          "left": {
+            "ru": "Принять решение",
+            "en": "Make a decision"
+          },
+          "right": "The committee will make a decision on Monday."
+        }
+      ],
+      "explanation": {
+        "ru": "Have a cold, be in a hurry, have a good time и make a decision — устойчивые выражения с неопределённым артиклем.",
+        "en": "Have a cold, be in a hurry, have a good time and make a decision are fixed expressions with a."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0081",
+      "type": "match",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте слово о количестве и пример.",
+        "en": "Match each quantity word with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "A few + исчисляемое",
+            "en": "A few + countable"
+          },
+          "right": "There are a few apples left in the bowl."
+        },
+        {
+          "left": {
+            "ru": "A little + неисчисляемое",
+            "en": "A little + uncountable"
+          },
+          "right": "Add a little milk to the coffee."
+        },
+        {
+          "left": {
+            "ru": "Few — мало, недостаточно",
+            "en": "Few — not enough"
+          },
+          "right": "Few students passed the difficult test."
+        },
+        {
+          "left": {
+            "ru": "Little — мало, недостаточно",
+            "en": "Little — not enough"
+          },
+          "right": "There is little time left, so hurry up."
+        }
+      ],
+      "explanation": {
+        "ru": "A few и a little значат «немного», а few и little без артикля — «мало, недостаточно».",
+        "en": "A few and a little mean some, while few and little without the article mean not enough."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0082",
+      "type": "match",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте устойчивое выражение и пример.",
+        "en": "Match each fixed expression with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Как правило",
+            "en": "As a rule"
+          },
+          "right": "As a rule, we eat dinner at seven."
+        },
+        {
+          "left": {
+            "ru": "Принимать душ",
+            "en": "Take a shower"
+          },
+          "right": "He takes a shower before breakfast."
+        },
+        {
+          "left": {
+            "ru": "Взглянуть",
+            "en": "Have a look"
+          },
+          "right": "Can you have a look at my essay?"
+        },
+        {
+          "left": {
+            "ru": "Сделать глубокий вдох",
+            "en": "Take a deep breath"
+          },
+          "right": "She took a deep breath and started to speak."
+        }
+      ],
+      "explanation": {
+        "ru": "As a rule, take a shower, have a look и take a deep breath — устойчивые сочетания с a.",
+        "en": "As a rule, take a shower, have a look and take a deep breath are fixed phrases with a."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0083",
+      "type": "match",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте устойчивое выражение и пример.",
+        "en": "Match each fixed expression with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Сделать перерыв",
+            "en": "Take a break"
+          },
+          "right": "Let's take a short break before we continue."
+        },
+        {
+          "left": {
+            "ru": "Отдохнуть",
+            "en": "Have a rest"
+          },
+          "right": "After the long walk, we had a short rest."
+        },
+        {
+          "left": {
+            "ru": "Немного времени",
+            "en": "A little + time"
+          },
+          "right": "There is a little time left before the deadline."
+        },
+        {
+          "left": {
+            "ru": "Несколько вопросов",
+            "en": "A few + questions"
+          },
+          "right": "I have a few questions about the task."
+        }
+      ],
+      "explanation": {
+        "ru": "Take a break и have a rest — устойчивые выражения с a, а a little и a few значат «немного» и «несколько».",
+        "en": "Take a break and have a rest are fixed phrases with a, while a little and a few mean some and a few."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0104",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "I have ___ terrible headache, so I am going to lie down.",
+      "translation": {
+        "ru": "У меня ужасная головная боль, поэтому я прилягу."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Have a headache — устойчивое выражение с неопределённым артиклем a.",
+        "en": "Have a headache is a fixed expression with the indefinite article a."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0105",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "We are in ___ hurry because the train leaves in ten minutes.",
+      "translation": {
+        "ru": "Мы спешим, потому что поезд уходит через десять минут."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "In a hurry — устойчивое выражение «в спешке» с артиклем a.",
+        "en": "In a hurry is a fixed phrase meaning quickly and takes a."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0106",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "Could I have ___ few minutes of your time?",
+      "translation": {
+        "ru": "Можно мне пару минут вашего времени?"
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "A few ставится перед исчисляемым существительным во множественном числе.",
+        "en": "A few is used before a plural countable noun."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0107",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "She made ___ decision to study abroad.",
+      "translation": {
+        "ru": "Она приняла решение учиться за границей."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Make a decision — устойчивое сочетание, в котором decision идёт с a.",
+        "en": "Make a decision is a fixed phrase, so decision takes a."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0108",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "We had ___ wonderful time at the beach last week.",
+      "translation": {
+        "ru": "На прошлой неделе мы прекрасно провели время на пляже."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Have a wonderful time — устойчивое выражение с неопределённым артиклем.",
+        "en": "Have a wonderful time is a fixed expression with the indefinite article."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0109",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "As ___ rule, I never drink coffee after six.",
+      "translation": {
+        "ru": "Как правило, я не пью кофе после шести."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "As a rule — устойчивое вводное выражение с артиклем a.",
+        "en": "As a rule is a fixed linking phrase that takes a."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0110",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "He had ___ quick shower before dinner.",
+      "translation": {
+        "ru": "Перед ужином он быстро принял душ."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Have a shower — устойчивое выражение; перед shower ставится a.",
+        "en": "Have a shower is a fixed phrase, so shower takes a."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0111",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "Let me have ___ look at your new bike.",
+      "translation": {
+        "ru": "Дай мне взглянуть на твой новый велосипед."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Have a look — устойчивое выражение «взглянуть», в нём всегда стоит a.",
+        "en": "Have a look is a fixed phrase that always takes a."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0112",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "It is important to take ___ break every hour.",
+      "translation": {
+        "ru": "Важно делать перерыв каждый час."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Take a break — устойчивое сочетание с неопределённым артиклем a.",
+        "en": "Take a break is a fixed phrase with the indefinite article a."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0113",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B1",
+      "sentence": "Even experienced drivers make ___ mistake from time to time.",
+      "translation": {
+        "ru": "Даже опытные водители время от времени ошибаются."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Make a mistake — устойчивое сочетание, в котором mistake идёт с a.",
+        "en": "Make a mistake is a fixed phrase, so mistake takes a."
+      },
+      "tags": [
+        "art-contrasts",
+        "idioms-a-an"
+      ]
+    },
+    {
+      "id": "adv-0134",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B2",
+      "sentence": "___ Daily Telegraph was founded in 1855.",
+      "translation": {
+        "ru": "«Дейли телеграф» был основан в 1855 году."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Названия газет всегда употребляются с the: the Daily Telegraph.",
+        "en": "Names of newspapers always take the: the Daily Telegraph."
+      },
+      "tags": [
+        "art-contrasts",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0135",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B2",
+      "sentence": "We booked a room at ___ Hilton for the weekend.",
+      "translation": {
+        "ru": "На выходные мы забронировали номер в отеле «Хилтон»."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Названия отелей требуют определённого артикля: at the Hilton.",
+        "en": "Hotel names take the definite article: at the Hilton."
+      },
+      "tags": [
+        "art-contrasts",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0136",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B2",
+      "sentence": "We spent the morning at ___ Prado.",
+      "translation": {
+        "ru": "Утро мы провели в Прадо."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Названия музеев и галерей всегда идут с the: the Prado.",
+        "en": "Names of museums and galleries always take the: the Prado."
+      },
+      "tags": [
+        "art-contrasts",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0137",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B2",
+      "sentence": "The royal family announced that ___ King will visit our town in June.",
+      "translation": {
+        "ru": "Королевская семья объявила, что в июне король посетит наш город."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Король — уникальная роль, известная из контекста, поэтому нужен the.",
+        "en": "The King is a unique role known from the context, so it takes the."
+      },
+      "tags": [
+        "art-contrasts",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0138",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B2",
+      "sentence": "The news said that ___ Prime Minister will speak to the nation tonight.",
+      "translation": {
+        "ru": "В новостях сказали, что сегодня вечером премьер-министр обратится к нации."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Премьер-министр — уникальная должность в контексте, поэтому ставим the.",
+        "en": "The Prime Minister is a unique role in the context, so it takes the."
+      },
+      "tags": [
+        "art-contrasts",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0139",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B2",
+      "sentence": "After college, Tom worked as ___ receptionist in a small hotel.",
+      "translation": {
+        "ru": "После колледжа Том работал администратором в маленьком отеле."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Администраторов много, роль неуникальна, речь о профессии — поэтому a.",
+        "en": "There are many receptionists and this is a profession, so we use a."
+      },
+      "tags": [
+        "art-contrasts",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0140",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B2",
+      "sentence": "Her younger brother is studying to become ___ lawyer.",
+      "translation": {
+        "ru": "Её младший брат учится на юриста."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Юристов много, речь о профессии, поэтому нужен неопределённый артикль a.",
+        "en": "There are many lawyers and this is a profession, so we use a."
+      },
+      "tags": [
+        "art-contrasts",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0141",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B2",
+      "sentence": "The school needs ___ new music teacher.",
+      "translation": {
+        "ru": "Школе нужен новый учитель музыки."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Новый учитель — одна из многих ролей, поэтому ставим неопределённый артикль a.",
+        "en": "A new music teacher is one of many roles, so we use the indefinite article a."
+      },
+      "tags": [
+        "art-contrasts",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0142",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B2",
+      "sentence": "The film festival will take ___ place in July.",
+      "translation": {
+        "ru": "Кинофестиваль пройдёт в июле."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Take place — устойчивое выражение без артикля; не путайте с take the place of.",
+        "en": "Take place is a fixed expression with no article; do not confuse it with take the place of."
+      },
+      "tags": [
+        "art-contrasts",
+        "advanced-exceptions"
+      ]
+    },
+    {
+      "id": "adv-0143",
+      "type": "choice",
+      "ruleId": "art-contrasts",
+      "level": "B2",
+      "sentence": "A smartphone cannot take ___ place of real friendship.",
+      "translation": {
+        "ru": "Смартфон не может заменить настоящую дружбу."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Take the place of — «заменять», устойчивое выражение с определённым артиклем.",
+        "en": "Take the place of means to replace and is a fixed expression with the."
+      },
+      "tags": [
+        "art-contrasts",
+        "advanced-exceptions"
+      ]
+    }
+  ]
+}

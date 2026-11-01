@@ -1,0 +1,2094 @@
+{
+  "meta": {
+    "package": "articles_01_system",
+    "version": 2,
+    "authors": [
+      "content-team"
+    ]
+  },
+  "rules": [
+    {
+      "id": "art-system",
+      "sectionId": "articles",
+      "order": 10,
+      "level": "A1",
+      "title": {
+        "ru": "Система артиклей: исчисляемое, общее и конкретное",
+        "en": "The article system: countable, general and specific"
+      },
+      "summary": {
+        "ru": "Артикль показывает, исчисляем ли предмет и говорим ли мы о целом классе или о конкретном предмете: a/an — один новый предмет, the — известный или единственный, нулевой артикль — общее значение.",
+        "en": "Articles show whether a noun is countable and whether we mean a whole class or a particular thing: a/an for one new thing, the for a known or unique thing, and the zero article for general meaning."
+      },
+      "sections": [
+        {
+          "heading": {
+            "ru": "Исчисляемое и неисчисляемое",
+            "en": "Countable and uncountable nouns"
+          },
+          "body": {
+            "ru": "У исчисляемого существительного есть форма единственного и множественного числа. Неисчисляемое считают через единицы измерения. Артикль a/an возможен только при исчисляемом существительном в единственном числе: с неисчисляемыми и с множественным числом он не употребляется. Форма a или an зависит от первого звука следующего слова: перед гласным звуком ставим an, перед согласным — a.",
+            "en": "A countable noun has a singular and a plural form. An uncountable noun is counted with units of measurement. The article a/an appears only with a countable noun in the singular: it is never used with uncountable nouns or plurals. The form a or an depends on the first sound of the next word: before a vowel sound use an, before a consonant sound use a."
+          },
+          "examples": [
+            "a chair",
+            "two chairs",
+            "some water",
+            "a piece of advice",
+            "an apple"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Общее значение: без артикля",
+            "en": "General meaning: no article"
+          },
+          "body": {
+            "ru": "Если предложение говорит о целом классе предметов, о веществе или об абстрактном понятии, артикль не нужен. Такое общее значение возможно у исчисляемых во множественном числе и у неисчисляемых существительных; слушатель понимает, что речь идёт не об одном конкретном предмете.",
+            "en": "When a sentence talks about a whole class of things, a substance or an abstract idea, no article is needed. This general meaning is possible with plural countable nouns and with uncountable nouns; the listener understands that the sentence is not about one particular thing."
+          },
+          "examples": [
+            "Books are expensive.",
+            "Water is essential for life.",
+            "Children learn languages quickly.",
+            "Patience is important."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Конкретное и известное: the",
+            "en": "Specific and known: the"
+          },
+          "body": {
+            "ru": "Определённый артикль ставим, когда предмет известен и говорящему, и слушающему: он уже упоминался, уточнён фразой после существительного или единственный в данной ситуации. The возможен и с исчисляемыми, и с неисчисляемыми существительными.",
+            "en": "We use the definite article when the thing is known to both the speaker and the listener: it has already been mentioned, is specified by a phrase after it, or is unique in the situation. The works with both countable and uncountable nouns."
+          },
+          "examples": [
+            "the door",
+            "the water in the kettle",
+            "the capital of France",
+            "the sun"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Как выбрать артикль",
+            "en": "How to choose the article"
+          },
+          "body": {
+            "ru": "Сначала решите, исчисляемое ли существительное и говорите ли вы об одном предмете. Для одного нового исчисляемого предмета нужен a/an. Если предмет известен или единственный, ставьте the. Для общего значения — множественного числа или неисчисляемого — артикль не нужен.",
+            "en": "First decide whether the noun is countable and whether you mean one thing. For one new countable thing use a/an. If the thing is known or unique, use the. For general meaning — a plural or an uncountable noun — no article is needed."
+          },
+          "examples": [
+            "a new student",
+            "the new student in our class",
+            "Students study hard.",
+            "Information is useful."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "ind-0001",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "I have ___ cat and two dogs.",
+      "translation": {
+        "ru": "У меня есть кот и две собаки."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Cat начинается с согласного звука, а речь о коте идёт впервые — ставим a.",
+        "en": "Cat begins with a consonant sound and the cat is mentioned for the first time, so we use a."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0002",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "She ate ___ apple after lunch.",
+      "translation": {
+        "ru": "Она съела яблоко после обеда."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Apple начинается с гласного звука, поэтому перед ним ставим an.",
+        "en": "Apple begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0003",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "There is ___ big park near our school.",
+      "translation": {
+        "ru": "Возле нашей школы есть большой парк."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Big начинается с согласного звука: перед прилагательным и существительным ставим a.",
+        "en": "Big begins with a consonant sound, so we use a before the adjective and noun."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0004",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "He bought ___ umbrella because it was raining.",
+      "translation": {
+        "ru": "Он купил зонт, потому что шёл дождь."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Слово umbrella начинается с гласного звука, поэтому нужен an.",
+        "en": "Umbrella begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0006",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "My mother is reading ___ interesting book.",
+      "translation": {
+        "ru": "Мама читает интересную книгу."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Первый звук — гласный: артикль стоит перед прилагательным interesting, поэтому an.",
+        "en": "The first sound is a vowel: the article comes before the adjective interesting, so we use an."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0007",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "I saw ___ old man at the bus stop.",
+      "translation": {
+        "ru": "Я видел пожилого мужчину на автобусной остановке."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Old начинается с гласного звука, поэтому перед ним ставим an.",
+        "en": "Old begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0008",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "She has ___ new phone with a big screen.",
+      "translation": {
+        "ru": "У неё новый телефон с большим экраном."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "New начинается с согласного звука — ставим a.",
+        "en": "New begins with a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0009",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "He is eating ___ orange in the kitchen.",
+      "translation": {
+        "ru": "Он ест апельсин на кухне."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Orange начинается с гласного звука, поэтому ставим an.",
+        "en": "Orange begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0010",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "They live in ___ small house near the river.",
+      "translation": {
+        "ru": "Они живут в маленьком доме у реки."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Small начинается с согласного звука, поэтому перед прилагательным и существительным ставим a.",
+        "en": "Small begins with a consonant sound, so we use a before the adjective and noun."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0012",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "She is wearing ___ red dress today.",
+      "translation": {
+        "ru": "Сегодня она в красном платье."
+      },
+      "answer": "a",
+      "explanation": {
+        "ru": "Red начинается с согласного звука, поэтому перед прилагательным и существительным ставим a.",
+        "en": "Red begins with a consonant sound, so we use a before the adjective and noun."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0014",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "I would like ___ glass of water, please.",
+      "translation": {
+        "ru": "Я бы хотел стакан воды, пожалуйста."
+      },
+      "answer": "a",
+      "explanation": {
+        "ru": "Glass начинается с согласного звука, поэтому говорим a glass of water.",
+        "en": "Glass begins with a consonant sound, so we say a glass of water."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0015",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "He found ___ egg in the nest.",
+      "translation": {
+        "ru": "Он нашёл яйцо в гнезде."
+      },
+      "answer": "an",
+      "explanation": {
+        "ru": "Egg начинается с гласного звука, поэтому ставим an.",
+        "en": "Egg begins with a vowel sound, so we use an."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0016",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "There is ___ important message for you.",
+      "translation": {
+        "ru": "Для тебя есть важное сообщение."
+      },
+      "answer": "an",
+      "explanation": {
+        "ru": "Important начинается с гласного звука — ставим an.",
+        "en": "Important begins with a vowel sound, so we use an."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "art2-0001",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "He needs ___ new helmet for his bicycle.",
+      "translation": {
+        "ru": "Ему нужен новый шлем для велосипеда."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Helmet начинается с согласного звука, а шлем упоминается впервые, поэтому ставим a. Артикль a/an возможен только с исчисляемым существительным в единственном числе.",
+        "en": "Helmet begins with a consonant sound and is mentioned for the first time, so we use a. A/an is only possible with a singular countable noun."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "art2-0002",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "She bought ___ old wooden chair at the market.",
+      "translation": {
+        "ru": "Она купила на рынке старый деревянный стул."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Old начинается с гласного звука, поэтому перед прилагательным ставим an: an old chair. Форма артикля зависит от первого звука следующего слова.",
+        "en": "Old begins with a vowel sound, so we put an before the adjective: an old chair. The form of the article depends on the first sound of the next word."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0097",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "My uncle bought ___ motorbike last month.",
+      "translation": {
+        "ru": "В прошлом месяце мой дядя купил мотоцикл."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Motorbike начинается с согласного звука, а мотоцикл упоминается впервые — ставим a.",
+        "en": "Motorbike begins with a consonant sound and is mentioned for the first time, so we use a."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0098",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "There is ___ insect on the kitchen table.",
+      "translation": {
+        "ru": "На кухонном столе сидит насекомое."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Insect начинается с гласного звука, поэтому перед ним ставим an.",
+        "en": "Insect begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0099",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "They booked ___ cottage by the lake.",
+      "translation": {
+        "ru": "Они забронировали домик у озера."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Cottage начинается с согласного звука — ставим a.",
+        "en": "Cottage begins with a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0100",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "She opened ___ envelope and read the letter.",
+      "translation": {
+        "ru": "Она вскрыла конверт и прочитала письмо."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Envelope начинается с гласного звука, поэтому ставим an.",
+        "en": "Envelope begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0101",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "The interviewer asked ___ difficult question about my experience.",
+      "translation": {
+        "ru": "Интервьюер задал трудный вопрос о моём опыте."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Difficult начинается с согласного звука, поэтому перед прилагательным и существительным ставим a.",
+        "en": "Difficult begins with a consonant sound, so we use a before the adjective and noun."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0102",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "He ate ___ avocado for lunch.",
+      "translation": {
+        "ru": "На обед он съел авокадо."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Avocado начинается с гласного звука, поэтому нужен an.",
+        "en": "Avocado begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0103",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "We need ___ ladder to reach the roof.",
+      "translation": {
+        "ru": "Нам нужна лестница, чтобы добраться до крыши."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Ladder начинается с согласного звука — ставим a.",
+        "en": "Ladder begins with a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0104",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "She found ___ earring under the sofa.",
+      "translation": {
+        "ru": "Она нашла под диваном серёжку."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Earring начинается с гласного звука, поэтому ставим an.",
+        "en": "Earring begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0105",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "My father drives ___ old van to work.",
+      "translation": {
+        "ru": "Мой отец ездит на работу на старом фургоне."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Первый звук прилагательного old — гласный, поэтому перед всей группой ставим an.",
+        "en": "The first sound of the adjective old is a vowel, so the whole phrase takes an."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0106",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A2",
+      "sentence": "The students painted ___ large mural on the wall.",
+      "translation": {
+        "ru": "Студенты нарисовали на стене большую фреску."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Large начинается с согласного звука, поэтому перед прилагательным и существительным ставим a.",
+        "en": "Large begins with a consonant sound, so we use a before the adjective and noun."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0018",
+      "type": "match",
+      "ruleId": "art-system",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример.",
+        "en": "Match each rule with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Перед гласным звуком",
+            "en": "Before a vowel sound"
+          },
+          "right": "We need an extra chair."
+        },
+        {
+          "left": {
+            "ru": "Перед согласным звуком",
+            "en": "Before a consonant sound"
+          },
+          "right": "She is reading a magazine."
+        },
+        {
+          "left": {
+            "ru": "Неисчисляемое — без a/an",
+            "en": "Uncountable — no a/an"
+          },
+          "right": "We need some water."
+        },
+        {
+          "left": {
+            "ru": "Множественное число — без a/an",
+            "en": "Plural — no a/an"
+          },
+          "right": "There are two apples on the table."
+        }
+      ],
+      "explanation": {
+        "ru": "Артикль a/an возможен только с исчисляемым существительным в единственном числе, а выбор a или an зависит от первого звука.",
+        "en": "A/an is only possible with a singular countable noun, and the choice between a and an depends on the first sound."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0078",
+      "type": "match",
+      "ruleId": "art-system",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте тип слова и пример с нужным артиклем.",
+        "en": "Match each word type with the example that needs that article."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "a + существительное на согласный звук (без прилагательного)",
+            "en": "a + consonant noun (no adjective)"
+          },
+          "right": "He bought a ticket for the evening train."
+        },
+        {
+          "left": {
+            "ru": "an + существительное на гласный звук (без прилагательного)",
+            "en": "an + vowel noun (no adjective)"
+          },
+          "right": "She ordered an omelette for breakfast."
+        },
+        {
+          "left": {
+            "ru": "a + прилагательное на согласный звук + существительное",
+            "en": "a + consonant adjective + noun"
+          },
+          "right": "We stayed in a quiet hotel near the beach."
+        },
+        {
+          "left": {
+            "ru": "an + прилагательное на гласный звук + существительное",
+            "en": "an + vowel adjective + noun"
+          },
+          "right": "It was an unforgettable trip to the mountains."
+        }
+      ],
+      "explanation": {
+        "ru": "Артикль зависит от первого звука: a — перед согласным, an — перед гласным. Перед прилагательным артикль выбирается по звуку прилагательного.",
+        "en": "The article depends on the first sound: a before a consonant sound, an before a vowel sound. Before an adjective the article follows the adjective's sound."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0079",
+      "type": "match",
+      "ruleId": "art-system",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте тип существительного и пример.",
+        "en": "Match each noun type with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "исчисляемое единственное, артикль сразу перед существительным",
+            "en": "singular countable, article directly before the noun"
+          },
+          "right": "I saw a fox near the river."
+        },
+        {
+          "left": {
+            "ru": "исчисляемое во множественном числе — без артикля",
+            "en": "plural countable — no article"
+          },
+          "right": "Fresh vegetables are good for health."
+        },
+        {
+          "left": {
+            "ru": "неисчисляемое — без артикля",
+            "en": "uncountable — no article"
+          },
+          "right": "Butter melts quickly in a hot pan."
+        },
+        {
+          "left": {
+            "ru": "исчисляемое единственное, между артиклем и существительным прилагательное",
+            "en": "singular countable with an adjective before the noun"
+          },
+          "right": "We met a friendly guide at the museum."
+        }
+      ],
+      "explanation": {
+        "ru": "A/an возможен только с исчисляемым в единственном числе; с множественным и неисчисляемым артикль не ставится.",
+        "en": "A/an is possible only with a singular countable noun; plurals and uncountable nouns take no article."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0080",
+      "type": "match",
+      "ruleId": "art-system",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте первый звук слова и пример с артиклем.",
+        "en": "Match each first sound with the example that needs that article."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "гласный звук [i:]",
+            "en": "vowel sound [i:]"
+          },
+          "right": "They saw an eagle above the lake."
+        },
+        {
+          "left": {
+            "ru": "согласный звук [b]",
+            "en": "consonant sound [b]"
+          },
+          "right": "The child hugged a balloon tightly."
+        },
+        {
+          "left": {
+            "ru": "гласный звук [ɪ]",
+            "en": "vowel sound [ɪ]"
+          },
+          "right": "It was an interesting idea."
+        },
+        {
+          "left": {
+            "ru": "согласный звук [d]",
+            "en": "consonant sound [d]"
+          },
+          "right": "She drew a dragon on the board."
+        }
+      ],
+      "explanation": {
+        "ru": "Перед гласным звуком ставим an, перед согласным — a; буква при этом не важна, важен только звук.",
+        "en": "A vowel sound takes an, a consonant sound takes a; the letter does not matter, only the sound does."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "ind-0081",
+      "type": "match",
+      "ruleId": "art-system",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте артикль и пример.",
+        "en": "Match each article with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "a перед словом на согласный звук",
+            "en": "a before a word with a consonant sound"
+          },
+          "right": "My uncle drives a taxi in the city."
+        },
+        {
+          "left": {
+            "ru": "an перед словом на гласный звук",
+            "en": "an before a word with a vowel sound"
+          },
+          "right": "She put an onion in the soup."
+        },
+        {
+          "left": {
+            "ru": "множественное число — без артикля",
+            "en": "plural noun — no article"
+          },
+          "right": "Dogs need regular exercise every day."
+        },
+        {
+          "left": {
+            "ru": "неисчисляемое — без артикля",
+            "en": "uncountable noun — no article"
+          },
+          "right": "Paper is made from wood."
+        }
+      ],
+      "explanation": {
+        "ru": "Перед согласным звуком ставим a, перед гласным — an. С множественным числом и неисчисляемым артикль не употребляется.",
+        "en": "A comes before a consonant sound and an before a vowel sound. Plurals and uncountable nouns take no article."
+      },
+      "tags": [
+        "art-system",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "zero-0001",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ Books are quite expensive in this country.",
+      "translation": {
+        "ru": "Книги в этой стране довольно дорогие."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Books — множественное число, и речь идёт о книгах вообще, а не о конкретных. В общем значении артикль не нужен.",
+        "en": "'Books' is plural and we mean books in general, not specific ones, so no article is used."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0002",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ Money cannot buy you real happiness.",
+      "translation": {
+        "ru": "Деньги не могут купить настоящее счастье."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Money — неисчисляемое существительное в общем смысле, поэтому артикль не ставится: money, а не the money.",
+        "en": "Money is an uncountable noun used in a general sense, so it takes no article."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0003",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ Water is essential for all living things.",
+      "translation": {
+        "ru": "Вода необходима всем живым существам."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Water — неисчисляемое вещество, и здесь говорится о воде вообще, поэтому артикль не нужен.",
+        "en": "Water is an uncountable substance mentioned in general, so no article is used."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0004",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ Children usually learn languages faster than adults.",
+      "translation": {
+        "ru": "Дети обычно учат языки быстрее взрослых."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Children — множественное число в общем значении (дети вообще), поэтому артикль не ставится.",
+        "en": "Children is a plural noun used in a general sense, so it takes no article."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0005",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ Music is an important part of my life.",
+      "translation": {
+        "ru": "Музыка — важная часть моей жизни."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Music — неисчисляемое абстрактное понятие; в общем смысле артикль не нужен.",
+        "en": "Music is an uncountable abstract noun, so it takes no article when used in general."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0006",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ Cats are very clean animals.",
+      "translation": {
+        "ru": "Кошки — очень чистоплотные животные."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Cats — множественное число, речь о кошках вообще, поэтому артикль не нужен.",
+        "en": "'Cats' is plural and refers to cats in general, so no article is used."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0008",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ Fruit and vegetables are good for your health.",
+      "translation": {
+        "ru": "Фрукты и овощи полезны для здоровья."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Fruit and vegetables называют категории в общем смысле, поэтому артикль перед ними не нужен.",
+        "en": "Fruit and vegetables name categories in a general sense, so they take no article."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0009",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A2",
+      "sentence": "___ Happiness depends on our attitude to life.",
+      "translation": {
+        "ru": "Счастье зависит от нашего отношения к жизни."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Happiness — абстрактное неисчисляемое понятие, здесь речь о счастье вообще; артикль не нужен.",
+        "en": "Happiness is an abstract uncountable noun used in general, so no article is needed."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0011",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A2",
+      "sentence": "___ Smartphones have changed the way we communicate.",
+      "translation": {
+        "ru": "Смартфоны изменили то, как мы общаемся."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Smartphones — множественное число в общем смысле (смартфоны вообще), поэтому артикль не нужен.",
+        "en": "'Smartphones' is plural and means smartphones in general, so no article is used."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0013",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ Rice is the main food in many Asian countries.",
+      "translation": {
+        "ru": "Рис — основная еда во многих азиатских странах."
+      },
+      "answer": "—",
+      "explanation": {
+        "ru": "Rice — неисчисляемое существительное, здесь говорится о рисе вообще, поэтому артикль не нужен.",
+        "en": "Rice is uncountable and refers to rice in general, so no article is used."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0014",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "I believe that ___ honesty is the best policy.",
+      "translation": {
+        "ru": "Я считаю, что честность — лучшая политика."
+      },
+      "answer": "—",
+      "explanation": {
+        "ru": "Honesty — абстрактное существительное в общем суждении; артикль не нужен.",
+        "en": "Honesty is an abstract noun in a general statement, so it takes no article."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0015",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "Most children love ___ sweets, but too much sugar is bad for them.",
+      "translation": {
+        "ru": "Большинство детей любят сладкое, но слишком много сахара им вредно."
+      },
+      "answer": "—",
+      "explanation": {
+        "ru": "Sweets — множественное число в общем значении (сладости вообще), поэтому артикль не ставится.",
+        "en": "'Sweets' is plural used in a general sense, so no article is used."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0016",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ Fresh air and exercise are important for good health.",
+      "translation": {
+        "ru": "Свежий воздух и физические упражнения важны для хорошего здоровья."
+      },
+      "answer": "—",
+      "explanation": {
+        "ru": "Fresh air and exercise — неисчисляемые существительные в общем смысле, поэтому артикль не нужен.",
+        "en": "Fresh air and exercise are uncountable nouns used in a general sense, so no article is used."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0017",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A2",
+      "sentence": "___ Time is more valuable than money.",
+      "translation": {
+        "ru": "Время ценнее денег."
+      },
+      "answer": "—",
+      "explanation": {
+        "ru": "Time — абстрактное неисчисляемое существительное в общем смысле; артикль не ставится.",
+        "en": "Time is an abstract uncountable noun used in general, so it takes no article."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "art2-0019",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "My doctor says I should eat more ___ vegetables every day.",
+      "translation": {
+        "ru": "Мой врач говорит, что мне нужно есть больше овощей каждый день."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Vegetables — исчисляемое существительное во множественном числе в общем значении, поэтому артикль не нужен: more vegetables. Если бы речь шла об одном овоще, понадобился бы a vegetable.",
+        "en": "Vegetables is a plural countable noun used in a general sense, so no article is needed: more vegetables. For one vegetable we would say a vegetable."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0019",
+      "type": "match",
+      "ruleId": "art-system",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример с нулевым артиклем.",
+        "en": "Match each rule with its zero-article example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Множественное число в общем смысле",
+            "en": "Plural nouns in a general sense"
+          },
+          "right": "Cats sleep for many hours."
+        },
+        {
+          "left": {
+            "ru": "Неисчисляемое в общем смысле",
+            "en": "Uncountable nouns in a general sense"
+          },
+          "right": "Milk is good for children."
+        },
+        {
+          "left": {
+            "ru": "Абстрактное понятие",
+            "en": "An abstract idea"
+          },
+          "right": "Honesty helps us build trust."
+        },
+        {
+          "left": {
+            "ru": "Обобщение со словом most",
+            "en": "Generalization with most"
+          },
+          "right": "Most birds can fly."
+        }
+      ],
+      "explanation": {
+        "ru": "Во всех примерах существительные называют целые категории в общем смысле, поэтому артикль не употребляется.",
+        "en": "In all the examples the nouns name whole categories in a general sense, so no article is used."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0020",
+      "type": "match",
+      "ruleId": "art-system",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте тип обобщения и пример.",
+        "en": "Match each type of generalization with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Группа людей в общем смысле",
+            "en": "A group of people in general"
+          },
+          "right": "Young people often learn new skills quickly."
+        },
+        {
+          "left": {
+            "ru": "Неисчисляемое вещество",
+            "en": "An uncountable substance"
+          },
+          "right": "Gold is a very expensive metal."
+        },
+        {
+          "left": {
+            "ru": "Абстрактное качество",
+            "en": "An abstract quality"
+          },
+          "right": "Courage is important in difficult times."
+        },
+        {
+          "left": {
+            "ru": "Предметы как категория",
+            "en": "Objects as a category"
+          },
+          "right": "Old houses often need a lot of repairs."
+        }
+      ],
+      "explanation": {
+        "ru": "Каждый пример описывает общее понятие или целую группу предметов, поэтому нулевой артикль — правильный выбор.",
+        "en": "Each example describes a general idea or a whole group of things, so the zero article is the right choice."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0076",
+      "type": "match",
+      "ruleId": "art-system",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте тип существительного и пример.",
+        "en": "Match each noun type with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Множественное число в общем смысле",
+            "en": "Plural countable noun in a general sense"
+          },
+          "right": "Elephants are the largest land animals."
+        },
+        {
+          "left": {
+            "ru": "Неисчисляемое вещество",
+            "en": "Uncountable substance"
+          },
+          "right": "Bread is sold in this shop."
+        },
+        {
+          "left": {
+            "ru": "Абстрактное понятие",
+            "en": "Abstract idea"
+          },
+          "right": "Education changes people's lives."
+        },
+        {
+          "left": {
+            "ru": "Обобщение со словом most",
+            "en": "Generalisation with most"
+          },
+          "right": "Most students need more sleep."
+        }
+      ],
+      "explanation": {
+        "ru": "Все примеры обобщают: множество предметов, вещество, абстрактное понятие или большинство людей, поэтому артикль не нужен.",
+        "en": "All the examples generalise: plural things, a substance, an abstract idea or most people, so no article is used."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0077",
+      "type": "match",
+      "ruleId": "art-system",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте пример и тип обобщения.",
+        "en": "Match each example with its type of generalisation."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Множественное число: предметы вообще",
+            "en": "Plural: things in general"
+          },
+          "right": "Shoes are getting more expensive."
+        },
+        {
+          "left": {
+            "ru": "Неисчисляемое: вещество вообще",
+            "en": "Uncountable: a substance in general"
+          },
+          "right": "Electricity powers our homes."
+        },
+        {
+          "left": {
+            "ru": "Абстрактное: качество вообще",
+            "en": "Abstract: a quality in general"
+          },
+          "right": "Friendship takes time to build."
+        },
+        {
+          "left": {
+            "ru": "Обобщение: большинство",
+            "en": "Generalisation: most people"
+          },
+          "right": "Most children like cartoons."
+        }
+      ],
+      "explanation": {
+        "ru": "Каждый пример называет целую категорию — предметы, вещество, качество или большинство, поэтому артикль перед существительными не ставится.",
+        "en": "Each example names a whole category — things, a substance, a quality or a majority — so no article is used."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0078",
+      "type": "match",
+      "ruleId": "art-system",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте пример и объяснение.",
+        "en": "Match each example with its explanation."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Говорим о предметах вообще",
+            "en": "Things in general"
+          },
+          "right": "In my opinion, books are the best presents for children."
+        },
+        {
+          "left": {
+            "ru": "Говорим о веществе вообще",
+            "en": "A substance in general"
+          },
+          "right": "Coffee is very popular in Italy."
+        },
+        {
+          "left": {
+            "ru": "Говорим об абстрактном качестве",
+            "en": "An abstract quality"
+          },
+          "right": "Everyone knows that patience is a virtue."
+        },
+        {
+          "left": {
+            "ru": "Говорим о регулярном занятии вообще",
+            "en": "A regular activity in general"
+          },
+          "right": "Regular exercise is the best way to stay healthy."
+        }
+      ],
+      "explanation": {
+        "ru": "Артикль не нужен, когда предложение говорит о категории предметов, веществе, качестве или регулярном занятии в целом.",
+        "en": "No article is needed when a sentence talks about a category of things, a substance, a quality or a regular activity in general."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0089",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ Oranges are full of vitamin C.",
+      "translation": {
+        "ru": "Апельсины богаты витамином C."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Oranges — множественное число в общем значении, поэтому артикль не нужен.",
+        "en": "Oranges is a plural noun used in a general sense, so no article is used."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0090",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "I think ___ chocolate is the best dessert.",
+      "translation": {
+        "ru": "Думаю, шоколад — лучший десерт."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Chocolate — неисчисляемое существительное в общем значении; артикль не ставится.",
+        "en": "Chocolate is an uncountable noun in a general sense, so no article is used."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0091",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ Fresh fruit is good for children.",
+      "translation": {
+        "ru": "Свежие фрукты полезны детям."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Fresh fruit — неисчисляемое существительное в общем смысле, поэтому артикль не нужен.",
+        "en": "Fresh fruit is an uncountable noun used in a general sense, so no article is needed."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0092",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ Dogs need a lot of exercise.",
+      "translation": {
+        "ru": "Собакам нужно много двигаться."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Dogs — множественное число, речь о собаках вообще, поэтому артикль не ставится.",
+        "en": "Dogs is a plural noun used in a general sense, so no article is used."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0093",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "Many people believe that ___ money brings happiness.",
+      "translation": {
+        "ru": "Многие люди верят, что деньги приносят счастье."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Money — неисчисляемое существительное в общем значении, поэтому артикль не нужен.",
+        "en": "Money is an uncountable noun in a general sense, so no article is used."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0094",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ Libraries are important for every community.",
+      "translation": {
+        "ru": "Библиотеки важны для любого сообщества."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Libraries — множественное число в общем значении; артикль не нужен.",
+        "en": "Libraries is a plural noun used in a general sense, so no article is needed."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0095",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ Kindness costs nothing but means a lot.",
+      "translation": {
+        "ru": "Доброта ничего не стоит, но значит многое."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Kindness — абстрактное понятие в общем смысле, поэтому артикль не ставится.",
+        "en": "Kindness is an abstract idea used in a general sense, so no article is used."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0096",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ Tea is the most popular drink in Britain.",
+      "translation": {
+        "ru": "Чай — самый популярный напиток в Британии."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Tea — неисчисляемое существительное, речь о чае вообще, поэтому артикль не нужен.",
+        "en": "Tea is an uncountable noun used in a general sense, so no article is needed."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0097",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ Books about history are very popular here.",
+      "translation": {
+        "ru": "Книги по истории здесь очень популярны."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Books — множественное число в общем значении, поэтому артикль не ставится.",
+        "en": "Books is a plural noun used in a general sense, so no article is used."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "zero-0098",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ Patience is essential when you learn a language.",
+      "translation": {
+        "ru": "Терпение необходимо, когда учишь язык."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Patience — абстрактное существительное в общем смысле; артикль не нужен.",
+        "en": "Patience is an abstract noun used in a general sense, so no article is needed."
+      },
+      "tags": [
+        "art-system",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "sys-0001",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "She gave me ___ useful advice about my CV.",
+      "translation": {
+        "ru": "Она дала мне полезный совет насчёт моего резюме."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Advice — неисчисляемое существительное, поэтому a/an с ним невозможен; совет называется впервые и не выделяется как известный, поэтому артикль не нужен.",
+        "en": "Advice is uncountable, so a/an is impossible; the advice is mentioned for the first time and is not specified as known, so no article is needed."
+      },
+      "tags": [
+        "art-system",
+        "uncountable",
+        "general-specific",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "sys-0002",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "He asked ___ interesting question at the meeting.",
+      "translation": {
+        "ru": "На совещании он задал интересный вопрос."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Question — исчисляемое существительное в единственном числе, упоминается впервые; interesting начинается с гласного звука, поэтому an.",
+        "en": "Question is a singular countable noun mentioned for the first time; interesting begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-system",
+        "countable",
+        "a-an",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "sys-0003",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "We need ___ new furniture for the living room.",
+      "translation": {
+        "ru": "Нам нужна новая мебель для гостиной."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Furniture — неисчисляемое существительное: a/an перед ним не ставится, а предмет не выделен как известный, поэтому the не нужен.",
+        "en": "Furniture is uncountable: a/an is impossible, and the furniture is not specified as known, so the is not needed."
+      },
+      "tags": [
+        "art-system",
+        "uncountable",
+        "general-specific",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "sys-0004",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "They bought ___ new sofa for the living room.",
+      "translation": {
+        "ru": "Они купили новый диван для гостиной."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Sofa — исчисляемое существительное в единственном числе, упоминается впервые, а new начинается с согласного звука — ставим a.",
+        "en": "Sofa is a singular countable noun mentioned for the first time, and new begins with a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-system",
+        "countable",
+        "a-an",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "sys-0005",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ Train tickets are cheaper if you book them early.",
+      "translation": {
+        "ru": "Железнодорожные билеты дешевле, если бронировать их заранее."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Речь о билетах вообще, это общее значение исчисляемого существительного во множественном числе, поэтому артикль не нужен.",
+        "en": "We mean train tickets in general — a general plural countable noun — so no article is used."
+      },
+      "tags": [
+        "art-system",
+        "countable",
+        "general-specific",
+        "zero-basics"
+      ]
+    },
+    {
+      "id": "sys-0006",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ end of the film was very sad.",
+      "translation": {
+        "ru": "Концовка фильма была очень грустной."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Of-фраза of the film уточняет, о каком конце речь, поэтому ставим the.",
+        "en": "The of-phrase of the film specifies the ending, so the definite article is used."
+      },
+      "tags": [
+        "art-system",
+        "general-specific",
+        "the",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "sys-0007",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "She showed me a photo of her dog. ___ dog was very friendly.",
+      "translation": {
+        "ru": "Она показала мне фото своей собаки. Собака была очень дружелюбной."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Собака уже упомянута в предыдущем предложении, поэтому при повторном упоминании ставим определённый артикль the.",
+        "en": "The dog was mentioned in the previous sentence, so the definite article the is used when it is mentioned again."
+      },
+      "tags": [
+        "art-system",
+        "general-specific",
+        "the",
+        "the-second-mention"
+      ]
+    },
+    {
+      "id": "sys-0008",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "___ sun gives us light and heat.",
+      "translation": {
+        "ru": "Солнце даёт нам свет и тепло."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Солнце существует в единственном экземпляре, поэтому говорим the sun — определённый артикль с единственным в своём роде предметом.",
+        "en": "There is only one sun, so we say the sun — the definite article is used with a unique thing."
+      },
+      "tags": [
+        "art-system",
+        "general-specific",
+        "the",
+        "the-unique"
+      ]
+    },
+    {
+      "id": "sys-0009",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "She gave me ___ very useful piece of advice.",
+      "translation": {
+        "ru": "Она дала мне один очень полезный совет."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Счётное слово piece — исчисляемое существительное в единственном числе; very начинается с согласного звука, поэтому ставим a.",
+        "en": "The unit word piece is a singular countable noun, and very begins with a consonant sound, so we use a."
+      },
+      "tags": [
+        "art-system",
+        "countable",
+        "a-an",
+        "a-an-basics"
+      ]
+    },
+    {
+      "id": "sys-0010",
+      "type": "choice",
+      "ruleId": "art-system",
+      "level": "A1",
+      "sentence": "It was ___ extremely long journey.",
+      "translation": {
+        "ru": "Это была чрезвычайно долгая поездка."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Journey — исчисляемое существительное в единственном числе, а extremely начинается с гласного звука, поэтому нужен an.",
+        "en": "Journey is a singular countable noun, and extremely begins with a vowel sound, so we use an."
+      },
+      "tags": [
+        "art-system",
+        "countable",
+        "a-an",
+        "a-an-basics"
+      ]
+    }
+  ]
+}

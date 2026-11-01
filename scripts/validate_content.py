@@ -364,6 +364,9 @@ def main(argv: list[str]) -> int:
             )
             total_questions += 1
             if isinstance(question, dict):
+                tags = question.get("tags")
+                if tags is not None and (not isinstance(tags, list) or any(not isinstance(tag, str) for tag in tags)):
+                    err("question", f"{where}: `tags` must be a list of strings")
                 question_type = question.get("type")
                 if question_type in type_counts:
                     type_counts[question_type] += 1
@@ -391,19 +394,28 @@ def main(argv: list[str]) -> int:
         for rule_id in sorted(known_rule_sections):
             total = rule_question_counts.get(rule_id, 0)
             types = rule_type_counts.get(rule_id, {"choice": 0, "match": 0})
-            if total != 30:
-                err("quotas", f"rule `{rule_id}` must have exactly 30 questions, found {total}")
-            if types.get("choice", 0) != 25:
-                err("quotas", f"rule `{rule_id}` must have 25 choice questions, found {types.get('choice', 0)}")
-            if types.get("match", 0) != 5:
-                err("quotas", f"rule `{rule_id}` must have 5 match questions, found {types.get('match', 0)}")
+            is_article_theme = known_rule_sections.get(rule_id) == "articles"
+            if is_article_theme:
+                if total != 70:
+                    err("quotas", f"article theme `{rule_id}` must have exactly 70 questions, found {total}")
+                if types.get("choice", 0) < 25:
+                    err("quotas", f"article theme `{rule_id}` needs at least 25 choice questions, found {types.get('choice', 0)}")
+                if types.get("match", 0) < 5:
+                    err("quotas", f"article theme `{rule_id}` needs at least 5 match questions, found {types.get('match', 0)}")
+            else:
+                if total != 30:
+                    err("quotas", f"rule `{rule_id}` must have exactly 30 questions, found {total}")
+                if types.get("choice", 0) != 25:
+                    err("quotas", f"rule `{rule_id}` must have 25 choice questions, found {types.get('choice', 0)}")
+                if types.get("match", 0) != 5:
+                    err("quotas", f"rule `{rule_id}` must have 5 match questions, found {types.get('match', 0)}")
     for rule_id, count in sorted(rule_question_counts.items()):
         if count == 0:
             warn("rules", f"rule `{rule_id}` has no questions")
 
     if directory_mode:
-        if total_questions < 810:
-            warn("content", f"expected 810 questions, found {total_questions}")
+        if total_questions < 840:
+            warn("content", f"expected 840 questions, found {total_questions}")
         for section_id, count in sorted(section_counts.items()):
             print(f"section `{section_id}`: {count} questions")
 

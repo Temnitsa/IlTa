@@ -1,0 +1,2204 @@
+{
+  "meta": {
+    "package": "articles_09_academic",
+    "version": 2,
+    "authors": [
+      "content-team"
+    ]
+  },
+  "rules": [
+    {
+      "id": "art-academic",
+      "sectionId": "articles",
+      "order": 90,
+      "level": "B2",
+      "title": {
+        "ru": "Артикли в академическом тексте / IELTS",
+        "en": "Articles in academic writing / IELTS"
+      },
+      "summary": {
+        "ru": "Артикли в академическом тексте: обобщение и конкретизация, абстрактные существительные, of-фразы, превосходная степень и типичные ошибки IELTS Writing.",
+        "en": "Articles in academic writing: generalisations and specific references, abstract nouns, of-phrases, superlatives and typical IELTS Writing mistakes."
+      },
+      "sections": [
+        {
+          "heading": {
+            "ru": "Общее и конкретное в академическом тексте",
+            "en": "General vs specific in academic writing"
+          },
+          "body": {
+            "ru": "В академическом тексте важно разделять обобщение и конкретизацию. Если существительное называет явление или класс в целом, артикль не нужен; если речь об отдельном предмете или процессе, ставится определённый артикль.",
+            "en": "In academic writing, keep generalisations and specific references apart. When a noun names a phenomenon or a class as a whole, no article is needed; when it refers to one particular item or process, the definite article is used."
+          },
+          "examples": [
+            "Contemporary society relies on digital tools.",
+            "The society of the eighteenth century was very different.",
+            "Students need access to information.",
+            "The information in the report is outdated."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Абстрактные существительные: нулевой артикль",
+            "en": "Abstract nouns: the zero article"
+          },
+          "body": {
+            "ru": "Абстрактные понятия в общем значении употребляются без артикля: так говорят о явлениях, областях знания и процессах в целом. Артикль появляется, когда понятие становится конкретным или используется в исчисляемом значении.",
+            "en": "Abstract nouns in their general sense take no article: they name phenomena, fields of study and processes as a whole. An article appears when the noun becomes specific or is used in a countable sense."
+          },
+          "examples": [
+            "Biology studies living organisms.",
+            "The satellite was launched into orbit.",
+            "At college she studied economics and law.",
+            "He has years of experience in teaching."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Of-фразы и конкретизация",
+            "en": "Of-phrases and specification"
+          },
+          "body": {
+            "ru": "Определённый артикль ставим, если существительное уже известно или речь о конкретном предмете; уточняют of-фраза, придаточное предложение с who/which/that или описание с предлогом. При первом упоминании нового исчисляемого предмета перед of-фразой ставится a/an: a member of the team.",
+            "en": "We use the when the noun is already known or specific; it can be specified by an of-phrase, a relative clause with who/which/that, or a prepositional description. When a new countable thing is mentioned for the first time, a/an is used before an of-phrase: a member of the team."
+          },
+          "examples": [
+            "The life of a sailor is full of danger.",
+            "The cause of the delay remains unknown.",
+            "The book that you lent me was interesting.",
+            "The woman in the grey coat is my aunt."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "The: превосходная степень и порядковые",
+            "en": "The: superlatives and ordinals"
+          },
+          "body": {
+            "ru": "Превосходная степень и порядковые числительные выделяют предмет как единственный в ряду, поэтому требуют the. Так же ведут себя слова only, same, next и last, когда обозначают единственность.",
+            "en": "Superlatives and ordinal numbers single out an item in a series, so they require the. The words only, same, next and last behave in the same way when they mark uniqueness."
+          },
+          "examples": [
+            "She is the youngest singer in the choir.",
+            "This is the first day of our course.",
+            "He is the only student who solved the puzzle.",
+            "They chose the same option."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Типичные ошибки в IELTS Writing",
+            "en": "Typical IELTS Writing mistakes"
+          },
+          "body": {
+            "ru": "Типичные ошибки — лишний the при обобщении, пропуск the в of-фразах, a/an перед неисчисляемыми и смешение исчисляемого и неисчисляемого значений. Перед сдачей текста проверяйте каждое существительное по этим пунктам.",
+            "en": "Typical mistakes include adding the to generalisations, omitting it in of-phrases, using a/an with uncountable nouns, and confusing countable and uncountable meanings. Check every noun against these points before submitting a text."
+          },
+          "examples": [
+            "The government should invest in public transport.",
+            "Young people need practical skills.",
+            "The report highlights the importance of training.",
+            "A good essay has a clear structure."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "adv-0027",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "Her poetry is about ___ life and love.",
+      "translation": {
+        "ru": "Её поэзия — о жизни и любви."
+      },
+      "options": [
+        "—",
+        "the",
+        "a",
+        "an"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Life в общем значении, рядом с другим абстрактным словом love, — без артикля. Если речь идёт о жизни конкретного человека, нужен the: the life of a farmer.",
+        "en": "Life in its general sense, next to the abstract noun love, takes no article. The life would be needed for a particular person's life: the life of a farmer."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0028",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "The documentary explores ___ life of a young doctor in a small village.",
+      "translation": {
+        "ru": "Документальный фильм исследует жизнь молодого врача в маленькой деревне."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The life of a young doctor — жизнь конкретного человека, уточнённая of-фразой, поэтому нужен the.",
+        "en": "The life of a young doctor is a particular life specified by an of-phrase, so the definite article is required."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0029",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "Sociology studies ___ society and social groups.",
+      "translation": {
+        "ru": "Социология изучает общество и социальные группы."
+      },
+      "options": [
+        "the",
+        "a",
+        "an",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Society в значении «общество в целом» — абстрактное неисчисляемое, поэтому без артикля. The society означало бы конкретную организацию или объединение.",
+        "en": "Society meaning people in general is abstract and uncountable, so it takes no article. The society would mean one particular organisation or club."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0030",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "The rocket was launched into ___ space.",
+      "translation": {
+        "ru": "Ракету запустили в космос."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Space в значении «космос» — неисчисляемое, артикль не нужен: into space. Исчисляемое a space значит «свободное место, промежуток».",
+        "en": "Space meaning the universe is uncountable and takes no article: into space. The countable form a space means room or a gap."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0031",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "At university he studied ___ history and politics.",
+      "translation": {
+        "ru": "В университете он изучал историю и политику."
+      },
+      "options": [
+        "the",
+        "a",
+        "an",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "История как учебный предмет или область знания в общем смысле — без артикля, и ряд однородных членов history and politics подчёркивает обобщение. The history of the city — уже конкретная история города.",
+        "en": "History as a school subject or field of study in general takes no article, and the pair history and politics makes the general sense clear. The history of the city means the particular history of that city."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0032",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "Psychologists study ___ nature of human memory.",
+      "translation": {
+        "ru": "Психологи изучают природу человеческой памяти."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The nature of something — «суть, природа чего-либо»; of-фраза уточняет понятие, поэтому нужен the. Nature в значении «природа вокруг нас» идёт без артикля.",
+        "en": "The nature of something means its essential character; the of-phrase specifies the noun, so the is required. Nature meaning the natural world takes no article."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0033",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "He had ___ strange experience on his way home.",
+      "translation": {
+        "ru": "По дороге домой с ним произошёл странный случай."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "Experience здесь значит «случай, переживание» — это исчисляемое существительное, упомянутое впервые, поэтому a. Experience в значении «опыт» было бы без артикля.",
+        "en": "Here experience means a single event or experience, so it is countable and mentioned for the first time; hence a. Experience meaning knowledge would take no article."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0034",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "Her party has been in ___ power for ten years.",
+      "translation": {
+        "ru": "Её партия находится у власти уже десять лет."
+      },
+      "options": [
+        "the",
+        "a",
+        "an",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "In power (у власти) — устойчивое сочетание без артикля: power здесь обозначает власть как абстрактное понятие. The power of the ocean — уже конкретная сила.",
+        "en": "In power is a fixed phrase with no article, and here power is an abstract idea. The power of the ocean is a specific force."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0035",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "For this job you need ___ experience, not just enthusiasm.",
+      "translation": {
+        "ru": "Для этой работы нужен опыт, а не только энтузиазм."
+      },
+      "answer": "—",
+      "explanation": {
+        "ru": "Experience в значении «опыт» — неисчисляемое, поэтому нулевой артикль: need experience.",
+        "en": "Experience meaning knowledge is uncountable, so the zero article is used: need experience."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0036",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "The novel describes ___ power of the ocean in a storm.",
+      "translation": {
+        "ru": "Роман описывает силу океана во время шторма."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "The power of the ocean — конкретная сила, уточнённая of-фразой, поэтому нужен определённый артикль the.",
+        "en": "The power of the ocean is a specific force specified by an of-phrase, so the definite article is required."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0037",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "People say that ___ history repeats itself.",
+      "translation": {
+        "ru": "Говорят, что история повторяется."
+      },
+      "answer": "—",
+      "explanation": {
+        "ru": "History как ход событий и область знания в общем смысле — без артикля. The history of the war — конкретная история.",
+        "en": "History meaning the course of events or the field of study in general takes no article. The history of the war is a particular history."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0038",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "We should protect ___ nature because our lives depend on it.",
+      "translation": {
+        "ru": "Мы должны беречь природу, потому что от неё зависит наша жизнь."
+      },
+      "answer": "—",
+      "explanation": {
+        "ru": "Nature в общем значении «природа» — неисчисляемое, без артикля. The nature of the problem — «суть проблемы», там the обязателен.",
+        "en": "Nature meaning the natural world in general is uncountable and takes no article. The nature of the problem means its essential character and does take the."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "art2-0028",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "Modern ___ society depends heavily on digital technology.",
+      "translation": {
+        "ru": "Современное общество сильно зависит от цифровых технологий."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Society в общем значении («общество вообще») употребляется без артикля: modern society. The society значило бы «то самое общество» — конкретную организацию или группу.",
+        "en": "Society in the general sense takes no article: modern society. The society would mean a particular organisation or group."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0069",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "At the museum we learned about ___ history of our town.",
+      "translation": {
+        "ru": "В музее мы узнали об истории нашего города."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "History уточняется of-фразой of our town, поэтому нужен определённый артикль the.",
+        "en": "History is specified by the of-phrase of our town, so it takes the."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0070",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "She has always loved ___ art of the Renaissance.",
+      "translation": {
+        "ru": "Она всегда любила искусство Возрождения."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Art конкретизируется of-фразой of the Renaissance, поэтому ставим the.",
+        "en": "Art is specified by the of-phrase of the Renaissance, so it takes the."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0039",
+      "type": "match",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with an example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Жизнь в общем смысле",
+            "en": "Life in general"
+          },
+          "right": "Life is full of unexpected surprises."
+        },
+        {
+          "left": {
+            "ru": "Жизнь конкретного человека",
+            "en": "The life of one person"
+          },
+          "right": "The life of a farmer is hard work."
+        },
+        {
+          "left": {
+            "ru": "Общество в целом",
+            "en": "Society as a whole"
+          },
+          "right": "Society needs new ideas and fresh faces."
+        },
+        {
+          "left": {
+            "ru": "История как область знания",
+            "en": "History as a field of study"
+          },
+          "right": "She teaches history at a local school."
+        }
+      ],
+      "explanation": {
+        "ru": "Абстрактные существительные в общем значении (life, society, history) идут без артикля, а конкретизированные of-фразой — с the: the life of a farmer.",
+        "en": "Abstract nouns in a general sense (life, society, history) take no article, while nouns specified by an of-phrase take the: the life of a farmer."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0040",
+      "type": "match",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with an example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Космос: space без артикля",
+            "en": "Space as the universe: no article"
+          },
+          "right": "The first man in space was Yuri Gagarin."
+        },
+        {
+          "left": {
+            "ru": "Суть чего-либо: the nature of",
+            "en": "The nature of something: the"
+          },
+          "right": "The nature of the problem is still unclear."
+        },
+        {
+          "left": {
+            "ru": "Опыт: experience без артикля",
+            "en": "Experience as knowledge: no article"
+          },
+          "right": "She has years of experience in design."
+        },
+        {
+          "left": {
+            "ru": "Отдельный случай: a/an + experience",
+            "en": "A single event: a/an + experience"
+          },
+          "right": "The journey was a wonderful experience."
+        }
+      ],
+      "explanation": {
+        "ru": "Space и experience в общем значении — без артикля; the nature of и исчисляемое a wonderful experience требуют the и a соответственно.",
+        "en": "Space and experience in their general sense take no article, while the nature of and the countable a wonderful experience require the and a respectively."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0084",
+      "type": "match",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Власть вообще — без артикля",
+            "en": "Power in general — no article"
+          },
+          "right": "Power can change people very quickly."
+        },
+        {
+          "left": {
+            "ru": "Сила чего-либо — the",
+            "en": "The power of something — the"
+          },
+          "right": "The power of the storm surprised everyone."
+        },
+        {
+          "left": {
+            "ru": "Природа вокруг нас — без артикля",
+            "en": "Nature around us — no article"
+          },
+          "right": "Nature recovers when people leave it alone."
+        },
+        {
+          "left": {
+            "ru": "Суть чего-либо — the nature of",
+            "en": "The nature of something — the"
+          },
+          "right": "The nature of the crisis was finally clear."
+        }
+      ],
+      "explanation": {
+        "ru": "Power и nature в общем значении идут без артикля, а с of-фразой требуют определённого артикля.",
+        "en": "Power and nature in a general sense take no article, but with an of-phrase they take the."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0085",
+      "type": "match",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Космос — space без артикля",
+            "en": "Outer space — no article"
+          },
+          "right": "People have dreamt of travelling into space."
+        },
+        {
+          "left": {
+            "ru": "Свободное место — a space",
+            "en": "A free place — a space"
+          },
+          "right": "There is a space for one more car."
+        },
+        {
+          "left": {
+            "ru": "Опыт — experience без артикля",
+            "en": "Experience — no article"
+          },
+          "right": "He has a lot of experience in teaching."
+        },
+        {
+          "left": {
+            "ru": "Отдельное переживание — an experience",
+            "en": "A single experience — an experience"
+          },
+          "right": "The trip was an unforgettable experience."
+        }
+      ],
+      "explanation": {
+        "ru": "Space в значении «космос» и experience в значении «опыт» — без артикля; a space и an experience — исчисляемые.",
+        "en": "Space meaning the universe and experience meaning knowledge take no article; a space and an experience are countable."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0086",
+      "type": "match",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "prompt": {
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "История как ход событий — без артикля",
+            "en": "History as events — no article"
+          },
+          "right": "History teaches us important lessons."
+        },
+        {
+          "left": {
+            "ru": "История чего-либо — the history of",
+            "en": "The history of something — the"
+          },
+          "right": "The history of this castle is fascinating."
+        },
+        {
+          "left": {
+            "ru": "Общество в целом — без артикля",
+            "en": "Society as a whole — no article"
+          },
+          "right": "Society is changing faster than ever."
+        },
+        {
+          "left": {
+            "ru": "Исчисляемое значение — организация (a society)",
+            "en": "A countable meaning — an organisation (a society)"
+          },
+          "right": "He joined a society for bird lovers."
+        }
+      ],
+      "explanation": {
+        "ru": "History и society в общем значении — без артикля; the history of this castle — конкретная история, а a society — исчисляемая организация.",
+        "en": "History and society in a general sense take no article; the history of this castle is a specific history, and a society is a countable organisation."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0114",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "The book explores ___ nature of friendship.",
+      "translation": {
+        "ru": "Книга исследует природу дружбы."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The nature of — «суть, природа чего-либо»; of-фраза требует определённого артикля.",
+        "en": "The nature of something takes the: the of-phrase makes the idea specific."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0115",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "Living abroad was ___ unforgettable experience for her.",
+      "translation": {
+        "ru": "Жизнь за границей стала для неё незабываемым опытом."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "explanation": {
+        "ru": "Experience как отдельное переживание исчисляемо, поэтому нужен a/an; перед гласным звуком — an.",
+        "en": "Experience meaning a single event is countable, so it takes a or an; before a vowel sound we use an."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0116",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "Education plays an important role in ___ society.",
+      "translation": {
+        "ru": "Образование играет важную роль в обществе."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Society в общем значении «общество вообще» употребляется без артикля.",
+        "en": "Society meaning society in general takes no article."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0117",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "The course covers ___ history of ancient Rome.",
+      "translation": {
+        "ru": "Курс охватывает историю Древнего Рима."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "History уточняется of-фразой of ancient Rome, поэтому нужен the.",
+        "en": "History is specified by the of-phrase of ancient Rome, so it takes the."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0118",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "She is interested in ___ life of wild animals.",
+      "translation": {
+        "ru": "Её интересует жизнь диких животных."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Life уточняется of-фразой of wild animals, поэтому ставим the.",
+        "en": "Life is specified by the of-phrase of wild animals, so it takes the."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0119",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "We should take care of ___ nature.",
+      "translation": {
+        "ru": "Мы должны заботиться о природе."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Nature в значении «природа вокруг нас» — неисчисляемое понятие без артикля.",
+        "en": "Nature meaning the natural world is uncountable and takes no article."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0120",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "The new government came to ___ power last year.",
+      "translation": {
+        "ru": "Новое правительство пришло к власти в прошлом году."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Come to power — устойчивое выражение «прийти к власти» без артикля.",
+        "en": "Come to power is a fixed phrase with no article."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0121",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "The article discusses ___ power of social media.",
+      "translation": {
+        "ru": "В статье обсуждается сила социальных сетей."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The power of — конкретная сила чего-либо, of-фраза требует the.",
+        "en": "The power of something is a specific force, so the of-phrase takes the."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0122",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "There isn't ___ single free space left in the car park.",
+      "translation": {
+        "ru": "На парковке не осталось ни одного свободного места."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "explanation": {
+        "ru": "В обороте not a single + существительное ставим a; space здесь значит «свободное место».",
+        "en": "In the phrase not a single + noun we use a; space here means a free place."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "adv-0123",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "B2",
+      "sentence": "___ History is my favourite subject at school.",
+      "translation": {
+        "ru": "История — мой любимый школьный предмет."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "History как школьный предмет и область знания употребляется без артикля.",
+        "en": "History as a school subject or field of knowledge takes no article."
+      },
+      "tags": [
+        "art-academic",
+        "advanced-abstract"
+      ]
+    },
+    {
+      "id": "def-0039",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "Madrid is ___ capital of Spain.",
+      "translation": {
+        "ru": "Мадрид — столица Испании."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Of-фраза of France делает слово capital конкретным, поэтому нужен the.",
+        "en": "The of-phrase of France makes the noun 'capital' specific, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0040",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "I really like ___ colour of your dress.",
+      "translation": {
+        "ru": "Мне очень нравится цвет твоего платья."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Сочетание the colour of your dress называет конкретный цвет, поэтому ставим the.",
+        "en": "The colour of your dress names a specific colour, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0041",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "___ man in the blue hat is my uncle.",
+      "translation": {
+        "ru": "Мужчина в синей шляпе — мой дядя."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Описание in the blue hat выделяет одного мужчину, поэтому нужен the.",
+        "en": "The description in the blue hat identifies one man, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0042",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "___ book that you lent me was very interesting.",
+      "translation": {
+        "ru": "Книга, которую ты мне одолжил, была очень интересной."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Придаточное that you lent me уточняет, о какой книге речь, поэтому the.",
+        "en": "The clause that you lent me specifies which book is meant, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0043",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "We live in ___ house with the green door.",
+      "translation": {
+        "ru": "Мы живём в доме с зелёной дверью."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Описание with the green door делает дом конкретным, поэтому ставим the.",
+        "en": "The description with the green door makes the house specific, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0044",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "I still remember ___ day when we first met.",
+      "translation": {
+        "ru": "Я до сих пор помню день, когда мы впервые встретились."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Придаточное when we first met выделяет единственный такой день, поэтому ставим the.",
+        "en": "The clause when we first met identifies the only such day, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0045",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "Please take ___ keys on the table.",
+      "translation": {
+        "ru": "Пожалуйста, возьми ключи на столе."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Описание on the table указывает на конкретные ключи, поэтому ставим the.",
+        "en": "The description on the table points to specific keys, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0046",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "Can you tell me ___ name of this street?",
+      "translation": {
+        "ru": "Ты можешь сказать, как называется эта улица?"
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Of-фраза of this street конкретизирует слово name, поэтому ставим the.",
+        "en": "The of-phrase of this street makes the noun 'name' specific, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0047",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "___ woman in the red coat asked me for directions.",
+      "translation": {
+        "ru": "Женщина в красном пальто спросила у меня дорогу."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Описание in the red coat помогает выделить женщину, поэтому ставим the.",
+        "en": "The description in the red coat identifies the woman, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0048",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "The children were playing in ___ garden of the old house.",
+      "translation": {
+        "ru": "Дети играли в саду старого дома."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "Of-фраза of the old house делает слово garden конкретным, поэтому нужен the.",
+        "en": "The of-phrase of the old house makes the noun 'garden' specific, so we use the."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0049",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "Nobody knows ___ name of the new teacher.",
+      "translation": {
+        "ru": "Никто не знает имени нового учителя."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "Of-фраза of the new teacher конкретизирует существительное name — ставим the.",
+        "en": "The of-phrase of the new teacher specifies the noun 'name', so we use the."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0050",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "Thank you for ___ present that you gave me.",
+      "translation": {
+        "ru": "Спасибо за подарок, который ты мне подарил."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "Придаточное that you gave me уточняет, какой подарок, поэтому the.",
+        "en": "The clause that you gave me specifies which present, so we use the."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0051",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "This is ___ house where my grandparents lived.",
+      "translation": {
+        "ru": "Это дом, в котором жили мои бабушка и дедушка."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "Придаточное where my grandparents lived выделяет именно этот дом — the.",
+        "en": "The clause where my grandparents lived identifies this house, so we use the."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0052",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "We could see ___ top of the mountain from our window.",
+      "translation": {
+        "ru": "Из окна мы видели вершину горы."
+      },
+      "answer": "the",
+      "explanation": {
+        "ru": "Of-фраза of the mountain делает слово top определённым, поэтому ставим the.",
+        "en": "The of-phrase of the mountain makes the noun 'top' definite, so we use the."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "art2-0014",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "I liked ___ ending of the film much better than the beginning.",
+      "translation": {
+        "ru": "Мне гораздо больше понравился финал фильма, чем его начало."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Фраза of the film уточняет, о каком именно финале идёт речь, поэтому ставим the: the ending of the film. Конструкция с of конкретизирует существительное.",
+        "en": "The phrase of the film specifies which ending we mean, so we use the: the ending of the film. An of-phrase makes the noun specific."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0143",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "The teacher praised ___ effort of the whole class.",
+      "translation": {
+        "ru": "Учитель похвалил старание всего класса."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Of-фраза of the whole class уточняет существительное effort, поэтому ставим the.",
+        "en": "The of-phrase of the whole class specifies the noun effort, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0144",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "I didn't like ___ taste of the soup.",
+      "translation": {
+        "ru": "Мне не понравился вкус супа."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Of-фраза of the soup делает существительное taste конкретным, поэтому нужен the.",
+        "en": "The of-phrase of the soup makes the noun taste specific, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0145",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "___ boy who won the race is my cousin.",
+      "translation": {
+        "ru": "Мальчик, который выиграл гонку, — мой двоюродный брат."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Относительное придаточное who won the race выделяет мальчика среди других, поэтому ставим the.",
+        "en": "The relative clause who won the race singles out the boy, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0146",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "___ film that we watched yesterday was very long.",
+      "translation": {
+        "ru": "Фильм, который мы вчера смотрели, был очень длинным."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Придаточное that we watched yesterday уточняет, о каком фильме речь, поэтому нужен the.",
+        "en": "The clause that we watched yesterday identifies the film, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0147",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "We followed ___ path along the river — the one we had seen on the map — until we reached the bridge.",
+      "translation": {
+        "ru": "Мы шли по тропинке вдоль реки — той, что видели на карте, — пока не дошли до моста."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Описание after существительного along the river уточняет тропинку, поэтому ставим the.",
+        "en": "The description along the river identifies the path, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0148",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "___ man who repaired our roof did a great job.",
+      "translation": {
+        "ru": "Мужчина, который чинил нам крышу, отлично справился."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Придаточное who repaired our roof выделяет конкретного мужчину, поэтому нужен the.",
+        "en": "The clause who repaired our roof identifies the man, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0149",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "___ price of the flat seems reasonable.",
+      "translation": {
+        "ru": "Цена квартиры кажется разумной."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Of-фраза of the flat делает существительное price определённым, поэтому ставим the.",
+        "en": "The of-phrase of the flat makes the noun price definite, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0150",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "___ door of the garage was left open.",
+      "translation": {
+        "ru": "Дверь гаража оставили открытой."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Of-фраза of the garage уточняет, о какой двери речь, поэтому нужен the.",
+        "en": "The of-phrase of the garage shows which door is meant, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0151",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "We spent the night in a small hotel. In the morning, ___ owner served us breakfast.",
+      "translation": {
+        "ru": "Мы переночевали в маленьком отеле. Утром хозяин подал нам завтрак."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Хозяин известен из контекста — он хозяин того самого отеля, поэтому ставим the.",
+        "en": "The owner is clear from the context — the owner of that hotel — so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0152",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "She opened the letter and read ___ news with tears in her eyes.",
+      "translation": {
+        "ru": "Она вскрыла письмо и со слезами на глазах прочла новость."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Новость известна из контекста — она в письме, поэтому нужен определённый артикль.",
+        "en": "The news is clear from the context — it is in the letter — so the definite article is used."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0053",
+      "type": "match",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример.",
+        "en": "Match each rule with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Of-фраза",
+            "en": "Of-phrase"
+          },
+          "right": "The roof of the house was covered with snow."
+        },
+        {
+          "left": {
+            "ru": "Относительное придаточное",
+            "en": "Relative clause"
+          },
+          "right": "The girl who called you is my sister."
+        },
+        {
+          "left": {
+            "ru": "Описание после существительного",
+            "en": "Description after the noun"
+          },
+          "right": "The man in the black hat is a famous actor."
+        },
+        {
+          "left": {
+            "ru": "Конкретизация по ситуации",
+            "en": "Specified by the situation"
+          },
+          "right": "Could you pass me the salt, please?"
+        }
+      ],
+      "explanation": {
+        "ru": "Во всех примерах предмет уточняется: of-фразой, придаточным, описанием или ситуацией.",
+        "en": "In all the examples the thing is specified: by an of-phrase, a relative clause, a description or the situation."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0103",
+      "type": "match",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте способ конкретизации и пример.",
+        "en": "Match each way of specifying a noun with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "of-фраза",
+            "en": "of-phrase"
+          },
+          "right": "The handle of the door was broken."
+        },
+        {
+          "left": {
+            "ru": "относительное придаточное",
+            "en": "relative clause"
+          },
+          "right": "The woman who won the prize is my aunt."
+        },
+        {
+          "left": {
+            "ru": "описание после существительного",
+            "en": "description after the noun"
+          },
+          "right": "The boy with the red backpack is my brother."
+        },
+        {
+          "left": {
+            "ru": "конкретизация по контексту",
+            "en": "specified by the context"
+          },
+          "right": "I opened the box and found the old letters inside."
+        }
+      ],
+      "explanation": {
+        "ru": "The нужен, когда существительное уточняется of-фразой, придаточным, описанием или понятно из контекста.",
+        "en": "The is needed when the noun is specified by an of-phrase, a relative clause, a description or the context."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0104",
+      "type": "match",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте способ конкретизации и пример.",
+        "en": "Match each way of specifying a noun with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "of-фраза",
+            "en": "of-phrase"
+          },
+          "right": "The price of the ticket surprised everyone."
+        },
+        {
+          "left": {
+            "ru": "относительное придаточное",
+            "en": "relative clause"
+          },
+          "right": "The students who passed the exam were very happy."
+        },
+        {
+          "left": {
+            "ru": "описание после существительного",
+            "en": "description after the noun"
+          },
+          "right": "The car behind us drove very slowly."
+        },
+        {
+          "left": {
+            "ru": "конкретизация по контексту",
+            "en": "specified by the context"
+          },
+          "right": "She picked up a letter and recognised the handwriting."
+        }
+      ],
+      "explanation": {
+        "ru": "Уточнение делает предмет определённым: of-фраза, придаточное, описание или контекст указывают, о каком именно предмете речь.",
+        "en": "Specification makes a thing definite: an of-phrase, a relative clause, a description or the context shows which thing is meant."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0105",
+      "type": "match",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте способ конкретизации и пример.",
+        "en": "Match each way of specifying a noun with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "of-фраза",
+            "en": "of-phrase"
+          },
+          "right": "The cover of the book was bright red."
+        },
+        {
+          "left": {
+            "ru": "относительное придаточное",
+            "en": "relative clause"
+          },
+          "right": "The film that we watched last night was boring."
+        },
+        {
+          "left": {
+            "ru": "описание после существительного",
+            "en": "description after the noun"
+          },
+          "right": "The shop on the corner sells fresh bread."
+        },
+        {
+          "left": {
+            "ru": "конкретизация по контексту",
+            "en": "specified by the context"
+          },
+          "right": "I received an email this morning, but the message made no sense."
+        }
+      ],
+      "explanation": {
+        "ru": "Если после существительного идёт уточнение — of-фраза, придаточное или описание, — ставим the; контекст действует так же.",
+        "en": "If a noun is followed by an of-phrase, a relative clause or a description, we use the; the context has the same effect."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0106",
+      "type": "match",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте способ конкретизации и пример.",
+        "en": "Match each way of specifying a noun with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "of-фраза",
+            "en": "of-phrase"
+          },
+          "right": "The end of the story was completely unexpected."
+        },
+        {
+          "left": {
+            "ru": "относительное придаточное",
+            "en": "relative clause"
+          },
+          "right": "The man who fixed our car knew my father."
+        },
+        {
+          "left": {
+            "ru": "описание после существительного",
+            "en": "description after the noun"
+          },
+          "right": "The girl in the blue dress is my cousin."
+        },
+        {
+          "left": {
+            "ru": "конкретизация по контексту",
+            "en": "specified by the context"
+          },
+          "right": "She bought a dress for the wedding, but the dress did not fit her."
+        }
+      ],
+      "explanation": {
+        "ru": "The указывает на предмет, который уточнён после существительного или уже известен из предыдущей части предложения.",
+        "en": "The points to a thing that is specified after the noun or already known from the earlier part of the sentence."
+      },
+      "tags": [
+        "art-academic",
+        "the-specific"
+      ]
+    },
+    {
+      "id": "def-0138",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "He is ___ only doctor in the village.",
+      "translation": {
+        "ru": "Он единственный врач в деревне."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The only называет единственного человека в своём роде, поэтому нужен the.",
+        "en": "The phrase the only names the single person of that kind, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-superlatives"
+      ]
+    },
+    {
+      "id": "def-0139",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "She ordered ___ same drink as her friend.",
+      "translation": {
+        "ru": "Она заказала такой же напиток, как её подруга."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "The same — устойчивое сочетание, которое употребляется с определённым артиклем.",
+        "en": "The same is a fixed phrase that takes the definite article."
+      },
+      "tags": [
+        "art-academic",
+        "the-superlatives"
+      ]
+    },
+    {
+      "id": "def-0140",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "We left the beach on ___ last day of our holiday.",
+      "translation": {
+        "ru": "Мы уехали с пляжа в последний день отпуска."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Last в значении «последний» называет единственный день, поэтому ставим the.",
+        "en": "Last meaning 'the final one' names a unique day, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-superlatives"
+      ]
+    },
+    {
+      "id": "def-0141",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "Please read ___ next paragraph carefully.",
+      "translation": {
+        "ru": "Пожалуйста, внимательно прочитай следующий абзац."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "explanation": {
+        "ru": "Next в значении «следующий» указывает на определённый абзац, поэтому нужен the.",
+        "en": "Next meaning 'the following one' points to a particular paragraph, so we use the."
+      },
+      "tags": [
+        "art-academic",
+        "the-superlatives"
+      ]
+    },
+    {
+      "id": "def-0142",
+      "type": "choice",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "sentence": "My ___ closest friend lives in Canada.",
+      "translation": {
+        "ru": "Мой самый близкий друг живёт в Канаде."
+      },
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "После притяжательного местоимения my артикль не нужен: определённость уже выражена.",
+        "en": "After the possessive my no article is needed: the possessive already expresses definiteness."
+      },
+      "tags": [
+        "art-academic",
+        "the-superlatives"
+      ]
+    },
+    {
+      "id": "def-0038",
+      "type": "match",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример.",
+        "en": "Match each rule with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Превосходная степень",
+            "en": "Superlative degree"
+          },
+          "right": "She is the youngest singer in the group."
+        },
+        {
+          "left": {
+            "ru": "Порядковое числительное",
+            "en": "Ordinal number"
+          },
+          "right": "This is the second time I have visited London."
+        },
+        {
+          "left": {
+            "ru": "Единственный в своём роде",
+            "en": "The only one"
+          },
+          "right": "He is the only student who knows the answer."
+        },
+        {
+          "left": {
+            "ru": "Тот же самый",
+            "en": "The same"
+          },
+          "right": "We are going to the same restaurant as last year."
+        }
+      ],
+      "explanation": {
+        "ru": "Все примеры требуют the: превосходная степень, порядковое числительное, the only и the same.",
+        "en": "All the examples need the: a superlative, an ordinal number, the only and the same."
+      },
+      "tags": [
+        "art-academic",
+        "the-superlatives"
+      ]
+    },
+    {
+      "id": "def-0099",
+      "type": "match",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример.",
+        "en": "Match each rule with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "превосходная степень",
+            "en": "superlative degree"
+          },
+          "right": "She is the fastest runner in our school."
+        },
+        {
+          "left": {
+            "ru": "порядковое числительное",
+            "en": "ordinal number"
+          },
+          "right": "Today is the first day of spring."
+        },
+        {
+          "left": {
+            "ru": "the only — единственный",
+            "en": "the only"
+          },
+          "right": "He was the only guest who arrived early."
+        },
+        {
+          "left": {
+            "ru": "the same — тот же самый",
+            "en": "the same"
+          },
+          "right": "We ordered the same soup as our friends."
+        }
+      ],
+      "explanation": {
+        "ru": "Перед превосходной степенью, порядковым числительным и в оборотах the only, the same ставим определённый артикль.",
+        "en": "The definite article is used before a superlative, an ordinal number and in the phrases the only and the same."
+      },
+      "tags": [
+        "art-academic",
+        "the-superlatives"
+      ]
+    },
+    {
+      "id": "def-0100",
+      "type": "match",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример.",
+        "en": "Match each rule with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "превосходная степень",
+            "en": "superlative degree"
+          },
+          "right": "This is the most beautiful garden I have ever seen."
+        },
+        {
+          "left": {
+            "ru": "порядковое числительное",
+            "en": "ordinal number"
+          },
+          "right": "Her office is on the second floor."
+        },
+        {
+          "left": {
+            "ru": "the next — следующий",
+            "en": "the next"
+          },
+          "right": "The next bus leaves at half past five."
+        },
+        {
+          "left": {
+            "ru": "the last — последний",
+            "en": "the last"
+          },
+          "right": "That was the last train to the city."
+        }
+      ],
+      "explanation": {
+        "ru": "Слова next и last в значении «следующий» и «последний» тоже требуют the, как и превосходная степень с порядковым числительным.",
+        "en": "The words next and last meaning 'the following' and 'the final' also take the, just like superlatives and ordinal numbers."
+      },
+      "tags": [
+        "art-academic",
+        "the-superlatives"
+      ]
+    },
+    {
+      "id": "def-0101",
+      "type": "match",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример.",
+        "en": "Match each rule with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "превосходная степень",
+            "en": "superlative degree"
+          },
+          "right": "Winter is the coldest season in this region."
+        },
+        {
+          "left": {
+            "ru": "the only — единственный",
+            "en": "the only"
+          },
+          "right": "This is the only key to the safe."
+        },
+        {
+          "left": {
+            "ru": "the same — тот же самый",
+            "en": "the same"
+          },
+          "right": "They chose the same hotel as last summer."
+        },
+        {
+          "left": {
+            "ru": "порядковое числительное",
+            "en": "ordinal number"
+          },
+          "right": "He finished the third lap in record time."
+        }
+      ],
+      "explanation": {
+        "ru": "Превосходная степень, порядковые числительные, the only и the same называют предмет единственным в своём роде, поэтому требуют the.",
+        "en": "Superlatives, ordinals, the only and the same present a thing as unique in its group, so they take the."
+      },
+      "tags": [
+        "art-academic",
+        "the-superlatives"
+      ]
+    },
+    {
+      "id": "def-0102",
+      "type": "match",
+      "ruleId": "art-academic",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример.",
+        "en": "Match each rule with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "превосходная степень",
+            "en": "superlative degree"
+          },
+          "right": "He is the best cook in our family."
+        },
+        {
+          "left": {
+            "ru": "the last — последний",
+            "en": "the last"
+          },
+          "right": "We caught the last ferry to the island."
+        },
+        {
+          "left": {
+            "ru": "the next — следующий",
+            "en": "the next"
+          },
+          "right": "Please wait for the next announcement."
+        },
+        {
+          "left": {
+            "ru": "порядковое числительное",
+            "en": "ordinal number"
+          },
+          "right": "She answered the fifth question correctly."
+        }
+      ],
+      "explanation": {
+        "ru": "Перед превосходной степенью и порядковыми числительными ставим the; в оборотах the last и the next артикль тоже фиксирован.",
+        "en": "The is used before superlatives and ordinals; in the phrases the last and the next the article is fixed too."
+      },
+      "tags": [
+        "art-academic",
+        "the-superlatives"
+      ]
+    }
+  ]
+}

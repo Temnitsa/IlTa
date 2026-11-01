@@ -28,6 +28,7 @@ import com.iltatrainer.app.data.ProgressState
 import com.iltatrainer.app.data.Question
 import com.iltatrainer.app.data.Rule
 import com.iltatrainer.app.data.RuleSection
+import com.iltatrainer.app.domain.TOPIC_SESSION_SIZE
 import com.iltatrainer.app.domain.StatsCalculator
 import com.iltatrainer.app.ui.components.AccuracyBar
 import com.iltatrainer.app.ui.components.AppCard
@@ -95,7 +96,7 @@ private fun RuleDetailContent(
 
         ThemeProgressCard(
             progressPercent = themeProgress,
-            questionCount = questions.size,
+            poolCount = questions.size,
             accent = accent,
         )
 
@@ -135,7 +136,7 @@ private fun RuleDetailContent(
                     maxLines = 1,
                 )
                 Text(
-                    text = questionsLabel(questions.size),
+                    text = questionsLabel(TOPIC_SESSION_SIZE),
                     style = MaterialTheme.typography.labelSmall,
                     maxLines = 1,
                 )
@@ -172,8 +173,9 @@ private fun RuleSummaryCard(rule: Rule) {
 }
 
 @Composable
-private fun ThemeProgressCard(progressPercent: Int, questionCount: Int, accent: Color) {
-    val questionsText = questionsLabel(questionCount)
+private fun ThemeProgressCard(progressPercent: Int, poolCount: Int, accent: Color) {
+    val sessionText = questionsLabel(TOPIC_SESSION_SIZE)
+    val poolText = questionsLabel(poolCount)
     AppCard {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(
@@ -194,8 +196,8 @@ private fun ThemeProgressCard(progressPercent: Int, questionCount: Int, accent: 
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(
                 text = tr(
-                    "$questionsText в теме",
-                    "$questionsText in this topic",
+                    "$sessionText в тренировке · $poolText в теме",
+                    "$sessionText per session · $poolText in this topic",
                 ),
                 style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
