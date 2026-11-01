@@ -15,6 +15,9 @@ enum class PracticeMode {
     /** Open mistakes: original question + 3 similar questions of the same theme. */
     MISTAKES,
 
+    /** Sentence-building exercises only. */
+    BUILD,
+
     /** Explicit list of question ids (for "retry these mistakes"). */
     RETRY,
 }
@@ -65,6 +68,7 @@ object SessionBuilder {
                 random = random,
             )
             PracticeMode.MISTAKES -> buildMistakeReview(state, questions, size, random)
+            PracticeMode.BUILD -> weightedPick(questions.filter { it.isBuild }, state, size, random)
             PracticeMode.QUICK -> weightedPick(
                 if (config.ruleIds.isEmpty()) questions else questions.filter { it.ruleId in config.ruleIds },
                 state,
@@ -174,9 +178,10 @@ object SessionBuilder {
     ): List<Question> {
         if (pool.size <= size) return pool.shuffled(random)
         val matches = pool.filter { it.isMatch }.shuffled(random).take(5)
-        val choiceCount = (size - matches.size).coerceAtLeast(0)
+        val builds = pool.filter { it.isBuild }.shuffled(random).take(5)
+        val choiceCount = (size - matches.size - builds.size).coerceAtLeast(0)
         val choices = weightedPick(pool.filter { it.isChoice }, state, choiceCount, random)
-        return (matches + choices).shuffled(random)
+        return (matches + builds + choices).shuffled(random)
     }
 
     private fun accuracy(state: ProgressState, questionId: String): Float {

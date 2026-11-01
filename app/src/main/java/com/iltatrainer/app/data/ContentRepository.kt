@@ -132,6 +132,11 @@ class ContentRepository(private val assets: AssetManager) {
         "match" -> question.pairs.size >= 2 && question.pairs.all { it.right.isNotBlank() } &&
             question.explanation.ru.isNotBlank() &&
             question.explanation.en.isNotBlank()
+        "build" -> question.words.size in 3..20 &&
+            question.answers.isNotEmpty() &&
+            question.answers.all { answer -> answer.sorted() == question.words.sorted() } &&
+            question.explanation.ru.isNotBlank() &&
+            question.explanation.en.isNotBlank()
         else -> false
     }
 
@@ -139,6 +144,6 @@ class ContentRepository(private val assets: AssetManager) {
         const val DATA_DIR = "data"
         const val SECTIONS_PATH = "$DATA_DIR/sections.json"
         const val CONTENT_DIR = "$DATA_DIR/content"
-        val SUPPORTED_TYPES = setOf("choice", "match")
+        val SUPPORTED_TYPES = setOf("choice", "match", "build")
     }
 }

@@ -4,17 +4,17 @@
 английских **артиклей** и **предлогов**.
 
 > **GitHub:** [github.com/Temnitsa/IlTa](https://github.com/Temnitsa/IlTa) ·
-> **Готовый APK:** [IlTa 2.6.0](https://github.com/Temnitsa/IlTa/releases/latest) — 7,1 МБ, Android 8.0+,
-> release-подпись, package `com.iltatrainer.app`, versionCode 8.
-> SHA-256: `57fa7568dd2fd16ccc73d4a879f7ea0a3f3e1dc47e1e6768eb72d3cc01a79edd`.
-> Установка: скачайте APK из Releases или `adb install -r IlTa-v2.6.0-release.apk`.
+> **Готовый APK:** [IlTa 2.7.0](https://github.com/Temnitsa/IlTa/releases/latest) — 7,4 МБ, Android 8.0+,
+> release-подпись, package `com.iltatrainer.app`, versionCode 9.
+> SHA-256: `PLACEHOLDER_27`.
+> Установка: скачайте APK из Releases или `adb install -r IlTa-v2.7.0-release.apk`.
 
 ## Возможности
 
-- **Два раздела** на входном экране: **Articles** (9 тем) и **Prepositions** (6 тем).
-- **940 упражнений**: 9 тем статей по **70** вопросов в пуле и 6 тем предлогов по **50–60**.
-  В тренировке любой темы — **30 вопросов из пула** (5 «сопоставление» + 25 «выбор варианта»).
-  Упражнений с вводом с клавиатуры нет.
+- **Три раздела** на входном экране: **Articles** (9 тем), **Prepositions** (6 тем), **Tenses** (12 тем).
+- **1300 упражнений**: 9 тем статей по 70, 6 тем предлогов по 50–60, 12 тем времён по 30.
+  В тренировке — 30 вопросов из пула; в темах времён есть **5 заданий «собери предложение»**.
+  Упражнений с вводом с клавиатуры нет: слова собираются тапами.
 - **Быстрая тренировка с выбором тем**: во всплывающей шторке отмечаете галочками одну
   или несколько тем (можно микс) — тренировка собирается только из них; по умолчанию
   выбраны все темы, приоритет — слабым и новым вопросам.
@@ -123,7 +123,8 @@ JSON-файлы папки `content`, поэтому контент можно �
 |---|---|---|---|---|
 | Articles (артикли) | 9 | 630 | 70 на тему | 30 (5 match + 25 choice) |
 | Prepositions (предлоги) | 6 | 310 | 50–60 на тему | 30 (5 match + 25 choice) |
-| **Всего** | **15** | **940** | | |
+| Tenses (времена) | 12 | 360 | 30 на тему | 30 (5 match + 5 build + 20 choice) |
+| **Всего** | **27** | **1300** | | |
 
 Тексты правил: `body` объясняет правило и **не дублирует примеры**; примеры — только
 в списке `examples` под правилом (3–5 на секцию). Это проверяется валидатором.
@@ -149,7 +150,7 @@ python3 scripts/validate_content.py app/src/main/assets/data/content
   "schema": 3,
   "appVersion": "2.3.0",
   "exportedAt": "2026-11-01T10:00:00Z",
-  "content": { "sections": 2, "rules": 15, "questions": 940, "contentSchema": 3 },
+  "content": { "sections": 3, "rules": 27, "questions": 1300, "contentSchema": 3 },
   "state": {
     "version": 1, "totalAnswered": 120, "totalCorrect": 96,
     "mistakes": { "question-id": { "ruleId": "...", "originalCorrect": false, "similarCorrect": 2 } },
@@ -179,11 +180,11 @@ scripts/gradle.sh :app:testDebugUnitTest
 - `SessionBuilderTest` — режимы сессий, выбор подмножества тем, разбор ошибок «исходный + 3 похожих»;
 - `StatsCalculatorTest` — точность, серии, аддитивный штрафной прогресс темы;
 - `ProgressSerializationTest` / `ProgressConfigCodecTest` — сериализация и совместимость конфига;
-- `ContentValidationTest` — 2 раздела, 15 тем, 940 вопросов, пулы 70/50–60 и тренировка 30, чистые тексты правил.
+- `ContentValidationTest` — 3 раздела, 27 тем, 1300 вопросов, пул 70/50–60, тренировка 30, build-вопросы, чистые правила.
 
 ## Проверка
 
-- 46 unit-тестов и валидатор контента — зелёные.
+- 48 unit-тестов и валидатор контента — зелёные.
 - QA-ревью контента: [статьи v2.2](docs/qa-review-v3-articles.md),
   [предлоги v2.2](docs/qa-review-v3-prepositions.md),
   [новые вопросы статей v2.3](docs/qa-review-v4-articles.md),
@@ -191,7 +192,9 @@ scripts/gradle.sh :app:testDebugUnitTest
   [структура статей 2.5, часть A](docs/qa-review-v5-articles-a.md),
   [структура статей 2.5, часть B](docs/qa-review-v5-articles-b.md),
   [структура предлогов 2.6, часть A](docs/qa-review-v6-prepositions-a.md),
-  [структура предлогов 2.6, часть B](docs/qa-review-v6-prepositions-b.md) — критичные замечания и основные major-пункты исправлены.
+  [структура предлогов 2.6, часть B](docs/qa-review-v6-prepositions-b.md),
+  [времена 2.7, часть A](docs/qa-review-v7-tenses-a.md),
+  [времена 2.7, часть B](docs/qa-review-v7-tenses-b.md) — критичные замечания и основные major-пункты исправлены.
 - Ручная проверка на эмуляторе Android 15: навигация, 30 вопросов в теме, фидбек,
   создание ошибки → её закрытие после «исходного + 3 похожих», рост прогресса темы,
   экспорт конфига schema 3 (с `mistakes`/`closedMistakes`), отсутствие избранного.

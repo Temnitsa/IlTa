@@ -11,6 +11,23 @@ import org.junit.Test
 
 class AnswerCheckerTest {
 
+    @Test
+    fun `build answers accept any accepted order`() {
+        val question = Question(
+            id = "b1", type = "build", ruleId = "tense-present-simple",
+            words = listOf("She", "walks", "to", "school"),
+            answers = listOf(
+                listOf("She", "walks", "to", "school"),
+                listOf("To", "school", "she", "walks"),
+            ),
+        )
+        assertTrue(AnswerChecker.isBuildCorrect(question, listOf("She", "walks", "to", "school")))
+        assertTrue(AnswerChecker.isBuildCorrect(question, listOf("To", "school", "she", "walks")))
+        assertFalse(AnswerChecker.isBuildCorrect(question, listOf("walks", "She", "to", "school")))
+        assertEquals("She walks to school.", AnswerChecker.correctText(question))
+    }
+
+
     private fun choice(
         answer: String,
         options: List<String>,

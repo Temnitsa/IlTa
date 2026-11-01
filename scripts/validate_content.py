@@ -17,7 +17,7 @@ from pathlib import Path
 
 ARTICLES = {"a", "an", "the", "\u2014"}
 LEVELS = {"A1", "A2", "B1", "B2"}
-TYPES = {"choice", "match"}
+TYPES = {"choice", "match", "build"}
 ARTICLE_SECTION = "articles"
 RU_LETTERS = re.compile(r"[А-Яа-яЁё]")
 
@@ -210,6 +210,35 @@ def validate_match(question, where: str, seen_match_rights: dict[str, str] | Non
             rights.add(right)
 
 
+def validate_build(question, where: str) -> None:
+    words = question.get("words")
+    answers = question.get("answers")
+    if not isinstance(words, list) or not (3 <= len(words) <= 20):
+        err(where, "`words` must be a list of 3..20 tokens")
+        return
+    if any(not isinstance(w, str) or not w.strip() for w in words):
+        err(where, "every word token must be a non-empty string")
+        return
+    if not isinstance(answers, list) or not (1 <= len(answers) <= 4):
+        err(where, "`answers` must contain 1..4 accepted token sequences")
+        return
+    seen = set()
+    for index, answer in enumerate(answers):
+        if not isinstance(answer, list) or any(not isinstance(t, str) for t in answer):
+            err(where, f"answers[{index}] must be a list of strings")
+            continue
+        if sorted(answer) != sorted(words):
+            err(where, f"answers[{index}] must be a permutation of `words`")
+        key = tuple(answer)
+        if key in seen:
+            err(where, f"duplicate accepted answer {answer}")
+        seen.add(key)
+        if "___" in " ".join(answer):
+            err(where, "build answers must not contain `___`")
+    if question.get("sentence") is not None:
+        err(where, "build questions must not include a `sentence` field")
+
+
 def validate_question(question, where: str, known_rules: dict[str, str] | None,
                       seen_question_ids: set[str], seen_sentences: dict[str, str],
                       seen_match_rights: dict[str, str] | None = None) -> None:
@@ -244,6 +273,16 @@ def validate_question(question, where: str, known_rules: dict[str, str] | None,
             key = re.sub(r"\s+", " ", sentence.strip().lower())
             if key in seen_sentences:
                 err(where, f"duplicate sentence (also used by {seen_sentences[key]})")
+            else:
+                seen_sentences[key] = str(question_id)
+    elif question_type == "build":
+        validate_build(question, where)
+        answers = question.get("answers") or []
+        if answers:
+            sentence = " ".join(answers[0])
+            key = re.sub(r"\s+", " ", sentence.strip().lower())
+            if key in seen_sentences:
+                err(where, f"duplicate build sentence (also used by {seen_sentences[key]})")
             else:
                 seen_sentences[key] = str(question_id)
     else:
@@ -342,7 +381,7 @@ def main(argv: list[str]) -> int:
     seen_sentences: dict[str, str] = {}
     seen_match_rights: dict[str, str] = {}
     total_questions = 0
-    type_counts = {"choice": 0, "match": 0}
+    type_counts = {"choice": 0, "match": 0, "build": 0}
     level_counts = {level: 0 for level in LEVELS}
     section_counts: dict[str, int] = {}
 
@@ -375,7 +414,7 @@ def main(argv: list[str]) -> int:
                 rule_id = question.get("ruleId")
                 if rule_id:
                     rule_question_counts[rule_id] = rule_question_counts.get(rule_id, 0) + 1
-                    type_counter = rule_type_counts.setdefault(rule_id, {"choice": 0, "match": 0})
+                    type_counter = rule_type_counts.setdefault(rule_id, {"choice": 0, "match": 0, "build": 0})
                     if question_type in type_counter:
                         type_counter[question_type] += 1
                     section_id = known_rule_sections.get(rule_id)
@@ -393,9 +432,20 @@ def main(argv: list[str]) -> int:
     if not skip_quotas:
         for rule_id in sorted(known_rule_sections):
             total = rule_question_counts.get(rule_id, 0)
-            types = rule_type_counts.get(rule_id, {"choice": 0, "match": 0})
-            is_article_theme = known_rule_sections.get(rule_id) == "articles"
-            if is_article_theme:
+            types = rule_type_counts.get(rule_id, {"choice": 0, "match": 0, "build": 0})
+            rule_section = known_rule_sections.get(rule_id)
+            is_article_theme = rule_section == "articles"
+            is_tense_theme = rule_section == "tenses"
+            if is_tense_theme:
+                if total != 30:
+                    err("quotas", f"tense theme `{rule_id}` must have exactly 30 questions, found {total}")
+                if types.get("choice", 0) != 20:
+                    err("quotas", f"tense theme `{rule_id}` must have 20 choice questions, found {types.get('choice', 0)}")
+                if types.get("build", 0) != 5:
+                    err("quotas", f"tense theme `{rule_id}` must have 5 build questions, found {types.get('build', 0)}")
+                if types.get("match", 0) != 5:
+                    err("quotas", f"tense theme `{rule_id}` must have 5 match questions, found {types.get('match', 0)}")
+            elif is_article_theme:
                 if total != 70:
                     err("quotas", f"article theme `{rule_id}` must have exactly 70 questions, found {total}")
                 if types.get("choice", 0) < 25:
@@ -414,8 +464,8 @@ def main(argv: list[str]) -> int:
             warn("rules", f"rule `{rule_id}` has no questions")
 
     if directory_mode:
-        if total_questions < 940:
-            warn("content", f"expected 940 questions, found {total_questions}")
+        if total_questions < 1300:
+            warn("content", f"expected 1300 questions, found {total_questions}")
         for section_id, count in sorted(section_counts.items()):
             print(f"section `{section_id}`: {count} questions")
 

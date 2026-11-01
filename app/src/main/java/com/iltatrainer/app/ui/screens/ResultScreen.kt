@@ -212,7 +212,29 @@ private fun MistakeCard(
             )
         }
         Spacer(Modifier.height(10.dp))
-        if (question.isMatch) {
+        if (question.isBuild) {
+            Text(
+                text = tr("Правильное предложение", "Correct sentence"),
+                style = MaterialTheme.typography.labelSmall,
+                fontWeight = FontWeight.SemiBold,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            Spacer(Modifier.height(4.dp))
+            Text(
+                text = AnswerChecker.correctText(question),
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.Bold,
+            )
+            Spacer(Modifier.height(8.dp))
+            Text(
+                text = tr(
+                    "Ваш ответ: ${mistake.userInput}",
+                    "Your answer: ${mistake.userInput}",
+                ),
+                style = MaterialTheme.typography.labelMedium,
+                color = MaterialTheme.colorScheme.error,
+            )
+        } else if (question.isMatch) {
             Text(
                 text = question.prompt?.text(language)
                     ?: tr("Сопоставление правила и примера", "Rule ↔ example matching"),

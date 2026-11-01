@@ -46,7 +46,7 @@ class ContentValidationTest {
     @Test
     fun `section catalogue contains articles and prepositions`() {
         val sections = loadSections()
-        assertEquals(listOf("articles", "prepositions"), sections.map { it.id })
+        assertEquals(listOf("articles", "prepositions", "tenses"), sections.map { it.id })
         sections.forEach { section ->
             assertTrue("section ${section.id} has blank title", section.title.ru.isNotBlank() && section.title.en.isNotBlank())
             assertTrue("section ${section.id} has blank short", section.short.ru.isNotBlank() && section.short.en.isNotBlank())
@@ -65,12 +65,14 @@ class ContentValidationTest {
         val questions = packages.flatMap { it.questions }
         val ruleIds = rules.map { it.id }.toSet()
 
-        assertEquals(15, rules.size)
+        assertEquals(27, rules.size)
         assertEquals(9, rules.count { it.sectionId == "articles" })
         assertEquals(6, rules.count { it.sectionId == "prepositions" })
-        assertEquals(940, questions.size)
+        assertEquals(12, rules.count { it.sectionId == "tenses" })
+        assertEquals(1300, questions.size)
         assertEquals(630, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "articles" })
         assertEquals(310, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "prepositions" })
+        assertEquals(360, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "tenses" })
 
         assertEquals("rule ids must be unique", rules.size, ruleIds.size)
         assertEquals("question ids must be unique", questions.size, questions.map { it.id }.toSet().size)
@@ -87,7 +89,12 @@ class ContentValidationTest {
 
         rules.forEach { rule ->
             val ofRule = questions.filter { it.ruleId == rule.id }
-            if (rule.sectionId == "articles") {
+            if (rule.sectionId == "tenses") {
+                assertEquals("tense theme ${rule.id} must have exactly 30 questions", 30, ofRule.size)
+                assertEquals("tense theme ${rule.id} must have 20 choice questions", 20, ofRule.count { it.type == "choice" })
+                assertEquals("tense theme ${rule.id} must have 5 build questions", 5, ofRule.count { it.type == "build" })
+                assertEquals("tense theme ${rule.id} must have 5 match questions", 5, ofRule.count { it.type == "match" })
+            } else if (rule.sectionId == "articles") {
                 assertEquals("article theme ${rule.id} must have exactly 70 pool questions", 70, ofRule.size)
                 assertTrue("article theme ${rule.id} needs at least 25 choice questions", ofRule.count { it.type == "choice" } >= 25)
                 assertTrue("article theme ${rule.id} needs at least 5 match questions", ofRule.count { it.type == "match" } >= 5)
@@ -149,6 +156,23 @@ class ContentValidationTest {
                 "${question.id} canonical answer must match",
                 AnswerChecker.normalize(question.answer.orEmpty()) == AnswerChecker.canonicalAnswer(question),
             )
+        }
+    }
+
+    @Test
+    fun `build questions are well formed`() {
+        val packages = loadPackages()
+        val builds = packages.flatMap { it.questions }.filter { it.type == "build" }
+        assertTrue("at least one build question expected", builds.isNotEmpty())
+        builds.forEach { question ->
+            assertTrue("${question.id} needs 3..20 words", question.words.size in 3..20)
+            assertTrue("${question.id} needs 1..4 accepted orders", question.answers.size in 1..4)
+            question.answers.forEach { answer ->
+                assertEquals("${question.id} answer must be a permutation of words", question.words.sorted(), answer.sorted())
+            }
+            assertTrue("${question.id} build question must not have a sentence", question.sentence.isNullOrBlank())
+            assertTrue("${question.id} needs translation", !question.translation?.ru.isNullOrBlank())
+            assertTrue("${question.id} needs explanations", question.explanation.ru.isNotBlank() && question.explanation.en.isNotBlank())
         }
     }
 

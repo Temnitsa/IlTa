@@ -33,6 +33,23 @@
         "ru": "Предлоги времени, места и движения, зависимые предлоги после прилагательных и глаголов, устойчивые сочетания.",
         "en": "Prepositions of time, place and movement, dependent prepositions after adjectives and verbs, fixed phrases."
       }
+    },
+    {
+      "id": "tenses",
+      "order": 30,
+      "emoji": "🕒",
+      "title": {
+        "ru": "Времена",
+        "en": "Tenses"
+      },
+      "short": {
+        "ru": "Present · Past · Future",
+        "en": "Present · Past · Future"
+      },
+      "description": {
+        "ru": "Все времена английского языка: настоящее, прошедшее и будущее, Simple, Continuous, Perfect и Perfect Continuous — правила и сборка предложений.",
+        "en": "All English tenses: present, past and future, Simple, Continuous, Perfect and Perfect Continuous — rules and sentence building."
+      }
     }
   ]
 }

@@ -68,12 +68,14 @@ fun TopicsScreen(
     contentErrors: List<String>,
     onStartQuickPractice: (List<String>) -> Unit,
     onStartMistakes: () -> Unit,
+    onStartBuildPractice: () -> Unit,
     onOpenSection: (sectionId: String) -> Unit,
     modifier: Modifier = Modifier,
 ) {
     val sessionSize = progress.settings.sessionSize
     val streak = StatsCalculator.streak(progress)
     val openMistakesCount = SessionBuilder.openMistakeCount(progress)
+    val buildTaskCount = questions.count { it.isBuild }
     val rulesBySection = remember(rules) { rules.groupBy { it.sectionId } }
     val questionsByRule = remember(questions) { questions.groupingBy { it.ruleId }.eachCount() }
 
@@ -132,6 +134,13 @@ fun TopicsScreen(
                     )
                 }
             }
+        }
+
+        item(key = "build-practice") {
+            BuildPracticeCard(
+                taskCount = buildTaskCount,
+                onClick = onStartBuildPractice,
+            )
         }
 
         item(key = "mistake-review") {
@@ -523,6 +532,51 @@ private fun RuleCheckRow(
             overflow = TextOverflow.Ellipsis,
             modifier = Modifier.weight(1f),
         )
+    }
+}
+
+@Composable
+private fun BuildPracticeCard(taskCount: Int, onClick: () -> Unit) {
+    val enabled = taskCount > 0
+    val caption = if (enabled) {
+        tr(
+            "$taskCount ${pluralRu(taskCount, "задание", "задания", "заданий")}",
+            "$taskCount ${if (taskCount == 1) "task" else "tasks"}",
+        )
+    } else {
+        tr("Пока нет заданий", "No tasks yet")
+    }
+    AppCard(
+        modifier = Modifier
+            .fillMaxWidth()
+            .alpha(if (enabled) 1f else 0.55f),
+        onClick = if (enabled) onClick else null,
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text("🧩", fontSize = 26.sp)
+            Spacer(Modifier.width(12.dp))
+            Column(modifier = Modifier.weight(1f)) {
+                Text(
+                    text = tr("Сборка предложений", "Sentence building"),
+                    style = MaterialTheme.typography.titleMedium,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                )
+                Spacer(Modifier.height(2.dp))
+                Text(
+                    text = caption,
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+            if (enabled) {
+                Text(
+                    text = "›",
+                    fontSize = 26.sp,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+        }
     }
 }
 

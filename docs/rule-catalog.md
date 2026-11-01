@@ -37,3 +37,25 @@ Each preposition theme has a pool of 50–60 questions; a training session shows
 
 Question ids are globally unique; article questions are tagged with their original subtopic and
 optional pattern tags; preposition questions are tagged with the theme and a pattern label.
+
+## Section `tenses` — Времена / Tenses (12 themes, 360 questions)
+
+Each tense theme has exactly 30 questions: 20 choice + 5 build + 5 match.
+Build questions are assembled from word tiles; accepted word orders are stored in `answers`.
+
+| id | order | level | title (ru) | scope |
+|---|---|---|---|---|
+| tense-present-simple | 10 | A1 | Present Simple | form (-s/-es, do/does), habits/facts/schedules, markers, errors |
+| tense-present-continuous | 20 | A1 | Present Continuous | am/is/are + V-ing, action now/temporary/plans, markers, state verbs |
+| tense-present-perfect | 30 | A2 | Present Perfect | have/has + V3, result/experience/unfinished time, for/since, been/gone |
+| tense-present-perfect-continuous | 40 | B1 | Present Perfect Continuous | have/has been + V-ing, duration with result, for/since/how long, state verbs |
+| tense-past-simple | 50 | A1 | Past Simple | regular/irregular verbs, did, finished time, markers, errors |
+| tense-past-continuous | 60 | A2 | Past Continuous | was/were + V-ing, interrupted/background actions, when/while, contrast with Past Simple |
+| tense-past-perfect | 70 | B1 | Past Perfect | had + V3, action before another past action, by the time, reported speech |
+| tense-past-perfect-continuous | 80 | B2 | Past Perfect Continuous | had been + V-ing, duration up to a past moment, cause/result, contrast with Past Perfect |
+| tense-future-simple | 90 | A1 | Future Simple | will + base form, predictions/decisions/promises/offers, when/if + Present Simple |
+| tense-future-continuous | 100 | B1 | Future Continuous | will be + V-ing, action in progress at a future moment, this time tomorrow |
+| tense-future-perfect | 110 | B2 | Future Perfect | will have + V3, completed before a future moment, by/by the time |
+| tense-future-perfect-continuous | 120 | B2 | Future Perfect Continuous | will have been + V-ing, duration up to a future moment, by … for |
+
+The dedicated «Сборка предложений» mode draws questions of type `build` from these themes.

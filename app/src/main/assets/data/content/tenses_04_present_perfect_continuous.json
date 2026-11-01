@@ -1,0 +1,1042 @@
+{
+  "meta": {
+    "package": "tenses_04_present_perfect_continuous",
+    "version": 2,
+    "authors": [
+      "content-team"
+    ]
+  },
+  "rules": [
+    {
+      "id": "tense-present-perfect-continuous",
+      "sectionId": "tenses",
+      "order": 40,
+      "level": "B1",
+      "title": {
+        "ru": "Present Perfect Continuous (настоящее совершённое длительное)",
+        "en": "Present Perfect Continuous"
+      },
+      "summary": {
+        "ru": "Present Perfect Continuous (have/has been + -ing) показывает действие, которое началось в прошлом и длится до сих пор или только что закончилось; важны длительность и видимый результат.",
+        "en": "The Present Perfect Continuous (have/has been + -ing) describes an action that started in the past and continues up to now or has just stopped; duration and a visible result matter."
+      },
+      "sections": [
+        {
+          "heading": {
+            "ru": "Форма: have/has been + -ing",
+            "en": "Form: have/has been + -ing"
+          },
+          "body": {
+            "ru": "Сказуемое строится из have или has, формы been и смыслового глагола с окончанием -ing. Have используется с I, you, we и they, has — с he, she и it; отрицание и вопрос образуются без did.",
+            "en": "The verb phrase is built with have or has, the form been and the -ing form of the main verb. Have goes with I, you, we and they; has goes with he, she and it, and questions and negatives are formed without did."
+          },
+          "examples": [
+            "I have been reading all evening.",
+            "She has been working since morning.",
+            "They have been waiting for the bus."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Значение: длительность и результат",
+            "en": "Meaning: duration and result"
+          },
+          "body": {
+            "ru": "Основное значение — действие длится уже некоторое время и ещё не закончилось. Другое значение — действие только что прекратилось, но его результат или последствия видны в настоящем.",
+            "en": "The main meaning is an action that has been going on for some time and has not finished. The other meaning is an action that has just stopped, but its result or effects are visible in the present."
+          },
+          "examples": [
+            "The ground is wet because it has been raining.",
+            "You look tired — have you been working all day?",
+            "I have been learning English for three years."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Маркеры времени: for и since",
+            "en": "Time markers: for and since"
+          },
+          "body": {
+            "ru": "Длительность выражается через for с периодом времени и since с точкой отсчёта. В вопросах о длительности используется how long; также типичны lately, recently и all day.",
+            "en": "Duration is expressed with for and a period of time, and with since and a starting point. Questions about duration use how long; lately, recently and all day are also typical."
+          },
+          "examples": [
+            "for two hours",
+            "since Monday",
+            "How long have you been living here?",
+            "I have been feeling better recently."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Типичные ошибки",
+            "en": "Common mistakes"
+          },
+          "body": {
+            "ru": "Не пропускайте been и не ставьте вместо него прошедшую форму глагола. С глаголами состояния (know, be, like) это время обычно не употребляется — нужна форма Present Perfect.",
+            "en": "Do not leave out been or use a past form of the verb instead. State verbs such as know, be and like are not normally used in this tense, so the Present Perfect form is needed."
+          },
+          "examples": [
+            "I have known her for ten years.",
+            "He has been studying since eight o'clock.",
+            "We have been planning this trip for months."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "tense-present-perfect-continuous-0001",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "The bus is still not here, and I ___ for it for twenty minutes.",
+      "translation": {
+        "ru": "Автобуса всё ещё нет, а я жду его уже двадцать минут."
+      },
+      "options": [
+        "have been waiting",
+        "waited",
+        "am waiting"
+      ],
+      "answer": "have been waiting",
+      "explanation": {
+        "ru": "Действие началось двадцать минут назад и продолжается сейчас, поэтому нужна форма have been waiting.",
+        "en": "The action started twenty minutes ago and is still going on, so have been waiting is correct."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "form",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0002",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "She ___ in this office since 2021.",
+      "translation": {
+        "ru": "Она работает в этом офисе с 2021 года."
+      },
+      "options": [
+        "has been working",
+        "works",
+        "worked"
+      ],
+      "answer": "has been working",
+      "explanation": {
+        "ru": "Since 2021 указывает на точку отсчёта, а действие продолжается — нужен Present Perfect Continuous с has.",
+        "en": "Since 2021 gives a starting point and the action continues, so the Present Perfect Continuous with has is needed."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "form",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0003",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "It ___ all day, and I wish it would stop.",
+      "translation": {
+        "ru": "Дождь идёт весь день, и мне хотелось бы, чтобы он прекратился."
+      },
+      "options": [
+        "has been raining",
+        "rained",
+        "rains"
+      ],
+      "answer": "has been raining",
+      "explanation": {
+        "ru": "Действие длится весь день и всё ещё продолжается, поэтому используем has been raining.",
+        "en": "The action has lasted all day and is still going on, so has been raining is correct."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "result",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0004",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "We ___ for the train since ten o'clock.",
+      "translation": {
+        "ru": "Мы ждём поезд с десяти часов."
+      },
+      "options": [
+        "have been waiting",
+        "wait",
+        "waited"
+      ],
+      "answer": "have been waiting",
+      "explanation": {
+        "ru": "Since ten o'clock показывает начало ожидания, которое длится до сих пор: have been waiting.",
+        "en": "Since ten o'clock shows when the waiting started and it continues, so have been waiting is correct."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "since",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0005",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "How long ___ English at school?",
+      "translation": {
+        "ru": "Как долго ты изучаешь английский в школе?"
+      },
+      "options": [
+        "have you been learning",
+        "do you learn",
+        "are you learning"
+      ],
+      "answer": "have you been learning",
+      "explanation": {
+        "ru": "Вопрос how long о продолжающемся действии требует Present Perfect Continuous: have you been learning.",
+        "en": "A how long question about an action that continues needs the Present Perfect Continuous: have you been learning."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "question",
+        "how-long"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0006",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "You look exhausted! ___ all night?",
+      "translation": {
+        "ru": "Ты выглядишь измотанным! Ты работал всю ночь?"
+      },
+      "options": [
+        "Have you been working",
+        "Are you working",
+        "Do you work"
+      ],
+      "answer": "Have you been working",
+      "explanation": {
+        "ru": "Усталость — результат недавнего длительного действия, поэтому нужен вопрос в Present Perfect Continuous.",
+        "en": "Looking exhausted is the result of a recent long action, so the Present Perfect Continuous question is needed."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "question",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0007",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "I ___ this report all week, but I still have not finished it.",
+      "translation": {
+        "ru": "Я пишу этот отчёт всю неделю, но всё ещё не закончил его."
+      },
+      "options": [
+        "have been writing",
+        "write",
+        "wrote"
+      ],
+      "answer": "have been writing",
+      "explanation": {
+        "ru": "Действие продолжается всю неделю и не завершено: have been writing.",
+        "en": "The action has lasted all week and is not finished, so have been writing is correct."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0008",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "She ___ well recently, so she went to see a doctor.",
+      "translation": {
+        "ru": "В последнее время она плохо спит, поэтому пошла к врачу."
+      },
+      "options": [
+        "has not been sleeping",
+        "does not sleep",
+        "did not sleep"
+      ],
+      "answer": "has not been sleeping",
+      "explanation": {
+        "ru": "Recently указывает на недавний период, а состояние продолжается: has not been sleeping.",
+        "en": "Recently points to a recent period and the situation continues, so has not been sleeping is correct."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "negative",
+        "recently"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0009",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "What ___ since we last saw each other?",
+      "translation": {
+        "ru": "Чем ты занимался с тех пор, как мы последний раз виделись?"
+      },
+      "options": [
+        "have you been doing",
+        "do you do",
+        "did you do"
+      ],
+      "answer": "have you been doing",
+      "explanation": {
+        "ru": "Since we last saw each other задаёт период до настоящего момента, поэтому нужна форма have you been doing.",
+        "en": "Since we last saw each other sets a period up to now, so have you been doing is correct."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "question",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0010",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "The baby ___ for an hour, so please be quiet.",
+      "translation": {
+        "ru": "Малыш спит уже час, поэтому, пожалуйста, не шуми."
+      },
+      "options": [
+        "has been sleeping",
+        "sleeps",
+        "slept"
+      ],
+      "answer": "has been sleeping",
+      "explanation": {
+        "ru": "Сон начался час назад и продолжается, поэтому используем has been sleeping.",
+        "en": "The sleep started an hour ago and continues, so has been sleeping is correct."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0011",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "They ___ each other for years, so they know each other well.",
+      "translation": {
+        "ru": "Они знают друг друга много лет, поэтому хорошо друг друга понимают."
+      },
+      "options": [
+        "have known",
+        "have been knowing",
+        "know"
+      ],
+      "answer": "have known",
+      "explanation": {
+        "ru": "Know — глагол состояния, он не употребляется в Continuous, поэтому нужна форма have known.",
+        "en": "Know is a state verb and is not used in the continuous form, so have known is correct."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "state-verb"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0012",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "My phone ___ all morning and I cannot answer it.",
+      "translation": {
+        "ru": "Мой телефон звонит всё утро, и я не могу ответить."
+      },
+      "options": [
+        "has been ringing",
+        "rings",
+        "rang"
+      ],
+      "answer": "has been ringing",
+      "explanation": {
+        "ru": "Звонки повторяются всё утро и продолжаются сейчас, поэтому нужна форма has been ringing.",
+        "en": "The calls have been repeated all morning and are still happening, so has been ringing is correct."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "duration",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0013",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "We ___ this flat since 2019.",
+      "translation": {
+        "ru": "Мы снимаем эту квартиру с 2019 года."
+      },
+      "options": [
+        "have been renting",
+        "rent",
+        "rented"
+      ],
+      "answer": "have been renting",
+      "explanation": {
+        "ru": "Since 2019 — точка отсчёта, а аренда продолжается, поэтому have been renting.",
+        "en": "Since 2019 is a starting point and the renting continues, so have been renting is correct."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0014",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "It is two o'clock and she ___ since eight this morning.",
+      "translation": {
+        "ru": "Сейчас два часа, а она занимается с восьми утра."
+      },
+      "options": [
+        "has been studying",
+        "studies",
+        "studied"
+      ],
+      "answer": "has been studying",
+      "explanation": {
+        "ru": "Since eight this morning показывает начало действия, которое длится до сих пор: has been studying.",
+        "en": "Since eight this morning shows when the action started and it continues, so has been studying is correct."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "since",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0015",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "He ___ tennis since he was six.",
+      "translation": {
+        "ru": "Он играет в теннис с шести лет."
+      },
+      "options": [
+        "has been playing",
+        "plays",
+        "played"
+      ],
+      "answer": "has been playing",
+      "explanation": {
+        "ru": "Since he was six задаёт точку отсчёта, а игра продолжается: has been playing.",
+        "en": "Since he was six gives the starting point and the playing continues, so has been playing is correct."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "since",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0016",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "How long ___ that jacket? It looks very old.",
+      "translation": {
+        "ru": "Как долго ты носишь эту куртку? Она выглядит очень старой."
+      },
+      "options": [
+        "have you been wearing",
+        "do you wear",
+        "did you wear"
+      ],
+      "answer": "have you been wearing",
+      "explanation": {
+        "ru": "How long о продолжающемся действии требует Present Perfect Continuous: have you been wearing.",
+        "en": "How long about an action that continues needs the Present Perfect Continuous: have you been wearing."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "question",
+        "how-long"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0017",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "The workers ___ the road since Monday.",
+      "translation": {
+        "ru": "Рабочие ремонтируют дорогу с понедельника."
+      },
+      "options": [
+        "have been repairing",
+        "repair",
+        "repaired"
+      ],
+      "answer": "have been repairing",
+      "explanation": {
+        "ru": "Since Monday показывает начало работы, которая всё ещё идёт: have been repairing.",
+        "en": "Since Monday shows when the work started and it is still going on, so have been repairing is correct."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0018",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "She ___ to me since the party last week.",
+      "translation": {
+        "ru": "Она не разговаривает со мной с вечеринки на прошлой неделе."
+      },
+      "options": [
+        "has not been speaking",
+        "does not speak",
+        "did not speak"
+      ],
+      "answer": "has not been speaking",
+      "explanation": {
+        "ru": "Since the party задаёт период до настоящего момента, поэтому нужна форма has not been speaking.",
+        "en": "Since the party sets a period up to now, so has not been speaking is correct."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "negative",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0019",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "The children are still in the garden. They ___ there all afternoon.",
+      "translation": {
+        "ru": "Дети всё ещё в саду. Они играют там весь день."
+      },
+      "options": [
+        "have been playing",
+        "play",
+        "played"
+      ],
+      "answer": "have been playing",
+      "explanation": {
+        "ru": "Дети продолжают играть прямо сейчас, поэтому нужна форма have been playing.",
+        "en": "The children are still playing now, so have been playing is correct."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "duration",
+        "result"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0020",
+      "type": "choice",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "sentence": "What ___ you so tired lately?",
+      "translation": {
+        "ru": "Что делает тебя таким усталым в последнее время?"
+      },
+      "options": [
+        "has been making",
+        "makes",
+        "made"
+      ],
+      "answer": "has been making",
+      "explanation": {
+        "ru": "Lately указывает на недавний период, а причина действует до сих пор: has been making.",
+        "en": "Lately points to a recent period and the cause is still active, so has been making is correct."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "question",
+        "recently"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0021",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "words": [
+        "He",
+        "has",
+        "been",
+        "studying",
+        "English",
+        "for",
+        "three",
+        "years"
+      ],
+      "answers": [
+        [
+          "He",
+          "has",
+          "been",
+          "studying",
+          "English",
+          "for",
+          "three",
+          "years"
+        ]
+      ],
+      "translation": {
+        "ru": "Он изучает английский три года."
+      },
+      "explanation": {
+        "ru": "Have/has been + -ing, а for + период показывает длительность.",
+        "en": "Have/has been + -ing, and for + a period shows duration."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "affirmative",
+        "for"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0022",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "words": [
+        "They",
+        "have",
+        "not",
+        "been",
+        "sleeping",
+        "well",
+        "lately"
+      ],
+      "answers": [
+        [
+          "They",
+          "have",
+          "not",
+          "been",
+          "sleeping",
+          "well",
+          "lately"
+        ]
+      ],
+      "translation": {
+        "ru": "В последнее время они плохо спят."
+      },
+      "explanation": {
+        "ru": "Отрицание строится так: have/has not been + -ing.",
+        "en": "The negative is formed with have/has not been + -ing."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0023",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "words": [
+        "How",
+        "long",
+        "have",
+        "you",
+        "been",
+        "living",
+        "in",
+        "London"
+      ],
+      "answers": [
+        [
+          "How",
+          "long",
+          "have",
+          "you",
+          "been",
+          "living",
+          "in",
+          "London"
+        ]
+      ],
+      "translation": {
+        "ru": "Как долго ты живёшь в Лондоне?"
+      },
+      "explanation": {
+        "ru": "Вопрос how long строится с have/has + been + -ing.",
+        "en": "The question with how long is built with have/has + been + -ing."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "question",
+        "how-long"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0024",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "words": [
+        "She",
+        "has",
+        "been",
+        "working",
+        "late",
+        "recently"
+      ],
+      "answers": [
+        [
+          "She",
+          "has",
+          "been",
+          "working",
+          "late",
+          "recently"
+        ],
+        [
+          "She",
+          "has",
+          "recently",
+          "been",
+          "working",
+          "late"
+        ]
+      ],
+      "translation": {
+        "ru": "В последнее время она работает допоздна."
+      },
+      "explanation": {
+        "ru": "Наречие recently может стоять в конце или перед been; оба порядка верны.",
+        "en": "The adverb recently can come at the end or before been; both orders are correct."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "adverb",
+        "recently"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0025",
+      "type": "build",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "words": [
+        "She",
+        "has",
+        "been",
+        "reading",
+        "the",
+        "same",
+        "book",
+        "since",
+        "last",
+        "summer"
+      ],
+      "answers": [
+        [
+          "She",
+          "has",
+          "been",
+          "reading",
+          "the",
+          "same",
+          "book",
+          "since",
+          "last",
+          "summer"
+        ]
+      ],
+      "translation": {
+        "ru": "Она читает одну и ту же книгу с прошлого лета."
+      },
+      "explanation": {
+        "ru": "Since + точка отсчёта показывает, когда началось продолжающееся действие.",
+        "en": "Since + a starting point shows when the continuing action began."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "build",
+        "time-clause",
+        "since"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0026",
+      "type": "match",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте форму и пример.",
+        "en": "Match the form with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "I / you / we / they: have been + -ing (с этими местоимениями)",
+            "en": "I / you / we / they: have been + -ing"
+          },
+          "right": "I have been waiting for an hour."
+        },
+        {
+          "left": {
+            "ru": "he / she / it: has been + -ing (с этими местоимениями)",
+            "en": "he / she / it: has been + -ing"
+          },
+          "right": "She has been working since morning."
+        },
+        {
+          "left": {
+            "ru": "Отрицание: have/has not been + -ing",
+            "en": "Negative: have/has not been + -ing"
+          },
+          "right": "We have not been working here long."
+        },
+        {
+          "left": {
+            "ru": "Вопрос: have/has … been + -ing?",
+            "en": "Question: have/has … been + -ing?"
+          },
+          "right": "Have you been reading my messages?"
+        }
+      ],
+      "explanation": {
+        "ru": "Have используется с I, you, we и they, has — с he, she и it; отрицание и вопрос строятся с have/has + been + -ing.",
+        "en": "Have goes with I, you, we and they, has with he, she and it; the negative and question use have/has + been + -ing."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "match",
+        "form"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0027",
+      "type": "match",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match the meaning with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Действие продолжается до сих пор",
+            "en": "An action that is still going on"
+          },
+          "right": "He has been learning Spanish for two years."
+        },
+        {
+          "left": {
+            "ru": "Недавнее действие с видимым результатом",
+            "en": "A recent action with a visible result"
+          },
+          "right": "The ground is wet because it has been raining."
+        },
+        {
+          "left": {
+            "ru": "Вопрос how long",
+            "en": "Duration with for"
+          },
+          "right": "How long have you been waiting for the bus?"
+        },
+        {
+          "left": {
+            "ru": "Точка отсчёта с since",
+            "en": "A starting point with since"
+          },
+          "right": "It has been raining since Monday."
+        }
+      ],
+      "explanation": {
+        "ru": "Время показывает либо продолжающееся действие, либо недавнее действие с результатом; for называет длительность, since — начало.",
+        "en": "The tense shows either an action that continues or a recent action with a result; for gives duration, since gives the starting point."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "match",
+        "meaning",
+        "marker"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0028",
+      "type": "match",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте маркер времени и пример.",
+        "en": "Match the time marker with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "for + длительность",
+            "en": "for + a duration"
+          },
+          "right": "I have been reading for three hours."
+        },
+        {
+          "left": {
+            "ru": "since + момент",
+            "en": "since + a starting point"
+          },
+          "right": "She has been living here since 2019."
+        },
+        {
+          "left": {
+            "ru": "how long в вопросе",
+            "en": "how long in a question"
+          },
+          "right": "How long have you been studying English?"
+        },
+        {
+          "left": {
+            "ru": "lately / recently (недавно)",
+            "en": "lately / recently"
+          },
+          "right": "My brother has been feeling tired recently."
+        }
+      ],
+      "explanation": {
+        "ru": "На длительность указывает for, на начало — since, длительность в вопросе — how long, а lately и recently называют недавний период.",
+        "en": "For marks duration, since marks the starting point, how long asks about duration, and lately and recently name a recent period."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "match",
+        "marker"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0029",
+      "type": "match",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример.",
+        "en": "Match the rule with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Глагол состояния: нужна форма Present Perfect",
+            "en": "A state verb: the Present Perfect is needed"
+          },
+          "right": "I have known her for ten years."
+        },
+        {
+          "left": {
+            "ru": "Глагол действия: возможна форма -ing",
+            "en": "An action verb: the -ing form is possible"
+          },
+          "right": "I have been running for twenty minutes."
+        },
+        {
+          "left": {
+            "ru": "Длительность: all day",
+            "en": "The duration is marked by a time phrase"
+          },
+          "right": "I have been reading all day."
+        },
+        {
+          "left": {
+            "ru": "Результат виден в настоящем",
+            "en": "The result is visible in the present"
+          },
+          "right": "Her eyes are red because she has been crying."
+        }
+      ],
+      "explanation": {
+        "ru": "Глаголы состояния не употребляются в Continuous, а у глаголов действия форма -ing показывает длительность и результат.",
+        "en": "State verbs are not used in the continuous form, while with action verbs the -ing form shows duration and result."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "match",
+        "state-verb",
+        "usage"
+      ]
+    },
+    {
+      "id": "tense-present-perfect-continuous-0030",
+      "type": "match",
+      "ruleId": "tense-present-perfect-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match the situation with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Спрашиваем о причине усталости",
+            "en": "Asking about the cause of tiredness"
+          },
+          "right": "You look tired — have you been working all day?"
+        },
+        {
+          "left": {
+            "ru": "Повторяющееся действие до сих пор",
+            "en": "A repeated action up to now"
+          },
+          "right": "The phone has been ringing all morning."
+        },
+        {
+          "left": {
+            "ru": "Незаконченное действие",
+            "en": "An unfinished action"
+          },
+          "right": "I have been writing the report all morning."
+        },
+        {
+          "left": {
+            "ru": "Действие только что прекратилось",
+            "en": "An action that has just stopped"
+          },
+          "right": "He is out of breath because he has been running."
+        }
+      ],
+      "explanation": {
+        "ru": "Во всех примерах действие длилось до недавнего момента и либо продолжается, либо только что закончилось.",
+        "en": "In all the examples the action lasted until recently and is either still going on or has just stopped."
+      },
+      "tags": [
+        "tense-present-perfect-continuous",
+        "match",
+        "usage"
+      ]
+    }
+  ]
+}

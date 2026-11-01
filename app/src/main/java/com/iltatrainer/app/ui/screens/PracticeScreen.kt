@@ -5,6 +5,8 @@ import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -285,6 +287,8 @@ private fun QuestionBody(
                     tr("Выберите правильный артикль", "Choose the correct article")
                 question.isChoice ->
                     tr("Выберите правильный предлог", "Choose the correct preposition")
+                question.isBuild ->
+                    tr("Соберите предложение из слов", "Build the sentence from the words")
                 else -> question.prompt?.text(language)
                     ?: tr("Сопоставьте правило и пример", "Match each rule with its example")
             },
@@ -292,16 +296,22 @@ private fun QuestionBody(
         )
         Spacer(Modifier.height(12.dp))
 
-        if (question.isChoice) {
-            ChoiceBody(
+        when {
+            question.isChoice -> ChoiceBody(
                 question = question,
                 sectionId = sectionId,
                 answered = answered,
                 userInput = userInput,
                 onSubmit = submit,
             )
-        } else {
-            MatchBody(
+
+            question.isBuild -> BuildBody(
+                question = question,
+                answered = answered,
+                onSubmit = submit,
+            )
+
+            else -> MatchBody(
                 question = question,
                 language = language,
                 answered = answered,
@@ -581,6 +591,138 @@ private fun MatchCard(
     }
 }
 
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun BuildBody(
+    question: Question,
+    answered: Boolean,
+    onSubmit: (Boolean, String) -> Unit,
+) {
+    val words = question.words
+    val shuffledIndices = remember(question.id) { words.indices.shuffled() }
+    var selected by remember(question.id) { mutableStateOf<List<Int>>(emptyList()) }
+
+    val bankIndices = shuffledIndices.filterNot { it in selected }
+    val allPlaced = words.isNotEmpty() && selected.size == words.size
+
+    val toggle: (Int) -> Unit = { index ->
+        if (!answered) {
+            selected = if (index in selected) selected - index else selected + index
+        }
+    }
+
+    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Surface(
+            shape = RoundedCornerShape(18.dp),
+            color = MaterialTheme.colorScheme.surface,
+            border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
+        ) {
+            if (selected.isEmpty()) {
+                Text(
+                    text = tr(
+                        "Нажмите на слова ниже, чтобы собрать предложение",
+                        "Tap the words below to build the sentence",
+                    ),
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 18.dp),
+                )
+            } else {
+                FlowRow(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(12.dp),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    verticalArrangement = Arrangement.spacedBy(8.dp),
+                ) {
+                    selected.forEach { wordIndex ->
+                        WordTile(
+                            word = words[wordIndex],
+                            filled = true,
+                            enabled = !answered,
+                            onClick = { toggle(wordIndex) },
+                        )
+                    }
+                }
+            }
+        }
+
+        Text(
+            text = tr("Слова", "Words"),
+            style = MaterialTheme.typography.labelLarge,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+
+        FlowRow(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            bankIndices.forEach { wordIndex ->
+                WordTile(
+                    word = words[wordIndex],
+                    filled = false,
+                    enabled = !answered,
+                    onClick = { toggle(wordIndex) },
+                )
+            }
+        }
+
+        if (!answered) {
+            Button(
+                onClick = {
+                    val tokens = selected.map { words[it] }
+                    onSubmit(
+                        AnswerChecker.isBuildCorrect(question, tokens),
+                        tokens.joinToString(" "),
+                    )
+                },
+                enabled = allPlaced,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(52.dp),
+                shape = RoundedCornerShape(16.dp),
+            ) {
+                Text(tr("Проверить", "Check"), style = MaterialTheme.typography.titleMedium)
+            }
+        }
+    }
+}
+
+@Composable
+private fun WordTile(
+    word: String,
+    filled: Boolean,
+    enabled: Boolean,
+    onClick: () -> Unit,
+) {
+    val container = if (filled) {
+        MaterialTheme.colorScheme.secondaryContainer
+    } else {
+        MaterialTheme.colorScheme.surfaceVariant
+    }
+    val content = if (filled) {
+        MaterialTheme.colorScheme.onSecondaryContainer
+    } else {
+        MaterialTheme.colorScheme.onSurfaceVariant
+    }
+    Surface(
+        onClick = onClick,
+        enabled = enabled,
+        shape = RoundedCornerShape(12.dp),
+        color = container,
+        contentColor = content,
+        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
+    ) {
+        Text(
+            text = word,
+            style = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.SemiBold),
+            maxLines = 1,
+            modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
+        )
+    }
+}
+
 @Composable
 private fun SentenceCard(sentence: String, filled: String?) {
     Surface(
@@ -640,7 +782,26 @@ private fun FeedbackCard(
                     fontWeight = FontWeight.Bold,
                 )
             }
-            if (!correct) {
+            if (question.isBuild) {
+                Text(
+                    text = tr("Правильное предложение", "Correct sentence"),
+                    style = MaterialTheme.typography.labelSmall,
+                    fontWeight = FontWeight.SemiBold,
+                    color = content.copy(alpha = 0.7f),
+                )
+                Text(
+                    text = AnswerChecker.correctText(question),
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.Bold,
+                )
+                if (!correct && userInput.isNotBlank()) {
+                    Text(
+                        text = tr("Ваш ответ: $userInput", "Your answer: $userInput"),
+                        style = MaterialTheme.typography.labelLarge,
+                        color = content.copy(alpha = 0.9f),
+                    )
+                }
+            } else if (!correct) {
                 Text(
                     text = if (question.isMatch) {
                         tr(

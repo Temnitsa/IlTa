@@ -118,17 +118,21 @@ A topic training session draws **30 questions** from the pool: all five matching
 25 choice questions (weak/unseen questions are preferred). The pool stays 70, so different
 sessions show different examples.
 
+**Tense themes** (section `tenses`) have **exactly 30 questions**: 20 `choice` + 5 `build` + 5 `match`.
+A tense theme session plays all 30.
+
 **Preposition themes** (section `prepositions`) have a pool of **50–60 questions**
 (at least 25 `choice` and 5 `match`). A topic session draws **30** questions: all five matching
 questions plus 25 choice questions.
 
 This is enforced by `scripts/validate_content.py`. The full set is
-9 article themes × 70 + 6 preposition themes × 50/60 = **940 questions**.
+9 article themes × 70 + 12 tense themes × 30 + 6 preposition themes × 50/60 = **1300 questions**.
 The “Длина сессии” setting does not affect topic training.
 
-## 4. Question objects — only **choice** and **match**
+## 4. Question objects — **choice**, **match** and **build**
 
-There are **no typing exercises** in IlTa anymore. Every question is multiple choice or matching.
+There are **no typing exercises**. Every question is multiple choice, matching or sentence
+building (tap word tiles to assemble the sentence).
 
 ### 4.1 `choice` — pick the missing item
 
@@ -210,6 +214,37 @@ Requirements: `prompt.ru/en`; `pairs` — 4 (3–5 allowed); each `left.ru/en`;
 `right` — a full English sentence **without** `___`; all left values distinct,
 all right values distinct; every left unambiguously corresponds to exactly one right.
 
+### 4.3 `build` — assemble the sentence from word tiles
+
+```json
+{
+  "id": "tense-present-perfect-0001",
+  "type": "build",
+  "ruleId": "tense-present-perfect",
+  "level": "A2",
+  "words": ["She", "has", "lived", "in", "London", "for", "five", "years"],
+  "answers": [
+    ["She", "has", "lived", "in", "London", "for", "five", "years"],
+    ["She", "has", "lived", "in", "London", "five", "years", "for"]
+  ],
+  "translation": { "ru": "Она живёт в Лондоне пять лет." },
+  "explanation": {
+    "ru": "Present Perfect: has + past participle; for + длительность.",
+    "en": "Present Perfect: has + past participle; for + duration."
+  },
+  "tags": ["tense-present-perfect", "build", "for-since"]
+}
+```
+
+Rules:
+- `words` — 3–20 tokens (each a non-empty string; keep contractions as one token, e.g. `"don't"`;
+  no separate final punctuation token);
+- `answers` — 1–4 **accepted token sequences**; each must be a permutation of `words`
+  (same multiset); duplicates are rejected;
+- accepted orders are for genuinely possible word orders (e.g. adverb before/after the verb);
+- `sentence` is not allowed for `build`; translation and bilingual explanation are required;
+- the UI shuffles the word bank, so content keeps a natural canonical order in `words`.
+
 ## Quality bar
 
 - 100% correct English, British or American spelling consistent **within a file**.
@@ -245,8 +280,20 @@ all right values distinct; every left unambiguously corresponds to exactly one r
 | prepositions_04_adjectives.json | prep-adjectives | 50 |
 | prepositions_05_verbs.json | prep-verbs | 50 |
 | prepositions_06_fixed_advanced.json | prep-fixed | 60 |
+| tenses_01_present_simple.json | tense-present-simple | 30 |
+| tenses_02_present_continuous.json | tense-present-continuous | 30 |
+| tenses_03_present_perfect.json | tense-present-perfect | 30 |
+| tenses_04_present_perfect_continuous.json | tense-present-perfect-continuous | 30 |
+| tenses_05_past_simple.json | tense-past-simple | 30 |
+| tenses_06_past_continuous.json | tense-past-continuous | 30 |
+| tenses_07_past_perfect.json | tense-past-perfect | 30 |
+| tenses_08_past_perfect_continuous.json | tense-past-perfect-continuous | 30 |
+| tenses_09_future_simple.json | tense-future-simple | 30 |
+| tenses_10_future_continuous.json | tense-future-continuous | 30 |
+| tenses_11_future_perfect.json | tense-future-perfect | 30 |
+| tenses_12_future_perfect_continuous.json | tense-future-perfect-continuous | 30 |
 
-Target: **940 questions total** (9×70 articles + 5×50 + 60 prepositions), 15 rules, 2 sections.
+Target: **1300 questions total** (9×70 articles + 12×30 tenses + 5×50 + 60 prepositions), 27 rules, 3 sections.
 
 ## Validation
 

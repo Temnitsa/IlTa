@@ -1,0 +1,1036 @@
+{
+  "meta": {
+    "package": "tenses_05_past_simple",
+    "version": 2,
+    "authors": [
+      "content-team"
+    ]
+  },
+  "rules": [
+    {
+      "id": "tense-past-simple",
+      "sectionId": "tenses",
+      "order": 50,
+      "level": "A1",
+      "title": {
+        "ru": "Past Simple (прошедшее простое)",
+        "en": "Past Simple"
+      },
+      "summary": {
+        "ru": "Past Simple описывает законченное действие в прошлом: правильные глаголы получают -ed, неправильные меняют форму, а вопросы и отрицания строятся с did.",
+        "en": "The Past Simple describes a finished action in the past: regular verbs take -ed, irregular verbs change form, and questions and negatives use did."
+      },
+      "sections": [
+        {
+          "heading": {
+            "ru": "Форма: -ed и неправильные глаголы",
+            "en": "Form: -ed and irregular verbs"
+          },
+          "body": {
+            "ru": "Правильные глаголы в утверждении получают окончание -ed, неправильные образуют особую форму, которую нужно запомнить. Для всех лиц форма утверждения одинаковая. Глагол be в прошедшем времени имеет формы was (I, he, she, it) и were (you, we, they); отрицание и вопрос строятся без did: I was not at home. Were you at home?",
+            "en": "Regular verbs in the affirmative take the ending -ed, while irregular verbs form a special past form that must be memorised. The affirmative form is the same for all persons. The verb be has the past forms was (I, he, she, it) and were (you, we, they); negatives and questions are formed without did: I was not at home. Were you at home?"
+          },
+          "examples": [
+            "She watched a film last night.",
+            "We went home early.",
+            "They bought a new car.",
+            "I was at home last night."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Отрицание и вопрос: did",
+            "en": "Negative and question: did"
+          },
+          "body": {
+            "ru": "Отрицание строится с did not и начальной формой глагола, вопрос — с did в начале. В этих конструкциях смысловой глагол не меняется.",
+            "en": "The negative is formed with did not and the base form of the verb, and the question starts with did. In these structures the main verb does not change."
+          },
+          "examples": [
+            "I did not see him yesterday.",
+            "Did you enjoy the party?",
+            "She did not call me back."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Значение и маркеры времени",
+            "en": "Meaning and time markers"
+          },
+          "body": {
+            "ru": "Время обозначает действие, которое закончилось в прошлом, часто с указанием времени: yesterday, last week, two days ago, in 2019. Несколько событий могут идти друг за другом по порядку.",
+            "en": "The tense describes an action that finished in the past, often with a time expression: yesterday, last week, two days ago, in 2019. Several events can follow one another in order."
+          },
+          "examples": [
+            "We met yesterday.",
+            "He moved to Paris in 2019.",
+            "She called me two hours ago.",
+            "I finished school last summer."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Типичные ошибки",
+            "en": "Common mistakes"
+          },
+          "body": {
+            "ru": "Типичная ошибка — ставить прошедшую форму после did. После did нужна начальная форма глагола; также не забывайте про was и were, которые не используют did.",
+            "en": "A common mistake is using a past form after did. After did the base form of the verb is needed; also remember was and were, which do not use did."
+          },
+          "examples": [
+            "He did not go to school.",
+            "Were you at home?",
+            "I was very tired."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "tense-past-simple-0001",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "We ___ to the beach last weekend.",
+      "translation": {
+        "ru": "В прошлые выходные мы ездили на пляж."
+      },
+      "options": [
+        "went",
+        "go",
+        "goes"
+      ],
+      "answer": "went",
+      "explanation": {
+        "ru": "Last weekend показывает законченное действие в прошлом, поэтому нужна форма went.",
+        "en": "Last weekend shows a finished action in the past, so went is correct."
+      },
+      "tags": [
+        "tense-past-simple",
+        "irregular",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0002",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "She ___ a new phone yesterday.",
+      "translation": {
+        "ru": "Вчера она купила новый телефон."
+      },
+      "options": [
+        "bought",
+        "buy",
+        "buys"
+      ],
+      "answer": "bought",
+      "explanation": {
+        "ru": "Yesterday указывает на прошлое, а buy — неправильный глагол с формой bought.",
+        "en": "Yesterday points to the past, and buy is an irregular verb with the form bought."
+      },
+      "tags": [
+        "tense-past-simple",
+        "irregular",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0003",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "I ___ my homework two hours ago.",
+      "translation": {
+        "ru": "Я сделал домашнюю работу два часа назад."
+      },
+      "options": [
+        "finished",
+        "finish",
+        "finishes"
+      ],
+      "answer": "finished",
+      "explanation": {
+        "ru": "Two hours ago — законченное действие в прошлом; правильный глагол finish получает -ed.",
+        "en": "Two hours ago marks a finished past action, and the regular verb finish takes -ed."
+      },
+      "tags": [
+        "tense-past-simple",
+        "regular",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0004",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "They ___ very tired after yesterday's trip.",
+      "translation": {
+        "ru": "После вчерашней поездки они очень устали."
+      },
+      "options": [
+        "were",
+        "are",
+        "be"
+      ],
+      "answer": "were",
+      "explanation": {
+        "ru": "Yesterday's trip — законченное действие в прошлом, а с they используется форма were.",
+        "en": "Yesterday's trip is a finished past action, and with they we use were."
+      },
+      "tags": [
+        "tense-past-simple",
+        "be",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0005",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "He ___ his keys on the bus.",
+      "translation": {
+        "ru": "Он потерял ключи в автобусе."
+      },
+      "options": [
+        "lost",
+        "lose",
+        "loses"
+      ],
+      "answer": "lost",
+      "explanation": {
+        "ru": "Lose — неправильный глагол, в прошлом он имеет форму lost.",
+        "en": "Lose is an irregular verb, and its past form is lost."
+      },
+      "tags": [
+        "tense-past-simple",
+        "irregular",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0006",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "___ you see the film last night?",
+      "translation": {
+        "ru": "Ты смотрел фильм вчера вечером?"
+      },
+      "options": [
+        "Did",
+        "Do",
+        "Are"
+      ],
+      "answer": "Did",
+      "explanation": {
+        "ru": "Вопрос о прошлом строится с did и начальной формой глагола: did you see.",
+        "en": "A past question starts with did and the base verb: did you see."
+      },
+      "tags": [
+        "tense-past-simple",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0007",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "My parents ___ married in 1995.",
+      "translation": {
+        "ru": "Мои родители поженились в 1995 году."
+      },
+      "options": [
+        "got",
+        "get",
+        "gets"
+      ],
+      "answer": "got",
+      "explanation": {
+        "ru": "In 1995 — законченное событие в прошлом, а get имеет форму got.",
+        "en": "In 1995 marks a finished past event, and the past form of get is got."
+      },
+      "tags": [
+        "tense-past-simple",
+        "irregular",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0008",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "We ___ dinner at a restaurant yesterday.",
+      "translation": {
+        "ru": "Вчера мы ужинали в ресторане."
+      },
+      "options": [
+        "had",
+        "have",
+        "has"
+      ],
+      "answer": "had",
+      "explanation": {
+        "ru": "Yesterday требует прошедшего времени, а have имеет форму had.",
+        "en": "Yesterday needs a past form, and the past form of have is had."
+      },
+      "tags": [
+        "tense-past-simple",
+        "irregular",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0009",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "Yesterday she ___ the answer immediately.",
+      "translation": {
+        "ru": "Вчера она сразу знала ответ."
+      },
+      "options": [
+        "knew",
+        "knows",
+        "know"
+      ],
+      "answer": "knew",
+      "explanation": {
+        "ru": "Yesterday показывает прошлое, а know имеет неправильную форму knew.",
+        "en": "Yesterday marks the past, and know has the irregular form knew."
+      },
+      "tags": [
+        "tense-past-simple",
+        "irregular",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0010",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "The film ___ at eight o'clock last night.",
+      "translation": {
+        "ru": "Вчера вечером фильм начался в восемь часов."
+      },
+      "options": [
+        "started",
+        "starts",
+        "start"
+      ],
+      "answer": "started",
+      "explanation": {
+        "ru": "Last night — прошлое; правильный глагол start получает -ed.",
+        "en": "Last night is in the past, and the regular verb start takes -ed."
+      },
+      "tags": [
+        "tense-past-simple",
+        "regular",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0011",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "I ___ my grandmother last Sunday.",
+      "translation": {
+        "ru": "В прошлое воскресенье я навестил бабушку."
+      },
+      "options": [
+        "visited",
+        "visit",
+        "visits"
+      ],
+      "answer": "visited",
+      "explanation": {
+        "ru": "Last Sunday — законченное действие в прошлом, поэтому visited.",
+        "en": "Last Sunday marks a finished past action, so visited is correct."
+      },
+      "tags": [
+        "tense-past-simple",
+        "regular",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0012",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "He ___ breakfast at seven this morning.",
+      "translation": {
+        "ru": "Сегодня утром он позавтракал в семь."
+      },
+      "options": [
+        "ate",
+        "eats",
+        "eat"
+      ],
+      "answer": "ate",
+      "explanation": {
+        "ru": "This morning в прошлом, а eat имеет неправильную форму ate.",
+        "en": "This morning is in the past, and eat has the irregular form ate."
+      },
+      "tags": [
+        "tense-past-simple",
+        "irregular",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0013",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "It ___ a lot last winter.",
+      "translation": {
+        "ru": "Прошлой зимой часто шёл снег."
+      },
+      "options": [
+        "snowed",
+        "snows",
+        "snow"
+      ],
+      "answer": "snowed",
+      "explanation": {
+        "ru": "Last winter — прошлый период, а правильный глагол snow получает -ed.",
+        "en": "Last winter is a past period, and the regular verb snow takes -ed."
+      },
+      "tags": [
+        "tense-past-simple",
+        "regular",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0014",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "Where ___ you go on holiday last year?",
+      "translation": {
+        "ru": "Куда ты ездил в отпуск в прошлом году?"
+      },
+      "options": [
+        "did",
+        "do",
+        "were"
+      ],
+      "answer": "did",
+      "explanation": {
+        "ru": "Вопрос о прошлом строится с did и начальной формой go: where did you go.",
+        "en": "A past question uses did and the base form go: where did you go."
+      },
+      "tags": [
+        "tense-past-simple",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0015",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "She ___ me a lovely present last week.",
+      "translation": {
+        "ru": "На прошлой неделе она подарила мне чудесный подарок."
+      },
+      "options": [
+        "gave",
+        "gives",
+        "give"
+      ],
+      "answer": "gave",
+      "explanation": {
+        "ru": "Last week — прошлое, а give имеет форму gave.",
+        "en": "Last week is in the past, and the past form of give is gave."
+      },
+      "tags": [
+        "tense-past-simple",
+        "irregular",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0016",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "They ___ football after school yesterday.",
+      "translation": {
+        "ru": "Вчера после школы они играли в футбол."
+      },
+      "options": [
+        "played",
+        "play",
+        "plays"
+      ],
+      "answer": "played",
+      "explanation": {
+        "ru": "Yesterday требует прошедшего времени; play — правильный глагол, поэтому played.",
+        "en": "Yesterday needs the past, and play is a regular verb, so played is correct."
+      },
+      "tags": [
+        "tense-past-simple",
+        "regular",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0017",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "I ___ very happy when I heard the news.",
+      "translation": {
+        "ru": "Я был очень счастлив, когда услышал новость."
+      },
+      "options": [
+        "was",
+        "were",
+        "am"
+      ],
+      "answer": "was",
+      "explanation": {
+        "ru": "С I в прошедшем времени используется was.",
+        "en": "With I in the past the correct form is was."
+      },
+      "tags": [
+        "tense-past-simple",
+        "be",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0018",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "We ___ at the station at six o'clock yesterday morning.",
+      "translation": {
+        "ru": "Вчера утром в шесть часов мы прибыли на вокзал."
+      },
+      "options": [
+        "arrived",
+        "arrive",
+        "arrives"
+      ],
+      "answer": "arrived",
+      "explanation": {
+        "ru": "Речь о законченном прошлом; правильный глагол arrive получает -ed.",
+        "en": "The action is finished in the past, and the regular verb arrive takes -ed."
+      },
+      "tags": [
+        "tense-past-simple",
+        "regular",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0019",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "He ___ not come to the party last Friday.",
+      "translation": {
+        "ru": "В прошлую пятницу он не пришёл на вечеринку."
+      },
+      "options": [
+        "did",
+        "does",
+        "was"
+      ],
+      "answer": "did",
+      "explanation": {
+        "ru": "Отрицание в прошлом строится с did not и начальной формой come: did not come.",
+        "en": "A past negative uses did not and the base verb come: did not come."
+      },
+      "tags": [
+        "tense-past-simple",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0020",
+      "type": "choice",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "sentence": "___ she call you yesterday?",
+      "translation": {
+        "ru": "Она звонила тебе вчера?"
+      },
+      "options": [
+        "Did",
+        "Does",
+        "Is"
+      ],
+      "answer": "Did",
+      "explanation": {
+        "ru": "Вопрос о прошлом начинается с did, после него идёт начальная форма call.",
+        "en": "A past question starts with did, followed by the base verb call."
+      },
+      "tags": [
+        "tense-past-simple",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0021",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "words": [
+        "I",
+        "visited",
+        "my",
+        "grandparents",
+        "last",
+        "weekend"
+      ],
+      "answers": [
+        [
+          "I",
+          "visited",
+          "my",
+          "grandparents",
+          "last",
+          "weekend"
+        ]
+      ],
+      "translation": {
+        "ru": "В прошлые выходные я навестил бабушку и дедушку."
+      },
+      "explanation": {
+        "ru": "Утверждение в Past Simple: подлежащее + глагол с -ed + остальные слова.",
+        "en": "An affirmative Past Simple sentence: subject + verb with -ed + the rest."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "affirmative",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0022",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "words": [
+        "She",
+        "did",
+        "not",
+        "like",
+        "the",
+        "film"
+      ],
+      "answers": [
+        [
+          "She",
+          "did",
+          "not",
+          "like",
+          "the",
+          "film"
+        ]
+      ],
+      "translation": {
+        "ru": "Ей не понравился фильм."
+      },
+      "explanation": {
+        "ru": "Отрицание: did not + начальная форма глагола like.",
+        "en": "The negative uses did not + the base verb like."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0023",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "words": [
+        "Did",
+        "you",
+        "enjoy",
+        "the",
+        "concert",
+        "yesterday"
+      ],
+      "answers": [
+        [
+          "Did",
+          "you",
+          "enjoy",
+          "the",
+          "concert",
+          "yesterday"
+        ]
+      ],
+      "translation": {
+        "ru": "Тебе понравился вчерашний концерт?"
+      },
+      "explanation": {
+        "ru": "Вопрос: Did + подлежащее + начальная форма глагола.",
+        "en": "A question uses Did + subject + the base verb."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0024",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "words": [
+        "She",
+        "finished",
+        "her",
+        "homework",
+        "quickly"
+      ],
+      "answers": [
+        [
+          "She",
+          "finished",
+          "her",
+          "homework",
+          "quickly"
+        ],
+        [
+          "She",
+          "quickly",
+          "finished",
+          "her",
+          "homework"
+        ]
+      ],
+      "translation": {
+        "ru": "Она быстро сделала домашнюю работу."
+      },
+      "explanation": {
+        "ru": "Наречие quickly может стоять после дополнения или перед глаголом; оба порядка верны.",
+        "en": "The adverb quickly can come after the object or before the verb; both orders are correct."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "adverb"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0025",
+      "type": "build",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "words": [
+        "After",
+        "school",
+        "we",
+        "played",
+        "football",
+        "and",
+        "then",
+        "went",
+        "home"
+      ],
+      "answers": [
+        [
+          "After",
+          "school",
+          "we",
+          "played",
+          "football",
+          "and",
+          "then",
+          "went",
+          "home"
+        ],
+        [
+          "we",
+          "played",
+          "football",
+          "After",
+          "school",
+          "and",
+          "then",
+          "went",
+          "home"
+        ]
+      ],
+      "translation": {
+        "ru": "После школы мы поиграли в футбол и потом пошли домой."
+      },
+      "explanation": {
+        "ru": "Несколько законченных действий в прошлом идут по порядку: played, then went.",
+        "en": "Several finished past actions follow in order: played, then went."
+      },
+      "tags": [
+        "tense-past-simple",
+        "build",
+        "sequence"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0026",
+      "type": "match",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте форму и пример.",
+        "en": "Match the form with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Правильный глагол: -ed",
+            "en": "A regular verb: -ed"
+          },
+          "right": "She watched a film last night."
+        },
+        {
+          "left": {
+            "ru": "Неправильный глагол: особая форма",
+            "en": "An irregular verb: a special form"
+          },
+          "right": "We went home early."
+        },
+        {
+          "left": {
+            "ru": "Отрицание: did not + начальная форма",
+            "en": "Negative: did not + base form"
+          },
+          "right": "I did not see him yesterday."
+        },
+        {
+          "left": {
+            "ru": "Вопрос: did + начальная форма",
+            "en": "Question: did + base form"
+          },
+          "right": "Did you enjoy the party?"
+        }
+      ],
+      "explanation": {
+        "ru": "Правильные глаголы получают -ed, неправильные меняют форму; в отрицании и вопросе после did стоит начальная форма.",
+        "en": "Regular verbs take -ed and irregular verbs change form; in negatives and questions the base form follows did."
+      },
+      "tags": [
+        "tense-past-simple",
+        "match",
+        "form"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0027",
+      "type": "match",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте маркер времени и пример.",
+        "en": "Match the time marker with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "yesterday (вчера)",
+            "en": "yesterday"
+          },
+          "right": "We met yesterday."
+        },
+        {
+          "left": {
+            "ru": "last + период",
+            "en": "last + period"
+          },
+          "right": "I finished school last summer."
+        },
+        {
+          "left": {
+            "ru": "… ago (тому назад)",
+            "en": "… ago"
+          },
+          "right": "She called me two hours ago."
+        },
+        {
+          "left": {
+            "ru": "in + год",
+            "en": "in + year"
+          },
+          "right": "He moved to Paris in 2019."
+        }
+      ],
+      "explanation": {
+        "ru": "Маркеры yesterday, last summer, two hours ago и in 2019 показывают законченное действие в прошлом.",
+        "en": "The markers yesterday, last summer, two hours ago and in 2019 show a finished action in the past."
+      },
+      "tags": [
+        "tense-past-simple",
+        "match",
+        "marker"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0028",
+      "type": "match",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте глагол и его форму в Past Simple.",
+        "en": "Match the verb with its Past Simple form."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "watch (смотреть) → watched",
+            "en": "watch →"
+          },
+          "right": "They watched a film."
+        },
+        {
+          "left": {
+            "ru": "go (идти) → went",
+            "en": "go →"
+          },
+          "right": "They went to the park."
+        },
+        {
+          "left": {
+            "ru": "buy (покупать) → bought",
+            "en": "buy →"
+          },
+          "right": "She bought some bread."
+        },
+        {
+          "left": {
+            "ru": "see (видеть) → saw",
+            "en": "see →"
+          },
+          "right": "I saw my teacher."
+        }
+      ],
+      "explanation": {
+        "ru": "Правильные глаголы получают -ed, а неправильные образуют особую форму, которую нужно запомнить.",
+        "en": "Regular verbs take -ed, while irregular verbs form a special past form that must be learnt."
+      },
+      "tags": [
+        "tense-past-simple",
+        "match",
+        "irregular",
+        "regular"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0029",
+      "type": "match",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте форму be и пример.",
+        "en": "Match the past form of be with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "was с I / he / she / it",
+            "en": "was with I / he / she / it"
+          },
+          "right": "I was at home last night."
+        },
+        {
+          "left": {
+            "ru": "were с you / we / they",
+            "en": "were with you / we / they"
+          },
+          "right": "They were at the beach."
+        },
+        {
+          "left": {
+            "ru": "Отрицание: was not / were not",
+            "en": "Negative: was not / were not"
+          },
+          "right": "He was not at school yesterday."
+        },
+        {
+          "left": {
+            "ru": "Вопрос: was / were",
+            "en": "Question: was / were"
+          },
+          "right": "Were you at home?"
+        }
+      ],
+      "explanation": {
+        "ru": "Was используется с I, he, she и it, were — с you, we и they; отрицание и вопрос образуются без did.",
+        "en": "Was is used with I, he, she and it, and were with you, we and they; negatives and questions do not use did."
+      },
+      "tags": [
+        "tense-past-simple",
+        "match",
+        "be"
+      ]
+    },
+    {
+      "id": "tense-past-simple-0030",
+      "type": "match",
+      "ruleId": "tense-past-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match the situation with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Законченное действие в прошлом",
+            "en": "A finished action in the past"
+          },
+          "right": "We visited the museum last Sunday."
+        },
+        {
+          "left": {
+            "ru": "Последовательность событий",
+            "en": "A sequence of events"
+          },
+          "right": "He opened the door and walked in."
+        },
+        {
+          "left": {
+            "ru": "Привычка в прошлом",
+            "en": "A habit in the past"
+          },
+          "right": "Every summer we spent a week by the sea."
+        },
+        {
+          "left": {
+            "ru": "Событие в точное время",
+            "en": "An event at an exact time"
+          },
+          "right": "The meeting started at nine o'clock."
+        }
+      ],
+      "explanation": {
+        "ru": "Past Simple передаёт законченные действия, их последовательность и привычки в прошлом; точное время тоже указывается в этом времени.",
+        "en": "The Past Simple reports finished actions, their sequence and past habits; exact past times also go with this tense."
+      },
+      "tags": [
+        "tense-past-simple",
+        "match",
+        "usage"
+      ]
+    }
+  ]
+}

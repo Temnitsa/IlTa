@@ -1,0 +1,1035 @@
+{
+  "meta": {
+    "package": "tenses_06_past_continuous",
+    "version": 2,
+    "authors": [
+      "content-team"
+    ]
+  },
+  "rules": [
+    {
+      "id": "tense-past-continuous",
+      "sectionId": "tenses",
+      "order": 60,
+      "level": "A2",
+      "title": {
+        "ru": "Past Continuous (прошедшее длительное)",
+        "en": "Past Continuous"
+      },
+      "summary": {
+        "ru": "Past Continuous (was/were + -ing) описывает действие, которое происходило в определённый момент прошлого, или длительный фон для другого события.",
+        "en": "The Past Continuous (was/were + -ing) describes an action that was in progress at a particular moment in the past, or a longer background action for another event."
+      },
+      "sections": [
+        {
+          "heading": {
+            "ru": "Форма: was/were + -ing",
+            "en": "Form: was/were + -ing"
+          },
+          "body": {
+            "ru": "Форма строится из was или were и глагола с окончанием -ing. Was ставим с I, he, she и it, were — с you, we и they; отрицание и вопрос образуются без did.",
+            "en": "The form is built with was or were and the -ing form of the verb. Was goes with I, he, she and it, and were with you, we and they; negatives and questions are formed without did."
+          },
+          "examples": [
+            "I was reading at ten o'clock.",
+            "They were playing football.",
+            "Was she sleeping when you called?"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Значение: действие в процессе",
+            "en": "Meaning: an action in progress"
+          },
+          "body": {
+            "ru": "Время показывает, что действие было в процессе в определённый момент прошлого. Этот момент может быть назван точным временем или другим коротким действием.",
+            "en": "The tense shows that an action was in progress at a particular moment in the past. That moment can be named by an exact time or by another short action."
+          },
+          "examples": [
+            "At eight o'clock I was having breakfast.",
+            "She was walking home at midnight.",
+            "The children were watching TV at that time."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Контраст с Past Simple: when и while",
+            "en": "Contrast with the Past Simple: when and while"
+          },
+          "body": {
+            "ru": "Длительное действие даётся в Past Continuous, а короткое событие, которое его прервало, — в Past Simple. Связки when и while помогают показать, какое действие длилось, а какое случилось. Если два действия шли одновременно, оба ставятся в Past Continuous: While I was cooking, my sister was drying the plates.",
+            "en": "A long action is given in the Past Continuous, while the short event that interrupted it is in the Past Simple. The linking words when and while help show which action lasted and which happened. If two actions were happening at the same time, both go in the Past Continuous: While I was cooking, my sister was drying the plates."
+          },
+          "examples": [
+            "I was cooking when the phone rang.",
+            "While we were walking, it started to rain.",
+            "She was reading when the lights went out."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Маркеры и типичные ошибки",
+            "en": "Markers and common mistakes"
+          },
+          "body": {
+            "ru": "С этим временем часто идут at that moment, all evening, while и when. Типичные ошибки — was или were без -ing, -ing после did и глаголы состояния в Continuous.",
+            "en": "This tense often goes with at that moment, all evening, while and when. Typical mistakes are was or were without -ing, -ing after did, and state verbs in the continuous form."
+          },
+          "examples": [
+            "At nine o'clock last night I was studying.",
+            "They were still sleeping at noon.",
+            "While I was cooking, the doorbell rang."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "tense-past-continuous-0001",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "At eight o'clock last night I ___ TV when the phone rang.",
+      "translation": {
+        "ru": "Вчера в восемь вечера я смотрел телевизор, когда зазвонил телефон."
+      },
+      "options": [
+        "was watching",
+        "watched",
+        "watch"
+      ],
+      "answer": "was watching",
+      "explanation": {
+        "ru": "Действие было в процессе, когда его прервал звонок, поэтому нужна форма was watching.",
+        "en": "The action was in progress when the phone rang, so was watching is correct."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "form",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0002",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "They ___ football when it started to rain.",
+      "translation": {
+        "ru": "Они играли в футбол, когда начался дождь."
+      },
+      "options": [
+        "were playing",
+        "played",
+        "play"
+      ],
+      "answer": "were playing",
+      "explanation": {
+        "ru": "Игра была в процессе, когда начался дождь; с they используем were playing.",
+        "en": "The game was in progress when it started to rain, so were playing is correct."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0003",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "While she ___ dinner, the lights went out.",
+      "translation": {
+        "ru": "Пока она готовила ужин, погас свет."
+      },
+      "options": [
+        "was cooking",
+        "cooked",
+        "cooks"
+      ],
+      "answer": "was cooking",
+      "explanation": {
+        "ru": "While вводит длительное действие, поэтому нужна форма was cooking.",
+        "en": "While introduces the long action, so was cooking is correct."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "while",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0004",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "I ___ my homework when the doorbell rang.",
+      "translation": {
+        "ru": "Я делал домашнюю работу, когда зазвонил дверной звонок."
+      },
+      "options": [
+        "was doing",
+        "did",
+        "do"
+      ],
+      "answer": "was doing",
+      "explanation": {
+        "ru": "Действие длилось, когда его прервали, поэтому используем was doing.",
+        "en": "The action was going on when it was interrupted, so was doing is correct."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0005",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "The children ___ in the garden when their mother called them.",
+      "translation": {
+        "ru": "Дети играли в саду, когда мама позвала их."
+      },
+      "options": [
+        "were playing",
+        "played",
+        "play"
+      ],
+      "answer": "were playing",
+      "explanation": {
+        "ru": "Игра детей была в процессе, когда их позвали, поэтому were playing.",
+        "en": "The children were in the middle of playing when they were called, so were playing is correct."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0006",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "What ___ when I called you at ten o'clock last night?",
+      "translation": {
+        "ru": "Что ты делал, когда я позвонил тебе вчера в десять вечера?"
+      },
+      "options": [
+        "were you doing",
+        "did you do",
+        "do you do"
+      ],
+      "answer": "were you doing",
+      "explanation": {
+        "ru": "Вопрос о действии в процессе в прошлом строится с were: what were you doing.",
+        "en": "A question about an action in progress in the past uses were: what were you doing."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0007",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "She ___ the soup when the phone rang.",
+      "translation": {
+        "ru": "Она готовила суп, когда зазвонил телефон."
+      },
+      "options": [
+        "was making",
+        "made",
+        "makes"
+      ],
+      "answer": "was making",
+      "explanation": {
+        "ru": "Действие было в процессе, когда зазвонил телефон: was making.",
+        "en": "The action was in progress when the phone rang, so was making is correct."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0008",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "It ___ when we left the house.",
+      "translation": {
+        "ru": "Когда мы выходили из дома, шёл дождь."
+      },
+      "options": [
+        "was raining",
+        "rained",
+        "rains"
+      ],
+      "answer": "was raining",
+      "explanation": {
+        "ru": "Дождь был фоном для другого действия, поэтому нужна форма was raining.",
+        "en": "The rain was the background to another action, so was raining is correct."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "background"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0009",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "We ___ dinner when the guests arrived.",
+      "translation": {
+        "ru": "Мы ужинали, когда пришли гости."
+      },
+      "options": [
+        "were having",
+        "had",
+        "have"
+      ],
+      "answer": "were having",
+      "explanation": {
+        "ru": "Ужин был в процессе, когда пришли гости, поэтому were having.",
+        "en": "Dinner was in progress when the guests arrived, so were having is correct."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0010",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "The students ___ quietly when the teacher walked in.",
+      "translation": {
+        "ru": "Ученики тихо работали, когда вошла учительница."
+      },
+      "options": [
+        "were working",
+        "worked",
+        "work"
+      ],
+      "answer": "were working",
+      "explanation": {
+        "ru": "Работа была в процессе, когда вошла учительница: were working.",
+        "en": "The work was in progress when the teacher came in, so were working is correct."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0011",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "I ___ for the bus when I saw an old friend.",
+      "translation": {
+        "ru": "Я ждал автобус, когда увидел старого друга."
+      },
+      "options": [
+        "was waiting",
+        "waited",
+        "wait"
+      ],
+      "answer": "was waiting",
+      "explanation": {
+        "ru": "Ожидание длилось, когда произошло короткое событие: was waiting.",
+        "en": "The waiting was going on when a short event happened, so was waiting is correct."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0012",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "While I ___ the washing-up, my sister was drying the plates.",
+      "translation": {
+        "ru": "Пока я мыл посуду, сестра вытирала тарелки."
+      },
+      "options": [
+        "was doing",
+        "did",
+        "do"
+      ],
+      "answer": "was doing",
+      "explanation": {
+        "ru": "Два длительных действия шли одновременно: while + Past Continuous.",
+        "en": "Two long actions were happening at the same time: while + Past Continuous."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "while"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0013",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "He ___ along the road when he saw a dog.",
+      "translation": {
+        "ru": "Он шёл по дороге, когда увидел собаку."
+      },
+      "options": [
+        "was walking",
+        "walked",
+        "walks"
+      ],
+      "answer": "was walking",
+      "explanation": {
+        "ru": "Ходьба была в процессе, когда он увидел собаку: was walking.",
+        "en": "The walking was in progress when he saw a dog, so was walking is correct."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0014",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "At midnight we ___ still driving.",
+      "translation": {
+        "ru": "В полночь мы всё ещё ехали."
+      },
+      "options": [
+        "were",
+        "was",
+        "are"
+      ],
+      "answer": "were",
+      "explanation": {
+        "ru": "С we в прошедшем времени используется were, а still стоит после него.",
+        "en": "With we in the past the correct form is were, and still comes after it."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "form"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0015",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "The sun ___ when we arrived at the beach.",
+      "translation": {
+        "ru": "Когда мы приехали на пляж, светило солнце."
+      },
+      "options": [
+        "was shining",
+        "shone",
+        "shines"
+      ],
+      "answer": "was shining",
+      "explanation": {
+        "ru": "Солнце светило как фон для прибытия, поэтому was shining.",
+        "en": "The sun was shining as a background to our arrival, so was shining is correct."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "background"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0016",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "Mum ___ the table while Dad was cooking.",
+      "translation": {
+        "ru": "Мама накрывала на стол, пока папа готовил."
+      },
+      "options": [
+        "was laying",
+        "lays",
+        "has laid"
+      ],
+      "answer": "was laying",
+      "explanation": {
+        "ru": "Два длительных действия шли параллельно, поэтому была форма was laying.",
+        "en": "Two long actions were in progress together, so was laying is correct."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "while"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0017",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "Why ___ you laughing when I came in?",
+      "translation": {
+        "ru": "Почему ты смеялся, когда я вошёл?"
+      },
+      "options": [
+        "were",
+        "did",
+        "was"
+      ],
+      "answer": "were",
+      "explanation": {
+        "ru": "Вопрос в Past Continuous строится без did: why were you laughing.",
+        "en": "A Past Continuous question is formed without did: why were you laughing."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0018",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "I ___ to music when the doorbell rang, so I did not hear it.",
+      "translation": {
+        "ru": "Я слушал музыку, когда зазвонил звонок, поэтому не услышал его."
+      },
+      "options": [
+        "was listening",
+        "listened",
+        "listen"
+      ],
+      "answer": "was listening",
+      "explanation": {
+        "ru": "Прослушивание было в процессе, когда позвонили: was listening.",
+        "en": "The listening was in progress when the bell rang, so was listening is correct."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0019",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "It ___ dark when we started our journey.",
+      "translation": {
+        "ru": "Когда мы отправились в путь, темнело."
+      },
+      "options": [
+        "was getting",
+        "got",
+        "gets"
+      ],
+      "answer": "was getting",
+      "explanation": {
+        "ru": "Процесс наступления темноты был фоном, поэтому was getting.",
+        "en": "The process of getting dark was the background, so was getting is correct."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "background"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0020",
+      "type": "choice",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "sentence": "They ___ an old film when the electricity went off.",
+      "translation": {
+        "ru": "Они смотрели старый фильм, когда отключили электричество."
+      },
+      "options": [
+        "were watching",
+        "watched",
+        "watch"
+      ],
+      "answer": "were watching",
+      "explanation": {
+        "ru": "Просмотр был в процессе, когда пропало электричество: were watching.",
+        "en": "The film was being watched when the power went off, so were watching is correct."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "interrupted"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0021",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "words": [
+        "I",
+        "was",
+        "watching",
+        "TV",
+        "at",
+        "eight",
+        "o'clock"
+      ],
+      "answers": [
+        [
+          "I",
+          "was",
+          "watching",
+          "TV",
+          "at",
+          "eight",
+          "o'clock"
+        ]
+      ],
+      "translation": {
+        "ru": "В восемь часов я смотрел телевизор."
+      },
+      "explanation": {
+        "ru": "Утверждение: подлежащее + was/were + глагол с -ing.",
+        "en": "An affirmative sentence: subject + was/were + the -ing form."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0022",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "words": [
+        "She",
+        "was",
+        "not",
+        "listening",
+        "to",
+        "the",
+        "teacher"
+      ],
+      "answers": [
+        [
+          "She",
+          "was",
+          "not",
+          "listening",
+          "to",
+          "the",
+          "teacher"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не слушала учителя."
+      },
+      "explanation": {
+        "ru": "Отрицание: was/were not + глагол с -ing.",
+        "en": "The negative: was/were not + the -ing form."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0023",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "words": [
+        "What",
+        "were",
+        "you",
+        "doing",
+        "at",
+        "ten",
+        "o'clock"
+      ],
+      "answers": [
+        [
+          "What",
+          "were",
+          "you",
+          "doing",
+          "at",
+          "ten",
+          "o'clock"
+        ]
+      ],
+      "translation": {
+        "ru": "Что ты делал в десять часов?"
+      },
+      "explanation": {
+        "ru": "Вопрос: what + was/were + подлежащее + -ing.",
+        "en": "A question: what + was/were + subject + -ing."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0024",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "words": [
+        "She",
+        "was",
+        "driving",
+        "carefully",
+        "in",
+        "the",
+        "rain"
+      ],
+      "answers": [
+        [
+          "She",
+          "was",
+          "driving",
+          "carefully",
+          "in",
+          "the",
+          "rain"
+        ],
+        [
+          "She",
+          "was",
+          "carefully",
+          "driving",
+          "in",
+          "the",
+          "rain"
+        ]
+      ],
+      "translation": {
+        "ru": "Она осторожно ехала под дождём."
+      },
+      "explanation": {
+        "ru": "Наречие carefully может стоять после глагола или перед ним; оба порядка верны.",
+        "en": "The adverb carefully can come after the verb or before it; both orders are correct."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "adverb"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0025",
+      "type": "build",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "words": [
+        "While",
+        "the",
+        "children",
+        "were",
+        "playing",
+        "outside",
+        "it",
+        "started",
+        "to",
+        "snow"
+      ],
+      "answers": [
+        [
+          "While",
+          "the",
+          "children",
+          "were",
+          "playing",
+          "outside",
+          "it",
+          "started",
+          "to",
+          "snow"
+        ],
+        [
+          "it",
+          "started",
+          "to",
+          "snow",
+          "While",
+          "the",
+          "children",
+          "were",
+          "playing",
+          "outside"
+        ]
+      ],
+      "translation": {
+        "ru": "Пока дети играли на улице, начался снег."
+      },
+      "explanation": {
+        "ru": "While вводит длительное действие в Past Continuous, а затем идёт короткое событие в Past Simple.",
+        "en": "While introduces the long Past Continuous action, followed by a short Past Simple event."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "build",
+        "while",
+        "time-clause"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0026",
+      "type": "match",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте форму и пример.",
+        "en": "Match the form with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "was + -ing (I / he / she / it — с этими местоимениями)",
+            "en": "was + -ing (I / he / she / it)"
+          },
+          "right": "I was reading at ten o'clock."
+        },
+        {
+          "left": {
+            "ru": "were + -ing (you / we / they — с этими местоимениями)",
+            "en": "were + -ing (you / we / they)"
+          },
+          "right": "They were playing football."
+        },
+        {
+          "left": {
+            "ru": "Отрицание: was/were not + -ing",
+            "en": "Negative: was/were not + -ing"
+          },
+          "right": "We were not watching TV at that moment."
+        },
+        {
+          "left": {
+            "ru": "Вопрос: was/were + -ing?",
+            "en": "Question: was/were + -ing?"
+          },
+          "right": "Were you sleeping at midnight?"
+        }
+      ],
+      "explanation": {
+        "ru": "Was используется с I, he, she и it, were — с you, we и they; отрицание и вопрос строятся без did.",
+        "en": "Was is used with I, he, she and it, and were with you, we and they; negatives and questions are formed without did."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "match",
+        "form"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0027",
+      "type": "match",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match the meaning with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Действие в процессе в момент прошлого",
+            "en": "An action in progress at a past moment"
+          },
+          "right": "At eight o'clock I was having breakfast."
+        },
+        {
+          "left": {
+            "ru": "Фон для другого события",
+            "en": "A background for another event"
+          },
+          "right": "The sun was shining when we left the house."
+        },
+        {
+          "left": {
+            "ru": "Действие до и после другого события",
+            "en": "An action before and after another event"
+          },
+          "right": "At midnight we were still waiting for a taxi."
+        },
+        {
+          "left": {
+            "ru": "Описание обстановки",
+            "en": "Describing the situation"
+          },
+          "right": "It was raining and the streets were empty."
+        }
+      ],
+      "explanation": {
+        "ru": "Время показывает действие в процессе, фон или обстановку в прошлом, а не законченный результат.",
+        "en": "The tense shows an action in progress, a background or a situation in the past, not a finished result."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "match",
+        "meaning"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0028",
+      "type": "match",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте часть контраста и пример.",
+        "en": "Match the part of the contrast with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Длительное действие: Past Continuous",
+            "en": "A long action: Past Continuous"
+          },
+          "right": "I was cooking dinner."
+        },
+        {
+          "left": {
+            "ru": "Короткое событие: Past Simple",
+            "en": "A short event: Past Simple"
+          },
+          "right": "The phone rang."
+        },
+        {
+          "left": {
+            "ru": "Прерванное действие",
+            "en": "The interrupted action"
+          },
+          "right": "I was cooking dinner when the phone rang."
+        },
+        {
+          "left": {
+            "ru": "Событие, которое прервало действие",
+            "en": "The event that interrupted the action"
+          },
+          "right": "The phone rang while I was cooking."
+        }
+      ],
+      "explanation": {
+        "ru": "Длительное действие идёт в Past Continuous, а короткое событие, которое его прерывает, — в Past Simple; when и while соединяют их.",
+        "en": "The long action is in the Past Continuous and the short interrupting event in the Past Simple; when and while link them."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "match",
+        "contrast"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0029",
+      "type": "match",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте маркер времени и пример.",
+        "en": "Match the time marker with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "at + время",
+            "en": "at + time"
+          },
+          "right": "At nine o'clock last night I was studying."
+        },
+        {
+          "left": {
+            "ru": "at that moment (в тот момент)",
+            "en": "at that moment"
+          },
+          "right": "At that moment she was talking to the manager."
+        },
+        {
+          "left": {
+            "ru": "while + длительное действие",
+            "en": "while + a long action"
+          },
+          "right": "While we were walking, it started to rain."
+        },
+        {
+          "left": {
+            "ru": "all evening (весь вечер)",
+            "en": "all evening"
+          },
+          "right": "They were watching films all evening."
+        }
+      ],
+      "explanation": {
+        "ru": "Маркеры at that moment и all evening, а также at + время и while прямо указывают на действие в процессе.",
+        "en": "The markers at that moment and all evening, as well as at + time and while, point directly to an action in progress."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "match",
+        "marker"
+      ]
+    },
+    {
+      "id": "tense-past-continuous-0030",
+      "type": "match",
+      "ruleId": "tense-past-continuous",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример.",
+        "en": "Match the rule with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "was с I / he / she / it",
+            "en": "was with I / he / she / it"
+          },
+          "right": "He was working in the garden."
+        },
+        {
+          "left": {
+            "ru": "were с you / we / they",
+            "en": "were with you / we / they"
+          },
+          "right": "We were waiting for the bus."
+        },
+        {
+          "left": {
+            "ru": "Без did в вопросе",
+            "en": "No did in the question"
+          },
+          "right": "Was she sleeping when you called?"
+        },
+        {
+          "left": {
+            "ru": "Глагол состояния: обычно не используется",
+            "en": "State verbs are not normally used"
+          },
+          "right": "I knew the answer immediately."
+        }
+      ],
+      "explanation": {
+        "ru": "Was и were выбираются по подлежащему; вопрос строится без did, а глаголы состояния в Continuous обычно не употребляются.",
+        "en": "Was and were depend on the subject; the question is formed without did, and state verbs are not normally used in the continuous form."
+      },
+      "tags": [
+        "tense-past-continuous",
+        "match",
+        "form",
+        "state-verb"
+      ]
+    }
+  ]
+}

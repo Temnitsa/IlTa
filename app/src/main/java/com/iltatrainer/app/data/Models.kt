@@ -83,9 +83,14 @@ data class Question(
     val explanation: Bilingual = Bilingual(),
     /** Optional pattern tags used to pick truly similar questions for mistake review. */
     val tags: List<String> = emptyList(),
+    /** Word bank for the sentence-building question. */
+    val words: List<String> = emptyList(),
+    /** Accepted token sequences for the sentence-building question. */
+    val answers: List<List<String>> = emptyList(),
 ) {
     val isChoice: Boolean get() = type == "choice"
     val isMatch: Boolean get() = type == "match"
+    val isBuild: Boolean get() = type == "build"
 
     /** Sentence with the blank marker replaced by [filler] (used by the UI). */
     fun sentenceWith(filler: String): String = (sentence ?: "").replace("___", filler)

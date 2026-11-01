@@ -1,0 +1,1050 @@
+{
+  "meta": {
+    "package": "tenses_10_future_continuous",
+    "version": 2,
+    "authors": [
+      "content-team"
+    ]
+  },
+  "rules": [
+    {
+      "id": "tense-future-continuous",
+      "sectionId": "tenses",
+      "order": 100,
+      "level": "B1",
+      "title": {
+        "ru": "Future Continuous — будущее длительное время",
+        "en": "Future Continuous"
+      },
+      "summary": {
+        "ru": "Future Continuous (will be + -ing) описывает действие, которое будет происходить в определённый момент в будущем, а также запланированные и ожидаемые процессы.",
+        "en": "The Future Continuous (will be + -ing) describes an action that will be in progress at a particular future moment, as well as planned and expected processes."
+      },
+      "sections": [
+        {
+          "heading": {
+            "ru": "Форма",
+            "en": "Form"
+          },
+          "body": {
+            "ru": "Future Continuous строится по схеме will be + глагол с окончанием -ing; форма одинакова для всех лиц. Отрицание — will not be + -ing, а в вопросе will выходит на первое место, тогда как be и -ing остаются вместе.",
+            "en": "The Future Continuous is formed with will be + the -ing form, the same for all persons. The negative is will not be + -ing, and in questions will comes first while be and the -ing form stay together."
+          },
+          "examples": [
+            "I will be working late on Friday.",
+            "She will not be coming to the meeting.",
+            "Will you be using the car later?"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Значение",
+            "en": "Meaning"
+          },
+          "body": {
+            "ru": "Время показывает действие в процессе в конкретный момент будущего: оно уже будет идти, когда произойдёт что-то ещё. Так же говорят об ожидаемых событиях и одновременных процессах, не акцентируя результат. В вежливых вопросах о планах на будущее Future Continuous звучит мягче: Will you be using the car tonight?",
+            "en": "This tense shows an action in progress at a particular future moment: it will already be happening when something else occurs. It also describes expected events and simultaneous processes, without focusing on the result. In polite questions about future plans the Future Continuous sounds softer: Will you be using the car tonight?"
+          },
+          "examples": [
+            "At eight tomorrow I will be flying to Rome.",
+            "When you arrive, I will be waiting at the station.",
+            "While you are cooking, I will be setting the table."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Маркеры времени",
+            "en": "Time markers"
+          },
+          "body": {
+            "ru": "Указатели времени — точный будущий момент (at this time tomorrow, at eight o'clock) и придаточные с when или while, где глагол стоит в настоящем времени. Обстоятельства длительности подчёркивают процесс, а не отдельный результат.",
+            "en": "Typical time markers are a precise future moment (at this time tomorrow, at eight o'clock) and clauses with when or while whose verb is in the present tense. Adverbials of duration emphasise the process rather than a single result."
+          },
+          "examples": [
+            "This time next week she will be sitting in her new office.",
+            "All day tomorrow we will be driving north.",
+            "While you are asleep, the team will be preparing the hall."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Ошибки и сравнение с Future Simple",
+            "en": "Mistakes and contrast with the Future Simple"
+          },
+          "body": {
+            "ru": "Частая ошибка — опускать be или ставить present continuous там, где нужен процесс в будущем. Сравнивайте с Future Simple: он передаёт решение, обещание или результат, а Future Continuous — процесс в указанный момент.",
+            "en": "A common mistake is to leave out be or to use the present continuous where a future process is meant. Compare the Future Simple: it gives a decision, promise or result, while the Future Continuous describes a process at a given moment."
+          },
+          "examples": [
+            "I will be seeing her tomorrow, so I can pass on the message.",
+            "I will call you when I get home.",
+            "You will recognise him — he will be wearing a red jacket."
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "tense-future-continuous-0001",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "This time tomorrow I ___ to Rome.",
+      "translation": {
+        "ru": "Завтра в это время я буду лететь в Рим."
+      },
+      "options": [
+        "will be flying",
+        "will fly",
+        "will have flown",
+        "will have been flying"
+      ],
+      "answer": "will be flying",
+      "explanation": {
+        "ru": "Указатель this time tomorrow задаёт момент, в который действие будет в процессе, поэтому нужен Future Continuous: will be flying.",
+        "en": "This time tomorrow names a moment at which the action will be in progress, so the Future Continuous will be flying is needed."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0002",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "At this time next week we ___ on a beach in Greece.",
+      "translation": {
+        "ru": "В это время на следующей неделе мы будем лежать на пляже в Греции."
+      },
+      "options": [
+        "will be lying",
+        "will lie",
+        "will have lain",
+        "will have been lying"
+      ],
+      "answer": "will be lying",
+      "explanation": {
+        "ru": "At this time next week — момент в будущем, в который процесс будет идти, поэтому will be lying.",
+        "en": "At this time next week is a future moment when the process will be going on, so will be lying is correct."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0003",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "When you arrive at the airport, I ___ outside the terminal.",
+      "translation": {
+        "ru": "Когда ты приедешь в аэропорт, я буду ждать снаружи терминала."
+      },
+      "options": [
+        "will be waiting",
+        "will wait",
+        "will have waited",
+        "will have been waiting"
+      ],
+      "answer": "will be waiting",
+      "explanation": {
+        "ru": "Придаточное when you arrive называет момент будущего, в который ожидание уже будет идти: will be waiting.",
+        "en": "The when-clause names the future moment at which the waiting will already be in progress: will be waiting."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "simultaneous"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0004",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "Don't call between seven and eight — we ___ the children to bed.",
+      "translation": {
+        "ru": "Не звони между семью и восемью — мы будем укладывать детей спать."
+      },
+      "options": [
+        "will be putting",
+        "will put",
+        "will have put",
+        "will have been putting"
+      ],
+      "answer": "will be putting",
+      "explanation": {
+        "ru": "Промежуток между семью и восемью показывает процесс в будущем, поэтому will be putting.",
+        "en": "The interval between seven and eight describes a process in the future, so will be putting is correct."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0005",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "All day tomorrow we ___ for the exam.",
+      "translation": {
+        "ru": "Весь завтрашний день мы будем готовиться к экзамену."
+      },
+      "options": [
+        "will be studying",
+        "will study",
+        "will have studied",
+        "will have been studying"
+      ],
+      "answer": "will be studying",
+      "explanation": {
+        "ru": "All day tomorrow подчёркивает длительный процесс в будущем: will be studying.",
+        "en": "All day tomorrow emphasises a long future process, so the Future Continuous will be studying is used."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0006",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "At midnight tonight I ___ on a train to Scotland.",
+      "translation": {
+        "ru": "Сегодня в полночь я буду ехать на поезде в Шотландию."
+      },
+      "options": [
+        "will be travelling",
+        "will travel",
+        "will have travelled",
+        "will have been travelling"
+      ],
+      "answer": "will be travelling",
+      "explanation": {
+        "ru": "At midnight tonight задаёт точку в будущем, в которой поездка будет в процессе: will be travelling.",
+        "en": "At midnight tonight is the future point at which the journey will be in progress: will be travelling."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0007",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "The band ___ at the festival at this time tomorrow.",
+      "translation": {
+        "ru": "Завтра в это время группа будет играть на фестивале."
+      },
+      "options": [
+        "will be playing",
+        "will play",
+        "will have played",
+        "will have been playing"
+      ],
+      "answer": "will be playing",
+      "explanation": {
+        "ru": "At this time tomorrow — момент будущего, когда выступление будет идти: will be playing.",
+        "en": "At this time tomorrow is the future moment when the performance will be going on: will be playing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0008",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "When I wake up tomorrow, my sister ___ breakfast.",
+      "translation": {
+        "ru": "Когда я проснусь завтра, сестра будет готовить завтрак."
+      },
+      "options": [
+        "will be making",
+        "will make",
+        "will have made",
+        "will have been making"
+      ],
+      "answer": "will be making",
+      "explanation": {
+        "ru": "В момент when I wake up завтрак будет в процессе, поэтому will be making.",
+        "en": "At the moment when I wake up, breakfast will be in progress, so will be making is correct."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "simultaneous"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0009",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "This time next month she ___ in Paris.",
+      "translation": {
+        "ru": "В это время в следующем месяце она будет жить в Париже."
+      },
+      "options": [
+        "will be living",
+        "will live",
+        "will have lived",
+        "will have been living"
+      ],
+      "answer": "will be living",
+      "explanation": {
+        "ru": "This time next month — момент в будущем, в который жизнь в Париже будет продолжаться: will be living.",
+        "en": "This time next month is a future moment at which the stay in Paris will be going on: will be living."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0010",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "The children ___ in the garden when we get home.",
+      "translation": {
+        "ru": "Дети будут играть в саду, когда мы придём домой."
+      },
+      "options": [
+        "will be playing",
+        "will play",
+        "will have played",
+        "will have been playing"
+      ],
+      "answer": "will be playing",
+      "explanation": {
+        "ru": "В момент when we get home игра будет идти, поэтому will be playing.",
+        "en": "At the moment when we get home, the playing will already be going on, so will be playing is used."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "simultaneous"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0011",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "In ten minutes' time I ___ in the dentist's chair.",
+      "translation": {
+        "ru": "Через десять минут я буду сидеть в кресле у стоматолога."
+      },
+      "options": [
+        "will be sitting",
+        "will sit",
+        "will have sat",
+        "will have been sitting"
+      ],
+      "answer": "will be sitting",
+      "explanation": {
+        "ru": "In ten minutes' time называет точку в будущем, в которой действие будет в процессе: will be sitting.",
+        "en": "In ten minutes' time is the future point at which the action will be in progress: will be sitting."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0012",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "We ___ through France at this time next week.",
+      "translation": {
+        "ru": "В это время на следующей неделе мы будем ехать через Францию."
+      },
+      "options": [
+        "will be driving",
+        "will drive",
+        "will have driven",
+        "will have been driving"
+      ],
+      "answer": "will be driving",
+      "explanation": {
+        "ru": "At this time next week — момент будущего, в который поездка будет идти: will be driving.",
+        "en": "At this time next week is the future moment when the drive will be in progress: will be driving."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0013",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "This time tomorrow I ___ in this office — I'll be on holiday.",
+      "translation": {
+        "ru": "Завтра в это время я не буду сидеть в этом офисе — я буду в отпуске."
+      },
+      "options": [
+        "will not be sitting",
+        "will not sit",
+        "will not have sat",
+        "will not have been sitting"
+      ],
+      "answer": "will not be sitting",
+      "explanation": {
+        "ru": "Отрицательная форма Future Continuous: will not be sitting — процесс, которого в этот момент не будет.",
+        "en": "The negative Future Continuous is will not be sitting: the process will not be happening at that moment."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0014",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "She ___ with us tonight because she has to work.",
+      "translation": {
+        "ru": "Она не пойдёт с нами сегодня вечером, потому что должна работать."
+      },
+      "options": [
+        "will not be coming",
+        "will not come",
+        "will not have come",
+        "will not have been coming"
+      ],
+      "answer": "will not be coming",
+      "explanation": {
+        "ru": "Отрицание Future Continuous для запланированного процесса: will not be coming.",
+        "en": "The negative Future Continuous for an expected process is will not be coming."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0015",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "I ___ the car between two and four tomorrow, so you can take it.",
+      "translation": {
+        "ru": "Завтра с двух до четырёх я не буду пользоваться машиной, так что можешь её взять."
+      },
+      "options": [
+        "will not be using",
+        "will not use",
+        "will not have used",
+        "will not have been using"
+      ],
+      "answer": "will not be using",
+      "explanation": {
+        "ru": "Между двумя и четырьмя — процесс в будущем; с отрицанием нужен will not be using.",
+        "en": "Between two and four is a future process; with a negative it takes will not be using."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0016",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "___ your car this afternoon? I need to move some furniture.",
+      "translation": {
+        "ru": "Ты будешь пользоваться машиной сегодня днём? Мне нужно перевезти мебель."
+      },
+      "options": [
+        "Will you be using",
+        "Will you use",
+        "Will you have used",
+        "Will you have been using"
+      ],
+      "answer": "Will you be using",
+      "explanation": {
+        "ru": "Вежливый вопрос о планах на будущее строится с will be + -ing: Will you be using.",
+        "en": "A polite question about future plans uses will be + -ing: Will you be using."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0017",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "What ___ at ten tomorrow morning?",
+      "translation": {
+        "ru": "Что ты будешь делать завтра утром в десять?"
+      },
+      "options": [
+        "will you be doing",
+        "will you do",
+        "will you have done",
+        "will you have been doing"
+      ],
+      "answer": "will you be doing",
+      "explanation": {
+        "ru": "Специальный вопрос о процессе в будущий момент: what will you be doing.",
+        "en": "A wh-question about a process at a future moment is what will you be doing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "form"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0018",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "When we reach the station, the train ___ for us.",
+      "translation": {
+        "ru": "Когда мы доберёмся до вокзала, поезд уже будет нас ждать."
+      },
+      "options": [
+        "will be waiting",
+        "will wait",
+        "will have waited",
+        "will have been waiting"
+      ],
+      "answer": "will be waiting",
+      "explanation": {
+        "ru": "В момент прибытия ожидание будет в процессе: will be waiting.",
+        "en": "At the moment of arrival the waiting will be in progress: will be waiting."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "simultaneous"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0019",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "At this time tomorrow the whole family ___ dinner together.",
+      "translation": {
+        "ru": "Завтра в это время вся семья будет ужинать вместе."
+      },
+      "options": [
+        "will be having",
+        "will have",
+        "will have had",
+        "will have been having"
+      ],
+      "answer": "will be having",
+      "explanation": {
+        "ru": "At this time tomorrow задаёт момент, в который ужин будет идти: will be having.",
+        "en": "At this time tomorrow sets the moment when dinner will be going on: will be having."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "process-at-moment"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0020",
+      "type": "choice",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "sentence": "During the flight the pilot ___ to air traffic control.",
+      "translation": {
+        "ru": "Во время полёта пилот будет говорить с диспетчерами."
+      },
+      "options": [
+        "will be talking",
+        "will talk",
+        "will have talked",
+        "will have been talking"
+      ],
+      "answer": "will be talking",
+      "explanation": {
+        "ru": "During the flight описывает процесс, который будет идти в полёте: will be talking.",
+        "en": "During the flight describes a process that will be going on in the air: will be talking."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "choice",
+        "duration"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0021",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "words": [
+        "I",
+        "will",
+        "be",
+        "working",
+        "late",
+        "tomorrow"
+      ],
+      "answers": [
+        [
+          "I",
+          "will",
+          "be",
+          "working",
+          "late",
+          "tomorrow"
+        ]
+      ],
+      "translation": {
+        "ru": "Завтра я буду работать допоздна."
+      },
+      "explanation": {
+        "ru": "Future Continuous: will be + working; маркер tomorrow указывает на будущее.",
+        "en": "Future Continuous: will be + working; the marker tomorrow points to the future."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0022",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "words": [
+        "She",
+        "will",
+        "not",
+        "be",
+        "coming",
+        "to",
+        "the",
+        "party"
+      ],
+      "answers": [
+        [
+          "She",
+          "will",
+          "not",
+          "be",
+          "coming",
+          "to",
+          "the",
+          "party"
+        ]
+      ],
+      "translation": {
+        "ru": "Она не придёт на вечеринку."
+      },
+      "explanation": {
+        "ru": "Отрицание Future Continuous: will not be + coming.",
+        "en": "The negative Future Continuous: will not be + coming."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0023",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "words": [
+        "At",
+        "eight",
+        "tomorrow",
+        "we",
+        "will",
+        "be",
+        "having",
+        "breakfast"
+      ],
+      "answers": [
+        [
+          "At",
+          "eight",
+          "tomorrow",
+          "we",
+          "will",
+          "be",
+          "having",
+          "breakfast"
+        ]
+      ],
+      "translation": {
+        "ru": "Завтра в восемь мы будем завтракать."
+      },
+      "explanation": {
+        "ru": "At eight tomorrow — момент будущего, в который действие будет в процессе: will be having.",
+        "en": "At eight tomorrow is the future moment when the action will be in progress: will be having."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0024",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "words": [
+        "Will",
+        "you",
+        "be",
+        "using",
+        "the",
+        "car",
+        "this",
+        "afternoon"
+      ],
+      "answers": [
+        [
+          "Will",
+          "you",
+          "be",
+          "using",
+          "the",
+          "car",
+          "this",
+          "afternoon"
+        ]
+      ],
+      "translation": {
+        "ru": "Ты будешь пользоваться машиной сегодня днём?"
+      },
+      "explanation": {
+        "ru": "Вопрос Future Continuous: will + подлежащее + be + -ing.",
+        "en": "A Future Continuous question: will + subject + be + -ing."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0025",
+      "type": "build",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "words": [
+        "They",
+        "will",
+        "probably",
+        "be",
+        "waiting",
+        "at",
+        "the",
+        "station"
+      ],
+      "answers": [
+        [
+          "They",
+          "will",
+          "probably",
+          "be",
+          "waiting",
+          "at",
+          "the",
+          "station"
+        ],
+        [
+          "They",
+          "probably",
+          "will",
+          "be",
+          "waiting",
+          "at",
+          "the",
+          "station"
+        ]
+      ],
+      "translation": {
+        "ru": "Они, вероятно, будут ждать на вокзале."
+      },
+      "explanation": {
+        "ru": "Future Continuous с наречием вероятности: probably может стоять после will или перед ним.",
+        "en": "Future Continuous with an adverb of probability: probably can come after will or before it."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "build"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0026",
+      "type": "match",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте значение Future Continuous и пример.",
+        "en": "Match each use of the Future Continuous with an example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Действие в процессе в конкретный момент будущего",
+            "en": "An action in progress at a future moment"
+          },
+          "right": "At nine tomorrow I will be having breakfast."
+        },
+        {
+          "left": {
+            "ru": "Два одновременных будущих процесса",
+            "en": "Two future actions happening at the same time"
+          },
+          "right": "While you are cooking, I will be laying the table."
+        },
+        {
+          "left": {
+            "ru": "Запланированное событие как процесс",
+            "en": "A planned event seen as a process"
+          },
+          "right": "The team will be arriving at the airport at six."
+        },
+        {
+          "left": {
+            "ru": "Вежливый вопрос о планах",
+            "en": "A polite question about plans"
+          },
+          "right": "Will you be using the printer later?"
+        }
+      ],
+      "explanation": {
+        "ru": "Каждый пример показывает действие в процессе в будущем: в момент времени, одновременно с другим действием или как ожидаемое событие.",
+        "en": "Each example shows an action in progress in the future: at a moment in time, at the same time as another action, or as an expected event."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "match"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0027",
+      "type": "match",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте временной маркер и пример.",
+        "en": "Match each time marker with an example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "at this time tomorrow — завтра в это время",
+            "en": "at this time tomorrow"
+          },
+          "right": "At this time tomorrow I will be sitting on a plane."
+        },
+        {
+          "left": {
+            "ru": "when you arrive — когда ты приедешь",
+            "en": "when you arrive"
+          },
+          "right": "When you arrive, I will be standing by the main entrance."
+        },
+        {
+          "left": {
+            "ru": "all day tomorrow — весь завтрашний день",
+            "en": "all day tomorrow"
+          },
+          "right": "All day tomorrow we will be working in the garden."
+        },
+        {
+          "left": {
+            "ru": "this time next week — в это время на следующей неделе",
+            "en": "this time next week"
+          },
+          "right": "This time next week they will be sailing around the islands."
+        }
+      ],
+      "explanation": {
+        "ru": "Markers at this time tomorrow и when you arrive задают момент, а all day tomorrow и this time next week подчёркивают процесс.",
+        "en": "At this time tomorrow and when you arrive set the moment, while all day tomorrow and this time next week emphasise the process."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "match"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0028",
+      "type": "match",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте форму и пример.",
+        "en": "Match each form with an example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Утвердительная форма",
+            "en": "Affirmative form"
+          },
+          "right": "I will be working late tonight."
+        },
+        {
+          "left": {
+            "ru": "Отрицательная форма",
+            "en": "Negative form"
+          },
+          "right": "She will not be coming to the meeting."
+        },
+        {
+          "left": {
+            "ru": "Общий вопрос",
+            "en": "Yes/no question"
+          },
+          "right": "Will you be joining us for dinner?"
+        },
+        {
+          "left": {
+            "ru": "Специальный вопрос",
+            "en": "Wh-question"
+          },
+          "right": "What will you be doing at eight?"
+        }
+      ],
+      "explanation": {
+        "ru": "Future Continuous: will be + -ing; отрицание will not be + -ing; в вопросе will ставится перед подлежащим.",
+        "en": "Future Continuous: will be + -ing; the negative is will not be + -ing; in questions will comes before the subject."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "match"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0029",
+      "type": "match",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте ситуацию и предложение.",
+        "en": "Match each situation with a sentence."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Действие уже будет идти, когда случится другое",
+            "en": "The action will already be going on when another happens"
+          },
+          "right": "When the guests arrive, the band will be playing."
+        },
+        {
+          "left": {
+            "ru": "Действие будет идти в указанный момент",
+            "en": "The action will be in progress at the stated moment"
+          },
+          "right": "At midnight I will be travelling to Scotland."
+        },
+        {
+          "left": {
+            "ru": "Планы на будущее как процесс",
+            "en": "Future plans seen as a process"
+          },
+          "right": "This time next month she will be living in Paris."
+        },
+        {
+          "left": {
+            "ru": "Одновременные действия в будущем",
+            "en": "Simultaneous future actions"
+          },
+          "right": "While I am driving, the children will be sleeping."
+        }
+      ],
+      "explanation": {
+        "ru": "Все предложения описывают процесс в будущем; выбор формы зависит от ситуации, а не от результата.",
+        "en": "All the sentences describe a future process; the choice of form depends on the situation rather than the result."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "match"
+      ]
+    },
+    {
+      "id": "tense-future-continuous-0030",
+      "type": "match",
+      "ruleId": "tense-future-continuous",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте форму с подходящим примером.",
+        "en": "Match each form with the best example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "will be doing — процесс в момент будущего",
+            "en": "will be doing — a process at a future moment"
+          },
+          "right": "At seven tomorrow I will be having dinner."
+        },
+        {
+          "left": {
+            "ru": "will do — решение или обещание",
+            "en": "will do — a decision or promise"
+          },
+          "right": "I will call you as soon as I arrive."
+        },
+        {
+          "left": {
+            "ru": "am doing — договорённость на будущее",
+            "en": "am doing — a future arrangement"
+          },
+          "right": "We are meeting the clients on Friday."
+        },
+        {
+          "left": {
+            "ru": "will have done — завершённость к сроку",
+            "en": "will have done — completion by a deadline"
+          },
+          "right": "By Friday I will have finished the project."
+        }
+      ],
+      "explanation": {
+        "ru": "Future Continuous изображает процесс в будущий момент, Future Simple — решение или обещание, present continuous — договорённость, Future Perfect — завершённость к сроку.",
+        "en": "The Future Continuous shows a process at a future moment, the Future Simple a decision or promise, the present continuous an arrangement, and the Future Perfect completion by a deadline."
+      },
+      "tags": [
+        "tense-future-continuous",
+        "match"
+      ]
+    }
+  ]
+}

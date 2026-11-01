@@ -1,0 +1,1024 @@
+{
+  "meta": {
+    "package": "tenses_01_present_simple",
+    "version": 2,
+    "authors": [
+      "content-team"
+    ]
+  },
+  "rules": [
+    {
+      "id": "tense-present-simple",
+      "sectionId": "tenses",
+      "order": 10,
+      "level": "A1",
+      "title": {
+        "ru": "Present Simple: форма и значение",
+        "en": "Present Simple: form and meaning"
+      },
+      "summary": {
+        "ru": "Present Simple описывает привычки, повторяющиеся действия, факты, расписания и постоянные состояния. В третьем лице единственного числа глагол получает -s или -es, отрицания и вопросы строятся с do/does.",
+        "en": "Present Simple describes habits, repeated actions, facts, timetables and permanent states. In the third person singular the verb takes -s or -es, and negatives and questions are formed with do/does."
+      },
+      "sections": [
+        {
+          "heading": {
+            "ru": "Форма",
+            "en": "Form"
+          },
+          "body": {
+            "ru": "В утверждении глагол стоит в базовой форме, а в третьем лице единственного числа (he, she, it) получает окончание -s или -es. Отрицание строится с do not или does not и инфинитивом, вопрос — с Do или Does перед подлежащим; после does окончание -s у глагола исчезает.",
+            "en": "In the affirmative the verb has its base form, and in the third person singular (he, she, it) it takes -s or -es. The negative is formed with do not or does not plus the infinitive, and questions with Do or Does before the subject; after does the -s ending disappears from the verb."
+          },
+          "examples": [
+            "I work in an office.",
+            "She works in a hospital.",
+            "He does not drive.",
+            "Do you speak English?"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Значение",
+            "en": "Meaning"
+          },
+          "body": {
+            "ru": "Время описывает привычки и повторяющиеся действия, факты и общие истины, расписания и постоянные состояния. Важно, что действие не происходит прямо сейчас, а является обычным или постоянным.",
+            "en": "The tense describes habits and repeated actions, facts and general truths, timetables and permanent states. What matters is that the action is not happening right now but is usual or permanent."
+          },
+          "examples": [
+            "I go to the gym twice a week.",
+            "Water boils at 100 degrees.",
+            "The train leaves at 7:30.",
+            "My parents live in Bristol."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Маркеры времени",
+            "en": "Time markers"
+          },
+          "body": {
+            "ru": "На Present Simple обычно указывают always, usually, often, sometimes, never, every day или week, once a week и названия дней с предлогом on. Наречие частоты ставится перед смысловым глаголом, но после формы be.",
+            "en": "Present Simple is usually signalled by always, usually, often, sometimes, never, every day or week, once a week and days of the week with on. A frequency adverb goes before the main verb but after the form of be."
+          },
+          "examples": [
+            "She always arrives early.",
+            "We usually eat at home.",
+            "He is never late.",
+            "They go hiking on Sundays."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Типичные ошибки",
+            "en": "Common mistakes"
+          },
+          "body": {
+            "ru": "Частая ошибка — забыть окончание -s в третьем лице или добавить его после does. Глаголы состояния, такие как like, know и want, обычно не употребляются в длительной форме, поэтому привычки и чувства выражаем в простом времени.",
+            "en": "A common mistake is to forget the -s ending in the third person or to add it after does. State verbs such as like, know and want are not usually used in the continuous form, so habits and feelings are expressed in the simple tense."
+          },
+          "examples": [
+            "He likes coffee.",
+            "She knows the answer.",
+            "They do not want to leave.",
+            "Does your brother play tennis?"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "tense-present-simple-0001",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "My sister ___ to school every day.",
+      "translation": {
+        "ru": "Моя сестра каждый день ходит в школу."
+      },
+      "options": [
+        "walks",
+        "walk",
+        "is walking",
+        "are walking"
+      ],
+      "answer": "walks",
+      "explanation": {
+        "ru": "Every day — привычка, подлежащее my sister (she), поэтому нужна форма третьего лица walks.",
+        "en": "Every day signals a habit, and the subject my sister is third person singular, so the verb takes -s: walks."
+      },
+      "tags": [
+        "tense-present-simple",
+        "third-person-s"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0002",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "They ___ to the gym twice a week.",
+      "translation": {
+        "ru": "Они ходят в спортзал дважды в неделю."
+      },
+      "options": [
+        "go",
+        "goes",
+        "are going",
+        "is going"
+      ],
+      "answer": "go",
+      "explanation": {
+        "ru": "Twice a week — регулярное действие, подлежащее they требует базовой формы go.",
+        "en": "Twice a week signals a regular action, and the subject they takes the base form go."
+      },
+      "tags": [
+        "tense-present-simple",
+        "plural-form"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0003",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "He ___ like coffee on rainy days.",
+      "translation": {
+        "ru": "Он не любит кофе в дождливые дни."
+      },
+      "options": [
+        "does not",
+        "do not",
+        "is not",
+        "not"
+      ],
+      "answer": "does not",
+      "explanation": {
+        "ru": "Отрицание в третьем лице единственного числа: does not + инфинитив like.",
+        "en": "The negative in the third person singular is does not plus the infinitive like."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0004",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "___ you play tennis these days?",
+      "translation": {
+        "ru": "Ты играешь в теннис в последнее время?"
+      },
+      "options": [
+        "Do",
+        "Does",
+        "Are",
+        "Did"
+      ],
+      "answer": "Do",
+      "explanation": {
+        "ru": "Вопрос с подлежащим you строится с Do: Do you play tennis?",
+        "en": "A question with the subject you is formed with Do: Do you play tennis?"
+      },
+      "tags": [
+        "tense-present-simple",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0005",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "___ she work at the hospital now?",
+      "translation": {
+        "ru": "Она сейчас работает в больнице?"
+      },
+      "options": [
+        "Does",
+        "Do",
+        "Is",
+        "Did"
+      ],
+      "answer": "Does",
+      "explanation": {
+        "ru": "Подлежащее she требует Does, после которого глагол стоит в инфинитиве work.",
+        "en": "The subject she requires Does, and the verb after it stays in the infinitive: work."
+      },
+      "tags": [
+        "tense-present-simple",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0006",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "We usually ___ dinner at seven.",
+      "translation": {
+        "ru": "Обычно мы ужинаем в семь."
+      },
+      "options": [
+        "have",
+        "has",
+        "are having",
+        "is having"
+      ],
+      "answer": "have",
+      "explanation": {
+        "ru": "Usually указывает на привычку, а с we используется базовая форма have.",
+        "en": "Usually signals a habit, and with we the base form have is used."
+      },
+      "tags": [
+        "tense-present-simple",
+        "frequency-adverbs"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0007",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "My father often ___ the news in the evening.",
+      "translation": {
+        "ru": "Мой отец часто смотрит новости вечером."
+      },
+      "options": [
+        "watches",
+        "watch",
+        "is watching",
+        "are watching"
+      ],
+      "answer": "watches",
+      "explanation": {
+        "ru": "Often — привычка, подлежащее my father (he), поэтому глагол watch получает окончание -es.",
+        "en": "Often signals a habit, and the subject my father is third person singular, so watch takes -es: watches."
+      },
+      "tags": [
+        "tense-present-simple",
+        "third-person-s"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0008",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "The sun ___ in the east.",
+      "translation": {
+        "ru": "Солнце встаёт на востоке."
+      },
+      "options": [
+        "rises",
+        "rise",
+        "risen",
+        "are rising"
+      ],
+      "answer": "rises",
+      "explanation": {
+        "ru": "Общая истина требует Present Simple; подлежащее the sun (it) получает -s: rises.",
+        "en": "A general truth takes Present Simple; the subject the sun is third person singular, so the verb takes -s: rises."
+      },
+      "tags": [
+        "tense-present-simple",
+        "facts"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0009",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "The train ___ at 8:15 every morning.",
+      "translation": {
+        "ru": "Поезд отправляется в 8:15 каждое утро."
+      },
+      "options": [
+        "leaves",
+        "leave",
+        "is leaving",
+        "are leaving"
+      ],
+      "answer": "leaves",
+      "explanation": {
+        "ru": "Расписание и повторяющееся действие: the train (it) требует формы leaves.",
+        "en": "A timetable and a repeated action: the train is third person singular, so we use leaves."
+      },
+      "tags": [
+        "tense-present-simple",
+        "timetable"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0010",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "She ___ her teeth twice a day.",
+      "translation": {
+        "ru": "Она чистит зубы дважды в день."
+      },
+      "options": [
+        "brushes",
+        "brush",
+        "is brushing",
+        "are brushing"
+      ],
+      "answer": "brushes",
+      "explanation": {
+        "ru": "Twice a day — привычка, подлежащее she, поэтому brush получает -es: brushes.",
+        "en": "Twice a day signals a habit, and with the subject she brush takes -es: brushes."
+      },
+      "tags": [
+        "tense-present-simple",
+        "third-person-s"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0011",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "Nowadays they ___ not speak French very well.",
+      "translation": {
+        "ru": "В наше время они не очень хорошо говорят по-французски."
+      },
+      "options": [
+        "do",
+        "does",
+        "are",
+        "did"
+      ],
+      "answer": "do",
+      "explanation": {
+        "ru": "Nowadays указывает на настоящее, а с they отрицание строится с do not.",
+        "en": "Nowadays points to the present, and with they the negative is formed with do not."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0012",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "It ___ a lot in winter here.",
+      "translation": {
+        "ru": "Зимой здесь часто идёт снег."
+      },
+      "options": [
+        "snows",
+        "snow",
+        "is snowing",
+        "are snowing"
+      ],
+      "answer": "snows",
+      "explanation": {
+        "ru": "In winter — регулярное явление, подлежащее it требует формы snows.",
+        "en": "In winter signals a regular event, and the subject it takes the form snows."
+      },
+      "tags": [
+        "tense-present-simple",
+        "third-person-s"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0013",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "My parents ___ go to the theatre very often.",
+      "translation": {
+        "ru": "Мои родители не очень часто ходят в театр."
+      },
+      "options": [
+        "do not",
+        "does not",
+        "are not",
+        "not"
+      ],
+      "answer": "do not",
+      "explanation": {
+        "ru": "Подлежащее my parents (they) требует отрицания do not + инфинитив.",
+        "en": "The subject my parents (they) requires the negative do not plus the infinitive."
+      },
+      "tags": [
+        "tense-present-simple",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0014",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "What time ___ your brother get up?",
+      "translation": {
+        "ru": "Во сколько встаёт твой брат?"
+      },
+      "options": [
+        "does",
+        "do",
+        "is",
+        "are"
+      ],
+      "answer": "does",
+      "explanation": {
+        "ru": "Вопрос о третьем лице единственного числа строится с does, а глагол остаётся в инфинитиве get up.",
+        "en": "A question about the third person singular uses does, and the verb stays in the infinitive: get up."
+      },
+      "tags": [
+        "tense-present-simple",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0015",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "My brother ___ late for school.",
+      "translation": {
+        "ru": "Мой брат никогда не опаздывает в школу."
+      },
+      "options": [
+        "is never",
+        "never is",
+        "is not never",
+        "never"
+      ],
+      "answer": "is never",
+      "explanation": {
+        "ru": "Наречие never ставится после формы be: my brother is never late.",
+        "en": "The adverb never goes after the form of be: my brother is never late."
+      },
+      "tags": [
+        "tense-present-simple",
+        "frequency-adverbs"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0016",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "She ___ five languages.",
+      "translation": {
+        "ru": "Она знает пять языков."
+      },
+      "options": [
+        "knows",
+        "know",
+        "is knowing",
+        "are knowing"
+      ],
+      "answer": "knows",
+      "explanation": {
+        "ru": "Know — глагол состояния, он не употребляется в длительной форме; с she нужен knows.",
+        "en": "Know is a state verb and is not used in the continuous form; with she we need knows."
+      },
+      "tags": [
+        "tense-present-simple",
+        "stative-verbs"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0017",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "I ___ what you mean.",
+      "translation": {
+        "ru": "Я понимаю, что ты имеешь в виду."
+      },
+      "options": [
+        "understand",
+        "am understanding",
+        "understands",
+        "are understanding"
+      ],
+      "answer": "understand",
+      "explanation": {
+        "ru": "Understand — глагол состояния, поэтому используется простое время: I understand.",
+        "en": "Understand is a state verb, so the simple tense is used: I understand."
+      },
+      "tags": [
+        "tense-present-simple",
+        "stative-verbs"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0018",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "Every Sunday my grandmother ___ a cake.",
+      "translation": {
+        "ru": "Каждое воскресенье бабушка печёт пирог."
+      },
+      "options": [
+        "bakes",
+        "bake",
+        "is baking",
+        "are baking"
+      ],
+      "answer": "bakes",
+      "explanation": {
+        "ru": "Every Sunday — привычка, подлежащее my grandmother (she), поэтому bake получает -s: bakes.",
+        "en": "Every Sunday signals a habit, and the subject my grandmother is third person singular, so bake takes -s: bakes."
+      },
+      "tags": [
+        "tense-present-simple",
+        "third-person-s"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0019",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "The museum ___ at nine on weekdays.",
+      "translation": {
+        "ru": "По будням музей открывается в девять."
+      },
+      "options": [
+        "opens",
+        "open",
+        "is opening",
+        "are opening"
+      ],
+      "answer": "opens",
+      "explanation": {
+        "ru": "Расписание на неделю — регулярное действие; the museum (it) требует opens.",
+        "en": "A weekday timetable is a regular action; the museum (it) takes opens."
+      },
+      "tags": [
+        "tense-present-simple",
+        "timetable"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0020",
+      "type": "choice",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "sentence": "My parents ___ eat out on Fridays.",
+      "translation": {
+        "ru": "По пятницам мои родители обычно едят не дома."
+      },
+      "options": [
+        "usually",
+        "are usually",
+        "usually are",
+        "usually eating"
+      ],
+      "answer": "usually",
+      "explanation": {
+        "ru": "Наречие частоты usually ставится перед смысловым глаголом eat: usually eat.",
+        "en": "The frequency adverb usually goes before the main verb eat: usually eat."
+      },
+      "tags": [
+        "tense-present-simple",
+        "frequency-adverbs"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0021",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "words": [
+        "My",
+        "brother",
+        "plays",
+        "football",
+        "every",
+        "Saturday"
+      ],
+      "answers": [
+        [
+          "My",
+          "brother",
+          "plays",
+          "football",
+          "every",
+          "Saturday"
+        ]
+      ],
+      "translation": {
+        "ru": "Мой брат играет в футбол каждую субботу."
+      },
+      "explanation": {
+        "ru": "Present Simple: подлежащее my brother (he), поэтому play получает -s: plays. Every Saturday — регулярное действие.",
+        "en": "Present Simple: the subject my brother is third person singular, so play takes -s: plays. Every Saturday signals a regular action."
+      },
+      "tags": [
+        "tense-present-simple",
+        "build",
+        "affirmative"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0022",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "words": [
+        "They",
+        "do",
+        "not",
+        "watch",
+        "television",
+        "in",
+        "the",
+        "morning"
+      ],
+      "answers": [
+        [
+          "They",
+          "do",
+          "not",
+          "watch",
+          "television",
+          "in",
+          "the",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Они не смотрят телевизор по утрам."
+      },
+      "explanation": {
+        "ru": "Отрицание в Present Simple с they: do not + инфинитив watch.",
+        "en": "The Present Simple negative with they: do not plus the infinitive watch."
+      },
+      "tags": [
+        "tense-present-simple",
+        "build",
+        "negative"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0023",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "words": [
+        "Does",
+        "your",
+        "sister",
+        "like",
+        "classical",
+        "music"
+      ],
+      "answers": [
+        [
+          "Does",
+          "your",
+          "sister",
+          "like",
+          "classical",
+          "music"
+        ]
+      ],
+      "translation": {
+        "ru": "Твоя сестра любит классическую музыку?"
+      },
+      "explanation": {
+        "ru": "Вопрос в Present Simple: Does + подлежащее + инфинитив; окончание -s переходит к does.",
+        "en": "A Present Simple question: Does + subject + infinitive; the -s ending moves to does."
+      },
+      "tags": [
+        "tense-present-simple",
+        "build",
+        "question"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0024",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "words": [
+        "He",
+        "often",
+        "plays",
+        "tennis"
+      ],
+      "answers": [
+        [
+          "He",
+          "often",
+          "plays",
+          "tennis"
+        ],
+        [
+          "He",
+          "plays",
+          "tennis",
+          "often"
+        ]
+      ],
+      "translation": {
+        "ru": "Он часто играет в теннис."
+      },
+      "explanation": {
+        "ru": "Наречие частоты often обычно стоит перед смысловым глаголом; вариант в конце предложения также допустим.",
+        "en": "The frequency adverb often usually goes before the main verb; the end position is also acceptable."
+      },
+      "tags": [
+        "tense-present-simple",
+        "build",
+        "frequency-adverbs"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0025",
+      "type": "build",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "words": [
+        "She",
+        "reads",
+        "the",
+        "newspaper",
+        "every",
+        "morning"
+      ],
+      "answers": [
+        [
+          "She",
+          "reads",
+          "the",
+          "newspaper",
+          "every",
+          "morning"
+        ]
+      ],
+      "translation": {
+        "ru": "Она читает газету каждое утро."
+      },
+      "explanation": {
+        "ru": "Третье лицо единственного числа: read → reads; every morning — привычка.",
+        "en": "The third person singular: read → reads; every morning signals a habit."
+      },
+      "tags": [
+        "tense-present-simple",
+        "build",
+        "third-person-s"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0026",
+      "type": "match",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте форму Present Simple и пример.",
+        "en": "Match each Present Simple form with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Утверждение, 3-е лицо",
+            "en": "Affirmative, third person"
+          },
+          "right": "She works in a bank."
+        },
+        {
+          "left": {
+            "ru": "Отрицание с do not",
+            "en": "Negative with do not"
+          },
+          "right": "They do not live here."
+        },
+        {
+          "left": {
+            "ru": "Вопрос с Does",
+            "en": "Question with Does"
+          },
+          "right": "Does he play chess?"
+        },
+        {
+          "left": {
+            "ru": "Краткий ответ",
+            "en": "Short answer"
+          },
+          "right": "Yes, she does."
+        }
+      ],
+      "explanation": {
+        "ru": "Утверждение в третьем лице получает -s, отрицание строится с do not, вопрос — с Does, краткий ответ повторяет вспомогательный глагол.",
+        "en": "The third-person affirmative takes -s, the negative uses do not, the question uses Does, and the short answer repeats the auxiliary verb."
+      },
+      "tags": [
+        "tense-present-simple",
+        "match",
+        "form"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0027",
+      "type": "match",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Привычка",
+            "en": "Habit"
+          },
+          "right": "I go swimming twice a week."
+        },
+        {
+          "left": {
+            "ru": "Общая истина",
+            "en": "General truth"
+          },
+          "right": "Water boils at 100 degrees."
+        },
+        {
+          "left": {
+            "ru": "Расписание",
+            "en": "Timetable"
+          },
+          "right": "The train leaves at 6:45."
+        },
+        {
+          "left": {
+            "ru": "Постоянное состояние",
+            "en": "Permanent state"
+          },
+          "right": "My parents live in Bristol."
+        }
+      ],
+      "explanation": {
+        "ru": "Present Simple называет привычки, факты, расписания и постоянные состояния.",
+        "en": "Present Simple names habits, facts, timetables and permanent states."
+      },
+      "tags": [
+        "tense-present-simple",
+        "match",
+        "meaning"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0028",
+      "type": "match",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте маркер времени и пример.",
+        "en": "Match each time marker with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "always — всегда",
+            "en": "always"
+          },
+          "right": "She always arrives early."
+        },
+        {
+          "left": {
+            "ru": "never — никогда",
+            "en": "never"
+          },
+          "right": "He never eats meat."
+        },
+        {
+          "left": {
+            "ru": "every day — каждый день",
+            "en": "every day"
+          },
+          "right": "I read before bed every day."
+        },
+        {
+          "left": {
+            "ru": "on Mondays — по понедельникам",
+            "en": "on Mondays"
+          },
+          "right": "We have a meeting on Mondays."
+        }
+      ],
+      "explanation": {
+        "ru": "Маркеры always, never, every day и on + день показывают, что действие регулярное.",
+        "en": "The markers always, never, every day and on + day show that the action is regular."
+      },
+      "tags": [
+        "tense-present-simple",
+        "match",
+        "markers"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0029",
+      "type": "match",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте глагол в третьем лице и пример.",
+        "en": "Match each third-person verb with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "play → plays (3-е лицо)",
+            "en": "play → plays"
+          },
+          "right": "He plays the guitar."
+        },
+        {
+          "left": {
+            "ru": "watch → watches (3-е лицо)",
+            "en": "watch → watches"
+          },
+          "right": "She watches films in the evening."
+        },
+        {
+          "left": {
+            "ru": "study → studies (3-е лицо)",
+            "en": "study → studies"
+          },
+          "right": "He studies at home."
+        },
+        {
+          "left": {
+            "ru": "go → goes (3-е лицо)",
+            "en": "go → goes"
+          },
+          "right": "She goes to work by bus."
+        }
+      ],
+      "explanation": {
+        "ru": "В третьем лице единственного числа глагол получает -s или -es, а конечная -y после согласной переходит в -ies.",
+        "en": "In the third person singular the verb takes -s or -es, and a final -y after a consonant becomes -ies."
+      },
+      "tags": [
+        "tense-present-simple",
+        "match",
+        "third-person"
+      ]
+    },
+    {
+      "id": "tense-present-simple-0030",
+      "type": "match",
+      "ruleId": "tense-present-simple",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте правило и пример.",
+        "en": "Match each rule with the example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "Наречие частоты после be",
+            "en": "Frequency adverb after be"
+          },
+          "right": "She is always late."
+        },
+        {
+          "left": {
+            "ru": "Наречие частоты перед смысловым глаголом",
+            "en": "Frequency adverb before the main verb"
+          },
+          "right": "They usually walk to work."
+        },
+        {
+          "left": {
+            "ru": "Глагол состояния без -ing",
+            "en": "State verb without -ing"
+          },
+          "right": "I know the answer."
+        },
+        {
+          "left": {
+            "ru": "Вопрос с Do",
+            "en": "Question with Do"
+          },
+          "right": "Do you speak Spanish?"
+        }
+      ],
+      "explanation": {
+        "ru": "Наречие частоты стоит после be и перед смысловым глаголом, глаголы состояния не употребляются с -ing, а вопрос с you начинается с Do.",
+        "en": "A frequency adverb goes after be and before the main verb, state verbs are not used with -ing, and a question with you begins with Do."
+      },
+      "tags": [
+        "tense-present-simple",
+        "match",
+        "rules"
+      ]
+    }
+  ]
+}

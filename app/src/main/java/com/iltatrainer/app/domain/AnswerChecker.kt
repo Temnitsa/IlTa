@@ -23,5 +23,16 @@ object AnswerChecker {
         return normalize(userInput) == canonicalAnswer(question)
     }
 
+    fun isBuildCorrect(question: Question, selectedTokens: List<String>): Boolean {
+        if (question.type != "build") return false
+        return question.answers.any { answer -> answer == selectedTokens }
+    }
+
+    /** Human-readable correct answer for any non-choice exercise. */
+    fun correctText(question: Question): String = when {
+        question.isBuild -> question.answers.firstOrNull()?.joinToString(" ")?.plus(".").orEmpty()
+        else -> ""
+    }
+
     fun displayAnswer(value: String): String = normalize(value)
 }
