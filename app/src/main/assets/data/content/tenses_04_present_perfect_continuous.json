@@ -27,8 +27,8 @@
             "en": "Form"
           },
           "body": {
-            "ru": "(+) **have / has been + V-ing**\n(–) **have / has not been** + V-ing\n(?) **Have / Has** + … + **been** + V-ing?",
-            "en": "(+) **have / has been + V-ing**\n(–) **have / has not been** + V-ing\n(?) **Have / Has** + … + **been** + V-ing?"
+            "ru": "(+) **S + have/has been + V-ing**\n(–) **S + have/has not been + V-ing**\n(?) **Have/Has + S + been + V-ing?**\nI / you / we / they → **have**; he / she / it → **has**",
+            "en": "(+) **S + have/has been + V-ing**\n(–) **S + have/has not been + V-ing**\n(?) **Have/Has + S + been + V-ing?**\nI / you / we / they → **have**; he / she / it → **has**"
           },
           "examples": [
             "I have been reading all evening.",
@@ -43,8 +43,8 @@
             "en": "When we use it"
           },
           "body": {
-            "ru": "• действие началось в прошлом и **всё ещё продолжается**\n• важна **длительность**: как долго?\n• **результат** виден сейчас\n• повторяющееся действие до сих пор",
-            "en": "• the action started in the past and is **still going on**\n• **duration** matters: how long?\n• the **result** is visible now\n• a repeated action up to now"
+            "ru": "• действие началось в прошлом и **длится до сих пор**\n• важен **процесс**, а не результат\n• виден **результат** недавнего действия\n• действие **повторялось** до настоящего момента\n• ответ на вопрос **how long**",
+            "en": "• the action started in the past and is **still going on**\n• the **process** matters, not the result\n• the **result** of a recent action is visible\n• the action has **repeated** up to now\n• it answers the question **how long**"
           },
           "examples": [
             "The ground is wet because it has been raining.",
@@ -58,13 +58,28 @@
             "en": "Markers"
           },
           "body": {
-            "ru": "• **for** + длительность\n• **since** + начало\n• **how long**\n• **lately / recently**\n• **all day / all morning**",
-            "en": "• **for** + duration\n• **since** + a starting point\n• **how long**\n• **lately / recently**\n• **all day / all morning**"
+            "ru": "• **for** (в течение) + длительность\n• **since** (с) + начало\n• **how long** (как долго)\n• **lately / recently** (в последнее время)\n• **all day / all morning** (весь день / всё утро)\n• **this week** (на этой неделе)",
+            "en": "• **for** + duration\n• **since** + starting point\n• **how long**\n• **lately / recently**\n• **all day / all morning**\n• **this week**"
           },
           "examples": [
             "for two hours",
             "since 2020",
             "How long have you been learning English?"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Особенности",
+            "en": "Special points"
+          },
+          "body": {
+            "ru": "• **state verbs** (know, be, love) не ставятся в -ing → нужна форма Present Perfect\n• **been** обязательно перед V-ing\n• **for** — период, **since** — момент\n• **PPC** подчёркивает процесс, **Present Perfect** — результат\n• короткие формы: **I've been**, **she's been**",
+            "en": "• **state verbs** (know, be, love) are not used in -ing → the Present Perfect is needed\n• **been** is required before V-ing\n• **for** = a period, **since** = a point\n• **PPC** stresses the process, the **Present Perfect** the result\n• short forms: **I've been**, **she's been**"
+          },
+          "examples": [
+            "I have known her for ten years.",
+            "He has been studying since eight o'clock.",
+            "We have been planning this trip for months."
           ]
         }
       ]

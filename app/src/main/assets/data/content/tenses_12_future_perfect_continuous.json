@@ -27,13 +27,14 @@
             "en": "Form"
           },
           "body": {
-            "ru": "(+) **will have been + V-ing**\n(–) **will not have been** + V-ing\n(?) **Will** + … + **have been** + V-ing?",
-            "en": "(+) **will have been + V-ing**\n(–) **will not have been** + V-ing\n(?) **Will** + … + **have been** + V-ing?"
+            "ru": "(+) **S + will have been + V-ing**\n(–) **S + will not have been + V-ing**\n(?) **Will + S + have been + V-ing?**\n**will not** = **won't**\nОдна схема для всех.",
+            "en": "(+) **S + will have been + V-ing**\n(–) **S + will not have been + V-ing**\n(?) **Will + S + have been + V-ing?**\n**will not** = **won't**\nOne pattern for all forms."
           },
           "examples": [
             "By June I will have been studying English for five years.",
             "He will not have been working here long by then.",
-            "Will you have been living here for ten years next month?"
+            "Will you have been living here for ten years next month?",
+            "By next week they will have been waiting for a month."
           ]
         },
         {
@@ -42,8 +43,8 @@
             "en": "When we use it"
           },
           "body": {
-            "ru": "• сколько длится действие к моменту в будущем\n• акцент на процессе и длительности\n• виден результат процесса",
-            "en": "• how long the action lasts up to a future moment\n• focus on the process and its length\n• the result of the process is visible"
+            "ru": "• сколько времени действие будет длиться к моменту в будущем\n• подчёркиваем *процесс* и длительность, а не результат\n• результат процесса виден: *устал, проголодался*\n• длительное действие до другого события в будущем\n• часто вместе с **by … for …**",
+            "en": "• how long the action will have lasted by a future moment\n• we stress the *process* and its duration, not the result\n• the result of the process is visible: *tired, hungry*\n• a long action up to another future event\n• often used with **by … for …**"
           },
           "examples": [
             "By the time we stop, we will have been driving for eight hours.",
@@ -57,13 +58,28 @@
             "en": "Markers"
           },
           "body": {
-            "ru": "• by + срок + for + период\n• by the time + настоящее + for\n• by then + for\n• next month + for",
-            "en": "• by + deadline + for + period\n• by the time + present + for\n• by then + for\n• next month + for"
+            "ru": "• **by + срок + for + период** — к сроку + сколько длится\n• **by the time + настоящее + for** — к тому времени, когда\n• **by then + for** — к тому моменту\n• **next month + for** — в следующем месяце\n• **all day / for hours** — весь день / часами\n• **for + период** — в течение периода",
+            "en": "• **by + deadline + for + period**\n• **by the time + present + for**\n• **by then + for**\n• **next month + for**\n• **all day / for hours**\n• **for + period**"
           },
           "examples": [
             "By 2035 she will have been running the company for twenty-five years.",
             "By then I will have been waiting for two hours.",
             "Next month she will have been working here for a decade."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Особенности",
+            "en": "Key points"
+          },
+          "body": {
+            "ru": "• **by** — срок, **for** — длительность; в FPC нужны *оба*\n• **by the time + настоящее** + **for**, затем **will have been + V-ing**\n• **this time tomorrow** — процесс (FC); **by this time tomorrow** — результат или длительность\n• **state verbs** (know, belong) обычно *без* -ing, поэтому и *без* FPC\n• **will have been doing** — длительность, **will have done** — результат, **will be doing** — процесс; вопрос **Will + S + have been + V-ing?**",
+            "en": "• **by** = deadline, **for** = duration; FPC needs *both*\n• **by the time + present** + **for**, then **will have been + V-ing**\n• **this time tomorrow** — a process (FC); **by this time tomorrow** — a result or duration\n• **state verbs** (know, belong) usually take *no* -ing, so *no* FPC either\n• **will have been doing** — duration, **will have done** — result, **will be doing** — process; question **Will + S + have been + V-ing?**"
+          },
+          "examples": [
+            "By Friday I will have written the report.",
+            "By Friday I will have been writing it for three days.",
+            "At eight tomorrow I will be working on the project."
           ]
         }
       ]

@@ -27,13 +27,14 @@
             "en": "Form"
           },
           "body": {
-            "ru": "(+) **will be + V-ing**\n(–) **will not be** + V-ing\n(?) **Will** + … + **be** + V-ing?",
-            "en": "(+) **will be + V-ing**\n(–) **will not be** + V-ing\n(?) **Will** + … + **be** + V-ing?"
+            "ru": "(+) **S + will be + V-ing**\n(–) **S + will not be + V-ing**\n(?) **Will + S + be + V-ing?**\n**will not** = **won't**\nОдна схема для всех.",
+            "en": "(+) **S + will be + V-ing**\n(–) **S + will not be + V-ing**\n(?) **Will + S + be + V-ing?**\n**will not** = **won't**\nOne pattern for all forms."
           },
           "examples": [
             "I will be working at nine tomorrow.",
-            "She will not be coming tonight.",
-            "Will you be using the car later?"
+            "She will not be coming to the party.",
+            "Will you be using the car this afternoon?",
+            "At midnight we will be travelling through the mountains."
           ]
         },
         {
@@ -42,13 +43,13 @@
             "en": "When we use it"
           },
           "body": {
-            "ru": "• процесс в конкретный момент будущего\n• когда произойдёт что-то ещё\n• ожидаемые события\n• одновременные процессы",
-            "en": "• a process at a particular future moment\n• when something else happens\n• expected events\n• simultaneous processes"
+            "ru": "• *процесс* будет идти в конкретный момент будущего\n• действие будет в процессе, когда произойдёт что-то ещё\n• ожидаемые события и планы без акцента на результате\n• несколько действий будут идти одновременно\n• вежливый вопрос о планах: **Will you be …?**",
+            "en": "• a *process* will be going on at a particular future moment\n• the action will be in progress when something else happens\n• expected events and plans without focus on the result\n• several actions will be happening at the same time\n• a polite question about plans: **Will you be …?**"
           },
           "examples": [
-            "At eight I will be flying to Rome.",
-            "When you arrive, I will be waiting.",
-            "While you cook, I will be setting the table."
+            "At eight tomorrow I will be flying to Rome.",
+            "When you arrive, I will be waiting outside.",
+            "While you are cooking, I will be setting the table."
           ]
         },
         {
@@ -57,13 +58,28 @@
             "en": "Markers"
           },
           "body": {
-            "ru": "• at this time tomorrow\n• at eight o'clock tomorrow\n• this time next week\n• all day tomorrow\n• when / while + настоящее",
-            "en": "• at this time tomorrow\n• at eight o'clock tomorrow\n• this time next week\n• all day tomorrow\n• when / while + present"
+            "ru": "• **at this time tomorrow** — завтра в это время\n• **at eight o'clock tomorrow** — завтра в восемь\n• **this time next week** — в это время на следующей неделе\n• **all day tomorrow** — весь завтрашний день\n• **when / while + настоящее** — когда / пока\n• **in ten minutes** — через десять минут",
+            "en": "• **at this time tomorrow**\n• **at eight o'clock tomorrow**\n• **this time next week**\n• **all day tomorrow**\n• **when / while + present**\n• **in ten minutes**"
           },
           "examples": [
-            "This time next week she will be sailing.",
-            "All day tomorrow we will be driving.",
-            "While you are asleep, I will be working."
+            "This time next week she will be sailing around the islands.",
+            "All day tomorrow we will be driving north.",
+            "In ten minutes we will be landing in Madrid."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Особенности",
+            "en": "Key points"
+          },
+          "body": {
+            "ru": "• **by** — к сроку, **for** — длительность; FC важен *момент*, а не срок\n• **by the time + настоящее**, затем **will be + V-ing**\n• **this time tomorrow** — процесс в моменте, *не* результат\n• **state verbs** (know, love, belong) обычно *без* -ing\n• контраст: **will be doing** — процесс, **will do** — решение, **will have done** — результат; вопрос **Will + S + be + V-ing?**",
+            "en": "• **by** = deadline, **for** = duration; FC stresses the *moment*, not the deadline\n• **by the time + present**, then **will be + V-ing**\n• **this time tomorrow** — a process at the moment, *not* a result\n• **state verbs** (know, love, belong) usually take *no* -ing\n• contrast: **will be doing** — process, **will do** — decision, **will have done** — result; question **Will + S + be + V-ing?**"
+          },
+          "examples": [
+            "I will be seeing her tomorrow, so I can pass on the message.",
+            "I will call you when I get home.",
+            "You will recognise him — he will be wearing a red jacket."
           ]
         }
       ]

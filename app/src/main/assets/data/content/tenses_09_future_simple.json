@@ -17,8 +17,8 @@
         "en": "Future Simple"
       },
       "summary": {
-        "ru": "(+) will + V · (–) will + not + V · (?) Will + V?",
-        "en": "(+) will + V · (–) will + not + V · (?) Will + V?"
+        "ru": "(+) S + will + V · (–) S + will + not + V · (?) Will + S + V?",
+        "en": "(+) S + will + V · (–) S + will + not + V · (?) Will + S + V?"
       },
       "sections": [
         {
@@ -27,13 +27,14 @@
             "en": "Form"
           },
           "body": {
-            "ru": "(+) **will + V**\n(–) **will + not** + V\n(?) **Will** + V?",
-            "en": "(+) **will + V**\n(–) **will + not** + V\n(?) **Will** + V?"
+            "ru": "(+) **S + will + V** — утверждение\n(–) **S + will + not + V**\n(?) **Will + S + V?**",
+            "en": "(+) **S + will + V**\n(–) **S + will + not + V**\n(?) **Will + S + V?**"
           },
           "examples": [
-            "I will phone you later.",
+            "I will call you later.",
             "She will not come today.",
-            "Will you open the door?"
+            "Will they help us?",
+            "We will be there at six."
           ]
         },
         {
@@ -42,8 +43,8 @@
             "en": "When we use it"
           },
           "body": {
-            "ru": "- предсказание\n- обещание\n- решение **сейчас**\n- предложение помощи",
-            "en": "- a prediction\n- a promise\n- a decision **now**\n- an offer of help"
+            "ru": "• предсказания\n• обещания\n• решения **в момент речи**\n• предложения помощи\n• отказы и будущие факты",
+            "en": "• predictions\n• promises\n• decisions **at the moment of speaking**\n• offers of help\n• refusals and future facts"
           },
           "examples": [
             "I will open the window.",
@@ -57,13 +58,28 @@
             "en": "Markers"
           },
           "body": {
-            "ru": "- *tomorrow*, *soon*, *later* — будущее\n- *next week/month/year*\n- *in two days*, *one day*",
-            "en": "- *tomorrow*, *soon*, *later*\n- *next week/month/year*\n- *in two days*, *one day*"
+            "ru": "• **tomorrow** (завтра)\n• **tonight / this evening** (сегодня вечером)\n• **next week / next year** (на следующей неделе / в следующем году)\n• **soon / later** (скоро / позже)\n• **in two days / in a week** (через два дня / через неделю)\n• **one day** (однажды)",
+            "en": "• **tomorrow**\n• **tonight / this evening**\n• **next week / next year**\n• **soon / later**\n• **in two days / in a week**\n• **one day**"
           },
           "examples": [
             "We will meet next week.",
             "The film will start at eight.",
             "She will start her new job next year."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Особенности",
+            "en": "Special points"
+          },
+          "body": {
+            "ru": "• *will* — решение сейчас; *going to* — план заранее\n• после **when / if / before / after** о будущем — **Present Simple**\n• *will* — только в главной части\n• **will + V** без *to* и без *-s*",
+            "en": "• *will* for a decision now; *going to* for a plan made earlier\n• after **when / if / before / after** about the future use **Present Simple**\n• *will* only in the main clause\n• **will + V** without *to* and without *-s*"
+          },
+          "examples": [
+            "I will call you when I get home.",
+            "If it is cold, we will stay inside.",
+            "We will leave when the taxi comes."
           ]
         }
       ]

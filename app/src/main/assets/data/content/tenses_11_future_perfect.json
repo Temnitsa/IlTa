@@ -27,13 +27,14 @@
             "en": "Form"
           },
           "body": {
-            "ru": "(+) **will have + V3**\n(–) **will not have** + V3\n(?) **Will** + … + **have** + V3?",
-            "en": "(+) **will have + V3**\n(–) **will not have** + V3\n(?) **Will** + … + **have** + V3?"
+            "ru": "(+) **S + will have + V3**\n(–) **S + will not have + V3**\n(?) **Will + S + have + V3?**\n**will not** = **won't**\nОдна схема для всех.",
+            "en": "(+) **S + will have + V3**\n(–) **S + will not have + V3**\n(?) **Will + S + have + V3?**\n**will not** = **won't**\nOne pattern for all forms."
           },
           "examples": [
             "By Friday I will have finished the report.",
             "They will not have arrived by noon.",
-            "Will you have completed the course by June?"
+            "Will you have completed the course by June?",
+            "By next June she will have visited twenty countries."
           ]
         },
         {
@@ -42,13 +43,13 @@
             "en": "When we use it"
           },
           "body": {
-            "ru": "• действие завершится до момента в будущем\n• важен результат к сроку\n• обещание или прогноз",
-            "en": "• the action will be complete before a future moment\n• the result by the deadline matters\n• a promise or a prediction"
+            "ru": "• результат будет готов к конкретному сроку\n• действие завершится до другого события в будущем\n• обещание или прогноз с указанием срока\n• подчёркиваем *завершённость*, а не процесс\n• часто вместе с **by** и **by the time**",
+            "en": "• the result will be ready by a particular deadline\n• the action will be complete before another future event\n• a promise or prediction with a stated deadline\n• we stress *completion*, not the process\n• often used with **by** and **by the time**"
           },
           "examples": [
             "By the time you get home, I will have cooked dinner.",
             "She will have left the office by six.",
-            "In ten years he will have written three books."
+            "By 2050 the city will have doubled in size."
           ]
         },
         {
@@ -57,13 +58,28 @@
             "en": "Markers"
           },
           "body": {
-            "ru": "• by + срок\n• by the time + настоящее\n• by then\n• before + срок\n• in + период",
-            "en": "• by + deadline\n• by the time + present\n• by then\n• before + deadline\n• in + period"
+            "ru": "• **by + срок** — к какому сроку\n• **by the time + настоящее** — к тому времени, когда\n• **by then** — к тому моменту\n• **before + срок** — до срока\n• **in + период** — через\n• **by the end of …** — к концу\n• **by next Monday** — к следующему понедельнику",
+            "en": "• **by + deadline**\n• **by the time + present**\n• **by then**\n• **before + deadline**\n• **in + period**\n• **by the end of …**\n• **by next Monday**"
           },
           "examples": [
             "I will have spent all my savings by next month.",
             "By the time she turns thirty, she will have visited twenty countries.",
             "The builders will have finished the roof by the weekend."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Особенности",
+            "en": "Key points"
+          },
+          "body": {
+            "ru": "• **by** — к сроку, **for** — длительность; для FP важен *результат*\n• **by the time + настоящее**, затем **will have + V3**\n• **this time tomorrow** — процесс (FC); результат к сроку — **by this time tomorrow**\n• **state verbs** можно с **will have** (*will have known*), не в Continuous\n• **will have done** — результат к сроку, **will be doing** — процесс, **will have been doing** — длительность; вопрос **Will + S + have + V3?**",
+            "en": "• **by** = deadline, **for** = duration; FP stresses the *result*\n• **by the time + present**, then **will have + V3**\n• **this time tomorrow** — a process (FC); a result by then needs **by this time tomorrow**\n• **state verbs** are fine with **will have** (*will have known*), not in the Continuous\n• **will have done** — result, **will be doing** — process, **will have been doing** — duration; question **Will + S + have + V3?**"
+          },
+          "examples": [
+            "By the end of the month they will have painted the house.",
+            "At eight tomorrow we will be having dinner.",
+            "By next June she will have been working here for ten years."
           ]
         }
       ]

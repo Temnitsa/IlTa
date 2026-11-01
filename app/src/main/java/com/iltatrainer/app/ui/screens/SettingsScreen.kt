@@ -314,10 +314,7 @@ fun SettingsScreen(
                     )
                     UpdateState.Checking -> tr("Проверяем обновления…", "Checking for updates…")
                     UpdateState.UpToDate -> tr("У вас последняя версия.", "You have the latest version.")
-                    is UpdateState.Available -> tr(
-                        "Доступна версия ${updateState.info.versionName}.",
-                        "Version ${updateState.info.versionName} is available.",
-                    )
+                    is UpdateState.Available -> tr("Найдено обновление.", "Update found.")
                     is UpdateState.Downloading -> tr("Скачивание…", "Downloading…")
                     is UpdateState.Installing -> tr("Открываем установщик…", "Opening the installer…")
                     is UpdateState.Failed -> updateState.message
@@ -333,13 +330,6 @@ fun SettingsScreen(
                 )
                 when (val state = updateState) {
                     is UpdateState.Available -> {
-                        if (state.info.notes.isNotBlank()) {
-                            Text(
-                                text = state.info.notes,
-                                style = MaterialTheme.typography.bodySmall,
-                                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                            )
-                        }
                         Button(
                             onClick = onDownloadUpdate,
                             shape = RoundedCornerShape(14.dp),

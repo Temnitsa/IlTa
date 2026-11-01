@@ -27,12 +27,13 @@
             "en": "Form"
           },
           "body": {
-            "ru": "(+) **was / were + V-ing**\n(–) **was / were + not** + V-ing\n(?) **Was / Were** + V-ing?",
-            "en": "(+) **was / were + V-ing**\n(–) **was / were + not** + V-ing\n(?) **Was / Were** + V-ing?"
+            "ru": "(+) **S + was/were + V-ing**\n(–) **S + was/were + not + V-ing**\n(?) **Was/Were + S + V-ing?**\nI / he / she / it → **was**; you / we / they → **were**",
+            "en": "(+) **S + was/were + V-ing**\n(–) **S + was/were + not + V-ing**\n(?) **Was/Were + S + V-ing?**\nI / he / she / it → **was**; you / we / they → **were**"
           },
           "examples": [
             "I was reading at ten o'clock.",
             "They were playing football.",
+            "We were not waiting for the bus.",
             "Was she sleeping when you called?"
           ]
         },
@@ -42,8 +43,8 @@
             "en": "When we use it"
           },
           "body": {
-            "ru": "• действие в процессе в момент прошлого\n• **фон** для другого события\n• два **одновременных** действия\n• описание обстановки",
-            "en": "• an action in progress at a past moment\n• a **background** for another event\n• two **simultaneous** actions\n• describing the scene"
+            "ru": "• действие **в процессе** в момент прошлого\n• **фон** для другого события\n• два **одновременных** действия\n• описание обстановки\n• действие до и после другого события",
+            "en": "• an action **in progress** at a past moment\n• a **background** for another event\n• two **simultaneous** actions\n• describing the scene\n• an action before and after another event"
           },
           "examples": [
             "At eight o'clock I was having breakfast.",
@@ -57,13 +58,28 @@
             "en": "Markers"
           },
           "body": {
-            "ru": "• **at 8 o'clock yesterday** (вчера в 8)\n• **at that moment** (в тот момент)\n• **while** (пока)\n• **when** (когда)\n• **all evening** (весь вечер)",
-            "en": "• **at 8 o'clock yesterday**\n• **at that moment**\n• **while**\n• **when**\n• **all evening**"
+            "ru": "• **at 8 o'clock yesterday** (вчера в 8)\n• **at that moment** (в тот момент)\n• **while** (пока)\n• **when** (когда)\n• **all evening** (весь вечер)\n• **from 6 to 8** (с 6 до 8)",
+            "en": "• **at 8 o'clock yesterday**\n• **at that moment**\n• **while**\n• **when**\n• **all evening**\n• **from 6 to 8**"
           },
           "examples": [
             "At nine o'clock last night I was studying.",
             "They were watching films all evening.",
             "While I was cooking, the doorbell rang."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Особенности",
+            "en": "Special points"
+          },
+          "body": {
+            "ru": "• **while** + длительное действие, **when** + короткое событие\n• длительное действие — Past Continuous, короткое — Past Simple\n• **be** не ставится в -ing\n• **state verbs** (know, love, want) обычно не употребляются\n• **was** — I / he / she / it, **were** — you / we / they",
+            "en": "• **while** + a long action, **when** + a short event\n• long action — Past Continuous, short event — Past Simple\n• **be** is not used in the -ing form\n• **state verbs** (know, love, want) are not normally used\n• **was** — I / he / she / it, **were** — you / we / they"
+          },
+          "examples": [
+            "The teacher was writing on the board.",
+            "We were waiting for the bus.",
+            "He was not listening to the radio."
           ]
         }
       ]

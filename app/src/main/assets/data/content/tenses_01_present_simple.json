@@ -27,14 +27,14 @@
             "en": "Form"
           },
           "body": {
-            "ru": "(+) V/Vs\n(–) do/does + not + V\n(?) Do/Does + V?",
-            "en": "(+) V/Vs\n(–) do/does + not + V\n(?) Do/Does + V?"
+            "ru": "(+) **S + V/Vs**\n(–) **S + do/does + not + V**\n(?) **Do/Does + S + V?**",
+            "en": "(+) **S + V/Vs**\n(–) **S + do/does + not + V**\n(?) **Do/Does + S + V?**"
           },
           "examples": [
-            "I work here.",
-            "He works here.",
-            "They work here.",
-            "Does she work here?"
+            "She works here.",
+            "She does not work here.",
+            "Does she work here?",
+            "They play tennis."
           ]
         },
         {
@@ -43,13 +43,15 @@
             "en": "When we use it"
           },
           "body": {
-            "ru": "• привычки и регулярные действия\n• факты и расписания\n• постоянные состояния",
-            "en": "• habits and regular actions\n• facts and timetables\n• permanent states"
+            "ru": "• привычки и регулярные действия\n• факты и общие истины\n• расписания и программы\n• постоянные состояния\n• будущее по расписанию",
+            "en": "• habits and repeated actions\n• facts and general truths\n• timetables and schedules\n• permanent states\n• future events on a timetable"
           },
           "examples": [
-            "I go to the gym every Monday.",
+            "I go to the gym twice a week.",
             "Water boils at 100 degrees.",
-            "My parents live in Bristol."
+            "The train leaves at 7:30 tomorrow.",
+            "My parents live in Bristol.",
+            "The film starts at nine tonight."
           ]
         },
         {
@@ -58,13 +60,30 @@
             "en": "Markers"
           },
           "body": {
-            "ru": "• every day / every week\n• usually / often / sometimes / never\n• on Mondays",
-            "en": "• every day / every week\n• usually / often / sometimes / never\n• on Mondays"
+            "ru": "• every day / every week / every year\n• usually / often / sometimes / never\n• always / rarely\n• on Mondays / at the weekend\n• once a week / twice a month\n• every morning / every evening",
+            "en": "• every day / every week / every year\n• usually / often / sometimes / never\n• always / rarely\n• on Mondays / at the weekend\n• once a week / twice a month\n• every morning / every evening"
           },
           "examples": [
             "She usually walks to work.",
             "He never eats meat.",
-            "They go hiking on Sundays."
+            "They go hiking on Sundays.",
+            "We meet twice a month."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Особенности",
+            "en": "Key points"
+          },
+          "body": {
+            "ru": "• **-s / -es / -ies**: works, watches, studies\n• **do/does**: do/does + not + V; Do/Does + S + V?\n• **state verbs**: know, want, like — без -ing\n• **краткие ответы**: Yes, she does. / No, they do not.\n• **контраст**: обычно Present Simple — сейчас Present Continuous",
+            "en": "• **-s / -es / -ies**: works, watches, studies\n• **do/does**: do/does + not + V; Do/Does + S + V?\n• **state verbs**: know, want, like — no -ing\n• **short answers**: Yes, she does. / No, they do not.\n• **contrast**: usually Present Simple — now Present Continuous"
+          },
+          "examples": [
+            "He watches films in the evening.",
+            "She studies at home.",
+            "Do you speak Spanish?",
+            "I know the answer."
           ]
         }
       ]

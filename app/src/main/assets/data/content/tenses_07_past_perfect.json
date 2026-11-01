@@ -17,8 +17,8 @@
         "en": "Past Perfect"
       },
       "summary": {
-        "ru": "(+) had + V3 · (–) had + not + V3 · (?) Had + V3?",
-        "en": "(+) had + V3 · (–) had + not + V3 · (?) Had + V3?"
+        "ru": "(+) S + had + V3 · (–) S + had + not + V3 · (?) Had + S + V3?",
+        "en": "(+) S + had + V3 · (–) S + had + not + V3 · (?) Had + S + V3?"
       },
       "sections": [
         {
@@ -27,13 +27,14 @@
             "en": "Form"
           },
           "body": {
-            "ru": "(+) **had + V3**\n(–) **had + not** + V3\n(?) **Had** + V3?",
-            "en": "(+) **had + V3**\n(–) **had + not** + V3\n(?) **Had** + V3?"
+            "ru": "(+) **S + had + V3** — утверждение\n(–) **S + had + not + V3**\n(?) **Had + S + V3?**",
+            "en": "(+) **S + had + V3**\n(–) **S + had + not + V3**\n(?) **Had + S + V3?**"
           },
           "examples": [
             "She had finished the report.",
-            "They had not arrived.",
-            "Had you seen him before?"
+            "They had not arrived yet.",
+            "Had you seen him before?",
+            "I had never eaten there."
           ]
         },
         {
@@ -42,13 +43,13 @@
             "en": "When we use it"
           },
           "body": {
-            "ru": "- действие **раньше** другого прошлого\n- *by the time* + Past Simple\n- *It was the first time*\n- косвенная речь после *said*",
-            "en": "- an action **earlier** than another past action\n- *by the time* + Past Simple\n- *It was the first time*\n- reported speech after *said*"
+            "ru": "• действие **раньше** другого прошлого\n• результат уже был к прошлому моменту\n• *by the time* + более позднее Past Simple\n• *It was the first time* + опыт\n• косвенная речь после *said, told, asked*",
+            "en": "• an action **earlier** than another past action\n• a result already complete by a past moment\n• *by the time* + a later Past Simple\n• *It was the first time* + an experience\n• reported speech after *said, told, asked*"
           },
           "examples": [
             "When we got home, the film had started.",
             "By the time I called, she had left.",
-            "She said she had finished the project."
+            "It was the first time he had flown."
           ]
         },
         {
@@ -57,13 +58,28 @@
             "en": "Markers"
           },
           "body": {
-            "ru": "- *by the time*, *when*, *before*, *after* — время\n- *already*, *just*, *never*, *ever*, *yet* — частота",
-            "en": "- *by the time*, *when*, *before*, *after*\n- *already*, *just*, *never*, *ever*, *yet*"
+            "ru": "• **by the time** (к тому времени)\n• **when / before / after** (когда / до / после)\n• **already / just** (уже / только что)\n• **never / ever** (никогда / когда-либо)\n• **yet** (ещё)\n• **by Monday** (к понедельнику)",
+            "en": "• **by the time**\n• **when / before / after**\n• **already / just**\n• **never / ever**\n• **yet**\n• **by Monday**"
           },
           "examples": [
             "I had already left when he phoned.",
             "She had just finished.",
             "He had never flown before."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Особенности",
+            "en": "Special points"
+          },
+          "body": {
+            "ru": "• *by the time* + Past Simple: более раннее действие — в Past Perfect\n• *before / after* показывают порядок событий\n• косвенная речь: *said / told / asked* + Past Perfect\n• пассив: **had been + V3**\n• с *yesterday / last year* — **Past Simple**",
+            "en": "• *by the time* + Past Simple: the earlier action is Past Perfect\n• *before / after* show the order of events\n• reported speech: *said / told / asked* + Past Perfect\n• passive: **had been + V3**\n• with *yesterday / last year* use **Past Simple**"
+          },
+          "examples": [
+            "By the time we arrived, the show had begun.",
+            "She said she had lost her keys.",
+            "The road had been closed before the race."
           ]
         }
       ]

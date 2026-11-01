@@ -27,13 +27,14 @@
             "en": "Form"
           },
           "body": {
-            "ru": "(+) **have / has + V3**\n(–) **have / has + not** + V3\n(?) **Have / Has** + V3?",
-            "en": "(+) **have / has + V3**\n(–) **have / has + not** + V3\n(?) **Have / Has** + V3?"
+            "ru": "(+) **S + have/has + V3**\n(–) **S + have/has + not + V3**\n(?) **Have/Has + S + V3?**",
+            "en": "(+) **S + have/has + V3**\n(–) **S + have/has + not + V3**\n(?) **Have/Has + S + V3?**"
           },
           "examples": [
             "I have finished.",
             "She has left.",
-            "Have you seen it?"
+            "Have you seen it?",
+            "They have not arrived."
           ]
         },
         {
@@ -42,13 +43,15 @@
             "en": "When we use it"
           },
           "body": {
-            "ru": "• результат важен сейчас\n• опыт за всю жизнь\n• незаконченный период (today, this week)\n• действие длится до сих пор",
-            "en": "• the result matters now\n• experience in a lifetime\n• an unfinished period (today, this week)\n• an action continuing up to now"
+            "ru": "• результат важен сейчас\n• опыт за всю жизнь\n• незаконченный период (today, this week)\n• **first time / the first time**\n• действие длится до сих пор (for/since)",
+            "en": "• the result matters now\n• experience in a lifetime\n• an unfinished period (today, this week)\n• **first time / the first time**\n• an action continuing up to now (for/since)"
           },
           "examples": [
             "I have lost my keys.",
             "She has visited Rome twice.",
-            "I have read two books this week."
+            "I have read two books this week.",
+            "This is the first time I have flown.",
+            "They have lived here since 2019."
           ]
         },
         {
@@ -57,13 +60,30 @@
             "en": "Markers"
           },
           "body": {
-            "ru": "• just / already / yet\n• ever / never\n• since / for\n• so far / recently",
-            "en": "• just / already / yet\n• ever / never\n• since / for\n• so far / recently"
+            "ru": "• just / already / yet\n• ever / never\n• for / since\n• so far / recently / lately\n• today / this week\n• this is the first time",
+            "en": "• just / already / yet\n• ever / never\n• for / since\n• so far / recently / lately\n• today / this week\n• this is the first time"
           },
           "examples": [
             "She has just called.",
             "We have already eaten.",
-            "He has not started yet."
+            "He has not started yet.",
+            "I have known her for ten years."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Особенности",
+            "en": "Key points"
+          },
+          "body": {
+            "ru": "• **V3**: go → gone, write → written, see → seen\n• **have/has**: I/you/we/they — have, he/she/it — has\n• **for / since**: for + длительность, since + точка\n• **been / gone**: been — побывал и вернулся, gone — уехал и ещё там\n• **контраст**: законченное время (yesterday) → Past Simple",
+            "en": "• **V3**: go → gone, write → written, see → seen\n• **have/has**: I/you/we/they — have, he/she/it — has\n• **for / since**: for + length of time, since + starting point\n• **been / gone**: been — went and came back, gone — went and is still away\n• **contrast**: finished time (yesterday) → Past Simple"
+          },
+          "examples": [
+            "I have gone home.",
+            "She has written a letter.",
+            "They have been to Spain twice.",
+            "We saw them last week."
           ]
         }
       ]

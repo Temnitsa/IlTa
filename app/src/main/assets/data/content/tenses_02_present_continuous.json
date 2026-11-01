@@ -27,13 +27,14 @@
             "en": "Form"
           },
           "body": {
-            "ru": "(+) **am / is / are + V-ing**\n(–) **am / is / are + not** + V-ing\n(?) **Am / Is / Are** + V-ing?",
-            "en": "(+) **am / is / are + V-ing**\n(–) **am / is / are + not** + V-ing\n(?) **Am / Is / Are** + V-ing?"
+            "ru": "(+) **S + am/is/are + V-ing**\n(–) **S + am/is/are + not + V-ing**\n(?) **Am/Is/Are + S + V-ing?**",
+            "en": "(+) **S + am/is/are + V-ing**\n(–) **S + am/is/are + not + V-ing**\n(?) **Am/Is/Are + S + V-ing?**"
           },
           "examples": [
             "I am reading.",
             "She is not sleeping.",
-            "Are you listening?"
+            "Are you listening?",
+            "They are playing football."
           ]
         },
         {
@@ -42,13 +43,15 @@
             "en": "When we use it"
           },
           "body": {
-            "ru": "• действие прямо сейчас\n• временная ситуация\n• договорённый план на будущее\n• изменения и тенденции",
-            "en": "• an action happening now\n• a temporary situation\n• a fixed future arrangement\n• changes and trends"
+            "ru": "• действие прямо сейчас\n• временная ситуация\n• договорённые планы на будущее\n• изменения и тенденции\n• **always** + раздражение",
+            "en": "• an action happening now\n• a temporary situation\n• fixed future arrangements\n• changes and trends\n• **always** + annoyance"
           },
           "examples": [
-            "Look! It is snowing.",
+            "Look! It is raining.",
             "I am staying with friends this month.",
-            "We are meeting at six tomorrow."
+            "We are meeting at six tomorrow.",
+            "Prices are going up.",
+            "He is always losing his keys."
           ]
         },
         {
@@ -57,13 +60,30 @@
             "en": "Markers"
           },
           "body": {
-            "ru": "• now / right now\n• at the moment\n• today / this week / these days\n• Look! / Listen!",
-            "en": "• now / right now\n• at the moment\n• today / this week / these days\n• Look! / Listen!"
+            "ru": "• now / right now\n• at the moment\n• currently / at present\n• today / this week / this month\n• these days\n• Look! / Listen!",
+            "en": "• now / right now\n• at the moment\n• currently / at present\n• today / this week / this month\n• these days\n• Look! / Listen!"
           },
           "examples": [
             "She is talking on the phone now.",
             "They are decorating the flat at the moment.",
-            "He is learning to drive these days."
+            "He is learning to drive these days.",
+            "Listen! The baby is crying."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Особенности",
+            "en": "Key points"
+          },
+          "body": {
+            "ru": "• **-ing**: make → making, run → running, lie → lying\n• **am/is/are**: форма зависит от S\n• **state verbs**: know, want, like — обычно без -ing\n• **краткие ответы**: Yes, she is. / No, they are not.\n• **контраст**: обычно Present Simple — сейчас Present Continuous",
+            "en": "• **-ing**: make → making, run → running, lie → lying\n• **am/is/are**: the form depends on S\n• **state verbs**: know, want, like — usually no -ing\n• **short answers**: Yes, she is. / No, they are not.\n• **contrast**: usually Present Simple — now Present Continuous"
+          },
+          "examples": [
+            "She is making dinner.",
+            "The dog is running outside.",
+            "Do you know the answer?",
+            "Is he working today?"
           ]
         }
       ]

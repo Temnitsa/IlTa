@@ -27,8 +27,8 @@
             "en": "Form"
           },
           "body": {
-            "ru": "(+) **V-ed / V2**\n(–) **did + not** + V\n(?) **Did** + V?\nbe: **was / were**",
-            "en": "(+) **V-ed / V2**\n(–) **did + not** + V\n(?) **Did** + V?\nbe: **was / were**"
+            "ru": "(+) **S + V-ed / V2**\n(–) **S + did + not + V**\n(?) **Did + S + V?**\nbe: **S + was/were**",
+            "en": "(+) **S + V-ed / V2**\n(–) **S + did + not + V**\n(?) **Did + S + V?**\nbe: **S + was/were**"
           },
           "examples": [
             "She watched a film last night.",
@@ -43,8 +43,8 @@
             "en": "When we use it"
           },
           "body": {
-            "ru": "• законченное действие в прошлом\n• известно **когда**\n• **последовательность** событий\n• привычка в прошлом",
-            "en": "• a finished action in the past\n• we know **when** it happened\n• a **sequence** of events\n• a past habit"
+            "ru": "• законченное действие в прошлом\n• известно **когда** действие произошло\n• несколько событий **по порядку**\n• привычка в прошлом\n• факт или состояние в прошлом",
+            "en": "• a finished action in the past\n• we know **when** it happened\n• several events **in order**\n• a habit in the past\n• a fact or state in the past"
           },
           "examples": [
             "We visited the museum last Sunday.",
@@ -58,13 +58,28 @@
             "en": "Markers"
           },
           "body": {
-            "ru": "• **yesterday** (вчера)\n• **last week / last summer** (на прошлой неделе / прошлым летом)\n• **two hours ago** (два часа назад)\n• **in 2019** (в 2019 году)\n• **when I was a child** (когда я был ребёнком)",
-            "en": "• **yesterday**\n• **last week / last summer**\n• **two hours ago**\n• **in 2019**\n• **when I was a child**"
+            "ru": "• **yesterday** (вчера)\n• **last week / last year** (на прошлой неделе / в прошлом году)\n• **two hours ago** (два часа назад)\n• **in 2019** (в 2019 году)\n• **when I was a child** (когда я был ребёнком)\n• **on Monday** (в понедельник)",
+            "en": "• **yesterday**\n• **last week / last year**\n• **two hours ago**\n• **in 2019**\n• **when I was a child**\n• **on Monday**"
           },
           "examples": [
             "We met yesterday.",
             "She called me two hours ago.",
             "He moved to Paris in 2019."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Особенности",
+            "en": "Special points"
+          },
+          "body": {
+            "ru": "• неправильные глаголы меняют форму: **go → went**, **see → saw**, **buy → bought**\n• после **did** — начальная форма: *did went* → **did go**\n• **be**: I / he / she / it → **was**, you / we / they → **were**\n• с **was/were** вопросы и отрицания без **did**\n• правописание **-ed**: **stop → stopped**, **study → studied**",
+            "en": "• irregular verbs change form: **go → went**, **see → saw**, **buy → bought**\n• after **did** use the base form: *did went* → **did go**\n• **be**: I / he / she / it → **was**, you / we / they → **were**\n• with **was/were** no **did** in questions and negatives\n• spelling of **-ed**: **stop → stopped**, **study → studied**"
+          },
+          "examples": [
+            "He did not go to school.",
+            "Were you at home?",
+            "I was very tired."
           ]
         }
       ]

@@ -17,8 +17,8 @@
         "en": "Past Perfect Continuous"
       },
       "summary": {
-        "ru": "(+) had been + V-ing · (–) had not been + V-ing · (?) Had + … + been + V-ing?",
-        "en": "(+) had been + V-ing · (–) had not been + V-ing · (?) Had + … + been + V-ing?"
+        "ru": "(+) S + had been + V-ing · (–) S + had not been + V-ing · (?) Had + S + been + V-ing?",
+        "en": "(+) S + had been + V-ing · (–) S + had not been + V-ing · (?) Had + S + been + V-ing?"
       },
       "sections": [
         {
@@ -27,13 +27,14 @@
             "en": "Form"
           },
           "body": {
-            "ru": "(+) **had been + V-ing**\n(–) **had not been** + V-ing\n(?) **Had** + … + **been** + V-ing?",
-            "en": "(+) **had been + V-ing**\n(–) **had not been** + V-ing\n(?) **Had** + … + **been** + V-ing?"
+            "ru": "(+) **S + had been + V-ing** — утверждение\n(–) **S + had not been + V-ing**\n(?) **Had + S + been + V-ing?**",
+            "en": "(+) **S + had been + V-ing**\n(–) **S + had not been + V-ing**\n(?) **Had + S + been + V-ing?**"
           },
           "examples": [
             "She had been working all day.",
             "They had not been waiting long.",
-            "Had they been travelling all day?"
+            "Had it been raining?",
+            "We had been walking for hours."
           ]
         },
         {
@@ -42,13 +43,13 @@
             "en": "When we use it"
           },
           "body": {
-            "ru": "- процесс **до** прошлого события\n- длительность: *for*, *since*, *all morning*\n- причина видимого результата\n- процесс, а **не** результат",
-            "en": "- a process **before** a past event\n- duration: *for*, *since*, *all morning*\n- the cause of a visible result\n- a process, **not** a result"
+            "ru": "• процесс **до** прошлого события\n• длительность до момента в прошлом\n• причина **видимого результата**\n• подчёркиваем процесс, а **не** результат\n• вопрос *how long* о длительности",
+            "en": "• a process **before** a past event\n• duration up to a moment in the past\n• the cause of a **visible result**\n• emphasising the process, **not** the result\n• a *how long* question about duration"
           },
           "examples": [
-            "He had been driving for hours before he stopped.",
             "The ground was wet because it had been raining.",
-            "She had been working there since 2019."
+            "She had been waiting for an hour when the bus came.",
+            "How long had they been living there?"
           ]
         },
         {
@@ -57,13 +58,28 @@
             "en": "Markers"
           },
           "body": {
-            "ru": "- *for* + длительность\n- *since* + начало\n- *all day*, *all morning*\n- *how long* в вопросе",
-            "en": "- *for* + duration\n- *since* + starting point\n- *all day*, *all morning*\n- *how long* in questions"
+            "ru": "• **for** + длительность\n• **since** + начало\n• **all day / all morning** (весь день / всё утро)\n• **how long** (как долго)\n• **before** + событие\n• **when** + Past Simple",
+            "en": "• **for** + duration\n• **since** + starting point\n• **all day / all morning**\n• **how long**\n• **before** + an event\n• **when** + Past Simple"
           },
           "examples": [
-            "They had been waiting for two hours.",
-            "He had been living there since 2018.",
-            "We had been walking all morning."
+            "He had been driving for six hours.",
+            "They had been living there since 2018.",
+            "We had been working all morning."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Особенности",
+            "en": "Special points"
+          },
+          "body": {
+            "ru": "• глаголы состояния (*know, believe, belong*) — **had + V3**, без Continuous\n• *by the time* + Past Simple\n• *before / after* показывают порядок событий\n• **had been + V-ing** — процесс, **had + V3** — результат\n• пассив: **had been + V3**",
+            "en": "• state verbs (*know, believe, belong*) use **had + V3**, not the Continuous\n• *by the time* + Past Simple\n• *before / after* show the order of events\n• **had been + V-ing** is a process, **had + V3** a result\n• passive: **had been + V3**"
+          },
+          "examples": [
+            "They had known each other for years.",
+            "By the time we met, she had been studying for hours.",
+            "He had written three letters by noon."
           ]
         }
       ]
