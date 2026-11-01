@@ -1,0 +1,1407 @@
+{
+  "meta": {
+    "package": "prepositions_04_adjectives",
+    "version": 2,
+    "authors": [
+      "content-team"
+    ]
+  },
+  "rules": [
+    {
+      "id": "prep-adjectives",
+      "sectionId": "prepositions",
+      "order": 40,
+      "level": "A2",
+      "title": {
+        "ru": "Предлоги после прилагательных",
+        "en": "Prepositions after adjectives"
+      },
+      "summary": {
+        "ru": "После многих прилагательных употребляется определённый предлог: afraid of, good at, interested in. Такие пары нужно запоминать вместе с прилагательным, потому что по-русски предлог часто другой.",
+        "en": "Many adjectives take a particular preposition: afraid of, good at, interested in. These pairs should be learnt together with the adjective, because the preposition is often different in other languages."
+      },
+      "sections": [
+        {
+          "heading": {
+            "ru": "Почему предлог зависит от прилагательного",
+            "en": "Why the preposition depends on the adjective"
+          },
+          "body": {
+            "ru": "У каждого прилагательного может быть свой постоянный предлог, и его нельзя угадать по переводу. Такие сочетания учат как одно целое: прилагательное + предлог + дополнение. После предлога глагол стоит в форме -ing.",
+            "en": "Each adjective may have its own fixed preposition, and it cannot be guessed from the translation. These combinations are learnt as one unit: adjective + preposition + object. After a preposition the verb takes the -ing form."
+          },
+          "examples": [
+            "afraid of dogs",
+            "good at maths",
+            "interested in art"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Пары о чувствах и отношении",
+            "en": "Pairs for feelings and attitudes"
+          },
+          "body": {
+            "ru": "Многие прилагательные о чувствах и отношении требуют конкретного предлога: он выражает причину, объект или источник чувства. Запоминайте пару целиком, а не переводите предлог с русского. После предлога глагол стоит в форме -ing.",
+            "en": "Many adjectives about feelings and attitudes take a particular preposition that expresses the cause, object or source of the feeling. Learn the pair as a whole instead of translating the preposition from your own language. After a preposition the verb takes the -ing form."
+          },
+          "examples": [
+            "proud of",
+            "worried about",
+            "excited about",
+            "jealous of"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Пары о способностях и фактах",
+            "en": "Pairs for abilities and facts"
+          },
+          "body": {
+            "ru": "Другие сочетания описывают способность, качество или факт: здесь предлог тоже фиксирован. Ошибка в предлоге меняет смысл или делает фразу неестественной. После предлога глагол стоит в форме -ing.",
+            "en": "Other combinations describe an ability, a quality or a fact, and here too the preposition is fixed. A wrong preposition changes the meaning or makes the phrase unnatural. After a preposition the verb takes the -ing form."
+          },
+          "examples": [
+            "good at",
+            "capable of",
+            "famous for",
+            "responsible for"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Как запоминать и проверять",
+            "en": "How to learn and check them"
+          },
+          "body": {
+            "ru": "Учите прилагательное вместе с предлогом и сразу с примером, а при сомнении проверяйте по словарю. Полезно группировать пары по предлогу: многие прилагательные собираются вокруг одного и того же. После предлога глагол стоит в форме -ing.",
+            "en": "Learn each adjective together with its preposition and an example, and check a dictionary when you are not sure. It helps to group pairs by preposition, as many adjectives share the same one. After a preposition the verb takes the -ing form."
+          },
+          "examples": [
+            "afraid of heights",
+            "full of energy",
+            "short of time",
+            "tired of waiting"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "prep3-0001",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Our little dog is afraid ___ loud noises.",
+      "translation": {
+        "ru": "Наша маленькая собака боится громких звуков."
+      },
+      "options": [
+        "of",
+        "from",
+        "at",
+        "with"
+      ],
+      "answer": "of",
+      "explanation": {
+        "ru": "Прилагательное afraid закреплено за предлогом of: afraid of something. Другие предлоги здесь невозможны.",
+        "en": "The adjective afraid is fixed with of: afraid of something. No other preposition works in this phrase."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0002",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "My parents were very proud ___ my exam results.",
+      "translation": {
+        "ru": "Мои родители очень гордились моими результатами на экзаменах."
+      },
+      "options": [
+        "of",
+        "from",
+        "with",
+        "at"
+      ],
+      "answer": "of",
+      "explanation": {
+        "ru": "Proud of — «гордиться чем-то»: предлог of входит в устойчивое сочетание с proud.",
+        "en": "Proud of means feeling pleased about something; the preposition of is part of the fixed phrase."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0003",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "My cousin is very interested ___ Japanese culture.",
+      "translation": {
+        "ru": "Моя двоюродная сестра очень интересуется японской культурой."
+      },
+      "options": [
+        "in",
+        "on",
+        "about",
+        "for"
+      ],
+      "answer": "in",
+      "explanation": {
+        "ru": "Interested in — «интересующийся чем-то»; после interested всегда стоит in.",
+        "en": "Interested in is the phrase for having an interest in something; interested always takes in."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0004",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "My younger brother is really good ___ chess.",
+      "translation": {
+        "ru": "Мой младший брат действительно хорошо играет в шахматы."
+      },
+      "options": [
+        "at",
+        "for",
+        "with",
+        "of"
+      ],
+      "answer": "at",
+      "explanation": {
+        "ru": "Good at — «хорошо уметь что-то делать»; at ставится перед названием навыка или умения.",
+        "en": "Good at describes a skill; at comes before the skill or activity: good at chess."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0005",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "My cousin is quite bad ___ solving difficult puzzles.",
+      "translation": {
+        "ru": "Моя двоюродная сестра довольно плохо решает сложные головоломки."
+      },
+      "options": [
+        "at",
+        "in",
+        "for",
+        "of"
+      ],
+      "answer": "at",
+      "explanation": {
+        "ru": "Bad at — «плохо уметь что-то»; перед названием навыка ставится at, как и в паре good at.",
+        "en": "Bad at means not skilled at something; the skill takes at, just like good at."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0007",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Are you ready ___ the maths test tomorrow?",
+      "translation": {
+        "ru": "Ты готов к контрольной по математике завтра?"
+      },
+      "options": [
+        "for",
+        "to",
+        "at",
+        "of"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Ready for ставится перед существительным: ready for the test. Перед глаголом было бы ready to start.",
+        "en": "Ready for is used before a noun: ready for the test. Before a verb we would use ready to start."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0009",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "My parents are worried ___ my grandfather's health.",
+      "translation": {
+        "ru": "Мои родители волнуются о здоровье дедушки."
+      },
+      "options": [
+        "about",
+        "of",
+        "at",
+        "with"
+      ],
+      "answer": "about",
+      "explanation": {
+        "ru": "Worried about — «беспокоиться о чём-то»; предлог about закреплён за worried.",
+        "en": "Worried about means anxious about something; worried is fixed with about."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0010",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The children are very excited ___ their summer holidays.",
+      "translation": {
+        "ru": "Дети очень радуются предстоящим летним каникулам."
+      },
+      "options": [
+        "about",
+        "of",
+        "at",
+        "with"
+      ],
+      "answer": "about",
+      "explanation": {
+        "ru": "Excited about — «радоваться чему-то, ждать с нетерпением»: предлог about закреплён за excited.",
+        "en": "Excited about means looking forward to something; the preposition about is fixed with excited."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0012",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The old attic was full ___ forgotten furniture.",
+      "translation": {
+        "ru": "Старый чердак был полон забытой мебели."
+      },
+      "options": [
+        "of",
+        "with",
+        "in",
+        "from"
+      ],
+      "answer": "of",
+      "explanation": {
+        "ru": "Full of — «полный чего-то»; после full ставится of, а с причастием filled используется filled with.",
+        "en": "Full of means containing a lot of something; with the participle filled we use filled with."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0013",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The office manager is responsible ___ ordering new supplies.",
+      "translation": {
+        "ru": "Офис-менеджер отвечает за заказ канцелярских товаров."
+      },
+      "options": [
+        "for",
+        "of",
+        "to",
+        "with"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Responsible for — «отвечать за что-то»; предлог for закреплён за responsible.",
+        "en": "Responsible for means having a duty for something; responsible takes for."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0016",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Regular exercise is very good ___ your heart.",
+      "translation": {
+        "ru": "Регулярные физические упражнения очень полезны для сердца."
+      },
+      "options": [
+        "for",
+        "to",
+        "at",
+        "of"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Good for — «полезный для чего-то»; о пользе говорим с for, а о навыке — с at.",
+        "en": "Good for means beneficial; for is used for benefit, while at is used for skills."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0017",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Too much sugar is bad ___ your teeth.",
+      "translation": {
+        "ru": "Слишком много сахара вредно для зубов."
+      },
+      "options": [
+        "for",
+        "to",
+        "at",
+        "of"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Bad for — «вредный для чего-то»; вред обозначается предлогом for, а не at.",
+        "en": "Bad for means harmful to something; the harm is expressed with for, not at."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0024",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "B1",
+      "sentence": "The students were well prepared ___ the final exam.",
+      "translation": {
+        "ru": "Студенты были хорошо подготовлены к выпускному экзамену."
+      },
+      "options": [
+        "for",
+        "to",
+        "at",
+        "of"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Prepared for — «подготовленный к чему-то»; перед существительным ставится for.",
+        "en": "Prepared for means ready for something; before a noun we use prepared for."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0038",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "B1",
+      "sentence": "The old church stands very close ___ the river.",
+      "translation": {
+        "ru": "Старая церковь стоит очень близко к реке."
+      },
+      "options": [
+        "to",
+        "from",
+        "at",
+        "of"
+      ],
+      "answer": "to",
+      "explanation": {
+        "ru": "Close to — «близко к чему-то»; после close ставится to.",
+        "en": "Close to means near something; close is followed by to."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0041",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "B1",
+      "sentence": "The machine is capable ___ printing two hundred pages a minute.",
+      "translation": {
+        "ru": "Машина способна печатать двести страниц в минуту."
+      },
+      "options": [
+        "of",
+        "to",
+        "at",
+        "for"
+      ],
+      "answer": "of",
+      "explanation": {
+        "ru": "Capable of — «способный что-то делать»; после capable идёт of и -ing-форма.",
+        "en": "Capable of means able to do something; capable takes of plus an -ing form."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0042",
+      "type": "match",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте прилагательное и подходящий предлог.",
+        "en": "Match each adjective with the correct preposition."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "afraid ___ (бояться)",
+            "en": "afraid ___"
+          },
+          "right": "My little brother is afraid of spiders."
+        },
+        {
+          "left": {
+            "ru": "good ___ (хорошо уметь)",
+            "en": "good ___"
+          },
+          "right": "Our teacher says I am good at drawing."
+        },
+        {
+          "left": {
+            "ru": "interested ___ (интересоваться)",
+            "en": "interested ___"
+          },
+          "right": "She became interested in astronomy at school."
+        },
+        {
+          "left": {
+            "ru": "famous ___ (знаменитый)",
+            "en": "famous ___"
+          },
+          "right": "The region is famous for its cheese and wine."
+        }
+      ],
+      "explanation": {
+        "ru": "Afraid of, good at, interested in и famous for — предлог закреплён за прилагательным и не меняется по смыслу.",
+        "en": "Afraid of, good at, interested in and famous for — the preposition is fixed with the adjective."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0043",
+      "type": "match",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте прилагательное и подходящий предлог.",
+        "en": "Match each adjective with the correct preposition."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "proud ___ (гордиться)",
+            "en": "proud ___"
+          },
+          "right": "We are proud of what our students achieved."
+        },
+        {
+          "left": {
+            "ru": "full ___ (полный)",
+            "en": "full ___"
+          },
+          "right": "The kitchen was full of the smell of fresh bread."
+        },
+        {
+          "left": {
+            "ru": "ready ___ (готовый)",
+            "en": "ready ___"
+          },
+          "right": "Is everybody ready for the final rehearsal?"
+        },
+        {
+          "left": {
+            "ru": "kind ___ (добрый)",
+            "en": "kind ___"
+          },
+          "right": "The nurses were very kind to the children."
+        }
+      ],
+      "explanation": {
+        "ru": "Proud of, full of, ready for и kind to — устойчивые сочетания прилагательного с предлогом.",
+        "en": "Proud of, full of, ready for and kind to are fixed combinations of an adjective with a preposition."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0044",
+      "type": "match",
+      "ruleId": "prep-adjectives",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте прилагательное и подходящий предлог.",
+        "en": "Match each adjective with the correct preposition."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "worried ___ (беспокоиться)",
+            "en": "worried ___"
+          },
+          "right": "I am a bit worried about tomorrow's interview."
+        },
+        {
+          "left": {
+            "ru": "responsible ___ (отвечать за)",
+            "en": "responsible ___"
+          },
+          "right": "The caretaker is responsible for the school building."
+        },
+        {
+          "left": {
+            "ru": "similar ___ (похожий)",
+            "en": "similar ___"
+          },
+          "right": "Her new bike is similar to mine."
+        },
+        {
+          "left": {
+            "ru": "different ___ (отличаться)",
+            "en": "different ___"
+          },
+          "right": "Life in a village is different from life in a city."
+        }
+      ],
+      "explanation": {
+        "ru": "Worried about, responsible for, similar to и different from — зависимые предлоги этих прилагательных.",
+        "en": "Worried about, responsible for, similar to and different from are the dependent prepositions of these adjectives."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0045",
+      "type": "match",
+      "ruleId": "prep-adjectives",
+      "level": "B1",
+      "prompt": {
+        "ru": "Сопоставьте прилагательное и подходящий предлог.",
+        "en": "Match each adjective with the correct preposition."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "capable ___ (способный)",
+            "en": "capable ___"
+          },
+          "right": "The young engineer is capable of solving complex problems."
+        },
+        {
+          "left": {
+            "ru": "aware ___ (осведомлённый)",
+            "en": "aware ___"
+          },
+          "right": "The staff were not aware of the new safety rules."
+        },
+        {
+          "left": {
+            "ru": "close ___ (близко)",
+            "en": "close ___"
+          },
+          "right": "The station is close to the market square."
+        },
+        {
+          "left": {
+            "ru": "satisfied ___ (довольный)",
+            "en": "satisfied ___"
+          },
+          "right": "The customer was satisfied with the service in the café."
+        }
+      ],
+      "explanation": {
+        "ru": "Capable of, aware of, close to и satisfied with — предлог входит в состав каждого сочетания.",
+        "en": "Capable of, aware of, close to and satisfied with — the preposition is part of each combination."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0091",
+      "type": "match",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте прилагательное и подходящий предлог.",
+        "en": "Match each adjective with the correct preposition."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "married ___ (замужем за)",
+            "en": "married ___"
+          },
+          "right": "My cousin has been married to a doctor for five years."
+        },
+        {
+          "left": {
+            "ru": "fond ___ (любить)",
+            "en": "fond ___"
+          },
+          "right": "My grandfather is fond of old detective films."
+        },
+        {
+          "left": {
+            "ru": "late ___ (опоздать на)",
+            "en": "late ___"
+          },
+          "right": "Sorry I'm late for the rehearsal — the bus was delayed."
+        },
+        {
+          "left": {
+            "ru": "nervous ___ (нервничать из-за)",
+            "en": "nervous ___"
+          },
+          "right": "She always feels nervous about job interviews."
+        }
+      ],
+      "explanation": {
+        "ru": "Married to, fond of, late for и nervous about — предлог закреплён за прилагательным.",
+        "en": "Married to, fond of, late for and nervous about — the preposition is fixed with the adjective."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0093",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The valley is famous ___ producing excellent wine.",
+      "translation": {
+        "ru": "Долина знаменита производством превосходного вина."
+      },
+      "options": [
+        "for",
+        "of",
+        "at",
+        "with"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Famous for — «знаменитый чем-то»; после famous ставится for.",
+        "en": "Famous for means well known because of something; famous is followed by for."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0094",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Your jacket looks very similar ___ your brother’s.",
+      "translation": {
+        "ru": "Твоя куртка очень похожа на куртку твоего брата."
+      },
+      "options": [
+        "to",
+        "with",
+        "from",
+        "for"
+      ],
+      "answer": "to",
+      "explanation": {
+        "ru": "Similar to — «похожий на что-то»; после similar ставится to.",
+        "en": "Similar to means like something else; similar takes to."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0095",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Our coach was always kind ___ younger players.",
+      "translation": {
+        "ru": "Наш тренер всегда был добр к более молодым игрокам."
+      },
+      "options": [
+        "to",
+        "with",
+        "for",
+        "at"
+      ],
+      "answer": "to",
+      "explanation": {
+        "ru": "Kind to — «добрый к кому-то»; прилагательное kind требует предлога to.",
+        "en": "Kind to means treating someone kindly; kind is followed by to."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0096",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The critic was not satisfied ___ the ending of the film.",
+      "translation": {
+        "ru": "Критик остался недоволен концовкой фильма."
+      },
+      "options": [
+        "with",
+        "of",
+        "for",
+        "at"
+      ],
+      "answer": "with",
+      "explanation": {
+        "ru": "Satisfied with — «довольный чем-то»; предлог with закреплён за satisfied.",
+        "en": "Satisfied with means pleased about something; satisfied is fixed with with."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0097",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Nobody was aware ___ the hidden camera in the room.",
+      "translation": {
+        "ru": "Никто не знал о скрытой камере в комнате."
+      },
+      "options": [
+        "of",
+        "about",
+        "on",
+        "for"
+      ],
+      "answer": "of",
+      "explanation": {
+        "ru": "Aware of — «знать о чём-то, осознавать»; после aware ставится of.",
+        "en": "Aware of means knowing about something; aware is followed by of."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0098",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Her brother got married ___ his childhood friend last summer.",
+      "translation": {
+        "ru": "Её брат женился на своей подруге детства прошлым летом."
+      },
+      "options": [
+        "to",
+        "with",
+        "for",
+        "of"
+      ],
+      "answer": "to",
+      "explanation": {
+        "ru": "Married to — «женатый на ком-то»; после married ставится to.",
+        "en": "Married to is the standard phrase for being someone's husband or wife; married takes to."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0099",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "She is fond ___ taking long walks in the park.",
+      "translation": {
+        "ru": "Она любит долгие прогулки в парке."
+      },
+      "options": [
+        "of",
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": "of",
+      "explanation": {
+        "ru": "Fond of — «любить что-то»; прилагательное fond всегда с of.",
+        "en": "Fond of means liking something; fond always takes of."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0100",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The students were late ___ the geography lesson.",
+      "translation": {
+        "ru": "Ученики опоздали на урок географии."
+      },
+      "options": [
+        "for",
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Late for — «опоздавший на что-то»: late for a lesson, late for work.",
+        "en": "Late for means not on time for something: late for a lesson, late for work."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0101",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "I always feel nervous ___ flying.",
+      "translation": {
+        "ru": "Я всегда нервничаю из-за полётов."
+      },
+      "options": [
+        "about",
+        "by",
+        "on",
+        "at"
+      ],
+      "answer": "about",
+      "explanation": {
+        "ru": "Nervous about — «нервничать из-за чего-то»; прилагательное nervous сочетается с about.",
+        "en": "Nervous about means worried about something; nervous is followed by about."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0102",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "By evening the basket was full ___ ripe apples.",
+      "translation": {
+        "ru": "К вечеру корзина была полна спелых яблок."
+      },
+      "options": [
+        "of",
+        "with",
+        "in",
+        "from"
+      ],
+      "answer": "of",
+      "explanation": {
+        "ru": "Full of — «полный чего-то»; после full ставится of.",
+        "en": "Full of means containing a lot of something; full is followed by of."
+      },
+      "tags": [
+        "prep-adjectives"
+      ]
+    },
+    {
+      "id": "prep3-0201",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "He is ashamed ___ his behaviour at the party.",
+      "translation": {
+        "ru": "Он стыдится своего поведения на вечеринке."
+      },
+      "options": [
+        "of",
+        "for",
+        "from"
+      ],
+      "answer": "of",
+      "explanation": {
+        "ru": "Ashamed of — «стыдиться чего-либо»; после ashamed ставим of.",
+        "en": "Ashamed of means feeling shame about something; ashamed is followed by of."
+      },
+      "tags": [
+        "prep-adjectives",
+        "ashamed-of"
+      ]
+    },
+    {
+      "id": "prep3-0202",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "She is jealous ___ her sister's success.",
+      "translation": {
+        "ru": "Она завидует успеху сестры."
+      },
+      "options": [
+        "of",
+        "on",
+        "at"
+      ],
+      "answer": "of",
+      "explanation": {
+        "ru": "Jealous of — «завидовать чему-либо»; прилагательное jealous требует of.",
+        "en": "Jealous of means envious of something; jealous takes the preposition of."
+      },
+      "tags": [
+        "prep-adjectives",
+        "jealous-of"
+      ]
+    },
+    {
+      "id": "prep3-0203",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Our teacher is very serious ___ our exams.",
+      "translation": {
+        "ru": "Наш учитель очень серьёзно относится к нашим экзаменам."
+      },
+      "options": [
+        "about",
+        "on",
+        "at"
+      ],
+      "answer": "about",
+      "explanation": {
+        "ru": "Serious about — «серьёзно относиться к чему-либо»; после serious ставим about.",
+        "en": "Serious about means treating something seriously; serious is followed by about."
+      },
+      "tags": [
+        "prep-adjectives",
+        "serious-about"
+      ]
+    },
+    {
+      "id": "prep3-0204",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Please be careful ___ the hot plates.",
+      "translation": {
+        "ru": "Пожалуйста, будь осторожен с горячими тарелками."
+      },
+      "options": [
+        "with",
+        "on",
+        "in"
+      ],
+      "answer": "with",
+      "explanation": {
+        "ru": "Careful with — «осторожный с чем-либо»; после careful ставим with.",
+        "en": "Careful with means taking care around something; careful takes with."
+      },
+      "tags": [
+        "prep-adjectives",
+        "careful-with"
+      ]
+    },
+    {
+      "id": "prep3-0205",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "This singer is very popular ___ teenagers.",
+      "translation": {
+        "ru": "Этот певец очень популярен среди подростков."
+      },
+      "options": [
+        "with",
+        "on",
+        "in"
+      ],
+      "answer": "with",
+      "explanation": {
+        "ru": "Popular with — «популярный у кого-либо»; после popular ставим with.",
+        "en": "Popular with means liked by a group; popular is followed by with."
+      },
+      "tags": [
+        "prep-adjectives",
+        "popular-with"
+      ]
+    },
+    {
+      "id": "prep3-0206",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "Is this film suitable ___ young children?",
+      "translation": {
+        "ru": "Этот фильм подходит для маленьких детей?"
+      },
+      "options": [
+        "for",
+        "to",
+        "at"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Suitable for — «подходящий для чего-либо»; после suitable ставим for.",
+        "en": "Suitable for means right for something; suitable is followed by for."
+      },
+      "tags": [
+        "prep-adjectives",
+        "suitable-for"
+      ]
+    },
+    {
+      "id": "prep3-0207",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The little boy is frightened ___ the dark.",
+      "translation": {
+        "ru": "Маленький мальчик боится темноты."
+      },
+      "options": [
+        "of",
+        "from",
+        "with"
+      ],
+      "answer": "of",
+      "explanation": {
+        "ru": "Frightened of — «испуганный чего-либо»; после frightened ставим of.",
+        "en": "Frightened of means afraid of something; frightened takes of."
+      },
+      "tags": [
+        "prep-adjectives",
+        "frightened-of"
+      ]
+    },
+    {
+      "id": "prep3-0208",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "My brother is very keen ___ football.",
+      "translation": {
+        "ru": "Мой брат очень увлекается футболом."
+      },
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": "on",
+      "explanation": {
+        "ru": "Keen on — «увлекаться чем-либо»; после keen ставим on.",
+        "en": "Keen on means very interested in something; keen takes on."
+      },
+      "tags": [
+        "prep-adjectives",
+        "keen-on"
+      ]
+    },
+    {
+      "id": "prep3-0209",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The children are curious ___ the world around them.",
+      "translation": {
+        "ru": "Дети интересуются окружающим миром."
+      },
+      "options": [
+        "about",
+        "of",
+        "for"
+      ],
+      "answer": "about",
+      "explanation": {
+        "ru": "Curious about — «любопытный, интересующийся чем-либо»; после curious ставим about.",
+        "en": "Curious about means interested in something; curious takes about."
+      },
+      "tags": [
+        "prep-adjectives",
+        "curious-about"
+      ]
+    },
+    {
+      "id": "prep3-0210",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "I am sorry ___ the trouble I caused.",
+      "translation": {
+        "ru": "Мне жаль, что я причинил неприятности."
+      },
+      "options": [
+        "for",
+        "on",
+        "in"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Sorry for — «сожалеть о чём-либо»; после sorry ставим for.",
+        "en": "Sorry for means feeling regret about something; sorry takes for."
+      },
+      "tags": [
+        "prep-adjectives",
+        "sorry-for"
+      ]
+    },
+    {
+      "id": "prep3-0211",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "We are grateful ___ all your help.",
+      "translation": {
+        "ru": "Мы благодарны за всю вашу помощь."
+      },
+      "options": [
+        "for",
+        "to",
+        "with"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "Grateful for — «благодарный за что-либо»; после grateful ставим for.",
+        "en": "Grateful for means thankful for something; grateful takes for."
+      },
+      "tags": [
+        "prep-adjectives",
+        "grateful-for"
+      ]
+    },
+    {
+      "id": "prep3-0212",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The room was crowded ___ excited children.",
+      "translation": {
+        "ru": "Комната была заполнена взволнованными детьми."
+      },
+      "options": [
+        "with",
+        "of",
+        "in"
+      ],
+      "answer": "with",
+      "explanation": {
+        "ru": "Crowded with — «заполненный чем-либо»; после crowded ставим with.",
+        "en": "Crowded with means full of something; crowded takes with."
+      },
+      "tags": [
+        "prep-adjectives",
+        "crowded-with"
+      ]
+    },
+    {
+      "id": "prep3-0213",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "My cousin is allergic ___ cats.",
+      "translation": {
+        "ru": "У моей двоюродной сестры аллергия на кошек."
+      },
+      "options": [
+        "to",
+        "of",
+        "with"
+      ],
+      "answer": "to",
+      "explanation": {
+        "ru": "Allergic to — «имеющий аллергию на что-либо»; после allergic ставим to.",
+        "en": "Allergic to means reacting badly to something; allergic takes to."
+      },
+      "tags": [
+        "prep-adjectives",
+        "allergic-to"
+      ]
+    },
+    {
+      "id": "prep3-0214",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The manager was polite ___ all the guests.",
+      "translation": {
+        "ru": "Менеджер был вежлив со всеми гостями."
+      },
+      "options": [
+        "to",
+        "on",
+        "in"
+      ],
+      "answer": "to",
+      "explanation": {
+        "ru": "Polite to — «вежливый с кем-либо»; после polite ставим to.",
+        "en": "Polite to means showing good manners to someone; polite takes to."
+      },
+      "tags": [
+        "prep-adjectives",
+        "polite-to"
+      ]
+    },
+    {
+      "id": "prep3-0215",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "He was rather rude ___ the waiter.",
+      "translation": {
+        "ru": "Он был довольно груб с официантом."
+      },
+      "options": [
+        "to",
+        "on",
+        "in"
+      ],
+      "answer": "to",
+      "explanation": {
+        "ru": "Rude to — «грубый с кем-либо»; после rude ставим to.",
+        "en": "Rude to means impolite towards someone; rude takes to."
+      },
+      "tags": [
+        "prep-adjectives",
+        "rude-to"
+      ]
+    },
+    {
+      "id": "prep3-0216",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The old man is very generous ___ his time.",
+      "translation": {
+        "ru": "Пожилой мужчина очень щедро делится своим временем."
+      },
+      "options": [
+        "with",
+        "of",
+        "for"
+      ],
+      "answer": "with",
+      "explanation": {
+        "ru": "Generous with — «щедрый в отношении чего-либо»; после generous ставим with.",
+        "en": "Generous with means giving a lot of something; generous takes with."
+      },
+      "tags": [
+        "prep-adjectives",
+        "generous-with"
+      ]
+    },
+    {
+      "id": "prep3-0217",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The library is always full ___ students in the evening.",
+      "translation": {
+        "ru": "Вечером библиотека всегда полна студентов."
+      },
+      "options": [
+        "of",
+        "in",
+        "at"
+      ],
+      "answer": "of",
+      "explanation": {
+        "ru": "Full of — «полный чего-либо»; после full ставим of.",
+        "en": "Full of means containing a lot of something; full takes of."
+      },
+      "tags": [
+        "prep-adjectives",
+        "full-of"
+      ]
+    },
+    {
+      "id": "prep3-0218",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The team was successful ___ finding a solution.",
+      "translation": {
+        "ru": "Команда успешно нашла решение."
+      },
+      "options": [
+        "in",
+        "on",
+        "for"
+      ],
+      "answer": "in",
+      "explanation": {
+        "ru": "Successful in — «успешный в чём-либо»; после successful ставим in.",
+        "en": "Successful in means achieving something; successful takes in."
+      },
+      "tags": [
+        "prep-adjectives",
+        "successful-in"
+      ]
+    },
+    {
+      "id": "prep3-0219",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The student is dependent ___ his parents.",
+      "translation": {
+        "ru": "Студент зависит от своих родителей."
+      },
+      "options": [
+        "on",
+        "of",
+        "to"
+      ],
+      "answer": "on",
+      "explanation": {
+        "ru": "Dependent on — «зависимый от кого-либо»; после dependent ставим on.",
+        "en": "Dependent on means relying on someone; dependent takes on."
+      },
+      "tags": [
+        "prep-adjectives",
+        "dependent-on"
+      ]
+    },
+    {
+      "id": "prep3-0220",
+      "type": "choice",
+      "ruleId": "prep-adjectives",
+      "level": "A2",
+      "sentence": "The new teacher is very patient ___ slow learners.",
+      "translation": {
+        "ru": "Новая учительница очень терпелива с медлительными учениками."
+      },
+      "options": [
+        "with",
+        "on",
+        "for"
+      ],
+      "answer": "with",
+      "explanation": {
+        "ru": "Patient with — «терпеливый с кем-либо»; после patient ставим with.",
+        "en": "Patient with means tolerant towards someone; patient takes with."
+      },
+      "tags": [
+        "prep-adjectives",
+        "patient-with"
+      ]
+    }
+  ]
+}

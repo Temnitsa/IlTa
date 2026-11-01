@@ -21,17 +21,19 @@ contains **70 questions**. A topic training session shows **30** of them (5 matc
 | art-contrasts | 80 | B2 | Устойчивые выражения и контрасты | fixed phrases with the/a/an, a few/a little vs few/little, take place / take the place of, in front of / in the front of, out of the question |
 | art-academic | 90 | B2 | Артикли в академическом тексте / IELTS | abstract nouns, generalisations, of-phrases/relative clauses, typical IELTS Writing mistakes |
 
-## Section `prepositions` — Предлоги / Prepositions (7 themes, 210 questions)
+## Section `prepositions` — Предлоги / Prepositions (6 themes, 310 questions)
+
+Each preposition theme has a pool of 50–60 questions; a training session shows 30 of them
+(5 match + 25 choice).
 
 | id | order | level | title (ru) | scope |
 |---|---|---|---|---|
-| prep-time | 410 | A1 | Предлоги времени: at, on, in | at 7 o'clock, at night, at the weekend; on Monday, on 5 May; in July, in 2026, in the morning; in two hours |
-| prep-place | 420 | A1 | Предлоги места: at, on, in и другие | at the bus stop, at home; in the box, in the room; on the wall; next to, between, among, in front of, behind, under, opposite |
-| prep-movement | 430 | A2 | Предлоги движения | to, into, onto, out of, through, across, along, over, under, towards, off |
-| prep-adjectives | 440 | A2 | Предлог после прилагательного | afraid of, proud of, interested in, good at, famous for, ready for, different from, similar to, worried about, full of |
-| prep-verbs | 450 | A2 | Предлог после глагола | depend on, wait for, listen to, look at, arrive at/in, belong to, apologise for + no preposition: discuss, marry, enter, reach |
-| prep-fixed | 460 | B1 | Устойчивые выражения с предлогами | at the moment, in general, by the way, for example, on time/in time, on purpose, under control |
-| prep-advanced | 470 | B2 | Тонкие случаи: by / with / in, during / for, between / among | means vs instrument vs medium, during vs for, between vs among, except, questions ending with a preposition |
+| prep-time | 10 | A1 | Предлоги времени: at, on, in, by, until | at 7 o'clock, at night, at the weekend; on Monday, on 5 May; in July, in 2026, in the morning; by/until, for/since/during; last/next/this without a preposition |
+| prep-place | 20 | A1 | Предлоги места и положения | at/on/in; above/below, over/under; between/among, by/beside, opposite; in front of/behind, next to; inside/outside, on the left/right, at the top/bottom |
+| prep-movement | 30 | A2 | Предлоги движения и направления | to/into/onto/out of/off; through/across/along; over/under, towards, past; around/round, from…to |
+| prep-adjectives | 40 | A2 | Предлог после прилагательного | afraid of, proud of, interested in, good at, famous for, different from, similar to, worried about, full of, keen on, patient with and more |
+| prep-verbs | 50 | A2 | Предлог после глагола | depend on, wait for, listen to, look at, arrive at/in, belong to, apologise for; no preposition: discuss, enter, reach, marry |
+| prep-fixed | 60 | B1 | Устойчивые выражения и тонкие случаи | fixed phrases, on time/in time, during/for, by/with/in, between/among, except, at the end/in the end, by the time, questions ending with a preposition |
 
-Question ids are globally unique; article questions are tagged with their original subtopic
-(e.g. `the-unique`, `zero-fixed`) and optional pattern tags for mistake-review similarity.
+Question ids are globally unique; article questions are tagged with their original subtopic and
+optional pattern tags; preposition questions are tagged with the theme and a pattern label.

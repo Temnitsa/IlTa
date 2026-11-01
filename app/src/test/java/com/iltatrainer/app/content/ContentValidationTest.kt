@@ -65,12 +65,12 @@ class ContentValidationTest {
         val questions = packages.flatMap { it.questions }
         val ruleIds = rules.map { it.id }.toSet()
 
-        assertEquals(16, rules.size)
+        assertEquals(15, rules.size)
         assertEquals(9, rules.count { it.sectionId == "articles" })
-        assertEquals(7, rules.count { it.sectionId == "prepositions" })
-        assertEquals(840, questions.size)
+        assertEquals(6, rules.count { it.sectionId == "prepositions" })
+        assertEquals(940, questions.size)
         assertEquals(630, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "articles" })
-        assertEquals(210, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "prepositions" })
+        assertEquals(310, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "prepositions" })
 
         assertEquals("rule ids must be unique", rules.size, ruleIds.size)
         assertEquals("question ids must be unique", questions.size, questions.map { it.id }.toSet().size)
@@ -92,9 +92,9 @@ class ContentValidationTest {
                 assertTrue("article theme ${rule.id} needs at least 25 choice questions", ofRule.count { it.type == "choice" } >= 25)
                 assertTrue("article theme ${rule.id} needs at least 5 match questions", ofRule.count { it.type == "match" } >= 5)
             } else {
-                assertEquals("theme ${rule.id} must have exactly 30 questions", 30, ofRule.size)
-                assertEquals("theme ${rule.id} must have 25 choice questions", 25, ofRule.count { it.type == "choice" })
-                assertEquals("theme ${rule.id} must have 5 match questions", 5, ofRule.count { it.type == "match" })
+                assertTrue("preposition theme ${rule.id} must have 50..60 questions", ofRule.size in 50..60)
+                assertTrue("preposition theme ${rule.id} needs at least 25 choice", ofRule.count { it.type == "choice" } >= 25)
+                assertTrue("preposition theme ${rule.id} needs at least 5 match", ofRule.count { it.type == "match" } >= 5)
             }
         }
     }

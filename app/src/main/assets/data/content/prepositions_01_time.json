@@ -1,0 +1,1399 @@
+{
+  "meta": {
+    "package": "prepositions_01_time",
+    "version": 2,
+    "authors": [
+      "content-team"
+    ]
+  },
+  "rules": [
+    {
+      "id": "prep-time",
+      "sectionId": "prepositions",
+      "order": 10,
+      "level": "A1",
+      "title": {
+        "ru": "Предлоги времени: at, on, in, by, until",
+        "en": "Prepositions of time: at, on, in, by, until"
+      },
+      "summary": {
+        "ru": "At — точное время и устойчивые сочетания, on — дни и даты, in — месяцы, годы, сезоны, части дня и периоды; by, until, for, since и during показывают срок, длительность и начало отсчёта.",
+        "en": "At is for exact times and fixed phrases, on for days and dates, in for months, years, seasons, parts of the day and periods; by, until, for, since and during mark deadlines, duration and starting points."
+      },
+      "sections": [
+        {
+          "heading": {
+            "ru": "At: точное время",
+            "en": "At: exact time"
+          },
+          "body": {
+            "ru": "Предлог at используется, когда время воспринимается как точка: точное время по часам, полдень, полночь, время обеда. Сюда же относятся устойчивые сочетания со словами night, weekend и названиями праздников — в них at фиксирован. Праздник как период (рождественские каникулы) обычно требует at, а конкретный день праздника — on.",
+            "en": "We use at when time is seen as a point: an exact clock time, noon, midnight or lunchtime. The same preposition appears in fixed phrases with night, weekend and the names of holidays, where at is fixed. A holiday as a period usually takes at, while the specific day of a holiday takes on."
+          },
+          "examples": [
+            "at 7 o'clock",
+            "at noon",
+            "at night",
+            "at Christmas"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "On: дни и даты",
+            "en": "On: days and dates"
+          },
+          "body": {
+            "ru": "Предлог on нужен для дней недели, календарных дат и дней с уточнением. Если день сочетается с частью дня, предлог выбирается по дню, а не по части дня.",
+            "en": "We use on for days of the week, calendar dates and days with a modifier. When a day is combined with a part of the day, the preposition comes from the day, not from the part of the day."
+          },
+          "examples": [
+            "on Monday",
+            "on 5 May",
+            "on Monday morning",
+            "on a rainy morning"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "In: месяцы, годы, сезоны, части дня",
+            "en": "In: months, years, seasons, parts of the day"
+          },
+          "body": {
+            "ru": "Предлог in ставим с месяцами, годами, десятилетиями, веками, временами года и частями дня, если не названа конкретная дата. In с отрезком времени в будущем значит «через». Слова last, next, this и every предлога не требуют.",
+            "en": "We use in with months, years, decades, centuries, seasons and parts of the day when no particular date is given. With a period of time in the future in means 'after'. The words last, next, this and every take no preposition."
+          },
+          "examples": [
+            "in July",
+            "in 2025",
+            "in the morning",
+            "in winter",
+            "in two hours"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "By, until, for, since, during — сроки и длительность",
+            "en": "By, until, for, since, during"
+          },
+          "body": {
+            "ru": "By указывает на срок, к которому действие завершится; until — на момент, до которого действие продолжается. For называет длительность, since — начало отсчёта в Perfect, during — период или событие, внутри которого что-то происходит. Для порядка событий используем before и after; from … to … показывает начало и конец периода; till/until — «до какого момента».",
+            "en": "By marks a deadline by which something is finished; until marks the moment up to which an action continues. For names a length of time, since marks the starting point in perfect tenses, and during names a period or event within which something happens. For the order of events use before and after; from … to … marks the start and end of a period; till/until means “up to a point in time”."
+          },
+          "examples": [
+            "by Friday",
+            "until midnight",
+            "for two weeks",
+            "since 2018",
+            "during the lesson"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "prep1-0001",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "The lesson begins ___ nine o'clock.",
+      "translation": {
+        "ru": "Урок начинается в девять часов."
+      },
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": "at",
+      "explanation": {
+        "ru": "Точное время на часах требует предлог at: at nine o'clock.",
+        "en": "An exact clock time takes the preposition at: at nine o'clock."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0002",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "My birthday is ___ 5 May.",
+      "translation": {
+        "ru": "Мой день рождения — пятого мая."
+      },
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "answer": "on",
+      "explanation": {
+        "ru": "Дата с числом и месяцем требует on: on 5 May.",
+        "en": "A date with a day and a month takes on: on 5 May."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0003",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "We usually go to the beach ___ July.",
+      "translation": {
+        "ru": "Обычно в июле мы ездим на пляж."
+      },
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": "in",
+      "explanation": {
+        "ru": "Месяц всегда идёт с предлогом in: in July.",
+        "en": "A month always takes the preposition in: in July."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0004",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "The meeting starts ___ noon.",
+      "translation": {
+        "ru": "Совещание начинается в полдень."
+      },
+      "options": [
+        "at",
+        "in",
+        "on"
+      ],
+      "answer": "at",
+      "explanation": {
+        "ru": "At noon — устойчивое сочетание: точное время noon требует at.",
+        "en": "At noon is a fixed phrase: noon is an exact time, so it takes at."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0005",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "I will be back ___ two hours.",
+      "translation": {
+        "ru": "Я вернусь через два часа."
+      },
+      "options": [
+        "in",
+        "at",
+        "on"
+      ],
+      "answer": "in",
+      "explanation": {
+        "ru": "In с периодом времени в будущем значит «через»: in two hours.",
+        "en": "In with a period of time in the future means after that period: in two hours."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0006",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "We are meeting ___ Monday afternoon.",
+      "translation": {
+        "ru": "Мы встречаемся в понедельник днём."
+      },
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": "on",
+      "explanation": {
+        "ru": "День недели вместе с частью дня требует on, а артикль перед afternoon не нужен.",
+        "en": "A day of the week with a part of the day takes on, and no article is used before afternoon."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0008",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "My grandfather often reads ___ night.",
+      "translation": {
+        "ru": "Мой дедушка часто читает ночью."
+      },
+      "options": [
+        "at",
+        "in",
+        "on"
+      ],
+      "answer": "at",
+      "explanation": {
+        "ru": "At night — устойчивое выражение, поэтому ставим at.",
+        "en": "At night is a fixed expression, so we use at."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0009",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "We have English lessons ___ Tuesdays and Fridays.",
+      "translation": {
+        "ru": "У нас уроки английского по вторникам и пятницам."
+      },
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": "on",
+      "explanation": {
+        "ru": "Дни недели, в том числе во множественном числе, требуют on.",
+        "en": "Days of the week, including plurals, take on."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0010",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "The new library opened ___ 2025.",
+      "translation": {
+        "ru": "Новая библиотека открылась в 2025 году."
+      },
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": "in",
+      "explanation": {
+        "ru": "Год называют с предлогом in: in 2025.",
+        "en": "A year takes the preposition in: in 2025."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0011",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "The city is very quiet ___ the morning.",
+      "translation": {
+        "ru": "Утром в городе очень тихо."
+      },
+      "options": [
+        "in",
+        "at",
+        "on"
+      ],
+      "answer": "in",
+      "explanation": {
+        "ru": "In the morning — стандартное сочетание: часть дня с артиклем the и предлогом in.",
+        "en": "In the morning is the standard phrase: a part of the day with the article the and the preposition in."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0021",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A2",
+      "sentence": "In Britain, many shops close early ___ the weekend.",
+      "translation": {
+        "ru": "В Британии многие магазины закрываются рано на выходных."
+      },
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": "at",
+      "explanation": {
+        "ru": "В британском английском на выходных — at the weekend.",
+        "en": "In British English we say at the weekend."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0022",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A2",
+      "sentence": "My parents met ___ the 1990s.",
+      "translation": {
+        "ru": "Мои родители познакомились в девяностые годы."
+      },
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": "in",
+      "explanation": {
+        "ru": "Десятилетие — длительный период, поэтому in the 1990s.",
+        "en": "A decade is a long period, so we use in the 1990s."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0024",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A2",
+      "sentence": "My driving test is ___ the morning of 5 May.",
+      "translation": {
+        "ru": "Мой экзамен по вождению — утром пятого мая."
+      },
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": "on",
+      "explanation": {
+        "ru": "Утро конкретной даты требует on: on the morning of 5 May.",
+        "en": "The morning of a particular date takes on: on the morning of 5 May."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0031",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A2",
+      "sentence": "There is a public holiday ___ the first Monday in May.",
+      "translation": {
+        "ru": "В первый понедельник мая — государственный праздник."
+      },
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "answer": "on",
+      "explanation": {
+        "ru": "День недели с определением требует on: on the first Monday in May.",
+        "en": "A day of the week with a modifier takes on: on the first Monday in May."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0034",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A2",
+      "sentence": "The castle was built ___ the 18th century.",
+      "translation": {
+        "ru": "Замок построили в восемнадцатом веке."
+      },
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": "in",
+      "explanation": {
+        "ru": "Век — длительный период, поэтому in the 18th century.",
+        "en": "A century is a long period, so we use in the 18th century."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0088",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "The train to London leaves ___ ten o'clock.",
+      "translation": {
+        "ru": "Поезд в Лондон отправляется в десять часов."
+      },
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": "at",
+      "explanation": {
+        "ru": "Точное время по часам требует at: at ten o'clock. On и in с точным временем не употребляются.",
+        "en": "An exact clock time takes at: at ten o'clock. On and in are not used with clock times."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0089",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "The streets are empty ___ midnight.",
+      "translation": {
+        "ru": "Улицы пусты в полночь."
+      },
+      "options": [
+        "at",
+        "in",
+        "on"
+      ],
+      "answer": "at",
+      "explanation": {
+        "ru": "Midnight — точное время суток, поэтому нужен at: at midnight.",
+        "en": "Midnight is an exact time of day, so at is needed: at midnight."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0090",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "We usually meet ___ lunchtime to discuss our project.",
+      "translation": {
+        "ru": "Обычно мы встречаемся в обед, чтобы обсудить проект."
+      },
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": "at",
+      "explanation": {
+        "ru": "Lunchtime обозначает точный момент дня, поэтому ставим at: at lunchtime.",
+        "en": "Lunchtime is an exact moment of the day, so we use at: at lunchtime."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0091",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "We celebrate New Year ___ 31 December.",
+      "translation": {
+        "ru": "Мы празднуем Новый год тридцать первого декабря."
+      },
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "answer": "on",
+      "explanation": {
+        "ru": "Перед датой с числом и месяцем ставим on: on 31 December.",
+        "en": "A date with a day and a month takes on: on 31 December."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0092",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "The school concert is ___ Thursday evening.",
+      "translation": {
+        "ru": "Школьный концерт в четверг вечером."
+      },
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "answer": "on",
+      "explanation": {
+        "ru": "День недели с частью дня требует on: on Thursday evening.",
+        "en": "A day of the week with a part of the day takes on: on Thursday evening."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0093",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "Our first lesson is ___ Tuesday.",
+      "translation": {
+        "ru": "Наш первый урок во вторник."
+      },
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "answer": "on",
+      "explanation": {
+        "ru": "С названием дня недели используем on: on Tuesday.",
+        "en": "A named day of the week takes on: on Tuesday."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0094",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "It is often very cold here ___ January.",
+      "translation": {
+        "ru": "В январе здесь часто очень холодно."
+      },
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": "in",
+      "explanation": {
+        "ru": "С названием месяца нужен in: in January. At и on к месяцам не подходят.",
+        "en": "A month name takes in: in January. At and on do not fit months."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0095",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "The leaves fall from the trees ___ autumn.",
+      "translation": {
+        "ru": "Осенью листья падают с деревьев."
+      },
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": "in",
+      "explanation": {
+        "ru": "С названием времени года ставим in: in autumn.",
+        "en": "A season takes in: in autumn."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0096",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "My cousin was born ___ 2010.",
+      "translation": {
+        "ru": "Мой двоюродный брат родился в 2010 году."
+      },
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": "in",
+      "explanation": {
+        "ru": "Перед годом ставим in: in 2010. On и at с годами не употребляются.",
+        "en": "A year takes in: in 2010. On and at are not used with years."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0097",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "The documents will be ready ___ twenty minutes.",
+      "translation": {
+        "ru": "Документы будут готовы через двадцать минут."
+      },
+      "options": [
+        "in",
+        "at",
+        "on"
+      ],
+      "answer": "in",
+      "explanation": {
+        "ru": "In перед отрезком времени значит «через»: ready in twenty minutes.",
+        "en": "In before a period of time means 'after that period': ready in twenty minutes."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0040",
+      "type": "match",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте предлог и пример.",
+        "en": "Match each preposition with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "at — точное время",
+            "en": "at — exact time"
+          },
+          "right": "The concert starts at eight o'clock."
+        },
+        {
+          "left": {
+            "ru": "on — день недели",
+            "en": "on — day of the week"
+          },
+          "right": "I have a piano lesson on Tuesday."
+        },
+        {
+          "left": {
+            "ru": "in — месяц",
+            "en": "in — month"
+          },
+          "right": "My cousin is getting married in September."
+        },
+        {
+          "left": {
+            "ru": "in — длительный период",
+            "en": "in — a longer period"
+          },
+          "right": "The first railways appeared in the 19th century."
+        }
+      ],
+      "explanation": {
+        "ru": "At — точное время, on — дни недели, in — месяцы и длительные периоды.",
+        "en": "At is for exact time, on for days of the week, in for months and longer periods."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0041",
+      "type": "match",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "prompt": {
+        "ru": "Сопоставьте предлог и пример.",
+        "en": "Match each preposition with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "at — устойчивое сочетание",
+            "en": "at — fixed phrase"
+          },
+          "right": "The stars are bright at night."
+        },
+        {
+          "left": {
+            "ru": "on — дата",
+            "en": "on — date"
+          },
+          "right": "The exam is on 3 June."
+        },
+        {
+          "left": {
+            "ru": "in — время года",
+            "en": "in — season"
+          },
+          "right": "The park is full of flowers in spring."
+        },
+        {
+          "left": {
+            "ru": "in — часть дня",
+            "en": "in — part of the day"
+          },
+          "right": "My father reads the newspaper in the morning."
+        }
+      ],
+      "explanation": {
+        "ru": "At night — устойчивое сочетание, on — дата, in — время года и часть дня.",
+        "en": "We say at night, on a date, in a season and in a part of the day."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0042",
+      "type": "match",
+      "ruleId": "prep-time",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте предлог и пример.",
+        "en": "Match each preposition with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "at — устойчивое британское выражение",
+            "en": "at — British fixed phrase"
+          },
+          "right": "We visit our grandparents at the weekend."
+        },
+        {
+          "left": {
+            "ru": "on — день недели и часть дня",
+            "en": "on — day and part of the day"
+          },
+          "right": "They are flying to Rome on Monday morning."
+        },
+        {
+          "left": {
+            "ru": "in — десятилетие",
+            "en": "in — decade"
+          },
+          "right": "The band became famous in the 1980s."
+        },
+        {
+          "left": {
+            "ru": "in — период в будущем",
+            "en": "in — a period in the future"
+          },
+          "right": "The guests will arrive in twenty minutes."
+        }
+      ],
+      "explanation": {
+        "ru": "В британском английском — at the weekend; день с частью дня — on; десятилетие — in the 1980s; будущий период — in twenty minutes.",
+        "en": "British English uses at the weekend; a day with a part of the day takes on; a decade takes in the 1980s; a future period takes in twenty minutes."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0043",
+      "type": "match",
+      "ruleId": "prep-time",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте предлог и пример.",
+        "en": "Match each preposition with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "on — конкретное утро с описанием",
+            "en": "on — a particular morning (e.g. a rainy one)"
+          },
+          "right": "We left the hotel on a rainy morning."
+        },
+        {
+          "left": {
+            "ru": "in — конкретная неделя месяца",
+            "en": "in — a particular week of a month"
+          },
+          "right": "The festival takes place in the last week of June."
+        },
+        {
+          "left": {
+            "ru": "on — день недели с датой",
+            "en": "on — day of the week with a date"
+          },
+          "right": "The ceremony is on Friday, 4 September."
+        },
+        {
+          "left": {
+            "ru": "at — точное время в расписании",
+            "en": "at — an exact timetable time"
+          },
+          "right": "The last train leaves at half past eleven."
+        }
+      ],
+      "explanation": {
+        "ru": "On — конкретное утро с описанием и день с датой, in — неделя месяца, at — точное время по расписанию.",
+        "en": "We use on for a particular described morning and for a day with a date, in for a week of a month, and at for an exact timetable time."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "prep1-0086",
+      "type": "match",
+      "ruleId": "prep-time",
+      "level": "A2",
+      "prompt": {
+        "ru": "Сопоставьте предлог времени и пример.",
+        "en": "Match each time preposition with its example."
+      },
+      "pairs": [
+        {
+          "left": {
+            "ru": "at — фиксированное время суток",
+            "en": "at — a fixed time of day"
+          },
+          "right": "The house was very quiet at midnight."
+        },
+        {
+          "left": {
+            "ru": "on — конкретная дата",
+            "en": "on — a specific date"
+          },
+          "right": "Our holiday begins on 3 August."
+        },
+        {
+          "left": {
+            "ru": "in — век",
+            "en": "in — a century"
+          },
+          "right": "This church was built in the 15th century."
+        },
+        {
+          "left": {
+            "ru": "in — год",
+            "en": "in — a year"
+          },
+          "right": "The bridge was rebuilt in 2019."
+        }
+      ],
+      "explanation": {
+        "ru": "At маркирует точное время суток, on — конкретную дату, in — век или год.",
+        "en": "At marks a fixed time of day, on marks a specific date, and in marks a century or a year."
+      },
+      "tags": [
+        "prep-time"
+      ]
+    },
+    {
+      "id": "ptime-0001",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "Please send me the documents ___ Monday at the latest.",
+      "translation": {
+        "ru": "Пожалуйста, пришли мне документы не позднее понедельника."
+      },
+      "options": [
+        "by",
+        "until",
+        "on",
+        "in"
+      ],
+      "answer": "by",
+      "explanation": {
+        "ru": "By Monday at the latest — «не позднее понедельника»: by называет срок, к которому действие должно быть завершено.",
+        "en": "By Monday at the latest means no later than Monday: by marks the deadline by which the action must be finished."
+      },
+      "tags": [
+        "prep-time",
+        "by-until"
+      ]
+    },
+    {
+      "id": "ptime-0002",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A2",
+      "sentence": "Please finish the report ___ Friday at the latest; the client is coming on Monday.",
+      "translation": {
+        "ru": "Пожалуйста, закончи отчёт не позднее пятницы; клиент приедет в понедельник."
+      },
+      "options": [
+        "by",
+        "until",
+        "in",
+        "on"
+      ],
+      "answer": "by",
+      "explanation": {
+        "ru": "At the latest указывает на предельный срок, поэтому ставим by: by Friday — «к пятнице, не позднее».",
+        "en": "The phrase at the latest marks a deadline, so we use by: by Friday means no later than Friday."
+      },
+      "tags": [
+        "prep-time",
+        "by-until"
+      ]
+    },
+    {
+      "id": "ptime-0003",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "The party continued ___ midnight, and then everyone went home.",
+      "translation": {
+        "ru": "Вечеринка продолжалась до полуночи, а потом все разошлись по домам."
+      },
+      "options": [
+        "until",
+        "by",
+        "at",
+        "for"
+      ],
+      "answer": "until",
+      "explanation": {
+        "ru": "Until midnight — «до полуночи»: until показывает, до какого момента действие продолжалось.",
+        "en": "Until midnight means up to that moment: until shows how long the action continued before it stopped."
+      },
+      "tags": [
+        "prep-time",
+        "by-until"
+      ]
+    },
+    {
+      "id": "ptime-0004",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "The museum stays open ___ six o'clock every evening.",
+      "translation": {
+        "ru": "Музей открыт до шести часов каждый вечер."
+      },
+      "options": [
+        "until",
+        "by",
+        "at",
+        "in"
+      ],
+      "answer": "until",
+      "explanation": {
+        "ru": "Stays open until six — «открыт до шести»: until указывает, до какого момента сохраняется состояние.",
+        "en": "Stays open until six: until shows the moment up to which the state continues."
+      },
+      "tags": [
+        "prep-time",
+        "by-until"
+      ]
+    },
+    {
+      "id": "ptime-0005",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "We stayed in Rome ___ two weeks last summer.",
+      "translation": {
+        "ru": "Прошлым летом мы две недели провели в Риме."
+      },
+      "options": [
+        "for",
+        "during",
+        "since",
+        "in"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "For two weeks — «две недели»: for называет длительность действия.",
+        "en": "For two weeks names the length of time the action lasted."
+      },
+      "tags": [
+        "prep-time",
+        "for-since-during"
+      ]
+    },
+    {
+      "id": "ptime-0006",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A2",
+      "sentence": "She has been learning Spanish ___ three years.",
+      "translation": {
+        "ru": "Она учит испанский уже три года."
+      },
+      "options": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": "for",
+      "explanation": {
+        "ru": "For three years — «три года»: for называет продолжительность периода, который ещё продолжается.",
+        "en": "For three years names the duration of a period that is still going on."
+      },
+      "tags": [
+        "prep-time",
+        "for-since-during"
+      ]
+    },
+    {
+      "id": "ptime-0007",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A2",
+      "sentence": "I have lived in this city ___ 2018.",
+      "translation": {
+        "ru": "Я живу в этом городе с 2018 года."
+      },
+      "options": [
+        "since",
+        "for",
+        "from",
+        "during"
+      ],
+      "answer": "since",
+      "explanation": {
+        "ru": "Since 2018 — «с 2018 года»: since указывает на точку начала действия в Present Perfect.",
+        "en": "Since 2018 marks the starting point of the action in the present perfect."
+      },
+      "tags": [
+        "prep-time",
+        "for-since-during"
+      ]
+    },
+    {
+      "id": "ptime-0008",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A2",
+      "sentence": "He has worked here ___ January and he loves the job.",
+      "translation": {
+        "ru": "Он работает здесь с января, и ему нравится эта работа."
+      },
+      "options": [
+        "since",
+        "for",
+        "at",
+        "from"
+      ],
+      "answer": "since",
+      "explanation": {
+        "ru": "Since January — «с января»: since называет начало периода, и действие продолжается до сих пор.",
+        "en": "Since January marks the start of the period, and the action continues up to now."
+      },
+      "tags": [
+        "prep-time",
+        "for-since-during"
+      ]
+    },
+    {
+      "id": "ptime-0009",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "___ the lesson, the teacher explained the new rule.",
+      "translation": {
+        "ru": "Во время урока учитель объяснил новое правило."
+      },
+      "options": [
+        "During",
+        "For",
+        "Since",
+        "At"
+      ],
+      "answer": "During",
+      "explanation": {
+        "ru": "During the lesson — «во время урока»: during называет событие, внутри которого происходит действие.",
+        "en": "During the lesson means while the lesson was going on: during names an event within which something happens."
+      },
+      "tags": [
+        "prep-time",
+        "for-since-during"
+      ]
+    },
+    {
+      "id": "ptime-0010",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "We watched a film ___ the flight.",
+      "translation": {
+        "ru": "Во время полёта мы посмотрели фильм."
+      },
+      "options": [
+        "during",
+        "for",
+        "since",
+        "by"
+      ],
+      "answer": "during",
+      "explanation": {
+        "ru": "During the flight — «во время полёта»: during ставится перед названием периода или события.",
+        "en": "During the flight means while the flight was happening: during is used before a period or event."
+      },
+      "tags": [
+        "prep-time",
+        "for-since-during"
+      ]
+    },
+    {
+      "id": "ptime-0011",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "Someone's phone rang ___ the meeting.",
+      "translation": {
+        "ru": "Во время совещания у кого-то зазвонил телефон."
+      },
+      "options": [
+        "during",
+        "for",
+        "since",
+        "until"
+      ],
+      "answer": "during",
+      "explanation": {
+        "ru": "During the meeting — «во время совещания»: during указывает на событие, внутри которого произошло действие.",
+        "en": "During the meeting means while the meeting was taking place: during points to the event."
+      },
+      "tags": [
+        "prep-time",
+        "for-since-during"
+      ]
+    },
+    {
+      "id": "ptime-0012",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "We usually visit our grandparents ___ Christmas.",
+      "translation": {
+        "ru": "На Рождество мы обычно навещаем бабушку и дедушку."
+      },
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": "at",
+      "explanation": {
+        "ru": "At Christmas — устойчивое британское сочетание: праздник как период требует at.",
+        "en": "At Christmas is a fixed British phrase: a holiday period takes at."
+      },
+      "tags": [
+        "prep-time",
+        "exceptions"
+      ]
+    },
+    {
+      "id": "ptime-0013",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "Children get presents ___ Christmas Day.",
+      "translation": {
+        "ru": "Дети получают подарки в день Рождества."
+      },
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "answer": "on",
+      "explanation": {
+        "ru": "Christmas Day — конкретный день, а с днём ставим on: on Christmas Day.",
+        "en": "Christmas Day is a particular day, and days take on: on Christmas Day."
+      },
+      "tags": [
+        "prep-time",
+        "exceptions"
+      ]
+    },
+    {
+      "id": "ptime-0014",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "We usually go to the sea ___ the summer.",
+      "translation": {
+        "ru": "Летом мы обычно ездим на море."
+      },
+      "options": [
+        "in",
+        "at",
+        "on"
+      ],
+      "answer": "in",
+      "explanation": {
+        "ru": "С названием времени года ставим in: in the summer — «летом».",
+        "en": "A season takes in: in the summer means during that season."
+      },
+      "tags": [
+        "prep-time",
+        "seasons"
+      ]
+    },
+    {
+      "id": "ptime-0015",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "It is always quiet here ___ the evening.",
+      "translation": {
+        "ru": "Здесь всегда тихо по вечерам."
+      },
+      "options": [
+        "in",
+        "at",
+        "on"
+      ],
+      "answer": "in",
+      "explanation": {
+        "ru": "In the evening — стандартное сочетание для части дня. С evening, morning и afternoon обычно используется in; at встречается в устойчивых сочетаниях at night, at noon, at midnight.",
+        "en": "In the evening is the standard phrase for a part of the day. With evening, morning and afternoon we usually use in; at appears in fixed phrases such as at night, at noon, at midnight."
+      },
+      "tags": [
+        "prep-time",
+        "parts-of-day"
+      ]
+    },
+    {
+      "id": "ptime-0016",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "The train leaves ___ half past six.",
+      "translation": {
+        "ru": "Поезд отправляется в половине седьмого."
+      },
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": "at",
+      "explanation": {
+        "ru": "Точное время по часам требует at: at half past six.",
+        "en": "An exact clock time takes at: at half past six."
+      },
+      "tags": [
+        "prep-time",
+        "clock"
+      ]
+    },
+    {
+      "id": "ptime-0017",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "We met ___ a sunny afternoon in June.",
+      "translation": {
+        "ru": "Мы познакомились солнечным днём в июне."
+      },
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": "on",
+      "explanation": {
+        "ru": "Конкретное описанное время суток с определением требует on: on a sunny afternoon.",
+        "en": "A particular described part of the day takes on: on a sunny afternoon."
+      },
+      "tags": [
+        "prep-time",
+        "parts-of-day"
+      ]
+    },
+    {
+      "id": "ptime-0018",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "I saw him ___ last week.",
+      "translation": {
+        "ru": "Я видел его на прошлой неделе."
+      },
+      "options": [
+        "in",
+        "on",
+        "at",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Со словами last, next, this и every предлог не нужен: last week.",
+        "en": "The words last, next, this and every take no preposition: last week."
+      },
+      "tags": [
+        "prep-time",
+        "no-prep"
+      ]
+    },
+    {
+      "id": "ptime-0019",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "We are meeting ___ next Friday.",
+      "translation": {
+        "ru": "Мы встречаемся в следующую пятницу."
+      },
+      "options": [
+        "on",
+        "at",
+        "in",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "Next Friday — устойчивое сочетание без предлога; next не требует on.",
+        "en": "Next Friday is a fixed phrase without a preposition; next does not take on."
+      },
+      "tags": [
+        "prep-time",
+        "no-prep"
+      ]
+    },
+    {
+      "id": "ptime-0020",
+      "type": "choice",
+      "ruleId": "prep-time",
+      "level": "A1",
+      "sentence": "She called me ___ this morning.",
+      "translation": {
+        "ru": "Она позвонила мне сегодня утром."
+      },
+      "options": [
+        "in",
+        "on",
+        "at",
+        "—"
+      ],
+      "answer": "—",
+      "explanation": {
+        "ru": "This morning — фиксированное сочетание без предлога: this уже указывает на время.",
+        "en": "This morning is a fixed phrase without a preposition: this already identifies the time."
+      },
+      "tags": [
+        "prep-time",
+        "no-prep"
+      ]
+    }
+  ]
+}

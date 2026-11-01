@@ -403,19 +403,19 @@ def main(argv: list[str]) -> int:
                 if types.get("match", 0) < 5:
                     err("quotas", f"article theme `{rule_id}` needs at least 5 match questions, found {types.get('match', 0)}")
             else:
-                if total != 30:
-                    err("quotas", f"rule `{rule_id}` must have exactly 30 questions, found {total}")
-                if types.get("choice", 0) != 25:
-                    err("quotas", f"rule `{rule_id}` must have 25 choice questions, found {types.get('choice', 0)}")
-                if types.get("match", 0) != 5:
-                    err("quotas", f"rule `{rule_id}` must have 5 match questions, found {types.get('match', 0)}")
+                if not (50 <= total <= 60):
+                    err("quotas", f"preposition theme `{rule_id}` must have 50..60 questions, found {total}")
+                if types.get("choice", 0) < 25:
+                    err("quotas", f"preposition theme `{rule_id}` needs at least 25 choice questions, found {types.get('choice', 0)}")
+                if types.get("match", 0) < 5:
+                    err("quotas", f"preposition theme `{rule_id}` needs at least 5 match questions, found {types.get('match', 0)}")
     for rule_id, count in sorted(rule_question_counts.items()):
         if count == 0:
             warn("rules", f"rule `{rule_id}` has no questions")
 
     if directory_mode:
-        if total_questions < 840:
-            warn("content", f"expected 840 questions, found {total_questions}")
+        if total_questions < 940:
+            warn("content", f"expected 940 questions, found {total_questions}")
         for section_id, count in sorted(section_counts.items()):
             print(f"section `{section_id}`: {count} questions")
 

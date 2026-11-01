@@ -118,11 +118,12 @@ A topic training session draws **30 questions** from the pool: all five matching
 25 choice questions (weak/unseen questions are preferred). The pool stays 70, so different
 sessions show different examples.
 
-**Preposition themes** (section `prepositions`) have **exactly 30 questions**: 25 `choice` + 5 `match`;
-a topic session plays all 30.
+**Preposition themes** (section `prepositions`) have a pool of **50–60 questions**
+(at least 25 `choice` and 5 `match`). A topic session draws **30** questions: all five matching
+questions plus 25 choice questions.
 
 This is enforced by `scripts/validate_content.py`. The full set is
-9 article themes × 70 + 7 preposition themes × 30 = **840 questions**.
+9 article themes × 70 + 6 preposition themes × 50/60 = **940 questions**.
 The “Длина сессии” setting does not affect topic training.
 
 ## 4. Question objects — only **choice** and **match**
@@ -221,9 +222,9 @@ all right values distinct; every left unambiguously corresponds to exactly one r
 - Explanations must teach the pattern, not just restate the answer.
 - Russian text: correct punctuation, «ё» where appropriate.
 - Sentences: 5–20 words for choice questions.
-- Article themes have 70 pool questions (at least 25 choice + 5 match); preposition themes
-  have 30 (25 choice + 5 match). `tags` are optional lists of pattern labels used to pick
-  truly similar questions during mistake review.
+- Article themes have 70 pool questions; preposition themes have 50–60; a topic session always
+  draws 30 (5 match + 25 choice). `tags` are optional pattern labels used to pick truly similar
+  questions during mistake review.
 
 ## Current content files and ownership
 
@@ -238,12 +239,14 @@ all right values distinct; every left unambiguously corresponds to exactly one r
 | articles_07_the_adjective.json | art-the-adjective | 70 |
 | articles_08_contrasts.json | art-contrasts | 70 |
 | articles_09_academic.json | art-academic | 70 |
-| prepositions_01_time_place.json | prep-time, prep-place | 60 |
-| prepositions_02_movement.json | prep-movement | 30 |
-| prepositions_03_adjectives_verbs.json | prep-adjectives, prep-verbs | 60 |
-| prepositions_04_fixed_advanced.json | prep-fixed, prep-advanced | 60 |
+| prepositions_01_time.json | prep-time | 50 |
+| prepositions_02_place.json | prep-place | 50 |
+| prepositions_03_movement.json | prep-movement | 50 |
+| prepositions_04_adjectives.json | prep-adjectives | 50 |
+| prepositions_05_verbs.json | prep-verbs | 50 |
+| prepositions_06_fixed_advanced.json | prep-fixed | 60 |
 
-Target: **840 questions total** (9×70 articles + 7×30 prepositions), 16 rules, 2 sections.
+Target: **940 questions total** (9×70 articles + 5×50 + 60 prepositions), 15 rules, 2 sections.
 
 ## Validation
 
