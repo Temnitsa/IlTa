@@ -6,7 +6,7 @@
 > **GitHub:** [github.com/Temnitsa/IlTa](https://github.com/Temnitsa/IlTa) ·
 > **Готовый APK:** [IlTa 2.5.0](https://github.com/Temnitsa/IlTa/releases/latest) — 7,0 МБ, Android 8.0+,
 > release-подпись, package `com.iltatrainer.app`, versionCode 7.
-> SHA-256: `659b7ccf01d29a20fbf60703765ff0781b78532cb5100130c2d6c1a3ea7af53e`.
+> SHA-256: `654f2674723f726976e5fde1b36ba351a14269b4b4e09fb92fe41ee9effe84e7`.
 > Установка: скачайте APK из Releases или `adb install -r IlTa-v2.5.0-release.apk`.
 
 ## Возможности
@@ -189,7 +189,7 @@ scripts/gradle.sh :app:testDebugUnitTest
   [новые вопросы статей v2.3](docs/qa-review-v4-articles.md),
   [новые вопросы предлогов v2.3](docs/qa-review-v4-prepositions.md),
   [структура статей 2.5, часть A](docs/qa-review-v5-articles-a.md),
-  [структура статей 2.5, часть B](docs/qa-review-v5-articles-b.md) — критичные замечания исправлены.
+  [структура статей 2.5, часть B](docs/qa-review-v5-articles-b.md) — критичные замечания и основные major-пункты исправлены.
 - Ручная проверка на эмуляторе Android 15: навигация, 30 вопросов в теме, фидбек,
   создание ошибки → её закрытие после «исходного + 3 похожих», рост прогресса темы,
   экспорт конфига schema 3 (с `mistakes`/`closedMistakes`), отсутствие избранного.
