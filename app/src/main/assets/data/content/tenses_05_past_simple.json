@@ -66,21 +66,6 @@
             "She called me two hours ago.",
             "He moved to Paris in 2019."
           ]
-        },
-        {
-          "heading": {
-            "ru": "Особенности",
-            "en": "Special points"
-          },
-          "body": {
-            "ru": "• неправильные глаголы меняют форму: **go → went**, **see → saw**, **buy → bought**\n• после **did** — начальная форма: *did went* → **did go**\n• **be**: I / he / she / it → **was**, you / we / they → **were**\n• с **was/were** вопросы и отрицания без **did**\n• правописание **-ed**: **stop → stopped**, **study → studied**",
-            "en": "• irregular verbs change form: **go → went**, **see → saw**, **buy → bought**\n• after **did** use the base form: *did went* → **did go**\n• **be**: I / he / she / it → **was**, you / we / they → **were**\n• with **was/were** no **did** in questions and negatives\n• spelling of **-ed**: **stop → stopped**, **study → studied**"
-          },
-          "examples": [
-            "He did not go to school.",
-            "Were you at home?",
-            "I was very tired."
-          ]
         }
       ]
     }

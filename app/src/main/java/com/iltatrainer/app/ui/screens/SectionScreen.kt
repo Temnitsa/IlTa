@@ -20,6 +20,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.LineBreak
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -118,18 +119,11 @@ private fun SectionContent(
                     .fillMaxWidth()
                     .height(64.dp),
             ) {
-                Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                    Text(
-                        text = tr("Тренировать раздел", "Practise this section"),
-                        style = MaterialTheme.typography.titleMedium,
-                        maxLines = 1,
-                    )
-                    Text(
-                        text = questionsLabel(questionCount),
-                        style = MaterialTheme.typography.labelSmall,
-                        maxLines = 1,
-                    )
-                }
+                Text(
+                    text = tr("Тренировать раздел", "Practise this section"),
+                    style = MaterialTheme.typography.titleMedium,
+                    maxLines = 1,
+                )
             }
         }
 
@@ -169,24 +163,9 @@ private fun SectionSummaryCard(
     progressPercent: Int,
 ) {
     AppCard {
-        Row(verticalAlignment = Alignment.Top) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
             Text(section.emoji, fontSize = 28.sp)
             Spacer(Modifier.width(12.dp))
-            Column(modifier = Modifier.weight(1f)) {
-                Text(
-                    text = section.title.localized(),
-                    style = MaterialTheme.typography.titleLarge,
-                )
-                Spacer(Modifier.height(4.dp))
-                Text(
-                    text = section.description.localized(),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
-            }
-        }
-        Spacer(Modifier.height(12.dp))
-        Row(verticalAlignment = Alignment.CenterVertically) {
             Text(
                 text = countsText,
                 style = MaterialTheme.typography.labelLarge,
@@ -214,20 +193,20 @@ private fun RuleRowCard(
 ) {
     val accent = levelColor(rule.level)
     AppCard(onClick = onClick) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
+        Row(verticalAlignment = Alignment.Top) {
             Column(modifier = Modifier.weight(1f)) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
+                Row(verticalAlignment = Alignment.Top) {
                     Text(
                         text = rule.title.localized(),
-                        style = MaterialTheme.typography.titleMedium,
+                        style = MaterialTheme.typography.titleMedium.copy(lineBreak = LineBreak.Heading),
                         maxLines = 2,
                         overflow = TextOverflow.Ellipsis,
-                        modifier = Modifier.weight(1f, fill = false),
+                        modifier = Modifier.weight(1f),
                     )
                     Spacer(Modifier.width(8.dp))
                     LevelChip(level = rule.level)
                 }
-                Spacer(Modifier.height(8.dp))
+                Spacer(Modifier.height(9.dp))
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     AccuracyBar(
                         accuracy = progressPercent / 100f,
@@ -241,7 +220,7 @@ private fun RuleRowCard(
                         text = formatPercent(progressPercent),
                         style = MaterialTheme.typography.labelSmall,
                         fontWeight = FontWeight.Bold,
-                        color = accent,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
                 }
                 Spacer(Modifier.height(6.dp))
@@ -251,12 +230,6 @@ private fun RuleRowCard(
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }
-            Spacer(Modifier.width(8.dp))
-            Text(
-                text = "›",
-                fontSize = 26.sp,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
         }
     }
 }

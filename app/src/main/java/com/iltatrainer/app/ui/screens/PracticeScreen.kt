@@ -235,6 +235,7 @@ private fun PracticeTopBar(
             color = MaterialTheme.colorScheme.primary,
             trackColor = MaterialTheme.colorScheme.surfaceVariant,
             strokeCap = StrokeCap.Round,
+            drawStopIndicator = {},
         )
     }
 }

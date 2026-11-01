@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -145,6 +146,7 @@ fun AccuracyBar(accuracy: Float, modifier: Modifier = Modifier, color: Color = M
         color = color,
         trackColor = MaterialTheme.colorScheme.surfaceVariant,
         strokeCap = StrokeCap.Round,
+        drawStopIndicator = {},
     )
 }
 
@@ -248,6 +250,7 @@ fun BackTopBar(
             }
         },
         actions = actions,
+        windowInsets = WindowInsets(0, 0, 0, 0),
         colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
             containerColor = MaterialTheme.colorScheme.background,
         ),

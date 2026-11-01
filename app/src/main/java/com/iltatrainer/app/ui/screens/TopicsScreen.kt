@@ -182,20 +182,6 @@ fun TopicsScreen(
             }
         }
 
-        item(key = "footer") {
-            Text(
-                text = tr(
-                    "Всё работает офлайн. Прогресс хранится только на этом устройстве.",
-                    "Fully offline. Progress is stored on this device only.",
-                ),
-                style = MaterialTheme.typography.labelSmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                textAlign = TextAlign.Center,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(top = 8.dp),
-            )
-        }
     }
 
     if (showPicker) {
@@ -321,15 +307,6 @@ private fun LearningProgressCard(
                 )
             }
         }
-        Spacer(Modifier.height(10.dp))
-        Text(
-            text = tr(
-                "Чем больше отвечаете — тем выше процент",
-                "The more you practise, the higher it goes",
-            ),
-            style = MaterialTheme.typography.labelSmall,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
     }
 }
 
@@ -367,6 +344,7 @@ private fun ThinProgressBar(progress: Float) {
         color = MaterialTheme.colorScheme.primary,
         trackColor = MaterialTheme.colorScheme.surfaceVariant,
         strokeCap = StrokeCap.Round,
+        drawStopIndicator = {},
     )
 }
 
@@ -688,14 +666,6 @@ private fun SectionCard(
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
         }
-        Spacer(Modifier.height(8.dp))
-        Text(
-            text = section.description.localized(),
-            style = MaterialTheme.typography.bodySmall,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-            maxLines = 2,
-            overflow = TextOverflow.Ellipsis,
-        )
         Spacer(Modifier.height(12.dp))
         Row(verticalAlignment = Alignment.CenterVertically) {
             AccuracyBar(

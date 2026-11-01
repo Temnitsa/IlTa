@@ -1,6 +1,8 @@
 package com.iltatrainer.app.ui.screens
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -15,6 +17,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
@@ -24,6 +27,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.LineBreak
@@ -98,12 +102,11 @@ private fun RuleDetailContent(
             .padding(start = 20.dp, end = 20.dp, top = 16.dp, bottom = 32.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        RuleSummaryCard(rule = rule)
-
         ThemeProgressCard(
             progressPercent = themeProgress,
             poolCount = questions.size,
             accent = accent,
+            level = rule.level,
         )
 
         if (rule.sections.isEmpty()) {
@@ -152,39 +155,13 @@ private fun RuleDetailContent(
 }
 
 @Composable
-private fun RuleSummaryCard(rule: Rule) {
-    AppCard {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Text(
-                text = rule.title.localized(),
-                style = MaterialTheme.typography.titleLarge,
-                modifier = Modifier.weight(1f),
-            )
-            Spacer(Modifier.width(12.dp))
-            LevelChip(level = rule.level)
-        }
-        val summary = rule.summary.localized()
-        // Tense summaries duplicate the formula section below; keep the header clean.
-        if (rule.sectionId != "tenses" && summary.isNotBlank()) {
-            Spacer(Modifier.height(8.dp))
-            Text(
-                text = remember(summary) { formatRuleText(summary) },
-                style = MaterialTheme.typography.bodyLarge.copy(
-                    lineBreak = LineBreak.Heading,
-                    lineHeight = 26.sp,
-                ),
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-        }
-    }
-}
-
-@Composable
-private fun ThemeProgressCard(progressPercent: Int, poolCount: Int, accent: Color) {
+private fun ThemeProgressCard(progressPercent: Int, poolCount: Int, accent: Color, level: String) {
     val sessionText = questionsLabel(TOPIC_SESSION_SIZE)
     val poolText = questionsLabel(poolCount)
     AppCard {
         Row(verticalAlignment = Alignment.CenterVertically) {
+            LevelChip(level = level)
+            Spacer(Modifier.width(8.dp))
             Text(
                 text = tr("Прогресс темы", "Theme progress"),
                 style = MaterialTheme.typography.titleMedium,
@@ -200,55 +177,129 @@ private fun ThemeProgressCard(progressPercent: Int, poolCount: Int, accent: Colo
         Spacer(Modifier.height(8.dp))
         AccuracyBar(accuracy = progressPercent / 100f, color = accent)
         Spacer(Modifier.height(8.dp))
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Text(
-                text = tr(
-                    "$sessionText в тренировке · $poolText в теме",
-                    "$sessionText per session · $poolText in this topic",
-                ),
-                style = MaterialTheme.typography.labelSmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.weight(1f),
-            )
-            Text(
-                text = tr("Ошибки снижают прогресс", "Mistakes lower the progress"),
-                style = MaterialTheme.typography.labelSmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-        }
+        Text(
+            text = tr(
+                "$sessionText в тренировке · $poolText в теме",
+                "$sessionText per session · $poolText in this topic",
+            ),
+            style = MaterialTheme.typography.labelSmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
     }
 }
 
 @Composable
 private fun RuleSectionCard(section: RuleSection) {
+    val heading = section.heading.localized()
+    val body = section.body.localized()
+    val isFormula = heading.contains("Форм", ignoreCase = true) || heading.contains("Form", ignoreCase = true)
+
     AppCard {
-        val heading = section.heading.localized()
-        val body = section.body.localized()
         if (heading.isNotBlank()) {
-            Text(
-                text = heading,
-                style = MaterialTheme.typography.titleMedium.copy(lineBreak = LineBreak.Heading),
-                color = MaterialTheme.colorScheme.primary,
-            )
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Box(
+                    modifier = Modifier
+                        .width(4.dp)
+                        .height(20.dp)
+                        .background(MaterialTheme.colorScheme.primary, RoundedCornerShape(3.dp)),
+                )
+                Spacer(Modifier.width(9.dp))
+                Text(
+                    text = heading,
+                    style = MaterialTheme.typography.titleMedium.copy(lineBreak = LineBreak.Heading),
+                    color = MaterialTheme.colorScheme.primary,
+                    fontWeight = FontWeight.SemiBold,
+                )
+            }
         }
+
         if (body.isNotBlank()) {
-            if (heading.isNotBlank()) Spacer(Modifier.height(8.dp))
-            Text(
-                text = remember(body) { formatRuleText(body) },
-                style = MaterialTheme.typography.bodyLarge.copy(
-                    lineBreak = LineBreak.Heading,
-                    lineHeight = 26.sp,
-                ),
-            )
-        }
-        if (section.examples.isNotEmpty()) {
             Spacer(Modifier.height(10.dp))
-            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            if (isFormula) {
+                Surface(
+                    color = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.35f),
+                    shape = RoundedCornerShape(14.dp),
+                ) {
+                    Column(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(horizontal = 14.dp, vertical = 12.dp),
+                        verticalArrangement = Arrangement.spacedBy(7.dp),
+                    ) {
+                        body.lines().filter { it.isNotBlank() }.forEach { line ->
+                            Text(
+                                text = remember(line) { formatRuleText(line) },
+                                style = MaterialTheme.typography.bodyLarge.copy(
+                                    fontFamily = FontFamily.Monospace,
+                                    fontWeight = FontWeight.SemiBold,
+                                    lineHeight = 24.sp,
+                                ),
+                            )
+                        }
+                    }
+                }
+            } else {
+                Column(verticalArrangement = Arrangement.spacedBy(7.dp)) {
+                    body.lines().filter { it.isNotBlank() }.forEach { rawLine ->
+                        val line = rawLine.trim()
+                        if (line.startsWith("•")) {
+                            Row(verticalAlignment = Alignment.Top) {
+                                Text(
+                                    text = "•",
+                                    style = MaterialTheme.typography.bodyLarge,
+                                    color = MaterialTheme.colorScheme.primary,
+                                    fontWeight = FontWeight.Bold,
+                                )
+                                Spacer(Modifier.width(8.dp))
+                                Text(
+                                    text = remember(line) { formatRuleText(line.removePrefix("•").trimStart()) },
+                                    style = MaterialTheme.typography.bodyLarge.copy(
+                                        lineBreak = LineBreak.Heading,
+                                        lineHeight = 24.sp,
+                                    ),
+                                )
+                            }
+                        } else {
+                            Text(
+                                text = remember(line) { formatRuleText(line) },
+                                style = MaterialTheme.typography.bodyLarge.copy(
+                                    lineBreak = LineBreak.Heading,
+                                    lineHeight = 24.sp,
+                                ),
+                            )
+                        }
+                    }
+                }
+            }
+        }
+
+        if (section.examples.isNotEmpty()) {
+            Spacer(Modifier.height(12.dp))
+            Column(verticalArrangement = Arrangement.spacedBy(7.dp)) {
                 section.examples.forEach { example ->
-                    Text(
-                        text = remember(example) { formatRuleText("• $example") },
-                        style = MaterialTheme.typography.bodyMedium.copy(lineHeight = 22.sp),
-                    )
+                    Surface(
+                        color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.18f),
+                        shape = RoundedCornerShape(10.dp),
+                    ) {
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(horizontal = 11.dp, vertical = 8.dp),
+                            verticalAlignment = Alignment.Top,
+                        ) {
+                            Text(
+                                text = "•",
+                                style = MaterialTheme.typography.bodyMedium,
+                                color = MaterialTheme.colorScheme.primary,
+                                fontWeight = FontWeight.Bold,
+                            )
+                            Spacer(Modifier.width(8.dp))
+                            Text(
+                                text = remember(example) { formatRuleText(example) },
+                                style = MaterialTheme.typography.bodyMedium.copy(lineHeight = 22.sp),
+                            )
+                        }
+                    }
                 }
             }
         }

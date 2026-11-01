@@ -69,22 +69,6 @@
             "He has not started yet.",
             "I have known her for ten years."
           ]
-        },
-        {
-          "heading": {
-            "ru": "Особенности",
-            "en": "Key points"
-          },
-          "body": {
-            "ru": "• **V3**: go → gone, write → written, see → seen\n• **have/has**: I/you/we/they — have, he/she/it — has\n• **for / since**: for + длительность, since + точка\n• **been / gone**: been — побывал и вернулся, gone — уехал и ещё там\n• **контраст**: законченное время (yesterday) → Past Simple",
-            "en": "• **V3**: go → gone, write → written, see → seen\n• **have/has**: I/you/we/they — have, he/she/it — has\n• **for / since**: for + length of time, since + starting point\n• **been / gone**: been — went and came back, gone — went and is still away\n• **contrast**: finished time (yesterday) → Past Simple"
-          },
-          "examples": [
-            "I have gone home.",
-            "She has written a letter.",
-            "They have been to Spain twice.",
-            "We saw them last week."
-          ]
         }
       ]
     }

@@ -303,10 +303,12 @@ fun SettingsScreen(
         SectionHeader(tr("Обновления", "Updates"))
         AppCard {
             Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                Text(
-                    text = tr("Версия ${BuildConfig.VERSION_NAME}", "Version ${BuildConfig.VERSION_NAME}"),
-                    style = MaterialTheme.typography.titleMedium,
-                )
+                if (updateState !is UpdateState.Available) {
+                    Text(
+                        text = tr("Версия ${BuildConfig.VERSION_NAME}", "Version ${BuildConfig.VERSION_NAME}"),
+                        style = MaterialTheme.typography.titleMedium,
+                    )
+                }
                 val statusText = when (updateState) {
                     UpdateState.Idle -> tr(
                         "Проверка выполняется при запуске приложения и вручную.",
@@ -314,7 +316,10 @@ fun SettingsScreen(
                     )
                     UpdateState.Checking -> tr("Проверяем обновления…", "Checking for updates…")
                     UpdateState.UpToDate -> tr("У вас последняя версия.", "You have the latest version.")
-                    is UpdateState.Available -> tr("Найдено обновление.", "Update found.")
+                    is UpdateState.Available -> tr(
+                        "Доступна версия ${updateState.info.versionName}",
+                        "Version ${updateState.info.versionName} is available",
+                    )
                     is UpdateState.Downloading -> tr("Скачивание…", "Downloading…")
                     is UpdateState.Installing -> tr("Открываем установщик…", "Opening the installer…")
                     is UpdateState.Failed -> updateState.message
@@ -353,16 +358,18 @@ fun SettingsScreen(
                     }
                     else -> Unit
                 }
-                OutlinedButton(
-                    onClick = onCheckUpdates,
-                    enabled = updateState !is UpdateState.Checking &&
-                        updateState !is UpdateState.Downloading,
-                    shape = RoundedCornerShape(14.dp),
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(48.dp),
-                ) {
-                    Text(tr("Проверить обновления", "Check for updates"))
+                if (updateState !is UpdateState.Available) {
+                    OutlinedButton(
+                        onClick = onCheckUpdates,
+                        enabled = updateState !is UpdateState.Checking &&
+                            updateState !is UpdateState.Downloading,
+                        shape = RoundedCornerShape(14.dp),
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(48.dp),
+                    ) {
+                        Text(tr("Проверить обновления", "Check for updates"))
+                    }
                 }
             }
         }
