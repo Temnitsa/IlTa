@@ -6,7 +6,7 @@
 > **GitHub:** [github.com/Temnitsa/IlTa](https://github.com/Temnitsa/IlTa) ·
 > **Готовый APK:** [IlTa 2.9.3](https://github.com/Temnitsa/IlTa/releases/latest) — 7,6 МБ, Android 8.0+,
 > release-подпись, package `com.iltatrainer.app`, versionCode 14.
-> SHA-256: `PLACEHOLDER_293`.
+> SHA-256: `222492c5043ad0d67804caf33eb35b568ffcc97c0f51fa5c9b6a2eeef161f29a`.
 > Установка: скачайте APK из Releases или `adb install -r IlTa-v2.9.3-release.apk`.
 
 ## Возможности
@@ -49,11 +49,11 @@
 
 | Темы / прогресс | Выбор тем для тренировки | Полная тренировка темы (1/30) |
 |---|---|---|
-| ![Темы](art/screenshots/80_topics.png) | ![Выбор тем](art/screenshots/90_quick_picker.png) | ![Тренировка](art/screenshots/92_topic_training_1of30.png) |
+| ![Темы](art/screenshots/134_home_design.png) | ![Выбор тем](art/screenshots/90_quick_picker.png) | ![Тренировка](art/screenshots/92_topic_training_1of30.png) |
 
 | Раздел «Артикли» | Тема: теория и прогресс | Разбор ответа |
 |---|---|---|
-| ![Артикли](art/screenshots/81_section_articles.png) | ![Тема](art/screenshots/91_rule_detail.png) | ![Фидбек](art/screenshots/93_feedback.png) |
+| ![Артикли](art/screenshots/81_section_articles.png) | ![Тема](art/screenshots/136_rule_design.png) | ![Фидбек](art/screenshots/93_feedback.png) |
 
 | Раздел «Предлоги» | Ошибки в работе | Сессия разбора ошибок |
 |---|---|---|
