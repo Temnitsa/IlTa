@@ -4,7 +4,10 @@ import com.iltatrainer.app.data.DayStat
 import com.iltatrainer.app.data.ProgressState
 import com.iltatrainer.app.data.Question
 import com.iltatrainer.app.data.Rule
+import java.time.Instant
 import java.time.LocalDate
+import java.time.ZoneId
+import java.time.temporal.ChronoUnit
 import kotlin.math.roundToInt
 
 data class LevelStat(
@@ -14,8 +17,17 @@ data class LevelStat(
     val accuracy: Float get() = StatsCalculator.accuracy(correct, attempts)
 }
 
+/** One axis of the hidden "knowledge profile" radar chart (0..1). */
+data class RadarMetric(
+    val label: String,
+    val value: Float,
+)
+
 /** Pure statistics helpers shared by the Home and Stats screens. */
 object StatsCalculator {
+
+    private const val DAILY_DECAY_POINTS = 3.0
+    private const val TARGET_RESPONSE_MS = 12_000.0
 
     fun accuracy(correct: Int, attempts: Int): Float =
         if (attempts <= 0) 0f else (correct.toFloat() / attempts).coerceIn(0f, 1f)
@@ -34,6 +46,7 @@ object StatsCalculator {
         state: ProgressState,
         ruleQuestions: List<Question>,
         sessionSize: Int = TOPIC_SESSION_SIZE,
+        today: LocalDate = LocalDate.now(),
     ): Int {
         if (ruleQuestions.isEmpty()) return 0
         val step = 100.0 / sessionSize.coerceAtLeast(1)
@@ -44,8 +57,68 @@ object StatsCalculator {
             score += stat.correct * step
             score -= wrongAttempts * step * 2.0
         }
+        // Idle themes slowly fade: -3 percentage points for every day since the last
+        // answer in that theme (today/yesterday are handled naturally).
+        val ruleId = ruleQuestions.firstOrNull()?.ruleId
+        val lastSeen = state.ruleStats[ruleId]?.lastSeen?.takeIf { it > 0L }
+            ?: ruleQuestions.maxOfOrNull { state.questionStats[it.id]?.lastSeen ?: 0L }
+                .orZero()
+                .takeIf { it > 0L }
+        if (lastSeen != null) {
+            val lastDay = Instant.ofEpochMilli(lastSeen).atZone(ZoneId.systemDefault()).toLocalDate()
+            val idleDays = ChronoUnit.DAYS.between(lastDay, today).coerceAtLeast(0L)
+            score -= idleDays * DAILY_DECAY_POINTS
+        }
         return score.roundToInt().coerceIn(0, 100)
     }
+
+    /** Score 0..1 for the hidden speed axis. Outlier timings are excluded when recording. */
+    fun speedScore(state: ProgressState): Float {
+        val timed = state.questionStats.values.filter { it.timedAttempts > 0 }
+        val attempts = timed.sumOf { it.timedAttempts }
+        if (attempts <= 0) return 0f
+        val totalMs = timed.sumOf { it.totalResponseMs }
+        val averageMs = totalMs.toDouble() / attempts
+        return (1.0 - averageMs / TARGET_RESPONSE_MS).coerceIn(0.0, 1.0).toFloat()
+    }
+
+    /**
+     * Radar data for the Statistics screen. Section axes use accuracy, while the
+     * remaining axes summarise speed, mastery and coverage from hidden response times.
+     */
+    fun radarMetrics(
+        state: ProgressState,
+        rules: List<Rule>,
+        questions: List<Question>,
+    ): List<RadarMetric> {
+        val sectionAccuracy = listOf(
+            "articles" to "Артикли",
+            "prepositions" to "Предлоги",
+            "tenses" to "Времена",
+        ).map { (sectionId, label) ->
+            val ids = rules.filter { it.sectionId == sectionId }.map { it.id }.toSet()
+            val pool = questions.filter { it.ruleId in ids }
+            var correct = 0
+            var attempts = 0
+            pool.forEach { question ->
+                val stat = state.questionStats[question.id] ?: return@forEach
+                correct += stat.correct
+                attempts += stat.attempts
+            }
+            RadarMetric(label, accuracy(correct, attempts))
+        }
+        val mastered = if (questions.isEmpty()) 0f else masteredCount(state).toFloat() / questions.size
+        val coverage = if (questions.isEmpty()) 0f else {
+            questions.count { (state.questionStats[it.id]?.attempts ?: 0) > 0 }.toFloat() / questions.size
+        }
+        return sectionAccuracy + listOf(
+            RadarMetric("Скорость", speedScore(state)),
+            RadarMetric("Освоение", mastered.coerceIn(0f, 1f)),
+            RadarMetric("Покрытие", coverage.coerceIn(0f, 1f)),
+        )
+    }
+
+    private fun Long?.orZero(): Long = this ?: 0L
 
     /** Average progress of all themes in a section (0..100). */
     fun sectionProgress(

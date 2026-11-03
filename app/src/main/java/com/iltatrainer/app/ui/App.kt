@@ -173,6 +173,7 @@ private fun AppContent(container: AppContainer, content: ContentLoadResult) {
                         questions = content.questions,
                         questionsByRule = content.questionsByRule,
                         progress = progress,
+                        sessionSize = progress.settings.sessionSize,
                         onBack = { navigator.pop() },
                         onOpenRule = { ruleId -> navigator.push(Screen.RuleDetail(ruleId)) },
                         onPracticeSection = {
@@ -248,8 +249,12 @@ private fun AppContent(container: AppContainer, content: ContentLoadResult) {
                     rulesById = content.rulesById,
                     progress = progress,
                     language = AppLanguage.RU,
-                    onAnswer = { question, correct ->
-                        container.progressStore.recordAnswer(question, correct)
+                    onAnswer = { question, correct, responseTimeMs ->
+                        container.progressStore.recordAnswer(
+                            question = question,
+                            correct = correct,
+                            responseTimeMs = responseTimeMs,
+                        )
                     },
                     onExit = {
                         if (!navigator.pop()) navigator.resetTo(Screen.Topics)

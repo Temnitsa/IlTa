@@ -76,6 +76,32 @@ class StatsCalculatorTest {
         assertEquals(12, StatsCalculator.todayProgress(state, today))
     }
 
+
+    @Test
+    fun `idle theme loses three percentage points per day`() {
+        val lastDay = LocalDate.of(2026, 10, 30)
+        val lastSeen = lastDay.atTime(12, 0).atZone(java.time.ZoneId.systemDefault())
+            .toInstant().toEpochMilli()
+        val q = question("idle", "A1")
+        val state = ProgressState(
+            questionStats = mapOf("idle" to QuestionStat(attempts = 1, correct = 1, lastSeen = lastSeen)),
+            ruleStats = mapOf("rule" to RuleStat(attempts = 1, correct = 1, lastSeen = lastSeen)),
+        )
+        assertEquals(100, StatsCalculator.ruleProgress(state, listOf(q), sessionSize = 1, today = lastDay))
+        assertEquals(94, StatsCalculator.ruleProgress(state, listOf(q), sessionSize = 1, today = lastDay.plusDays(2)))
+    }
+
+    @Test
+    fun `speed score ignores untouched questions and maps time to a fraction`() {
+        val state = ProgressState(
+            questionStats = mapOf(
+                "timed" to QuestionStat(timedAttempts = 1, totalResponseMs = 6_000),
+                "untimed" to QuestionStat(attempts = 2, correct = 1),
+            ),
+        )
+        assertEquals(0.5f, StatsCalculator.speedScore(state), 0.0001f)
+    }
+
     @Test
     fun `mastered questions need three attempts and eighty percent accuracy`() {
         val state = ProgressState(

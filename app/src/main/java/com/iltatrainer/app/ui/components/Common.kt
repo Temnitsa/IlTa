@@ -31,7 +31,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.nativeCanvas
+import androidx.compose.ui.graphics.toArgb
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.text.AnnotatedString
@@ -44,6 +49,8 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.iltatrainer.app.R
+import com.iltatrainer.app.domain.RadarMetric
 import com.iltatrainer.app.ui.tr
 
 /** Flat card: white surface, 1dp subtle border, 14dp radius, no shadow. */
@@ -105,6 +112,31 @@ fun LevelChip(level: String, modifier: Modifier = Modifier) {
     }
 }
 
+
+/** Minimal line icon for a grammar section (articles / prepositions / tenses). */
+@Composable
+fun SectionIcon(sectionId: String, modifier: Modifier = Modifier, size: Dp = 36.dp) {
+    val icon = when (sectionId) {
+        "articles" -> R.drawable.ic_section_articles
+        "prepositions" -> R.drawable.ic_section_prepositions
+        "tenses" -> R.drawable.ic_section_tenses
+        else -> R.drawable.ic_rule_form
+    }
+    Surface(
+        modifier = modifier.size(size),
+        shape = RoundedCornerShape(10.dp),
+        color = MaterialTheme.colorScheme.surfaceVariant,
+    ) {
+        Box(contentAlignment = Alignment.Center) {
+            Icon(
+                painter = painterResource(icon),
+                contentDescription = null,
+                tint = MaterialTheme.colorScheme.onSurfaceVariant,
+                modifier = Modifier.size(size * 0.56f),
+            )
+        }
+    }
+}
 /** Neutral monogram badge used instead of emoji icons. */
 @Composable
 fun MonogramBadge(
@@ -145,7 +177,7 @@ fun StatTile(
             color = MaterialTheme.colorScheme.surface,
             border = border,
         ) {
-            StatTileContent(label = label, value = value, showHint = true)
+            StatTileContent(label = label, value = value)
         }
     } else {
         Surface(
@@ -160,26 +192,16 @@ fun StatTile(
 }
 
 @Composable
-private fun StatTileContent(label: String, value: String, showHint: Boolean = false) {
+private fun StatTileContent(label: String, value: String) {
     Column(
         modifier = Modifier.padding(horizontal = 14.dp, vertical = 14.dp),
         verticalArrangement = Arrangement.spacedBy(2.dp),
     ) {
-        Row(verticalAlignment = Alignment.Top) {
-            Text(
-                text = value,
-                style = MaterialTheme.typography.titleLarge,
-                fontWeight = FontWeight.SemiBold,
-                modifier = Modifier.weight(1f),
-            )
-            if (showHint) {
-                Text(
-                    text = "?",
-                    style = MaterialTheme.typography.labelSmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
-            }
-        }
+        Text(
+            text = value,
+            style = MaterialTheme.typography.titleLarge,
+            fontWeight = FontWeight.SemiBold,
+        )
         Text(
             text = label,
             style = MaterialTheme.typography.labelSmall,
@@ -367,4 +389,85 @@ fun SentenceText(
         style = MaterialTheme.typography.titleLarge.copy(lineHeight = 26.sp),
         modifier = modifier,
     )
+}
+
+
+/** Minimal radar chart for the hidden knowledge-profile metrics. */
+@Composable
+fun RadarChart(metrics: List<RadarMetric>, modifier: Modifier = Modifier) {
+    if (metrics.size < 3) {
+        Box(modifier)
+        return
+    }
+    val gridColor = MaterialTheme.colorScheme.outlineVariant
+    val axisColor = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.8f)
+    val dataColor = MaterialTheme.colorScheme.primary
+    val labelColor = MaterialTheme.colorScheme.onSurfaceVariant.toArgb()
+    val labelSize = 11.sp
+
+    Canvas(modifier = modifier) {
+        val count = metrics.size
+        val center = Offset(size.width / 2f, size.height / 2f)
+        val radius = size.minDimension / 2f - 38.dp.toPx()
+        val levels = 4
+
+        fun point(index: Int, distance: Float): Offset {
+            val angle = (-Math.PI / 2.0) + (2.0 * Math.PI * index / count)
+            return Offset(
+                x = center.x + (kotlin.math.cos(angle) * distance).toFloat(),
+                y = center.y + (kotlin.math.sin(angle) * distance).toFloat(),
+            )
+        }
+
+        for (level in 1..levels) {
+            val r = radius * level / levels
+            val path = Path().apply {
+                for (i in 0 until count) {
+                    val p = point(i, r)
+                    if (i == 0) moveTo(p.x, p.y) else lineTo(p.x, p.y)
+                }
+                close()
+            }
+            drawPath(path, color = gridColor, style = Stroke(width = 1.dp.toPx()))
+        }
+
+        for (i in 0 until count) {
+            drawLine(
+                color = axisColor,
+                start = center,
+                end = point(i, radius),
+                strokeWidth = 1.dp.toPx(),
+            )
+        }
+
+        val data = Path()
+        metrics.forEachIndexed { index, metric ->
+            val p = point(index, radius * metric.value.coerceIn(0f, 1f))
+            if (index == 0) data.moveTo(p.x, p.y) else data.lineTo(p.x, p.y)
+        }
+        data.close()
+        drawPath(data, color = dataColor.copy(alpha = 0.16f))
+        drawPath(data, color = dataColor, style = Stroke(width = 2.dp.toPx()))
+        metrics.forEachIndexed { index, metric ->
+            if (metric.value > 0.02f) {
+                drawCircle(
+                    color = dataColor,
+                    radius = 3.dp.toPx(),
+                    center = point(index, radius * metric.value.coerceIn(0f, 1f)),
+                )
+            }
+        }
+
+        val paint = android.graphics.Paint().apply {
+            color = labelColor
+            textSize = labelSize.toPx()
+            textAlign = android.graphics.Paint.Align.CENTER
+            isAntiAlias = true
+        }
+        metrics.forEachIndexed { index, metric ->
+            val p = point(index, radius + 24.dp.toPx())
+            val label = "${metric.label} ${(metric.value.coerceIn(0f, 1f) * 100).toInt()}%"
+            drawContext.canvas.nativeCanvas.drawText(label, p.x, p.y + paint.textSize / 3f, paint)
+        }
+    }
 }

@@ -32,7 +32,7 @@ import com.iltatrainer.app.ui.components.AppCard
 import com.iltatrainer.app.ui.components.BackTopBar
 import com.iltatrainer.app.ui.components.EmptyState
 import com.iltatrainer.app.ui.components.LevelChip
-import com.iltatrainer.app.ui.components.MonogramBadge
+import com.iltatrainer.app.ui.components.SectionIcon
 import com.iltatrainer.app.ui.components.SectionHeader
 import com.iltatrainer.app.ui.formatPercent
 import com.iltatrainer.app.ui.localized
@@ -46,6 +46,7 @@ fun SectionScreen(
     questions: List<Question>,
     questionsByRule: Map<String, Int>,
     progress: ProgressState,
+    sessionSize: Int,
     onBack: () -> Unit,
     onOpenRule: (ruleId: String) -> Unit,
     onPracticeSection: () -> Unit,
@@ -65,6 +66,7 @@ fun SectionScreen(
             SectionContent(
                 section = section,
                 sectionRules = rules.filter { it.sectionId == section.id },
+                sessionSize = sessionSize,
                 questions = questions,
                 questionsByRule = questionsByRule,
                 progress = progress,
@@ -82,6 +84,7 @@ private fun SectionContent(
     questions: List<Question>,
     questionsByRule: Map<String, Int>,
     progress: ProgressState,
+    sessionSize: Int,
     onOpenRule: (ruleId: String) -> Unit,
     onPracticeSection: () -> Unit,
 ) {
@@ -98,33 +101,17 @@ private fun SectionContent(
         item(key = "summary") {
             AppCard {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    MonogramBadge(text = section.title.localized(), size = 36.dp)
+                    SectionIcon(sectionId = section.id, size = 36.dp)
                     Spacer(Modifier.width(12.dp))
-                    Column(modifier = Modifier.weight(1f)) {
-                        Text(
-                            text = section.title.localized(),
-                            style = MaterialTheme.typography.titleMedium,
-                            maxLines = 1,
-                            overflow = TextOverflow.Ellipsis,
-                        )
-                        Text(
-                            text = countsText,
-                            style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                        )
-                    }
+                    Text(
+                        text = countsText,
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        modifier = Modifier.weight(1f),
+                    )
                     Text(
                         text = formatPercent(sectionProgress),
                         style = MaterialTheme.typography.titleLarge,
-                    )
-                }
-                val description = section.description.localized()
-                if (description.isNotBlank()) {
-                    Spacer(Modifier.height(10.dp))
-                    Text(
-                        text = description,
-                        style = MaterialTheme.typography.bodySmall.copy(lineBreak = LineBreak.Heading),
-                        color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
                 }
                 Spacer(Modifier.height(10.dp))
@@ -147,7 +134,7 @@ private fun SectionContent(
                     modifier = Modifier.weight(1f),
                 )
                 Text(
-                    text = questionsLabel(questionCount),
+                    text = questionsLabel(sessionSize),
                     style = MaterialTheme.typography.labelSmall,
                 )
             }

@@ -1,5 +1,7 @@
 package com.iltatrainer.app.ui.screens
 
+import android.os.SystemClock
+
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Arrangement
@@ -75,7 +77,7 @@ fun PracticeScreen(
     rulesById: Map<String, Rule>,
     progress: ProgressState,
     language: AppLanguage,
-    onAnswer: (Question, Boolean) -> Unit,
+    onAnswer: (Question, Boolean, Long) -> Unit,
     onExit: () -> Unit,
     onFinish: (SessionResult) -> Unit,
 ) {
@@ -114,6 +116,7 @@ fun PracticeScreen(
     var showExitDialog by remember { mutableStateOf(false) }
 
     val current = questions[index]
+    val questionStartedAt = remember(current.id) { SystemClock.elapsedRealtime() }
     val isLast = index == questions.lastIndex
 
     BackHandler { showExitDialog = true }
@@ -144,7 +147,11 @@ fun PracticeScreen(
                         } else {
                             mistakes.add(SessionMistake(current, userInput))
                         }
-                        onAnswer(current, correct)
+                        onAnswer(
+                            current,
+                            correct,
+                            (SystemClock.elapsedRealtime() - questionStartedAt).coerceAtLeast(0L),
+                        )
                     }
                 },
                 onNext = {

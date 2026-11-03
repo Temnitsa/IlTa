@@ -1,5 +1,6 @@
 package com.iltatrainer.app.ui.screens
 
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -9,6 +10,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.AlertDialog
@@ -22,7 +24,13 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.nativeCanvas
+import androidx.compose.ui.graphics.toArgb
+import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.iltatrainer.app.data.ProgressState
 import com.iltatrainer.app.data.Question
 import com.iltatrainer.app.data.Rule
@@ -31,6 +39,7 @@ import com.iltatrainer.app.ui.components.AccuracyBar
 import com.iltatrainer.app.ui.components.AppCard
 import com.iltatrainer.app.ui.components.LevelChip
 import com.iltatrainer.app.ui.components.ProgressRing
+import com.iltatrainer.app.ui.components.RadarChart
 import com.iltatrainer.app.ui.components.SectionHeader
 import com.iltatrainer.app.ui.components.StatTile
 import com.iltatrainer.app.ui.formatPercent
@@ -114,6 +123,8 @@ fun StatsScreen(
             Spacer(Modifier.height(16.dp))
             StatsLearningCard(rules = rules, questions = questions, progress = progress)
             Spacer(Modifier.height(16.dp))
+            StatsRadarCard(rules = rules, questions = questions, progress = progress)
+            Spacer(Modifier.height(16.dp))
             SectionHeader("Уровни")
             Spacer(Modifier.height(6.dp))
             StatsLevelsCard(progress = progress, questions = questions)
@@ -175,6 +186,34 @@ private fun StatsLearningCard(
                 )
             }
         }
+    }
+}
+
+@Composable
+private fun StatsRadarCard(
+    rules: List<Rule>,
+    questions: List<Question>,
+    progress: ProgressState,
+) {
+    val metrics = remember(progress, rules, questions) {
+        StatsCalculator.radarMetrics(progress, rules, questions)
+    }
+    AppCard {
+        Text("Профиль знаний", style = MaterialTheme.typography.titleMedium)
+        if (metrics.count { it.value > 0.02f } < 3) {
+            Text(
+                "Мало данных — ответьте ещё на несколько вопросов",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+        Spacer(Modifier.height(4.dp))
+        RadarChart(
+            metrics = metrics,
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(310.dp),
+        )
     }
 }
 

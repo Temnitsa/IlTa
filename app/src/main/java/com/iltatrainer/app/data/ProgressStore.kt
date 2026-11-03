@@ -18,12 +18,16 @@ data class QuestionStat(
     val attempts: Int = 0,
     val correct: Int = 0,
     val lastSeen: Long = 0L,
+    /** Valid (non-outlier) timed attempts and their total duration. */
+    val timedAttempts: Int = 0,
+    val totalResponseMs: Long = 0L,
 )
 
 @Serializable
 data class RuleStat(
     val attempts: Int = 0,
     val correct: Int = 0,
+    val lastSeen: Long = 0L,
 )
 
 @Serializable
@@ -98,10 +102,12 @@ class ProgressStore(private val context: Context) {
         correct: Boolean,
         now: Long = System.currentTimeMillis(),
         today: LocalDate = LocalDate.now(),
+        responseTimeMs: Long? = null,
     ) {
         synchronized(this) {
             val s = _state.value
             val questionStat = s.questionStats[question.id] ?: QuestionStat()
+            val validResponseMs = responseTimeMs?.takeIf { it in 1..MAX_RESPONSE_MS }
             val ruleStat = s.ruleStats[question.ruleId] ?: RuleStat()
             val dayKey = today.toString()
             val dayStat = s.days[dayKey] ?: DayStat()
@@ -113,10 +119,13 @@ class ProgressStore(private val context: Context) {
                     attempts = questionStat.attempts + 1,
                     correct = questionStat.correct + if (correct) 1 else 0,
                     lastSeen = now,
+                    timedAttempts = questionStat.timedAttempts + if (validResponseMs != null) 1 else 0,
+                    totalResponseMs = questionStat.totalResponseMs + (validResponseMs ?: 0L),
                 )),
                 ruleStats = s.ruleStats + (question.ruleId to ruleStat.copy(
                     attempts = ruleStat.attempts + 1,
                     correct = ruleStat.correct + if (correct) 1 else 0,
+                    lastSeen = now,
                 )),
                 days = s.days + (dayKey to dayStat.copy(
                     answered = dayStat.answered + 1,
@@ -246,6 +255,8 @@ class ProgressStore(private val context: Context) {
 
     companion object {
         const val EXPORT_APP_VERSION = "2.3.0"
+        /** Answers slower than this are treated as "left the screen" outliers for speed stats. */
+        const val MAX_RESPONSE_MS = 120_000L
         private const val PREFS = "ilta_progress"
         private const val KEY_PROGRESS = "progress_state_v1"
     }

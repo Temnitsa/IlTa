@@ -46,7 +46,7 @@ import com.iltatrainer.app.domain.StatsCalculator
 import com.iltatrainer.app.ui.components.AccuracyBar
 import com.iltatrainer.app.ui.components.AppCard
 import com.iltatrainer.app.ui.components.EmptyState
-import com.iltatrainer.app.ui.components.MonogramBadge
+import com.iltatrainer.app.ui.components.SectionIcon
 import com.iltatrainer.app.ui.components.SectionHeader
 import com.iltatrainer.app.ui.formatPercent
 import com.iltatrainer.app.ui.localized
@@ -280,7 +280,7 @@ private fun SectionCard(
 
     AppCard(onClick = onClick) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            MonogramBadge(text = section.title.localized(), size = 34.dp)
+            SectionIcon(sectionId = section.id, size = 34.dp)
             Spacer(Modifier.width(12.dp))
             Column(modifier = Modifier.weight(1f)) {
                 Text(
