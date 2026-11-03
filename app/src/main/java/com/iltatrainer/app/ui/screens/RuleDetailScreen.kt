@@ -4,7 +4,6 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -23,7 +22,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -38,18 +36,16 @@ import com.iltatrainer.app.data.ProgressState
 import com.iltatrainer.app.data.Question
 import com.iltatrainer.app.data.Rule
 import com.iltatrainer.app.data.RuleSection
-import com.iltatrainer.app.domain.TOPIC_SESSION_SIZE
 import com.iltatrainer.app.domain.StatsCalculator
+import com.iltatrainer.app.domain.TOPIC_SESSION_SIZE
 import com.iltatrainer.app.ui.components.AccuracyBar
 import com.iltatrainer.app.ui.components.AppCard
 import com.iltatrainer.app.ui.components.BackTopBar
 import com.iltatrainer.app.ui.components.EmptyState
 import com.iltatrainer.app.ui.components.LevelChip
-import com.iltatrainer.app.ui.components.levelColor
 import com.iltatrainer.app.ui.formatPercent
 import com.iltatrainer.app.ui.localized
 import com.iltatrainer.app.ui.questionsLabel
-import com.iltatrainer.app.ui.tr
 
 @Composable
 fun RuleDetailScreen(
@@ -61,18 +57,14 @@ fun RuleDetailScreen(
 ) {
     Column(modifier = Modifier.fillMaxSize()) {
         BackTopBar(
-            title = if (rule != null) rule.title.localized() else tr("Тема", "Topic"),
+            title = rule?.title?.localized() ?: "Тема",
             onBack = onBack,
         )
         if (rule == null) {
             EmptyState(
-                emoji = "🤔",
-                title = tr("Тема не найдена", "Topic not found"),
-                message = tr(
-                    "Возможно, контент приложения обновился. Вернитесь к списку правил и выберите тему снова.",
-                    "The app content may have changed. Go back to the list of rules and pick a topic again.",
-                ),
-                modifier = Modifier.padding(horizontal = 20.dp, vertical = 24.dp),
+                title = "Тема не найдена",
+                message = "Вернитесь к списку тем и выберите другую.",
+                modifier = Modifier.padding(horizontal = 16.dp, vertical = 24.dp),
             )
         } else {
             RuleDetailContent(
@@ -93,33 +85,54 @@ private fun RuleDetailContent(
     onTrain: (String) -> Unit,
 ) {
     val themeProgress = StatsCalculator.ruleProgress(progress, questions)
-    val accent = levelColor(rule.level)
 
     Column(
         modifier = Modifier
             .fillMaxSize()
             .verticalScroll(rememberScrollState())
-            .padding(start = 20.dp, end = 20.dp, top = 16.dp, bottom = 32.dp),
-        verticalArrangement = Arrangement.spacedBy(12.dp),
+            .padding(horizontal = 16.dp, vertical = 16.dp),
+        verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
-        ThemeProgressCard(
-            progressPercent = themeProgress,
-            poolCount = questions.size,
-            accent = accent,
-            level = rule.level,
-        )
+        AppCard {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                LevelChip(level = rule.level)
+                Spacer(Modifier.width(8.dp))
+                Text(
+                    text = "Прогресс темы",
+                    style = MaterialTheme.typography.labelLarge,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier = Modifier.weight(1f),
+                )
+                Text(
+                    text = formatPercent(themeProgress),
+                    style = MaterialTheme.typography.titleLarge,
+                )
+            }
+            val summary = rule.summary.localized()
+            if (summary.isNotBlank() && rule.sectionId != "tenses") {
+                Spacer(Modifier.height(6.dp))
+                Text(
+                    text = summary,
+                    style = MaterialTheme.typography.bodyMedium.copy(lineBreak = LineBreak.Heading),
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+            Spacer(Modifier.height(8.dp))
+            AccuracyBar(accuracy = themeProgress / 100f)
+            Spacer(Modifier.height(6.dp))
+            Text(
+                text = "${questionsLabel(TOPIC_SESSION_SIZE)} в тренировке · " +
+                    "${questionsLabel(questions.size)} в теме",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
 
         if (rule.sections.isEmpty()) {
             AppCard {
                 Text(
-                    text = tr(
-                        "Пояснений к этой теме пока нет — тренируйтесь сразу на вопросах.",
-                        "There is no explanation for this topic yet — practise with the questions instead.",
-                    ),
-                    style = MaterialTheme.typography.bodyLarge.copy(
-                        lineBreak = LineBreak.Heading,
-                        lineHeight = 26.sp,
-                    ),
+                    text = "Пояснений к этой теме пока нет.",
+                    style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }
@@ -132,59 +145,21 @@ private fun RuleDetailContent(
         Button(
             onClick = { onTrain(rule.id) },
             enabled = questions.isNotEmpty(),
-            shape = RoundedCornerShape(18.dp),
-            contentPadding = PaddingValues(horizontal = 24.dp, vertical = 8.dp),
+            shape = RoundedCornerShape(10.dp),
             modifier = Modifier
                 .fillMaxWidth()
-                .height(64.dp),
+                .height(46.dp),
         ) {
-            Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                Text(
-                    text = tr("Тренировать тему", "Practise this topic"),
-                    style = MaterialTheme.typography.titleMedium,
-                    maxLines = 1,
-                )
-                Text(
-                    text = questionsLabel(TOPIC_SESSION_SIZE),
-                    style = MaterialTheme.typography.labelSmall,
-                    maxLines = 1,
-                )
-            }
-        }
-    }
-}
-
-@Composable
-private fun ThemeProgressCard(progressPercent: Int, poolCount: Int, accent: Color, level: String) {
-    val sessionText = questionsLabel(TOPIC_SESSION_SIZE)
-    val poolText = questionsLabel(poolCount)
-    AppCard {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            LevelChip(level = level)
-            Spacer(Modifier.width(8.dp))
             Text(
-                text = tr("Прогресс темы", "Theme progress"),
+                text = "Тренировать тему",
                 style = MaterialTheme.typography.titleMedium,
                 modifier = Modifier.weight(1f),
             )
             Text(
-                text = formatPercent(progressPercent),
-                style = MaterialTheme.typography.titleLarge,
-                fontWeight = FontWeight.Bold,
-                color = accent,
+                text = questionsLabel(TOPIC_SESSION_SIZE),
+                style = MaterialTheme.typography.labelSmall,
             )
         }
-        Spacer(Modifier.height(8.dp))
-        AccuracyBar(accuracy = progressPercent / 100f, color = accent)
-        Spacer(Modifier.height(8.dp))
-        Text(
-            text = tr(
-                "$sessionText в тренировке · $poolText в теме",
-                "$sessionText per session · $poolText in this topic",
-            ),
-            style = MaterialTheme.typography.labelSmall,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
     }
 }
 
@@ -199,16 +174,15 @@ private fun RuleSectionCard(section: RuleSection) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Box(
                     modifier = Modifier
-                        .width(4.dp)
-                        .height(20.dp)
-                        .background(MaterialTheme.colorScheme.primary, RoundedCornerShape(3.dp)),
+                        .width(3.dp)
+                        .height(16.dp)
+                        .background(MaterialTheme.colorScheme.primary, RoundedCornerShape(2.dp)),
                 )
-                Spacer(Modifier.width(9.dp))
+                Spacer(Modifier.width(8.dp))
                 Text(
                     text = heading,
                     style = MaterialTheme.typography.titleMedium.copy(lineBreak = LineBreak.Heading),
                     color = MaterialTheme.colorScheme.primary,
-                    fontWeight = FontWeight.SemiBold,
                 )
             }
         }
@@ -217,29 +191,28 @@ private fun RuleSectionCard(section: RuleSection) {
             Spacer(Modifier.height(10.dp))
             if (isFormula) {
                 Surface(
-                    color = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.35f),
-                    shape = RoundedCornerShape(14.dp),
+                    color = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.5f),
+                    shape = RoundedCornerShape(10.dp),
                 ) {
                     Column(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(horizontal = 14.dp, vertical = 12.dp),
-                        verticalArrangement = Arrangement.spacedBy(7.dp),
+                            .padding(horizontal = 12.dp, vertical = 10.dp),
+                        verticalArrangement = Arrangement.spacedBy(6.dp),
                     ) {
                         body.lines().filter { it.isNotBlank() }.forEach { line ->
                             Text(
                                 text = remember(line) { formatRuleText(line) },
                                 style = MaterialTheme.typography.bodyLarge.copy(
                                     fontFamily = FontFamily.Monospace,
-                                    fontWeight = FontWeight.SemiBold,
-                                    lineHeight = 24.sp,
+                                    lineHeight = 22.sp,
                                 ),
                             )
                         }
                     }
                 }
             } else {
-                Column(verticalArrangement = Arrangement.spacedBy(7.dp)) {
+                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                     body.lines().filter { it.isNotBlank() }.forEach { rawLine ->
                         val line = rawLine.trim()
                         if (line.startsWith("•")) {
@@ -248,14 +221,15 @@ private fun RuleSectionCard(section: RuleSection) {
                                     text = "•",
                                     style = MaterialTheme.typography.bodyLarge,
                                     color = MaterialTheme.colorScheme.primary,
-                                    fontWeight = FontWeight.Bold,
                                 )
                                 Spacer(Modifier.width(8.dp))
                                 Text(
-                                    text = remember(line) { formatRuleText(line.removePrefix("•").trimStart()) },
+                                    text = remember(line) {
+                                        formatRuleText(line.removePrefix("•").trimStart())
+                                    },
                                     style = MaterialTheme.typography.bodyLarge.copy(
                                         lineBreak = LineBreak.Heading,
-                                        lineHeight = 24.sp,
+                                        lineHeight = 22.sp,
                                     ),
                                 )
                             }
@@ -264,7 +238,7 @@ private fun RuleSectionCard(section: RuleSection) {
                                 text = remember(line) { formatRuleText(line) },
                                 style = MaterialTheme.typography.bodyLarge.copy(
                                     lineBreak = LineBreak.Heading,
-                                    lineHeight = 24.sp,
+                                    lineHeight = 22.sp,
                                 ),
                             )
                         }
@@ -274,31 +248,20 @@ private fun RuleSectionCard(section: RuleSection) {
         }
 
         if (section.examples.isNotEmpty()) {
-            Spacer(Modifier.height(12.dp))
-            Column(verticalArrangement = Arrangement.spacedBy(7.dp)) {
+            Spacer(Modifier.height(10.dp))
+            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 section.examples.forEach { example ->
-                    Surface(
-                        color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.18f),
-                        shape = RoundedCornerShape(10.dp),
-                    ) {
-                        Row(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(horizontal = 11.dp, vertical = 8.dp),
-                            verticalAlignment = Alignment.Top,
-                        ) {
-                            Text(
-                                text = "•",
-                                style = MaterialTheme.typography.bodyMedium,
-                                color = MaterialTheme.colorScheme.primary,
-                                fontWeight = FontWeight.Bold,
-                            )
-                            Spacer(Modifier.width(8.dp))
-                            Text(
-                                text = remember(example) { formatRuleText(example) },
-                                style = MaterialTheme.typography.bodyMedium.copy(lineHeight = 22.sp),
-                            )
-                        }
+                    Row(verticalAlignment = Alignment.Top) {
+                        Text(
+                            text = "•",
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                        Spacer(Modifier.width(8.dp))
+                        Text(
+                            text = remember(example) { formatRuleText(example) },
+                            style = MaterialTheme.typography.bodyMedium.copy(lineHeight = 20.sp),
+                        )
                     }
                 }
             }
@@ -308,8 +271,7 @@ private fun RuleSectionCard(section: RuleSection) {
 
 /**
  * Renders the simple markup used by rule bodies: line breaks are preserved exactly,
- * `**bold**` becomes bold and `*italic*` becomes italic. Bullet lines that start with
- * "• " stay on their own line because newlines are kept as-is.
+ * `**bold**` becomes bold and `*italic*` becomes italic.
  */
 private fun formatRuleText(raw: String): AnnotatedString = buildAnnotatedString {
     var bold = false
@@ -323,7 +285,7 @@ private fun formatRuleText(raw: String): AnnotatedString = buildAnnotatedString 
                 if (bold || italic) {
                     withStyle(
                         SpanStyle(
-                            fontWeight = if (bold) FontWeight.Bold else null,
+                            fontWeight = if (bold) FontWeight.SemiBold else null,
                             fontStyle = if (italic) FontStyle.Italic else null,
                         ),
                     ) {

@@ -93,7 +93,6 @@ fun PracticeScreen(
             verticalArrangement = Arrangement.Center,
         ) {
             EmptyState(
-                emoji = "🎯",
                 title = tr("Пока здесь пусто", "Nothing here yet"),
                 message = tr(
                     "Ответьте на несколько вопросов, и этот режим наполнится.",
@@ -168,6 +167,7 @@ fun PracticeScreen(
     if (showExitDialog) {
         AlertDialog(
             onDismissRequest = { showExitDialog = false },
+            containerColor = MaterialTheme.colorScheme.surface,
             title = { Text(tr("Выйти из тренировки?", "Leave practice?")) },
             text = {
                 Text(
@@ -267,7 +267,7 @@ private fun QuestionBody(
     Column(
         modifier = modifier
             .verticalScroll(rememberScrollState())
-            .padding(horizontal = 20.dp),
+            .padding(horizontal = 16.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             LevelChip(level = question.level)
@@ -325,8 +325,8 @@ private fun QuestionBody(
                 onClick = onNext,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(54.dp),
-                shape = RoundedCornerShape(16.dp),
+                    .height(48.dp),
+                shape = RoundedCornerShape(12.dp),
             ) {
                 Text(
                     text = if (isLast) {
@@ -409,8 +409,8 @@ private fun AnswerOption(
     Surface(
         onClick = onClick,
         enabled = enabled,
-        modifier = modifier.height(56.dp),
-        shape = RoundedCornerShape(16.dp),
+        modifier = modifier.height(50.dp),
+        shape = RoundedCornerShape(12.dp),
         color = containerColor,
         contentColor = contentColor,
         border = BorderStroke(if (state == OptionState.Idle) 1.dp else 2.dp, borderColor),
@@ -577,7 +577,7 @@ private fun MatchCard(
             style = MaterialTheme.typography.bodyMedium,
             modifier = Modifier
                 .fillMaxWidth()
-                .heightIn(min = 62.dp)
+                .heightIn(min = 52.dp)
                 .padding(10.dp),
         )
     }
@@ -608,7 +608,7 @@ private fun BuildBody(
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         if (russianSentence.isNotBlank()) {
             Surface(
-                shape = RoundedCornerShape(18.dp),
+                shape = RoundedCornerShape(14.dp),
                 color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f),
             ) {
                 Text(
@@ -622,7 +622,7 @@ private fun BuildBody(
         }
 
         Surface(
-            shape = RoundedCornerShape(18.dp),
+            shape = RoundedCornerShape(14.dp),
             color = MaterialTheme.colorScheme.surface,
             border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
         ) {
@@ -678,8 +678,8 @@ private fun BuildBody(
                 enabled = allPlaced,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(52.dp),
-                shape = RoundedCornerShape(16.dp),
+                    .height(46.dp),
+                shape = RoundedCornerShape(12.dp),
             ) {
                 Text(tr("Проверить", "Check"), style = MaterialTheme.typography.titleMedium)
             }
@@ -724,7 +724,7 @@ private fun WordTile(
 @Composable
 private fun SentenceCard(sentence: String, filled: String?) {
     Surface(
-        shape = RoundedCornerShape(18.dp),
+        shape = RoundedCornerShape(14.dp),
         color = MaterialTheme.colorScheme.surface,
         border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
     ) {
@@ -759,7 +759,7 @@ private fun FeedbackCard(
     Surface(
         color = container,
         contentColor = content,
-        shape = RoundedCornerShape(18.dp),
+        shape = RoundedCornerShape(14.dp),
     ) {
         Column(
             modifier = Modifier.padding(18.dp),

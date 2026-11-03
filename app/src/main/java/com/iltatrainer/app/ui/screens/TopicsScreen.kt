@@ -19,9 +19,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.FilterChip
 import androidx.compose.material3.HorizontalDivider
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Surface
@@ -37,15 +35,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
-import androidx.compose.ui.graphics.StrokeCap
-import androidx.compose.ui.text.SpanStyle
-import androidx.compose.ui.text.buildAnnotatedString
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.iltatrainer.app.data.ProgressState
 import com.iltatrainer.app.data.Question
 import com.iltatrainer.app.data.Rule
@@ -55,12 +46,12 @@ import com.iltatrainer.app.domain.StatsCalculator
 import com.iltatrainer.app.ui.components.AccuracyBar
 import com.iltatrainer.app.ui.components.AppCard
 import com.iltatrainer.app.ui.components.EmptyState
+import com.iltatrainer.app.ui.components.MonogramBadge
 import com.iltatrainer.app.ui.components.SectionHeader
 import com.iltatrainer.app.ui.formatPercent
 import com.iltatrainer.app.ui.localized
 import com.iltatrainer.app.ui.pluralRu
 import com.iltatrainer.app.ui.questionsLabel
-import com.iltatrainer.app.ui.tr
 
 /** Exercise types available in the quick-practice filter (Question.type values). */
 private val ALL_EXERCISE_TYPES = setOf("choice", "match", "build")
@@ -78,7 +69,6 @@ fun TopicsScreen(
     modifier: Modifier = Modifier,
 ) {
     val sessionSize = progress.settings.sessionSize
-    val streak = StatsCalculator.streak(progress)
     val openMistakesCount = SessionBuilder.openMistakeCount(progress)
     val rulesBySection = remember(rules) { rules.groupBy { it.sectionId } }
     val questionsByRule = remember(questions) { questions.groupingBy { it.ruleId }.eachCount() }
@@ -100,16 +90,15 @@ fun TopicsScreen(
 
     LazyColumn(
         modifier = modifier.fillMaxSize(),
-        contentPadding = PaddingValues(start = 20.dp, end = 20.dp, top = 16.dp, bottom = 24.dp),
-        verticalArrangement = Arrangement.spacedBy(14.dp),
+        contentPadding = PaddingValues(horizontal = 16.dp, vertical = 16.dp),
+        verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
         item(key = "header") {
-            TopicsHeader(streak = streak)
+            Text("IlTa", style = MaterialTheme.typography.headlineMedium)
         }
 
-        item(key = "learning-progress") {
+        item(key = "learning") {
             LearningProgressCard(
-                sections = sections,
                 rules = rules,
                 questions = questions,
                 progress = progress,
@@ -119,25 +108,20 @@ fun TopicsScreen(
         item(key = "quick-practice") {
             Button(
                 onClick = { showPicker = true },
-                shape = RoundedCornerShape(18.dp),
+                shape = RoundedCornerShape(10.dp),
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(58.dp),
+                    .height(46.dp),
             ) {
-                Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                    Text(
-                        text = tr("Тренировка", "Practice"),
-                        style = MaterialTheme.typography.titleMedium,
-                    )
-                    Text(
-                        text = tr(
-                            "${questionsLabel(sessionSize)} · выбрать темы",
-                            "${questionsLabel(sessionSize)} · choose topics",
-                        ),
-                        style = MaterialTheme.typography.labelSmall,
-                        color = MaterialTheme.colorScheme.onPrimary.copy(alpha = 0.8f),
-                    )
-                }
+                Text(
+                    text = "Тренировка",
+                    style = MaterialTheme.typography.titleMedium,
+                    modifier = Modifier.weight(1f),
+                )
+                Text(
+                    text = questionsLabel(sessionSize),
+                    style = MaterialTheme.typography.labelSmall,
+                )
             }
         }
 
@@ -155,18 +139,14 @@ fun TopicsScreen(
         }
 
         item(key = "sections-header") {
-            SectionHeader(tr("Разделы", "Sections"))
+            SectionHeader("Разделы")
         }
 
         if (sections.isEmpty()) {
             item(key = "empty-sections") {
                 EmptyState(
-                    emoji = "📚",
-                    title = tr("Разделы не загрузились", "Sections not loaded"),
-                    message = tr(
-                        "Проверьте встроенный контент приложения и перезапустите его.",
-                        "Check the app's bundled content and restart it.",
-                    ),
+                    title = "Разделов пока нет",
+                    message = "Проверьте встроенный контент приложения.",
                 )
             }
         } else {
@@ -181,7 +161,6 @@ fun TopicsScreen(
                 )
             }
         }
-
     }
 
     if (showPicker) {
@@ -189,7 +168,6 @@ fun TopicsScreen(
             sections = sections,
             rules = rules,
             questionsByRule = questionsByRule,
-            sessionSize = sessionSize,
             selectedRuleIds = selectedRuleIds,
             selectedTypes = selectedTypes,
             onToggleRule = { ruleId ->
@@ -219,91 +197,67 @@ fun TopicsScreen(
 }
 
 @Composable
-private fun TopicsHeader(streak: Int) {
-    Row(verticalAlignment = Alignment.CenterVertically) {
-        Column(modifier = Modifier.weight(1f)) {
-            Text(
-                text = tr("IlTa", "IlTa"),
-                style = MaterialTheme.typography.headlineMedium,
-            )
-            Text(
-                text = tr("Тренажёр английской грамматики", "English grammar trainer"),
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-        }
-        Spacer(Modifier.width(12.dp))
-        StreakBadge(streak = streak)
-    }
-}
-
-@Composable
-private fun StreakBadge(streak: Int) {
-    Surface(
-        color = MaterialTheme.colorScheme.secondaryContainer,
-        contentColor = MaterialTheme.colorScheme.onSecondaryContainer,
-        shape = RoundedCornerShape(50),
-    ) {
-        Row(
-            verticalAlignment = Alignment.CenterVertically,
-            modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp),
-        ) {
-            Text("🔥", fontSize = 16.sp)
-            Spacer(Modifier.width(4.dp))
-            Text(
-                text = "$streak",
-                style = MaterialTheme.typography.titleMedium,
-                fontWeight = FontWeight.Bold,
-            )
-        }
-    }
-}
-
-@Composable
 private fun LearningProgressCard(
-    sections: List<Section>,
     rules: List<Rule>,
     questions: List<Question>,
     progress: ProgressState,
 ) {
     val percent = StatsCalculator.learningProgress(progress, rules, questions)
     val learned = questions.count { question -> (progress.questionStats[question.id]?.correct ?: 0) > 0 }
-    val total = questions.size
-    val titlePrefix = tr("Вы изучили ", "You've learned ")
-    val titleSuffix = tr(" грамматики", " of the grammar")
-    val percentText = formatPercent(percent)
-    val title = buildAnnotatedString {
-        append(titlePrefix)
-        withStyle(SpanStyle(fontWeight = FontWeight.Bold)) {
-            append(percentText)
-        }
-        append(titleSuffix)
-    }
-    val learnedLine = tr(
-        "$learned из $total ${pluralRu(total, "вопроса", "вопросов", "вопросов")}",
-        "$learned of $total ${if (total == 1) "question" else "questions"}",
-    )
 
     AppCard {
-        Text(
-            text = title,
-            style = MaterialTheme.typography.titleMedium,
-        )
-        Spacer(Modifier.height(4.dp))
-        Text(
-            text = learnedLine,
-            style = MaterialTheme.typography.bodyMedium,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(
+                text = "Прогресс грамматики",
+                style = MaterialTheme.typography.labelLarge,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                modifier = Modifier.weight(1f),
+            )
+            Text(
+                text = formatPercent(percent),
+                style = MaterialTheme.typography.titleLarge,
+            )
+        }
         Spacer(Modifier.height(8.dp))
         AccuracyBar(accuracy = percent / 100f)
-        Spacer(Modifier.height(14.dp))
-        Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
-            sections.forEach { section ->
-                val sectionRules = rules.filter { it.sectionId == section.id }
-                SectionLearningRow(
-                    section = section,
-                    percent = StatsCalculator.sectionProgress(progress, sectionRules, questions),
+        Spacer(Modifier.height(6.dp))
+        Text(
+            text = "$learned из ${questions.size} " +
+                pluralRu(questions.size, "вопроса", "вопросов", "вопросов"),
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+    }
+}
+
+@Composable
+private fun MistakeReviewCard(mistakeCount: Int, onClick: () -> Unit) {
+    val enabled = mistakeCount > 0
+    val caption = if (enabled) {
+        "$mistakeCount ${pluralRu(mistakeCount, "ошибка", "ошибки", "ошибок")} в работе"
+    } else {
+        "Пока нет ошибок"
+    }
+    AppCard(
+        onClick = if (enabled) onClick else null,
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Column(modifier = Modifier.weight(1f)) {
+                Text(
+                    text = "Работа над ошибками",
+                    style = MaterialTheme.typography.titleMedium,
+                )
+                Text(
+                    text = caption,
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+            if (enabled) {
+                Text(
+                    text = "›",
+                    style = MaterialTheme.typography.titleLarge,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }
         }
@@ -311,41 +265,59 @@ private fun LearningProgressCard(
 }
 
 @Composable
-private fun SectionLearningRow(section: Section, percent: Int) {
-    Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+private fun SectionCard(
+    section: Section,
+    sectionRules: List<Rule>,
+    questionsByRule: Map<String, Int>,
+    questions: List<Question>,
+    progress: ProgressState,
+    onClick: () -> Unit,
+) {
+    val percent = StatsCalculator.sectionProgress(progress, sectionRules, questions)
+    val questionCount = sectionRules.sumOf { rule -> questionsByRule[rule.id] ?: 0 }
+    val countsText = "${sectionRules.size} ${pluralRu(sectionRules.size, "тема", "темы", "тем")} · " +
+        questionsLabel(questionCount)
+
+    AppCard(onClick = onClick) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Text(section.emoji, fontSize = 16.sp)
-            Spacer(Modifier.width(8.dp))
-            Text(
-                text = section.title.localized(),
-                style = MaterialTheme.typography.labelLarge,
-                maxLines = 1,
-                overflow = TextOverflow.Ellipsis,
-                modifier = Modifier.weight(1f),
-            )
+            MonogramBadge(text = section.title.localized(), size = 34.dp)
+            Spacer(Modifier.width(12.dp))
+            Column(modifier = Modifier.weight(1f)) {
+                Text(
+                    text = section.title.localized(),
+                    style = MaterialTheme.typography.titleMedium,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                )
+                Text(
+                    text = section.short.localized(),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                )
+            }
             Text(
                 text = formatPercent(percent),
                 style = MaterialTheme.typography.labelLarge,
-                fontWeight = FontWeight.Bold,
-                color = MaterialTheme.colorScheme.primary,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            Spacer(Modifier.width(6.dp))
+            Text(
+                text = "›",
+                style = MaterialTheme.typography.titleLarge,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
         }
-        ThinProgressBar(progress = percent / 100f)
+        Spacer(Modifier.height(10.dp))
+        AccuracyBar(accuracy = percent / 100f)
+        Spacer(Modifier.height(6.dp))
+        Text(
+            text = countsText,
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
     }
-}
-
-@Composable
-private fun ThinProgressBar(progress: Float) {
-    LinearProgressIndicator(
-        progress = { progress.coerceIn(0f, 1f) },
-        modifier = Modifier
-            .fillMaxWidth()
-            .height(4.dp),
-        color = MaterialTheme.colorScheme.primary,
-        trackColor = MaterialTheme.colorScheme.surfaceVariant,
-        strokeCap = StrokeCap.Round,
-        drawStopIndicator = {},
-    )
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -354,7 +326,6 @@ private fun QuickPracticePickerSheet(
     sections: List<Section>,
     rules: List<Rule>,
     questionsByRule: Map<String, Int>,
-    sessionSize: Int,
     selectedRuleIds: List<String>,
     selectedTypes: Set<String>,
     onToggleRule: (ruleId: String) -> Unit,
@@ -369,62 +340,42 @@ private fun QuickPracticePickerSheet(
     val selectedRuleIdSet = remember(selectedRuleIds) { selectedRuleIds.toSet() }
     var expandedSectionIds by remember { mutableStateOf(emptySet<String>()) }
     val typeOptions = listOf(
-        "choice" to tr("Выбор", "Choice"),
-        "match" to tr("Соответствие", "Match"),
-        "build" to tr("Сборка", "Build"),
+        "choice" to "Выбор",
+        "match" to "Соответствие",
+        "build" to "Сборка",
     )
     val selectedQuestionCount = remember(selectedRuleIds, questionsByRule) {
         selectedRuleIds.sumOf { ruleId -> questionsByRule[ruleId] ?: 0 }
     }
     val selectedCount = selectedRuleIds.size
     val allTypesSelected = selectedTypes.size == ALL_EXERCISE_TYPES.size
-    val selectedSummary = tr(
-        "Выбрано: $selectedCount ${pluralRu(selectedCount, "тема", "темы", "тем")} · ${questionsLabel(selectedQuestionCount)}",
-        "Selected: $selectedCount ${if (selectedCount == 1) "topic" else "topics"} · ${questionsLabel(selectedQuestionCount)}",
-    )
+    val selectedSummary = "Выбрано: $selectedCount " +
+        pluralRu(selectedCount, "тема", "темы", "тем") + " · " + questionsLabel(selectedQuestionCount)
     val typesSummary = if (!allTypesSelected) {
-        val labels = typeOptions
-            .filter { (type, _) -> type in selectedTypes }
-            .map { it.second }
-        if (labels.isEmpty()) {
-            tr("Тип заданий не выбран", "No exercise type selected")
-        } else {
-            tr("Типы: ${labels.joinToString(", ")}", "Types: ${labels.joinToString(", ")}")
-        }
+        val labels = typeOptions.filter { (type, _) -> type in selectedTypes }.map { it.second }
+        if (labels.isEmpty()) "Тип заданий не выбран" else "Типы: ${labels.joinToString(", ")}"
     } else {
         null
     }
-    val sessionLine = tr(
-        "В одной тренировке: ${questionsLabel(sessionSize)}",
-        "Session size: ${questionsLabel(sessionSize)}",
-    )
     val canStart = selectedCount > 0 && selectedTypes.isNotEmpty()
 
     ModalBottomSheet(
         onDismissRequest = onDismiss,
         sheetState = sheetState,
+        containerColor = MaterialTheme.colorScheme.surface,
     ) {
         Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(start = 20.dp, end = 20.dp, bottom = 24.dp),
+                .padding(start = 16.dp, end = 16.dp, bottom = 24.dp),
         ) {
             Text(
-                text = tr("Темы для тренировки", "Topics for practice"),
+                text = "Тренировка",
                 style = MaterialTheme.typography.titleLarge,
-            )
-            Spacer(Modifier.height(4.dp))
-            Text(
-                text = tr(
-                    "Выберите одну или несколько тем — можно собрать микс",
-                    "Pick one or more topics — mix them freely",
-                ),
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
             Spacer(Modifier.height(10.dp))
             Text(
-                text = tr("Тип заданий", "Exercise types"),
+                text = "Тип заданий",
                 style = MaterialTheme.typography.labelLarge,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -436,28 +387,24 @@ private fun QuickPracticePickerSheet(
                 horizontalArrangement = Arrangement.spacedBy(8.dp),
             ) {
                 typeOptions.forEach { (type, label) ->
-                    FilterChip(
-                        selected = type in selectedTypes,
-                        onClick = { onToggleType(type) },
-                        label = { Text(label) },
-                    )
+                    TypeChip(label = label, selected = type in selectedTypes) {
+                        onToggleType(type)
+                    }
                 }
             }
-            Spacer(Modifier.height(6.dp))
             Row(verticalAlignment = Alignment.CenterVertically) {
                 TextButton(onClick = onSelectAll) {
-                    Text(tr("Выбрать все", "Select all"))
+                    Text("Выбрать все")
                 }
                 TextButton(onClick = onClearAll) {
-                    Text(tr("Снять все", "Clear"))
+                    Text("Снять все")
                 }
             }
-            HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.6f))
+            HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
             LazyColumn(
                 modifier = Modifier
                     .fillMaxWidth()
                     .weight(1f, fill = false),
-                verticalArrangement = Arrangement.spacedBy(2.dp),
             ) {
                 sections.forEach { section ->
                     val sectionRules = rules.filter { it.sectionId == section.id }
@@ -478,18 +425,15 @@ private fun QuickPracticePickerSheet(
                                             expandedSectionIds + section.id
                                         }
                                     }
-                                    .padding(top = 8.dp, bottom = 2.dp),
+                                    .padding(vertical = 4.dp),
                             ) {
                                 Checkbox(
                                     checked = allSelected,
                                     onCheckedChange = { onToggleSection(section.id) },
                                 )
-                                Text(section.emoji, fontSize = 18.sp)
-                                Spacer(Modifier.width(8.dp))
                                 Text(
                                     text = section.title.localized(),
                                     style = MaterialTheme.typography.labelLarge,
-                                    color = MaterialTheme.colorScheme.onSurfaceVariant,
                                     maxLines = 1,
                                     overflow = TextOverflow.Ellipsis,
                                     modifier = Modifier.weight(1f),
@@ -504,7 +448,7 @@ private fun QuickPracticePickerSheet(
                                 }
                                 Text(
                                     text = if (expanded) "▾" else "▸",
-                                    fontSize = 18.sp,
+                                    style = MaterialTheme.typography.labelLarge,
                                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                                 )
                             }
@@ -521,36 +465,29 @@ private fun QuickPracticePickerSheet(
                     }
                 }
             }
-            HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.6f))
+            HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
             Spacer(Modifier.height(10.dp))
             Text(
                 text = selectedSummary,
                 style = MaterialTheme.typography.titleMedium,
             )
             if (typesSummary != null) {
-                Spacer(Modifier.height(2.dp))
                 Text(
                     text = typesSummary,
-                    style = MaterialTheme.typography.labelSmall,
+                    style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }
-            Spacer(Modifier.height(2.dp))
-            Text(
-                text = sessionLine,
-                style = MaterialTheme.typography.labelSmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
             Spacer(Modifier.height(10.dp))
             Button(
                 onClick = onStart,
                 enabled = canStart,
-                shape = RoundedCornerShape(18.dp),
+                shape = RoundedCornerShape(10.dp),
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(52.dp),
+                    .height(46.dp),
             ) {
-                Text(tr("Начать тренировку", "Start practice"))
+                Text("Начать тренировку")
             }
         }
     }
@@ -565,7 +502,8 @@ private fun RuleCheckRow(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .clickable(onClick = onToggle),
+            .clickable(onClick = onToggle)
+            .padding(start = 30.dp, top = 2.dp, bottom = 2.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Checkbox(
@@ -583,122 +521,27 @@ private fun RuleCheckRow(
 }
 
 @Composable
-private fun MistakeReviewCard(mistakeCount: Int, onClick: () -> Unit) {
-    val enabled = mistakeCount > 0
-    val caption = if (enabled) {
-        tr(
-            "$mistakeCount ${pluralRu(mistakeCount, "ошибка", "ошибки", "ошибок")} в работе",
-            "$mistakeCount ${if (mistakeCount == 1) "mistake" else "mistakes"} to review",
-        )
-    } else {
-        tr("Пока нет ошибок", "No open mistakes")
-    }
-    AppCard(
-        modifier = Modifier
-            .fillMaxWidth()
-            .alpha(if (enabled) 1f else 0.55f),
-        onClick = if (enabled) onClick else null,
+private fun TypeChip(label: String, selected: Boolean, onClick: () -> Unit) {
+    Surface(
+        onClick = onClick,
+        shape = RoundedCornerShape(8.dp),
+        color = if (selected) {
+            MaterialTheme.colorScheme.primaryContainer
+        } else {
+            MaterialTheme.colorScheme.surfaceVariant
+        },
+        contentColor = if (selected) {
+            MaterialTheme.colorScheme.primary
+        } else {
+            MaterialTheme.colorScheme.onSurfaceVariant
+        },
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Text("🎯", fontSize = 26.sp)
-            Spacer(Modifier.width(12.dp))
-            Column(modifier = Modifier.weight(1f)) {
-                Text(
-                    text = tr("Работа над ошибками", "Mistake review"),
-                    style = MaterialTheme.typography.titleMedium,
-                    maxLines = 1,
-                    overflow = TextOverflow.Ellipsis,
-                )
-                Spacer(Modifier.height(2.dp))
-                Text(
-                    text = caption,
-                    style = MaterialTheme.typography.labelSmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
-            }
-            if (enabled) {
-                Text(
-                    text = "›",
-                    fontSize = 26.sp,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
-            }
-        }
+        Text(
+            text = label,
+            style = MaterialTheme.typography.labelLarge,
+            modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
+        )
     }
-}
-
-@Composable
-private fun SectionCard(
-    section: Section,
-    sectionRules: List<Rule>,
-    questionsByRule: Map<String, Int>,
-    questions: List<Question>,
-    progress: ProgressState,
-    onClick: () -> Unit,
-) {
-    val sectionProgress = StatsCalculator.sectionProgress(progress, sectionRules, questions)
-    val questionCount = sectionRules.sumOf { rule -> questionsByRule[rule.id] ?: 0 }
-    val countsText = sectionCountsLabel(topicCount = sectionRules.size, questionCount = questionCount)
-
-    AppCard(onClick = onClick) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Text(section.emoji, fontSize = 28.sp)
-            Spacer(Modifier.width(12.dp))
-            Column(modifier = Modifier.weight(1f)) {
-                Text(
-                    text = section.title.localized(),
-                    style = MaterialTheme.typography.titleMedium,
-                    maxLines = 1,
-                    overflow = TextOverflow.Ellipsis,
-                )
-                Text(
-                    text = section.short.localized(),
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    maxLines = 1,
-                    overflow = TextOverflow.Ellipsis,
-                )
-            }
-            Spacer(Modifier.width(8.dp))
-            Text(
-                text = "›",
-                fontSize = 26.sp,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-        }
-        Spacer(Modifier.height(12.dp))
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            AccuracyBar(
-                accuracy = sectionProgress / 100f,
-                modifier = Modifier
-                    .weight(1f)
-                    .height(6.dp),
-                color = MaterialTheme.colorScheme.primary,
-            )
-            Spacer(Modifier.width(10.dp))
-            Text(
-                text = formatPercent(sectionProgress),
-                style = MaterialTheme.typography.labelSmall,
-                fontWeight = FontWeight.Bold,
-                color = MaterialTheme.colorScheme.primary,
-            )
-            Spacer(Modifier.width(12.dp))
-            Text(
-                text = countsText,
-                style = MaterialTheme.typography.labelSmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-        }
-    }
-}
-
-@Composable
-private fun sectionCountsLabel(topicCount: Int, questionCount: Int): String {
-    val questionsText = questionsLabel(questionCount)
-    return tr(
-        "$topicCount ${pluralRu(topicCount, "тема", "темы", "тем")} · $questionsText",
-        "$topicCount ${if (topicCount == 1) "topic" else "topics"} · $questionsText",
-    )
 }
 
 @Composable
@@ -706,15 +549,13 @@ private fun ContentWarningCard(message: String) {
     Surface(
         color = MaterialTheme.colorScheme.errorContainer,
         contentColor = MaterialTheme.colorScheme.onErrorContainer,
-        shape = RoundedCornerShape(16.dp),
-        modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(12.dp),
     ) {
         Column(Modifier.padding(12.dp)) {
             Text(
-                text = tr("Часть контента не загрузилась", "Some content failed to load"),
+                text = "Контент загрузился не полностью",
                 style = MaterialTheme.typography.labelLarge,
             )
-            Spacer(Modifier.height(2.dp))
             Text(
                 text = message,
                 style = MaterialTheme.typography.bodySmall,

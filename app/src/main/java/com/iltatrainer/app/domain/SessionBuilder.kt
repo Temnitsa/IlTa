@@ -106,15 +106,26 @@ object SessionBuilder {
             val original = byId[questionId] ?: return@forEach
             pickedIds += original.id
             val originalTags = original.tags.toSet()
-            val similar = questions
-                .filter { it.id != questionId && it.id !in pickedIds && it.id !in state.mistakes }
-                .filter { candidate ->
-                    originalTags.isNotEmpty() && candidate.tags.any { it in originalTags } ||
-                        candidate.ruleId == original.ruleId
-                }
+            // Same-rule pool is small (~90) and is where near-duplicates live. Restrict the
+            // expensive lexical comparison to it; only fall back to cross-rule questions if needed.
+            val sameRule = questions
+                .filter { it.id != questionId && it.id !in pickedIds && it.id !in state.mistakes && it.ruleId == original.ruleId }
                 .shuffled(random)
                 .sortedByDescending { candidate -> similarityScore(original, candidate) }
                 .take(3)
+            val similar = if (sameRule.size >= 3) {
+                sameRule
+            } else {
+                (sameRule + questions
+                    .filter {
+                        it.id != questionId && it.id !in pickedIds && it.id !in state.mistakes &&
+                            it.ruleId != original.ruleId &&
+                            it.tags.any { tag -> tag in originalTags }
+                    }
+                    .shuffled(random)
+                    .sortedByDescending { candidate -> similarityScore(original, candidate) }
+                    .take(3 - sameRule.size))
+            }
             similar.forEach { pickedIds += it.id }
         }
         return pickedIds.mapNotNull { byId[it] }.shuffled(random)
@@ -164,7 +175,7 @@ object SessionBuilder {
     private fun explanationTokens(question: Question): Set<String> = tokens(question.explanation.en)
 
     private fun tokens(text: String): Set<String> =
-        Regex("[\\p{L}']+").findAll(text.lowercase())
+        TOKEN_REGEX.findAll(text.lowercase())
             .map { it.value.replace("'", "") }
             .filter { it.length > 2 && it !in STOP_WORDS }
             .toSet()
@@ -230,6 +241,8 @@ object SessionBuilder {
         }
         return picked.shuffled(random)
     }
+
+    private val TOKEN_REGEX = Regex("[\\p{L}']+")
 
     private val STOP_WORDS = setOf(
         "the", "and", "for", "you", "your", "with", "that", "this", "these", "those",

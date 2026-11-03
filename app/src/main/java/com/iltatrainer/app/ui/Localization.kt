@@ -7,29 +7,25 @@ import com.iltatrainer.app.data.Bilingual
 import kotlin.math.abs
 import kotlin.math.roundToInt
 
-/** Current UI language, provided once at the top of the composition. */
+/**
+ * IlTa 3.0 is Russian-only: the UI language is pinned to RU.
+ * The composition local is kept so existing call sites (`tr`, `localized`) keep working.
+ */
 val LocalLanguage = staticCompositionLocalOf<AppLanguage> { AppLanguage.RU }
 
+/** The app is Russian-only; the English variant is kept only for old call sites. */
 @Composable
-fun tr(ru: String, en: String): String =
-    if (LocalLanguage.current == AppLanguage.RU) ru else en
+fun tr(ru: String, @Suppress("UNUSED_PARAMETER") en: String): String = ru
 
 @Composable
-fun Bilingual.localized(): String = text(LocalLanguage.current)
+fun Bilingual.localized(): String = text(AppLanguage.RU)
 
 fun Bilingual.localized(language: AppLanguage): String = text(language)
 
-/**
- * The em dash option means "no article" in the Articles section and "no preposition"
- * in the Prepositions section, so the label depends on the section.
- */
+/** The em dash option means "no article" / "no preposition" depending on the section. */
 @Composable
 fun zeroItemLabel(sectionId: String): String =
-    if (sectionId == "articles") {
-        tr("\u2014 (без артикля)", "\u2014 (no article)")
-    } else {
-        tr("\u2014 (без предлога)", "\u2014 (no preposition)")
-    }
+    if (sectionId == "articles") "\u2014 (без артикля)" else "\u2014 (без предлога)"
 
 @Composable
 fun itemLabel(value: String, sectionId: String): String =
@@ -47,16 +43,10 @@ fun itemLabel(value: String, sectionId: String, language: AppLanguage): String =
     }
 
 @Composable
-fun questionsLabel(count: Int): String = when (LocalLanguage.current) {
-    AppLanguage.RU -> "$count ${pluralRu(count, "вопрос", "вопроса", "вопросов")}"
-    AppLanguage.EN -> if (count == 1) "1 question" else "$count questions"
-}
+fun questionsLabel(count: Int): String = "$count ${pluralRu(count, "вопрос", "вопроса", "вопросов")}"
 
 @Composable
-fun answersLabel(count: Int): String = when (LocalLanguage.current) {
-    AppLanguage.RU -> "$count ${pluralRu(count, "ответ", "ответа", "ответов")}"
-    AppLanguage.EN -> if (count == 1) "1 answer" else "$count answers"
-}
+fun answersLabel(count: Int): String = "$count ${pluralRu(count, "ответ", "ответа", "ответов")}"
 
 fun pluralRu(count: Int, one: String, few: String, many: String): String {
     val n = abs(count)

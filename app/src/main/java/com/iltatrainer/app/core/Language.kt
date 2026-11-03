@@ -1,6 +1,9 @@
 package com.iltatrainer.app.core
 
-/** UI / explanation language of the app. Content itself is bilingual (ru + en). */
+/**
+ * Content packages stay bilingual (Russian + English fields), but the IlTa 3.0 UI is
+ * Russian-only. [AppLanguage.EN] is kept so old exported configs still load.
+ */
 enum class AppLanguage(val code: String) {
     RU("ru"),
     EN("en");

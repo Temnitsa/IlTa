@@ -18,8 +18,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.Favorite
-import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -48,40 +46,15 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.iltatrainer.app.ui.tr
 
-fun levelColor(level: String): Color = when (level.uppercase()) {
-    "A1" -> Color(0xFF059669)
-    "A2" -> Color(0xFF0D9488)
-    "B1" -> Color(0xFFD97706)
-    "B2" -> Color(0xFFDC2626)
-    else -> Color(0xFF64748B)
-}
-
-@Composable
-fun LevelChip(level: String, modifier: Modifier = Modifier) {
-    val color = levelColor(level)
-    Surface(
-        modifier = modifier,
-        color = color.copy(alpha = 0.14f),
-        contentColor = color,
-        shape = RoundedCornerShape(50),
-    ) {
-        Text(
-            text = level.uppercase(),
-            style = MaterialTheme.typography.labelSmall,
-            fontWeight = FontWeight.Bold,
-            modifier = Modifier.padding(horizontal = 8.dp, vertical = 3.dp),
-        )
-    }
-}
-
+/** Flat card: white surface, 1dp subtle border, 14dp radius, no shadow. */
 @Composable
 fun AppCard(
     modifier: Modifier = Modifier,
     onClick: (() -> Unit)? = null,
     content: @Composable ColumnScope.() -> Unit,
 ) {
-    val shape = RoundedCornerShape(20.dp)
-    val border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.7f))
+    val shape = RoundedCornerShape(14.dp)
+    val border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant)
     if (onClick != null) {
         Surface(
             onClick = onClick,
@@ -90,7 +63,7 @@ fun AppCard(
             color = MaterialTheme.colorScheme.surface,
             border = border,
         ) {
-            Column(modifier = Modifier.padding(16.dp), content = content)
+            Column(modifier = Modifier.padding(14.dp), content = content)
         }
     } else {
         Surface(
@@ -99,50 +72,131 @@ fun AppCard(
             color = MaterialTheme.colorScheme.surface,
             border = border,
         ) {
-            Column(modifier = Modifier.padding(16.dp), content = content)
+            Column(modifier = Modifier.padding(14.dp), content = content)
         }
     }
 }
 
+/** Small section label above a group of flat cards/rows. */
 @Composable
 fun SectionHeader(text: String, modifier: Modifier = Modifier) {
     Text(
         text = text,
-        style = MaterialTheme.typography.titleMedium,
+        style = MaterialTheme.typography.labelLarge,
         color = MaterialTheme.colorScheme.onSurfaceVariant,
-        modifier = modifier.padding(top = 8.dp, bottom = 4.dp),
+        modifier = modifier.padding(top = 10.dp, bottom = 2.dp),
     )
 }
 
+/** Compact neutral level chip (A1/A2/B1/B2) — no per-level colours. */
 @Composable
-fun StatTile(label: String, value: String, modifier: Modifier = Modifier) {
+fun LevelChip(level: String, modifier: Modifier = Modifier) {
     Surface(
         modifier = modifier,
-        shape = RoundedCornerShape(16.dp),
-        color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f),
+        color = MaterialTheme.colorScheme.surfaceVariant,
+        contentColor = MaterialTheme.colorScheme.onSurfaceVariant,
+        shape = RoundedCornerShape(6.dp),
     ) {
-        Column(
-            modifier = Modifier.padding(horizontal = 14.dp, vertical = 12.dp),
-            horizontalAlignment = Alignment.CenterHorizontally,
-        ) {
-            Text(value, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+        Text(
+            text = level.uppercase(),
+            style = MaterialTheme.typography.labelSmall,
+            modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp),
+        )
+    }
+}
+
+/** Neutral monogram badge used instead of emoji icons. */
+@Composable
+fun MonogramBadge(
+    text: String,
+    modifier: Modifier = Modifier,
+    size: Dp = 40.dp,
+) {
+    Surface(
+        modifier = modifier.size(size),
+        shape = RoundedCornerShape(10.dp),
+        color = MaterialTheme.colorScheme.surfaceVariant,
+    ) {
+        Box(contentAlignment = Alignment.Center) {
             Text(
-                label,
-                style = MaterialTheme.typography.labelSmall,
+                text = text.trim().take(1).uppercase(),
+                style = MaterialTheme.typography.titleMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
-                textAlign = TextAlign.Center,
             )
         }
     }
 }
 
+/** Compact metric tile; tappable when [onClick] is provided. */
+@Composable
+fun StatTile(
+    label: String,
+    value: String,
+    modifier: Modifier = Modifier,
+    onClick: (() -> Unit)? = null,
+) {
+    val shape = RoundedCornerShape(14.dp)
+    val border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant)
+    if (onClick != null) {
+        Surface(
+            onClick = onClick,
+            modifier = modifier,
+            shape = shape,
+            color = MaterialTheme.colorScheme.surface,
+            border = border,
+        ) {
+            StatTileContent(label = label, value = value, showHint = true)
+        }
+    } else {
+        Surface(
+            modifier = modifier,
+            shape = shape,
+            color = MaterialTheme.colorScheme.surface,
+            border = border,
+        ) {
+            StatTileContent(label = label, value = value)
+        }
+    }
+}
+
+@Composable
+private fun StatTileContent(label: String, value: String, showHint: Boolean = false) {
+    Column(
+        modifier = Modifier.padding(horizontal = 14.dp, vertical = 14.dp),
+        verticalArrangement = Arrangement.spacedBy(2.dp),
+    ) {
+        Row(verticalAlignment = Alignment.Top) {
+            Text(
+                text = value,
+                style = MaterialTheme.typography.titleLarge,
+                fontWeight = FontWeight.SemiBold,
+                modifier = Modifier.weight(1f),
+            )
+            if (showHint) {
+                Text(
+                    text = "?",
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+        }
+        Text(
+            text = label,
+            style = MaterialTheme.typography.labelSmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            textAlign = TextAlign.Start,
+        )
+    }
+}
+
+/** Thin flat progress bar. */
 @Composable
 fun AccuracyBar(accuracy: Float, modifier: Modifier = Modifier, color: Color = MaterialTheme.colorScheme.primary) {
     LinearProgressIndicator(
         progress = { accuracy.coerceIn(0f, 1f) },
         modifier = modifier
             .fillMaxWidth()
-            .height(8.dp),
+            .height(6.dp),
         color = color,
         trackColor = MaterialTheme.colorScheme.surfaceVariant,
         strokeCap = StrokeCap.Round,
@@ -154,8 +208,8 @@ fun AccuracyBar(accuracy: Float, modifier: Modifier = Modifier, color: Color = M
 fun ProgressRing(
     progress: Float,
     modifier: Modifier = Modifier,
-    size: Dp = 92.dp,
-    strokeWidth: Dp = 10.dp,
+    size: Dp = 84.dp,
+    strokeWidth: Dp = 8.dp,
     label: String? = null,
     caption: String? = null,
 ) {
@@ -181,7 +235,7 @@ fun ProgressRing(
         }
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             if (label != null) {
-                Text(label, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+                Text(label, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
             }
             if (caption != null) {
                 Text(
@@ -194,33 +248,22 @@ fun ProgressRing(
     }
 }
 
+/** Empty state without decorative emoji. */
 @Composable
-fun EmptyState(emoji: String, title: String, message: String, modifier: Modifier = Modifier) {
+fun EmptyState(title: String, message: String, modifier: Modifier = Modifier) {
     Column(
         modifier = modifier
             .fillMaxWidth()
-            .padding(vertical = 32.dp),
+            .padding(vertical = 28.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(6.dp),
     ) {
-        Text(emoji, fontSize = 40.sp)
-        Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+        Text(title, style = MaterialTheme.typography.titleMedium)
         Text(
             message,
-            style = MaterialTheme.typography.bodyMedium,
+            style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             textAlign = TextAlign.Center,
-        )
-    }
-}
-
-@Composable
-fun FavoriteButton(isFavorite: Boolean, onToggle: () -> Unit) {
-    IconButton(onClick = onToggle) {
-        Icon(
-            imageVector = if (isFavorite) Icons.Filled.Favorite else Icons.Filled.FavoriteBorder,
-            contentDescription = tr("В избранное", "Favorite"),
-            tint = if (isFavorite) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.onSurfaceVariant,
         )
     }
 }
@@ -257,14 +300,14 @@ fun BackTopBar(
     )
 }
 
-/** Three bars: custom stats icon so the app does not need material-icons-extended. */
+/** Three thin bars: custom stats icon so the app does not need material-icons-extended. */
 @Composable
 fun StatsBarIcon(modifier: Modifier = Modifier) {
     val color = MaterialTheme.colorScheme.onSurfaceVariant
-    Canvas(modifier.size(22.dp)) {
+    Canvas(modifier.size(20.dp)) {
         val barWidth = size.width / 6f
         val gap = barWidth
-        val heights = listOf(0.45f, 0.75f, 1f)
+        val heights = listOf(0.45f, 0.7f, 1f)
         heights.forEachIndexed { index, fraction ->
             val barHeight = size.height * fraction
             drawRoundRect(
@@ -281,8 +324,8 @@ fun StatsBarIcon(modifier: Modifier = Modifier) {
 }
 
 /**
- * English sentence with a highlighted article.
- * [filled] == null → renders the blank as an underline gap; otherwise the article is inserted in primary color.
+ * English sentence with a highlighted answer.
+ * [filled] == null → renders the blank as an underline gap; otherwise the answer is inserted in primary color.
  */
 @Composable
 fun SentenceText(
@@ -312,7 +355,7 @@ fun SentenceText(
                     } else {
                         insertion
                     }
-                    withStyle(SpanStyle(fontWeight = FontWeight.Bold, color = accent)) {
+                    withStyle(SpanStyle(fontWeight = FontWeight.SemiBold, color = accent)) {
                         append(value)
                     }
                 }
@@ -321,7 +364,7 @@ fun SentenceText(
     }
     Text(
         text = annotated,
-        style = MaterialTheme.typography.headlineSmall.copy(fontSize = 22.sp, lineHeight = 32.sp),
+        style = MaterialTheme.typography.titleLarge.copy(lineHeight = 26.sp),
         modifier = modifier,
     )
 }

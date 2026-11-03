@@ -51,21 +51,12 @@ fun ResultScreen(
         modifier = Modifier
             .fillMaxSize()
             .verticalScroll(rememberScrollState())
-            .padding(horizontal = 20.dp),
+            .padding(horizontal = 16.dp),
     ) {
         Spacer(Modifier.height(20.dp))
         Text(
             text = tr("Результат тренировки", "Practice results"),
             style = MaterialTheme.typography.headlineMedium,
-        )
-        Spacer(Modifier.height(4.dp))
-        Text(
-            text = tr(
-                "Каждый ответ уже учтён в вашей статистике.",
-                "Every answer is already added to your stats.",
-            ),
-            style = MaterialTheme.typography.bodyMedium,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
         Spacer(Modifier.height(16.dp))
 
@@ -73,8 +64,8 @@ fun ResultScreen(
             Row(verticalAlignment = Alignment.CenterVertically) {
                 ProgressRing(
                     progress = fraction,
-                    size = 116.dp,
-                    strokeWidth = 12.dp,
+                    size = 96.dp,
+                    strokeWidth = 10.dp,
                     label = "${result.percent}%",
                     caption = tr("верно", "correct"),
                 )
@@ -96,7 +87,7 @@ fun ResultScreen(
                     Spacer(Modifier.height(8.dp))
                     Text(
                         text = if (result.mistakes.isEmpty()) {
-                            tr("Ошибок нет 🎉", "No mistakes 🎉")
+                            tr("Ошибок нет", "No mistakes")
                         } else {
                             tr(
                                 "${result.mistakes.size} ${pluralRu(result.mistakes.size, "ошибка", "ошибки", "ошибок")}",
@@ -143,8 +134,8 @@ fun ResultScreen(
                 onClick = onReviewMistakes,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(54.dp),
-                shape = RoundedCornerShape(16.dp),
+                    .height(48.dp),
+                shape = RoundedCornerShape(12.dp),
             ) {
                 Text(
                     tr(
@@ -159,8 +150,8 @@ fun ResultScreen(
                 onClick = onDone,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(52.dp),
-                shape = RoundedCornerShape(16.dp),
+                    .height(46.dp),
+                shape = RoundedCornerShape(12.dp),
             ) {
                 Text(tr("Готово", "Done"), style = MaterialTheme.typography.titleMedium)
             }
@@ -169,8 +160,8 @@ fun ResultScreen(
                 onClick = onDone,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(54.dp),
-                shape = RoundedCornerShape(16.dp),
+                    .height(48.dp),
+                shape = RoundedCornerShape(12.dp),
             ) {
                 Text(
                     tr("Отлично! Готово", "Great! Done"),
