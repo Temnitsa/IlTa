@@ -6,7 +6,7 @@
 > **GitHub:** [github.com/Temnitsa/IlTa](https://github.com/Temnitsa/IlTa) ·
 > **Готовый APK:** [IlTa 3.1.0](https://github.com/Temnitsa/IlTa/releases/latest) — 7,6 МБ, Android 8.0+,
 > release-подпись, package `com.iltatrainer.app`, versionCode 16.
-> SHA-256: `PLACEHOLDER_310`.
+> SHA-256: `73edd52a6785ab75de47104924ad6281ea5480e4dfc09188274256521ae86d76`.
 > Установка: скачайте APK из Releases или `adb install -r IlTa-v3.1.0-release.apk`.
 
 ## Возможности
