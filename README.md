@@ -4,10 +4,10 @@
 английских **артиклей** и **предлогов**.
 
 > **GitHub:** [github.com/Temnitsa/IlTa](https://github.com/Temnitsa/IlTa) ·
-> **Готовый APK:** [IlTa 3.2.0](https://github.com/Temnitsa/IlTa/releases/latest) — 7,6 МБ, Android 8.0+,
-> release-подпись, package `com.iltatrainer.app`, versionCode 17.
-> SHA-256: `2d5e1c9d30dd0747f3f7330efdd8972008dea1e7377ad9cee2ec6af5e9ed4ed5`.
-> Установка: скачайте APK из Releases или `adb install -r IlTa-v3.2.0-release.apk`.
+> **Готовый APK:** [IlTa 3.3.0](https://github.com/Temnitsa/IlTa/releases/latest) — 7,6 МБ, Android 8.0+,
+> release-подпись, package `com.iltatrainer.app`, versionCode 18.
+> SHA-256: `PLACEHOLDER_330`.
+> Установка: скачайте APK из Releases или `adb install -r IlTa-v3.3.0-release.apk`.
 
 ## Возможности
 
@@ -198,7 +198,7 @@ scripts/gradle.sh :app:testDebugUnitTest
 ## Проверка
 
 - 49 unit-тестов и валидатор контента — зелёные.
-- Визуальный аудит: [design-review-3.2.md](docs/design-review-3.2-recheck.md).
+- Визуальный аудит: [design-review-3.2.md](docs/design-review-3.2-recheck2.md).
 - QA-ревью контента: [статьи v2.2](docs/qa-review-v3-articles.md),
   [предлоги v2.2](docs/qa-review-v3-prepositions.md),
   [новые вопросы статей v2.3](docs/qa-review-v4-articles.md),

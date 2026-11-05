@@ -117,18 +117,6 @@ private fun RuleDetailContent(
             AccuracyBar(accuracy = themeProgress / 100f)
         }
 
-        if (rule.sectionId != "tenses") {
-            val summary = rule.summary.localized()
-            if (summary.isNotBlank()) {
-                Text(
-                    text = summary,
-                    style = MaterialTheme.typography.bodyMedium.copy(lineBreak = LineBreak.Heading),
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.padding(horizontal = 2.dp),
-                )
-            }
-        }
-
         if (rule.sections.isEmpty()) {
             AppCard {
                 Text(
@@ -200,28 +188,28 @@ private fun RuleSectionCard(section: RuleSection) {
                     }
                 }
             } else {
-                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                    body.lines().filter { it.isNotBlank() }.forEach { rawLine ->
-                        val line = rawLine.trim()
-                        if (line.startsWith("•")) {
-                            Row(verticalAlignment = Alignment.Top) {
-                                Text(
-                                    text = "•",
-                                    style = MaterialTheme.typography.bodyLarge,
-                                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                                )
-                                Spacer(Modifier.width(8.dp))
-                                Text(
-                                    text = remember(line) {
-                                        formatRuleText(line.removePrefix("•").trimStart())
-                                    },
-                                    style = MaterialTheme.typography.bodyLarge.copy(
-                                        lineBreak = LineBreak.Heading,
-                                        lineHeight = 22.sp,
-                                    ),
-                                )
+                val bodyLines = remember(body) {
+                    body.lines()
+                        .map { it.trim() }
+                        .filter { it.isNotBlank() }
+                        .flatMap { line ->
+                            val clean = line.removePrefix("•").trimStart()
+                            if (clean.length > 110) {
+                                clean.split(Regex("(?<=[.!?])\\s+")).filter { it.isNotBlank() }
+                            } else {
+                                listOf(clean)
                             }
-                        } else {
+                        }
+                }
+                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    bodyLines.forEach { line ->
+                        Row(verticalAlignment = Alignment.Top) {
+                            Text(
+                                text = "•",
+                                style = MaterialTheme.typography.bodyLarge,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                            Spacer(Modifier.width(8.dp))
                             Text(
                                 text = remember(line) { formatRuleText(line) },
                                 style = MaterialTheme.typography.bodyLarge.copy(
