@@ -6,11 +6,15 @@ import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -36,15 +40,19 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.iltatrainer.app.BuildConfig
+import com.iltatrainer.app.R
 import com.iltatrainer.app.core.ThemeMode
 import com.iltatrainer.app.data.ProgressState
 import com.iltatrainer.app.data.ProgressStore
 import com.iltatrainer.app.data.UpdateState
 import com.iltatrainer.app.ui.components.AppCard
-import com.iltatrainer.app.ui.components.MonogramBadge
 import com.iltatrainer.app.ui.components.SectionHeader
 import com.iltatrainer.app.ui.pluralRu
 import com.iltatrainer.app.ui.questionsLabel
@@ -236,7 +244,21 @@ fun SettingsScreen(
         SectionHeader("О приложении")
         AppCard {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                MonogramBadge(text = "IlTa", size = 36.dp)
+                Box(
+                    modifier = Modifier
+                        .size(36.dp)
+                        .clip(RoundedCornerShape(10.dp))
+                        .background(Color(0xFFFBF8F2)),
+                    contentAlignment = Alignment.Center,
+                ) {
+                    Image(
+                        painter = painterResource(R.mipmap.ic_launcher_foreground),
+                        contentDescription = null,
+                        modifier = Modifier
+                            .size(36.dp)
+                            .graphicsLayer(scaleX = 1.35f, scaleY = 1.35f),
+                    )
+                }
                 Spacer(Modifier.width(10.dp))
                 Column {
                     Text("IlTa", style = MaterialTheme.typography.titleMedium)

@@ -17,8 +17,8 @@
         "en": "The article system: countable, general and specific"
       },
       "summary": {
-        "ru": "Артикль показывает, исчисляем ли предмет и говорим ли мы о целом классе или о конкретном предмете: a/an — один новый предмет, the — известный или единственный, нулевой артикль — общее значение.",
-        "en": "Articles show whether a noun is countable and whether we mean a whole class or a particular thing: a/an for one new thing, the for a known or unique thing, and the zero article for general meaning."
+        "ru": "Как устроена система артиклей: исчисляемые и неисчисляемые существительные, общее и конкретное значение, выбор a/an, the или нулевого артикля.",
+        "en": "How the article system works: countable and uncountable nouns, general and specific meaning, and the choice between a/an, the and the zero article."
       },
       "sections": [
         {
@@ -27,15 +27,22 @@
             "en": "Countable and uncountable nouns"
           },
           "body": {
-            "ru": "У исчисляемого существительного есть форма единственного и множественного числа. Неисчисляемое считают через единицы измерения. Артикль a/an возможен только при исчисляемом существительном в единственном числе: с неисчисляемыми и с множественным числом он не употребляется. Форма a или an зависит от первого звука следующего слова: перед гласным звуком ставим an, перед согласным — a.",
-            "en": "A countable noun has a singular and a plural form. An uncountable noun is counted with units of measurement. The article a/an appears only with a countable noun in the singular: it is never used with uncountable nouns or plurals. The form a or an depends on the first sound of the next word: before a vowel sound use an, before a consonant sound use a."
+            "ru": "Исчисляемое существительное имеет единственное и множественное число; неисчисляемое считают через единицы измерения. Артикль a/an возможен только при исчисляемом в единственном числе. The и нулевой артикль возможны с обоими типами: значение зависит от контекста.",
+            "en": "A countable noun has singular and plural forms; an uncountable noun is counted with units of measurement. The article a/an is possible only with a countable noun in the singular. The and the zero article are both possible with countable and uncountable nouns; the context decides the meaning."
           },
           "examples": [
             "a chair",
             "two chairs",
             "some water",
             "a piece of advice",
-            "an apple"
+            "The water in the glass is cold."
+          ],
+          "exampleTranslations": [
+            "стул",
+            "два стула",
+            "немного воды",
+            "совет",
+            "Вода в стакане холодная."
           ]
         },
         {
@@ -44,30 +51,66 @@
             "en": "General meaning: no article"
           },
           "body": {
-            "ru": "Если предложение говорит о целом классе предметов, о веществе или об абстрактном понятии, артикль не нужен. Такое общее значение возможно у исчисляемых во множественном числе и у неисчисляемых существительных; слушатель понимает, что речь идёт не об одном конкретном предмете.",
-            "en": "When a sentence talks about a whole class of things, a substance or an abstract idea, no article is needed. This general meaning is possible with plural countable nouns and with uncountable nouns; the listener understands that the sentence is not about one particular thing."
+            "ru": "Если речь идёт о целом классе, веществе или абстрактном понятии, артикль не нужен. Так бывает с исчисляемыми во множественном числе и с неисчисляемыми существительными в обобщающих высказываниях.",
+            "en": "When a sentence talks about a whole class of things, a substance or an abstract idea, no article is needed. This happens with plural countable nouns and with uncountable nouns in general statements."
           },
           "examples": [
             "Books are expensive.",
             "Water is essential for life.",
             "Children learn languages quickly.",
             "Patience is important."
+          ],
+          "exampleTranslations": [
+            "Книги дорогие.",
+            "Вода необходима для жизни.",
+            "Дети быстро учат языки.",
+            "Терпение важно."
           ]
         },
         {
           "heading": {
-            "ru": "Конкретное и известное: the",
-            "en": "Specific and known: the"
+            "ru": "Новое единственное число: a/an",
+            "en": "One new thing: a/an"
           },
           "body": {
-            "ru": "Определённый артикль ставим, когда предмет известен и говорящему, и слушающему: он уже упоминался, уточнён фразой после существительного или единственный в данной ситуации. The возможен и с исчисляемыми, и с неисчисляемыми существительными.",
-            "en": "We use the definite article when the thing is known to both the speaker and the listener: it has already been mentioned, is specified by a phrase after it, or is unique in the situation. The works with both countable and uncountable nouns."
+            "ru": "Перед одним новым исчисляемым предметом ставим a/an: слушатель ещё не знает, о каком предмете речь. A/an также может значить «один из многих». Форма a или an зависит от первого звука следующего слова.",
+            "en": "We use a/an before one new countable thing: the listener does not yet know which thing is meant. A/an can also mean 'one of many'. The form a or an depends on the first sound of the next word."
           },
           "examples": [
-            "the door",
-            "the water in the kettle",
-            "the capital of France",
-            "the sun"
+            "I saw a dog.",
+            "There is a message for you.",
+            "She is a doctor.",
+            "It is an old house."
+          ],
+          "exampleTranslations": [
+            "Я увидел собаку.",
+            "Для тебя есть сообщение.",
+            "Она врач.",
+            "Это старый дом."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Известное и конкретное: the",
+            "en": "Known and specific: the"
+          },
+          "body": {
+            "ru": "Если предмет уже назван, понятен из ситуации или уточнён фразой после существительного, ставим the. The указывает на тот самый предмет, известный говорящему и слушающему.",
+            "en": "We use the when the thing has already been mentioned, is clear from the situation, or is specified by a phrase after the noun. The points to that very thing, known to both speaker and listener."
+          },
+          "examples": [
+            "The door is open.",
+            "The water in the kettle is hot.",
+            "The sun is bright today.",
+            "The capital of France is Paris.",
+            "I read a book. The book was interesting."
+          ],
+          "exampleTranslations": [
+            "Дверь открыта.",
+            "Вода в чайнике горячая.",
+            "Сегодня солнце яркое.",
+            "Столица Франции — Париж.",
+            "Я прочитал книгу. Книга была интересной."
           ]
         },
         {
@@ -76,14 +119,20 @@
             "en": "How to choose the article"
           },
           "body": {
-            "ru": "Сначала решите, исчисляемое ли существительное и говорите ли вы об одном предмете. Для одного нового исчисляемого предмета нужен a/an. Если предмет известен или единственный, ставьте the. Для общего значения — множественного числа или неисчисляемого — артикль не нужен.",
-            "en": "First decide whether the noun is countable and whether you mean one thing. For one new countable thing use a/an. If the thing is known or unique, use the. For general meaning — a plural or an uncountable noun — no article is needed."
+            "ru": "Сначала решите, исчисляемое ли существительное и идёт ли речь об одном предмете. Для одного нового исчисляемого нужен a/an. Если предмет известен или единственный — the. Для общего значения — множественного числа или неисчисляемого — артикль не нужен.",
+            "en": "First decide whether the noun is countable and whether we mean one thing. One new countable thing takes a/an. If the thing is known or unique, use the. For general meaning — a plural or an uncountable noun — no article is needed."
           },
           "examples": [
             "a new student",
             "the new student in our class",
             "Students study hard.",
             "Information is useful."
+          ],
+          "exampleTranslations": [
+            "новый студент",
+            "новый студент в нашем классе",
+            "Студенты много учатся.",
+            "Информация полезна."
           ]
         }
       ]
@@ -721,35 +770,35 @@
       "ruleId": "art-system",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Перед гласным звуком",
-            "en": "Before a vowel sound"
+            "ru": "единственное число, первый звук гласный",
+            "en": "singular noun, vowel sound first"
           },
           "right": "We need an extra chair."
         },
         {
           "left": {
-            "ru": "Перед согласным звуком",
-            "en": "Before a consonant sound"
+            "ru": "единственное число, первый звук согласный",
+            "en": "singular noun, consonant sound first"
           },
           "right": "She is reading a magazine."
         },
         {
           "left": {
-            "ru": "Неисчисляемое — без a/an",
-            "en": "Uncountable — no a/an"
+            "ru": "неисчисляемое, неопределённое количество",
+            "en": "uncountable, indefinite quantity"
           },
           "right": "We need some water."
         },
         {
           "left": {
-            "ru": "Множественное число — без a/an",
-            "en": "Plural — no a/an"
+            "ru": "множественное число с числительным",
+            "en": "plural noun with number"
           },
           "right": "There are two apples on the table."
         }
@@ -769,35 +818,35 @@
       "ruleId": "art-system",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте тип слова и пример с нужным артиклем.",
-        "en": "Match each word type with the example that needs that article."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "a + существительное на согласный звук (без прилагательного)",
-            "en": "a + consonant noun (no adjective)"
+            "ru": "новое исчисляемое существительное на согласный звук",
+            "en": "new countable noun, consonant sound first"
           },
           "right": "He bought a ticket for the evening train."
         },
         {
           "left": {
-            "ru": "an + существительное на гласный звук (без прилагательного)",
-            "en": "an + vowel noun (no adjective)"
+            "ru": "новое исчисляемое существительное на гласный звук",
+            "en": "new countable noun, vowel sound first"
           },
           "right": "She ordered an omelette for breakfast."
         },
         {
           "left": {
-            "ru": "a + прилагательное на согласный звук + существительное",
-            "en": "a + consonant adjective + noun"
+            "ru": "новое существительное с прилагательным на согласный звук",
+            "en": "new noun with consonant-sound adjective"
           },
           "right": "We stayed in a quiet hotel near the beach."
         },
         {
           "left": {
-            "ru": "an + прилагательное на гласный звук + существительное",
-            "en": "an + vowel adjective + noun"
+            "ru": "новое существительное с прилагательным на гласный звук",
+            "en": "new noun with vowel-sound adjective"
           },
           "right": "It was an unforgettable trip to the mountains."
         }
@@ -817,35 +866,35 @@
       "ruleId": "art-system",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте тип существительного и пример.",
-        "en": "Match each noun type with the example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "исчисляемое единственное, артикль сразу перед существительным",
-            "en": "singular countable, article directly before the noun"
+            "ru": "один исчисляемый предмет, артикль прямо перед существительным",
+            "en": "one countable thing, article right before noun"
           },
           "right": "I saw a fox near the river."
         },
         {
           "left": {
-            "ru": "исчисляемое во множественном числе — без артикля",
-            "en": "plural countable — no article"
+            "ru": "множественное число в общем утверждении",
+            "en": "plural noun in general statement"
           },
           "right": "Fresh vegetables are good for health."
         },
         {
           "left": {
-            "ru": "неисчисляемое — без артикля",
-            "en": "uncountable — no article"
+            "ru": "неисчисляемое в общем утверждении",
+            "en": "uncountable noun in general statement"
           },
           "right": "Butter melts quickly in a hot pan."
         },
         {
           "left": {
-            "ru": "исчисляемое единственное, между артиклем и существительным прилагательное",
-            "en": "singular countable with an adjective before the noun"
+            "ru": "новое исчисляемое существительное с прилагательным",
+            "en": "new countable noun with adjective"
           },
           "right": "We met a friendly guide at the museum."
         }
@@ -865,35 +914,35 @@
       "ruleId": "art-system",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте первый звук слова и пример с артиклем.",
-        "en": "Match each first sound with the example that needs that article."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "гласный звук [i:]",
-            "en": "vowel sound [i:]"
+            "ru": "первый звук гласный [i:]",
+            "en": "first sound [i:], vowel"
           },
           "right": "They saw an eagle above the lake."
         },
         {
           "left": {
-            "ru": "согласный звук [b]",
-            "en": "consonant sound [b]"
+            "ru": "первый звук согласный [b]",
+            "en": "first sound [b], consonant"
           },
           "right": "The child hugged a balloon tightly."
         },
         {
           "left": {
-            "ru": "гласный звук [ɪ]",
-            "en": "vowel sound [ɪ]"
+            "ru": "первый звук гласный [ɪ]",
+            "en": "first sound [ɪ], vowel"
           },
           "right": "It was an interesting idea."
         },
         {
           "left": {
-            "ru": "согласный звук [d]",
-            "en": "consonant sound [d]"
+            "ru": "первый звук согласный [d]",
+            "en": "first sound [d], consonant"
           },
           "right": "She drew a dragon on the board."
         }
@@ -913,35 +962,35 @@
       "ruleId": "art-system",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте артикль и пример.",
-        "en": "Match each article with the example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "a перед словом на согласный звук",
-            "en": "a before a word with a consonant sound"
+            "ru": "исчисляемое единственное, первый звук согласный",
+            "en": "singular countable, consonant sound first"
           },
           "right": "My uncle drives a taxi in the city."
         },
         {
           "left": {
-            "ru": "an перед словом на гласный звук",
-            "en": "an before a word with a vowel sound"
+            "ru": "исчисляемое единственное, первый звук гласный",
+            "en": "singular countable, vowel sound first"
           },
           "right": "She put an onion in the soup."
         },
         {
           "left": {
-            "ru": "множественное число — без артикля",
-            "en": "plural noun — no article"
+            "ru": "множественное число, общее значение",
+            "en": "plural noun, general meaning"
           },
           "right": "Dogs need regular exercise every day."
         },
         {
           "left": {
-            "ru": "неисчисляемое — без артикля",
-            "en": "uncountable noun — no article"
+            "ru": "неисчисляемое, общее значение",
+            "en": "uncountable noun, general meaning"
           },
           "right": "Paper is made from wood."
         }
@@ -1336,35 +1385,35 @@
       "ruleId": "art-system",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте правило и пример с нулевым артиклем.",
-        "en": "Match each rule with its zero-article example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Множественное число в общем смысле",
-            "en": "Plural nouns in a general sense"
+            "ru": "множественное число, целый класс",
+            "en": "plural noun, whole class"
           },
           "right": "Cats sleep for many hours."
         },
         {
           "left": {
-            "ru": "Неисчисляемое в общем смысле",
-            "en": "Uncountable nouns in a general sense"
+            "ru": "неисчисляемое вещество, целый класс",
+            "en": "uncountable substance, whole class"
           },
           "right": "Milk is good for children."
         },
         {
           "left": {
-            "ru": "Абстрактное понятие",
-            "en": "An abstract idea"
+            "ru": "абстрактное понятие, целый класс",
+            "en": "abstract idea, whole class"
           },
           "right": "Honesty helps us build trust."
         },
         {
           "left": {
-            "ru": "Обобщение со словом most",
-            "en": "Generalization with most"
+            "ru": "обобщение о большинстве",
+            "en": "generalisation about majority"
           },
           "right": "Most birds can fly."
         }
@@ -1384,35 +1433,35 @@
       "ruleId": "art-system",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте тип обобщения и пример.",
-        "en": "Match each type of generalization with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Группа людей в общем смысле",
-            "en": "A group of people in general"
+            "ru": "группа людей в общем смысле",
+            "en": "group of people in general"
           },
           "right": "Young people often learn new skills quickly."
         },
         {
           "left": {
-            "ru": "Неисчисляемое вещество",
-            "en": "An uncountable substance"
+            "ru": "неисчисляемое вещество в общем смысле",
+            "en": "uncountable substance in general"
           },
           "right": "Gold is a very expensive metal."
         },
         {
           "left": {
-            "ru": "Абстрактное качество",
-            "en": "An abstract quality"
+            "ru": "абстрактное качество в общем смысле",
+            "en": "abstract quality in general"
           },
           "right": "Courage is important in difficult times."
         },
         {
           "left": {
-            "ru": "Предметы как категория",
-            "en": "Objects as a category"
+            "ru": "предметы как категория",
+            "en": "objects as category"
           },
           "right": "Old houses often need a lot of repairs."
         }
@@ -1432,35 +1481,35 @@
       "ruleId": "art-system",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте тип существительного и пример.",
-        "en": "Match each noun type with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Множественное число в общем смысле",
-            "en": "Plural countable noun in a general sense"
+            "ru": "множественное число, целая категория",
+            "en": "plural noun, whole category"
           },
           "right": "Elephants are the largest land animals."
         },
         {
           "left": {
-            "ru": "Неисчисляемое вещество",
-            "en": "Uncountable substance"
+            "ru": "неисчисляемое вещество, общее значение",
+            "en": "uncountable substance, general meaning"
           },
           "right": "Bread is sold in this shop."
         },
         {
           "left": {
-            "ru": "Абстрактное понятие",
-            "en": "Abstract idea"
+            "ru": "абстрактное понятие, общее значение",
+            "en": "abstract idea, general meaning"
           },
           "right": "Education changes people's lives."
         },
         {
           "left": {
-            "ru": "Обобщение со словом most",
-            "en": "Generalisation with most"
+            "ru": "обобщение о большинстве",
+            "en": "generalisation about majority"
           },
           "right": "Most students need more sleep."
         }
@@ -1480,35 +1529,35 @@
       "ruleId": "art-system",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте пример и тип обобщения.",
-        "en": "Match each example with its type of generalisation."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Множественное число: предметы вообще",
-            "en": "Plural: things in general"
+            "ru": "множественное число: предметы вообще",
+            "en": "plural: things in general"
           },
           "right": "Shoes are getting more expensive."
         },
         {
           "left": {
-            "ru": "Неисчисляемое: вещество вообще",
-            "en": "Uncountable: a substance in general"
+            "ru": "неисчисляемое: вещество вообще",
+            "en": "uncountable: substance in general"
           },
           "right": "Electricity powers our homes."
         },
         {
           "left": {
-            "ru": "Абстрактное: качество вообще",
-            "en": "Abstract: a quality in general"
+            "ru": "абстрактное: качество вообще",
+            "en": "abstract: quality in general"
           },
           "right": "Friendship takes time to build."
         },
         {
           "left": {
-            "ru": "Обобщение: большинство",
-            "en": "Generalisation: most people"
+            "ru": "обобщение о большинстве людей",
+            "en": "generalisation about majority of people"
           },
           "right": "Most children like cartoons."
         }
@@ -1528,35 +1577,35 @@
       "ruleId": "art-system",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте пример и объяснение.",
-        "en": "Match each example with its explanation."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Говорим о предметах вообще",
-            "en": "Things in general"
+            "ru": "предметы вообще",
+            "en": "things in general"
           },
           "right": "In my opinion, books are the best presents for children."
         },
         {
           "left": {
-            "ru": "Говорим о веществе вообще",
-            "en": "A substance in general"
+            "ru": "вещество вообще",
+            "en": "substance in general"
           },
           "right": "Coffee is very popular in Italy."
         },
         {
           "left": {
-            "ru": "Говорим об абстрактном качестве",
-            "en": "An abstract quality"
+            "ru": "абстрактное качество",
+            "en": "abstract quality"
           },
           "right": "Everyone knows that patience is a virtue."
         },
         {
           "left": {
-            "ru": "Говорим о регулярном занятии вообще",
-            "en": "A regular activity in general"
+            "ru": "повторяющееся занятие вообще",
+            "en": "repeated activity in general"
           },
           "right": "Regular exercise is the best way to stay healthy."
         }

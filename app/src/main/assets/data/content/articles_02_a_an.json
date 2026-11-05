@@ -17,56 +17,98 @@
         "en": "a/an: first mention, professions and a unique role"
       },
       "summary": {
-        "ru": "Неопределённый артикль вводит новый предмет и называет один из многих; он нужен перед названиями профессий и национальностей-существительных (a doctor, a Canadian), а если национальность или религия — прилагательное, артикль не нужен (He is Canadian).",
-        "en": "The indefinite article introduces a new thing and names one of many; it is used with profession and nationality nouns (a doctor, a Canadian), while nationality and religion adjectives take no article (He is Canadian)."
+        "ru": "Неопределённый артикль вводит новый предмет и называет один из многих; он нужен перед названиями профессий, национальностей-существительных и религий, а единственная роль в ситуации противопоставлена артиклю the.",
+        "en": "The indefinite article introduces a new thing and names one of many; it is used with professions, nationality nouns and religions, and a role unique in the situation contrasts with the."
       },
       "sections": [
         {
           "heading": {
-            "ru": "Новая информация",
-            "en": "New information"
+            "ru": "Новое и один из многих",
+            "en": "New information and one of many"
           },
           "body": {
-            "ru": "Когда предмет только появляется в разговоре, слушатель ещё не знает, какой именно предмет имеется в виду. Перед исчисляемым существительным в единственном числе ставим a/an, а при следующем упоминании того же предмета — the.",
-            "en": "When a thing first appears in the conversation, the listener does not yet know which particular thing is meant. A countable noun in the singular takes a/an on first mention, and the is used when the same thing is mentioned again."
+            "ru": "Когда предмет вводится в разговор впервые, слушатель не знает, какой именно предмет имеется в виду, поэтому ставим a/an. A/an также называет один любой предмет из многих. При следующем упоминании того же предмета уже используется the.",
+            "en": "When a thing is introduced into the conversation for the first time, the listener does not know which particular thing is meant, so we use a/an. A/an also names any one thing out of many. When the same thing is mentioned again, the is used."
           },
           "examples": [
             "I saw a dog.",
             "There is a message for you.",
             "A woman called you.",
-            "I bought a book."
+            "He is looking for a flat.",
+            "I met a woman. The woman was wearing blue."
+          ],
+          "exampleTranslations": [
+            "Я увидел собаку.",
+            "Для тебя есть сообщение.",
+            "Тебе звонила женщина.",
+            "Он ищет квартиру.",
+            "Я встретил женщину. Женщина была в синем."
           ]
         },
         {
           "heading": {
-            "ru": "Профессии, национальности, религии",
-            "en": "Professions, nationalities, religions"
+            "ru": "Профессии и роли",
+            "en": "Professions and roles"
           },
           "body": {
-            "ru": "Название профессии или роли в единственном числе — исчисляемое существительное, поэтому перед ним ставим a/an, в том числе когда перед существительным есть прилагательное. Национальности и религии могут быть прилагательными — тогда артикль не нужен.",
-            "en": "A profession or role in the singular is a countable noun and takes a/an, including when an adjective comes before it. Nationalities and religions can be adjectives, and then no article is used."
+            "ru": "Название профессии или роли в единственном числе — исчисляемое существительное, поэтому перед ним нужен a/an. Артикль сохраняется и перед прилагательным, а также после be, become и work as.",
+            "en": "A profession or role in the singular is a countable noun, so it takes a/an. The article stays before an adjective and after be, become and work as."
           },
           "examples": [
             "She is a doctor.",
             "He works as an engineer.",
-            "She is a Canadian.",
-            "He is Canadian."
+            "My brother became a pilot.",
+            "She is a talented musician."
+          ],
+          "exampleTranslations": [
+            "Она врач.",
+            "Он работает инженером.",
+            "Мой брат стал пилотом.",
+            "Она талантливый музыкант."
           ]
         },
         {
           "heading": {
-            "ru": "Единственная роль: the или a/an",
-            "en": "A unique role: the or a/an"
+            "ru": "Национальности и религии",
+            "en": "Nationalities and religions"
           },
           "body": {
-            "ru": "Если роль в данной ситуации единственная, перед ней ставим the — собеседник понимает, о ком именно речь. Если людей в этой роли много и называем одного из них, нужен a/an; при описании роли впервые тоже используется a/an.",
-            "en": "If a role is unique in the situation, we use the — the listener understands exactly who is meant. If many people have that role and we name one of them, a/an is used; when a role is described for the first time, a/an is also used."
+            "ru": "Если слово называет национальность или религию как существительное, перед ним ставим a/an. Если оно описывает человека как прилагательное, артикль не нужен.",
+            "en": "When a word names a nationality or a religion as a noun, it takes a/an. When it describes a person as an adjective, no article is needed."
+          },
+          "examples": [
+            "She is a Canadian.",
+            "He is Canadian.",
+            "My neighbour is a Buddhist.",
+            "My teacher is German."
+          ],
+          "exampleTranslations": [
+            "Она канадка.",
+            "Он канадец.",
+            "Мой сосед — буддист.",
+            "Мой учитель — немец."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Единственная роль: a/an или the",
+            "en": "A unique role: a/an or the"
+          },
+          "body": {
+            "ru": "Если роль в данной ситуации единственная, ставим the: собеседник понимает, о ком речь. Если в этой роли много людей и называем одного из них — a/an. При первом описании роли тоже используется a/an.",
+            "en": "If a role is unique in the situation, we use the: the listener understands who is meant. If many people have that role and we name one of them, we use a/an. A role described for the first time also takes a/an."
           },
           "examples": [
             "the headmaster of the school",
             "the Pope",
-            "a nurse",
-            "a teacher"
+            "a teacher",
+            "I spoke to a nurse at the reception."
+          ],
+          "exampleTranslations": [
+            "директор школы",
+            "Папа Римский",
+            "учитель",
+            "Я поговорил с медсестрой на стойке регистрации."
           ]
         }
       ]
@@ -704,35 +746,35 @@
       "ruleId": "art-a-an",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Новая информация для слушателя",
-            "en": "New information for the listener"
+            "ru": "новый предмет, введённый в разговор",
+            "en": "new thing introduced into conversation"
           },
           "right": "I've got some news: I finally found a good dentist."
         },
         {
           "left": {
-            "ru": "Один из многих предметов (какой-то, неважно какой)",
-            "en": "One of many things (any one will do)"
+            "ru": "один из многих, выбор свободен",
+            "en": "one of many, choice is open"
           },
           "right": "He is looking for a flat; any flat near the metro will do."
         },
         {
           "left": {
-            "ru": "Введение персонажа в рассказ",
-            "en": "Introducing a character into a story"
+            "ru": "новый персонаж в рассказе",
+            "en": "new character in story"
           },
           "right": "A young woman opened the door and smiled."
         },
         {
           "left": {
-            "ru": "Конструкция there is",
-            "en": "The 'there is' construction"
+            "ru": "высказывание о наличии предмета",
+            "en": "statement about existence"
           },
           "right": "There is a small café on the corner."
         }
@@ -752,35 +794,35 @@
       "ruleId": "art-a-an",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте ситуацию и пример с неопределённым артиклем.",
-        "en": "Match each situation with the example that uses the indefinite article."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
             "ru": "новый предмет в рассказе",
-            "en": "a new thing introduced in the story"
+            "en": "new object in story"
           },
           "right": "I found a wallet on the bus this morning."
         },
         {
           "left": {
-            "ru": "новый персонаж в рассказе",
-            "en": "a new character introduced in the story"
+            "ru": "новый человек в рассказе",
+            "en": "new person in story"
           },
           "right": "A young man offered to carry my bags."
         },
         {
           "left": {
-            "ru": "один из многих, подойдёт любой",
-            "en": "one of many, any one will do"
+            "ru": "один из многих, выбор свободен",
+            "en": "one of many, choice is open"
           },
           "right": "He needs a pen — any pen will do."
         },
         {
           "left": {
-            "ru": "конструкция «there is»",
-            "en": "the ‘there is’ construction"
+            "ru": "высказывание о наличии предмета",
+            "en": "statement about existence"
           },
           "right": "There is a letter for you on the table."
         }
@@ -800,35 +842,35 @@
       "ruleId": "art-a-an",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте упоминание и пример.",
-        "en": "Match each mention with the example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "первое упоминание: a kitten",
-            "en": "first mention: a kitten"
+            "ru": "новый питомец появляется",
+            "en": "new pet appears"
           },
           "right": "We adopted a kitten from the shelter."
         },
         {
           "left": {
-            "ru": "повторное упоминание: the kitten",
-            "en": "second mention: the kitten"
+            "ru": "тот же питомец снова",
+            "en": "same pet again"
           },
           "right": "The kitten slept all afternoon."
         },
         {
           "left": {
-            "ru": "первое упоминание: a bicycle",
-            "en": "first mention: a bicycle"
+            "ru": "новое транспортное средство появляется",
+            "en": "new vehicle appears"
           },
           "right": "He bought a bicycle for his trip."
         },
         {
           "left": {
-            "ru": "повторное упоминание: the bicycle",
-            "en": "second mention: the bicycle"
+            "ru": "то же транспортное средство снова",
+            "en": "same vehicle again"
           },
           "right": "The bicycle was standing by the door."
         }
@@ -848,35 +890,35 @@
       "ruleId": "art-a-an",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте упоминание и пример.",
-        "en": "Match each mention with the example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "первое упоминание: an umbrella",
-            "en": "first mention: an umbrella"
+            "ru": "новый предмет от дождя появляется",
+            "en": "new rain item appears"
           },
           "right": "She took an umbrella from the stand."
         },
         {
           "left": {
-            "ru": "повторное упоминание: the umbrella",
-            "en": "second mention: the umbrella"
+            "ru": "тот же предмет от непогоды снова",
+            "en": "same bad-weather item again"
           },
           "right": "The umbrella was still wet from the rain."
         },
         {
           "left": {
-            "ru": "первое упоминание: a camera",
-            "en": "first mention: a camera"
+            "ru": "новый прибор для съёмки появляется",
+            "en": "new photo device appears"
           },
           "right": "My brother bought a camera last week."
         },
         {
           "left": {
-            "ru": "повторное упоминание: the camera",
-            "en": "second mention: the camera"
+            "ru": "тот же прибор для съёмки снова",
+            "en": "same photo device again"
           },
           "right": "The camera takes very sharp photos."
         }
@@ -896,35 +938,35 @@
       "ruleId": "art-a-an",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте упоминание и пример.",
-        "en": "Match each mention with the example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "первое упоминание: a painting",
-            "en": "first mention: a painting"
+            "ru": "новая картина появляется",
+            "en": "new artwork appears"
           },
           "right": "We saw a beautiful painting at the gallery."
         },
         {
           "left": {
-            "ru": "повторное упоминание: the painting",
-            "en": "second mention: the painting"
+            "ru": "та же картина снова",
+            "en": "same artwork again"
           },
           "right": "The painting was worth a fortune."
         },
         {
           "left": {
-            "ru": "первое упоминание: a necklace",
-            "en": "first mention: a necklace"
+            "ru": "новое украшение появляется",
+            "en": "new jewellery appears"
           },
           "right": "She wore a silver necklace to the party."
         },
         {
           "left": {
-            "ru": "повторное упоминание: the necklace",
-            "en": "second mention: the necklace"
+            "ru": "то же украшение снова",
+            "en": "same jewellery again"
           },
           "right": "The necklace belonged to her grandmother."
         }
@@ -1569,35 +1611,35 @@
       "ruleId": "art-a-an",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Профессия",
-            "en": "Profession"
+            "ru": "профессия без описательного прилагательного",
+            "en": "profession without describing adjective"
           },
           "right": "My uncle is a firefighter."
         },
         {
           "left": {
-            "ru": "Национальность",
-            "en": "Nationality"
+            "ru": "национальность в роли существительного",
+            "en": "nationality as noun"
           },
           "right": "Her husband is an American."
         },
         {
           "left": {
-            "ru": "Религия",
-            "en": "Religion"
+            "ru": "религия в роли существительного",
+            "en": "religion as noun"
           },
           "right": "My neighbour is a Catholic."
         },
         {
           "left": {
-            "ru": "Прилагательное + профессия",
-            "en": "Adjective + profession"
+            "ru": "прилагательное перед профессией",
+            "en": "profession with adjective before"
           },
           "right": "She is a very talented musician."
         }
@@ -1617,35 +1659,35 @@
       "ruleId": "art-a-an",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте слово и пример с артиклем.",
-        "en": "Match each word with the example that needs an article."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "профессия: engineer",
-            "en": "profession: engineer"
+            "ru": "профессия без прилагательного, первый звук гласный",
+            "en": "profession without adjective, vowel sound first"
           },
           "right": "My cousin works as an engineer for a big company."
         },
         {
           "left": {
-            "ru": "национальность-существительное: Italian",
-            "en": "nationality noun: Italian"
+            "ru": "национальность-существительное, первый звук гласный",
+            "en": "nationality noun, vowel sound first"
           },
           "right": "Her colleague is an Italian from Milan."
         },
         {
           "left": {
-            "ru": "религия-существительное: Catholic",
-            "en": "religion noun: Catholic"
+            "ru": "религия-существительное, первый звук согласный",
+            "en": "religion noun, consonant sound first"
           },
           "right": "My neighbour is a Catholic and goes to church on Sundays."
         },
         {
           "left": {
-            "ru": "прилагательное + профессия: skilled surgeon",
-            "en": "adjective + profession: skilled surgeon"
+            "ru": "прилагательное перед профессией",
+            "en": "profession with adjective before"
           },
           "right": "He is a highly skilled surgeon at the city hospital."
         }
@@ -1665,35 +1707,35 @@
       "ruleId": "art-a-an",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте конструкцию и пример.",
-        "en": "Match each construction with the example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "профессия после be",
-            "en": "a profession after be"
+            "ru": "профессия после глагола-связки",
+            "en": "profession after linking verb"
           },
           "right": "His sister is a lawyer in London."
         },
         {
           "left": {
-            "ru": "профессия после work as",
-            "en": "a profession after work as"
+            "ru": "профессия с глаголом занятости",
+            "en": "profession with employment verb"
           },
           "right": "She works as a waitress in a café."
         },
         {
           "left": {
-            "ru": "профессия после become",
-            "en": "a profession after become"
+            "ru": "профессия при глаголе изменения статуса",
+            "en": "profession with change-of-state verb"
           },
           "right": "He became a famous writer after years of hard work."
         },
         {
           "left": {
-            "ru": "национальность-прилагательное — без артикля",
-            "en": "nationality used as an adjective — no article"
+            "ru": "национальность в форме прилагательного",
+            "en": "nationality in adjective form"
           },
           "right": "My teacher is German but speaks perfect Russian."
         }
@@ -1713,35 +1755,35 @@
       "ruleId": "art-a-an",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте форму слова и пример.",
-        "en": "Match each word form with the example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "профессия в единственном числе — a/an",
-            "en": "profession in the singular — a/an"
+            "ru": "профессия в единственном числе",
+            "en": "profession in singular"
           },
           "right": "My brother is a mechanic at a local garage."
         },
         {
           "left": {
-            "ru": "национальность-существительное — a/an",
-            "en": "nationality as a noun — a/an"
+            "ru": "национальность в роли существительного",
+            "en": "nationality as noun"
           },
           "right": "Her cousin is an Australian who loves cricket."
         },
         {
           "left": {
-            "ru": "религия-существительное — a/an",
-            "en": "religion as a noun — a/an"
+            "ru": "религия в роли существительного",
+            "en": "religion as noun"
           },
           "right": "Her uncle is a Buddhist from Thailand."
         },
         {
           "left": {
-            "ru": "национальность-прилагательное — без артикля",
-            "en": "nationality as an adjective — no article"
+            "ru": "национальность в роли прилагательного",
+            "en": "nationality as adjective"
           },
           "right": "My colleagues are French and Spanish."
         }
@@ -1761,35 +1803,35 @@
       "ruleId": "art-a-an",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте пример и правило.",
-        "en": "Match each example with its rule."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "a перед профессией на согласный звук",
-            "en": "a before a profession with a consonant sound"
+            "ru": "профессия, первый звук согласный",
+            "en": "profession, consonant sound first"
           },
           "right": "Our neighbour is a baker and starts work at four."
         },
         {
           "left": {
-            "ru": "an перед профессией на гласный звук",
-            "en": "an before a profession with a vowel sound"
+            "ru": "профессия, первый звук гласный",
+            "en": "profession, vowel sound first"
           },
           "right": "He is an architect who designs eco-friendly houses."
         },
         {
           "left": {
-            "ru": "a/an перед прилагательным и профессией",
-            "en": "a/an before an adjective + profession"
+            "ru": "прилагательное перед профессией",
+            "en": "profession with adjective before"
           },
           "right": "She is a highly respected judge in our city."
         },
         {
           "left": {
-            "ru": "религия-прилагательное — без артикля",
-            "en": "religion as an adjective — no article"
+            "ru": "религия в форме прилагательного",
+            "en": "religion in adjective form"
           },
           "right": "My friend is Christian and attends church regularly."
         }

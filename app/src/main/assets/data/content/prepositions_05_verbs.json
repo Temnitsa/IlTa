@@ -17,91 +17,130 @@
         "en": "Prepositions after verbs"
       },
       "summary": {
-        "ru": "Многие глаголы требуют определённого предлога, а некоторые употребляются без него. Предлог нужно запоминать вместе с глаголом, а не переводить с русского языка.",
-        "en": "Many verbs take a particular preposition, and some verbs take no preposition at all. Learn the preposition together with the verb rather than translating from your own language."
+        "ru": "Глагол + предлог по книге English Grammar in Use: to и at, about/for/of/after, about и of, of/for/from/on, in/into/with/to/on. Отдельно — глаголы, которым предлог не нужен.",
+        "en": "Verb + preposition as in English Grammar in Use: to and at, about/for/of/after, about and of, of/for/from/on, in/into/with/to/on. Separately: verbs that need no preposition."
       },
       "sections": [
         {
           "heading": {
-            "ru": "Зависимый предлог: учим вместе с глаголом",
-            "en": "Dependent prepositions: learn them with the verb"
+            "ru": "To и at: адресат, внимание, реакция",
+            "en": "To and at: listener, attention, reaction"
           },
           "body": {
-            "ru": "У многих глаголов после себя стоит закреплённый предлог, и от него зависит значение. Закреплённым может быть **for**, **to**, **at**, **about**, **on**, **from**, after, **of** или **with**. Такой предлог нельзя вывести из русского перевода, поэтому глагол и предлог запоминают как одно целое. После предлога глагол стоит в форме -ing: think **about** moving, apologise **for** being late.",
-            "en": "Many verbs are followed **by** a fixed preposition, and the meaning depends **on** it. The fixed preposition can be **for**, **to**, **at**, **about**, **on**, **from**, after, **of** or **with**. Such a preposition cannot be worked out **from** your own language, so the verb and its preposition are learned **as** one unit. After a preposition the verb takes the -ing form: think **about** moving, apologise **for** being late."
+            "ru": "**To** — адресат: talk / speak / listen / write **to**, explain something **to** somebody, apologise **to** somebody. **At** — внимание и реакция: look / smile / laugh / shout **at**, aim / shoot **at**, throw **at** (попасть) и **to** (поймать); shout **to** — чтобы услышали. Без предлога: ask / phone / call / email / text somebody, answer something, **discuss, enter, reach, marry, join**. После предлога глагол стоит в форме **-ing**.",
+            "en": "**To** marks the listener: talk / speak / listen / write **to**, explain **to** somebody, apologise **to** somebody. **At** marks attention and reaction: look / smile / laugh / shout **at**, aim / shoot **at**, throw **at** (to hit) and **to** (to catch); shout **to** to be heard. No preposition: ask / phone / call / email / text somebody, answer something, **discuss, enter, reach, marry, join**. After a preposition use the **-ing** form."
           },
           "examples": [
-            "depend **on**",
-            "wait **for**",
-            "listen **to**",
-            "belong **to**",
-            "look **at**"
+            "Can you explain this word to me?",
+            "I like to listen to the radio in the car.",
+            "Everybody will laugh at me, but my sister smiled at me.",
+            "The officer aimed at the target.",
+            "He apologised for being late."
+          ],
+          "exampleTranslations": [
+            "Можешь объяснить мне это слово?",
+            "Мне нравится слушать радио в машине.",
+            "Все будут надо мной смеяться, но сестра мне улыбнулась.",
+            "Офицер прицелился в мишень.",
+            "Он извинился за опоздание."
           ]
         },
         {
           "heading": {
-            "ru": "Предлоги to и for: адресат и причина",
-            "en": "To and for: the person and the reason"
+            "ru": "About / for / of / after: тема, цель, забота",
+            "en": "About / for / of / after: topic, purpose, care"
           },
           "body": {
-            "ru": "Предлог **to** вводит адресата действия, а **for** — причину, цель или предмет заботы. Один и тот же глагол может менять смысл в зависимости от предлога, поэтому такие пары учат вместе. После предлога глагол стоит в форме -ing: think **about** moving, apologise **for** being late.",
-            "en": "The preposition **to** introduces the person who receives the action, and **for** introduces the reason, purpose or thing you care **about**. The same verb can change its meaning depending **on** the preposition, so such pairs are learned together. After a preposition the verb takes the -ing form: think **about** moving, apologise **for** being late."
+            "ru": "**About** — тема: talk / read / know **about**, do something **about**; **discuss** something — без предлога. **For** — цель и поиск: apply to a company **for** a job, search / look / wait / ask **for**, leave a place **for** another. **Of / after** — забота: take care **of**, look **after**, care **for**; care **about** — считать важным, care what/where — без **about**.",
+            "en": "**About** marks a topic: talk / read / know **about**, do something **about**; **discuss** something takes no preposition. **For** marks purpose and search: apply to a company **for** a job, search / look / wait / ask **for**, leave a place **for** another. **Of / after** mark care: take care **of**, look **after**, care **for**; care **about** means to think something is important, while care what/where takes no **about**."
           },
           "examples": [
-            "explain the problem **to** him",
-            "apologise **for** the delay",
-            "pay **for** the meal",
-            "thank her **for** the help",
-            "listen **to** the teacher"
+            "We talked about a lot of things at the meeting.",
+            "Why don't you apply for the job?",
+            "I'm waiting for the rain to stop.",
+            "He needs somebody to look after him.",
+            "We discussed the plan for hours."
+          ],
+          "exampleTranslations": [
+            "Мы говорили о многом на совещании.",
+            "Почему бы тебе не подать заявку на эту работу?",
+            "Я жду, когда дождь кончится.",
+            "Ему нужен человек, который будет за ним ухаживать.",
+            "Мы обсуждали план несколько часов."
           ]
         },
         {
           "heading": {
-            "ru": "Предлоги at, about, on, from: типичные модели",
-            "en": "At, about, on, from: typical patterns"
+            "ru": "About и of: слышать, думать, напоминать",
+            "en": "About and of: hear, think, remind"
           },
           "body": {
-            "ru": "Предлог **at** часто связан с направленным вниманием, **about** — с темой мысли или разговора, **on** — с опорой или зависимостью, **from** — с источником. Глагол arrive требует **at** перед зданием или точкой и **in** перед городом или страной; запоминайте эти модели вместе с глаголом. После предлога глагол стоит в форме -ing: think **about** moving, apologise **for** being late.",
-            "en": "The preposition **at** is often connected **with** directed attention, **about** **with** a topic **of** thought or speech, **on** **with** support or dependence, and **from** **with** a source. The verb arrive takes **at** before a building or point and **in** before a city or country; learn these patterns together **with** the verb. After a preposition the verb takes the -ing form: think **about** moving, apologise **for** being late."
+            "ru": "**Hear about** — узнать о событии; **hear of** — знать о существовании; **hear from** — быть на связи. **Think about / of** — обдумывать или придумывать. **Dream about / of** — видеть во сне или представлять. **Remind somebody about / of** — напомнить или вызвать воспоминание. **Complain (to somebody) about / of** — жаловаться на ситуацию или на боль.",
+            "en": "**Hear about** means be told about an event; **hear of** means know that it exists; **hear from** means be in contact. **Think about / of** means consider or produce an idea. **Dream about / of** means see in your sleep or imagine. **Remind somebody about / of** means tell them not to forget or make them remember. **Complain (to somebody) about / of** means say you are not satisfied or report a pain."
           },
           "examples": [
-            "look **at** the photo",
-            "laugh **at** the joke",
-            "think **about** the offer",
-            "depend **on** the weather",
-            "suffer **from** headaches"
+            "I've never heard of him.",
+            "Have you heard from Jane recently?",
+            "I've thought about what you said.",
+            "This house reminds me of my childhood.",
+            "She complained about the noise."
+          ],
+          "exampleTranslations": [
+            "Я никогда о нём не слышал.",
+            "Ты недавно получал вести от Джейн?",
+            "Я обдумал то, что ты сказал.",
+            "Этот дом напоминает мне о детстве.",
+            "Она пожаловалась на шум."
           ]
         },
         {
           "heading": {
-            "ru": "Глаголы без предлога: discuss, enter, reach, marry",
-            "en": "Verbs with no preposition: discuss, enter, reach, marry"
+            "ru": "Of / for / from / on: обвинение, плата, источник, опора",
+            "en": "Of / for / from / on: accusation, payment, source, support"
           },
           "body": {
-            "ru": "Некоторые глаголы в английском переходные и не требуют предлога, хотя в русском языке при них предлог есть. После таких глаголов сразу идёт дополнение, без предлога. После предлога глагол стоит в форме -ing: think **about** moving, apologise **for** being late.",
-            "en": "Some English verbs are transitive and take no preposition, although another language may need one **with** the same verb. Such verbs are followed directly **by** their object, **with** no preposition **in** **between**. After a preposition the verb takes the -ing form: think **about** moving, apologise **for** being late."
+            "ru": "**Of** — accuse / suspect **of**, approve / disapprove **of**, consist **of**. **For** — thank / forgive / blame somebody **for**, pay **for** (но pay a bill — без предлога). **On** — congratulate / compliment somebody **on**, depend / rely **on** (depend when/where — с on или без), blame something **on**, live **on**. **From** — suffer / protect **from**, die **of / from**.",
+            "en": "**Of**: accusation and approval: accuse / suspect **of**, approve / disapprove **of**, consist **of**. **For**: thanks and payment: thank / forgive / blame somebody **for**, pay **for** (but pay a bill takes no preposition). **On**: support: congratulate / compliment somebody **on**, depend / rely **on** (depend when/where takes on or nothing), blame something **on**, live **on**. **From**: source: suffer / protect **from**, die **of / from**."
           },
           "examples": [
-            "discuss the plan",
-            "enter the building",
-            "reach the station",
-            "marry her friend"
+            "Tina accused me of being selfish.",
+            "I'll never forgive them for what they did.",
+            "Sun cream protects the skin from the sun.",
+            "It depends on the traffic.",
+            "The meal consisted of seven courses.",
+            "We paid the bill and left the restaurant."
+          ],
+          "exampleTranslations": [
+            "Тина обвинила меня в эгоизме.",
+            "Я никогда не прощу им то, что они сделали.",
+            "Солнцезащитный крем защищает кожу от солнца.",
+            "Это зависит от дорожного движения.",
+            "Обед состоял из семи блюд.",
+            "Мы оплатили счёт и вышли из ресторана."
           ]
         },
         {
           "heading": {
-            "ru": "Как не ошибиться с предлогом",
-            "en": "How to avoid preposition mistakes"
+            "ru": "In / into / with / to / on: сфера, превращение, связь",
+            "en": "In / into / with / to / on: field, change, connection"
           },
           "body": {
-            "ru": "Проверяйте предлог по словарю и запоминайте его вместе с глаголом. Если после глагола сразу идёт дополнение, предлог не нужен; если предлог есть, его нельзя заменять другим по смыслу. После предлога глагол стоит в форме -ing: think **about** moving, apologise **for** being late.",
-            "en": "Check the preposition **in** a dictionary and learn it together **with** the verb. If the object follows the verb directly, no preposition is needed; if there is a preposition, it cannot be replaced **by** another one just because it seems logical. After a preposition the verb takes the -ing form: think **about** moving, apologise **for** being late."
+            "ru": "**In** — вера: believe / specialise / succeed **in**. **Into** — движение: break / cut / split / divide / translate **into**, bump / run / crash **into**. **With** — связь: agree / collide **with**, provide / supply somebody **with**, fill **with**. **To** — предпочтение: prefer one thing **to** another, invite somebody **to**, happen **to**. **On** — настойчивость: insist **on**, concentrate **on**, spend **on**.",
+            "en": "**In**: believe / specialise / succeed **in**. **Into**: break / cut / split / divide / translate **into**, bump / run / crash **into**. **With**: agree / collide **with**, provide / supply somebody **with**, fill **with**. **To**: prefer one thing **to** another, invite somebody **to**, happen **to**. **On**: insist **on**, concentrate **on**, spend **on**."
           },
           "examples": [
-            "look **for** the keys",
-            "ask **for** help",
-            "take care **of** your health",
-            "join a local choir"
+            "Do you believe in ghosts?",
+            "A bus collided with a car.",
+            "The book is divided into three parts.",
+            "The school provides students with books.",
+            "I bumped into an old friend yesterday."
+          ],
+          "exampleTranslations": [
+            "Ты веришь в призраков?",
+            "Автобус столкнулся с автомобилем.",
+            "Книга разделена на три части.",
+            "Школа обеспечивает учеников книгами.",
+            "Вчера я случайно встретил старого друга."
           ]
         }
       ]
@@ -474,35 +513,35 @@
       "ruleId": "prep-verbs",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте глагол и пример.",
-        "en": "Match each verb with an example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "depend ___ (зависеть)",
-            "en": "depend ___"
+            "ru": "зависимость",
+            "en": "dependence"
           },
           "right": "The price depends on the number of guests."
         },
         {
           "left": {
-            "ru": "wait ___ (ждать)",
-            "en": "wait ___"
+            "ru": "ожидание",
+            "en": "waiting"
           },
           "right": "I waited for the bus for half an hour."
         },
         {
           "left": {
-            "ru": "listen ___ (слушать)",
-            "en": "listen ___"
+            "ru": "слушание",
+            "en": "listening"
           },
           "right": "She listens to the news every evening."
         },
         {
           "left": {
-            "ru": "belong ___ (принадлежать)",
-            "en": "belong ___"
+            "ru": "принадлежность",
+            "en": "ownership"
           },
           "right": "This old bicycle belongs to my neighbour."
         }
@@ -512,7 +551,8 @@
         "en": "Depend on, wait for, listen to and belong to — each verb is fixed with its preposition."
       },
       "tags": [
-        "prep-verbs"
+        "prep-verbs",
+        "dependence"
       ]
     },
     {
@@ -521,35 +561,35 @@
       "ruleId": "prep-verbs",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте глагол и пример.",
-        "en": "Match each verb with an example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "look ___ (смотреть)",
-            "en": "look ___"
+            "ru": "взгляд",
+            "en": "visual attention"
           },
           "right": "The children looked at the elephants in amazement."
         },
         {
           "left": {
-            "ru": "apologise ___ (извиняться)",
-            "en": "apologise ___"
+            "ru": "извинение",
+            "en": "apology"
           },
           "right": "He apologised for breaking the window."
         },
         {
           "left": {
-            "ru": "thank ___ (благодарить)",
-            "en": "thank ___"
+            "ru": "благодарность",
+            "en": "gratitude"
           },
           "right": "We thanked her for the delicious dinner."
         },
         {
           "left": {
-            "ru": "think ___ (думать)",
-            "en": "think ___"
+            "ru": "размышление",
+            "en": "consideration"
           },
           "right": "I am thinking about your offer carefully."
         }
@@ -559,7 +599,8 @@
         "en": "Look at, apologise for, thank for and think about — the preposition is part of each combination."
       },
       "tags": [
-        "prep-verbs"
+        "prep-verbs",
+        "reaction"
       ]
     },
     {
@@ -568,35 +609,35 @@
       "ruleId": "prep-verbs",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте глагол и пример.",
-        "en": "Match each verb with an example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "arrive at — здание или точное место",
-            "en": "arrive at — a building or exact place"
+            "ru": "прибытие к зданию или точному месту",
+            "en": "reaching a building or exact point"
           },
           "right": "We arrived at the airport two hours before the flight."
         },
         {
           "left": {
-            "ru": "arrive in — город или страна",
-            "en": "arrive in — a city or country"
+            "ru": "прибытие в город или страну",
+            "en": "reaching a city or country"
           },
           "right": "They arrived in Canada last week."
         },
         {
           "left": {
-            "ru": "explain ___ — объяснять кому-то",
-            "en": "explain ___ — explain to somebody"
+            "ru": "объяснение человеку",
+            "en": "explanation (a listener)"
           },
           "right": "The guide explained the route to the group."
         },
         {
           "left": {
-            "ru": "discuss — без предлога",
-            "en": "discuss — no preposition"
+            "ru": "обсуждение",
+            "en": "discussion"
           },
           "right": "The neighbours discussed the noise problem calmly."
         }
@@ -606,7 +647,8 @@
         "en": "Arrive at is for buildings and exact places, arrive in for cities and countries; explain to means explain to somebody; discuss takes no preposition."
       },
       "tags": [
-        "prep-verbs"
+        "prep-verbs",
+        "arrival"
       ]
     },
     {
@@ -615,45 +657,46 @@
       "ruleId": "prep-verbs",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте глагол и пример. Некоторые глаголы предлога не требуют.",
-        "en": "Match each verb with an example. Some verbs take no preposition."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "marry — без предлога",
-            "en": "marry — no preposition"
+            "ru": "брак",
+            "en": "marriage"
           },
           "right": "She married her school friend in 2020."
         },
         {
           "left": {
-            "ru": "enter — без предлога",
-            "en": "enter — no preposition"
+            "ru": "вход в здание",
+            "en": "entering a building"
           },
           "right": "A stranger entered the building through the back door."
         },
         {
           "left": {
-            "ru": "reach — без предлога",
-            "en": "reach — no preposition"
+            "ru": "достижение места",
+            "en": "reaching a place"
           },
           "right": "We reached the village before dark."
         },
         {
           "left": {
-            "ru": "belong ___ — с предлогом to",
-            "en": "belong ___ — with the preposition to"
+            "ru": "вступление в клуб",
+            "en": "joining a club"
           },
-          "right": "That notebook belongs to my sister."
+          "right": "She joined the club last month."
         }
       ],
       "explanation": {
-        "ru": "Marry, enter и reach предлога не требуют, а belong требует to: belongs to my sister.",
-        "en": "Marry, enter and reach take no preposition, while belong requires to: belongs to my sister."
+        "ru": "Marry, enter, reach и join не требуют предлога: join the club. Предлог to нужен только в belong to.",
+        "en": "Marry, enter, reach and join take no preposition: join the club. The preposition to is needed only in belong to."
       },
       "tags": [
-        "prep-verbs"
+        "prep-verbs",
+        "no-preposition"
       ]
     },
     {
@@ -662,35 +705,35 @@
       "ruleId": "prep-verbs",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте глагол и пример.",
-        "en": "Match each verb with an example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "ask ___ (просить)",
-            "en": "ask ___"
+            "ru": "просьба",
+            "en": "request"
           },
           "right": "She asked for a glass of water."
         },
         {
           "left": {
-            "ru": "pay ___ (платить)",
-            "en": "pay ___"
+            "ru": "оплата",
+            "en": "payment"
           },
           "right": "We paid for the tickets online."
         },
         {
           "left": {
-            "ru": "agree ___ (соглашаться)",
-            "en": "agree ___"
+            "ru": "согласие",
+            "en": "agreement"
           },
           "right": "I agree with your opinion on this."
         },
         {
           "left": {
-            "ru": "laugh ___ (смеяться)",
-            "en": "laugh ___"
+            "ru": "насмешка",
+            "en": "mockery"
           },
           "right": "Don't laugh at other people's mistakes."
         }
@@ -700,7 +743,8 @@
         "en": "Ask for, pay for, agree with and laugh at — the preposition is part of each verb phrase."
       },
       "tags": [
-        "prep-verbs"
+        "prep-verbs",
+        "requests"
       ]
     },
     {

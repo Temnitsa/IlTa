@@ -35,6 +35,12 @@
             "They will not have arrived by noon.",
             "Will you have completed the course by June?",
             "By next June she will have visited twenty countries."
+          ],
+          "exampleTranslations": [
+            "К пятнице я закончу отчёт.",
+            "К полудню они ещё не приедут.",
+            "Ты закончишь курс к июню?",
+            "К июню следующего года она побывает в двадцати странах."
           ]
         },
         {
@@ -49,7 +55,14 @@
           "examples": [
             "By the time you get home, I will have cooked dinner.",
             "She will have left the office by six.",
-            "By 2050 the city will have doubled in size."
+            "By 2050 the city will have doubled in size.",
+            "I will have booked the tickets by this evening."
+          ],
+          "exampleTranslations": [
+            "К тому времени, как ты придёшь домой, я приготовлю ужин.",
+            "К шести она уйдёт из офиса.",
+            "К 2050 году город вырастет вдвое.",
+            "К сегодняшнему вечеру я забронирую билеты."
           ]
         },
         {
@@ -65,6 +78,11 @@
             "I will have spent all my savings by next month.",
             "By the time she turns thirty, she will have visited twenty countries.",
             "The builders will have finished the roof by the weekend."
+          ],
+          "exampleTranslations": [
+            "К следующему месяцу я потрачу все свои сбережения.",
+            "К тому времени, как ей исполнится тридцать, она посетит двадцать стран.",
+            "К выходным строители закончат крышу."
           ]
         }
       ]
@@ -3366,42 +3384,42 @@
       "ruleId": "tense-future-perfect",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте значение Future Perfect и пример.",
-        "en": "Match each use of the Future Perfect with an example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Завершённость к сроку",
-            "en": "Completion by a deadline"
+            "ru": "завершённость к сроку: к концу мая десять книг",
+            "en": "completion by a deadline: ten books by the end of May"
           },
           "right": "By the end of May I will have read ten books."
         },
         {
           "left": {
-            "ru": "Результат будет готов к моменту",
-            "en": "The result will be ready by then"
+            "ru": "результат будет готов к твоему приходу",
+            "en": "the result will be ready by the time you arrive"
           },
           "right": "By the time you arrive home, I will have prepared dinner."
         },
         {
           "left": {
-            "ru": "Обещание закончить к сроку",
-            "en": "A promise to finish by a deadline"
+            "ru": "обещание закончить до срока",
+            "en": "a promise to finish by a deadline"
           },
           "right": "I will have sent the report before Friday."
         },
         {
           "left": {
-            "ru": "Прогноз завершённой ситуации",
-            "en": "A prediction of a completed situation"
+            "ru": "прогноз завершённой ситуации к 2050 году",
+            "en": "a prediction of a completed situation by 2050"
           },
           "right": "By 2050 the city will have doubled in size."
         }
       ],
       "explanation": {
-        "ru": "Каждый пример показывает действие, завершённое к определённому моменту в будущем, — это и есть значение Future Perfect.",
-        "en": "Each example shows an action completed by a particular future moment, which is the meaning of the Future Perfect."
+        "ru": "Каждый пример показывает действие, завершённое к определённому моменту в будущем, — это Future Perfect.",
+        "en": "Each example shows an action completed by a particular moment in the future — the future perfect."
       },
       "tags": [
         "tense-future-perfect",
@@ -3414,42 +3432,42 @@
       "ruleId": "tense-future-perfect",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте временной маркер и пример.",
-        "en": "Match each time marker with an example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "by + будущий срок",
-            "en": "by + a future deadline"
+            "ru": "она закончит курс к декабрю",
+            "en": "she will have finished the course by December"
           },
           "right": "She will have finished the course by December."
         },
         {
           "left": {
-            "ru": "by the time + настоящее время",
-            "en": "by the time + present tense"
+            "ru": "к приходу гостей мы уберём квартиру",
+            "en": "by the time the guests arrive, we will have tidied the flat"
           },
           "right": "By the time the guests arrive, we will have tidied the flat."
         },
         {
           "left": {
-            "ru": "by then — к тому моменту",
-            "en": "by then"
+            "ru": "фильм начинается в восемь; к тому моменту мы поедим",
+            "en": "the film starts at eight; by then we will have eaten"
           },
           "right": "The film starts at eight; by then we will have eaten."
         },
         {
           "left": {
-            "ru": "in + период времени",
-            "en": "in + a period of time"
+            "ru": "через десять лет он опубликует первый роман",
+            "en": "in ten years he will have published his first novel"
           },
           "right": "In ten years' time he will have published his first novel."
         }
       ],
       "explanation": {
-        "ru": "Маркеры by, by the time, by then и in ... time указывают срок, к которому действие завершится.",
-        "en": "The markers by, by the time, by then and in ... time point to the deadline by which the action will be complete."
+        "ru": "Маркеры by, by the time, by then и in … time указывают срок, к которому действие завершится.",
+        "en": "The markers by, by the time, by then and in … time indicate the deadline by which the action will be complete."
       },
       "tags": [
         "tense-future-perfect",
@@ -3462,42 +3480,42 @@
       "ruleId": "tense-future-perfect",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте форму и пример.",
-        "en": "Match each form with an example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Утвердительная форма",
-            "en": "Affirmative form"
+            "ru": "они переедут в новую квартиру к сентябрю",
+            "en": "they will have moved to a new flat by September"
           },
           "right": "They will have moved to a new flat by September."
         },
         {
           "left": {
-            "ru": "Отрицательная форма",
-            "en": "Negative form"
+            "ru": "я не закончу эссе к понедельнику",
+            "en": "I will not have finished the essay by Monday"
           },
           "right": "I will not have finished the essay by Monday."
         },
         {
           "left": {
-            "ru": "Общий вопрос",
-            "en": "Yes/no question"
+            "ru": "ты накопишь достаточно денег к июню?",
+            "en": "asking whether you will have saved enough money by June"
           },
           "right": "Will you have saved enough money by June?"
         },
         {
           "left": {
-            "ru": "Специальный вопрос",
-            "en": "Wh-question"
+            "ru": "сколько стран ты посетишь к тому моменту?",
+            "en": "asking how many countries you will have visited by then"
           },
           "right": "How many countries will you have visited by then?"
         }
       ],
       "explanation": {
         "ru": "Future Perfect: will have + V3; отрицание will not have + V3; в вопросе will ставится перед подлежащим.",
-        "en": "Future Perfect: will have + past participle; the negative is will not have + past participle; in questions will comes before the subject."
+        "en": "The future perfect is will have + V3; the negative is will not have + V3; in a question will comes before the subject."
       },
       "tags": [
         "tense-future-perfect",
@@ -3510,42 +3528,42 @@
       "ruleId": "tense-future-perfect",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте форму с подходящим примером.",
-        "en": "Match each form with the best example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "will have done — завершённость к сроку",
-            "en": "will have done — completion by a deadline"
+            "ru": "завершённость к сроку: к полудню",
+            "en": "completion by a deadline: by noon"
           },
           "right": "By noon I will have written the summary."
         },
         {
           "left": {
-            "ru": "will be doing — процесс в момент будущего",
-            "en": "will be doing — a process at a future moment"
+            "ru": "процесс в конкретный момент будущего",
+            "en": "a process at a specific future moment"
           },
           "right": "At noon I will be having lunch."
         },
         {
           "left": {
-            "ru": "will do — решение или обещание",
-            "en": "will do — a decision or promise"
+            "ru": "решение помочь с сумками",
+            "en": "a decision to help with the bags"
           },
           "right": "I will help you with the bags."
         },
         {
           "left": {
-            "ru": "will have been doing — длительность к сроку",
-            "en": "will have been doing — duration up to a deadline"
+            "ru": "длительность к сроку: шесть часов",
+            "en": "duration up to a deadline: six hours"
           },
           "right": "By noon I will have been working for six hours."
         }
       ],
       "explanation": {
-        "ru": "Future Perfect показывает завершённость к сроку, Future Continuous — процесс в момент, Future Simple — решение, а Future Perfect Continuous — длительность до срока.",
-        "en": "The Future Perfect shows completion by a deadline, the Future Continuous a process at a moment, the Future Simple a decision, and the Future Perfect Continuous duration up to a deadline."
+        "ru": "Future Perfect показывает завершённость к сроку, Future Continuous — процесс в момент, Future Simple — решение, Future Perfect Continuous — длительность до срока.",
+        "en": "The future perfect shows completion by a deadline, the future continuous a process at a moment, the future simple a decision, and the future perfect continuous duration up to a deadline."
       },
       "tags": [
         "tense-future-perfect",
@@ -3558,42 +3576,42 @@
       "ruleId": "tense-future-perfect",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте ситуацию и предложение.",
-        "en": "Match each situation with a sentence."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Действие закончится до прибытия поезда",
-            "en": "The action will finish before the train arrives"
+            "ru": "поезд приходит в шесть, и к тому моменту я всё соберу",
+            "en": "the train arrives at six and by then I will have packed everything"
           },
           "right": "The train arrives at six, and by then I will have packed everything."
         },
         {
           "left": {
-            "ru": "Работа будет завершена к концу месяца",
-            "en": "The work will be complete by the end of the month"
+            "ru": "работа будет завершена к концу месяца",
+            "en": "the work will be complete by the end of the month"
           },
           "right": "The team will have completed the project by the end of the month."
         },
         {
           "left": {
-            "ru": "К указанному возрасту событие уже произойдёт",
-            "en": "By the stated age the event will already have happened"
+            "ru": "к тридцати годам она побывает на всех континентах",
+            "en": "by the age of thirty she will have travelled to every continent"
           },
           "right": "By the age of thirty she will have travelled to every continent."
         },
         {
           "left": {
-            "ru": "К концу дня результат будет проверен",
-            "en": "The result will be checked by the end of the day"
+            "ru": "к концу дня мы проверим отчёт",
+            "en": "by the end of the day we will have checked the report"
           },
           "right": "By the end of the day we will have checked the report."
         }
       ],
       "explanation": {
         "ru": "Во всех предложениях Future Perfect выражает результат, который будет достигнут к указанному сроку.",
-        "en": "In all the sentences the Future Perfect expresses a result that will be achieved by the stated deadline."
+        "en": "In all the sentences the future perfect expresses a result that will be achieved by a stated deadline."
       },
       "tags": [
         "tense-future-perfect",
@@ -3606,42 +3624,42 @@
       "ruleId": "tense-future-perfect",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте вопрос и краткий ответ.",
-        "en": "Match each question with a short answer."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Ты закончишь отчёт к пятнице?",
-            "en": "Will you have finished the report by Friday?"
+            "ru": "к пятнице я напишу отчёт",
+            "en": "by Friday I will have written the report"
           },
-          "right": "Yes, I will have finished it by Friday."
+          "right": "By Friday I will have written the report."
         },
         {
           "left": {
-            "ru": "К июню они переедут в новую квартиру?",
-            "en": "Will they have moved to the new flat by June?"
+            "ru": "к июню они переедут в новую квартиру",
+            "en": "by June they will have moved to the new flat"
           },
-          "right": "Yes, they will have moved by June."
+          "right": "By June they will have moved to the new flat."
         },
         {
           "left": {
-            "ru": "К концу месяца она сдаст экзамен по вождению?",
-            "en": "Will she have passed her driving test by the end of the month?"
+            "ru": "к концу месяца она сдаст экзамен по вождению",
+            "en": "by the end of the month she will have passed her driving test"
           },
-          "right": "No, she will not have passed it by then."
+          "right": "By the end of the month she will have passed her driving test."
         },
         {
           "left": {
-            "ru": "К понедельнику ты прочитаешь всю книгу?",
-            "en": "Will you have read the whole book by Monday?"
+            "ru": "к понедельнику я прочитаю всю книгу",
+            "en": "by Monday I will have read the whole book"
           },
-          "right": "No, I will not have read it by Monday."
+          "right": "By Monday I will have read the whole book."
         }
       ],
       "explanation": {
-        "ru": "Вопрос о результате к сроку строится с will … have + V3, а краткий ответ повторяет ту же форму.",
-        "en": "A question about a result by a deadline uses will … have + V3, and the short answer repeats the same form."
+        "ru": "Примеры показывают результат, завершённый к указанному сроку: will have + V3.",
+        "en": "The examples show a result completed by a stated deadline: will have + V3."
       },
       "tags": [
         "tense-future-perfect",
@@ -3655,35 +3673,35 @@
       "ruleId": "tense-future-perfect",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте временной маркер и предложение.",
-        "en": "Match each time marker with a sentence."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "by + срок — к сроку",
-            "en": "by + deadline"
+            "ru": "к следующему лету она накопит деньги на машину",
+            "en": "by next summer she will have saved enough money for a car"
           },
           "right": "By next summer she will have saved enough money for a car."
         },
         {
           "left": {
-            "ru": "by the time + настоящее — к тому времени",
-            "en": "by the time + present"
+            "ru": "к нашему приходу дети уже уснут",
+            "en": "by the time we get there, the children will have fallen asleep"
           },
           "right": "By the time we get there, the children will have fallen asleep."
         },
         {
           "left": {
-            "ru": "by then — к тому моменту",
-            "en": "by then"
+            "ru": "к тому моменту гости уйдут из отеля",
+            "en": "by then the guests will have left the hotel"
           },
           "right": "By then the guests will have left the hotel."
         },
         {
           "left": {
-            "ru": "in + период — через",
-            "en": "in + period"
+            "ru": "через двадцать лет деревня станет маленьким городом",
+            "en": "in twenty years the village will have become a small city"
           },
           "right": "In twenty years this village will have become a small city."
         }
@@ -3704,35 +3722,35 @@
       "ruleId": "tense-future-perfect",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте ошибку и исправленное предложение.",
-        "en": "Match each mistake with the corrected sentence."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "❌ By Friday I will have finish the report. — ошибка в форме",
-            "en": "❌ By Friday I will have finish the report."
+            "ru": "к пятнице я закончу эссе",
+            "en": "by Friday I will have finished the essay"
           },
           "right": "By Friday I will have finished the essay."
         },
         {
           "left": {
-            "ru": "❌ She will have went home by six. — ошибка в форме",
-            "en": "❌ She will have went home by six."
+            "ru": "к шести она уйдёт домой",
+            "en": "by six she will have gone home"
           },
           "right": "She will have gone home by six."
         },
         {
           "left": {
-            "ru": "❌ Will you finished the task by noon? — ошибка в форме",
-            "en": "❌ Will you finished the task by noon?"
+            "ru": "ты закончишь задание к полудню?",
+            "en": "asking whether you will have finished the task by noon"
           },
           "right": "Will you have finished the task by noon?"
         },
         {
           "left": {
-            "ru": "❌ They will not finished by Monday. — ошибка в форме",
-            "en": "❌ They will not finished by Monday."
+            "ru": "они не закончат к понедельнику",
+            "en": "they will not have finished by Monday"
           },
           "right": "They will not have finished by Monday."
         }
@@ -3753,42 +3771,42 @@
       "ruleId": "tense-future-perfect",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте ситуацию и предложение.",
-        "en": "Match each situation with a sentence."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Результат будет готов к сроку",
-            "en": "The result will be ready by the deadline"
+            "ru": "результат будет готов к концу августа",
+            "en": "the result will be ready by the end of August"
           },
           "right": "By the end of August we will have finished the garden."
         },
         {
           "left": {
-            "ru": "Действие завершится до другого события",
-            "en": "The action will be complete before another event"
+            "ru": "действие завершится до прихода гостей",
+            "en": "the action will be complete before the guests come"
           },
           "right": "By the time the guests come, we will have laid the table."
         },
         {
           "left": {
-            "ru": "К указанному возрасту событие произойдёт",
-            "en": "By the stated age the event will have happened"
+            "ru": "к двадцати пяти годам он откроет свою компанию",
+            "en": "by the age of twenty-five he will have started his own company"
           },
           "right": "By the age of twenty-five he will have started his own company."
         },
         {
           "left": {
-            "ru": "Обещание закончить к сроку",
-            "en": "A promise to finish by a deadline"
+            "ru": "обещание закончить к выходным",
+            "en": "a promise to finish by the weekend"
           },
           "right": "I will have repaired your bicycle by the weekend."
         }
       ],
       "explanation": {
         "ru": "Каждый пример показывает результат, который будет достигнут к указанному моменту в будущем.",
-        "en": "Each example shows a result that will be achieved by the stated future moment."
+        "en": "Each example shows a result that will be achieved by a stated moment in the future."
       },
       "tags": [
         "tense-future-perfect",
@@ -3802,42 +3820,42 @@
       "ruleId": "tense-future-perfect",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте форму и пример.",
-        "en": "Match each form with an example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "(+) will have + V3 — утверждение",
-            "en": "(+) will have + V3 — affirmative"
+            "ru": "к весне они посадят двести деревьев",
+            "en": "by spring they will have planted two hundred trees"
           },
           "right": "They will have planted two hundred trees by spring."
         },
         {
           "left": {
-            "ru": "(–) will not have + V3 — отрицание",
-            "en": "(–) will not have + V3 — negative"
+            "ru": "к перерыву команда не забьёт гол",
+            "en": "by half-time the team will not have scored"
           },
           "right": "The team will not have scored by half-time."
         },
         {
           "left": {
-            "ru": "(?) Will … have + V3? — вопрос",
-            "en": "(?) Will … have + V3? — question"
+            "ru": "повар приготовит ужин к семи?",
+            "en": "asking whether the chef will have prepared dinner by seven"
           },
           "right": "Will the chef have prepared dinner by seven?"
         },
         {
           "left": {
-            "ru": "Результат к моменту другого действия",
-            "en": "A result by another action"
+            "ru": "к началу концерта мы поедим",
+            "en": "by the time the concert starts we will have eaten dinner"
           },
           "right": "By the time the concert starts, we will have eaten dinner."
         }
       ],
       "explanation": {
         "ru": "Утверждение, отрицание и вопрос различаются порядком will, а последний пример показывает результат к моменту другого действия.",
-        "en": "The affirmative, negative and question forms differ in the position of will, while the last example shows a result by another action."
+        "en": "Statements, negatives and questions differ in the position of will, and the last example shows a result by the moment of another action."
       },
       "tags": [
         "tense-future-perfect",

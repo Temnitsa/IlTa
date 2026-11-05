@@ -13,60 +13,82 @@
       "order": 90,
       "level": "B2",
       "title": {
-        "ru": "Артикли в академическом тексте / IELTS",
-        "en": "Articles in academic writing / IELTS"
+        "ru": "Артикли в связном тексте: общее, конкретное, связность",
+        "en": "Articles in connected text: general, specific, cohesion"
       },
       "summary": {
-        "ru": "Артикли в академическом тексте: обобщение и конкретизация, абстрактные существительные, of-фразы, превосходная степень и типичные ошибки IELTS Writing.",
-        "en": "Articles in academic writing: generalisations and specific references, abstract nouns, of-phrases, superlatives and typical IELTS Writing mistakes."
+        "ru": "Как артикль связывает общее и конкретное в тексте: абстрактные понятия, of-фразы, превосходная степень и повторное упоминание.",
+        "en": "How the article links general and specific meaning in a text: abstract nouns, of-phrases, superlatives and repeated mention."
       },
       "sections": [
         {
           "heading": {
-            "ru": "Общее и конкретное в академическом тексте",
-            "en": "General vs specific in academic writing"
+            "ru": "Общее и конкретное: выбор по смыслу",
+            "en": "General and specific: meaning decides"
           },
           "body": {
-            "ru": "В академическом тексте важно разделять обобщение и конкретизацию. Если существительное называет явление или класс в целом, артикль не нужен; если речь об отдельном предмете или процессе, ставится определённый артикль.",
-            "en": "In academic writing, keep generalisations and specific references apart. When a noun names a phenomenon or a class as a whole, no article is needed; when it refers to one particular item or process, the definite article is used."
+            "ru": "Артикль зависит от смысла: если существительное называет класс или явление в целом, артикль не нужен; если речь об отдельном, уже известном предмете или группе, ставится определённый артикль. Одно и то же слово может менять артикль при смене значения.",
+            "en": "The article depends on meaning: if a noun names a class or a phenomenon as a whole, no article is used; if we mean one particular, already known thing or group, the definite article is used. The same word can change its article when its meaning changes."
           },
           "examples": [
             "Contemporary society relies on digital tools.",
             "The society of the eighteenth century was very different.",
             "Students need access to information.",
             "The information in the report is outdated."
+          ],
+          "exampleTranslations": [
+            "Современное общество зависит от цифровых инструментов.",
+            "Общество восемнадцатого века было совсем другим.",
+            "Студентам нужен доступ к информации.",
+            "Информация в отчёте устарела."
           ]
         },
         {
           "heading": {
-            "ru": "Абстрактные существительные: нулевой артикль",
-            "en": "Abstract nouns: the zero article"
+            "ru": "Абстрактные существительные",
+            "en": "Abstract nouns"
           },
           "body": {
-            "ru": "Абстрактные понятия в общем значении употребляются без артикля: так говорят о явлениях, областях знания и процессах в целом. Артикль появляется, когда понятие становится конкретным или используется в исчисляемом значении.",
-            "en": "Abstract nouns in their general sense take no article: they name phenomena, fields of study and processes as a whole. An article appears when the noun becomes specific or is used in a countable sense."
+            "ru": "Абстрактные понятия в общем значении употребляются без артикля; артикль появляется, когда понятие становится конкретным или исчисляемым. Сравнивайте общее явление и отдельный случай: жизнь вообще и жизнь конкретного человека, опыт как знания и опыт как переживание.",
+            "en": "Abstract ideas in a general sense take no article; an article appears when the idea becomes particular or countable. Compare a whole phenomenon with one case: life in general and the life of one person, experience as knowledge and experience as an event."
           },
           "examples": [
-            "Biology studies living organisms.",
-            "The satellite was launched into orbit.",
-            "At college she studied economics and law.",
-            "He has years of experience in teaching."
+            "Life is unpredictable.",
+            "The life of a farmer is hard work.",
+            "The freedom of the press matters in democracy.",
+            "She gained valuable experience while working abroad.",
+            "The journey became an unforgettable experience."
+          ],
+          "exampleTranslations": [
+            "Жизнь непредсказуема.",
+            "Жизнь фермера — тяжёлый труд.",
+            "Свобода прессы важна в демократии.",
+            "Она получила ценный опыт, работая за границей.",
+            "Поездка стала незабываемым опытом."
           ]
         },
         {
           "heading": {
-            "ru": "Of-фразы и конкретизация",
-            "en": "Of-phrases and specification"
+            "ru": "Конкретизация: of-фразы, придаточные, описание",
+            "en": "Specification: of-phrases, clauses and descriptions"
           },
           "body": {
-            "ru": "Определённый артикль ставим, если существительное уже известно или речь о конкретном предмете; уточняют of-фраза, придаточное предложение с who/which/that или описание с предлогом. При первом упоминании нового исчисляемого предмета перед of-фразой ставится a/an: a member of the team.",
-            "en": "We use the when the noun is already known or specific; it can be specified by an of-phrase, a relative clause with who/which/that, or a prepositional description. When a new countable thing is mentioned for the first time, a/an is used before an of-phrase: a member of the team."
+            "ru": "Определённый артикль ставим, если существительное уточняется of-фразой, придаточным с who, which или that либо описанием с предлогом. Уточнение выделяет предмет среди похожих и делает его известным читателю. При первом упоминании нового исчисляемого предмета перед of-фразой ставится неопределённый артикль.",
+            "en": "The definite article is used when a noun is specified by an of-phrase, a clause with who, which or that, or a description with a preposition. The detail picks the thing out from similar ones and makes it known to the reader. A new countable thing introduced with an of-phrase takes the indefinite article."
           },
           "examples": [
             "The life of a sailor is full of danger.",
             "The cause of the delay remains unknown.",
             "The book that you lent me was interesting.",
-            "The woman in the grey coat is my aunt."
+            "The woman in the grey coat is my aunt.",
+            "He is a colleague of my father."
+          ],
+          "exampleTranslations": [
+            "Жизнь моряка полна опасностей.",
+            "Причина задержки остаётся неизвестной.",
+            "Книга, которую ты мне одолжил, была интересной.",
+            "Женщина в сером пальто — моя тётя.",
+            "Он коллега моего отца."
           ]
         },
         {
@@ -75,30 +97,44 @@
             "en": "The: superlatives and ordinals"
           },
           "body": {
-            "ru": "Превосходная степень и порядковые числительные выделяют предмет как единственный в ряду, поэтому требуют the. Так же ведут себя слова only, same, next и last, когда обозначают единственность.",
-            "en": "Superlatives and ordinal numbers single out an item in a series, so they require the. The words only, same, next and last behave in the same way when they mark uniqueness."
+            "ru": "Превосходная степень и порядковые числительные выделяют предмет как единственный в ряду, поэтому требуют определённого артикля. Так же ведут себя слова only, same, next и last, когда обозначают единственность. В выражениях времени next и last идут без артикля, а с притяжательным местоимением перед прилагательным артикль не ставится.",
+            "en": "Superlatives and ordinal numbers pick out one thing in a series, so they take the definite article. The words only, same, next and last behave the same way when they express uniqueness. In time expressions next and last go without an article, and with a possessive before the adjective no article is used."
           },
           "examples": [
             "She is the youngest singer in the choir.",
-            "This is the first day of our course.",
+            "Next month we celebrate the first day of summer.",
             "He is the only student who solved the puzzle.",
-            "They chose the same option."
+            "The next train leaves at six, and the last one arrives at midnight.",
+            "My best friend solved the same puzzle."
+          ],
+          "exampleTranslations": [
+            "Она самая младшая певица в хоре.",
+            "В следующем месяце мы отмечаем первый день лета.",
+            "Он единственный ученик, решивший головоломку.",
+            "Следующий поезд уходит в шесть, а последний приходит в полночь.",
+            "Мой лучший друг решил ту же головоломку."
           ]
         },
         {
           "heading": {
-            "ru": "Типичные ошибки в IELTS Writing",
-            "en": "Typical IELTS Writing mistakes"
+            "ru": "Связность: повторное упоминание и известное",
+            "en": "Cohesion: repeated mention and shared knowledge"
           },
           "body": {
-            "ru": "Типичные ошибки — лишний the при обобщении, пропуск the в of-фразах, a/an перед неисчисляемыми и смешение исчисляемого и неисчисляемого значений. Перед сдачей текста проверяйте каждое существительное по этим пунктам.",
-            "en": "Typical mistakes include adding the to generalisations, omitting it in of-phrases, using a/an with uncountable nouns, and confusing countable and uncountable meanings. Check every noun against these points before submitting a text."
+            "ru": "В связном тексте артикль помогает следить за мыслью: новый предмет вводится с неопределённым артиклем, а при повторном упоминании ставится определённый. Определённый артикль также указывает на предмет, известный из ситуации или предыдущей фразы, и связывает предложения друг с другом.",
+            "en": "In connected text the article helps the reader follow the idea: a new thing is introduced with the indefinite article, and a repeated mention takes the definite article. The definite article also points to a thing known from the situation or from the previous sentence, and links the sentences together."
           },
           "examples": [
-            "The government should invest in public transport.",
-            "Young people need practical skills.",
-            "The report highlights the importance of training.",
-            "A good essay has a clear structure."
+            "She found a letter. The letter was written in 1950.",
+            "He bought a coat, but the coat was too big.",
+            "We watched a film. The film had no ending.",
+            "I met a writer. The writer was very modest."
+          ],
+          "exampleTranslations": [
+            "Она нашла письмо. Письмо было написано в 1950 году.",
+            "Он купил пальто, но пальто оказалось слишком большим.",
+            "Мы посмотрели фильм. У фильма не было концовки.",
+            "Я познакомился с писателем. Писатель был очень скромным."
           ]
         }
       ]
@@ -486,35 +522,35 @@
       "ruleId": "art-academic",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте значение и пример.",
-        "en": "Match each meaning with an example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Жизнь в общем смысле",
-            "en": "Life in general"
+            "ru": "человеческое существование как явление",
+            "en": "human existence as phenomenon"
           },
           "right": "Life is full of unexpected surprises."
         },
         {
           "left": {
-            "ru": "Жизнь конкретного человека",
-            "en": "The life of one person"
+            "ru": "судьба отдельного человека",
+            "en": "fate of one person"
           },
           "right": "The life of a farmer is hard work."
         },
         {
           "left": {
-            "ru": "Общество в целом",
-            "en": "Society as a whole"
+            "ru": "люди, объединённые в общество",
+            "en": "people living together"
           },
           "right": "Society needs new ideas and fresh faces."
         },
         {
           "left": {
-            "ru": "История как область знания",
-            "en": "History as a field of study"
+            "ru": "учебная дисциплина о прошлом",
+            "en": "school subject about past"
           },
           "right": "She teaches history at a local school."
         }
@@ -534,35 +570,35 @@
       "ruleId": "art-academic",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте значение и пример.",
-        "en": "Match each meaning with an example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Космос: space без артикля",
-            "en": "Space as the universe: no article"
+            "ru": "космическое пространство за пределами Земли",
+            "en": "outer space beyond Earth"
           },
           "right": "The first man in space was Yuri Gagarin."
         },
         {
           "left": {
-            "ru": "Суть чего-либо: the nature of",
-            "en": "The nature of something: the"
+            "ru": "суть и устройство проблемы",
+            "en": "essence of problem"
           },
           "right": "The nature of the problem is still unclear."
         },
         {
           "left": {
-            "ru": "Опыт: experience без артикля",
-            "en": "Experience as knowledge: no article"
+            "ru": "знания и стаж за годы работы",
+            "en": "knowledge from years of work"
           },
           "right": "She has years of experience in design."
         },
         {
           "left": {
-            "ru": "Отдельный случай: a/an + experience",
-            "en": "A single event: a/an + experience"
+            "ru": "яркое событие в жизни",
+            "en": "vivid event in life"
           },
           "right": "The journey was a wonderful experience."
         }
@@ -582,35 +618,35 @@
       "ruleId": "art-academic",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте значение и пример.",
+        "ru": "Сопоставьте смысл и пример.",
         "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Власть вообще — без артикля",
-            "en": "Power in general — no article"
+            "ru": "влияние и власть над людьми",
+            "en": "influence over people"
           },
           "right": "Power can change people very quickly."
         },
         {
           "left": {
-            "ru": "Сила чего-либо — the",
-            "en": "The power of something — the"
+            "ru": "сила разрушительного явления",
+            "en": "force of destructive event"
           },
           "right": "The power of the storm surprised everyone."
         },
         {
           "left": {
-            "ru": "Природа вокруг нас — без артикля",
-            "en": "Nature around us — no article"
+            "ru": "живой мир вокруг нас",
+            "en": "living world around us"
           },
           "right": "Nature recovers when people leave it alone."
         },
         {
           "left": {
-            "ru": "Суть чего-либо — the nature of",
-            "en": "The nature of something — the"
+            "ru": "суть сложной ситуации",
+            "en": "essence of complex situation"
           },
           "right": "The nature of the crisis was finally clear."
         }
@@ -630,35 +666,35 @@
       "ruleId": "art-academic",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте значение и пример.",
+        "ru": "Сопоставьте смысл и пример.",
         "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Космос — space без артикля",
-            "en": "Outer space — no article"
+            "ru": "безграничное космическое пространство",
+            "en": "endless outer space"
           },
           "right": "People have dreamt of travelling into space."
         },
         {
           "left": {
-            "ru": "Свободное место — a space",
-            "en": "A free place — a space"
+            "ru": "свободное место для машины",
+            "en": "free place for car"
           },
           "right": "There is a space for one more car."
         },
         {
           "left": {
-            "ru": "Опыт — experience без артикля",
-            "en": "Experience — no article"
+            "ru": "практические знания в преподавании",
+            "en": "practical knowledge in teaching"
           },
           "right": "He has a lot of experience in teaching."
         },
         {
           "left": {
-            "ru": "Отдельное переживание — an experience",
-            "en": "A single experience — an experience"
+            "ru": "событие, которое запомнилось",
+            "en": "memorable event"
           },
           "right": "The trip was an unforgettable experience."
         }
@@ -678,35 +714,35 @@
       "ruleId": "art-academic",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте значение и пример.",
+        "ru": "Сопоставьте смысл и пример.",
         "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "История как ход событий — без артикля",
-            "en": "History as events — no article"
+            "ru": "уроки о событиях прошлого",
+            "en": "lessons about past events"
           },
           "right": "History teaches us important lessons."
         },
         {
           "left": {
-            "ru": "История чего-либо — the history of",
-            "en": "The history of something — the"
+            "ru": "прошлое конкретного здания",
+            "en": "past of one building"
           },
           "right": "The history of this castle is fascinating."
         },
         {
           "left": {
-            "ru": "Общество в целом — без артикля",
-            "en": "Society as a whole — no article"
+            "ru": "мир людей и их связи",
+            "en": "world of people and their ties"
           },
           "right": "Society is changing faster than ever."
         },
         {
           "left": {
-            "ru": "Исчисляемое значение — организация (a society)",
-            "en": "A countable meaning — an organisation (a society)"
+            "ru": "клуб по интересам",
+            "en": "club for shared interest"
           },
           "right": "He joined a society for bird lovers."
         }
@@ -1601,35 +1637,35 @@
       "ruleId": "art-academic",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Of-фраза",
-            "en": "Of-phrase"
+            "ru": "часть целого предмета",
+            "en": "part of whole object"
           },
           "right": "The roof of the house was covered with snow."
         },
         {
           "left": {
-            "ru": "Относительное придаточное",
-            "en": "Relative clause"
+            "ru": "человек, известный по действию",
+            "en": "person known for action"
           },
           "right": "The girl who called you is my sister."
         },
         {
           "left": {
-            "ru": "Описание после существительного",
-            "en": "Description after the noun"
+            "ru": "человек, известный по внешнему виду",
+            "en": "person known for appearance"
           },
           "right": "The man in the black hat is a famous actor."
         },
         {
           "left": {
-            "ru": "Конкретизация по ситуации",
-            "en": "Specified by the situation"
+            "ru": "предмет, известный из ситуации за столом",
+            "en": "object known from situation at table"
           },
           "right": "Could you pass me the salt, please?"
         }
@@ -1649,37 +1685,37 @@
       "ruleId": "art-academic",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте способ конкретизации и пример.",
-        "en": "Match each way of specifying a noun with the example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "of-фраза",
-            "en": "of-phrase"
+            "ru": "деталь предмета через принадлежность",
+            "en": "part of object by belonging"
           },
           "right": "The handle of the door was broken."
         },
         {
           "left": {
-            "ru": "относительное придаточное",
-            "en": "relative clause"
+            "ru": "человек, известный по достижению",
+            "en": "person known for achievement"
           },
           "right": "The woman who won the prize is my aunt."
         },
         {
           "left": {
-            "ru": "описание после существительного",
-            "en": "description after the noun"
+            "ru": "человек, известный по вещи",
+            "en": "person known for item"
           },
           "right": "The boy with the red backpack is my brother."
         },
         {
           "left": {
-            "ru": "конкретизация по контексту",
-            "en": "specified by the context"
+            "ru": "предмет, известный по описанию места",
+            "en": "object known by place description"
           },
-          "right": "I opened the box and found the old letters inside."
+          "right": "The keys on the table are mine."
         }
       ],
       "explanation": {
@@ -1697,35 +1733,35 @@
       "ruleId": "art-academic",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте способ конкретизации и пример.",
-        "en": "Match each way of specifying a noun with the example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "of-фраза",
-            "en": "of-phrase"
+            "ru": "часть, связанная с предметом",
+            "en": "part connected with object"
           },
           "right": "The price of the ticket surprised everyone."
         },
         {
           "left": {
-            "ru": "относительное придаточное",
-            "en": "relative clause"
+            "ru": "группа людей, известная по результату",
+            "en": "group known for result"
           },
-          "right": "The students who passed the exam were very happy."
+          "right": "The students who passed the test were very happy."
         },
         {
           "left": {
-            "ru": "описание после существительного",
-            "en": "description after the noun"
+            "ru": "объект, известный по положению",
+            "en": "object known by position"
           },
           "right": "The car behind us drove very slowly."
         },
         {
           "left": {
-            "ru": "конкретизация по контексту",
-            "en": "specified by the context"
+            "ru": "предмет, узнанный по детали",
+            "en": "object recognised by detail"
           },
           "right": "She picked up a letter and recognised the handwriting."
         }
@@ -1745,35 +1781,35 @@
       "ruleId": "art-academic",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте способ конкретизации и пример.",
-        "en": "Match each way of specifying a noun with the example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "of-фраза",
-            "en": "of-phrase"
+            "ru": "внешняя часть книги",
+            "en": "outer part of book"
           },
           "right": "The cover of the book was bright red."
         },
         {
           "left": {
-            "ru": "относительное придаточное",
-            "en": "relative clause"
+            "ru": "событие, уточнённое придаточным предложением",
+            "en": "event specified by relative clause"
           },
           "right": "The film that we watched last night was boring."
         },
         {
           "left": {
-            "ru": "описание после существительного",
-            "en": "description after the noun"
+            "ru": "место, известное по расположению",
+            "en": "place known by location"
           },
           "right": "The shop on the corner sells fresh bread."
         },
         {
           "left": {
-            "ru": "конкретизация по контексту",
-            "en": "specified by the context"
+            "ru": "предмет, названный во второй раз",
+            "en": "object named for second time"
           },
           "right": "I received an email this morning, but the message made no sense."
         }
@@ -1793,35 +1829,35 @@
       "ruleId": "art-academic",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте способ конкретизации и пример.",
-        "en": "Match each way of specifying a noun with the example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "of-фраза",
-            "en": "of-phrase"
+            "ru": "финальная часть рассказа",
+            "en": "final part of story"
           },
           "right": "The end of the story was completely unexpected."
         },
         {
           "left": {
-            "ru": "относительное придаточное",
-            "en": "relative clause"
+            "ru": "человек, известный по работе и действию",
+            "en": "person known by job and action"
           },
           "right": "The man who fixed our car knew my father."
         },
         {
           "left": {
-            "ru": "описание после существительного",
-            "en": "description after the noun"
+            "ru": "человек, известный по одежде",
+            "en": "person known by clothing"
           },
           "right": "The girl in the blue dress is my cousin."
         },
         {
           "left": {
-            "ru": "конкретизация по контексту",
-            "en": "specified by the context"
+            "ru": "предмет, названный повторно",
+            "en": "object named again"
           },
           "right": "She bought a dress for the wedding, but the dress did not fit her."
         }
@@ -1966,35 +2002,35 @@
       "ruleId": "art-academic",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Превосходная степень",
-            "en": "Superlative degree"
+            "ru": "высшая степень качества среди группы",
+            "en": "highest degree of quality in group"
           },
           "right": "She is the youngest singer in the group."
         },
         {
           "left": {
-            "ru": "Порядковое числительное",
-            "en": "Ordinal number"
+            "ru": "номер по счёту в последовательности",
+            "en": "number in order in sequence"
           },
           "right": "This is the second time I have visited London."
         },
         {
           "left": {
-            "ru": "Единственный в своём роде",
-            "en": "The only one"
+            "ru": "единственный без альтернативы",
+            "en": "single without alternative"
           },
           "right": "He is the only student who knows the answer."
         },
         {
           "left": {
-            "ru": "Тот же самый",
-            "en": "The same"
+            "ru": "совпадение с прошлым выбором",
+            "en": "match with past choice"
           },
           "right": "We are going to the same restaurant as last year."
         }
@@ -2014,35 +2050,35 @@
       "ruleId": "art-academic",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with the example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "превосходная степень",
-            "en": "superlative degree"
+            "ru": "высшая скорость среди всех",
+            "en": "highest speed among all"
           },
           "right": "She is the fastest runner in our school."
         },
         {
           "left": {
-            "ru": "порядковое числительное",
-            "en": "ordinal number"
+            "ru": "начальный день сезона",
+            "en": "first day of season"
           },
           "right": "Today is the first day of spring."
         },
         {
           "left": {
-            "ru": "the only — единственный",
-            "en": "the only"
+            "ru": "единственный из приглашённых",
+            "en": "only person invited"
           },
           "right": "He was the only guest who arrived early."
         },
         {
           "left": {
-            "ru": "the same — тот же самый",
-            "en": "the same"
+            "ru": "повтор прошлого заказа",
+            "en": "repeat of past order"
           },
           "right": "We ordered the same soup as our friends."
         }
@@ -2062,35 +2098,35 @@
       "ruleId": "art-academic",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with the example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "превосходная степень",
-            "en": "superlative degree"
+            "ru": "высшая оценка красоты",
+            "en": "highest beauty rating"
           },
           "right": "This is the most beautiful garden I have ever seen."
         },
         {
           "left": {
-            "ru": "порядковое числительное",
-            "en": "ordinal number"
+            "ru": "уровень здания по номеру",
+            "en": "building level by number"
           },
           "right": "Her office is on the second floor."
         },
         {
           "left": {
-            "ru": "the next — следующий",
-            "en": "the next"
+            "ru": "ближайший по расписанию",
+            "en": "closest by schedule"
           },
           "right": "The next bus leaves at half past five."
         },
         {
           "left": {
-            "ru": "the last — последний",
-            "en": "the last"
+            "ru": "финальный по времени",
+            "en": "final by time"
           },
           "right": "That was the last train to the city."
         }
@@ -2110,35 +2146,35 @@
       "ruleId": "art-academic",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with the example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "превосходная степень",
-            "en": "superlative degree"
+            "ru": "самая низкая температура сезона",
+            "en": "lowest temperature of season"
           },
           "right": "Winter is the coldest season in this region."
         },
         {
           "left": {
-            "ru": "the only — единственный",
-            "en": "the only"
+            "ru": "единственный подходящий предмет",
+            "en": "only suitable object"
           },
           "right": "This is the only key to the safe."
         },
         {
           "left": {
-            "ru": "the same — тот же самый",
-            "en": "the same"
+            "ru": "повтор летнего выбора",
+            "en": "repeat of summer choice"
           },
           "right": "They chose the same hotel as last summer."
         },
         {
           "left": {
-            "ru": "порядковое числительное",
-            "en": "ordinal number"
+            "ru": "этап гонки по номеру",
+            "en": "race stage by number"
           },
           "right": "He finished the third lap in record time."
         }
@@ -2158,35 +2194,35 @@
       "ruleId": "art-academic",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with the example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "превосходная степень",
-            "en": "superlative degree"
+            "ru": "лучший повар среди родных",
+            "en": "best cook among family"
           },
           "right": "He is the best cook in our family."
         },
         {
           "left": {
-            "ru": "the last — последний",
-            "en": "the last"
+            "ru": "финальный рейс дня",
+            "en": "final ferry of day"
           },
           "right": "We caught the last ferry to the island."
         },
         {
           "left": {
-            "ru": "the next — следующий",
-            "en": "the next"
+            "ru": "следующее сообщение по расписанию",
+            "en": "following scheduled message"
           },
           "right": "Please wait for the next announcement."
         },
         {
           "left": {
-            "ru": "порядковое числительное",
-            "en": "ordinal number"
+            "ru": "вопрос под номером пять",
+            "en": "question number five"
           },
           "right": "She answered the fifth question correctly."
         }

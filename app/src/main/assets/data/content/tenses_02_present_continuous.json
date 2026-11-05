@@ -35,6 +35,12 @@
             "She is not sleeping.",
             "Are you listening?",
             "They are playing football."
+          ],
+          "exampleTranslations": [
+            "Я читаю.",
+            "Она не спит.",
+            "Ты слушаешь?",
+            "Они играют в футбол."
           ]
         },
         {
@@ -52,6 +58,13 @@
             "We are meeting at six tomorrow.",
             "Prices are going up.",
             "He is always losing his keys."
+          ],
+          "exampleTranslations": [
+            "Смотри! Идёт дождь.",
+            "В этом месяце я живу у друзей.",
+            "Завтра мы встречаемся в шесть.",
+            "Цены растут.",
+            "Он вечно теряет свои ключи."
           ]
         },
         {
@@ -68,6 +81,12 @@
             "They are decorating the flat at the moment.",
             "He is learning to drive these days.",
             "Listen! The baby is crying."
+          ],
+          "exampleTranslations": [
+            "Сейчас она разговаривает по телефону.",
+            "В данный момент они делают ремонт в квартире.",
+            "В последнее время он учится водить машину.",
+            "Слушай! Малыш плачет."
           ]
         }
       ]
@@ -771,42 +790,42 @@
       "ruleId": "tense-present-continuous",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте форму Present Continuous и пример.",
-        "en": "Match each Present Continuous form with the example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Утверждение: am + V-ing",
-            "en": "Affirmative: am + V-ing"
+            "ru": "человек ждёт такси прямо сейчас",
+            "en": "someone is waiting for a taxi right now"
           },
           "right": "I am waiting for a taxi."
         },
         {
           "left": {
-            "ru": "Утверждение: is + V-ing",
-            "en": "Affirmative: is + V-ing"
+            "ru": "на кухне готовят ужин в этот момент",
+            "en": "dinner is being cooked right now"
           },
           "right": "She is cooking dinner."
         },
         {
           "left": {
-            "ru": "Утверждение: are + V-ing",
-            "en": "Affirmative: are + V-ing"
+            "ru": "они увлечены шахматами прямо сейчас",
+            "en": "they are busy playing chess right now"
           },
           "right": "They are playing chess."
         },
         {
           "left": {
-            "ru": "Отрицание: is not + V-ing",
-            "en": "Negative: is not + V-ing"
+            "ru": "уже поздно, но кто-то ещё не спит",
+            "en": "it is late but someone is not asleep"
           },
           "right": "He is not sleeping."
         }
       ],
       "explanation": {
-        "ru": "Форма be согласуется с подлежащим, а смысловой глагол получает -ing; отрицание добавляет not к be.",
-        "en": "The form of be agrees with the subject, the main verb takes -ing, and the negative adds not to be."
+        "ru": "Все примеры описывают действие, которое происходит прямо сейчас, — это Present Continuous.",
+        "en": "All the examples describe an action happening right now — the Present Continuous."
       },
       "tags": [
         "tense-present-continuous",
@@ -821,34 +840,34 @@
       "level": "A1",
       "prompt": {
         "ru": "Сопоставьте значение и пример.",
-        "en": "Match each meaning with the example."
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Действие в момент речи",
-            "en": "Action at the moment of speaking"
+            "ru": "действие в момент речи",
+            "en": "an action at the moment of speaking"
           },
           "right": "The children are having lunch now."
         },
         {
           "left": {
-            "ru": "Временная ситуация",
-            "en": "Temporary situation"
+            "ru": "временная ситуация",
+            "en": "a temporary situation"
           },
           "right": "I am living with my aunt this month."
         },
         {
           "left": {
-            "ru": "Договорённый план на будущее",
-            "en": "Fixed future arrangement"
+            "ru": "договорённый план на будущее",
+            "en": "a fixed future arrangement"
           },
           "right": "We are meeting Anna tomorrow evening."
         },
         {
           "left": {
-            "ru": "Изменение или тенденция",
-            "en": "Change or trend"
+            "ru": "изменение или тенденция",
+            "en": "a change or trend"
           },
           "right": "More people are working from home these days."
         }
@@ -869,42 +888,42 @@
       "ruleId": "tense-present-continuous",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте маркер времени и пример.",
-        "en": "Match each time marker with the example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "now — сейчас",
-            "en": "now — сейчас"
+            "ru": "она говорит по телефону прямо сейчас",
+            "en": "she is on the phone right now"
           },
           "right": "She is talking on the phone now."
         },
         {
           "left": {
-            "ru": "at the moment — в данный момент",
-            "en": "at the moment — в данный момент"
+            "ru": "они делают ремонт в квартире в данный момент",
+            "en": "they are renovating the flat at this moment"
           },
           "right": "They are decorating the flat at the moment."
         },
         {
           "left": {
-            "ru": "these days — в последнее время",
-            "en": "these days — в последнее время"
+            "ru": "в последнее время он учится водить машину",
+            "en": "he is learning to drive these days"
           },
           "right": "He is learning to drive these days."
         },
         {
           "left": {
-            "ru": "Look! — смотри!",
-            "en": "Look! — смотри!"
+            "ru": "смотри — автобус подъезжает",
+            "en": "look, the bus is approaching"
           },
           "right": "Look! The bus is coming."
         }
       ],
       "explanation": {
-        "ru": "Маркеры now, at the moment, these days и восклицание Look! показывают, что действие происходит вокруг настоящего.",
-        "en": "The markers now, at the moment, these days and the exclamation Look! show that the action is happening around now."
+        "ru": "Маркеры now, at the moment, these days и Look! указывают, что действие происходит в момент речи.",
+        "en": "The markers now, at the moment, these days and Look! show that the action is happening at the moment of speaking."
       },
       "tags": [
         "tense-present-continuous",
@@ -918,42 +937,42 @@
       "ruleId": "tense-present-continuous",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте правило написания -ing и пример.",
-        "en": "Match each -ing spelling rule with the example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "make → making: выпадает e",
-            "en": "make → making: e is dropped"
+            "ru": "на кухне мама готовит суп",
+            "en": "mum is cooking soup in the kitchen"
           },
           "right": "My mother is making soup."
         },
         {
           "left": {
-            "ru": "run → running: удвоение согласной",
-            "en": "run → running: the consonant doubles"
+            "ru": "дети бегут к автобусу",
+            "en": "the children are running towards the bus"
           },
           "right": "The children are running to the bus."
         },
         {
           "left": {
-            "ru": "lie → lying: ie переходит в y",
-            "en": "lie → lying: ie becomes y"
+            "ru": "кот лежит на солнце",
+            "en": "the cat is lying in the sun"
           },
           "right": "The cat is lying in the sun."
         },
         {
           "left": {
-            "ru": "study → studying: y сохраняется",
-            "en": "study → studying: y stays"
+            "ru": "в колледже они изучают английский",
+            "en": "they are learning English at college"
           },
           "right": "They are studying English at college."
         }
       ],
       "explanation": {
-        "ru": "При добавлении -ing конечная e выпадает, короткая согласная после гласной удваивается, а -ie переходит в -y.",
-        "en": "When -ing is added, a final e is dropped, a short consonant after a vowel doubles, and -ie becomes -y."
+        "ru": "Каждый пример — действие, которое происходит сейчас, и все глаголы стоят в форме -ing.",
+        "en": "Each example is an action happening now, and all the verbs are in the -ing form."
       },
       "tags": [
         "tense-present-continuous",
@@ -967,42 +986,42 @@
       "ruleId": "tense-present-continuous",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте ситуацию и пример.",
-        "en": "Match each situation with the example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "usually — привычка, Present Simple",
-            "en": "usually — a habit, Present Simple"
+            "ru": "регулярная привычка: обычно она ходит в школу пешком",
+            "en": "a regular habit: she usually walks to school"
           },
           "right": "She usually walks to school."
         },
         {
           "left": {
-            "ru": "today — временная ситуация, Present Continuous",
-            "en": "today — a temporary situation, Present Continuous"
+            "ru": "только сегодня она идёт в школу пешком",
+            "en": "only today she is walking to school"
           },
           "right": "She is walking to school today."
         },
         {
           "left": {
-            "ru": "every day — привычка",
-            "en": "every day — a habit"
+            "ru": "повседневная привычка играть в футбол",
+            "en": "a daily habit of playing football"
           },
           "right": "They play football every day."
         },
         {
           "left": {
-            "ru": "this week — временная ситуация",
-            "en": "this week — a temporary situation"
+            "ru": "временное положение: он гостит у нас на этой неделе",
+            "en": "a temporary situation: he is staying with us this week"
           },
           "right": "He is staying with us this week."
         }
       ],
       "explanation": {
-        "ru": "Для привычек используется Present Simple, а для временных ситуаций вокруг настоящего — Present Continuous.",
-        "en": "Habits take Present Simple, while temporary situations around now take Present Continuous."
+        "ru": "Постоянная привычка требует Present Simple, а временное изменение или ситуация — Present Continuous.",
+        "en": "A permanent habit takes the Present Simple, while a temporary change or situation takes the Present Continuous."
       },
       "tags": [
         "tense-present-continuous",
@@ -3015,42 +3034,42 @@
       "ruleId": "tense-present-continuous",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте тип предложения и пример.",
-        "en": "Match each sentence type with the example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "(+) утверждение: is + V-ing",
-            "en": "(+) affirmative: is + V-ing"
+            "ru": "она занята книгой прямо сейчас",
+            "en": "she is busy with a book right now"
           },
           "right": "She is reading a book."
         },
         {
           "left": {
-            "ru": "(–) отрицание: are not + V-ing",
-            "en": "(–) negative: are not + V-ing"
+            "ru": "телевизор не смотрят — они заняты другим",
+            "en": "the TV is not being watched"
           },
           "right": "They are not watching TV."
         },
         {
           "left": {
-            "ru": "(?) вопрос: Is + V-ing?",
-            "en": "(?) question: Is + V-ing?"
+            "ru": "нужно узнать, спит ли он",
+            "en": "we want to know if he is asleep"
           },
           "right": "Is he sleeping?"
         },
         {
           "left": {
-            "ru": "краткий ответ",
-            "en": "short answer"
+            "ru": "мы ждём результаты в этот момент",
+            "en": "we are waiting for the results right now"
           },
-          "right": "Yes, she is."
+          "right": "We are waiting for the results."
         }
       ],
       "explanation": {
-        "ru": "Формула: am / is / are + V-ing; отрицание добавляет not, вопрос начинается с формы be.",
-        "en": "The formula is am / is / are + V-ing; the negative adds not and the question begins with the form of be."
+        "ru": "Примеры показывают утверждение, отрицание и вопрос о действиях, которые происходят сейчас.",
+        "en": "The examples show a statement, a negative and a question about actions happening now."
       },
       "tags": [
         "tense-present-continuous",
@@ -3064,42 +3083,42 @@
       "ruleId": "tense-present-continuous",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте правило написания и пример.",
-        "en": "Match each spelling rule with the example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "make → making: выпадает e",
-            "en": "make → making: e is dropped"
+            "ru": "она готовит ужин",
+            "en": "she is cooking dinner"
           },
           "right": "She is making dinner."
         },
         {
           "left": {
-            "ru": "run → running: удвоение",
-            "en": "run → running: consonant doubles"
+            "ru": "во дворе бегает собака",
+            "en": "a dog is running outside"
           },
           "right": "The dog is running outside."
         },
         {
           "left": {
-            "ru": "написание: lie → lying: ie → y",
-            "en": "lie → lying: ie becomes y"
+            "ru": "кот лежит на кровати",
+            "en": "the cat is lying on the bed"
           },
           "right": "The cat is lying on the bed."
         },
         {
           "left": {
-            "ru": "написание: study → studying",
-            "en": "study → studying"
+            "ru": "он занимается в своей комнате",
+            "en": "he is studying in his room"
           },
           "right": "He is studying in his room."
         }
       ],
       "explanation": {
-        "ru": "Перед -ing конечная e выпадает, короткая согласная удваивается, -ie переходит в -y.",
-        "en": "Before -ing a final e is dropped, a short consonant doubles, and -ie becomes -y."
+        "ru": "Перед нами сцены: действия происходят сейчас, а глаголы имеют форму -ing.",
+        "en": "We see scenes: the actions are happening now and the verbs are in the -ing form."
       },
       "tags": [
         "tense-present-continuous",
@@ -3113,42 +3132,42 @@
       "ruleId": "tense-present-continuous",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте маркер и пример.",
-        "en": "Match each marker with the example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "now — сейчас",
-            "en": "now — сейчас"
+            "ru": "я занят работой прямо сейчас",
+            "en": "I am busy with work right now"
           },
           "right": "I am working now."
         },
         {
           "left": {
-            "ru": "at the moment — в данный момент",
-            "en": "at the moment — в данный момент"
+            "ru": "она разговаривает в данный момент",
+            "en": "she is speaking at this moment"
           },
           "right": "She is talking at the moment."
         },
         {
           "left": {
-            "ru": "Look! — смотри!",
-            "en": "Look! — смотри!"
+            "ru": "смотри — идёт снег",
+            "en": "look, it is snowing"
           },
           "right": "Look! It is snowing."
         },
         {
           "left": {
-            "ru": "this week — на этой неделе",
-            "en": "this week — на этой неделе"
+            "ru": "на этой неделе мы живём в гостинице",
+            "en": "this week we are staying in a hotel"
           },
           "right": "We are staying in a hotel this week."
         }
       ],
       "explanation": {
-        "ru": "Маркеры now, at the moment, Look! и this week показывают действие вокруг настоящего.",
-        "en": "The markers now, at the moment, Look! and this week show an action around now."
+        "ru": "Маркеры now, at the moment, Look! и this week показывают действие в настоящем моменте или временную ситуацию.",
+        "en": "The markers now, at the moment, Look! and this week show an action at the present moment or a temporary situation."
       },
       "tags": [
         "tense-present-continuous",
@@ -3163,41 +3182,41 @@
       "level": "A1",
       "prompt": {
         "ru": "Сопоставьте значение и пример.",
-        "en": "Match each meaning with the example."
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "действие сейчас",
-            "en": "action now"
+            "ru": "дети играют на улице прямо сейчас",
+            "en": "the children are playing outside right now"
           },
           "right": "The children are playing outside."
         },
         {
           "left": {
-            "ru": "временная ситуация",
-            "en": "temporary situation"
+            "ru": "двоюродная сестра гостит у нас в этом месяце — временно",
+            "en": "my cousin is staying with us this month"
           },
           "right": "My cousin is staying with us this month."
         },
         {
           "left": {
-            "ru": "план на будущее",
-            "en": "future arrangement"
+            "ru": "мы встречаемся в шесть завтра — договорённость",
+            "en": "we are meeting at six tomorrow"
           },
           "right": "We are meeting at six tomorrow."
         },
         {
           "left": {
-            "ru": "изменение или тенденция",
-            "en": "change or trend"
+            "ru": "цены растут — это тенденция",
+            "en": "prices are going up — a trend"
           },
           "right": "Prices are going up."
         }
       ],
       "explanation": {
-        "ru": "Present Continuous называет действие сейчас, временную ситуацию, договорённый план и тенденцию.",
-        "en": "Present Continuous names an action now, a temporary situation, a fixed arrangement and a trend."
+        "ru": "Примеры показывают действие сейчас, временную ситуацию, договорённость и тенденцию — все они требуют Present Continuous.",
+        "en": "The examples show an action now, a temporary situation, an arrangement and a trend — all taking the present continuous."
       },
       "tags": [
         "tense-present-continuous",
@@ -3211,42 +3230,42 @@
       "ruleId": "tense-present-continuous",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте время и пример.",
-        "en": "Match each tense with the example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "обычно — Present Simple",
-            "en": "usually — Present Simple"
+            "ru": "обычная привычка: на работу пешком",
+            "en": "a usual habit: walking to work"
           },
           "right": "He usually walks to work."
         },
         {
           "left": {
-            "ru": "сейчас — Present Continuous",
-            "en": "now — Present Continuous"
+            "ru": "сегодня в данный момент он идёт на работу",
+            "en": "today, at this moment, he is walking to work"
           },
           "right": "He is walking to work now."
         },
         {
           "left": {
-            "ru": "каждый день — Present Simple",
-            "en": "every day — Present Simple"
+            "ru": "ежедневная привычка читать",
+            "en": "a daily habit of reading"
           },
           "right": "She reads every day."
         },
         {
           "left": {
-            "ru": "в данный момент — Present Continuous",
-            "en": "at the moment — Present Continuous"
+            "ru": "прямо сейчас она занята чтением",
+            "en": "she is busy reading right now"
           },
           "right": "She is reading at the moment."
         }
       ],
       "explanation": {
-        "ru": "Привычка требует Present Simple, действие сейчас — Present Continuous.",
-        "en": "A habit takes Present Simple, while an action now takes Present Continuous."
+        "ru": "Наречия usually и every day указывают на привычку, а now и at the moment — на действие прямо сейчас.",
+        "en": "Usually and every day point to a habit, while now and at the moment point to an action happening right now."
       },
       "tags": [
         "tense-present-continuous",

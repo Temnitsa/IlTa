@@ -29,6 +29,8 @@ data class RuleSection(
     val heading: Bilingual = Bilingual(),
     val body: Bilingual = Bilingual(),
     val examples: List<String> = emptyList(),
+    /** Optional Russian translations aligned with [examples] (same order). */
+    val exampleTranslations: List<String> = emptyList(),
 )
 
 @Serializable

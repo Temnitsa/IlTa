@@ -35,6 +35,12 @@
             "He will not have been working here long by then.",
             "Will you have been living here for ten years next month?",
             "By next week they will have been waiting for a month."
+          ],
+          "exampleTranslations": [
+            "К июню я буду учить английский уже пять лет.",
+            "К тому моменту он проработает здесь недолго.",
+            "В следующем месяце ты будешь жить здесь уже десять лет?",
+            "К следующей неделе они будут ждать уже месяц."
           ]
         },
         {
@@ -49,7 +55,14 @@
           "examples": [
             "By the time we stop, we will have been driving for eight hours.",
             "When the match ends, the players will have been running all morning.",
-            "By next week they will have been waiting for a month."
+            "By the time the guests arrive, we will have been cooking for hours.",
+            "He will be exhausted because he will have been working all day."
+          ],
+          "exampleTranslations": [
+            "К тому времени, как мы остановимся, мы будем ехать уже восемь часов.",
+            "Когда матч закончится, игроки будут бегать всё утро.",
+            "К тому времени, как придут гости, мы будем готовить уже несколько часов.",
+            "Он будет вымотан, потому что будет работать весь день."
           ]
         },
         {
@@ -65,6 +78,11 @@
             "By 2035 she will have been running the company for twenty-five years.",
             "By then I will have been waiting for two hours.",
             "Next month she will have been working here for a decade."
+          ],
+          "exampleTranslations": [
+            "К 2035 году она будет руководить компанией уже двадцать пять лет.",
+            "К тому моменту я буду ждать уже два часа.",
+            "В следующем месяце она проработает здесь десять лет."
           ]
         }
       ]
@@ -3771,42 +3789,42 @@
       "ruleId": "tense-future-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте значение Future Perfect Continuous и пример.",
-        "en": "Match each use of the Future Perfect Continuous with an example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Длительность до момента в будущем",
-            "en": "Duration up to a future moment"
+            "ru": "длительность до момента в будущем: к июню три года",
+            "en": "duration up to a future moment: three years by June"
           },
           "right": "By June I will have been working here for three years."
         },
         {
           "left": {
-            "ru": "Процесс, который длится к моменту",
-            "en": "A process still going on at the moment"
+            "ru": "процесс всё ещё идёт к моменту события",
+            "en": "the process is still going on at the moment of the event"
           },
           "right": "When you arrive, the meeting will have been going on for two hours."
         },
         {
           "left": {
-            "ru": "Подчёркнутая длительность перед событием",
-            "en": "Emphasised duration before an event"
+            "ru": "подчёркнутая длительность перед событием",
+            "en": "emphasised duration before an event"
           },
           "right": "By the time you finish the novel, you will have been reading it for a month."
         },
         {
           "left": {
-            "ru": "Длительное действие с результатом к сроку",
-            "en": "A long action with a result by the deadline"
+            "ru": "длительное действие с результатом к сроку",
+            "en": "a long action with a result by the deadline"
           },
           "right": "By the end of the race, the runners will have been running for over four hours."
         }
       ],
       "explanation": {
         "ru": "Каждый пример показывает, как долго действие будет длиться к определённому моменту будущего.",
-        "en": "Each example shows how long an action will have been going on up to a particular future moment."
+        "en": "Each example shows how long an action will have lasted by a particular future moment."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3819,42 +3837,42 @@
       "ruleId": "tense-future-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте временной маркер и пример.",
-        "en": "Match each time marker with an example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "by + срок + for + период",
-            "en": "by + deadline + for + period"
+            "ru": "к 2040 году они будут держать магазин тридцать лет",
+            "en": "by 2040 they will have been running the shop for thirty years"
           },
           "right": "By 2040 they will have been running the shop for thirty years."
         },
         {
           "left": {
-            "ru": "by the time + настоящее время",
-            "en": "by the time + present tense"
+            "ru": "к нашему приезду мы будем ехать уже шесть часов",
+            "en": "by the time we get there, we will have been driving for six hours"
           },
           "right": "By the time we get there, we will have been driving for six hours."
         },
         {
           "left": {
-            "ru": "by then + for + период — к тому моменту",
-            "en": "by then + for"
+            "ru": "к тому моменту она будет ждать два часа",
+            "en": "by then she will have been waiting for two hours"
           },
           "right": "By then she will have been waiting for two hours."
         },
         {
           "left": {
-            "ru": "next month + for + период — в следующем месяце",
-            "en": "next month + for"
+            "ru": "в следующем месяце они будут жить там год",
+            "en": "next month they will have been living there for a year"
           },
           "right": "Next month they will have been living there for a year."
         }
       ],
       "explanation": {
         "ru": "Во всех примерах срок (by, by the time, by then, next month) соединяется с длительностью for + период.",
-        "en": "In all the examples a deadline (by, by the time, by then, next month) is combined with the duration for + a period."
+        "en": "In all the examples a deadline (by, by the time, by then, next month) is combined with a duration of for + period."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3867,42 +3885,42 @@
       "ruleId": "tense-future-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте форму и пример.",
-        "en": "Match each form with an example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Утвердительная форма",
-            "en": "Affirmative form"
+            "ru": "к июню я буду работать здесь пять лет",
+            "en": "by June I will have been working here for five years"
           },
           "right": "I will have been working here for five years by June."
         },
         {
           "left": {
-            "ru": "Отрицательная форма",
-            "en": "Negative form"
+            "ru": "к тому моменту она будет учиться недолго",
+            "en": "by then she will not have been studying long"
           },
           "right": "She will not have been studying long by then."
         },
         {
           "left": {
-            "ru": "Общий вопрос",
-            "en": "Yes/no question"
+            "ru": "в следующем месяце ты будешь работать здесь десять лет?",
+            "en": "asking whether you will have been working here for ten years next month"
           },
           "right": "Will you have been working here for ten years next month?"
         },
         {
           "left": {
-            "ru": "Специальный вопрос",
-            "en": "Wh-question"
+            "ru": "сколько ты будешь учиться к экзамену?",
+            "en": "asking how long you will have been studying by the exam"
           },
           "right": "How long will you have been studying by the exam?"
         }
       ],
       "explanation": {
         "ru": "Future Perfect Continuous: will have been + -ing; отрицание will not have been + -ing; в вопросе will ставится перед подлежащим.",
-        "en": "Future Perfect Continuous: will have been + -ing; the negative is will not have been + -ing; in questions will comes before the subject."
+        "en": "The future perfect continuous is will have been + -ing; the negative is will not have been + -ing; in a question will comes before the subject."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3915,42 +3933,42 @@
       "ruleId": "tense-future-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте форму с подходящим примером.",
-        "en": "Match each form with the best example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "will have been doing — длительность к сроку",
-            "en": "will have been doing — duration up to a deadline"
+            "ru": "длительность к сроку: две недели к понедельнику",
+            "en": "duration up to a deadline: two weeks by Monday"
           },
           "right": "By Monday I will have been working on the project for two weeks."
         },
         {
           "left": {
-            "ru": "will have done — завершённость к сроку",
-            "en": "will have done — completion by a deadline"
+            "ru": "завершённость к сроку: проект готов к понедельнику",
+            "en": "completion by a deadline: the project done by Monday"
           },
           "right": "By Monday I will have finished the project."
         },
         {
           "left": {
-            "ru": "will be doing — процесс в момент",
-            "en": "will be doing — a process at a moment"
+            "ru": "в восемь утра я буду работать над проектом",
+            "en": "at eight tomorrow I will be working on the project"
           },
           "right": "At eight tomorrow I will be working on the project."
         },
         {
           "left": {
-            "ru": "will do — решение или обещание",
-            "en": "will do — a decision or promise"
+            "ru": "решение начать в понедельник",
+            "en": "a decision to start on Monday"
           },
           "right": "I will start the project on Monday."
         }
       ],
       "explanation": {
         "ru": "Future Perfect Continuous показывает длительность до срока, Future Perfect — завершённость, Future Continuous — процесс в момент, Future Simple — решение.",
-        "en": "The Future Perfect Continuous shows duration up to a deadline, the Future Perfect completion, the Future Continuous a process at a moment, and the Future Simple a decision."
+        "en": "The future perfect continuous shows duration up to a deadline, the future perfect completion, the future continuous a process at a moment, and the future simple a decision."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -3963,42 +3981,42 @@
       "ruleId": "tense-future-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте ситуацию и предложение.",
-        "en": "Match each situation with a sentence."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "К сроку исполнится десять лет стажа",
-            "en": "By the deadline the experience will reach ten years"
+            "ru": "к следующему апрелю он преподаёт в школе десять лет",
+            "en": "by next April he will have been teaching at the school for ten years"
           },
           "right": "By next April he will have been teaching at the school for ten years."
         },
         {
           "left": {
-            "ru": "К моменту события действие долго длится",
-            "en": "By the event the action will have lasted a long time"
+            "ru": "к приходу гостей мы готовим с утра",
+            "en": "by the time the guests arrive we will have been cooking since morning"
           },
           "right": "When the guests arrive, we will have been cooking since morning."
         },
         {
           "left": {
-            "ru": "К концу периода длительность достигнет значения",
-            "en": "By the end of the period the duration will reach a value"
+            "ru": "к концу тура музыканты играют вместе год",
+            "en": "by the end of the tour the musicians will have been playing together for a year"
           },
           "right": "By the end of the tour, the musicians will have been playing together for a year."
         },
         {
           "left": {
-            "ru": "Длительное ожидание к моменту возвращения",
-            "en": "A long wait by the moment of return"
+            "ru": "к твоему возвращению я буду ждать два часа",
+            "en": "by the time you come back I will have been waiting for two hours"
           },
           "right": "By the time you come back, I will have been waiting for two hours."
         }
       ],
       "explanation": {
         "ru": "Во всех предложениях Future Perfect Continuous выражает длительность, которая будет достигнута к указанному моменту.",
-        "en": "In all the sentences the Future Perfect Continuous expresses a duration that will be reached by the stated moment."
+        "en": "In all the sentences the future perfect continuous expresses a duration that will be reached by a stated moment."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -4011,42 +4029,42 @@
       "ruleId": "tense-future-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте вопрос и краткий ответ.",
-        "en": "Match each question with a short answer."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "В следующем месяце будет десять лет, как ты живёшь в этом городе?",
-            "en": "Will you have been living in this city for ten years next month?"
+            "ru": "в следующем месяце будет десять лет, как я живу в этом городе",
+            "en": "next month it will be ten years that I have lived in this city"
           },
-          "right": "Yes, I will have been living here for ten years next month."
+          "right": "Next month I will have been living in this city for ten years."
         },
         {
           "left": {
-            "ru": "К нашему приходу они будут ждать два часа?",
-            "en": "Will they have been waiting for two hours by the time we arrive?"
+            "ru": "к нашему приходу они будут ждать два часа",
+            "en": "by our arrival they will have been waiting for two hours"
           },
-          "right": "Yes, they will have been waiting at the gate since noon."
+          "right": "They will have been waiting for two hours by the time we arrive."
         },
         {
           "left": {
-            "ru": "К июню она будет учиться здесь год?",
-            "en": "Will she have been studying here for a year by June?"
+            "ru": "к июню она будет учиться здесь год",
+            "en": "by June she will have been studying here for a year"
           },
-          "right": "No, she will not have been studying here for a year by June."
+          "right": "By June she will have been studying here for a year."
         },
         {
           "left": {
-            "ru": "К полуночи они будут работать шесть часов?",
-            "en": "Will they have been working for six hours by midnight?"
+            "ru": "к полуночи они будут работать шесть часов",
+            "en": "by midnight they will have been working for six hours"
           },
-          "right": "No, they will not have been working for six hours by midnight."
+          "right": "They will have been working for six hours by midnight."
         }
       ],
       "explanation": {
-        "ru": "Вопрос о длительности к сроку строится с will … have been + V-ing, а краткий ответ повторяет ту же форму.",
-        "en": "A question about duration up to a deadline uses will … have been + V-ing, and the short answer repeats the same form."
+        "ru": "Примеры показывают длительность, которая будет достигнута к указанному моменту: will have been + -ing.",
+        "en": "The examples show a duration that will be reached by a stated moment: will have been + -ing."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -4060,42 +4078,42 @@
       "ruleId": "tense-future-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте временной маркер и предложение.",
-        "en": "Match each time marker with a sentence."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "by + срок + for + период",
-            "en": "by + deadline + for + period"
+            "ru": "к следующему декабрю он будет жить в Берлине десять лет",
+            "en": "by next December he will have been living in Berlin for ten years"
           },
           "right": "By next December he will have been living in Berlin for ten years."
         },
         {
           "left": {
-            "ru": "by the time + настоящее + for",
-            "en": "by the time + present + for"
+            "ru": "к концу фильма мы будем сидеть здесь три часа",
+            "en": "by the time the film ends we will have been sitting here for three hours"
           },
           "right": "By the time the film ends, we will have been sitting here for three hours."
         },
         {
           "left": {
-            "ru": "by then + for + период — к тому моменту",
-            "en": "by then + for"
+            "ru": "к тому моменту она будет изучать медицину шесть лет",
+            "en": "by then she will have been studying medicine for six years"
           },
           "right": "By then she will have been studying medicine for six years."
         },
         {
           "left": {
-            "ru": "next month + for + период — в следующем месяце",
-            "en": "next month + for"
+            "ru": "в следующем месяце мы будем держать это кафе два года",
+            "en": "next month we will have been running this cafe for two years"
           },
           "right": "Next month we will have been running this café for two years."
         }
       ],
       "explanation": {
         "ru": "Каждый маркер соединяет срок и длительность: к моменту в будущем действие будет длиться указанный период.",
-        "en": "Each marker combines a deadline and a duration: by that future moment the action will have been going on for the stated period."
+        "en": "Each marker joins a deadline and a duration: by a future moment the action will have lasted for a stated period."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -4109,35 +4127,35 @@
       "ruleId": "tense-future-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте ошибку и исправленное предложение.",
-        "en": "Match each mistake with the corrected sentence."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "❌ She will have been work here for five years. — ошибка в форме",
-            "en": "❌ She will have been work here for five years."
+            "ru": "она будет работать здесь пять лет",
+            "en": "she will have been working here for five years"
           },
           "right": "She will have been working here for five years."
         },
         {
           "left": {
-            "ru": "❌ By June I will have been worked here for a year. — ошибка в форме",
-            "en": "❌ By June I will have been worked here for a year."
+            "ru": "к июню я буду работать здесь год",
+            "en": "by June I will have been working here for a year"
           },
           "right": "By June I will have been working here for a year."
         },
         {
           "left": {
-            "ru": "❌ Will you have been study for two hours? — ошибка в форме",
-            "en": "❌ Will you have been study for two hours?"
+            "ru": "ты будешь заниматься два часа?",
+            "en": "asking whether you will have been studying for two hours"
           },
           "right": "Will you have been studying for two hours?"
         },
         {
           "left": {
-            "ru": "❌ They will not have been waited for long. — ошибка в форме",
-            "en": "❌ They will not have been waited for long."
+            "ru": "они будут ждать недолго",
+            "en": "they will not have been waiting for long"
           },
           "right": "They will not have been waiting for long."
         }
@@ -4158,42 +4176,42 @@
       "ruleId": "tense-future-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте ситуацию и предложение.",
-        "en": "Match each situation with a sentence."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "К сроку длительность достигнет пятнадцати лет",
-            "en": "By the deadline the duration will reach fifteen years"
+            "ru": "к сроку длительность достигнет пятнадцати лет",
+            "en": "by the deadline the duration will reach fifteen years"
           },
           "right": "By 2030 he will have been teaching for fifteen years."
         },
         {
           "left": {
-            "ru": "Действие длится к моменту другого события",
-            "en": "The action lasts up to another event"
+            "ru": "действие длится к моменту другого события",
+            "en": "the action lasts up to another event"
           },
           "right": "By the time the guests arrive, we will have been preparing the meal for three hours."
         },
         {
           "left": {
-            "ru": "К концу периода длительность будет большой",
-            "en": "By the end of the period the duration will be long"
+            "ru": "к концу периода длительность будет большой",
+            "en": "by the end of the period the duration will be long"
           },
           "right": "By the end of the season, they will have been farming this land for twenty years."
         },
         {
           "left": {
-            "ru": "Длительное ожидание к моменту возвращения",
-            "en": "A long wait by the moment of return"
+            "ru": "длительное ожидание к моменту возвращения",
+            "en": "a long wait by the moment of return"
           },
           "right": "By the time you return, we will have been queuing for tickets for an hour."
         }
       ],
       "explanation": {
         "ru": "Все предложения показывают, как долго действие будет длиться к указанному моменту будущего.",
-        "en": "All the sentences show how long an action will have been going on up to the stated future moment."
+        "en": "All the sentences show how long an action will have lasted by a stated future moment."
       },
       "tags": [
         "tense-future-perfect-continuous",
@@ -4207,42 +4225,42 @@
       "ruleId": "tense-future-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте форму и пример.",
-        "en": "Match each form with an example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "(+) will have been + V-ing — утверждение",
-            "en": "(+) will have been + V-ing — affirmative"
+            "ru": "они будут жить в одном доме двадцать лет",
+            "en": "they will have been living in the same house for twenty years"
           },
           "right": "They will have been living in the same house for twenty years."
         },
         {
           "left": {
-            "ru": "(–) will not have been + V-ing — отрицание",
-            "en": "(–) will not have been + V-ing — negative"
+            "ru": "я буду ждать недолго",
+            "en": "I will not have been waiting for long"
           },
           "right": "I will not have been waiting for long."
         },
         {
           "left": {
-            "ru": "(?) Will … have been + V-ing? — вопрос",
-            "en": "(?) Will … have been + V-ing? — question"
+            "ru": "они будут ехать шесть часов к тому моменту?",
+            "en": "asking whether they will have been driving for six hours by then"
           },
           "right": "Will they have been driving for six hours by then?"
         },
         {
           "left": {
-            "ru": "Длительность до срока",
-            "en": "Duration up to a deadline"
+            "ru": "к пятнице мы будем красить дом неделю",
+            "en": "by Friday we will have been painting the house for a week"
           },
           "right": "By Friday we will have been painting the house for a week."
         }
       ],
       "explanation": {
         "ru": "Утверждение, отрицание и вопрос различаются порядком will, а последний пример подчёркивает длительность к сроку.",
-        "en": "The affirmative, negative and question forms differ in the position of will, while the last example emphasises duration up to a deadline."
+        "en": "Statements, negatives and questions differ in the position of will, and the last example stresses duration up to a deadline."
       },
       "tags": [
         "tense-future-perfect-continuous",

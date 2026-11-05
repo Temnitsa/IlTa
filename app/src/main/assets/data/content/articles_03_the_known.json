@@ -13,77 +13,102 @@
       "order": 30,
       "level": "A2",
       "title": {
-        "ru": "The: известное, единственное, превосходная степень",
-        "en": "The: known, unique, superlatives"
+        "ru": "The: известное, единственное и конкретизация",
+        "en": "The: known, unique and specified"
       },
       "summary": {
-        "ru": "The нужен, когда предмет уже известен, единственный в ситуации или уточнён контекстом; он же обязателен при превосходной степени и порядковых числительных.",
-        "en": "The is used when the thing is already known, unique in the situation or specified by the context; it is also required with superlatives and ordinal numbers."
+        "ru": "Определённый артикль указывает на известный предмет: уже упомянутый, единственный в мире или ситуации, уточнённый of-фразой, придаточным или описанием, а также на превосходную степень и порядковые числительные.",
+        "en": "The definite article points to a known thing: already mentioned, unique in the world or situation, specified by an of-phrase, a relative clause or a description, and also used with superlatives and ordinal numbers."
       },
       "sections": [
         {
           "heading": {
-            "ru": "Повторное упоминание и известность",
-            "en": "Second mention and shared knowledge"
+            "ru": "Известное: повторное упоминание",
+            "en": "Known from a previous mention"
           },
           "body": {
-            "ru": "The ставим, когда предмет уже назван раньше или понятен собеседнику из ситуации и общего знания. Определённый артикль показывает: речь идёт о том самом предмете, а не о любом другом.",
-            "en": "We use the when the thing has already been mentioned or is clear to the listener from the situation and shared knowledge. The definite article signals that we mean that particular thing, not just any one."
+            "ru": "Когда предмет уже назван в разговоре, слушатель знает, о чём речь, и при следующем упоминании ставим the. The показывает, что речь о том же самом предмете.",
+            "en": "When a thing has already been mentioned in the conversation, the listener knows what we mean, so the next mention takes the. The shows that we mean the same thing again."
           },
           "examples": [
             "I saw a dog. The dog was very friendly.",
             "Could you close the door, please?",
-            "The teacher is already in the classroom.",
-            "Pass me the salt, please."
+            "Pass me the salt, please.",
+            "The teacher is already in the classroom."
+          ],
+          "exampleTranslations": [
+            "Я увидел собаку. Собака была очень дружелюбной.",
+            "Не мог бы ты закрыть дверь?",
+            "Передай мне соль, пожалуйста.",
+            "Учитель уже в классе."
           ]
         },
         {
           "heading": {
-            "ru": "Единственное в мире или в ситуации",
-            "en": "Unique in the world or in the situation"
+            "ru": "Единственное в мире и в ситуации",
+            "en": "Unique in the world and in the situation"
           },
           "body": {
-            "ru": "Если предмет существует в единственном экземпляре или он один в данной ситуации, тоже нужен the. Сюда относятся природные объекты, части помещения и другие предметы, которые нельзя перепутать с другими.",
-            "en": "If there is only one such thing in the world or in the situation, the is also needed. This covers natural objects, parts of a room and other things that cannot be confused with another."
+            "ru": "Если предмет существует в единственном экземпляре или он один в данной ситуации, тоже нужен the: природные объекты, части помещения и другие предметы, которые нельзя перепутать с другими.",
+            "en": "If a thing exists in only one copy or is the only one in the situation, the is also needed: natural objects, parts of a room and other things that cannot be confused with others."
           },
           "examples": [
             "The sun rises in the east.",
             "The sky is clear tonight.",
             "The ceiling in this room is very high.",
             "The headmaster is talking to the pupils."
+          ],
+          "exampleTranslations": [
+            "Солнце встаёт на востоке.",
+            "Небо сегодня вечером ясное.",
+            "Потолок в этой комнате очень высокий.",
+            "Директор разговаривает с учениками."
           ]
         },
         {
           "heading": {
             "ru": "Конкретизация: of-фразы и придаточные",
-            "en": "Specification: of-phrases and clauses"
+            "en": "Specification: of-phrases and relative clauses"
           },
           "body": {
-            "ru": "Определённый артикль ставим, если существительное уже известно или речь о конкретном предмете; уточнение — фраза с of, придаточное предложение (relative clause) с who/which/that или описание с предлогом. При первом упоминании нового исчисляемого предмета перед of-фразой ставится a/an: a member of the team.",
-            "en": "We use the when the noun is already known or specific; it can be specified by an of-phrase, a relative clause with who/which/that, or a prepositional description. When a new countable thing is mentioned for the first time, a/an is used before an of-phrase: a member of the team."
+            "ru": "The нужен, если существительное уточнено: of-фразой, придаточным предложением с who, which или that, описанием с предлогом. Уточнение делает предмет конкретным.",
+            "en": "The is needed if the noun is specified: by an of-phrase, a relative clause with who, which or that, or a description with a preposition. The specification makes the thing specific."
           },
           "examples": [
             "the name of the street",
             "the man who helped me",
             "the girl in the red coat",
             "the keys on the table"
+          ],
+          "exampleTranslations": [
+            "название улицы",
+            "мужчина, который мне помог",
+            "девушка в красном пальто",
+            "ключи на столе"
           ]
         },
         {
           "heading": {
             "ru": "Превосходная степень и порядковые",
-            "en": "Superlatives and ordinals"
+            "en": "Superlatives and ordinal numbers"
           },
           "body": {
-            "ru": "Перед прилагательным в превосходной степени и перед порядковым числительным обычно ставим the. Слова same, only, last и next тоже требуют the, когда выделяют единственный предмет в ряду: the same street, the only child, the last train, the next train. Но в выражениях времени next и last идут без артикля: next week, last year. В конструкции the + сравнительная степень..., the + сравнительная степень... артикль the ставится в обеих частях:.",
-            "en": "We usually put the before a superlative adjective and before an ordinal number. Same, only, last and next also take the when they single out one item: the same street, the only child, the last train, the next train. But in time expressions next and last take no article: next week, last year. In the construction the + comparative ..., the + comparative ... the article the is used in both parts:."
+            "ru": "Перед превосходной степенью и порядковым числительным ставим the. Слова only, same и next тоже выделяют единственный предмет в ряду и обычно требуют the. После притяжательного местоимения артикль не нужен.",
+            "en": "We use the before superlatives and ordinal numbers. The words only, same and next also single out one thing in a series and usually take the. After a possessive pronoun no article is needed."
           },
           "examples": [
             "the best day of the week",
             "the first time I flew",
             "the only child in the family",
-            "the last train home",
-            "The more you practise, the better you become."
+            "They chose the same route.",
+            "The next train leaves at six."
+          ],
+          "exampleTranslations": [
+            "лучший день недели",
+            "первый раз, когда я летел",
+            "единственный ребёнок в семье",
+            "Они выбрали тот же маршрут.",
+            "Следующий поезд отправляется в шесть."
           ]
         }
       ]
@@ -721,35 +746,35 @@
       "ruleId": "art-the-known",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Небесное тело — единственное",
-            "en": "A heavenly body — unique"
+            "ru": "единственный объект природы",
+            "en": "single natural object"
           },
           "right": "The moon is bright tonight."
         },
         {
           "left": {
-            "ru": "Предмет в комнате",
-            "en": "An object in the room"
+            "ru": "единственный предмет в комнате",
+            "en": "single object in room"
           },
           "right": "She closed the door quietly."
         },
         {
           "left": {
-            "ru": "Общее знание в классе",
-            "en": "Shared knowledge in class"
+            "ru": "общее знание в классе",
+            "en": "shared knowledge in class"
           },
           "right": "The teacher explained the new rule."
         },
         {
           "left": {
-            "ru": "Мир в целом",
-            "en": "The world as a whole"
+            "ru": "единственный объект, известный всем: мир в целом",
+            "en": "single object known to everyone: whole world"
           },
           "right": "English is spoken all over the world."
         }
@@ -769,35 +794,35 @@
       "ruleId": "art-the-known",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with the example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "единственное в мире",
-            "en": "one of a kind in the world"
+            "ru": "единственный в мире",
+            "en": "unique in world"
           },
           "right": "The sun rose over the mountains."
         },
         {
           "left": {
-            "ru": "единственное в комнате",
-            "en": "the only one in the room"
+            "ru": "единственный в помещении",
+            "en": "unique in indoor space"
           },
           "right": "The ceiling of our room is very high."
         },
         {
           "left": {
-            "ru": "общее знание в школе",
-            "en": "shared knowledge at school"
+            "ru": "общее знание в учебном заведении",
+            "en": "shared knowledge at educational institution"
           },
           "right": "The headmaster spoke to the whole school."
         },
         {
           "left": {
-            "ru": "не единственный предмет — a/an",
-            "en": "not unique — a/an"
+            "ru": "не единственный, вводится впервые",
+            "en": "not unique, introduced first time"
           },
           "right": "She opened a window to let in fresh air."
         }
@@ -817,35 +842,35 @@
       "ruleId": "art-the-known",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте ситуацию и пример.",
-        "en": "Match each situation with the example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "природа: единственное в мире",
-            "en": "nature: one of a kind"
+            "ru": "объект природы, единственный",
+            "en": "natural object, unique"
           },
           "right": "The moon was hidden behind the clouds."
         },
         {
           "left": {
-            "ru": "комната: единственный предмет",
-            "en": "a room: the only thing of its kind"
+            "ru": "единственный предмет в комнате",
+            "en": "unique object in room"
           },
           "right": "The floor in the kitchen was covered with flour."
         },
         {
           "left": {
-            "ru": "общее знание: известный местный объект",
-            "en": "shared knowledge: a known local place"
+            "ru": "известное место в городе",
+            "en": "known place in town"
           },
           "right": "The museum is closed on Mondays."
         },
         {
           "left": {
-            "ru": "новый предмет — a/an",
-            "en": "a new thing — a/an"
+            "ru": "новый предмет в сцене",
+            "en": "new object in scene"
           },
           "right": "A cat is sitting on our fence."
         }
@@ -865,35 +890,35 @@
       "ruleId": "art-the-known",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте пример и тип определённости.",
-        "en": "Match each example with the type of definiteness."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "the sky — единственное в мире",
-            "en": "the sky — one of a kind"
+            "ru": "единственный объект в природе",
+            "en": "single object in nature"
           },
           "right": "The sky looked beautiful at sunset."
         },
         {
           "left": {
-            "ru": "the door — единственная дверь в ситуации",
-            "en": "the door — the only door in the situation"
+            "ru": "единственный предмет в ситуации",
+            "en": "single object in situation"
           },
           "right": "Someone knocked on the door at midnight."
         },
         {
           "left": {
-            "ru": "the teacher — общее знание в классе",
-            "en": "the teacher — shared knowledge in class"
+            "ru": "общее знание в классе",
+            "en": "shared knowledge in class"
           },
           "right": "The teacher gave us five minutes to finish."
         },
         {
           "left": {
-            "ru": "the world — общее знание людей",
-            "en": "the world — shared knowledge of people"
+            "ru": "единственный объект, известный всем: мир в целом",
+            "en": "single object known to everyone: whole world"
           },
           "right": "People around the world watch this competition."
         }
@@ -913,35 +938,35 @@
       "ruleId": "art-the-known",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте артикль и пример.",
-        "en": "Match each article with the example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "the: единственное в мире",
-            "en": "the: one of a kind in the world"
+            "ru": "единственный в мире",
+            "en": "unique in world"
           },
           "right": "The Earth takes a year to travel around the sun."
         },
         {
           "left": {
-            "ru": "the: единственное в ситуации",
-            "en": "the: the only one in the situation"
+            "ru": "единственный в ситуации",
+            "en": "unique in situation"
           },
           "right": "Please turn off the tap before you go out."
         },
         {
           "left": {
-            "ru": "a: новый предмет",
-            "en": "a: a new thing"
+            "ru": "новый предмет, первый звук согласный",
+            "en": "new object, consonant sound first"
           },
           "right": "I bought a lamp for my bedroom."
         },
         {
           "left": {
-            "ru": "an: новый предмет с гласным звуком",
-            "en": "an: a new thing with a vowel sound"
+            "ru": "новый предмет, первый звук гласный",
+            "en": "new object, vowel sound first"
           },
           "right": "We heard an unusual sound from the attic."
         }
@@ -1586,35 +1611,35 @@
       "ruleId": "art-the-known",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Первое упоминание: a fox",
-            "en": "First mention: a fox"
+            "ru": "новое животное появляется",
+            "en": "new animal appears"
           },
           "right": "I saw a fox in the forest."
         },
         {
           "left": {
-            "ru": "Второе упоминание: the fox",
-            "en": "Second mention: the fox"
+            "ru": "то же животное снова",
+            "en": "same animal again"
           },
           "right": "The fox was looking at me."
         },
         {
           "left": {
-            "ru": "Первое упоминание: a magazine",
-            "en": "First mention: a magazine"
+            "ru": "новое периодическое издание появляется",
+            "en": "new periodical appears"
           },
           "right": "She is reading a magazine about music."
         },
         {
           "left": {
-            "ru": "Второе упоминание: the magazine",
-            "en": "Second mention: the magazine"
+            "ru": "то же периодическое издание снова",
+            "en": "same periodical again"
           },
           "right": "The magazine has many photos."
         }
@@ -1634,35 +1659,35 @@
       "ruleId": "art-the-known",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте упоминание и пример.",
-        "en": "Match each mention with the example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "первое упоминание: a key",
-            "en": "first mention: a key"
+            "ru": "новый предмет для замка появляется",
+            "en": "new item for locks appears"
           },
           "right": "He found a key under the mat."
         },
         {
           "left": {
-            "ru": "повторное упоминание: the key",
-            "en": "second mention: the key"
+            "ru": "тот же предмет для замка снова",
+            "en": "same item for locks again"
           },
           "right": "The key opened the old chest."
         },
         {
           "left": {
-            "ru": "первое упоминание: a shop",
-            "en": "first mention: a shop"
+            "ru": "новое место торговли появляется",
+            "en": "new place of business appears"
           },
           "right": "She opened a shop in the town centre."
         },
         {
           "left": {
-            "ru": "повторное упоминание: the shop",
-            "en": "second mention: the shop"
+            "ru": "то же место торговли снова",
+            "en": "same place of business again"
           },
           "right": "The shop sells handmade toys."
         }
@@ -1682,35 +1707,35 @@
       "ruleId": "art-the-known",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте упоминание и пример.",
-        "en": "Match each mention with the example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "первое упоминание: a film",
-            "en": "first mention: a film"
+            "ru": "новый фильм появляется",
+            "en": "new movie appears"
           },
           "right": "We watched a film about dolphins."
         },
         {
           "left": {
-            "ru": "повторное упоминание: the film",
-            "en": "second mention: the film"
+            "ru": "тот же фильм снова",
+            "en": "same movie again"
           },
           "right": "The film won three international awards."
         },
         {
           "left": {
-            "ru": "первое упоминание: a ticket",
-            "en": "first mention: a ticket"
+            "ru": "новый проездной документ появляется",
+            "en": "new travel document appears"
           },
           "right": "She booked a ticket to Paris online."
         },
         {
           "left": {
-            "ru": "повторное упоминание: the ticket",
-            "en": "second mention: the ticket"
+            "ru": "тот же проездной документ снова",
+            "en": "same travel document again"
           },
           "right": "The ticket was valid for one month."
         }
@@ -1730,35 +1755,35 @@
       "ruleId": "art-the-known",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте упоминание и пример.",
-        "en": "Match each mention with the example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "первое упоминание: a house",
-            "en": "first mention: a house"
+            "ru": "новое здание появляется",
+            "en": "new building appears"
           },
           "right": "They rented a house near the lake."
         },
         {
           "left": {
-            "ru": "повторное упоминание: the house",
-            "en": "second mention: the house"
+            "ru": "то же здание снова",
+            "en": "same building again"
           },
           "right": "The house had a large garden and a garage."
         },
         {
           "left": {
-            "ru": "первое упоминание: a photo",
-            "en": "first mention: a photo"
+            "ru": "новый снимок появляется",
+            "en": "new picture appears"
           },
           "right": "My father took a photo of the monument."
         },
         {
           "left": {
-            "ru": "повторное упоминание: the photo",
-            "en": "second mention: the photo"
+            "ru": "то же изображение снова",
+            "en": "same picture again"
           },
           "right": "The photo now hangs in the living room."
         }
@@ -1778,35 +1803,35 @@
       "ruleId": "art-the-known",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте упоминание и пример.",
-        "en": "Match each mention with the example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "первое упоминание: a meeting",
-            "en": "first mention: a meeting"
+            "ru": "новое событие появляется",
+            "en": "new event appears"
           },
           "right": "The manager called a meeting on Monday."
         },
         {
           "left": {
-            "ru": "повторное упоминание: the meeting",
-            "en": "second mention: the meeting"
+            "ru": "то же событие снова",
+            "en": "same event again"
           },
           "right": "The meeting lasted three hours."
         },
         {
           "left": {
-            "ru": "первое упоминание: a jacket",
-            "en": "first mention: a jacket"
+            "ru": "новая одежда появляется",
+            "en": "new clothing appears"
           },
           "right": "He left a jacket on the chair."
         },
         {
           "left": {
-            "ru": "повторное упоминание: the jacket",
-            "en": "second mention: the jacket"
+            "ru": "та же одежда снова",
+            "en": "same clothing again"
           },
           "right": "The jacket was never found."
         }

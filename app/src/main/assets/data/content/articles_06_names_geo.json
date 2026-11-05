@@ -27,15 +27,22 @@
             "en": "People's names, languages and calendar words"
           },
           "body": {
-            "ru": "Имена людей, названия языков, дней недели, месяцев и праздников — это имена собственные, поэтому артикль перед ними не ставится. Титул или обращение перед фамилией тоже употребляются без артикля. Десятилетия и фамилии семей во множественном числе употребляются с the.",
-            "en": "People's names, language names, days of the week, months and holidays are proper names, so they take no article. A title or form of address before a surname also takes no article. Decades and family names in the plural take the."
+            "ru": "Имена людей, названия языков, дней недели, месяцев и праздников — это имена собственные, поэтому артикль перед ними не ставится. Титул или обращение перед фамилией тоже не меняет правило. Исключения: фамилии семей во множественном числе и десятилетия употребляются с определённым артиклем.",
+            "en": "People's names, language names, days of the week, months and holidays are proper names, so they take no article. A title or form of address before a surname does not change the rule. Two exceptions take the: family surnames in the plural and decades."
           },
           "examples": [
-            "Anna is my cousin.",
-            "She speaks French fluently.",
-            "The exams start on Monday.",
-            "We met in July.",
-            "Christmas is a family holiday."
+            "Mr Smith is our neighbour.",
+            "The Smiths always spend July in France.",
+            "The 1990s were a difficult time.",
+            "She speaks French on Mondays.",
+            "I met Anna at Christmas."
+          ],
+          "exampleTranslations": [
+            "Мистер Смит — наш сосед.",
+            "Смиты всегда проводят июль во Франции.",
+            "Девяностые были трудным временем.",
+            "По понедельникам она говорит по-французски.",
+            "Я встретил Анну на Рождество."
           ]
         },
         {
@@ -44,15 +51,22 @@
             "en": "Cities, countries and continents"
           },
           "body": {
-            "ru": "Названия городов, континентов и большинства стран употребляются без артикля. Определённый артикль нужен лишь некоторым названиям стран: объединениям, названиям во множественном числе и отдельным историческим исключениям.",
-            "en": "Cities, continents and most countries take no article. The definite article is needed only with some country names: unions, plural names and a few historical exceptions."
+            "ru": "Названия городов, континентов и большинства стран употребляются без артикля. Определённый артикль нужен только особым названиям стран: объединениям, названиям во множественном числе и отдельным историческим исключениям. Города артикль не получают никогда.",
+            "en": "Names of cities, continents and most countries take no article. The definite article is needed only for special country names: unions, plural names and a few historical exceptions. Cities never take the article."
           },
           "examples": [
             "My sister studies in Madrid.",
             "Japan is an island country.",
             "Africa is a large continent.",
             "My parents went to the USA in 2020.",
-            "The UK has four parts."
+            "The UK and the Netherlands are both in Europe."
+          ],
+          "exampleTranslations": [
+            "Моя сестра учится в Мадриде.",
+            "Япония — островная страна.",
+            "Африка — большой континент.",
+            "Мои родители ездили в США в 2020 году.",
+            "Соединённое Королевство и Нидерланды находятся в Европе."
           ]
         },
         {
@@ -61,31 +75,46 @@
             "en": "Rivers, seas, oceans and mountains"
           },
           "body": {
-            "ru": "С определённым артиклем употребляются названия рек, морей, океанов, проливов, заливов, горных цепей и пустынь. А отдельные озёра и отдельные горные вершины, наоборот, идут без артикля.",
-            "en": "The definite article is used with the names of rivers, seas, oceans, channels, bays, mountain ranges and deserts. Individual lakes and single mountain peaks, by contrast, take no article."
+            "ru": "С определённым артиклем употребляются названия рек, морей, океанов, проливов, заливов, горных цепей и пустынь. Отдельные озёра и отдельные горные вершины, наоборот, идут без артикля. Название группы объектов почти всегда требует the.",
+            "en": "Rivers, seas, oceans, straits, bays, mountain ranges and deserts take the definite article. Individual lakes and individual mountain peaks, on the other hand, take no article. A name for a group of objects almost always needs the."
           },
           "examples": [
-            "the Thames",
-            "the Pacific Ocean",
-            "the Alps",
-            "Lake Victoria",
-            "Mont Blanc"
+            "the Thames and the Nile",
+            "the Pacific Ocean and the Mediterranean",
+            "the Alps and the Himalayas",
+            "the Sahara and the Bay of Bengal",
+            "Lake Victoria, Mont Blanc and the Strait of Gibraltar"
+          ],
+          "exampleTranslations": [
+            "Темза и Нил",
+            "Тихий океан и Средиземное море",
+            "Альпы и Гималаи",
+            "Сахара и Бенгальский залив",
+            "озеро Виктория, Монблан и Гибралтарский пролив"
           ]
         },
         {
           "heading": {
             "ru": "Газеты, отели, музеи и организации",
-            "en": "Newspapers, hotels, museums and organizations"
+            "en": "Newspapers, hotels, museums and organisations"
           },
           "body": {
-            "ru": "Названия газет и журналов, отелей, музеев и галерей, театров и организаций обычно употребляются с определённым артиклем, даже если само название состоит из обычных слов. Улицы, площади, вокзалы и аэропорты обычно идут без артикля; университеты, церкви и некоторые достопримечательности могут требовать the — это зависит от названия.",
-            "en": "The names of newspapers and magazines, hotels, museums and galleries, theatres and organizations usually take the definite article, even when the name itself consists of ordinary words. Streets, squares, stations and airports usually take no article; universities, churches and some landmarks may take the depending on the name."
+            "ru": "Названия газет и журналов, отелей, музеев и галерей, театров и организаций обычно употребляются с определённым артиклем, даже если состоят из обычных слов. Улицы, площади, вокзалы и аэропорты обычно идут без артикля; университеты, церкви и некоторые достопримечательности могут требовать the в зависимости от названия.",
+            "en": "Names of newspapers and magazines, hotels, museums and galleries, theatres and organisations usually take the definite article, even when they consist of ordinary words. Streets, squares, stations and airports normally take no article; universities, churches and some landmarks may need the depending on the name."
           },
           "examples": [
-            "the Times",
+            "the Times and the Louvre",
             "the Ritz",
-            "the Louvre",
+            "Oxford Street, Trafalgar Square, King's Cross Station and Heathrow Airport",
+            "the University of Oxford and St Paul's Cathedral",
             "the United Nations"
+          ],
+          "exampleTranslations": [
+            "«Таймс» и Лувр",
+            "отель «Риц»",
+            "Оксфорд-стрит, Трафальгарская площадь, вокзал Кингс-Кросс и аэропорт Хитроу",
+            "Оксфордский университет и собор Святого Павла",
+            "Организация Объединённых Наций"
           ]
         },
         {
@@ -94,15 +123,22 @@
             "en": "Unique roles and fixed pairs"
           },
           "body": {
-            "ru": "Если роль или должность единственная в данной ситуации, нужен определённый артикль; если таких людей много, ставим неопределённый. Некоторые пары выражений различаются только артиклем и имеют разный смысл, а в отдельных устойчивых оборотах артикль the обязателен — их нужно запоминать целиком.",
-            "en": "When a role or position is unique in the situation, the definite article is used; when many people can have that role, the indefinite article is used. Some pairs of expressions differ only in their article and have different meanings, and a few fixed phrases always include the definite article, so they should be learned as a whole."
+            "ru": "Если роль или должность единственная в данной ситуации, нужен определённый артикль; если таких людей много, ставим неопределённый. Некоторые пары выражений различаются только артиклем и имеют разный смысл, а в отдельных оборотах артикль фиксирован — их запоминают целиком. К таким оборотам относится и выражение со значением «исключено, не может быть и речи».",
+            "en": "If a role or position is unique in the situation, the definite article is used; if there are many such people, the indefinite article is used. Some pairs of expressions differ only in the article and have different meanings, and in some phrases the article is fixed and learnt as a whole. This group also includes the fixed phrase meaning that something is impossible."
           },
           "examples": [
             "the Pope",
-            "take place",
-            "take the place of",
-            "in front of the station",
-            "in the front of the coach"
+            "A priest visited the school.",
+            "take place and take the place of",
+            "in front of the station and in the front of the coach",
+            "out of the question"
+          ],
+          "exampleTranslations": [
+            "Папа Римский",
+            "Священник посетил школу.",
+            "состояться и заменить",
+            "перед вокзалом и в передней части автобуса",
+            "исключено, не может быть и речи"
           ]
         }
       ]
@@ -490,35 +526,35 @@
       "ruleId": "art-names-geo",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте тип названия и пример.",
-        "en": "Match each type of name with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Имя человека",
-            "en": "A person's name"
+            "ru": "личное имя человека",
+            "en": "person's name"
           },
           "right": "Anna works in a small bookshop."
         },
         {
           "left": {
-            "ru": "Название города",
-            "en": "A city name"
+            "ru": "крупный населённый пункт",
+            "en": "large city"
           },
           "right": "Tokyo is a very big city."
         },
         {
           "left": {
-            "ru": "Название языка",
-            "en": "A language"
+            "ru": "язык, на котором говорят",
+            "en": "spoken language"
           },
           "right": "He speaks Italian at home."
         },
         {
           "left": {
-            "ru": "Название праздника",
-            "en": "A holiday"
+            "ru": "праздник в календаре",
+            "en": "calendar holiday"
           },
           "right": "Christmas is my favourite time of year."
         }
@@ -538,35 +574,35 @@
       "ruleId": "art-names-geo",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте тип названия и пример.",
-        "en": "Match each name type with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Имя с титулом",
-            "en": "A name with a title"
+            "ru": "обращение по фамилии с титулом",
+            "en": "surname with title"
           },
           "right": "My colleague Mr Smith speaks three languages."
         },
         {
           "left": {
-            "ru": "Название города",
-            "en": "A city name"
+            "ru": "город в Италии",
+            "en": "Italian city"
           },
           "right": "We flew to Rome for a long weekend."
         },
         {
           "left": {
-            "ru": "Название страны",
-            "en": "A country name"
+            "ru": "страна на юге Европы",
+            "en": "southern European country"
           },
           "right": "Last summer we travelled around Spain by car."
         },
         {
           "left": {
-            "ru": "Название языка",
-            "en": "A language name"
+            "ru": "иностранный язык в школе",
+            "en": "foreign language at school"
           },
           "right": "She is learning German at school."
         }
@@ -586,35 +622,35 @@
       "ruleId": "art-names-geo",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте тип названия и пример.",
-        "en": "Match each name type with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "День недели",
-            "en": "A day of the week"
+            "ru": "шестой день недели",
+            "en": "sixth day of week"
           },
           "right": "We usually go shopping on Saturday."
         },
         {
           "left": {
-            "ru": "Месяц",
-            "en": "A month"
+            "ru": "весенний месяц",
+            "en": "spring month"
           },
           "right": "The weather is usually warm in May."
         },
         {
           "left": {
-            "ru": "Праздник",
-            "en": "A holiday"
+            "ru": "религиозный праздник",
+            "en": "religious holiday"
           },
           "right": "Many children love Easter."
         },
         {
           "left": {
-            "ru": "Город",
-            "en": "A city"
+            "ru": "столица Германии",
+            "en": "capital of Germany"
           },
           "right": "Berlin is one of the most interesting cities in Europe."
         }
@@ -634,35 +670,35 @@
       "ruleId": "art-names-geo",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте тип названия и пример.",
-        "en": "Match each name type with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Обычная страна — без артикля",
-            "en": "An ordinary country — no article"
+            "ru": "островная страна в Азии",
+            "en": "island country in Asia"
           },
           "right": "Japan has many beautiful islands."
         },
         {
           "left": {
-            "ru": "Страна с the — США",
-            "en": "A country with the — the USA"
+            "ru": "государство, название которого сокращено",
+            "en": "country named by abbreviation"
           },
           "right": "They flew to the USA last month."
         },
         {
           "left": {
-            "ru": "Страна с the — Нидерланды",
-            "en": "A country with the — the Netherlands"
+            "ru": "страна с официальным названием во множественном числе",
+            "en": "country with plural official name"
           },
           "right": "Many tourists visit the Netherlands in spring."
         },
         {
           "left": {
-            "ru": "Город — без артикля",
-            "en": "A city — no article"
+            "ru": "приморский город в Португалии",
+            "en": "coastal city in Portugal"
           },
           "right": "Lisbon is a lovely city by the sea."
         }
@@ -682,35 +718,35 @@
       "ruleId": "art-names-geo",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте тип названия и пример.",
-        "en": "Match each name type with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Титул с фамилией",
-            "en": "A title with a surname"
+            "ru": "научное звание перед фамилией",
+            "en": "university title before surname"
           },
           "right": "Professor Lee teaches physics at the university."
         },
         {
           "left": {
-            "ru": "Праздник",
-            "en": "A holiday"
+            "ru": "весенний праздник в кругу семьи",
+            "en": "spring holiday with family"
           },
           "right": "We always spend Easter with our family."
         },
         {
           "left": {
-            "ru": "Месяц",
-            "en": "A month"
+            "ru": "первый летний месяц",
+            "en": "first summer month"
           },
           "right": "The garden looks beautiful in June."
         },
         {
           "left": {
-            "ru": "Язык",
-            "en": "A language"
+            "ru": "испанский язык",
+            "en": "Spanish language"
           },
           "right": "He is learning Spanish at school."
         }
@@ -1605,35 +1641,35 @@
       "ruleId": "art-names-geo",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Река",
-            "en": "A river"
+            "ru": "крупная река в Англии",
+            "en": "large river in England"
           },
           "right": "The Thames is a famous river in England."
         },
         {
           "left": {
-            "ru": "Океан",
-            "en": "An ocean"
+            "ru": "самый большой океан",
+            "en": "largest ocean"
           },
           "right": "The Pacific is very deep."
         },
         {
           "left": {
-            "ru": "Горная цепь",
-            "en": "A mountain range"
+            "ru": "горная система в Европе",
+            "en": "mountain system in Europe"
           },
           "right": "The Alps attract many climbers."
         },
         {
           "left": {
-            "ru": "Страна с артиклем",
-            "en": "A country with the"
+            "ru": "страна каналов и тюльпанов",
+            "en": "country of canals and tulips"
           },
           "right": "She has visited the Netherlands twice."
         }
@@ -1653,35 +1689,35 @@
       "ruleId": "art-names-geo",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Большинство стран — без артикля",
-            "en": "Most countries — no article"
+            "ru": "страна в Северной Америке",
+            "en": "North American country"
           },
           "right": "He was born in Canada."
         },
         {
           "left": {
-            "ru": "Озеро — без артикля",
-            "en": "A lake — no article"
+            "ru": "глубокое озеро в Сибири",
+            "en": "deep lake in Siberia"
           },
           "right": "Lake Baikal is famous for its clear water."
         },
         {
           "left": {
-            "ru": "Страна во множественном числе — с the",
-            "en": "A plural country name — with the"
+            "ru": "государство в Тихом океане",
+            "en": "Pacific island state"
           },
           "right": "My aunt lives in the Philippines."
         },
         {
           "left": {
-            "ru": "Название-объединение — с the",
-            "en": "A union name — with the"
+            "ru": "страна, состоящая из четырёх частей",
+            "en": "country made of four parts"
           },
           "right": "They travelled across the United Kingdom."
         }
@@ -1701,35 +1737,35 @@
       "ruleId": "art-names-geo",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте тип географического названия и пример.",
-        "en": "Match each type of geographical name with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Континенты — без артикля",
-            "en": "Continents — no article"
+            "ru": "континент",
+            "en": "continent"
           },
           "right": "Africa is home to many rare animals."
         },
         {
           "left": {
-            "ru": "Пустыни — с the",
-            "en": "Deserts — with the"
+            "ru": "крупнейшая жаркая пустыня",
+            "en": "largest hot desert"
           },
           "right": "The Sahara is the largest hot desert in the world."
         },
         {
           "left": {
-            "ru": "Отдельные горы — без артикля",
-            "en": "Individual mountains — no article"
+            "ru": "высокая горная вершина",
+            "en": "high mountain peak"
           },
           "right": "Mont Blanc is a popular destination for climbers."
         },
         {
           "left": {
-            "ru": "Заливы — с the",
-            "en": "Bays — with the"
+            "ru": "залив у берегов Индии",
+            "en": "bay near India"
           },
           "right": "The Bay of Bengal lies between India and Bangladesh."
         }
@@ -1749,35 +1785,35 @@
       "ruleId": "art-names-geo",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте тип названия и пример.",
-        "en": "Match each type of name with the example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "река — с the",
-            "en": "river — with the"
+            "ru": "река во Франции",
+            "en": "river in France"
           },
           "right": "The Seine runs through the centre of Paris."
         },
         {
           "left": {
-            "ru": "горная цепь — с the",
-            "en": "mountain range — with the"
+            "ru": "горы на западе Южной Америки",
+            "en": "mountains in western South America"
           },
           "right": "The Andes stretch along the west coast of South America."
         },
         {
           "left": {
-            "ru": "океан — с the",
-            "en": "ocean — with the"
+            "ru": "океан между Европой и Америкой",
+            "en": "ocean between Europe and America"
           },
           "right": "The Atlantic separates Europe from North America."
         },
         {
           "left": {
-            "ru": "страна — без артикля",
-            "en": "country — no article"
+            "ru": "страна в Центральной Европе",
+            "en": "Central European country"
           },
           "right": "She travelled around Poland by train."
         }
@@ -1797,35 +1833,35 @@
       "ruleId": "art-names-geo",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте тип названия и пример.",
-        "en": "Match each type of name with the example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "страна-объединение — с the",
-            "en": "union country name — with the"
+            "ru": "островное государство на северо-западе Европы",
+            "en": "island state in north-west Europe"
           },
           "right": "She has relatives in the United Kingdom."
         },
         {
           "left": {
-            "ru": "озеро — без артикля",
-            "en": "lake — no article"
+            "ru": "озеро между США и Канадой",
+            "en": "lake between US and Canada"
           },
           "right": "They sailed across Lake Michigan in a small boat."
         },
         {
           "left": {
-            "ru": "континент — без артикля",
-            "en": "continent — no article"
+            "ru": "материк в Западном полушарии",
+            "en": "continent in western hemisphere"
           },
           "right": "South America has a rich variety of wildlife."
         },
         {
           "left": {
-            "ru": "страна во множественном числе — с the",
-            "en": "plural country name — with the"
+            "ru": "страна ветряных мельниц",
+            "en": "country of windmills"
           },
           "right": "The Netherlands is famous for its windmills and canals."
         }
@@ -1970,35 +2006,35 @@
       "ruleId": "art-names-geo",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте тип названия и пример.",
-        "en": "Match each type of name with an example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Название газеты",
-            "en": "A newspaper title"
+            "ru": "ежедневная газета",
+            "en": "daily newspaper"
           },
           "right": "He reads the Times every morning."
         },
         {
           "left": {
-            "ru": "Название отеля",
-            "en": "A hotel name"
+            "ru": "фешенебельный отель в Париже",
+            "en": "luxury hotel in Paris"
           },
           "right": "They stayed at the Ritz for two nights."
         },
         {
           "left": {
-            "ru": "Название музея",
-            "en": "A museum name"
+            "ru": "крупнейший музей в Париже",
+            "en": "large museum in Paris"
           },
           "right": "We visited the Louvre on Monday."
         },
         {
           "left": {
-            "ru": "Уникальная должность",
-            "en": "A unique role"
+            "ru": "глава католической церкви",
+            "en": "head of Catholic Church"
           },
           "right": "The Pope is visiting Brazil this week."
         }
@@ -2018,35 +2054,35 @@
       "ruleId": "art-names-geo",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте тип названия и пример с the.",
-        "en": "Match each type of name with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Название газеты — с the",
-            "en": "A newspaper title — with the"
+            "ru": "британская газета",
+            "en": "British newspaper"
           },
           "right": "My father reads the Daily Telegraph every morning."
         },
         {
           "left": {
-            "ru": "Название отеля — с the",
-            "en": "A hotel name — with the"
+            "ru": "старинный отель",
+            "en": "old-style hotel"
           },
           "right": "We booked a room at the Grand Hotel."
         },
         {
           "left": {
-            "ru": "Название музея — с the",
-            "en": "A museum name — with the"
+            "ru": "музей в Мадриде",
+            "en": "museum in Madrid"
           },
           "right": "The Prado is one of the most visited museums in Madrid."
         },
         {
           "left": {
-            "ru": "Уникальная роль — с the",
-            "en": "A unique role — with the"
+            "ru": "правящий монарх",
+            "en": "reigning monarch"
           },
           "right": "The Queen opened the new hospital last week."
         }
@@ -2066,35 +2102,35 @@
       "ruleId": "art-names-geo",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте название и пример.",
-        "en": "Match each name with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Газета — с the",
-            "en": "A newspaper — with the"
+            "ru": "известная газета",
+            "en": "famous newspaper"
           },
           "right": "The Times is a British newspaper."
         },
         {
           "left": {
-            "ru": "Отель — с the",
-            "en": "A hotel — with the"
+            "ru": "роскошный отель",
+            "en": "luxury hotel"
           },
           "right": "They stayed at the Waldorf for three nights."
         },
         {
           "left": {
-            "ru": "Музей — с the",
-            "en": "A museum — with the"
+            "ru": "картинная галерея в Лондоне",
+            "en": "London art gallery"
           },
           "right": "We spent the afternoon at the National Gallery."
         },
         {
           "left": {
-            "ru": "Уникальная должность — с the",
-            "en": "A unique role — with the"
+            "ru": "руководитель школы",
+            "en": "leader of school"
           },
           "right": "The headmaster opened the new library."
         }
@@ -2114,35 +2150,35 @@
       "ruleId": "art-names-geo",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте роль и пример.",
-        "en": "Match each role with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Единственная роль: Папа Римский",
-            "en": "A unique role: the Pope"
+            "ru": "человек на вершине церковной иерархии",
+            "en": "leader of Church"
           },
           "right": "The Pope is visiting our country next week."
         },
         {
           "left": {
-            "ru": "Единственная роль: директор школы",
-            "en": "A unique role: the headmaster"
+            "ru": "руководитель конкретной школы",
+            "en": "head of one particular school"
           },
           "right": "The headmaster has called an emergency meeting."
         },
         {
           "left": {
-            "ru": "Одна из многих ролей: медсестра",
-            "en": "One of many roles: a nurse"
+            "ru": "медицинский работник в больнице",
+            "en": "medical worker in hospital"
           },
           "right": "My aunt works as a nurse in a large hospital."
         },
         {
           "left": {
-            "ru": "Одна из многих ролей: учитель",
-            "en": "One of many roles: a teacher"
+            "ru": "работник образования в начальной школе",
+            "en": "education worker at primary school"
           },
           "right": "She works as a teacher at a primary school."
         }
@@ -2162,35 +2198,35 @@
       "ruleId": "art-names-geo",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте выражение и пример.",
-        "en": "Match each expression with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Происходить — take place",
-            "en": "To happen — take place"
+            "ru": "состояться, произойти",
+            "en": "to happen"
           },
           "right": "The meeting will take place in the main hall."
         },
         {
           "left": {
-            "ru": "Заменять — take the place of",
-            "en": "To replace — take the place of"
+            "ru": "заменить что-то",
+            "en": "to replace"
           },
           "right": "Robots cannot take the place of human contact."
         },
         {
           "left": {
-            "ru": "Перед, снаружи — in front of",
-            "en": "Outside, before — in front of"
+            "ru": "снаружи перед объектом",
+            "en": "outside before object"
           },
           "right": "A bike was parked in front of the house."
         },
         {
           "left": {
-            "ru": "В передней части, внутри — in the front of",
-            "en": "Inside the front part — in the front of"
+            "ru": "внутри передней части",
+            "en": "inside front section"
           },
           "right": "We sat in the front of the bus."
         }

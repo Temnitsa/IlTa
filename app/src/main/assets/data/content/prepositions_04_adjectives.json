@@ -17,71 +17,122 @@
         "en": "Prepositions after adjectives"
       },
       "summary": {
-        "ru": "После многих прилагательных употребляется определённый предлог: afraid of, good at, interested in. Такие пары нужно запоминать вместе с прилагательным, потому что по-русски предлог часто другой.",
-        "en": "Many adjectives take a particular preposition: afraid of, good at, interested in. These pairs should be learnt together with the adjective, because the preposition is often different in other languages."
+        "ru": "Предлоги после прилагательных: чувства и оценки, способности и качества, сходство и зависимость. Ключевые модели — прилагательное + предлог (afraid of, good at, interested in, similar to, dependent on).",
+        "en": "Prepositions after adjectives: feelings and opinions, abilities and qualities, similarity and dependence. The key pattern is adjective + preposition (afraid of, good at, interested in, similar to, dependent on)."
       },
       "sections": [
         {
           "heading": {
-            "ru": "Почему предлог зависит от прилагательного",
-            "en": "Why the preposition depends on the adjective"
+            "ru": "Чувства: страх, гнев, волнение",
+            "en": "Feelings: fear, anger, worry"
           },
           "body": {
-            "ru": "У каждого прилагательного может быть свой постоянный предлог, и его нельзя угадать по переводу. Такие сочетания учат как одно целое: прилагательное + предлог + дополнение. После предлога глагол стоит в форме -ing.",
-            "en": "Each adjective may have its own fixed preposition, and it cannot be guessed **from** the translation. These combinations are learnt **as** one unit: adjective + preposition + object. After a preposition the verb takes the -ing form."
+            "ru": "Страх: **afraid / frightened / scared / terrified of**. Гнев и раздражение: **angry / annoyed / furious about** ситуация и **with somebody for** поступок. Волнение и восторг: **worried / nervous / excited / upset about**.",
+            "en": "Fear: **afraid / frightened / scared / terrified of**. Anger: **angry / annoyed / furious about** a situation and **with somebody for** an action. Worry and excitement: **worried / nervous / excited / upset about**."
           },
           "examples": [
-            "afraid **of** dogs",
-            "good **at** maths",
-            "interested **in** art"
+            "Are you afraid of spiders?",
+            "She was angry with me for being late.",
+            "I'm a bit worried about the exam.",
+            "They were excited about the trip."
+          ],
+          "exampleTranslations": [
+            "Ты боишься пауков?",
+            "Она злилась на меня за опоздание.",
+            "Я немного волнуюсь из-за экзамена.",
+            "Они были в восторге от поездки."
           ]
         },
         {
           "heading": {
-            "ru": "Пары о чувствах и отношении",
-            "en": "Pairs for feelings and attitudes"
+            "ru": "Оценка человека и отношение",
+            "en": "Judging people and attitudes"
           },
           "body": {
-            "ru": "Многие прилагательные о чувствах и отношении требуют конкретного предлога: он выражает причину, объект или источник чувства. Запоминайте пару целиком, а не переводите предлог с русского. После предлога глагол стоит в форме -ing.",
-            "en": "Many adjectives **about** feelings and attitudes take a particular preposition that expresses the cause, object or source **of** the feeling. Learn the pair **as** a whole **instead of** translating the preposition **from** your own language. After a preposition the verb takes the -ing form."
+            "ru": "О поступке: **nice / kind / good / generous / polite / rude / honest / stupid / silly of somebody** (to do something); об отношении: **nice / kind / good / generous / friendly / polite / rude / cruel to somebody**. Недовольство: **fed up / bored with**, **tired of**. Сочувствие: **feel sorry for somebody**; сожаление: **sorry for / about** поступок, **I'm sorry I did it**.",
+            "en": "An action: **nice / kind / good / generous / polite / rude / honest / stupid / silly of somebody** (to do something); treatment: **nice / kind / good / generous / friendly / polite / rude / cruel to somebody**. Dissatisfaction: **fed up / bored with**, **tired of**. Sympathy: **feel sorry for somebody**; regret: **sorry for / about** something you did, **I'm sorry I did it**."
           },
           "examples": [
-            "proud **of**",
-            "worried **about**",
-            "excited **about**",
-            "jealous **of**"
+            "It was very kind of you to help me.",
+            "They have always been nice to me.",
+            "I'm fed up with this cold weather.",
+            "I'm sorry about the mess."
+          ],
+          "exampleTranslations": [
+            "Было очень любезно с твоей стороны помочь мне.",
+            "Они всегда хорошо ко мне относились.",
+            "Мне надоела эта холодная погода.",
+            "Извини за беспорядок."
           ]
         },
         {
           "heading": {
-            "ru": "Пары о способностях и фактах",
-            "en": "Pairs for abilities and facts"
+            "ru": "Способности, интересы, качества",
+            "en": "Abilities, interests, qualities"
           },
           "body": {
-            "ru": "Другие сочетания описывают способность, качество или факт: здесь предлог тоже фиксирован. Ошибка в предлоге меняет смысл или делает фразу неестественной. После предлога глагол стоит в форме -ing.",
-            "en": "Other combinations describe an ability, a quality or a fact, and here too the preposition is fixed. A wrong preposition changes the meaning or makes the phrase unnatural. After a preposition the verb takes the -ing form."
+            "ru": "Умение: **good / bad / brilliant / hopeless at**; возможность: **capable / incapable of**; интерес: **interested in**, **keen on**; успех: **successful in**. Качества: **patient with**, **famous / responsible for**, **typical of**, **proud / ashamed of**, **ready / late for**. После предлога глагол стоит в форме **-ing**: good at solving, capable of printing.",
+            "en": "Skill: **good / bad / brilliant / hopeless at**; ability: **capable / incapable of**; interest: **interested in**, **keen on**; success: **successful in**. Qualities: **patient with**, **famous / responsible for**, **typical of**, **proud / ashamed of**, **ready / late for**. After a preposition the verb takes the **-ing** form: good at solving, capable of printing."
           },
           "examples": [
-            "good **at**",
-            "capable **of**",
-            "famous **for**",
-            "responsible **for**"
+            "I'm not very good at repairing things.",
+            "She is capable of doing the job well.",
+            "He is interested in art.",
+            "Who was responsible for all that noise?",
+            "She is good at solving difficult puzzles."
+          ],
+          "exampleTranslations": [
+            "Я не очень хорошо умею чинить вещи.",
+            "Она способна хорошо справиться с этой работой.",
+            "Он интересуется искусством.",
+            "Кто отвечал за весь этот шум?",
+            "Она хорошо умеет решать сложные головоломки."
           ]
         },
         {
           "heading": {
-            "ru": "Как запоминать и проверять",
-            "en": "How to learn and check them"
+            "ru": "Сходство, связь, зависимость",
+            "en": "Similarity, connection, dependence"
           },
           "body": {
-            "ru": "Учите прилагательное вместе с предлогом и сразу с примером, а при сомнении проверяйте по словарю. Полезно группировать пары по предлогу: многие прилагательные собираются вокруг одного и того же. После предлога глагол стоит в форме -ing.",
-            "en": "Learn each adjective together **with** its preposition and an example, and check a dictionary when you are not sure. It helps **to** group pairs **by** preposition, **as** many adjectives share the same one. After a preposition the verb takes the -ing form."
+            "ru": "Сходство: **similar to**; различие: **different from / to**; связь: **married / engaged to**, **close to**, **fond of**; зависимость: **dependent on** (но **independent of**); осведомлённость: **aware / conscious of**, **certain / sure of / about**; количество: **full / short of**, **crowded with**.",
+            "en": "Similarity: **similar to**; difference: **different from / to**; connection: **married / engaged to**, **close to**, **fond of**; dependence: **dependent on** (but **independent of**); awareness: **aware / conscious of**, **certain / sure of / about**; quantity: **full / short of**, **crowded with**."
           },
           "examples": [
-            "afraid **of** heights",
-            "full **of** energy",
-            "short **of** time",
-            "tired **of** waiting"
+            "Your handwriting is similar to mine.",
+            "The film was different from what I expected.",
+            "Louise is married to an American.",
+            "The streets were crowded with tourists.",
+            "Many people are dependent on their phones."
+          ],
+          "exampleTranslations": [
+            "Твой почерк похож на мой.",
+            "Фильм отличался от того, что я ожидал.",
+            "Луиза замужем за американцем.",
+            "Улицы были заполнены туристами.",
+            "Многие люди зависят от своих телефонов."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Ревность, подозрение, удивление",
+            "en": "Jealousy, suspicion, surprise"
+          },
+          "body": {
+            "ru": "Ревность: **jealous / envious of**; подозрение: **suspicious / critical / tolerant of**; гордость, стыд: **proud / ashamed of**; удивление: **surprised / shocked / amazed / astonished at / by**; удовольствие: **pleased / satisfied / happy / delighted / disappointed with**; отношение к делу: **serious about**, **careful with**, **curious about**; оценка: **popular with**, **suitable for**; благодарность: **grateful for**; реакция: **allergic to**.",
+            "en": "Jealousy: **jealous / envious of**; suspicion: **suspicious / critical / tolerant of**; pride and shame: **proud / ashamed of**; surprise: **surprised / shocked / amazed / astonished at / by**; pleasure: **pleased / satisfied / happy / delighted / disappointed with**; attitude to work: **serious about**, **careful with**, **curious about**; evaluation: **popular with**, **suitable for**; gratitude: **grateful for**; reaction: **allergic to**."
+          },
+          "examples": [
+            "Why is he so jealous of other people?",
+            "I wasn't aware of that.",
+            "Everybody was surprised at the news.",
+            "They were delighted with the present."
+          ],
+          "exampleTranslations": [
+            "Почему он так завидует другим людям?",
+            "Я об этом не знал.",
+            "Все были удивлены этой новостью.",
+            "Они были в восторге от подарка."
           ]
         }
       ]
@@ -454,35 +505,35 @@
       "ruleId": "prep-adjectives",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте прилагательное и подходящий предлог.",
-        "en": "Match each adjective with the correct preposition."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "afraid ___ (бояться)",
-            "en": "afraid ___"
+            "ru": "страх",
+            "en": "fear"
           },
           "right": "My little brother is afraid of spiders."
         },
         {
           "left": {
-            "ru": "good ___ (хорошо уметь)",
-            "en": "good ___"
+            "ru": "умение рисовать",
+            "en": "drawing ability"
           },
           "right": "Our teacher says I am good at drawing."
         },
         {
           "left": {
-            "ru": "interested ___ (интересоваться)",
-            "en": "interested ___"
+            "ru": "интерес к космосу",
+            "en": "space-science curiosity"
           },
           "right": "She became interested in astronomy at school."
         },
         {
           "left": {
-            "ru": "famous ___ (знаменитый)",
-            "en": "famous ___"
+            "ru": "известность",
+            "en": "fame"
           },
           "right": "The region is famous for its cheese and wine."
         }
@@ -492,7 +543,8 @@
         "en": "Afraid of, good at, interested in and famous for — the preposition is fixed with the adjective."
       },
       "tags": [
-        "prep-adjectives"
+        "prep-adjectives",
+        "feelings"
       ]
     },
     {
@@ -501,35 +553,35 @@
       "ruleId": "prep-adjectives",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте прилагательное и подходящий предлог.",
-        "en": "Match each adjective with the correct preposition."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "proud ___ (гордиться)",
-            "en": "proud ___"
+            "ru": "гордость",
+            "en": "pride"
           },
           "right": "We are proud of what our students achieved."
         },
         {
           "left": {
-            "ru": "full ___ (полный)",
-            "en": "full ___"
+            "ru": "наполненность",
+            "en": "fullness"
           },
           "right": "The kitchen was full of the smell of fresh bread."
         },
         {
           "left": {
-            "ru": "ready ___ (готовый)",
-            "en": "ready ___"
+            "ru": "готовность",
+            "en": "readiness"
           },
           "right": "Is everybody ready for the final rehearsal?"
         },
         {
           "left": {
-            "ru": "kind ___ (добрый)",
-            "en": "kind ___"
+            "ru": "доброта",
+            "en": "kindness"
           },
           "right": "The nurses were very kind to the children."
         }
@@ -539,7 +591,8 @@
         "en": "Proud of, full of, ready for and kind to are fixed combinations of an adjective with a preposition."
       },
       "tags": [
-        "prep-adjectives"
+        "prep-adjectives",
+        "attitudes"
       ]
     },
     {
@@ -548,35 +601,35 @@
       "ruleId": "prep-adjectives",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте прилагательное и подходящий предлог.",
-        "en": "Match each adjective with the correct preposition."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "worried ___ (беспокоиться)",
-            "en": "worried ___"
+            "ru": "беспокойство",
+            "en": "worry"
           },
           "right": "I am a bit worried about tomorrow's interview."
         },
         {
           "left": {
-            "ru": "responsible ___ (отвечать за)",
-            "en": "responsible ___"
+            "ru": "ответственность",
+            "en": "responsibility"
           },
           "right": "The caretaker is responsible for the school building."
         },
         {
           "left": {
-            "ru": "similar ___ (похожий)",
-            "en": "similar ___"
+            "ru": "сходство",
+            "en": "similarity"
           },
           "right": "Her new bike is similar to mine."
         },
         {
           "left": {
-            "ru": "different ___ (отличаться)",
-            "en": "different ___"
+            "ru": "различие",
+            "en": "difference"
           },
           "right": "Life in a village is different from life in a city."
         }
@@ -586,7 +639,8 @@
         "en": "Worried about, responsible for, similar to and different from are the dependent prepositions of these adjectives."
       },
       "tags": [
-        "prep-adjectives"
+        "prep-adjectives",
+        "relationships"
       ]
     },
     {
@@ -595,35 +649,35 @@
       "ruleId": "prep-adjectives",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте прилагательное и подходящий предлог.",
-        "en": "Match each adjective with the correct preposition."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "capable ___ (способный)",
-            "en": "capable ___"
+            "ru": "способность",
+            "en": "capability"
           },
           "right": "The young engineer is capable of solving complex problems."
         },
         {
           "left": {
-            "ru": "aware ___ (осведомлённый)",
-            "en": "aware ___"
+            "ru": "осведомлённость",
+            "en": "awareness"
           },
           "right": "The staff were not aware of the new safety rules."
         },
         {
           "left": {
-            "ru": "close ___ (близко)",
-            "en": "close ___"
+            "ru": "близость",
+            "en": "proximity"
           },
           "right": "The station is close to the market square."
         },
         {
           "left": {
-            "ru": "satisfied ___ (довольный)",
-            "en": "satisfied ___"
+            "ru": "удовлетворение",
+            "en": "satisfaction"
           },
           "right": "The customer was satisfied with the service in the café."
         }
@@ -633,7 +687,8 @@
         "en": "Capable of, aware of, close to and satisfied with — the preposition is part of each combination."
       },
       "tags": [
-        "prep-adjectives"
+        "prep-adjectives",
+        "ability"
       ]
     },
     {
@@ -642,35 +697,35 @@
       "ruleId": "prep-adjectives",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте прилагательное и подходящий предлог.",
-        "en": "Match each adjective with the correct preposition."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "married ___ (замужем за)",
-            "en": "married ___"
+            "ru": "супружество",
+            "en": "marriage"
           },
           "right": "My cousin has been married to a doctor for five years."
         },
         {
           "left": {
-            "ru": "fond ___ (любить)",
-            "en": "fond ___"
+            "ru": "любовь к чему-либо",
+            "en": "fondness"
           },
           "right": "My grandfather is fond of old detective films."
         },
         {
           "left": {
-            "ru": "late ___ (опоздать на)",
-            "en": "late ___"
+            "ru": "опоздание",
+            "en": "lateness"
           },
           "right": "Sorry I'm late for the rehearsal — the bus was delayed."
         },
         {
           "left": {
-            "ru": "nervous ___ (нервничать из-за)",
-            "en": "nervous ___"
+            "ru": "нервозность",
+            "en": "nervousness"
           },
           "right": "She always feels nervous about job interviews."
         }
@@ -680,7 +735,8 @@
         "en": "Married to, fond of, late for and nervous about — the preposition is fixed with the adjective."
       },
       "tags": [
-        "prep-adjectives"
+        "prep-adjectives",
+        "relationships"
       ]
     },
     {

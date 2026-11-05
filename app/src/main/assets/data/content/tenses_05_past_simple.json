@@ -35,6 +35,12 @@
             "We went home early.",
             "I did not see him yesterday.",
             "Did you enjoy the party?"
+          ],
+          "exampleTranslations": [
+            "Вчера вечером она посмотрела фильм.",
+            "Мы ушли домой рано.",
+            "Вчера я его не видел.",
+            "Тебе понравилась вечеринка?"
           ]
         },
         {
@@ -49,7 +55,16 @@
           "examples": [
             "We visited the museum last Sunday.",
             "He opened the door and walked in.",
-            "Every summer we spent a week by the sea."
+            "Every summer we spent a week by the sea.",
+            "I lived in a small village when I was a child.",
+            "My grandmother often told us stories about the war."
+          ],
+          "exampleTranslations": [
+            "В прошлое воскресенье мы посетили музей.",
+            "Он открыл дверь и вошёл.",
+            "Каждое лето мы проводили неделю у моря.",
+            "В детстве я жил в маленькой деревне.",
+            "Бабушка часто рассказывала нам истории о войне."
           ]
         },
         {
@@ -65,6 +80,11 @@
             "We met yesterday.",
             "She called me two hours ago.",
             "He moved to Paris in 2019."
+          ],
+          "exampleTranslations": [
+            "Мы встретились вчера.",
+            "Она позвонила мне два часа назад.",
+            "В 2019 году он переехал в Париж."
           ]
         }
       ]
@@ -781,42 +801,42 @@
       "ruleId": "tense-past-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте форму и пример.",
-        "en": "Match the form with its example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Правильный глагол: -ed",
-            "en": "A regular verb: -ed"
+            "ru": "вчера вечером она посмотрела фильм",
+            "en": "last night she watched a film"
           },
           "right": "She watched a film last night."
         },
         {
           "left": {
-            "ru": "Неправильный глагол: особая форма",
-            "en": "An irregular verb: a special form"
+            "ru": "мы ушли домой рано",
+            "en": "we went home early"
           },
           "right": "We went home early."
         },
         {
           "left": {
-            "ru": "Отрицание: did not + начальная форма",
-            "en": "Negative: did not + base form"
+            "ru": "вчера я его не видел",
+            "en": "yesterday I did not see him"
           },
           "right": "I did not see him yesterday."
         },
         {
           "left": {
-            "ru": "Вопрос: did + начальная форма",
-            "en": "Question: did + base form"
+            "ru": "тебе понравилась вечеринка?",
+            "en": "asking whether you enjoyed the party"
           },
           "right": "Did you enjoy the party?"
         }
       ],
       "explanation": {
-        "ru": "Правильные глаголы получают -ed, неправильные меняют форму; в отрицании и вопросе после did стоит начальная форма.",
-        "en": "Regular verbs take -ed and irregular verbs change form; in negatives and questions the base form follows did."
+        "ru": "Примеры показывают законченные действия в прошлом: утверждение, отрицание и вопрос о вчерашнем событии.",
+        "en": "The examples show finished past actions: a statement, a negative and a question about yesterday."
       },
       "tags": [
         "tense-past-simple",
@@ -830,42 +850,42 @@
       "ruleId": "tense-past-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте маркер времени и пример.",
-        "en": "Match the time marker with its example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "yesterday (вчера)",
-            "en": "yesterday"
+            "ru": "событие произошло вчера",
+            "en": "the event happened yesterday"
           },
           "right": "We met yesterday."
         },
         {
           "left": {
-            "ru": "last + период",
-            "en": "last + period"
+            "ru": "я закончил школу прошлым летом",
+            "en": "I finished school last summer"
           },
           "right": "I finished school last summer."
         },
         {
           "left": {
-            "ru": "… ago (тому назад)",
-            "en": "… ago"
+            "ru": "она позвонила два часа назад",
+            "en": "she called two hours ago"
           },
           "right": "She called me two hours ago."
         },
         {
           "left": {
-            "ru": "in + год",
-            "en": "in + year"
+            "ru": "в 2019 году он переехал в Париж",
+            "en": "in 2019 he moved to Paris"
           },
           "right": "He moved to Paris in 2019."
         }
       ],
       "explanation": {
         "ru": "Маркеры yesterday, last summer, two hours ago и in 2019 показывают законченное действие в прошлом.",
-        "en": "The markers yesterday, last summer, two hours ago and in 2019 show a finished action in the past."
+        "en": "The markers yesterday, last summer, two hours ago and in 2019 show a finished past action."
       },
       "tags": [
         "tense-past-simple",
@@ -879,42 +899,42 @@
       "ruleId": "tense-past-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте глагол и его форму в Past Simple.",
-        "en": "Match the verb with its Past Simple form."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "watch (смотреть) → watched",
-            "en": "watch →"
+            "ru": "в выходные они посмотрели фильм",
+            "en": "at the weekend they watched a film"
           },
           "right": "They watched a film."
         },
         {
           "left": {
-            "ru": "go (идти) → went",
-            "en": "go →"
+            "ru": "потом сходили в парк",
+            "en": "after that they went to the park"
           },
           "right": "They went to the park."
         },
         {
           "left": {
-            "ru": "buy (покупать) → bought",
-            "en": "buy →"
+            "ru": "утром она купила хлеба",
+            "en": "in the morning she bought some bread"
           },
           "right": "She bought some bread."
         },
         {
           "left": {
-            "ru": "see (видеть) → saw",
-            "en": "see →"
+            "ru": "по дороге я встретил учителя",
+            "en": "on the way I saw my teacher"
           },
           "right": "I saw my teacher."
         }
       ],
       "explanation": {
-        "ru": "Правильные глаголы получают -ed, а неправильные образуют особую форму, которую нужно запомнить.",
-        "en": "Regular verbs take -ed, while irregular verbs form a special past form that must be learnt."
+        "ru": "Примеры складываются в рассказ о прошедших выходных: события идут одно за другим в Past Simple.",
+        "en": "The examples form a story about a past weekend: the events follow one another in the past simple."
       },
       "tags": [
         "tense-past-simple",
@@ -929,42 +949,42 @@
       "ruleId": "tense-past-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте форму be и пример.",
-        "en": "Match the past form of be with its example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "was с I / he / she / it",
-            "en": "was with I / he / she / it"
+            "ru": "я был дома вчера вечером",
+            "en": "I was at home last night"
           },
           "right": "I was at home last night."
         },
         {
           "left": {
-            "ru": "were с you / we / they",
-            "en": "were with you / we / they"
+            "ru": "они были на пляже",
+            "en": "they were at the beach"
           },
           "right": "They were at the beach."
         },
         {
           "left": {
-            "ru": "Отрицание: was not / were not",
-            "en": "Negative: was not / were not"
+            "ru": "вчера он не был в школе",
+            "en": "yesterday he was not at school"
           },
           "right": "He was not at school yesterday."
         },
         {
           "left": {
-            "ru": "Вопрос: was / were",
-            "en": "Question: was / were"
+            "ru": "ты был дома?",
+            "en": "asking whether you were at home"
           },
           "right": "Were you at home?"
         }
       ],
       "explanation": {
-        "ru": "Was используется с I, he, she и it, were — с you, we и they; отрицание и вопрос образуются без did.",
-        "en": "Was is used with I, he, she and it, and were with you, we and they; negatives and questions do not use did."
+        "ru": "Глагол be в прошлом имеет формы was и were; отрицание и вопрос строятся без did.",
+        "en": "The past form of be is was or were; negatives and questions are formed without did."
       },
       "tags": [
         "tense-past-simple",
@@ -978,42 +998,42 @@
       "ruleId": "tense-past-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте ситуацию и пример.",
-        "en": "Match the situation with its example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Законченное действие в прошлом",
-            "en": "A finished action in the past"
+            "ru": "законченное действие в прошлом",
+            "en": "a finished action in the past"
           },
           "right": "We visited the museum last Sunday."
         },
         {
           "left": {
-            "ru": "Последовательность событий",
-            "en": "A sequence of events"
+            "ru": "последовательность событий",
+            "en": "a sequence of events"
           },
           "right": "He opened the door and walked in."
         },
         {
           "left": {
-            "ru": "Привычка в прошлом",
-            "en": "A habit in the past"
+            "ru": "привычка в прошлом",
+            "en": "a past habit"
           },
           "right": "Every summer we spent a week by the sea."
         },
         {
           "left": {
-            "ru": "Событие в точное время",
-            "en": "An event at an exact time"
+            "ru": "событие в точное время",
+            "en": "an event at an exact time"
           },
           "right": "The meeting started at nine o'clock."
         }
       ],
       "explanation": {
-        "ru": "Past Simple передаёт законченные действия, их последовательность и привычки в прошлом; точное время тоже указывается в этом времени.",
-        "en": "The Past Simple reports finished actions, their sequence and past habits; exact past times also go with this tense."
+        "ru": "Past Simple передаёт законченные действия, их последовательность, привычки в прошлом и события в точное время.",
+        "en": "The past simple expresses finished actions, their sequence, past habits and events at an exact time."
       },
       "tags": [
         "tense-past-simple",
@@ -3103,42 +3123,42 @@
       "ruleId": "tense-past-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте маркер времени и пример.",
-        "en": "Match the time marker with its example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "вчера",
-            "en": "yesterday"
+            "ru": "она закончила отчёт вчера",
+            "en": "she finished the report yesterday"
           },
           "right": "She finished the report yesterday."
         },
         {
           "left": {
-            "ru": "вчера вечером",
-            "en": "last night"
+            "ru": "вчера вечером мы посмотрели фильм",
+            "en": "last night we watched a film"
           },
           "right": "We saw a film last night."
         },
         {
           "left": {
-            "ru": "два дня назад",
-            "en": "two days ago"
+            "ru": "он позвонил два дня назад",
+            "en": "he called two days ago"
           },
           "right": "He called me two days ago."
         },
         {
           "left": {
-            "ru": "в 2015 году",
-            "en": "in 2015"
+            "ru": "в 2015 году они поженились",
+            "en": "in 2015 they got married"
           },
           "right": "They got married in 2015."
         }
       ],
       "explanation": {
-        "ru": "Маркеры yesterday, last night, two days ago и in 2015 показывают законченное действие в прошлом.",
-        "en": "The markers yesterday, last night, two days ago and in 2015 show a finished action in the past."
+        "ru": "Маркеры yesterday, last night, two days ago и in 2015 называют конкретное законченное время в прошлом.",
+        "en": "The markers yesterday, last night, two days ago and in 2015 name a specific finished past time."
       },
       "tags": [
         "tense-past-simple",
@@ -3152,42 +3172,42 @@
       "ruleId": "tense-past-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте глагол и его форму в Past Simple.",
-        "en": "Match the verb with its Past Simple form."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "watch (смотреть) →",
-            "en": "watch →"
+            "ru": "после ужина они смотрели телевизор",
+            "en": "after dinner they watched TV"
           },
           "right": "They watched TV after dinner."
         },
         {
           "left": {
-            "ru": "write (писать) →",
-            "en": "write →"
+            "ru": "она написала письмо",
+            "en": "she wrote a letter"
           },
           "right": "She wrote a letter."
         },
         {
           "left": {
-            "ru": "stop (останавливаться) →",
-            "en": "stop →"
+            "ru": "автобус остановился на повороте",
+            "en": "the bus stopped at the corner"
           },
           "right": "The bus stopped at the corner."
         },
         {
           "left": {
-            "ru": "take (брать) →",
-            "en": "take →"
+            "ru": "он взял мою ручку",
+            "en": "he took my pen"
           },
           "right": "He took my pen."
         }
       ],
       "explanation": {
-        "ru": "Правильные глаголы получают -ed, а неправильные образуют особую форму: wrote, took, stopped.",
-        "en": "Regular verbs take -ed, while irregular verbs form a special past form: wrote, took, stopped."
+        "ru": "Правильные глаголы получают -ed (watched, stopped), неправильные образуют особую форму (wrote, took).",
+        "en": "Regular verbs take -ed (watched, stopped); irregular verbs have a special form (wrote, took)."
       },
       "tags": [
         "tense-past-simple",
@@ -3201,42 +3221,42 @@
       "ruleId": "tense-past-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте форму be и пример.",
-        "en": "Match the past form of be with its example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "I / he / she / it (я, он, она, оно) →",
-            "en": "I / he / she / it →"
+            "ru": "фильм был очень длинным",
+            "en": "the film was very long"
           },
           "right": "The film was very long."
         },
         {
           "left": {
-            "ru": "you / we / they (ты, мы, они) →",
-            "en": "you / we / they →"
+            "ru": "магазины были закрыты",
+            "en": "the shops were closed"
           },
           "right": "The shops were closed."
         },
         {
           "left": {
-            "ru": "отрицание →",
-            "en": "was not / were not →"
+            "ru": "погода была не тёплой",
+            "en": "the weather was not warm"
           },
           "right": "The weather was not warm."
         },
         {
           "left": {
-            "ru": "вопрос →",
-            "en": "Was / Were …? →"
+            "ru": "музей был открыт?",
+            "en": "asking whether the museum was open"
           },
           "right": "Was the museum open?"
         }
       ],
       "explanation": {
-        "ru": "В прошедшем времени be имеет формы was и were; отрицание и вопрос образуются без did.",
-        "en": "In the past be has the forms was and were; negatives and questions are formed without did."
+        "ru": "To be в прошедшем: was/were; отрицание — was/were not, вопрос начинается с was/were.",
+        "en": "The past of be is was/were; the negative is was/were not and a question starts with was/were."
       },
       "tags": [
         "tense-past-simple",
@@ -3250,42 +3270,42 @@
       "ruleId": "tense-past-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте ошибку и правильный пример.",
-        "en": "Match the mistake with the correct example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Ошибка: *did went* →",
-            "en": "*did went* →"
+            "ru": "она пошла в школу",
+            "en": "she went to school"
           },
           "right": "She went to school."
         },
         {
           "left": {
-            "ru": "Ошибка: *Did you saw* →",
-            "en": "*Did you saw* →"
+            "ru": "ты посмотрел фильм?",
+            "en": "asking whether you saw the film"
           },
           "right": "Did you see the film?"
         },
         {
           "left": {
-            "ru": "Ошибка: *I were tired* →",
-            "en": "*I were tired* →"
+            "ru": "я устал",
+            "en": "I was tired"
           },
           "right": "I was tired."
         },
         {
           "left": {
-            "ru": "Ошибка: *He didn't came* →",
-            "en": "*He didn't came* →"
+            "ru": "он не пришёл",
+            "en": "he did not come"
           },
           "right": "He didn't come."
         }
       ],
       "explanation": {
-        "ru": "После did нужна начальная форма глагола, а с I используется was: went, see, was, come.",
-        "en": "After did the base form is needed, and with I the form is was: went, see, was, come."
+        "ru": "В прошедшем времени утверждение требует второй формы глагола, вопрос и отрицание — did + начальный глагол, а с I используется was.",
+        "en": "In the past, a statement needs the second form of the verb, a question and negative need did + base verb, and I takes was."
       },
       "tags": [
         "tense-past-simple",
@@ -3299,42 +3319,42 @@
       "ruleId": "tense-past-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте ситуацию и пример.",
-        "en": "Match the situation with its example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "законченное действие",
-            "en": "a finished action"
+            "ru": "они были в музее в прошлом году",
+            "en": "they visited the museum last year"
           },
           "right": "They visited the museum last year."
         },
         {
           "left": {
-            "ru": "последовательность событий",
-            "en": "a sequence of events"
+            "ru": "она открыла окно и выглянула",
+            "en": "she opened the window and looked out"
           },
           "right": "She opened the window and looked out."
         },
         {
           "left": {
-            "ru": "привычка в прошлом",
-            "en": "a past habit"
+            "ru": "мы часто играли в шахматы по вечерам",
+            "en": "we often played chess in the evening"
           },
           "right": "We often played chess in the evening."
         },
         {
           "left": {
-            "ru": "событие в точное время",
-            "en": "an event at an exact time"
+            "ru": "встреча закончилась в пять",
+            "en": "the meeting finished at five"
           },
           "right": "The meeting finished at five o'clock."
         }
       ],
       "explanation": {
         "ru": "Past Simple передаёт законченные действия, их последовательность, привычки в прошлом и события в точное время.",
-        "en": "The Past Simple reports finished actions, their sequence, past habits and events at an exact time."
+        "en": "The past simple expresses finished actions, their sequence, past habits and events at an exact time."
       },
       "tags": [
         "tense-past-simple",

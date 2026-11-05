@@ -1,6 +1,7 @@
 package com.iltatrainer.app.ui.screens
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -25,6 +26,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
@@ -42,7 +44,6 @@ import com.iltatrainer.app.data.Question
 import com.iltatrainer.app.data.Rule
 import com.iltatrainer.app.data.RuleSection
 import com.iltatrainer.app.domain.StatsCalculator
-import com.iltatrainer.app.domain.TOPIC_SESSION_SIZE
 import com.iltatrainer.app.ui.components.AccuracyBar
 import com.iltatrainer.app.ui.components.AppCard
 import com.iltatrainer.app.ui.components.BackTopBar
@@ -50,7 +51,6 @@ import com.iltatrainer.app.ui.components.EmptyState
 import com.iltatrainer.app.ui.components.LevelChip
 import com.iltatrainer.app.ui.formatPercent
 import com.iltatrainer.app.ui.localized
-import com.iltatrainer.app.ui.questionsLabel
 
 @Composable
 fun RuleDetailScreen(
@@ -62,7 +62,7 @@ fun RuleDetailScreen(
 ) {
     Column(modifier = Modifier.fillMaxSize()) {
         BackTopBar(
-            title = rule?.title?.localized() ?: "Тема",
+            title = shortRuleTitle(rule),
             onBack = onBack,
         )
         if (rule == null) {
@@ -113,24 +113,20 @@ private fun RuleDetailContent(
                     style = MaterialTheme.typography.titleLarge,
                 )
             }
+            Spacer(Modifier.height(8.dp))
+            AccuracyBar(accuracy = themeProgress / 100f)
+        }
+
+        if (rule.sectionId != "tenses") {
             val summary = rule.summary.localized()
-            if (summary.isNotBlank() && rule.sectionId != "tenses") {
-                Spacer(Modifier.height(6.dp))
+            if (summary.isNotBlank()) {
                 Text(
                     text = summary,
                     style = MaterialTheme.typography.bodyMedium.copy(lineBreak = LineBreak.Heading),
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier = Modifier.padding(horizontal = 2.dp),
                 )
             }
-            Spacer(Modifier.height(8.dp))
-            AccuracyBar(accuracy = themeProgress / 100f)
-            Spacer(Modifier.height(6.dp))
-            Text(
-                text = "${questionsLabel(TOPIC_SESSION_SIZE)} в тренировке · " +
-                    "${questionsLabel(questions.size)} в теме",
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
         }
 
         if (rule.sections.isEmpty()) {
@@ -158,11 +154,6 @@ private fun RuleDetailContent(
             Text(
                 text = "Тренировать тему",
                 style = MaterialTheme.typography.titleMedium,
-                modifier = Modifier.weight(1f),
-            )
-            Text(
-                text = questionsLabel(TOPIC_SESSION_SIZE),
-                style = MaterialTheme.typography.labelSmall,
             )
         }
     }
@@ -173,37 +164,15 @@ private fun RuleSectionCard(section: RuleSection) {
     val heading = section.heading.localized()
     val body = section.body.localized()
     val isFormula = heading.contains("Форм", ignoreCase = true) || heading.contains("Form", ignoreCase = true)
-    val iconRes = when {
-        isFormula -> R.drawable.ic_rule_form
-        heading.contains("Маркер", ignoreCase = true) || heading.contains("Marker", ignoreCase = true) ->
-            R.drawable.ic_rule_markers
-        else -> R.drawable.ic_rule_when
-    }
 
     AppCard {
         if (heading.isNotBlank()) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Surface(
-                    shape = RoundedCornerShape(8.dp),
-                    color = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.55f),
-                ) {
-                    Icon(
-                        painter = painterResource(iconRes),
-                        contentDescription = null,
-                        tint = MaterialTheme.colorScheme.primary,
-                        modifier = Modifier
-                            .padding(6.dp)
-                            .size(16.dp),
-                    )
-                }
-                Spacer(Modifier.width(9.dp))
-                Text(
-                    text = heading,
-                    style = MaterialTheme.typography.titleMedium.copy(lineBreak = LineBreak.Heading),
-                    color = MaterialTheme.colorScheme.onSurface,
-                    fontWeight = FontWeight.SemiBold,
-                )
-            }
+            Text(
+                text = heading,
+                style = MaterialTheme.typography.titleMedium.copy(lineBreak = LineBreak.Heading),
+                color = MaterialTheme.colorScheme.onSurface,
+                fontWeight = FontWeight.SemiBold,
+            )
         }
 
         if (body.isNotBlank()) {
@@ -277,27 +246,60 @@ private fun RuleSectionCard(section: RuleSection) {
             )
             Spacer(Modifier.height(6.dp))
             Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                section.examples.forEach { example ->
-                    Surface(
-                        color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.38f),
-                        shape = RoundedCornerShape(8.dp),
-                    ) {
-                        Row(
+                section.examples.forEachIndexed { index, example ->
+                    val translation = section.exampleTranslations.getOrNull(index).orEmpty()
+                    val showTranslation = remember(example) { androidx.compose.runtime.mutableStateOf(false) }
+                    Column {
+                        Surface(
+                            color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.38f),
+                            shape = RoundedCornerShape(8.dp),
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .padding(horizontal = 10.dp, vertical = 7.dp),
-                            verticalAlignment = Alignment.Top,
+                                .pointerInput(example, translation) {
+                                    detectTapGestures(
+                                        onTap = {
+                                            if (showTranslation.value) showTranslation.value = false
+                                        },
+                                        onLongPress = {
+                                            if (translation.isNotBlank()) showTranslation.value = true
+                                        },
+                                    )
+                                },
                         ) {
-                            Text(
-                                text = "→",
-                                style = MaterialTheme.typography.bodyMedium,
-                                color = MaterialTheme.colorScheme.primary,
-                            )
-                            Spacer(Modifier.width(7.dp))
-                            Text(
-                                text = remember(example) { formatRuleText(example) },
-                                style = MaterialTheme.typography.bodyMedium.copy(lineHeight = 20.sp),
-                            )
+                            Row(
+                                modifier = Modifier.padding(horizontal = 10.dp, vertical = 7.dp),
+                                verticalAlignment = Alignment.Top,
+                            ) {
+                                Text(
+                                    text = "→",
+                                    style = MaterialTheme.typography.bodyMedium,
+                                    color = MaterialTheme.colorScheme.primary,
+                                )
+                                Spacer(Modifier.width(7.dp))
+                                Text(
+                                    text = remember(example) { formatRuleText(example) },
+                                    style = MaterialTheme.typography.bodyMedium.copy(lineHeight = 20.sp),
+                                )
+                            }
+                        }
+                        if (showTranslation.value && translation.isNotBlank()) {
+                            Surface(
+                                color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.22f),
+                                shape = RoundedCornerShape(8.dp),
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .padding(top = 4.dp)
+                                    .pointerInput(translation) {
+                                        detectTapGestures(onTap = { showTranslation.value = false })
+                                    },
+                            ) {
+                                Text(
+                                    text = translation,
+                                    style = MaterialTheme.typography.bodyMedium.copy(lineHeight = 20.sp),
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                    modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
+                                )
+                            }
                         }
                     }
                 }
@@ -310,6 +312,17 @@ private fun RuleSectionCard(section: RuleSection) {
  * Renders the simple markup used by rule bodies: line breaks are preserved exactly,
  * `**bold**` becomes bold and `*italic*` becomes italic.
  */
+@Composable
+private fun shortRuleTitle(rule: Rule?): String {
+    val full = rule?.title?.localized().orEmpty().trim()
+    if (full.isBlank()) return "Тема"
+    val base = full.substringBefore(":").substringBefore(" — ").substringBefore(" (").trim()
+    val candidate = if (base.length >= 6) base else full
+    if (candidate.length <= 34) return candidate
+    val cut = candidate.take(34).substringBeforeLast(" ").trimEnd(' ', ',', ':', '—', '-')
+    return if (cut.length >= 3) cut else candidate.take(34)
+}
+
 private fun formatRuleText(raw: String): AnnotatedString = buildAnnotatedString {
     var bold = false
     var italic = false

@@ -4,10 +4,10 @@
 английских **артиклей** и **предлогов**.
 
 > **GitHub:** [github.com/Temnitsa/IlTa](https://github.com/Temnitsa/IlTa) ·
-> **Готовый APK:** [IlTa 3.1.0](https://github.com/Temnitsa/IlTa/releases/latest) — 7,6 МБ, Android 8.0+,
-> release-подпись, package `com.iltatrainer.app`, versionCode 16.
-> SHA-256: `73edd52a6785ab75de47104924ad6281ea5480e4dfc09188274256521ae86d76`.
-> Установка: скачайте APK из Releases или `adb install -r IlTa-v3.1.0-release.apk`.
+> **Готовый APK:** [IlTa 3.2.0](https://github.com/Temnitsa/IlTa/releases/latest) — 7,6 МБ, Android 8.0+,
+> release-подпись, package `com.iltatrainer.app`, versionCode 17.
+> SHA-256: `PLACEHOLDER_320`.
+> Установка: скачайте APK из Releases или `adb install -r IlTa-v3.2.0-release.apk`.
 
 ## Возможности
 
@@ -38,6 +38,12 @@
   **Избранное удалено** — ручные закладки дублировали автоматический разбор ошибок.
 - **Понятные объяснения**: правила компактны — формулы с **S**, короткие буллеты и маркеры;
   в тексте есть **жирный** и *курсив*.
+- **Полная теория в 3.2**: артикли и предлоги переписаны по языковым правилам, без экзаменов
+  (IELTS/TOEFL); предлоги покрывают темы English Grammar in Use (units 121–136), у каждого
+  пункта есть примеры и русские переводы.
+- **Сопоставление по смыслу**: в match-заданиях слева описание значения, справа английский
+  пример — ответ нельзя угадать сравнением одинаковых предлогов.
+- **Перевод примера по долгому нажатию**: всплывает рядом с примером, без отдельного окна.
   В фидбеке ответа — структурированная сноска «Верно/Неверно → Почему → Перевод».
 - **Русский интерфейс**, **тёмная/светлая тема** в стиле DeepSeek Harness.
 - **Логотип-слон**, линейные иконки разделов и обновлённый интерфейс без лишнего текста.
@@ -192,7 +198,7 @@ scripts/gradle.sh :app:testDebugUnitTest
 ## Проверка
 
 - 49 unit-тестов и валидатор контента — зелёные.
-- Визуальный аудит: [design-review-3.1.0.md](docs/design-review-3.1.0.md).
+- Визуальный аудит: [design-review-3.2.md](docs/design-review-3.2-recheck.md).
 - QA-ревью контента: [статьи v2.2](docs/qa-review-v3-articles.md),
   [предлоги v2.2](docs/qa-review-v3-prepositions.md),
   [новые вопросы статей v2.3](docs/qa-review-v4-articles.md),

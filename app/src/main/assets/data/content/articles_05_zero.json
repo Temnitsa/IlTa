@@ -13,44 +13,56 @@
       "order": 50,
       "level": "A2",
       "title": {
-        "ru": "Нулевой артикль: общее значение и устойчивые выражения",
-        "en": "Zero article: general meaning and fixed expressions"
+        "ru": "Нулевой артикль: общее значение, места и устойчивые выражения",
+        "en": "Zero article: general meaning, places and fixed expressions"
       },
       "summary": {
-        "ru": "Артикль не нужен, когда существительное называет категорию в целом, и в устойчивых выражениях о местах, транспорте, еде и времени.",
-        "en": "No article is used when a noun names a whole category, and in fixed expressions about places, transport, meals and time."
+        "ru": "Когда артикль не нужен: обобщающие существительные, привычные места и учреждения, транспорт, еда, время, календарь и устойчивые выражения.",
+        "en": "When no article is needed: general nouns, habitual places and institutions, transport, meals, time, calendar and fixed expressions."
       },
       "sections": [
         {
           "heading": {
             "ru": "Общее значение: множественное число и неисчисляемые",
-            "en": "General meaning: plural and uncountable nouns"
+            "en": "General meaning: plurals and uncountable nouns"
           },
           "body": {
-            "ru": "Артикль не ставится, когда существительное называет категорию в целом, а не отдельный предмет. Так бывает с исчисляемыми существительными во множественном числе и с неисчисляемыми существительными в обобщающих высказываниях о фактах, свойствах и явлениях.",
-            "en": "No article is used when a noun names a whole category rather than a single thing. This happens with plural countable nouns and with uncountable nouns in general statements about facts, qualities and phenomena."
+            "ru": "Артикль не ставится, когда существительное называет категорию в целом, а не отдельный предмет. Так бывает с исчисляемыми во множественном числе и с неисчисляемыми существительными в обобщающих высказываниях.",
+            "en": "No article is used when a noun names a whole category rather than a single thing. This happens with plural countable nouns and with uncountable nouns in general statements."
           },
           "examples": [
             "Cats are independent animals.",
             "Water is essential for life.",
             "Information helps us make decisions."
+          ],
+          "exampleTranslations": [
+            "Кошки — независимые животные.",
+            "Вода необходима для жизни.",
+            "Информация помогает нам принимать решения."
           ]
         },
         {
           "heading": {
             "ru": "Учреждения и привычные места",
-            "en": "Institutions and familiar places"
+            "en": "Institutions and habitual places"
           },
           "body": {
-            "ru": "Названия привычных мест и учреждений употребляются без артикля, когда важно их основное назначение: сон, учёба, работа, лечение или наказание. Если речь идёт о конкретном здании или объекте, обычно появляется определённый артикль.",
-            "en": "Names of familiar places and institutions take no article when their main purpose matters: sleeping, studying, working, medical treatment or punishment. When a particular building or object is meant, the definite article is normally used."
+            "ru": "Названия привычных мест и учреждений употребляются без артикля, когда важно их основное назначение: учёба, работа, лечение или наказание. Если речь о конкретном здании, обычно появляется the.",
+            "en": "Names of habitual places and institutions take no article when their main purpose matters: studying, working, treatment or punishment. If we mean a particular building, the usually appears."
           },
           "examples": [
-            "go to bed",
-            "be at home",
             "go to school",
+            "My father is at work.",
+            "We walked past the school.",
             "be in hospital",
             "be in prison"
+          ],
+          "exampleTranslations": [
+            "ходить в школу",
+            "Мой отец на работе.",
+            "Мы прошли мимо школы.",
+            "находиться в больнице",
+            "находиться в тюрьме"
           ]
         },
         {
@@ -59,15 +71,22 @@
             "en": "Transport and movement"
           },
           "body": {
-            "ru": "После предлога by вид транспорта употребляется без артикля. Устойчивое выражение со значением «пешком» тоже обходится без артикля, и с наречием home артикль не нужен. Перед словом radio обычно ставится the, а перед словом television артикль не нужен.",
-            "en": "After the preposition by, a means of transport takes no article. The fixed expression meaning walking needs no article either, and neither does the adverb home. The word radio usually takes the, while television takes no article."
+            "ru": "После предлога by вид транспорта употребляется без артикля. Выражение «пешком» тоже обходится без артикля, и с наречием home артикль не нужен. Перед словом radio обычно ставится the, перед словом television — нет.",
+            "en": "After the preposition by, a means of transport takes no article. The expression for walking also has no article, and the adverb home takes no article either. Radio usually takes the, while television does not."
           },
           "examples": [
             "by car",
-            "by train",
-            "by ferry",
             "on foot",
-            "go home"
+            "go home",
+            "I listen to the radio in the car.",
+            "We watch television in the evening."
+          ],
+          "exampleTranslations": [
+            "на машине",
+            "пешком",
+            "идти домой",
+            "Я слушаю радио в машине.",
+            "Вечером мы смотрим телевизор."
           ]
         },
         {
@@ -76,15 +95,22 @@
             "en": "Meals, time and calendar"
           },
           "body": {
-            "ru": "Названия приёмов пищи в сочетаниях с have идут без артикля. Устойчивые выражения с точным временем суток, а также названия дней недели, месяцев и праздников тоже употребляются без артикля. С временами года возможны оба варианта: без артикля в общем значении и с the, если сезон уточняется.",
-            "en": "Meal names in expressions with have take no article. Fixed expressions for exact times of day, and the names of days of the week, months and holidays, also take no article. With seasons both variants are possible: no article in a general sense and the when the season is specified."
+            "ru": "Названия приёмов пищи в сочетаниях с have идут без артикля. Устойчивые выражения с точным временем суток, а также названия дней недели, месяцев и праздников тоже употребляются без артикля.",
+            "en": "The names of meals with have take no article. Fixed expressions with an exact time of day, and the names of days, months and holidays, also take no article."
           },
           "examples": [
             "have breakfast",
-            "have dinner",
-            "at night",
             "at noon",
-            "on Monday"
+            "on Monday",
+            "We met in July.",
+            "Christmas is a family holiday."
+          ],
+          "exampleTranslations": [
+            "завтракать",
+            "в полдень",
+            "в понедельник",
+            "Мы встретились в июле.",
+            "Рождество — семейный праздник."
           ]
         },
         {
@@ -93,8 +119,8 @@
             "en": "Fixed expressions"
           },
           "body": {
-            "ru": "Некоторые сочетания глаголов и существительных традиционно употребляются без артикля, хотя общее правило обобщения их не объясняет. Такие обороты лучше запоминать целиком как готовые формулы речи.",
-            "en": "Some combinations of verbs and nouns are traditionally used without an article, although the general rule of generalization does not explain them. Such phrases are best learned as whole units of speech."
+            "ru": "Некоторые сочетания глаголов и существительных традиционно употребляются без артикля, хотя общее правило обобщения их не объясняет. Такие обороты лучше запоминать целиком.",
+            "en": "Some verb-and-noun combinations traditionally take no article, although the general rule of generalisation does not explain them. Such phrases are best learnt as whole units."
           },
           "examples": [
             "watch TV",
@@ -102,6 +128,13 @@
             "in fact",
             "on holiday",
             "by heart"
+          ],
+          "exampleTranslations": [
+            "смотреть телевизор",
+            "играть в футбол",
+            "на самом деле",
+            "в отпуске",
+            "наизусть"
           ]
         }
       ]
@@ -489,35 +522,35 @@
       "ruleId": "art-zero",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и пример.",
-        "en": "Match each fixed expression with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Дома",
-            "en": "At home"
+            "ru": "своё жильё",
+            "en": "own place of living"
           },
           "right": "She always feels happy at home."
         },
         {
           "left": {
-            "ru": "Пешком",
-            "en": "On foot"
+            "ru": "передвижение шагом",
+            "en": "moving by walking"
           },
           "right": "The station is close, so we go there on foot."
         },
         {
           "left": {
-            "ru": "На работе",
-            "en": "At work"
+            "ru": "место работы",
+            "en": "place of job"
           },
           "right": "He has been at work since eight o'clock."
         },
         {
           "left": {
-            "ru": "Смотреть телевизор",
-            "en": "Watch TV"
+            "ru": "просмотр передач",
+            "en": "viewing programmes"
           },
           "right": "We watch TV together every evening."
         }
@@ -537,35 +570,35 @@
       "ruleId": "art-zero",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и пример.",
-        "en": "Match each fixed expression with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Идти в школу (учиться)",
-            "en": "Go to school (to study)"
+            "ru": "учёба в школе",
+            "en": "attending lessons"
           },
           "right": "Children go to school to learn new things."
         },
         {
           "left": {
-            "ru": "Играть в футбол",
-            "en": "Play football"
+            "ru": "командный спорт",
+            "en": "team sport"
           },
           "right": "The boys play football in the park after school."
         },
         {
           "left": {
-            "ru": "Быть в постели",
-            "en": "Be in bed"
+            "ru": "отдых под одеялом",
+            "en": "resting under covers"
           },
           "right": "It is so cold that I want to stay in bed all day."
         },
         {
           "left": {
-            "ru": "На самом деле",
-            "en": "In fact"
+            "ru": "вводный оборот о реальности",
+            "en": "introductory phrase about reality"
           },
           "right": "In fact, the museum is free on Sundays."
         }
@@ -585,35 +618,35 @@
       "ruleId": "art-zero",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и пример.",
-        "en": "Match each fixed expression with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "На отдыхе",
-            "en": "On holiday"
+            "ru": "время отдыха вне работы",
+            "en": "rest time away from work"
           },
           "right": "We spent a week on holiday in Greece."
         },
         {
           "left": {
-            "ru": "Наизусть",
-            "en": "By heart"
+            "ru": "заучивание слово в слово",
+            "en": "memorising word for word"
           },
           "right": "He can recite the whole speech by heart."
         },
         {
           "left": {
-            "ru": "Ложиться спать",
-            "en": "Go to bed"
+            "ru": "отход ко сну",
+            "en": "settling down for sleep"
           },
           "right": "My grandmother goes to bed very early."
         },
         {
           "left": {
-            "ru": "Учиться в университете",
-            "en": "Study at university"
+            "ru": "высшее образование",
+            "en": "higher education"
           },
           "right": "My sister is studying medicine at university."
         }
@@ -633,35 +666,35 @@
       "ruleId": "art-zero",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и пример.",
-        "en": "Match each fixed expression with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Пешком",
-            "en": "On foot"
+            "ru": "передвижение шагом",
+            "en": "moving by walking"
           },
           "right": "We explored the old town on foot."
         },
         {
           "left": {
-            "ru": "Дома",
-            "en": "At home"
+            "ru": "своё жильё",
+            "en": "own place of living"
           },
           "right": "I usually relax at home after work."
         },
         {
           "left": {
-            "ru": "Смотреть телевизор",
-            "en": "Watch TV"
+            "ru": "просмотр передач",
+            "en": "viewing programmes"
           },
           "right": "My parents watch TV in the kitchen."
         },
         {
           "left": {
-            "ru": "Ходить в школу (учиться)",
-            "en": "Go to school (to study)"
+            "ru": "учёба в школе",
+            "en": "attending lessons"
           },
           "right": "The children go to school at nine o'clock."
         }
@@ -681,35 +714,35 @@
       "ruleId": "art-zero",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и пример.",
-        "en": "Match each fixed expression with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Играть в теннис",
-            "en": "Play tennis"
+            "ru": "спорт с ракеткой",
+            "en": "racket sport"
           },
           "right": "They play tennis at the sports club."
         },
         {
           "left": {
-            "ru": "Быть на работе",
-            "en": "Be at work"
+            "ru": "место работы",
+            "en": "place of job"
           },
           "right": "My father is at work until six."
         },
         {
           "left": {
-            "ru": "Уходить на работу",
-            "en": "Leave for work"
+            "ru": "уход на службу",
+            "en": "departure to employment"
           },
           "right": "She leaves for work at half past eight."
         },
         {
           "left": {
-            "ru": "Играть в футбол",
-            "en": "Play football"
+            "ru": "командный спорт",
+            "en": "team sport"
           },
           "right": "Our neighbours play football every Sunday."
         }
@@ -1354,35 +1387,35 @@
       "ruleId": "art-zero",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте вид транспорта и пример с выражением by.",
-        "en": "Match each means of transport with the example that uses by."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Автобус",
-            "en": "Bus"
+            "ru": "поездка в общественном транспорте",
+            "en": "trip by public transport"
           },
           "right": "We went to the city centre by bus."
         },
         {
           "left": {
-            "ru": "Машина",
-            "en": "Car"
+            "ru": "поездка в личном транспортном средстве",
+            "en": "trip in private vehicle"
           },
           "right": "My parents drive to work by car."
         },
         {
           "left": {
-            "ru": "Поезд",
-            "en": "Train"
+            "ru": "поездка по рельсам",
+            "en": "trip on rails"
           },
           "right": "We went to Scotland by train last summer."
         },
         {
           "left": {
-            "ru": "Самолёт",
-            "en": "Plane"
+            "ru": "полёт по воздуху",
+            "en": "flight through air"
           },
           "right": "They flew to Rome by plane."
         }
@@ -1402,35 +1435,35 @@
       "ruleId": "art-zero",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте приём пищи или время суток и пример.",
-        "en": "Match each meal or time of day with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Завтрак",
-            "en": "Breakfast"
+            "ru": "первый приём пищи",
+            "en": "first meal"
           },
           "right": "We usually have breakfast together."
         },
         {
           "left": {
-            "ru": "Обед",
-            "en": "Lunch"
+            "ru": "приём пищи в середине дня",
+            "en": "midday meal"
           },
           "right": "She had lunch with her colleagues."
         },
         {
           "left": {
-            "ru": "Ужин",
-            "en": "Dinner"
+            "ru": "вечерний приём пищи",
+            "en": "evening meal"
           },
           "right": "They had dinner with their neighbours."
         },
         {
           "left": {
-            "ru": "Ночь",
-            "en": "Night"
+            "ru": "тёмное время суток",
+            "en": "dark time of day"
           },
           "right": "The city looks beautiful at night."
         }
@@ -1450,35 +1483,35 @@
       "ruleId": "art-zero",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение без артикля и пример.",
-        "en": "Match each zero-article expression with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "ровно в полдень — at noon",
-            "en": "at noon — exact time"
+            "ru": "середина суток",
+            "en": "midday moment"
           },
           "right": "The bell rings at noon every day."
         },
         {
           "left": {
-            "ru": "летом — in summer",
-            "en": "in summer — a season"
+            "ru": "тёплое время года",
+            "en": "warm season"
           },
           "right": "We often go camping in summer."
         },
         {
           "left": {
-            "ru": "в понедельник — on Monday",
-            "en": "on Monday — a day of the week"
+            "ru": "начало рабочей недели",
+            "en": "start of working week"
           },
           "right": "The library is closed on Monday."
         },
         {
           "left": {
-            "ru": "ночью — at night",
-            "en": "at night — night-time"
+            "ru": "тёмное время суток",
+            "en": "dark time of day"
           },
           "right": "The streets are very quiet at night."
         }
@@ -1498,35 +1531,35 @@
       "ruleId": "art-zero",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте приём пищи и пример.",
-        "en": "Match each meal with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Завтрак",
-            "en": "Breakfast"
+            "ru": "ранний приём пищи",
+            "en": "early meal"
           },
           "right": "My brother never has breakfast on weekdays."
         },
         {
           "left": {
-            "ru": "Обед",
-            "en": "Lunch"
+            "ru": "дневной приём пищи",
+            "en": "daytime meal"
           },
           "right": "We had lunch in the garden yesterday."
         },
         {
           "left": {
-            "ru": "Ужин",
-            "en": "Dinner"
+            "ru": "основной вечерний приём пищи",
+            "en": "main evening meal"
           },
           "right": "Let's have dinner at the new Italian place."
         },
         {
           "left": {
-            "ru": "Поздний ужин",
-            "en": "Supper"
+            "ru": "поздний вечерний приём пищи",
+            "en": "late evening meal"
           },
           "right": "We usually have supper at about eight o'clock."
         }
@@ -1546,35 +1579,35 @@
       "ruleId": "art-zero",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте выражение времени и пример.",
-        "en": "Match each time expression with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "В полночь",
-            "en": "At midnight"
+            "ru": "двенадцать часов ночи",
+            "en": "twelve at night"
           },
           "right": "The fireworks started at midnight."
         },
         {
           "left": {
-            "ru": "В полдень",
-            "en": "At noon"
+            "ru": "двенадцать часов дня",
+            "en": "twelve in daytime"
           },
           "right": "We stopped for lunch at noon."
         },
         {
           "left": {
-            "ru": "В пятницу утром",
-            "en": "On Friday morning"
+            "ru": "начало конкретного дня недели",
+            "en": "early part of specific weekday"
           },
           "right": "We are meeting on Friday morning."
         },
         {
           "left": {
-            "ru": "Летом",
-            "en": "In summer"
+            "ru": "тёплое время года",
+            "en": "warm season"
           },
           "right": "The park is full of flowers in summer."
         }

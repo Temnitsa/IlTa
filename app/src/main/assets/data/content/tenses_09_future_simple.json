@@ -35,6 +35,12 @@
             "She will not come today.",
             "Will they help us?",
             "We will be there at six."
+          ],
+          "exampleTranslations": [
+            "Я позвоню тебе позже.",
+            "Сегодня она не придёт.",
+            "Они нам помогут?",
+            "Мы будем там в шесть."
           ]
         },
         {
@@ -49,7 +55,16 @@
           "examples": [
             "I will open the window.",
             "It will be cold tomorrow.",
-            "I will help you with the bags."
+            "I will help you with the bags.",
+            "I will never forget this day.",
+            "The shop will not open until nine."
+          ],
+          "exampleTranslations": [
+            "Я открою окно.",
+            "Завтра будет холодно.",
+            "Я помогу тебе с сумками.",
+            "Я никогда не забуду этот день.",
+            "Магазин откроется только в девять."
           ]
         },
         {
@@ -65,6 +80,11 @@
             "We will meet next week.",
             "The film will start at eight.",
             "She will start her new job next year."
+          ],
+          "exampleTranslations": [
+            "Мы встретимся на следующей неделе.",
+            "Фильм начнётся в восемь.",
+            "В следующем году она выйдет на новую работу."
           ]
         }
       ]
@@ -794,42 +814,42 @@
       "ruleId": "tense-future-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте тип предложения и пример.",
-        "en": "Match the type of sentence with its example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "предсказание",
-            "en": "a prediction"
+            "ru": "предсказание о погоде",
+            "en": "a weather prediction"
           },
           "right": "It will rain tomorrow."
         },
         {
           "left": {
-            "ru": "обещание",
-            "en": "a promise"
+            "ru": "обещание всегда помогать",
+            "en": "a promise to help always"
           },
           "right": "I will always help you."
         },
         {
           "left": {
-            "ru": "решение в момент речи",
-            "en": "a decision at the moment of speaking"
+            "ru": "решение в момент речи: ответить на звонок",
+            "en": "a decision at the moment of speaking: answer the phone"
           },
           "right": "I will answer the phone."
         },
         {
           "left": {
-            "ru": "предложение помощи",
-            "en": "an offer of help"
+            "ru": "предложение помощи с сумкой",
+            "en": "an offer of help with a bag"
           },
           "right": "I will carry your bag."
         }
       ],
       "explanation": {
         "ru": "Future Simple называют предсказания, обещания, решения в момент речи и предложения помощи.",
-        "en": "Future Simple is used for predictions, promises, decisions at the moment of speaking and offers of help."
+        "en": "The future simple is used for predictions, promises, decisions at the moment of speaking and offers of help."
       },
       "tags": [
         "tense-future-simple",
@@ -843,42 +863,42 @@
       "ruleId": "tense-future-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте форму и пример.",
-        "en": "Match the form with its example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "утвердительная форма",
-            "en": "affirmative form"
+            "ru": "она придёт завтра",
+            "en": "she will come tomorrow"
           },
           "right": "She will come tomorrow."
         },
         {
           "left": {
-            "ru": "отрицательная форма",
-            "en": "negative form"
+            "ru": "они не опоздают",
+            "en": "they will not be late"
           },
           "right": "They will not be late."
         },
         {
           "left": {
-            "ru": "вопрос",
-            "en": "question"
+            "ru": "он присоединится к нам позже?",
+            "en": "asking whether he will join us later"
           },
           "right": "Will he join us later?"
         },
         {
           "left": {
-            "ru": "краткий ответ",
-            "en": "a short answer"
+            "ru": "мы вернёмся до темноты",
+            "en": "we will be back before dark"
           },
-          "right": "No, she will not."
+          "right": "We will be back before dark."
         }
       ],
       "explanation": {
-        "ru": "Утверждение: will + глагол; отрицание: will not + глагол; вопрос начинается с Will; краткий ответ сохраняет will.",
-        "en": "Affirmative: will + verb; negative: will not + verb; questions begin with Will; short answers keep will."
+        "ru": "Утверждение: will + глагол; отрицание: will not + глагол; вопрос начинается с Will.",
+        "en": "Statements: will + verb; negatives: will not + verb; questions start with Will."
       },
       "tags": [
         "tense-future-simple",
@@ -892,42 +912,42 @@
       "ruleId": "tense-future-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте маркер и пример.",
-        "en": "Match the marker with its example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "завтра",
-            "en": "tomorrow"
+            "ru": "мы пойдём в кино завтра",
+            "en": "we will go to the cinema tomorrow"
           },
           "right": "We will go to the cinema tomorrow."
         },
         {
           "left": {
-            "ru": "на следующей неделе",
-            "en": "next week"
+            "ru": "они переедут на следующей неделе",
+            "en": "they will move house next week"
           },
           "right": "They will move house next week."
         },
         {
           "left": {
-            "ru": "скоро",
-            "en": "soon"
+            "ru": "она скоро вернётся",
+            "en": "she will be back soon"
           },
           "right": "She will be back soon."
         },
         {
           "left": {
-            "ru": "через два дня",
-            "en": "in two days"
+            "ru": "результаты придут через два дня",
+            "en": "the results will arrive in two days"
           },
           "right": "The results will arrive in two days."
         }
       ],
       "explanation": {
         "ru": "Маркеры tomorrow, next week, soon и in two days помогают узнать Future Simple.",
-        "en": "The markers tomorrow, next week, soon and in two days help you recognise Future Simple."
+        "en": "The markers tomorrow, next week, soon and in two days help us recognise the future simple."
       },
       "tags": [
         "tense-future-simple",
@@ -941,42 +961,42 @@
       "ruleId": "tense-future-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте время и пример.",
-        "en": "Match the tense with its example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Future Simple: будущее",
-            "en": "Future Simple"
+            "ru": "будущее: я увижу тебя завтра",
+            "en": "the future: I will see you tomorrow"
           },
           "right": "I will see you tomorrow."
         },
         {
           "left": {
-            "ru": "Present Simple: привычка",
-            "en": "Present Simple: a habit"
+            "ru": "привычка: я вижу его каждый день",
+            "en": "a habit: I see him every day"
           },
           "right": "I see him every day."
         },
         {
           "left": {
-            "ru": "Present Continuous: сейчас",
-            "en": "Present Continuous: now"
+            "ru": "действие сейчас: она читает книгу",
+            "en": "an action now: she is reading a book"
           },
           "right": "She is reading a book now."
         },
         {
           "left": {
-            "ru": "Past Simple: прошлое",
-            "en": "Past Simple"
+            "ru": "прошлое: я видел его вчера",
+            "en": "the past: I saw him yesterday"
           },
           "right": "I saw him yesterday."
         }
       ],
       "explanation": {
-        "ru": "Future Simple говорит о будущем, Present Simple — о привычке, Present Continuous — о действии сейчас, Past Simple — о прошлом.",
-        "en": "Future Simple is about the future, Present Simple about a habit, Present Continuous about now, and Past Simple about the past."
+        "ru": "Future Simple — будущее, Present Simple — привычка, Present Continuous — действие сейчас, Past Simple — прошлое.",
+        "en": "The future simple is for the future, the present simple for a habit, the present continuous for an action now and the past simple for the past."
       },
       "tags": [
         "tense-future-simple",
@@ -990,42 +1010,42 @@
       "ruleId": "tense-future-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте придаточную часть и пример.",
-        "en": "Match the clause with its example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "when + Present Simple (когда)",
-            "en": "when + Present Simple"
+            "ru": "когда она приземлится, она напишет мне",
+            "en": "when she lands, she will text me"
           },
           "right": "She will text me when she lands."
         },
         {
           "left": {
-            "ru": "if + Present Simple (если)",
-            "en": "if + Present Simple"
+            "ru": "если пойдёт дождь, мы останемся дома",
+            "en": "if it rains, we will stay at home"
           },
           "right": "If it rains, we will stay at home."
         },
         {
           "left": {
-            "ru": "before + Present Simple (до)",
-            "en": "before + Present Simple"
+            "ru": "я закончу отчёт до отъезда",
+            "en": "I will finish the report before I leave"
           },
           "right": "I will finish the report before I leave."
         },
         {
           "left": {
-            "ru": "after + Present Simple (после)",
-            "en": "after + Present Simple"
+            "ru": "мы начнём после её приезда",
+            "en": "we will start after she arrives"
           },
           "right": "We will start after she arrives."
         }
       ],
       "explanation": {
         "ru": "После when, if, before и after о будущем ставим Present Simple, а will — в главной части.",
-        "en": "After when, if, before and after we use Present Simple for the future, and will only in the main clause."
+        "en": "After when, if, before and after we use the present simple for the future, and will in the main clause."
       },
       "tags": [
         "tense-future-simple",
@@ -3162,14 +3182,14 @@
       "ruleId": "tense-future-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте функцию и пример.",
-        "en": "Match the function with its example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "предсказание по признакам",
-            "en": "a prediction from evidence"
+            "ru": "предсказание по признакам: небо",
+            "en": "a prediction from evidence: the sky"
           },
           "right": "Look at the sky. It will snow soon."
         },
@@ -3189,15 +3209,15 @@
         },
         {
           "left": {
-            "ru": "отказ от просьбы",
+            "ru": "отказ дать машину",
             "en": "a refusal of a request"
           },
           "right": "I will not lend him my car."
         }
       ],
       "explanation": {
-        "ru": "Future Simple: предсказание, обещание, заказ и отказ — четыре типичных случая.",
-        "en": "Ways to use Future Simple: a prediction from evidence, a promise, an order and a refusal."
+        "ru": "Примеры показывают предсказание, обещание, заказ и отказ — обычные функции Future Simple.",
+        "en": "The examples show a prediction, a promise, an order and a refusal — typical functions of the future simple."
       },
       "tags": [
         "tense-future-simple",
@@ -3211,42 +3231,42 @@
       "ruleId": "tense-future-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте форму и пример.",
-        "en": "Match the form with its example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "полное утверждение",
-            "en": "full affirmative"
+            "ru": "нам понадобится больше стульев",
+            "en": "we will need more chairs"
           },
           "right": "We will need more chairs."
         },
         {
           "left": {
-            "ru": "полное отрицание",
-            "en": "full negative"
+            "ru": "магазин не закроется рано",
+            "en": "the shop will not close early"
           },
           "right": "The shop will not close early."
         },
         {
           "left": {
-            "ru": "вопрос да/нет",
-            "en": "yes/no question"
+            "ru": "ты будешь на станции?",
+            "en": "asking whether you will be at the station"
           },
           "right": "Will you be at the station?"
         },
         {
           "left": {
-            "ru": "полный ответ",
-            "en": "full answer"
+            "ru": "мы приедем до десяти",
+            "en": "we will arrive before ten"
           },
-          "right": "Yes, we will be there."
+          "right": "We will arrive before ten o'clock."
         }
       ],
       "explanation": {
-        "ru": "Утверждение: will + V; отрицание: will not + V; вопрос начинается с Will; ответ повторяет will.",
-        "en": "Affirmative: will + V; negative: will not + V; questions start with Will; answers repeat will."
+        "ru": "Утверждение, отрицание, вопрос и ещё одно утверждение: will + глагол, will not + глагол, Will …? для вопроса.",
+        "en": "Statements, a negative, a question and another statement: will + verb, will not + verb, Will …? for a question."
       },
       "tags": [
         "tense-future-simple",
@@ -3260,41 +3280,41 @@
       "ruleId": "tense-future-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте маркер и пример.",
-        "en": "Match the marker with its example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "next month: через месяц",
-            "en": "next month"
+            "ru": "мы переедем в следующем месяце",
+            "en": "we will move next month"
           },
           "right": "We will move next month."
         },
         {
           "left": {
-            "ru": "later: позже",
-            "en": "later"
+            "ru": "я позвоню тебе позже",
+            "en": "I will call you later"
           },
           "right": "I will call you later."
         },
         {
           "left": {
-            "ru": "one day: однажды",
-            "en": "one day"
+            "ru": "однажды она станет знаменитой",
+            "en": "one day she will be famous"
           },
           "right": "One day she will be famous."
         },
         {
           "left": {
-            "ru": "in a week: через неделю",
-            "en": "in a week"
+            "ru": "они вернутся через неделю",
+            "en": "they will come back in a week"
           },
           "right": "They will come back in a week."
         }
       ],
       "explanation": {
-        "ru": "Маркеры next month, later, one day и in a week указывают на будущее.",
+        "ru": "Маркеры next month, later, one day и in a week указывают на будущее время.",
         "en": "The markers next month, later, one day and in a week point to the future."
       },
       "tags": [
@@ -3309,42 +3329,42 @@
       "ruleId": "tense-future-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте тип вопроса и пример.",
-        "en": "Match the question type with its example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "вопрос с what",
-            "en": "question with what"
+            "ru": "вопрос о планах после экзамена",
+            "en": "a question about plans after the exam"
           },
           "right": "What will you do after the exam?"
         },
         {
           "left": {
-            "ru": "вопрос с when",
-            "en": "question with when"
+            "ru": "вопрос о времени начала концерта",
+            "en": "a question about when the concert starts"
           },
           "right": "When will the concert start?"
         },
         {
           "left": {
-            "ru": "вопрос с who",
-            "en": "question with who"
+            "ru": "вопрос о том, кто поможет новому ученику",
+            "en": "a question about who will help the new student"
           },
           "right": "Who will help the new student?"
         },
         {
           "left": {
-            "ru": "вопрос да/нет",
-            "en": "yes/no question"
+            "ru": "общий вопрос: они присоединятся к клубу?",
+            "en": "a yes/no question: will they join the club"
           },
           "right": "Will they join the club?"
         }
       ],
       "explanation": {
-        "ru": "В вопросах Future Simple will стоит первым; вопросительное слово идёт перед will.",
-        "en": "In Future Simple questions will comes first; the question word comes before will."
+        "ru": "Вопросы Future Simple начинаются с Will; вопросительное слово ставится перед will.",
+        "en": "Future simple questions start with Will; a question word comes before will."
       },
       "tags": [
         "tense-future-simple",
@@ -3358,42 +3378,42 @@
       "ruleId": "tense-future-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте время и пример.",
-        "en": "Match the tense with its example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Future Simple: будущее",
-            "en": "Future Simple: the future"
+            "ru": "будущее: я встречу тебя завтра в аэропорту",
+            "en": "the future: I will meet you at the airport tomorrow"
           },
           "right": "I will meet you at the airport tomorrow."
         },
         {
           "left": {
-            "ru": "Present Simple: расписание",
-            "en": "Present Simple: a timetable"
+            "ru": "расписание: рейс вылетает в девять",
+            "en": "a timetable: the flight leaves at nine"
           },
           "right": "Our flight leaves at nine o'clock."
         },
         {
           "left": {
-            "ru": "Past Simple: прошлое",
-            "en": "Past Simple: the past"
+            "ru": "прошлое: мы встретились в прошлом году",
+            "en": "the past: we met last year"
           },
           "right": "We met at the airport last year."
         },
         {
           "left": {
-            "ru": "Present Perfect: результат",
-            "en": "Present Perfect: a result now"
+            "ru": "результат сейчас: она только что приехала",
+            "en": "the result now: she has just arrived"
           },
           "right": "She has just arrived at the airport."
         }
       ],
       "explanation": {
-        "ru": "Future Simple — будущее, Present Simple — расписание, Past Simple — прошлое, Present Perfect — результат сейчас.",
-        "en": "Future Simple is the future, Present Simple a timetable, Past Simple the past, and Present Perfect a result now."
+        "ru": "Future Simple говорит о будущем, Present Simple — о расписании, Past Simple — о прошлом, Present Perfect — о результате сейчас.",
+        "en": "The future simple is for the future, the present simple for a timetable, the past simple for the past and the present perfect for a result now."
       },
       "tags": [
         "tense-future-simple",

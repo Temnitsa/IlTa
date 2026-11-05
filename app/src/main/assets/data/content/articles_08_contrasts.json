@@ -27,15 +27,22 @@
             "en": "Fixed expressions with the"
           },
           "body": {
-            "ru": "В ряде сочетаний определённый артикль фиксирован и не выбирается по смыслу: это касается музыкальных инструментов, частей дня, выходных, сторон и вводных связок. Такие выражения запоминают целиком, вместе с артиклем.",
-            "en": "In many fixed expressions the definite article is part of the phrase and is not chosen by meaning: this covers musical instruments, parts of the day, weekends, sides and linking phrases. Learn such expressions as a whole, together with the article."
+            "ru": "В ряде сочетаний определённый артикль фиксирован и не выбирается по смыслу: так говорят об игре на музыкальных инструментах, частях дня, выходных, сторонах и вводных связках. Такие выражения запоминают целиком, вместе с артиклем, и не заменяют его другим.",
+            "en": "In a number of phrases the definite article is fixed and is not chosen by meaning: this concerns playing musical instruments, parts of the day, weekends, sides and linking phrases. Such expressions are learnt as a whole, together with the article, which cannot be replaced."
           },
           "examples": [
             "My sister can play the piano.",
-            "I usually go for a run before breakfast.",
-            "We often spend the weekend by the sea.",
-            "In the end, we stayed at home.",
-            "On the other hand, the job pays well."
+            "I always read in the morning.",
+            "We often spend the weekend at the seaside.",
+            "The bank is on the left and the post office on the right.",
+            "In the end, we booked the hotel; on the other hand, it was rather expensive."
+          ],
+          "exampleTranslations": [
+            "Моя сестра умеет играть на пианино.",
+            "Я всегда читаю утром.",
+            "Мы часто проводим выходные на побережье.",
+            "Банк слева, а почта справа.",
+            "В конце концов мы забронировали отель; с другой стороны, он оказался довольно дорогим."
           ]
         },
         {
@@ -44,8 +51,8 @@
             "en": "Fixed expressions with a/an"
           },
           "body": {
-            "ru": "Другая группа сочетаний требует неопределённого артикля: названия болезней и состояний, просьбы и действия, а также выражения количества. Как и в сочетаниях с the, артикль здесь фиксирован и не заменяется другим.",
-            "en": "Another group of expressions requires the indefinite article: illnesses and states, requests and actions, and quantity phrases. As with the expressions that take the, the article is fixed and cannot be replaced."
+            "ru": "Другая группа сочетаний требует неопределённого артикля: названия болезней и состояний, просьбы и действия, а также выражения количества. Как и в сочетаниях с определённым артиклем, артикль здесь фиксирован и не заменяется другим.",
+            "en": "Another group of phrases requires the indefinite article: names of illnesses and states, requests and actions, and expressions of quantity. As with the definite article groups, the article here is fixed and is not replaced."
           },
           "examples": [
             "I think I have a cold.",
@@ -53,22 +60,35 @@
             "We must make a decision today.",
             "Could you add a little salt?",
             "As a rule, I get up at seven."
+          ],
+          "exampleTranslations": [
+            "Кажется, я простудился.",
+            "Извини, я спешу.",
+            "Нам нужно принять решение сегодня.",
+            "Не мог бы ты добавить немного соли?",
+            "Как правило, я встаю в семь."
           ]
         },
         {
           "heading": {
             "ru": "A few / a little и few / little",
-            "en": "A few / a little vs few / little"
+            "en": "A few / a little and few / little"
           },
           "body": {
-            "ru": "С артиклем a сочетания a few и a little значат «немного, несколько» — это положительная оценка количества. Без артикля few и little значат «мало, недостаточно», то есть передают нехватку.",
-            "en": "With the article a, a few and a little mean some — a positive amount. Without the article, few and little mean not enough, so they express a shortage."
+            "ru": "С артиклем a сочетания a few и a little значат «немного, несколько» — это положительная оценка количества. Без артикля few и little значат «мало, недостаточно», то есть передают нехватку. Выбор зависит от исчисляемости существительного и от смысла.",
+            "en": "With the article a, the combinations a few and a little mean some — a positive view of quantity. Without the article, few and little mean not enough, so they express a shortage. The choice depends on whether the noun is countable and on the meaning."
           },
           "examples": [
             "We still have a few minutes.",
             "Add a little sugar to the tea.",
             "Few visitors came to the museum.",
             "There is little time left."
+          ],
+          "exampleTranslations": [
+            "У нас ещё есть несколько минут.",
+            "Добавь немного сахара в чай.",
+            "Мало посетителей пришло в музей.",
+            "Осталось мало времени."
           ]
         },
         {
@@ -77,14 +97,22 @@
             "en": "Contrasts where the article changes the meaning"
           },
           "body": {
-            "ru": "Некоторые пары выражений различаются только артиклем и имеют разный смысл: действие или процесс идёт без артикля, а замена или конкретный предмет требуют the. Сравнивайте обе формы и запоминайте их как разные единицы.",
-            "en": "Some pairs of expressions differ only in the article and mean different things: an action or process takes no article, while a replacement or a specific item requires the. Compare both forms and treat them as separate units."
+            "ru": "Некоторые пары выражений различаются только артиклем и имеют разный смысл: событие или процесс идёт без артикля и с фиксированными формами, а замена, конкретный предмет или часть объекта требуют определённого артикля. Не путайте in the end («в конце концов») и at the end of («в конце чего-либо»): они различаются предлогом и смыслом. Устойчивое выражение со значением «исключено» запоминается целиком.",
+            "en": "Some pairs of expressions differ only in the article and have different meanings: an event or process uses fixed forms without the definite article, while replacement, a particular object or part of an object needs the definite article. Do not confuse in the end (finally) with at the end of (at the final point of something): they differ by preposition and meaning. The fixed phrase meaning that something is impossible is learnt as a whole."
           },
           "examples": [
             "The wedding will take place in June.",
             "Social media cannot take the place of real conversation.",
             "In the end, we agreed.",
-            "At the end of the film, everyone cried."
+            "At the end of the film, everyone cried.",
+            "A holiday on the Moon is out of the question."
+          ],
+          "exampleTranslations": [
+            "Свадьба состоится в июне.",
+            "Социальные сети не могут заменить живое общение.",
+            "В конце концов мы согласились.",
+            "В конце фильма все плакали.",
+            "Отпуск на Луне исключён."
           ]
         },
         {
@@ -93,14 +121,22 @@
             "en": "Names and unique roles"
           },
           "body": {
-            "ru": "Названия газет, отелей и музеев, а также уникальные должности в контексте требуют определённого артикля. Если роль одна из многих или обозначает профессию, ставится a/an.",
-            "en": "Titles of newspapers, hotels and museums, and unique roles in context require the. When a role is one of many or simply names a profession, a/an is used."
+            "ru": "Названия газет, отелей и музеев, а также уникальные должности в контексте требуют определённого артикля. Если роль одна из многих или обозначает профессию, ставится неопределённый артикль. Названия некоторых организаций и достопримечательностей тоже входят в этот список.",
+            "en": "Names of newspapers, hotels and museums, as well as unique positions in the context, take the definite article. If a role is one of many or names a profession, the indefinite article is used. Names of some organisations and landmarks are on this list too."
           },
           "examples": [
             "The Daily Mail is a British newspaper.",
             "We booked a room at the Savoy.",
             "The Queen opened the new gallery.",
-            "She is studying to become a dentist."
+            "She is studying to become a dentist.",
+            "He works for the BBC."
+          ],
+          "exampleTranslations": [
+            "«Дейли мейл» — британская газета.",
+            "Мы забронировали номер в отеле «Савой».",
+            "Королева открыла новую галерею.",
+            "Она учится на стоматолога.",
+            "Он работает на Би-би-си."
           ]
         }
       ]
@@ -488,35 +524,35 @@
       "ruleId": "art-contrasts",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и пример.",
-        "en": "Match each fixed expression with an example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Играть на музыкальном инструменте",
-            "en": "Play a musical instrument"
+            "ru": "исполнение музыки на инструменте",
+            "en": "playing music on instrument"
           },
           "right": "My brother plays the piano very well."
         },
         {
           "left": {
-            "ru": "Утром",
-            "en": "In the morning"
+            "ru": "начало дня",
+            "en": "start of day"
           },
           "right": "I always drink coffee in the morning."
         },
         {
           "left": {
-            "ru": "По выходным",
-            "en": "At the weekend"
+            "ru": "конец недели",
+            "en": "end of week"
           },
           "right": "We usually go hiking at the weekend."
         },
         {
           "left": {
-            "ru": "В конце концов",
-            "en": "In the end"
+            "ru": "финальный итог",
+            "en": "final outcome"
           },
           "right": "In the end, we missed the last train."
         }
@@ -536,35 +572,35 @@
       "ruleId": "art-contrasts",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и пример с the.",
-        "en": "Match each fixed expression with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "вечером — in the evening",
-            "en": "in the evening — time of day"
+            "ru": "время после работы",
+            "en": "time after work"
           },
           "right": "We usually watch a film in the evening."
         },
         {
           "left": {
-            "ru": "на море — at the seaside",
-            "en": "at the seaside — by the sea"
+            "ru": "отдых у воды",
+            "en": "rest by water"
           },
           "right": "They spent a week at the seaside in July."
         },
         {
           "left": {
-            "ru": "слева — on the left",
-            "en": "on the left — position"
+            "ru": "сторона, где стоит здание",
+            "en": "side where building stands"
           },
           "right": "The museum is on the left, just after the bridge."
         },
         {
           "left": {
-            "ru": "с другой стороны — on the other hand",
-            "en": "on the other hand — contrast"
+            "ru": "противопоставление минуса и плюса",
+            "en": "contrast of minus and plus"
           },
           "right": "The hotel was expensive; on the other hand, the view was fantastic."
         }
@@ -584,35 +620,35 @@
       "ruleId": "art-contrasts",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и пример.",
-        "en": "Match each fixed expression with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Утром",
-            "en": "In the morning"
+            "ru": "проверка почты в начале дня",
+            "en": "email check at start of day"
           },
           "right": "I usually check my email in the morning."
         },
         {
           "left": {
-            "ru": "В конце концов",
-            "en": "In the end"
+            "ru": "итоговое решение после раздумий",
+            "en": "final decision after thinking"
           },
           "right": "In the end, we chose the cheaper flat."
         },
         {
           "left": {
-            "ru": "На выходных",
-            "en": "At the weekend"
+            "ru": "поездка к старшим родственникам в конце недели",
+            "en": "visit to older relatives at week's end"
           },
           "right": "We often visit our grandparents at the weekend."
         },
         {
           "left": {
-            "ru": "С другой стороны",
-            "en": "On the other hand"
+            "ru": "противоположный довод",
+            "en": "opposing argument"
           },
           "right": "The job is hard; on the other hand, it pays well."
         }
@@ -632,35 +668,35 @@
       "ruleId": "art-contrasts",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и пример.",
-        "en": "Match each fixed expression with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Играть на пианино",
-            "en": "Play the piano"
+            "ru": "музыка после еды",
+            "en": "music after meal"
           },
           "right": "My father plays the piano after dinner."
         },
         {
           "left": {
-            "ru": "На побережье",
-            "en": "At the seaside"
+            "ru": "замки из песка у воды",
+            "en": "sandcastles by water"
           },
           "right": "The children built sandcastles at the seaside."
         },
         {
           "left": {
-            "ru": "Слева",
-            "en": "On the left"
+            "ru": "место ужина на одной стороне",
+            "en": "dining place on one side"
           },
           "right": "The restaurant is on the left, near the square."
         },
         {
           "left": {
-            "ru": "Вечером",
-            "en": "In the evening"
+            "ru": "чтение в тёмное время",
+            "en": "reading in dark hours"
           },
           "right": "We usually read in the evening."
         }
@@ -680,35 +716,35 @@
       "ruleId": "art-contrasts",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и пример.",
-        "en": "Match each fixed expression with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "С одной стороны",
-            "en": "On the one hand"
+            "ru": "первый довод за предложение",
+            "en": "first argument for offer"
           },
           "right": "On the one hand, the offer looks attractive."
         },
         {
           "left": {
-            "ru": "С другой стороны",
-            "en": "On the other hand"
+            "ru": "второй довод против",
+            "en": "second argument against"
           },
           "right": "On the other hand, the hours are very long."
         },
         {
           "left": {
-            "ru": "В конце концов",
-            "en": "In the end"
+            "ru": "итог после событий",
+            "en": "outcome after events"
           },
           "right": "In the end, nobody complained."
         },
         {
           "left": {
-            "ru": "В конце чего-либо",
-            "en": "At the end of something"
+            "ru": "финальный момент истории",
+            "en": "final moment of story"
           },
           "right": "At the end of the film, everyone was crying."
         }
@@ -1353,35 +1389,35 @@
       "ruleId": "art-contrasts",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и пример.",
-        "en": "Match each fixed expression with an example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Простудиться",
-            "en": "Catch a cold"
+            "ru": "заболел после поездки",
+            "en": "became ill after trip"
           },
           "right": "I caught a cold after the trip."
         },
         {
           "left": {
-            "ru": "Торопиться",
-            "en": "Be in a hurry"
+            "ru": "спешила и забыла вещи",
+            "en": "rushed and forgot things"
           },
           "right": "She was in a hurry and forgot her keys."
         },
         {
           "left": {
-            "ru": "Немного (с неисчисляемыми)",
-            "en": "A little (with uncountable nouns)"
+            "ru": "небольшое количество сахара",
+            "en": "small amount of sugar"
           },
           "right": "Add a little sugar to your tea."
         },
         {
           "left": {
-            "ru": "Принять решение",
-            "en": "Make a decision"
+            "ru": "принять решение к сроку",
+            "en": "make choice by deadline"
           },
           "right": "We must make a decision by Friday."
         }
@@ -1401,35 +1437,35 @@
       "ruleId": "art-contrasts",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и пример.",
-        "en": "Match each fixed expression with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Быть простуженным",
-            "en": "Have a cold"
+            "ru": "сильная простуда",
+            "en": "heavy cold"
           },
           "right": "She has a bad cold and cannot come to work."
         },
         {
           "left": {
-            "ru": "Торопиться",
-            "en": "Be in a hurry"
+            "ru": "спешка перед выходом",
+            "en": "rush before leaving"
           },
           "right": "They left in a hurry and forgot the tickets."
         },
         {
           "left": {
-            "ru": "Хорошо провести время",
-            "en": "Have a good time"
+            "ru": "радость от посещения зоопарка",
+            "en": "joy of visiting zoo"
           },
           "right": "The children had a good time at the zoo."
         },
         {
           "left": {
-            "ru": "Принять решение",
-            "en": "Make a decision"
+            "ru": "решение собрания",
+            "en": "committee decision"
           },
           "right": "The committee will make a decision on Monday."
         }
@@ -1449,35 +1485,35 @@
       "ruleId": "art-contrasts",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте слово о количестве и пример.",
-        "en": "Match each quantity word with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "A few + исчисляемое",
-            "en": "A few + countable"
+            "ru": "несколько яблок в миске",
+            "en": "several apples in bowl"
           },
           "right": "There are a few apples left in the bowl."
         },
         {
           "left": {
-            "ru": "A little + неисчисляемое",
-            "en": "A little + uncountable"
+            "ru": "небольшое количество молока",
+            "en": "small amount of milk"
           },
           "right": "Add a little milk to the coffee."
         },
         {
           "left": {
-            "ru": "Few — мало, недостаточно",
-            "en": "Few — not enough"
+            "ru": "почти никто не прошёл",
+            "en": "almost nobody passed"
           },
           "right": "Few students passed the difficult test."
         },
         {
           "left": {
-            "ru": "Little — мало, недостаточно",
-            "en": "Little — not enough"
+            "ru": "почти не осталось времени",
+            "en": "almost no time left"
           },
           "right": "There is little time left, so hurry up."
         }
@@ -1497,35 +1533,35 @@
       "ruleId": "art-contrasts",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и пример.",
-        "en": "Match each fixed expression with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Как правило",
-            "en": "As a rule"
+            "ru": "обычный распорядок дня",
+            "en": "usual daily routine"
           },
           "right": "As a rule, we eat dinner at seven."
         },
         {
           "left": {
-            "ru": "Принимать душ",
-            "en": "Take a shower"
+            "ru": "утренняя гигиена до завтрака",
+            "en": "morning hygiene before breakfast"
           },
           "right": "He takes a shower before breakfast."
         },
         {
           "left": {
-            "ru": "Взглянуть",
-            "en": "Have a look"
+            "ru": "просьба просмотреть письменную работу",
+            "en": "request to check written work"
           },
-          "right": "Can you have a look at my essay?"
+          "right": "Can you have a look at my letter?"
         },
         {
           "left": {
-            "ru": "Сделать глубокий вдох",
-            "en": "Take a deep breath"
+            "ru": "вдох перед началом речи",
+            "en": "breath before starting speech"
           },
           "right": "She took a deep breath and started to speak."
         }
@@ -1545,35 +1581,35 @@
       "ruleId": "art-contrasts",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и пример.",
-        "en": "Match each fixed expression with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Сделать перерыв",
-            "en": "Take a break"
+            "ru": "пауза в работе",
+            "en": "pause in work"
           },
           "right": "Let's take a short break before we continue."
         },
         {
           "left": {
-            "ru": "Отдохнуть",
-            "en": "Have a rest"
+            "ru": "передышка после долгой прогулки",
+            "en": "rest after long walk"
           },
           "right": "After the long walk, we had a short rest."
         },
         {
           "left": {
-            "ru": "Немного времени",
-            "en": "A little + time"
+            "ru": "запас времени до срока",
+            "en": "spare time before deadline"
           },
           "right": "There is a little time left before the deadline."
         },
         {
           "left": {
-            "ru": "Несколько вопросов",
-            "en": "A few + questions"
+            "ru": "несколько вопросов по заданию",
+            "en": "several questions about task"
           },
           "right": "I have a few questions about the task."
         }

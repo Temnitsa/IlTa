@@ -4,22 +4,22 @@ Levels: A1, A2, B1, B2. `order` values are assigned in increments of 10.
 Every rule belongs to a section via `sectionId`.
 
 Article themes are intentionally consolidated: each theme covers a coherent area of article
-usage, its rule text is based on *English Grammar in Use* / *Grammar for IELTS*, and its pool
+usage, its rule text is based on *English Grammar in Use*, and its pool
 contains **70 questions**. A topic training session shows **30** of them (5 match + 25 choice).
 
 ## Section `articles` — Артикли / Articles (9 themes, 630 questions)
 
 | id | order | level | title (ru) | scope |
 |---|---|---|---|---|
-| art-system | 10 | A1 | Система артиклей: исчисляемое, общее и конкретное | countable/uncountable, general vs specific, overview of a/an/the/zero |
-| art-a-an | 20 | A1 | a/an: первое упоминание, профессии и характеристики | new information, one of many, jobs/descriptions, unique roles (the vs a/an) |
-| art-the-known | 30 | A2 | the: известное, единственное, превосходная степень | second mention, known things, context/unique, of-phrases, superlatives/ordinals, same/only/last/next |
-| art-a-an-special | 40 | A2 | a/an: мера, частота и звуковые исключения | half an hour, twice a week, a/an vs one, an hour / a university, abbreviations |
-| art-zero | 50 | A2 | Нулевой артикль: общее значение и устойчивые выражения | plural/uncountable general, bed/school/work/home/hospital/prison, by car/on foot, meals/time, fixed expressions |
-| art-names-geo | 60 | B1 | Имена, названия и география | cities, countries and exceptions, rivers/seas/oceans/mountains, newspapers/hotels/museums/organisations, languages |
-| art-the-adjective | 70 | B2 | the: прилагательные, национальности, учреждения | the rich/young/the British, generic a/an, institutions and places (activity vs building) |
-| art-contrasts | 80 | B2 | Устойчивые выражения и контрасты | fixed phrases with the/a/an, a few/a little vs few/little, take place / take the place of, in front of / in the front of, out of the question |
-| art-academic | 90 | B2 | Артикли в академическом тексте / IELTS | abstract nouns, generalisations, of-phrases/relative clauses, typical IELTS Writing mistakes |
+| art-system | 10 | A1 | Система артиклей: исчисляемое, общее и конкретное | countable/uncountable, general meaning without article, new singular with a/an, known/specific with the, how to choose |
+| art-a-an | 20 | A1 | a/an: первое упоминание, профессии и единственная роль | new information and one of many, professions and roles, nationalities and religions, a/an vs the for a unique role |
+| art-the-known | 30 | A2 | The: известное, единственное и конкретизация | second mention, unique in the world or situation, of-phrases and relative clauses, superlatives/ordinals, same/only/last/next |
+| art-a-an-special | 40 | A2 | a/an: мера, порядок слов и звуковые исключения | measure/frequency/price, a/an vs one, half/such/quite/what word order, silent h and 'yu' sound, abbreviations |
+| art-zero | 50 | A2 | Нулевой артикль: общее значение, места и устойчивые выражения | plural/uncountable general, institutions and habitual places (bed/home/school/work/hospital/prison), transport, food/time/calendar, fixed expressions |
+| art-names-geo | 60 | B1 | Имена, названия и география | people's names, titles, family plurals and decades; languages/days/months/holidays; cities/countries/continents incl. the-exceptions; rivers/seas/oceans/straits/bays/mountain ranges/deserts vs individual lakes/peaks; newspapers/hotels/museums/organisations; streets/squares/stations/airports vs universities/churches/landmarks; unique roles and fixed pairs (incl. out of the question) |
+| art-the-adjective | 70 | B2 | the: прилагательные, национальности, учреждения | the + adjective groups; nationality names in -sh/-ch/-ese/-ss vs plural nationality nouns; generic a/an and class alternatives; institutions and leisure places (activity vs building); superlatives/ordinals/only/same/next/last/possessive and time expressions |
+| art-contrasts | 80 | B2 | Устойчивые выражения и контрасты | fixed phrases with the (instruments, parts of day, weekend, seaside, sides, linkers); fixed a/an phrases (illness, hurry, decisions, quantity, rule); a few/a little vs few/little; take place vs take the place of; in front of vs in the front of; in the end vs at the end of; out of the question; names, organisations and unique roles |
+| art-academic | 90 | B2 | Артикли в связном тексте: общее, конкретное, связность | general vs specific meaning, abstract nouns (life/experience), specification by of-phrases/relative clauses/descriptions, superlatives and ordinals, cohesion and repeated mention |
 
 ## Section `prepositions` — Предлоги / Prepositions (6 themes, 310 questions)
 

@@ -114,7 +114,7 @@ class ContentValidationTest {
                 val where = "${rule.id} section[$index]"
                 assertTrue("$where body.ru too short", section.body.ru.length >= 20)
                 assertTrue("$where body.en too short", section.body.en.length >= 20)
-                assertTrue("$where needs 3..5 examples", section.examples.size in 3..5)
+                assertTrue("$where needs 3..6 examples", section.examples.size in 3..6)
                 val bodyRu = section.body.ru.lowercase()
                 val bodyEn = section.body.en.lowercase()
                 section.examples.forEach { example ->

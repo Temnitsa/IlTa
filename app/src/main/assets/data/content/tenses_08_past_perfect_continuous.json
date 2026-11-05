@@ -35,6 +35,12 @@
             "They had not been waiting long.",
             "Had it been raining?",
             "We had been walking for hours."
+          ],
+          "exampleTranslations": [
+            "Она работала весь день.",
+            "Они ждали недолго.",
+            "Дождь тогда шёл?",
+            "Мы шли несколько часов."
           ]
         },
         {
@@ -49,7 +55,14 @@
           "examples": [
             "The ground was wet because it had been raining.",
             "She had been waiting for an hour when the bus came.",
-            "How long had they been living there?"
+            "How long had they been living there?",
+            "She had been painting the fence all afternoon."
+          ],
+          "exampleTranslations": [
+            "Земля была мокрая, потому что шёл дождь.",
+            "Она ждала уже час, когда пришёл автобус.",
+            "Как долго они там жили?",
+            "Она красила забор весь день."
           ]
         },
         {
@@ -65,6 +78,11 @@
             "He had been driving for six hours.",
             "They had been living there since 2018.",
             "We had been working all morning."
+          ],
+          "exampleTranslations": [
+            "Он вёл машину уже шесть часов.",
+            "Они жили там с 2018 года.",
+            "Мы работали всё утро."
           ]
         }
       ]
@@ -812,42 +830,42 @@
       "ruleId": "tense-past-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте значение Past Perfect Continuous и пример.",
-        "en": "Match the meaning of Past Perfect Continuous with its example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "длительность до прошлого события",
-            "en": "duration up to a past event"
+            "ru": "они ждали два часа, когда пришёл автобус",
+            "en": "they had been waiting for two hours when the bus came"
           },
           "right": "They had been waiting for two hours when the bus came."
         },
         {
           "left": {
-            "ru": "причина видимого результата",
-            "en": "the cause of a visible result"
+            "ru": "земля была мокрой из-за дождя — причина видимого результата",
+            "en": "the ground was wet because it had been raining"
           },
           "right": "The ground was wet because it had been raining."
         },
         {
           "left": {
-            "ru": "действие, начавшееся раньше и продолжавшееся",
-            "en": "an action that started earlier and continued"
+            "ru": "она работала там с 2019 года — процесс до прошлого момента",
+            "en": "she had been working there since 2019"
           },
           "right": "She had been working there since 2019."
         },
         {
           "left": {
-            "ru": "вопрос о длительности",
-            "en": "a question about duration"
+            "ru": "вопрос о том, как долго ты ждал",
+            "en": "asking how long you had been waiting"
           },
           "right": "How long had you been waiting?"
         }
       ],
       "explanation": {
-        "ru": "Past Perfect Continuous называет длительность до прошлого события, объясняет причину результата и используется в вопросах о длительности.",
-        "en": "Past Perfect Continuous names duration up to a past event, explains the cause of a result and is used in questions about duration."
+        "ru": "Past Perfect Continuous называет длительность процесса до прошлого события и объясняет видимый результат.",
+        "en": "The past perfect continuous names the duration of a process up to a past event and explains a visible result."
       },
       "tags": [
         "tense-past-perfect-continuous",
@@ -861,42 +879,42 @@
       "ruleId": "tense-past-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте форму и пример.",
-        "en": "Match the form with its example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "утвердительная форма",
-            "en": "affirmative form"
+            "ru": "он занимался весь вечер",
+            "en": "he had been studying all evening"
           },
           "right": "He had been studying all evening."
         },
         {
           "left": {
-            "ru": "отрицательная форма",
-            "en": "negative form"
+            "ru": "она плохо спала — процесс до прошлого момента",
+            "en": "she had not been sleeping well"
           },
           "right": "She had not been sleeping well."
         },
         {
           "left": {
-            "ru": "вопрос",
-            "en": "question"
+            "ru": "они долго путешествовали?",
+            "en": "asking whether they had been travelling long"
           },
           "right": "Had they been travelling long?"
         },
         {
           "left": {
-            "ru": "длительность с for",
-            "en": "duration with for"
+            "ru": "мы шли три часа",
+            "en": "we had been walking for three hours"
           },
           "right": "We had been walking for three hours."
         }
       ],
       "explanation": {
-        "ru": "Утверждение: had been + -ing; отрицание: had not been + -ing; вопрос начинается с Had; for вводит длительность.",
-        "en": "Affirmative: had been + -ing; negative: had not been + -ing; questions begin with Had; for introduces duration."
+        "ru": "Утверждение: had been + -ing; отрицание: had not been + -ing; вопрос начинается с Had.",
+        "en": "Statements: had been + -ing; negatives: had not been + -ing; questions start with Had."
       },
       "tags": [
         "tense-past-perfect-continuous",
@@ -910,42 +928,42 @@
       "ruleId": "tense-past-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте время и пример.",
-        "en": "Match the tense with its example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Past Perfect Continuous: процесс до прошлого момента",
-            "en": "Past Perfect Continuous: a process up to a past moment"
+            "ru": "процесс до прошлого момента",
+            "en": "a process up to a past moment"
           },
           "right": "She had been writing letters all morning."
         },
         {
           "left": {
-            "ru": "Past Perfect: завершённый результат",
-            "en": "Past Perfect: a completed result"
+            "ru": "завершённый результат к прошлому моменту",
+            "en": "a completed result by a past moment"
           },
           "right": "She had written three letters by noon."
         },
         {
           "left": {
-            "ru": "Past Continuous: процесс в прошлом",
-            "en": "Past Continuous: a process in the past"
+            "ru": "процесс в конкретный момент прошлого",
+            "en": "a process at a specific past moment"
           },
           "right": "She was writing a letter when I came in."
         },
         {
           "left": {
-            "ru": "Past Simple: законченное действие",
-            "en": "Past Simple: a finished action"
+            "ru": "законченное действие: письмо написано вчера",
+            "en": "a finished action: the letter was written yesterday"
           },
           "right": "She wrote a letter yesterday."
         }
       ],
       "explanation": {
-        "ru": "Past Perfect Continuous показывает процесс до прошлого момента, Past Perfect — результат, Past Continuous — процесс в прошлом, Past Simple — законченное действие.",
-        "en": "Past Perfect Continuous shows a process up to a past moment, Past Perfect a result, Past Continuous a past process, and Past Simple a finished action."
+        "ru": "Continuous подчёркивает процесс, Past Perfect — результат, Past Continuous — процесс в прошлом, Past Simple — законченное действие.",
+        "en": "The continuous stresses a process, the past perfect a result, the past continuous a past process, and the past simple a finished action."
       },
       "tags": [
         "tense-past-perfect-continuous",
@@ -959,42 +977,42 @@
       "ruleId": "tense-past-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте маркер и пример.",
-        "en": "Match the marker with its example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "for + длительность",
-            "en": "for + duration"
+            "ru": "ожидание длилось сорок минут",
+            "en": "the waiting had lasted forty minutes"
           },
           "right": "They had been waiting for forty minutes."
         },
         {
           "left": {
-            "ru": "since + начало",
-            "en": "since + starting point"
+            "ru": "он жил там с 2018 года",
+            "en": "he had been living there since 2018"
           },
           "right": "He had been living there since 2018."
         },
         {
           "left": {
-            "ru": "всё утро",
-            "en": "all morning"
+            "ru": "я убирал дом всё утро",
+            "en": "I had been cleaning the house all morning"
           },
           "right": "I had been cleaning the house all morning."
         },
         {
           "left": {
-            "ru": "до, перед",
-            "en": "before"
+            "ru": "она преподавала много лет до пенсии",
+            "en": "she had been teaching for years before she retired"
           },
           "right": "She had been teaching for years before she retired."
         }
       ],
       "explanation": {
         "ru": "For называет длительность, since — начало, all morning подчёркивает период, before вводит более позднее событие.",
-        "en": "For names duration, since the starting point, all morning emphasises the period, and before introduces the later event."
+        "en": "For names a duration, since a starting point, all morning stresses a period, and before introduces a later event."
       },
       "tags": [
         "tense-past-perfect-continuous",
@@ -1009,7 +1027,7 @@
       "level": "B2",
       "prompt": {
         "ru": "Сопоставьте значение и пример.",
-        "en": "Match the meaning with its example."
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
@@ -1028,8 +1046,8 @@
         },
         {
           "left": {
-            "ru": "длительность как причина",
-            "en": "duration as a cause"
+            "ru": "длительность стала причиной состояния",
+            "en": "the duration caused the state"
           },
           "right": "She was tired because she had been working."
         },
@@ -1042,8 +1060,8 @@
         }
       ],
       "explanation": {
-        "ru": "Past Perfect Continuous подчёркивает процесс и длительность, Past Perfect — результат; причина и вопросы о процессе также требуют Continuous.",
-        "en": "Past Perfect Continuous emphasises the process and duration, Past Perfect the result; causes and questions about the process also need the Continuous form."
+        "ru": "Past Perfect Continuous подчёркивает процесс и длительность, Past Perfect — результат.",
+        "en": "The past perfect continuous stresses the process and its duration; the past perfect stresses the result."
       },
       "tags": [
         "tense-past-perfect-continuous",
@@ -3542,14 +3560,14 @@
       "ruleId": "tense-past-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте результат и причину-пример.",
-        "en": "Match the result with its cause example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "видимый результат: мокро",
-            "en": "a visible result: wet"
+            "ru": "видимый результат: мокрая земля",
+            "en": "a visible result: the wet ground"
           },
           "right": "The pavement was wet because it had been raining."
         },
@@ -3577,7 +3595,7 @@
       ],
       "explanation": {
         "ru": "Past Perfect Continuous объясняет, какой процесс привёл к видимому результату в прошлом.",
-        "en": "Past Perfect Continuous explains which process led to a visible result in the past."
+        "en": "The past perfect continuous explains which process led to a visible result in the past."
       },
       "tags": [
         "tense-past-perfect-continuous",
@@ -3591,42 +3609,42 @@
       "ruleId": "tense-past-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте длительность и пример.",
-        "en": "Match the duration marker with its example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "for: пять часов",
-            "en": "for: five hours"
+            "ru": "длительность: пять часов",
+            "en": "duration: five hours"
           },
           "right": "They had been driving for five hours."
         },
         {
           "left": {
-            "ru": "since: с 2019",
-            "en": "since: 2019"
+            "ru": "он учится с 2019 года",
+            "en": "he had been studying since 2019"
           },
           "right": "He had been studying since 2019."
         },
         {
           "left": {
-            "ru": "all day: весь день",
-            "en": "all day"
+            "ru": "период: весь день",
+            "en": "a period: all day"
           },
           "right": "We had been painting the house all day."
         },
         {
           "left": {
-            "ru": "how long: вопрос о времени",
-            "en": "how long: a question about time"
+            "ru": "вопрос о времени ожидания",
+            "en": "a question about how long someone had waited"
           },
           "right": "How long had she been waiting for us?"
         }
       ],
       "explanation": {
         "ru": "For называет длительность, since — начало, all day — период, how long — вопрос о времени.",
-        "en": "For names duration, since the start, all day the period, and how long asks about the time."
+        "en": "For names a duration, since a starting point, all day a period, and how long a question about time."
       },
       "tags": [
         "tense-past-perfect-continuous",
@@ -3640,42 +3658,42 @@
       "ruleId": "tense-past-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте время и пример.",
-        "en": "Match the tense with its example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Past Perfect Continuous: процесс до прошлого",
-            "en": "Past Perfect Continuous: a process up to a past moment"
+            "ru": "она писала романы годами до того, как стала знаменитой",
+            "en": "she had been writing novels for years before she became famous"
           },
           "right": "She had been writing novels for years before she became famous."
         },
         {
           "left": {
-            "ru": "Past Perfect: результат к моменту",
-            "en": "Past Perfect: a result by a moment"
+            "ru": "к 2010 году она написала два романа",
+            "en": "by 2010 she had written two novels"
           },
           "right": "She had written two novels by 2010."
         },
         {
           "left": {
-            "ru": "Past Continuous: процесс в прошлом",
-            "en": "Past Continuous: a past process"
+            "ru": "она писала роман, когда я её встретил",
+            "en": "she was writing a novel when I met her"
           },
           "right": "She was writing a novel when I met her."
         },
         {
           "left": {
-            "ru": "Past Simple: законченное действие",
-            "en": "Past Simple: a finished action"
+            "ru": "в прошлом месяце она написала рассказ",
+            "en": "last month she wrote a short story"
           },
           "right": "She wrote a short story last month."
         }
       ],
       "explanation": {
         "ru": "Continuous подчёркивает процесс, Past Perfect — результат, Past Continuous — процесс в прошлом, Past Simple — факт.",
-        "en": "The Continuous emphasises the process, Past Perfect the result, Past Continuous a past process, and Past Simple a fact."
+        "en": "The continuous stresses a process, the past perfect a result, the past continuous a past process, and the past simple a fact."
       },
       "tags": [
         "tense-past-perfect-continuous",
@@ -3689,42 +3707,42 @@
       "ruleId": "tense-past-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте вопрос и пример.",
-        "en": "Match the question with its example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "общий вопрос",
-            "en": "yes/no question"
+            "ru": "общий вопрос: шёл ли дождь до того, как ты проснулся",
+            "en": "a yes/no question about rain before you woke up"
           },
           "right": "Had it been raining before you woke up?"
         },
         {
           "left": {
-            "ru": "вопрос с how long",
-            "en": "question with how long"
+            "ru": "как долго они там жили до переезда",
+            "en": "how long they had lived there before moving"
           },
           "right": "How long had they been living there?"
         },
         {
           "left": {
-            "ru": "вопрос с what",
-            "en": "question with what"
+            "ru": "чем ты занимался всё послеобеденное время",
+            "en": "what you had been doing all afternoon"
           },
           "right": "What had you been doing all afternoon?"
         },
         {
           "left": {
-            "ru": "вопрос с why",
-            "en": "question with why"
+            "ru": "почему она плакала до нашего прихода",
+            "en": "why she had been crying before we came"
           },
           "right": "Why had she been crying?"
         }
       ],
       "explanation": {
-        "ru": "В вопросах **had** и **been** идут в начале, вопросительное слово — первым.",
-        "en": "In questions **had** and **been** come first; the question word comes first."
+        "ru": "В вопросах had и been идут в начале, вопросительное слово — первым.",
+        "en": "In questions had and been come first, and the question word comes first of all."
       },
       "tags": [
         "tense-past-perfect-continuous",
@@ -3738,42 +3756,42 @@
       "ruleId": "tense-past-perfect-continuous",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте ситуацию и пример.",
-        "en": "Match the situation with its example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "PPC после before",
-            "en": "PPC after before"
+            "ru": "действие длилось до переезда в Берлин",
+            "en": "the action had lasted until the move to Berlin"
           },
           "right": "He had been learning German before he moved to Berlin."
         },
         {
           "left": {
-            "ru": "PPC с since",
-            "en": "PPC with since"
+            "ru": "точка отсчёта: с января",
+            "en": "starting point: January"
           },
           "right": "I had been working there since January."
         },
         {
           "left": {
-            "ru": "PPC с for",
-            "en": "PPC with for"
+            "ru": "длительность до того, как они остановились",
+            "en": "duration up to the moment they stopped"
           },
           "right": "They had been travelling for weeks before they stopped."
         },
         {
           "left": {
-            "ru": "PPC в вопросе",
-            "en": "PPC in a question"
+            "ru": "вопрос о том, работал ли он всю ночь",
+            "en": "asking whether he had been working all night"
           },
           "right": "Had he been working all night?"
         }
       ],
       "explanation": {
         "ru": "Before, since, for и вопрос — типичные контексты Past Perfect Continuous.",
-        "en": "Before, since, for and questions are typical contexts for Past Perfect Continuous."
+        "en": "Before, since, for and questions are typical contexts for the past perfect continuous."
       },
       "tags": [
         "tense-past-perfect-continuous",

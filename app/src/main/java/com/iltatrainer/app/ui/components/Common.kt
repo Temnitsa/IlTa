@@ -326,7 +326,7 @@ fun BackTopBar(
 @Composable
 fun StatsBarIcon(modifier: Modifier = Modifier) {
     val color = MaterialTheme.colorScheme.onSurfaceVariant
-    Canvas(modifier.size(20.dp)) {
+    Canvas(modifier.size(24.dp)) {
         val barWidth = size.width / 6f
         val gap = barWidth
         val heights = listOf(0.45f, 0.7f, 1f)

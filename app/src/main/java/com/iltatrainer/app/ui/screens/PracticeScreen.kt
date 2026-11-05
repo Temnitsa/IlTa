@@ -61,7 +61,6 @@ import com.iltatrainer.app.domain.SessionConfig
 import com.iltatrainer.app.domain.SessionMistake
 import com.iltatrainer.app.domain.SessionResult
 import com.iltatrainer.app.ui.components.EmptyState
-import com.iltatrainer.app.ui.components.LevelChip
 import com.iltatrainer.app.ui.components.SentenceText
 import com.iltatrainer.app.ui.itemLabel
 import com.iltatrainer.app.ui.tr
@@ -276,16 +275,14 @@ private fun QuestionBody(
             .verticalScroll(rememberScrollState())
             .padding(horizontal = 16.dp),
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            LevelChip(level = question.level)
-        }
-        Spacer(Modifier.height(10.dp))
         Text(
             text = when {
                 question.isChoice && sectionId == "articles" ->
                     tr("Выберите правильный артикль", "Choose the correct article")
-                question.isChoice ->
+                question.isChoice && sectionId == "prepositions" ->
                     tr("Выберите правильный предлог", "Choose the correct preposition")
+                question.isChoice ->
+                    tr("Выберите правильный вариант", "Choose the correct option")
                 question.isBuild ->
                     tr("Переведите предложение на английский", "Translate the sentence into English")
                 else -> question.prompt?.text(language)
@@ -479,7 +476,7 @@ private fun MatchBody(
                 verticalArrangement = Arrangement.spacedBy(10.dp),
             ) {
                 Text(
-                    tr("Правило", "Rule"),
+                    tr("Значение", "Meaning"),
                     style = MaterialTheme.typography.labelLarge,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -528,7 +525,7 @@ private fun MatchBody(
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
                     tr(
-                        "Нажмите правило слева, затем пример справа.",
+                        "Нажмите описание слева, затем пример справа.",
                         "Tap a rule on the left, then its example on the right.",
                     ),
                     style = MaterialTheme.typography.bodySmall,
@@ -823,36 +820,25 @@ private fun FeedbackCard(
                     color = content.copy(alpha = 0.9f),
                 )
             }
-            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+            Text(
+                text = question.explanation.text(language),
+                style = MaterialTheme.typography.bodyLarge.copy(
+                    fontSize = 16.sp,
+                    lineHeight = 24.sp,
+                    lineBreak = LineBreak.Heading,
+                ),
+            )
+            val translation = question.translation?.ru.orEmpty()
+            if (!question.isBuild && language == AppLanguage.RU && translation.isNotBlank()) {
+                HorizontalDivider(color = content.copy(alpha = 0.2f))
                 Text(
-                    text = tr("Почему", "Why"),
-                    style = MaterialTheme.typography.labelSmall,
-                    fontWeight = FontWeight.SemiBold,
-                    color = content.copy(alpha = 0.7f),
-                )
-                Text(
-                    text = question.explanation.text(language),
-                    style = MaterialTheme.typography.bodyMedium.copy(
+                    text = translation,
+                    style = MaterialTheme.typography.bodyLarge.copy(
+                        fontSize = 15.sp,
                         lineHeight = 22.sp,
                         lineBreak = LineBreak.Heading,
                     ),
                 )
-            }
-            val translation = question.translation?.ru.orEmpty()
-            if (!question.isBuild && language == AppLanguage.RU && translation.isNotBlank()) {
-                HorizontalDivider(color = content.copy(alpha = 0.2f))
-                Column(verticalArrangement = Arrangement.spacedBy(3.dp)) {
-                    Text(
-                        text = tr("Перевод", "Translation"),
-                        style = MaterialTheme.typography.labelSmall,
-                        fontWeight = FontWeight.SemiBold,
-                        color = content.copy(alpha = 0.7f),
-                    )
-                    Text(
-                        text = translation,
-                        style = MaterialTheme.typography.bodySmall.copy(lineBreak = LineBreak.Heading),
-                    )
-                }
             }
         }
     }

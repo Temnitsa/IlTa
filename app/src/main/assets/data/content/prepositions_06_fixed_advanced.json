@@ -17,90 +17,128 @@
         "en": "Fixed expressions and subtle contrasts"
       },
       "summary": {
-        "ru": "Предлог в устойчивых выражениях закреплён традицией, а пары предлогов различают близкие значения. Тема помогает запомнить выражения и выбирать между by, with и in, during и for, between и among, except и besides, on time и in time.",
-        "en": "The preposition in fixed expressions is fixed by tradition, while pairs of prepositions distinguish close meanings. The theme helps you learn the expressions and choose between by, with and in, during and for, between and among, except and besides, on time and in time."
+        "ru": "Полный обзор зависимых предлогов: существительное + предлог, устойчивые выражения, by/with/in, between/among, except/besides, тонкие пары и предлоги в вопросах.",
+        "en": "A complete review of dependent prepositions: noun + preposition, fixed expressions, by/with/in, between/among, except/besides, subtle pairs and prepositions in questions."
       },
       "sections": [
         {
           "heading": {
-            "ru": "Устойчивые выражения: предлог закреплён",
-            "en": "Fixed expressions: the preposition is fixed"
+            "ru": "Существительное + предлог",
+            "en": "Noun + preposition"
           },
           "body": {
-            "ru": "В устойчивых выражениях предлог нельзя заменить по смыслу — он закреплён традицией. Такие сочетания запоминают целиком, потому что их значение часто не выводится из значений отдельных слов.",
-            "en": "**In** fixed expressions the preposition cannot be changed **to** suit the meaning — tradition fixes it. Such combinations are learned **as** a whole because their meaning often cannot be worked out **from** the individual words."
+            "ru": "Зависимый предлог бывает и у существительных: demand / need / reason / excuse **for**; picture / photo / map / plan / advantage / cause **of**; increase / decrease / rise / fall **in**; relationship / connection / contact **with**, difference / connection **between**; solution / key / answer / reply / reaction / invitation / damage **to** (attitude также **towards**). У advantage возможны также **in / to** + -ing.",
+            "en": "Nouns also take dependent prepositions: demand / need / reason / excuse **for**; picture / photo / map / plan / advantage / cause **of**; increase / decrease / rise / fall **in**; relationship / connection / contact **with**, difference / connection **between**; solution / key / answer / reply / reaction / invitation / damage **to** (attitude also **towards**). Advantage is also followed by **in / to** + -ing."
           },
           "examples": [
-            "**in the end**",
-            "**at** least",
-            "**by** mistake",
-            "**in** advance",
-            "**on** purpose"
+            "There was no demand for its product any more.",
+            "The advantage of living alone is that you can do what you like.",
+            "There has been an increase in road accidents.",
+            "I hope we find a solution to the problem.",
+            "His attitude to his job is very negative."
+          ],
+          "exampleTranslations": [
+            "Спрос на этот товар пропал.",
+            "Преимущество жизни одному в том, что можно делать что хочешь.",
+            "Выросло число дорожных происшествий.",
+            "Надеюсь, мы найдём решение этой проблемы.",
+            "Его отношение к работе очень негативное."
           ]
         },
         {
           "heading": {
-            "ru": "Время: on time и in time, during и for",
-            "en": "Time: on time and in time, during and for"
+            "ru": "Устойчивые выражения: время и другие случаи",
+            "en": "Fixed expressions: time and other uses"
           },
           "body": {
-            "ru": "**On time** значит «точно по расписанию», а **in time** — «успеть до срока, с запасом». **During** ставим перед событием или периодом, внутри которого что-то происходит, а **for** — перед длительностью. While вводит одновременное действие и тоже не путается с **during**. **In the end** значит «в конце концов», **at the end** **of** — «в конце чего-либо».",
-            "en": "**On time** means exactly **at** the planned moment, while **in time** means early enough, **with** some time **to** spare. **During** comes before an event or period **in** which something happens, and **for** comes before a length **of** time. While introduces a simultaneous action and is different **from** **during**. **In the end** means “finally”, **at the end** **of** means “**at the end** **of** something”."
+            "ru": "Устойчивые сочетания: **in the end**, **at the end of**, **on time**, **in time**, **at least**, **at the moment**, **by chance / by mistake**, **on purpose**, **in advance**, **in fact**, **in general**, **on the whole**, **by the way**, **on the other hand**, **for example**. Другие случаи: **in the sun / shade / dark / bad weather**, **in love**, **in a currency**, **on a trip / tour / cruise**, **for a holiday**.",
+            "en": "Fixed expressions: **in the end**, **at the end of**, **on time**, **in time**, **at least**, **at the moment**, **by chance / by mistake**, **on purpose**, **in advance**, **in fact**, **in general**, **on the whole**, **by the way**, **on the other hand**, **for example**. Other uses: **in the sun / shade / dark / bad weather**, **in love**, **in a currency**, **on a trip / tour / cruise**, **for a holiday**."
           },
           "examples": [
-            "The meeting started **on time**.",
-            "The ambulance arrived **in time** **to** save the driver.",
-            "The lights went out **during** the storm.",
-            "The baby slept **for** three hours."
+            "In the end, we sold the old house.",
+            "The meeting started on time.",
+            "At least he apologised for taking it by mistake.",
+            "She left the door open on purpose.",
+            "We sat in the shade and watched the sea."
+          ],
+          "exampleTranslations": [
+            "В конце концов мы продали старый дом.",
+            "Совещание началось вовремя.",
+            "По крайней мере, он извинился за то, что взял это по ошибке.",
+            "Она нарочно оставила дверь открытой.",
+            "Мы сидели в тени и смотрели на море."
           ]
         },
         {
           "heading": {
-            "ru": "Способ, инструмент и материал: by, with, in",
-            "en": "Means, instrument and material: by, with, in"
+            "ru": "By, with, in: способ, инструмент, материал",
+            "en": "By, with, in: means, instrument, material"
           },
           "body": {
-            "ru": "**By** называет способ или вид транспорта, **with** — инструмент, которым выполняется действие, а **in** — материал или среду. После **by** перед транспортом артикль не нужен, а выражение со значением «пешком» — устойчивое исключение с предлогом **on**.",
-            "en": "**By** names the means or kind **of** transport, **with** names the instrument used **to** do something, and **in** names the material or medium. After **by** before transport there is no article, and the expression meaning walking is a fixed exception that uses **on**."
+            "ru": "**By** — способ и транспорт: **by car / by train / by bus**, **by post / by hand / by card**, **by mistake / by chance** (но **on purpose**). С артиклем: **in a taxi**, **on the train**, **in my car**, **on foot**. **With** — инструмент: **with a key**. **In** — материал и среда: **in ink / in pencil / in cash / in Russian**. Passive + **by**; **by** также «рядом» и разница: **increased by 10%**.",
+            "en": "**By** marks a means and transport: **by car / by train / by bus**, **by post / by hand / by card**, **by mistake / by chance** (but **on purpose**). With an article: **in a taxi**, **on the train**, **in my car**, **on foot**. **With** marks an instrument: **with a key**. **In** marks material and medium: **in ink / in pencil / in cash / in Russian**. Passive + **by**; **by** also means next to or a difference: **increased by 10%**."
           },
           "examples": [
-            "**by** train",
-            "**with** a knife",
-            "**in** blue ink",
-            "**on foot**"
+            "Jess usually goes to work by bus.",
+            "They didn't come in their car — they came in a taxi.",
+            "The door must have been opened with a key.",
+            "The message was written in blue ink.",
+            "I sent the parcel by post and paid in cash."
+          ],
+          "exampleTranslations": [
+            "Джесс обычно ездит на работу на автобусе.",
+            "Они приехали не на своей машине, а на такси.",
+            "Дверь, должно быть, открыли ключом.",
+            "Сообщение было написано синими чернилами.",
+            "Я отправил посылку почтой и заплатил наличными."
           ]
         },
         {
           "heading": {
-            "ru": "Between и among, except и besides",
-            "en": "Between and among, except and besides"
+            "ru": "Between и among, except и besides, like и as",
+            "en": "Between and among, except and besides, like and as"
           },
           "body": {
-            "ru": "**Between** используют для двух предметов или чётко разделённых групп, **among** — для неопределённой группы. **Except** значит «за исключением», **besides** — «в дополнение к, кроме этого».",
-            "en": "**Between** is used **for** two things or clearly separate groups, and **among** is used **for** a group that is not clearly separated. **Except** means not including, and **besides** means **in** addition **to**."
+            "ru": "**Between** — два объекта или чётко разделённые группы; **among** — неопределённая группа. **Except (for)** — за исключением; **besides** — в дополнение. **Like** сравнивает, **as** указывает роль или способ.",
+            "en": "**Between** is for two things or clearly separate groups; **among** is for a group that is not clearly separate. **Except (for)** means not including; **besides** means in addition. **Like** compares, **as** marks a role or manner."
           },
           "examples": [
-            "**between** the two houses",
-            "**among** the crowd",
-            "**except** Monday",
-            "**besides** tennis"
+            "The café is between the bank and the cinema.",
+            "He was the youngest among the finalists.",
+            "The shop is open every day except Monday.",
+            "Besides English, she speaks French and German.",
+            "He behaves like a child, but he works as a manager."
+          ],
+          "exampleTranslations": [
+            "Кафе находится между банком и кинотеатром.",
+            "Он был самым молодым среди финалистов.",
+            "Магазин открыт каждый день, кроме понедельника.",
+            "Помимо английского, она говорит по-французски и по-немецки.",
+            "Он ведёт себя как ребёнок, но работает менеджером."
           ]
         },
         {
           "heading": {
-            "ru": "Тонкие пары и вопросы",
-            "en": "Subtle pairs and questions"
+            "ru": "Тонкие пары и предлоги в вопросах",
+            "en": "Subtle pairs and prepositions in questions"
           },
           "body": {
-            "ru": "Некоторые пары выражений отличаются только предлогом и имеют разный смысл, поэтому их стоит сравнивать попарно. В вопросах предлог часто оказывается в конце предложения, а оборот с **by the time** вводит момент, к которому действие уже завершилось. **Like** сравнивает, **as** — роль или способ; **against** и **without** — самостоятельные предлоги. Существительные тоже имеют зависимый предлог: reason **for**, solution **to**, advantage **of**, increase **in**.",
-            "en": "Some pairs **of** expressions differ only **in** their preposition and have different meanings, so they are best compared **in** pairs. **In** questions the preposition often comes **at the end** **of** the sentence, and the phrase **with** **by the time** introduces the moment **by** which an action was already complete. **Like** compares, **as** marks a role or manner; **against** and **without** are prepositions **in** their own right. Nouns also take dependent prepositions: reason **for**, solution **to**, advantage **of**, increase **in**."
+            "ru": "**On time** — точно по расписанию, **in time** — с запасом до срока; **at the end of** — в конце чего-либо, **in the end** — в итоге; **during** + событие, **for** + длительность, **while** + придаточное. **By the time** вводит момент завершения. В вопросах предлог часто стоит в конце. Глаголы различают **hear of / hear from**, **think about / think of**, **remind about / remind of**.",
+            "en": "**On time** means exactly as scheduled, **in time** means early enough; **at the end of** means the final part, **in the end** means finally; **during** + event, **for** + duration, **while** + clause. **By the time** introduces a deadline. In questions the preposition often comes at the end. Verbs contrast **hear of / hear from**, **think about / think of**, **remind about / remind of**."
           },
           "examples": [
-            "**at the end** **of** the lesson",
-            "**in** charge **of** the project",
-            "What are you looking **for**?",
-            "What are you thinking **about**?",
-            "**By the time** we arrived, it was dark."
+            "The ambulance arrived in time to save the driver.",
+            "During the lesson I thought of a good question.",
+            "At the end of the lesson, the teacher gave us homework.",
+            "Who are you waiting for?",
+            "I've never heard of him — he reminds me of my uncle."
+          ],
+          "exampleTranslations": [
+            "Скорая приехала вовремя и спасла водителя.",
+            "Во время урока я придумал хороший вопрос.",
+            "В конце урока учитель задал нам домашнее задание.",
+            "Кого ты ждёшь?",
+            "Я никогда о нём не слышал — он напоминает мне моего дядю."
           ]
         }
       ]
@@ -473,35 +511,35 @@
       "ruleId": "prep-fixed",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и предложение с ним.",
-        "en": "Match each fixed expression with the sentence that uses it."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "in the end — в конце концов",
-            "en": "in the end — finally"
+            "ru": "в конце концов",
+            "en": "finally"
           },
           "right": "In the end, we sold the old house."
         },
         {
           "left": {
-            "ru": "at least — как минимум",
-            "en": "at least — no less than"
+            "ru": "как минимум",
+            "en": "no less than"
           },
           "right": "The journey takes at least three hours by bus."
         },
         {
           "left": {
-            "ru": "by mistake — по ошибке",
-            "en": "by mistake — accidentally"
+            "ru": "по ошибке",
+            "en": "accidentally"
           },
           "right": "He paid for the wrong ticket by mistake."
         },
         {
           "left": {
-            "ru": "in advance — заранее",
-            "en": "in advance — beforehand"
+            "ru": "заранее",
+            "en": "beforehand"
           },
           "right": "The best seats are usually sold in advance."
         }
@@ -511,7 +549,8 @@
         "en": "In the end means 'finally', at least means 'no less than', by mistake means 'accidentally', and in advance means 'beforehand' — the prepositions are fixed."
       },
       "tags": [
-        "prep-fixed"
+        "prep-fixed",
+        "fixed-expressions"
       ]
     },
     {
@@ -520,35 +559,35 @@
       "ruleId": "prep-fixed",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и предложение с ним.",
-        "en": "Match each fixed expression with the sentence that uses it."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "on time — точно по расписанию",
-            "en": "on time — exactly as scheduled"
+            "ru": "точно по расписанию",
+            "en": "punctually"
           },
           "right": "The guests arrived on time for once."
         },
         {
           "left": {
-            "ru": "in time — до срока, с запасом",
-            "en": "in time — early enough"
+            "ru": "с запасом до срока",
+            "en": "early enough"
           },
           "right": "We arrived at the airport in time for our flight."
         },
         {
           "left": {
-            "ru": "in fact — на самом деле",
-            "en": "in fact — actually"
+            "ru": "на самом деле",
+            "en": "actually"
           },
           "right": "The film was, in fact, rather boring."
         },
         {
           "left": {
-            "ru": "on the other hand — с другой стороны",
-            "en": "on the other hand — from another point of view"
+            "ru": "с другой стороны",
+            "en": "another perspective"
           },
           "right": "The flat is small; on the other hand, it is very central."
         }
@@ -558,7 +597,8 @@
         "en": "On time means 'exactly as scheduled', in time means 'early enough', in fact means 'actually', and on the other hand introduces a contrasting point."
       },
       "tags": [
-        "prep-fixed"
+        "prep-fixed",
+        "fixed-expressions"
       ]
     },
     {
@@ -567,35 +607,35 @@
       "ruleId": "prep-fixed",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и предложение с ним.",
-        "en": "Match each fixed expression with the sentence that uses it."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "for example — например",
-            "en": "for example — for instance"
+            "ru": "например",
+            "en": "an illustration"
           },
           "right": "Take London, for example — it is full of museums."
         },
         {
           "left": {
-            "ru": "by chance — случайно",
-            "en": "by chance — by accident"
+            "ru": "случайно",
+            "en": "accidentally"
           },
           "right": "I found this old photo by chance."
         },
         {
           "left": {
-            "ru": "on purpose — нарочно",
-            "en": "on purpose — deliberately"
+            "ru": "нарочно",
+            "en": "deliberately"
           },
           "right": "She left the door open on purpose."
         },
         {
           "left": {
-            "ru": "under control — под контролем",
-            "en": "under control — being managed"
+            "ru": "под контролем",
+            "en": "being managed"
           },
           "right": "The fire was brought under control within an hour."
         }
@@ -605,7 +645,8 @@
         "en": "For example means 'for instance', by chance means 'by accident', on purpose means 'deliberately', and under control means 'being managed'."
       },
       "tags": [
-        "prep-fixed"
+        "prep-fixed",
+        "fixed-expressions"
       ]
     },
     {
@@ -614,35 +655,35 @@
       "ruleId": "prep-fixed",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и предложение с ним.",
-        "en": "Match each fixed expression with the sentence that uses it."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "in charge of — отвечает за",
-            "en": "in charge of — responsible for"
+            "ru": "отвечает за",
+            "en": "having responsibility"
           },
           "right": "Her cousin is in charge of the warehouse."
         },
         {
           "left": {
-            "ru": "at the moment — в данный момент",
-            "en": "at the moment — right now"
+            "ru": "в данный момент",
+            "en": "right now"
           },
           "right": "At the moment, I am staying with my parents."
         },
         {
           "left": {
-            "ru": "in general — в целом",
-            "en": "in general — generally"
+            "ru": "в целом",
+            "en": "generally"
           },
           "right": "In general, people here are very friendly."
         },
         {
           "left": {
-            "ru": "by the way — кстати",
-            "en": "by the way — incidentally"
+            "ru": "кстати",
+            "en": "incidentally"
           },
           "right": "By the way, the meeting starts at ten."
         }
@@ -652,7 +693,8 @@
         "en": "In charge of means 'responsible for', at the moment means 'right now', in general means 'generally', and by the way adds an incidental remark."
       },
       "tags": [
-        "prep-fixed"
+        "prep-fixed",
+        "fixed-expressions"
       ]
     },
     {
@@ -661,45 +703,46 @@
       "ruleId": "prep-fixed",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте устойчивое выражение и предложение с ним.",
-        "en": "Match each fixed expression with a sentence."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "in the end — итог (сравните: at the end of the film)",
-            "en": "in the end — a result (cf. at the end of the film)"
+            "ru": "конец чего-либо, а не итог",
+            "en": "the final part, not the overall result"
           },
-          "right": "After weeks of discussion, we chose the seaside in the end."
+          "right": "At the end of the film, everyone left."
         },
         {
           "left": {
-            "ru": "on time — точно по расписанию (не in time)",
-            "en": "on time — exactly as scheduled (not in time)"
+            "ru": "точно по расписанию и без опоздания",
+            "en": "punctually, never late"
           },
           "right": "The 7:20 train to York left on time this morning."
         },
         {
           "left": {
-            "ru": "by chance — случайно, не on purpose",
-            "en": "by chance — without planning (not on purpose)"
+            "ru": "случайно, не по плану",
+            "en": "without planning"
           },
           "right": "I came across this old map by chance in a bookshop."
         },
         {
           "left": {
-            "ru": "in charge of — отвечает за (не under control)",
-            "en": "in charge of — responsible for (not under control)"
+            "ru": "руководит заведением",
+            "en": "managing the place"
           },
           "right": "The assistant manager is in charge of the new café."
         }
       ],
       "explanation": {
-        "ru": "Пятая пара противопоставляет похожие выражения: in the end / at the end, on time / in time, by chance / on purpose, in charge of / under control.",
-        "en": "The pairs contrast similar expressions: in the end / at the end, on time / in time, by chance / on purpose, in charge of / under control."
+        "ru": "Пары противопоставляют: at the end of / in the end, on time / in time, by chance / on purpose, in charge of / under control.",
+        "en": "The pairs contrast at the end of / in the end, on time / in time, by chance / on purpose, and in charge of / under control."
       },
       "tags": [
-        "prep-fixed"
+        "prep-fixed",
+        "contrasts"
       ]
     },
     {
@@ -1323,35 +1366,35 @@
       "ruleId": "prep-fixed",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте категорию и пример.",
-        "en": "Match each category with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "by + вид транспорта",
-            "en": "by + means of transport"
+            "ru": "способ передвижения",
+            "en": "means (travel method)"
           },
           "right": "My father always travels to London by train."
         },
         {
           "left": {
-            "ru": "with + инструмент",
-            "en": "with + instrument"
+            "ru": "инструмент",
+            "en": "instrument"
           },
           "right": "She cut the cake with a silver knife."
         },
         {
           "left": {
-            "ru": "in + материал (чернила, карандаш)",
-            "en": "in + material (ink, pencil)"
+            "ru": "материал или среда",
+            "en": "material or medium"
           },
           "right": "The contract was signed in black ink."
         },
         {
           "left": {
-            "ru": "on foot — пешком",
-            "en": "on foot — walking"
+            "ru": "пешком",
+            "en": "walking"
           },
           "right": "The old town is best explored on foot."
         }
@@ -1362,7 +1405,7 @@
       },
       "tags": [
         "prep-fixed",
-        "advanced-contrast"
+        "by-with-in"
       ]
     },
     {
@@ -1371,35 +1414,35 @@
       "ruleId": "prep-fixed",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте категорию и пример.",
-        "en": "Match each category with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "during + существительное (событие)",
-            "en": "during + noun (event)"
+            "ru": "событие или период",
+            "en": "an event or period"
           },
           "right": "Many people fell asleep during the lecture."
         },
         {
           "left": {
-            "ru": "for + длительность",
-            "en": "for + duration"
+            "ru": "длительность",
+            "en": "a duration"
           },
           "right": "He has been learning Chinese for three years."
         },
         {
           "left": {
-            "ru": "while + придаточное предложение",
-            "en": "while + clause"
+            "ru": "одновременное действие",
+            "en": "a simultaneous action"
           },
           "right": "While I was cooking, the phone rang."
         },
         {
           "left": {
-            "ru": "by the time + Past Perfect — к тому моменту, когда",
-            "en": "by the time + Past Perfect"
+            "ru": "момент, к которому действие уже завершилось",
+            "en": "the moment when an action is already complete"
           },
           "right": "By the time she was thirty, she had visited twenty countries."
         }
@@ -1410,7 +1453,7 @@
       },
       "tags": [
         "prep-fixed",
-        "advanced-contrast"
+        "during-for"
       ]
     },
     {
@@ -1419,35 +1462,35 @@
       "ruleId": "prep-fixed",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте категорию и пример.",
-        "en": "Match each category with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "between — между двумя объектами",
-            "en": "between — two things / two objects"
+            "ru": "два объекта",
+            "en": "two things"
           },
           "right": "The café is between the bank and the cinema."
         },
         {
           "left": {
-            "ru": "among — среди группы",
-            "en": "among — in a group"
+            "ru": "неопределённая группа",
+            "en": "a group"
           },
           "right": "He was the youngest among the finalists."
         },
         {
           "left": {
-            "ru": "except — за исключением",
-            "en": "except — not including"
+            "ru": "исключение",
+            "en": "not including"
           },
           "right": "No one except the manager knew the password."
         },
         {
           "left": {
-            "ru": "besides — в дополнение к",
-            "en": "besides — in addition to"
+            "ru": "дополнение к названному",
+            "en": "addition"
           },
           "right": "Besides English, she speaks French and German."
         }
@@ -1458,7 +1501,7 @@
       },
       "tags": [
         "prep-fixed",
-        "advanced-contrast"
+        "between-among"
       ]
     },
     {
@@ -1467,35 +1510,35 @@
       "ruleId": "prep-fixed",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте вопрос и предлог в конце.",
-        "en": "Match each question with its final preposition."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "вопрос: who … with?",
-            "en": "question: who … with?"
+            "ru": "спутник в кино",
+            "en": "a cinema companion"
           },
           "right": "Who did you go to the cinema with?"
         },
         {
           "left": {
-            "ru": "вопрос: what … for?",
-            "en": "question: what … for?"
+            "ru": "причина покупки",
+            "en": "a buying reason"
           },
           "right": "What did you buy this for?"
         },
         {
           "left": {
-            "ru": "вопрос: which platform … from?",
-            "en": "question: which platform … from?"
+            "ru": "место отправления",
+            "en": "a departure place"
           },
           "right": "Which platform does the coach to Bath leave from?"
         },
         {
           "left": {
-            "ru": "вопрос: what … about?",
-            "en": "question: what … about?"
+            "ru": "тема разговора",
+            "en": "a conversation topic"
           },
           "right": "What are you talking about?"
         }
@@ -1506,7 +1549,7 @@
       },
       "tags": [
         "prep-fixed",
-        "advanced-contrast"
+        "question-prepositions"
       ]
     },
     {
@@ -1515,46 +1558,46 @@
       "ruleId": "prep-fixed",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте категорию и пример.",
-        "en": "Match each category with an example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with an example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "by + транспорт — способ, не with",
-            "en": "by + transport — means, not with"
+            "ru": "способ передвижения, не инструмент",
+            "en": "a travel method, not a tool"
           },
-          "right": "They usually travel to the islands by ferry."
+          "right": "They crossed the lake by boat."
         },
         {
           "left": {
-            "ru": "with + инструмент — инструмент, не by",
-            "en": "with + instrument — a tool, not by"
+            "ru": "инструмент, не способ",
+            "en": "a tool, not a method"
           },
-          "right": "The baker opened the bag with a small knife."
+          "right": "She cut the string with scissors."
         },
         {
           "left": {
-            "ru": "during + событие — событие, не for + длительность",
-            "en": "during + event — an event, not for + duration"
+            "ru": "событие, не длительность",
+            "en": "an event, not a duration"
           },
-          "right": "Someone's phone rang twice during the ceremony."
+          "right": "The audience remained silent during the speech."
         },
         {
           "left": {
-            "ru": "except — исключение, не besides",
-            "en": "except — not including, not besides"
+            "ru": "исключение, не дополнение",
+            "en": "an exclusion, not an addition"
           },
           "right": "The shop is open daily except Wednesday."
         }
       ],
       "explanation": {
-        "ru": "Пары противопоставляют предлоги: by и with, during и for, except и besides.",
-        "en": "The pairs contrast the prepositions: by and with, during and for, except and besides."
+        "ru": "Пары противопоставляют способ и инструмент, событие и длительность, исключение и дополнение.",
+        "en": "The pairs contrast a method and an instrument, an event and a duration, and an exclusion and an addition."
       },
       "tags": [
         "prep-fixed",
-        "advanced-contrast"
+        "contrasts"
       ]
     },
     {

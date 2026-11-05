@@ -90,7 +90,8 @@ across the whole `data/content` folder.
         "ru": "At ставим перед точным временем и в устойчивых сочетаниях: at 7 o'clock, at noon, at night, at the weekend.",
         "en": "Use at before exact times and in fixed phrases: at 7 o'clock, at noon, at night, at the weekend."
       },
-      "examples": ["at 7 o'clock", "at night", "at the weekend"]
+      "examples": ["at 7 o'clock", "at night", "at the weekend"],
+      "exampleTranslations": ["в 7 часов", "ночью", "на выходных"]
     }
   ]
 }
@@ -106,6 +107,8 @@ Required: `id`, `sectionId`, `order`, `level` (A1|A2|B1|B2), `title.ru/en`,
 - `body.ru` / `body.en` are 60–450 characters each, natural, structured (short paragraphs or
   sentences), no walls of text, no duplicated examples.
 - `examples` — 3–5 short English examples per section, each illustrating exactly one point.
+- `exampleTranslations` — required Russian translations, exactly the same length/order as
+  `examples`; shown in a small popup on long-press in the app.
 - Avoid one-word orphan lines in the UI: prefer slightly shorter, well-structured sentences.
 
 ## 3. Question quotas (fixed per theme)

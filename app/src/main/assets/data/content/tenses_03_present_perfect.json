@@ -35,6 +35,12 @@
             "She has left.",
             "Have you seen it?",
             "They have not arrived."
+          ],
+          "exampleTranslations": [
+            "Я закончил.",
+            "Она ушла.",
+            "Ты это видел?",
+            "Они ещё не приехали."
           ]
         },
         {
@@ -52,6 +58,13 @@
             "I have read two books this week.",
             "This is the first time I have flown.",
             "They have lived here since 2019."
+          ],
+          "exampleTranslations": [
+            "Я потерял ключи.",
+            "Она дважды была в Риме.",
+            "На этой неделе я прочитал две книги.",
+            "Я лечу самолётом впервые.",
+            "Они живут здесь с 2019 года."
           ]
         },
         {
@@ -68,6 +81,12 @@
             "We have already eaten.",
             "He has not started yet.",
             "I have known her for ten years."
+          ],
+          "exampleTranslations": [
+            "Она только что позвонила.",
+            "Мы уже поели.",
+            "Он ещё не начал.",
+            "Я знаю её десять лет."
           ]
         }
       ]
@@ -783,42 +802,42 @@
       "ruleId": "tense-present-perfect",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте форму Present Perfect и пример.",
-        "en": "Match each Present Perfect form with the example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "have/has + причастие",
-            "en": "have/has + past participle"
+            "ru": "отчёт готов — важен результат",
+            "en": "the report is ready — the result matters"
           },
           "right": "She has finished the report."
         },
         {
           "left": {
-            "ru": "Отрицание: have not / has not",
-            "en": "Negative: have not / has not"
+            "ru": "они ещё не приехали",
+            "en": "they have not arrived up to now"
           },
           "right": "They have not arrived yet."
         },
         {
           "left": {
-            "ru": "Вопрос: Have/Has перед подлежащим",
-            "en": "Question: Have/Has before the subject"
+            "ru": "интересуемся опытом: видел ли ты этот фильм",
+            "en": "asking about experience: have you seen this film"
           },
           "right": "Have you seen this film?"
         },
         {
           "left": {
-            "ru": "Краткий ответ",
-            "en": "Short answer"
+            "ru": "чемоданы уже собраны",
+            "en": "the suitcases are already packed"
           },
-          "right": "Yes, I have."
+          "right": "We have already packed our suitcases."
         }
       ],
       "explanation": {
-        "ru": "Present Perfect строится с have/has и причастием; отрицание и вопрос используют have/has.",
-        "en": "Present Perfect is built with have/has and the participle; the negative and the question use have/has."
+        "ru": "Примеры показывают результат к настоящему моменту, отсутствие результата, вопрос об опыте и уже выполненное действие.",
+        "en": "The examples show a result by now, a missing result, a question about experience and an action that is already done."
       },
       "tags": [
         "tense-present-perfect",
@@ -833,34 +852,34 @@
       "level": "A2",
       "prompt": {
         "ru": "Сопоставьте значение и пример.",
-        "en": "Match each meaning with the example."
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Результат важен сейчас",
-            "en": "The result matters now"
+            "ru": "результат важен сейчас",
+            "en": "the result matters now"
           },
           "right": "He has broken his glasses, so he cannot read."
         },
         {
           "left": {
-            "ru": "Опыт в жизни",
-            "en": "Experience in a lifetime"
+            "ru": "опыт в жизни",
+            "en": "experience in a lifetime"
           },
           "right": "He has travelled to many countries."
         },
         {
           "left": {
-            "ru": "Незаконченный период",
-            "en": "An unfinished period"
+            "ru": "незаконченный период",
+            "en": "an unfinished period"
           },
           "right": "She has written three emails today."
         },
         {
           "left": {
-            "ru": "Только что завершилось",
-            "en": "Just finished"
+            "ru": "только что завершилось",
+            "en": "an action completed a moment ago"
           },
           "right": "The film has just started."
         }
@@ -881,42 +900,42 @@
       "ruleId": "tense-present-perfect",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте маркер времени и пример.",
-        "en": "Match each time marker with the example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "just — только что",
-            "en": "just — a moment ago"
+            "ru": "действие произошло мгновение назад",
+            "en": "the action happened a moment ago"
           },
           "right": "The postman has just delivered a parcel."
         },
         {
           "left": {
-            "ru": "already — уже",
-            "en": "already — sooner than expected"
+            "ru": "действие произошло раньше, чем ожидали",
+            "en": "it happened earlier than expected"
           },
           "right": "He has already washed the car."
         },
         {
           "left": {
-            "ru": "yet — ещё",
-            "en": "yet — up to now"
+            "ru": "до сих пор это не произошло",
+            "en": "it has not happened up to now"
           },
           "right": "The film has not begun yet."
         },
         {
           "left": {
-            "ru": "ever — когда-нибудь",
-            "en": "ever — at any time"
+            "ru": "вопрос об опыте за всю жизнь",
+            "en": "a question about experience in life"
           },
           "right": "Has she ever worked abroad?"
         }
       ],
       "explanation": {
-        "ru": "Маркеры just, already, yet и ever входят в Present Perfect и показывают связь с настоящим.",
-        "en": "The markers just, already, yet and ever belong to Present Perfect and show a link with the present."
+        "ru": "Just, already, yet и ever подсказывают Present Perfect: действие связано с настоящим моментом.",
+        "en": "Just, already, yet and ever point to the present perfect: the action is connected with the present moment."
       },
       "tags": [
         "tense-present-perfect",
@@ -930,42 +949,42 @@
       "ruleId": "tense-present-perfect",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте правило for/since и пример.",
-        "en": "Match each for/since rule with the example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "for + длительность",
-            "en": "for + a length of time"
+            "ru": "длительность: дружба длится много лет",
+            "en": "duration: the friendship has lasted many years"
           },
           "right": "They have been friends for years."
         },
         {
           "left": {
-            "ru": "since + точка отсчёта",
-            "en": "since + a starting point"
+            "ru": "точка отсчёта: с сентября",
+            "en": "starting point: September"
           },
           "right": "She has studied English since September."
         },
         {
           "left": {
-            "ru": "yet в отрицании",
-            "en": "for + a period"
+            "ru": "до сих пор не начал",
+            "en": "he has not started up to now"
           },
           "right": "He has not started his new job yet."
         },
         {
           "left": {
-            "ru": "since + конкретный день",
-            "en": "since + a particular day"
+            "ru": "с понедельника ничего не изменилось",
+            "en": "no change has happened since Monday"
           },
           "right": "Nothing has changed since Monday."
         }
       ],
       "explanation": {
-        "ru": "For называет длительность, since — точку отсчёта; оба предлога типичны для Present Perfect.",
-        "en": "For names a length of time and since names a starting point; both are typical of Present Perfect."
+        "ru": "For называет длительность, since — точку отсчёта; yet показывает, что действие не произошло к настоящему моменту.",
+        "en": "For states a duration, since a starting point, and yet shows that something has not happened up to now."
       },
       "tags": [
         "tense-present-perfect",
@@ -979,42 +998,42 @@
       "ruleId": "tense-present-perfect",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with the example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "been — был и вернулся",
-            "en": "been — went and came back"
+            "ru": "опыт: он бывал в Африке",
+            "en": "experience: he has visited Africa"
           },
           "right": "He has been to Africa before."
         },
         {
           "left": {
-            "ru": "gone — уехал и ещё там",
-            "en": "gone — went and is still away"
+            "ru": "они уехали на вокзал и ещё не вернулись",
+            "en": "they went to the station and are still away"
           },
           "right": "They have gone to the station."
         },
         {
           "left": {
-            "ru": "first time + Present Perfect (первый раз)",
-            "en": "first time + Present Perfect"
+            "ru": "впервые в жизни она летит самолётом",
+            "en": "for the first time in her life she is flying"
           },
           "right": "This is the first time she has flown."
         },
         {
           "left": {
-            "ru": "Past Simple с законченным временем",
-            "en": "Past Simple with finished time"
+            "ru": "законченное действие в прошлом: мы навещали их",
+            "en": "a finished action in the past: we visited them"
           },
           "right": "We visited them last week."
         }
       ],
       "explanation": {
-        "ru": "Been означает, что человек побывал и вернулся; gone — что он уехал и ещё там; с законченным временем нужен Past Simple.",
-        "en": "Been means the person went and came back; gone means they went and are still away; finished time takes Past Simple."
+        "ru": "Been значит «был и вернулся», gone — «уехал и ещё там»; first time требует Present Perfect, а законченное прошедшее — Past Simple.",
+        "en": "Been means went and came back, gone means went and is still away; first time takes the present perfect, while a finished past action takes the past simple."
       },
       "tags": [
         "tense-present-perfect",
@@ -3030,42 +3049,42 @@
       "ruleId": "tense-present-perfect",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте тип предложения и пример.",
-        "en": "Match each sentence type with the example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "(+) утверждение: have/has + V3",
-            "en": "(+) affirmative: have/has + V3"
+            "ru": "работа закончена — вот результат",
+            "en": "the work is done — here is the result"
           },
           "right": "I have finished the report."
         },
         {
           "left": {
-            "ru": "(–) отрицание: have not / has not + V3",
-            "en": "(–) negative: have not / has not + V3"
+            "ru": "она пока не позвонила",
+            "en": "she has not called so far"
           },
           "right": "She has not called yet."
         },
         {
           "left": {
-            "ru": "(?) вопрос: Have/Has + V3?",
-            "en": "(?) question: Have/Has + V3?"
+            "ru": "спрашиваем, сделана ли домашка",
+            "en": "asking whether the homework is done"
           },
           "right": "Have you finished your homework?"
         },
         {
           "left": {
-            "ru": "краткий ответ",
-            "en": "short answer"
+            "ru": "родители переехали, теперь живут в новой квартире",
+            "en": "my parents moved and now live in a new flat"
           },
-          "right": "Yes, she has."
+          "right": "My parents have moved to a new flat."
         }
       ],
       "explanation": {
-        "ru": "Формула: have/has + V3; отрицание добавляет not, вопрос начинается с Have/Has.",
-        "en": "The formula is have/has + V3; the negative adds not and the question begins with Have/Has."
+        "ru": "Все примеры показывают действие или его отсутствие, важные для настоящего момента.",
+        "en": "All the examples show an action or its absence that matters now."
       },
       "tags": [
         "tense-present-perfect",
@@ -3079,42 +3098,42 @@
       "ruleId": "tense-present-perfect",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте маркер и пример.",
-        "en": "Match each marker with the example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "just — только что",
-            "en": "just — a moment ago"
+            "ru": "он ушёл секунду назад",
+            "en": "he left a second ago"
           },
           "right": "He has just left."
         },
         {
           "left": {
-            "ru": "already — уже",
-            "en": "already — sooner than expected"
+            "ru": "билеты уже забронированы",
+            "en": "the tickets are already booked"
           },
           "right": "They have already booked the tickets."
         },
         {
           "left": {
-            "ru": "yet — ещё",
-            "en": "yet — up to now"
+            "ru": "матч ещё не начался",
+            "en": "the match has not started up to now"
           },
           "right": "The match has not started yet."
         },
         {
           "left": {
-            "ru": "ever — когда-нибудь",
-            "en": "ever — at any time"
+            "ru": "вопрос об опыте: пробовал ли ты суши",
+            "en": "a question about experience: have you tried sushi"
           },
           "right": "Have you ever tried sushi?"
         }
       ],
       "explanation": {
-        "ru": "Маркеры just, already, yet и ever типичны для Present Perfect.",
-        "en": "The markers just, already, yet and ever are typical of Present Perfect."
+        "ru": "Маркеры just, already, yet и ever работают вместе с Present Perfect.",
+        "en": "The markers just, already, yet and ever work with the present perfect."
       },
       "tags": [
         "tense-present-perfect",
@@ -3128,42 +3147,42 @@
       "ruleId": "tense-present-perfect",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте правило for/since и пример.",
-        "en": "Match each for/since rule with the example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "for + длительность",
-            "en": "for + a length of time"
+            "ru": "длительность: я живу здесь пять лет",
+            "en": "duration: I have lived here for five years"
           },
           "right": "I have lived here for five years."
         },
         {
           "left": {
-            "ru": "since + точка отсчёта",
-            "en": "since + a starting point"
+            "ru": "точка отсчёта: 2019 год",
+            "en": "starting point: 2019"
           },
           "right": "She has worked here since 2019."
         },
         {
           "left": {
-            "ru": "for + период",
-            "en": "for + a period"
+            "ru": "длительность: мы знакомы много лет",
+            "en": "duration: we have known them for many years"
           },
           "right": "We have known them for years."
         },
         {
           "left": {
-            "ru": "since + конкретный день",
-            "en": "since + a particular day"
+            "ru": "с пятницы ничего не изменилось",
+            "en": "nothing has changed since Friday"
           },
           "right": "Nothing has changed since Friday."
         }
       ],
       "explanation": {
-        "ru": "For называет длительность, since — точку отсчёта.",
-        "en": "For names a length of time and since names a starting point."
+        "ru": "For + длительность и since + точка отсчёта называют действие, которое продолжается до сих пор.",
+        "en": "For + duration and since + starting point describe an action that continues up to now."
       },
       "tags": [
         "tense-present-perfect",
@@ -3178,41 +3197,41 @@
       "level": "A2",
       "prompt": {
         "ru": "Сопоставьте значение и пример.",
-        "en": "Match each meaning with the example."
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "результат важен сейчас",
-            "en": "the result matters now"
+            "ru": "он потерял кошелёк — результат важен сейчас",
+            "en": "he has lost his wallet — the result matters now"
           },
           "right": "He has lost his wallet."
         },
         {
           "left": {
-            "ru": "опыт в жизни",
-            "en": "experience in a lifetime"
+            "ru": "тётя дважды была в Испании — опыт",
+            "en": "my aunt has visited Spain twice — experience"
           },
           "right": "My aunt has visited Spain twice."
         },
         {
           "left": {
-            "ru": "незаконченный период",
-            "en": "an unfinished period"
+            "ru": "в этом месяце я прочитал три статьи",
+            "en": "this month I have read three articles"
           },
           "right": "I have read three articles this month."
         },
         {
           "left": {
-            "ru": "только что завершилось",
-            "en": "just finished"
+            "ru": "они только что приехали",
+            "en": "they have just arrived"
           },
           "right": "They have just arrived."
         }
       ],
       "explanation": {
-        "ru": "Present Perfect связывает прошлое с настоящим: результат, опыт, незаконченный период и только что завершённое действие.",
-        "en": "Present Perfect links the past with the present: a result, experience, an unfinished period and a just-finished action."
+        "ru": "Результат сейчас, опыт, незаконченный период и только что совершённое действие — типичные значения Present Perfect.",
+        "en": "A result now, experience, an unfinished period and a just-finished action are typical meanings of the present perfect."
       },
       "tags": [
         "tense-present-perfect",
@@ -3226,42 +3245,42 @@
       "ruleId": "tense-present-perfect",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with the example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "been — был и вернулся",
-            "en": "been — went and came back"
+            "ru": "опыт: я бывал в Италии",
+            "en": "experience: I have visited Italy"
           },
           "right": "I have been to Italy."
         },
         {
           "left": {
-            "ru": "gone — уехал и ещё там",
-            "en": "gone — went and is still away"
+            "ru": "она ушла в магазины и ещё не вернулась",
+            "en": "she went to the shops and is still away"
           },
           "right": "She has gone to the shops."
         },
         {
           "left": {
-            "ru": "впервые: first time + Present Perfect",
-            "en": "first time + Present Perfect"
+            "ru": "впервые встречаю его",
+            "en": "I am meeting him for the first time"
           },
           "right": "This is the first time I have met him."
         },
         {
           "left": {
-            "ru": "законченное время: Past Simple + yesterday",
-            "en": "Past Simple + yesterday"
+            "ru": "вчера мы смотрели фильм — законченное прошлое",
+            "en": "yesterday we watched a film — a finished past action"
           },
           "right": "We watched a film yesterday."
         }
       ],
       "explanation": {
-        "ru": "Been значит «побывал и вернулся», gone — «уехал и ещё там»; с законченным временем нужен Past Simple.",
-        "en": "Been means went and came back; gone means went and is still away; finished time takes Past Simple."
+        "ru": "Been и gone дают разный результат; first time требует Present Perfect, а yesterday — Past Simple.",
+        "en": "Been and gone give different results; first time takes the present perfect, while yesterday takes the past simple."
       },
       "tags": [
         "tense-present-perfect",

@@ -35,6 +35,12 @@
             "They had not arrived yet.",
             "Had you seen him before?",
             "I had never eaten there."
+          ],
+          "exampleTranslations": [
+            "Она уже закончила отчёт.",
+            "Они ещё не приехали.",
+            "Ты видел его раньше?",
+            "Я никогда там не ел."
           ]
         },
         {
@@ -49,7 +55,16 @@
           "examples": [
             "When we got home, the film had started.",
             "By the time I called, she had left.",
-            "It was the first time he had flown."
+            "It was the first time he had flown.",
+            "By the end of May we had sold the house.",
+            "He told me that he had missed the train."
+          ],
+          "exampleTranslations": [
+            "Когда мы пришли домой, фильм уже начался.",
+            "К тому времени, как я позвонил, она уже ушла.",
+            "Он летел самолётом впервые.",
+            "К концу мая мы продали дом.",
+            "Он сказал мне, что опоздал на поезд."
           ]
         },
         {
@@ -65,6 +80,11 @@
             "I had already left when he phoned.",
             "She had just finished.",
             "He had never flown before."
+          ],
+          "exampleTranslations": [
+            "Я уже ушёл, когда он позвонил.",
+            "Она только что закончила.",
+            "Он никогда раньше не летал."
           ]
         }
       ]
@@ -810,42 +830,42 @@
       "ruleId": "tense-past-perfect",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте функцию Past Perfect и пример.",
-        "en": "Match the function of Past Perfect with its example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "действие раньше другого прошлого",
-            "en": "an action earlier than another past action"
+            "ru": "действие произошло раньше другого события в прошлом",
+            "en": "the action happened earlier than another past event"
           },
           "right": "The match had started when we switched on the TV."
         },
         {
           "left": {
-            "ru": "более раннее действие с by the time",
-            "en": "an earlier action with by the time"
+            "ru": "к тому времени, как мы пришли, гости уже ушли",
+            "en": "by the time we got home, the guests had left"
           },
           "right": "By the time we got home, the guests had left."
         },
         {
           "left": {
-            "ru": "первый опыт: It was the first time",
-            "en": "a first experience: It was the first time"
+            "ru": "первый опыт в жизни до того момента",
+            "en": "a first experience before that moment"
           },
           "right": "It was the first time he had flown."
         },
         {
           "left": {
-            "ru": "Past Perfect в косвенной речи",
-            "en": "Past Perfect in reported speech"
+            "ru": "косвенная речь: она сказала, что закончила проект",
+            "en": "reported speech: she said she had finished the project"
           },
           "right": "She said she had finished the project."
         }
       ],
       "explanation": {
-        "ru": "Past Perfect показывает более раннее действие в прошлом, в том числе с by the time, после It was the first time и в косвенной речи.",
-        "en": "Past Perfect shows an earlier past action, including with by the time, after It was the first time and in reported speech."
+        "ru": "Примеры показывают более раннее действие в прошлом, в том числе с by the time, после first time и в косвенной речи.",
+        "en": "The examples show an earlier action in the past, including by the time, after first time and in reported speech."
       },
       "tags": [
         "tense-past-perfect",
@@ -859,42 +879,42 @@
       "ruleId": "tense-past-perfect",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте форму и пример.",
-        "en": "Match the form with its example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "утвердительная форма",
-            "en": "affirmative form"
+            "ru": "они забронировали билеты",
+            "en": "they had booked the tickets"
           },
           "right": "They had booked the tickets."
         },
         {
           "left": {
-            "ru": "отрицательная форма",
-            "en": "negative form"
+            "ru": "он не видел сообщение",
+            "en": "he had not seen the message"
           },
           "right": "He had not seen the message."
         },
         {
           "left": {
-            "ru": "вопрос",
-            "en": "question"
+            "ru": "ты встречал её раньше?",
+            "en": "asking whether you had met her before"
           },
           "right": "Had you met her before?"
         },
         {
           "left": {
-            "ru": "страдательный залог",
-            "en": "passive form"
+            "ru": "мост отремонтировали к июню",
+            "en": "the bridge had been repaired by June"
           },
           "right": "The bridge had been repaired by June."
         }
       ],
       "explanation": {
-        "ru": "**had + V3** — утверждение; **had not** — отрицание; **Had + V3?** — вопрос; **had been + V3** — пассив.",
-        "en": "**had + V3** affirmative; **had not** negative; **Had + V3?** question; **had been + V3** passive."
+        "ru": "Had + V3 — утверждение и вопрос, had not + V3 — отрицание; пассив — had been + V3.",
+        "en": "Had + V3 is a statement and a question, had not + V3 is a negative, and the passive is had been + V3."
       },
       "tags": [
         "tense-past-perfect",
@@ -908,42 +928,42 @@
       "ruleId": "tense-past-perfect",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте время или маркер и пример.",
-        "en": "Match the tense or marker with its example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Past Perfect с already",
-            "en": "Past Perfect with already"
+            "ru": "она уже ушла домой",
+            "en": "she had already gone home"
           },
           "right": "She had already gone home."
         },
         {
           "left": {
-            "ru": "Past Perfect с never",
-            "en": "Past Perfect with never"
+            "ru": "я никогда раньше не ел суши",
+            "en": "I had never eaten sushi before"
           },
           "right": "I had never eaten sushi before."
         },
         {
           "left": {
-            "ru": "Past Simple с прошедшим временем",
-            "en": "Past Simple with a past time"
+            "ru": "в прошлом году мы были в Риме — законченное прошлое",
+            "en": "last year we visited Rome — a finished past"
           },
           "right": "We visited Rome last year."
         },
         {
           "left": {
-            "ru": "Past Perfect с just",
-            "en": "Past Perfect with just"
+            "ru": "фильм только что начался, когда мы сели",
+            "en": "the film had just begun when we sat down"
           },
           "right": "The film had just begun when we sat down."
         }
       ],
       "explanation": {
         "ru": "Already, never и just часто идут с Past Perfect, а конкретное прошедшее время требует Past Simple.",
-        "en": "Already, never and just often go with Past Perfect, while a specific past time requires Past Simple."
+        "en": "Already, never and just often go with the past perfect, while a specific past time takes the past simple."
       },
       "tags": [
         "tense-past-perfect",
@@ -958,7 +978,7 @@
       "level": "B1",
       "prompt": {
         "ru": "Сопоставьте значение и пример.",
-        "en": "Match the meaning with its example."
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
@@ -970,29 +990,29 @@
         },
         {
           "left": {
-            "ru": "действие до указанного момента",
-            "en": "an action before a past moment"
+            "ru": "действие завершилось до указанного момента",
+            "en": "the action was complete before a past moment"
           },
           "right": "By last Friday, she had finished the course."
         },
         {
           "left": {
-            "ru": "событие после более раннего",
-            "en": "an event after an earlier one"
+            "ru": "событие после более раннего действия",
+            "en": "an event after an earlier action"
           },
           "right": "After we had eaten, we went for a walk."
         },
         {
           "left": {
-            "ru": "отрицание с before",
-            "en": "a negative with before"
+            "ru": "он не видел моря до того лета",
+            "en": "he had not seen the sea before that summer"
           },
           "right": "He had not seen the sea before that summer."
         }
       ],
       "explanation": {
-        "ru": "Past Perfect объясняет причину, называет действие до момента, идёт после after и образует отрицание с before.",
-        "en": "Past Perfect explains a cause, names an action before a moment, follows after and forms a negative with before."
+        "ru": "Past Perfect объясняет причину, называет действие до момента и идёт после after.",
+        "en": "The past perfect gives a reason, names an action before a moment and follows after."
       },
       "tags": [
         "tense-past-perfect",
@@ -1006,42 +1026,42 @@
       "ruleId": "tense-past-perfect",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте время и пример.",
-        "en": "Match the tense with its example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Past Perfect: раньше другого прошлого",
-            "en": "Past Perfect: earlier than another past action"
+            "ru": "раньше другого прошлого",
+            "en": "earlier than another past action"
           },
           "right": "The play had started when we arrived."
         },
         {
           "left": {
-            "ru": "Past Simple: законченное время",
-            "en": "Past Simple: a finished past time"
+            "ru": "законченное действие в конкретное время",
+            "en": "a finished action at a specific past time"
           },
           "right": "The play started at eight o'clock."
         },
         {
           "left": {
-            "ru": "Past Continuous: процесс в прошлом",
-            "en": "Past Continuous: a process in the past"
+            "ru": "процесс в прошлом",
+            "en": "a process in the past"
           },
           "right": "They were waiting outside when I came."
         },
         {
           "left": {
-            "ru": "Present Perfect: результат сейчас",
-            "en": "Present Perfect: a result now"
+            "ru": "пьеса только что началась — результат виден сейчас",
+            "en": "the play has just started — the result is visible now"
           },
           "right": "The play has just started, so hurry up!"
         }
       ],
       "explanation": {
-        "ru": "Past Perfect показывает более раннее действие, Past Simple — законченное время, Past Continuous — процесс, Present Perfect — результат к настоящему.",
-        "en": "Past Perfect shows an earlier action, Past Simple a finished time, Past Continuous a process, and Present Perfect a result now."
+        "ru": "Past Perfect — раньше другого прошлого, Past Simple — законченное время, Past Continuous — процесс, Present Perfect — результат сейчас.",
+        "en": "The past perfect is earlier than another past action, the past simple a finished time, the past continuous a process, and the present perfect a result now."
       },
       "tags": [
         "tense-past-perfect",
@@ -3448,42 +3468,42 @@
       "ruleId": "tense-past-perfect",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте союз и пример.",
-        "en": "Match the conjunction with its example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "когда + Past Simple",
-            "en": "when + Past Simple"
+            "ru": "когда мы пришли, концерт уже начался",
+            "en": "when we arrived, the concert had already begun"
           },
           "right": "When we arrived, the concert had already begun."
         },
         {
           "left": {
-            "ru": "к тому времени + Past Simple",
-            "en": "by the time + Past Simple"
+            "ru": "к тому времени, как ты позвонил, я ушёл из офиса",
+            "en": "by the time you called, I had left the office"
           },
           "right": "By the time you called, I had left the office."
         },
         {
           "left": {
-            "ru": "до того как + Past Simple",
-            "en": "before + Past Simple"
+            "ru": "она собрала вещи до приезда такси",
+            "en": "she had packed her bags before the taxi arrived"
           },
           "right": "She had packed her bags before the taxi arrived."
         },
         {
           "left": {
-            "ru": "после того как + Past Perfect",
-            "en": "after + Past Perfect"
+            "ru": "после работы он пошёл в спортзал",
+            "en": "after work he went to the gym"
           },
           "right": "After he had finished work, he went to the gym."
         }
       ],
       "explanation": {
-        "ru": "Союзы when, by the time, before и after показывают порядок событий: более раннее — в Past Perfect.",
-        "en": "The conjunctions when, by the time, before and after show the order of events: the earlier action is in Past Perfect."
+        "ru": "When, by the time, before и after показывают порядок событий: более раннее действие — в Past Perfect.",
+        "en": "When, by the time, before and after show the order of events: the earlier action is in the past perfect."
       },
       "tags": [
         "tense-past-perfect",
@@ -3497,42 +3517,42 @@
       "ruleId": "tense-past-perfect",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте глагол и пример с V3.",
-        "en": "Match the verb with its V3 example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "видеть → seen",
-            "en": "see → seen"
+            "ru": "я видел этот фильм раньше",
+            "en": "I had seen that film before"
           },
           "right": "I had seen that film before."
         },
         {
           "left": {
-            "ru": "ломать → broken",
-            "en": "break → broken"
+            "ru": "к приходу родителей ребёнок уже разбил окно",
+            "en": "the child had broken the window before his parents got home"
           },
           "right": "The child had broken the window by the time his parents got home."
         },
         {
           "left": {
-            "ru": "писать → written",
-            "en": "write → written"
+            "ru": "он написал отчёт к пятнице",
+            "en": "he had written the report by Friday"
           },
           "right": "He had written the report by Friday."
         },
         {
           "left": {
-            "ru": "брать → taken",
-            "en": "take → taken"
+            "ru": "кто-то взял мой зонт по ошибке",
+            "en": "someone had taken my umbrella by mistake"
           },
           "right": "Someone had taken my umbrella by mistake."
         }
       ],
       "explanation": {
-        "ru": "После had стоит V3: seen, broken, written, taken.",
-        "en": "After had we use V3: seen, broken, written, taken."
+        "ru": "После had стоит третья форма глагола: seen, broken, written, taken.",
+        "en": "After had comes the third form of the verb: seen, broken, written, taken."
       },
       "tags": [
         "tense-past-perfect",
@@ -3546,42 +3566,42 @@
       "ruleId": "tense-past-perfect",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте отрицание и пример.",
-        "en": "Match the negative form with its example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
             "ru": "полное отрицание",
-            "en": "full negative"
+            "en": "a full negative"
           },
           "right": "They had not finished the work."
         },
         {
           "left": {
-            "ru": "отрицание с never",
-            "en": "negative with never"
+            "ru": "отрицание с никогда",
+            "en": "a negative with never"
           },
           "right": "I had never visited that museum."
         },
         {
           "left": {
             "ru": "вопрос-отрицание",
-            "en": "negative question"
+            "en": "a negative question"
           },
           "right": "Had you not seen the sign?"
         },
         {
           "left": {
-            "ru": "отрицание с before",
-            "en": "negative with before"
+            "ru": "отрицание до того вечера",
+            "en": "a negative before that evening"
           },
           "right": "She had not met him before that evening."
         }
       ],
       "explanation": {
         "ru": "Отрицание Past Perfect: had not + V3; never и before часто сопровождают его.",
-        "en": "Past Perfect negative: had not + V3; never and before often go with it."
+        "en": "The past perfect negative is had not + V3; never and before often go with it."
       },
       "tags": [
         "tense-past-perfect",
@@ -3595,42 +3615,42 @@
       "ruleId": "tense-past-perfect",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте вопрос и пример.",
-        "en": "Match the question with its example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "вопрос с when",
-            "en": "question with when"
+            "ru": "вопрос о том, когда она ушла из офиса",
+            "en": "asking when she had left the office"
           },
           "right": "When had she left the office?"
         },
         {
           "left": {
-            "ru": "вопрос с why",
-            "en": "question with why"
+            "ru": "вопрос о причине отмены поездки",
+            "en": "asking why they had cancelled the trip"
           },
           "right": "Why had they cancelled the trip?"
         },
         {
           "left": {
-            "ru": "вопрос с how long",
-            "en": "question with how long"
+            "ru": "вопрос о том, как долго он работал до пенсии",
+            "en": "asking how long he had worked before he retired"
           },
           "right": "How long had he worked there before he retired?"
         },
         {
           "left": {
-            "ru": "общий вопрос",
-            "en": "yes/no question"
+            "ru": "общий вопрос: ты прочитал книгу до урока?",
+            "en": "a yes/no question: had you read the book before the lesson"
           },
           "right": "Had you read the book before the lesson?"
         }
       ],
       "explanation": {
-        "ru": "В вопросах Past Perfect had стоит первым; вопросительные слова идут перед had.",
-        "en": "In Past Perfect questions had comes first; question words come before had."
+        "ru": "В вопросах Past Perfect had стоит первым, вопросительное слово — перед had.",
+        "en": "In past perfect questions had comes first, and a question word comes before had."
       },
       "tags": [
         "tense-past-perfect",
@@ -3644,42 +3664,42 @@
       "ruleId": "tense-past-perfect",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте время и пример.",
-        "en": "Match the tense with its example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Past Perfect: раньше другого прошлого",
-            "en": "Past Perfect: earlier than another past action"
+            "ru": "она ушла до того, как я пришёл",
+            "en": "she had left before I arrived"
           },
           "right": "She had left before I arrived."
         },
         {
           "left": {
-            "ru": "Past Simple: конкретное прошлое",
-            "en": "Past Simple: a specific past time"
+            "ru": "конкретное законченное прошлое",
+            "en": "a specific finished past"
           },
           "right": "She left at seven o'clock."
         },
         {
           "left": {
-            "ru": "Present Perfect: результат сейчас",
-            "en": "Present Perfect: a result now"
+            "ru": "она только что вышла из офиса — результат сейчас",
+            "en": "she has just left the office — a result now"
           },
           "right": "She has just left the office."
         },
         {
           "left": {
-            "ru": "Past Continuous: процесс тогда",
-            "en": "Past Continuous: a process then"
+            "ru": "процесс в тот момент",
+            "en": "a process at that moment"
           },
           "right": "She was leaving when I called."
         }
       ],
       "explanation": {
-        "ru": "Past Perfect — раньше другого прошлого, Past Simple — конкретное прошлое, Present Perfect — результат сейчас, Past Continuous — процесс.",
-        "en": "Past Perfect is earlier than another past action, Past Simple a specific past time, Present Perfect a result now, and Past Continuous a process."
+        "ru": "Past Perfect — раньше другого прошлого, Past Simple — конкретное прошлое, Present Perfect — результат сейчас, Past Continuous — процесс тогда.",
+        "en": "The past perfect is earlier than another past action, the past simple a specific past, the present perfect a result now, and the past continuous a process then."
       },
       "tags": [
         "tense-past-perfect",

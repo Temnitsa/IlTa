@@ -27,13 +27,18 @@
             "en": "The + adjective = a group of people"
           },
           "body": {
-            "ru": "Прилагательное с определённым артиклем называет группу людей: значение множественное, поэтому и глагол ставится во множественном числе. Так говорят о социальных группах и категориях людей, а не об одном человеке.",
-            "en": "An adjective with the definite article names a group of people: the meaning is plural, so the verb is plural too. This pattern describes social groups and categories of people, not one individual."
+            "ru": "Прилагательное с определённым артиклем называет целую группу людей: значение у такого сочетания множественное, поэтому и глагол ставится во множественном числе. Так говорят о социальных слоях и категориях людей, а не об одном человеке. Некоторые прилагательные закрепились в этом значении как устойчивые названия групп.",
+            "en": "An adjective with the definite article names a whole group of people: the meaning is plural, so the verb is plural too. This pattern describes social groups and categories of people, not one person. Some adjectives are fixed in this meaning as established names for groups."
           },
           "examples": [
             "The rich often pay higher taxes.",
             "The homeless need warm shelters.",
             "The young often need advice."
+          ],
+          "exampleTranslations": [
+            "Богатые часто платят более высокие налоги.",
+            "Бездомным нужны тёплые приюты.",
+            "Молодым часто нужен совет."
           ]
         },
         {
@@ -42,13 +47,22 @@
             "en": "The + nationality"
           },
           "body": {
-            "ru": "Названия наций, оканчивающиеся на -sh, -ch, -ese или -ss, употребляются с the и глаголом во множественном числе. Они обозначают нацию в целом, поэтому не путайте их с обычными прилагательными перед существительным.",
-            "en": "Nationality words ending in -sh, -ch, -ese or -ss take the and a plural verb. They name a nation as a whole, so do not confuse them with ordinary adjectives placed before a noun."
+            "ru": "Названия наций, оканчивающиеся на -sh, -ch, -ese или -ss, употребляются с определённым артиклем и глаголом во множественном числе: так называют народ в целом. Другие названия наций — обычные существительные во множественном числе — идут без артикля.",
+            "en": "Nationality names ending in -sh, -ch, -ese or -ss take the definite article and a plural verb: they refer to the nation as a whole. Other nationality names are ordinary plural nouns and take no article."
           },
           "examples": [
             "The British love tea and cricket.",
+            "The Dutch are famous for their bicycles.",
+            "The Swiss make excellent watches.",
             "The Japanese are famous for their gardens.",
-            "The Chinese have a long history."
+            "Germans drink a lot of beer."
+          ],
+          "exampleTranslations": [
+            "Британцы любят чай и крикет.",
+            "Голландцы известны своими велосипедами.",
+            "Швейцарцы делают отличные часы.",
+            "Японцы известны своими садами.",
+            "Немцы пьют много пива."
           ]
         },
         {
@@ -57,13 +71,22 @@
             "en": "A/an: any member of a class"
           },
           "body": {
-            "ru": "Неопределённый артикль с существительным в единственном числе называет любого представителя класса: A tiger is a dangerous animal. Тот же класс можно назвать через the + единственное число (The tiger is a dangerous animal) или через множественное число без артикля (Tigers are dangerous animals).",
-            "en": "The indefinite article with a singular noun names any member of a class: A tiger is a dangerous animal. The same class can be named with the + singular (The tiger is a dangerous animal) or with a plural noun without an article (Tigers are dangerous animals)."
+            "ru": "Неопределённый артикль с существительным в единственном числе называет любого представителя класса. Тот же класс можно назвать через определённый артикль и единственное число или через множественное число без артикля. Такой выбор зависит от того, хотим ли мы выделить один предмет или класс в целом.",
+            "en": "The indefinite article with a singular noun names any representative of a class. The same class can be named with the definite article and a singular noun, or with a plural noun and no article. The choice depends on whether we highlight one item or the class as a whole."
           },
           "examples": [
             "A good mechanic checks the engine twice.",
+            "The good mechanic checks the engine twice.",
+            "Good mechanics check the engine twice.",
             "An architect designs buildings.",
             "A chef must taste the food."
+          ],
+          "exampleTranslations": [
+            "Хороший механик проверяет двигатель дважды.",
+            "Хороший механик проверяет двигатель дважды.",
+            "Хорошие механики проверяют двигатель дважды.",
+            "Архитектор проектирует здания.",
+            "Повар должен пробовать еду."
           ]
         },
         {
@@ -72,14 +95,20 @@
             "en": "The with institutions and places"
           },
           "body": {
-            "ru": "Слова school, hospital и подобные могут называть деятельность (учёбу, лечение) или здание. Для деятельности артикль не нужен, для конкретного здания или известного места ставится the. Названия мест досуга обычно употребляются с the постоянно.",
-            "en": "Words such as school or hospital can name an activity (studying, medical treatment) or a building. No article is used for the activity, while a particular building or known place takes the. Leisure places normally keep the as a fixed part of the phrase."
+            "ru": "Слова school, hospital и подобные могут называть деятельность (учёбу, лечение) или здание. Для деятельности артикль не нужен, для конкретного здания или известного места ставится определённый артикль. Названия мест досуга обычно употребляются с the постоянно.",
+            "en": "Words such as school and hospital can name an activity (studying, treatment) or a building. The activity takes no article, while a particular building or known place takes the definite article. Names of leisure places normally take the all the time."
           },
           "examples": [
             "Children start school at five.",
             "We walked past the old school.",
-            "Shall we go to a concert tonight?",
+            "Shall we go to the cinema tonight?",
             "She is in the local hospital after the accident."
+          ],
+          "exampleTranslations": [
+            "Дети начинают учиться в школе в пять лет.",
+            "Мы прошли мимо старого школьного здания.",
+            "Может, сходим сегодня в кино?",
+            "Она лежит в местной больнице после аварии."
           ]
         },
         {
@@ -88,14 +117,22 @@
             "en": "The: superlatives and uniqueness"
           },
           "body": {
-            "ru": "С превосходной степенью, порядковыми числительными и словами only, same, next, last обычно ставится the — они выделяют единственный предмет в ряду. Если перед прилагательным уже стоит притяжательное местоимение, артикль не нужен: my best friend. В выражениях времени next и last идут без артикля: next week, last year.",
-            "en": "With superlatives, ordinal numbers and the words only, same, next, last we usually use the: they single out one item. If a possessive pronoun already stands before the adjective, no article is used: my best friend. In time expressions next and last take no article: next week, last year."
+            "ru": "С превосходной степенью, порядковыми числительными и словами only, same, next, last обычно ставится определённый артикль — они выделяют единственный предмет в ряду. Если перед прилагательным уже стоит притяжательное местоимение, артикль не нужен. В выражениях времени next и last идут без артикля.",
+            "en": "Superlatives, ordinal numbers and the words only, same, next and last usually take the definite article because they pick out one thing in a series. If a possessive already stands before the adjective, no article is used. In time expressions next and last go without an article."
           },
           "examples": [
             "She is the youngest member of the choir.",
-            "This is the first day of our holiday.",
+            "Next week we celebrate the first day of summer.",
             "He is the only doctor on the island.",
-            "They chose the same route."
+            "The next train leaves at six, and the last one is at midnight.",
+            "My best friend and I chose the same route."
+          ],
+          "exampleTranslations": [
+            "Она самая младшая участница хора.",
+            "На следующей неделе мы отмечаем первый день лета.",
+            "Он единственный врач на острове.",
+            "Следующий поезд уходит в шесть, а последний — в полночь.",
+            "Мой лучший друг и я выбрали тот же маршрут."
           ]
         }
       ]
@@ -733,35 +770,35 @@
       "ruleId": "art-the-adjective",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Кино как вид досуга",
-            "en": "The cinema as a leisure activity"
+            "ru": "поход в кино как отдых",
+            "en": "cinema outing for pleasure"
           },
           "right": "We rarely go to the cinema these days."
         },
         {
           "left": {
-            "ru": "Школа как здание",
-            "en": "School as a building"
+            "ru": "здание, в котором учатся",
+            "en": "school building"
           },
           "right": "The school on the hill is very old."
         },
         {
           "left": {
-            "ru": "Школа как процесс обучения",
-            "en": "School as a process of education"
+            "ru": "учёба в школе как процесс",
+            "en": "schooling as process"
           },
           "right": "Their children start school in September."
         },
         {
           "left": {
-            "ru": "Больница как место визита",
-            "en": "The hospital as a place to visit"
+            "ru": "посещение больного",
+            "en": "visit to sick person"
           },
           "right": "She went to the hospital to visit her sister."
         }
@@ -781,35 +818,35 @@
       "ruleId": "art-the-adjective",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте тип места и пример.",
-        "en": "Match each type of place with the example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "школа как процесс — без артикля",
-            "en": "school as a process — no article"
+            "ru": "дети идут учиться",
+            "en": "children begin education"
           },
           "right": "In our village, children start school at six."
         },
         {
           "left": {
-            "ru": "школа как здание — с the",
-            "en": "school as a building — with the"
+            "ru": "здание со спортзалами",
+            "en": "building with gyms"
           },
           "right": "The school has two gyms and a large library."
         },
         {
           "left": {
-            "ru": "кино как досуг — с the",
-            "en": "cinema as a leisure activity — with the"
+            "ru": "просмотр фильма в кинотеатре",
+            "en": "film screening"
           },
           "right": "We went to the cinema to see a French film."
         },
         {
           "left": {
-            "ru": "больница как конкретное место — с the",
-            "en": "hospital as a particular place — with the"
+            "ru": "скорая везёт в известное место",
+            "en": "ambulance taking someone to known place"
           },
           "right": "The ambulance took him to the hospital on Mill Street."
         }
@@ -829,35 +866,35 @@
       "ruleId": "art-the-adjective",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте тип места и пример.",
-        "en": "Match each type of place with the example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "школа: деятельность — без артикля",
-            "en": "school: activity — no article"
+            "ru": "занятия закончились",
+            "en": "classes are over"
           },
           "right": "After school, the children play in the yard."
         },
         {
           "left": {
-            "ru": "школа: здание — с the",
-            "en": "school: building — with the"
+            "ru": "здание рядом с церковью",
+            "en": "building next to church"
           },
           "right": "The school stands next to the church."
         },
         {
           "left": {
-            "ru": "театр: досуг или место — с the",
-            "en": "theatre: leisure or place — with the"
+            "ru": "покупка мест на спектакль",
+            "en": "seat booking for show"
           },
           "right": "We booked seats at the theatre for Saturday."
         },
         {
           "left": {
-            "ru": "банк: конкретное место — с the",
-            "en": "bank: a particular place — with the"
+            "ru": "финансовое учреждение открывается утром",
+            "en": "financial institution opening in morning"
           },
           "right": "The bank opens at nine every morning."
         }
@@ -877,35 +914,35 @@
       "ruleId": "art-the-adjective",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте тип места и пример.",
-        "en": "Match each type of place with the example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "школа как процесс — без артикля",
-            "en": "school as a process — no article"
+            "ru": "ученик спешит на занятия",
+            "en": "pupil rushes to lessons"
           },
           "right": "He leaves home at eight to get to school on time."
         },
         {
           "left": {
-            "ru": "школа как здание — с the",
-            "en": "school as a building — with the"
+            "ru": "уроки отменили из-за погоды",
+            "en": "lessons cancelled because of weather"
           },
           "right": "The school was closed because of the snow."
         },
         {
           "left": {
-            "ru": "кино как досуг — с the",
-            "en": "cinema as a leisure activity — with the"
+            "ru": "любимый способ отдыха",
+            "en": "favourite way to relax"
           },
           "right": "Going to the cinema is my favourite way to relax."
         },
         {
           "left": {
-            "ru": "больница как место работы — с the",
-            "en": "hospital as a workplace — with the"
+            "ru": "место работы — лечебное учреждение",
+            "en": "workplace in medical institution"
           },
           "right": "My sister works at the hospital where our mother was treated."
         }
@@ -925,35 +962,35 @@
       "ruleId": "art-the-adjective",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте тип места и пример.",
-        "en": "Match each type of place with the example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "школа: деятельность — без артикля",
-            "en": "school: activity — no article"
+            "ru": "дети учатся читать и писать",
+            "en": "children learn to read and write"
           },
           "right": "Children learn to read and write at school."
         },
         {
           "left": {
-            "ru": "школа: здание — с the",
-            "en": "school: building — with the"
+            "ru": "известная школьная музыкальная программа",
+            "en": "famous school music programme"
           },
           "right": "The school is famous for its music programme."
         },
         {
           "left": {
-            "ru": "театр: конкретное место — с the",
-            "en": "theatre: a particular place — with the"
+            "ru": "встреча у театра вечером",
+            "en": "evening meeting outside theatre"
           },
           "right": "We met outside the theatre at seven."
         },
         {
           "left": {
-            "ru": "больница: известное место — с the",
-            "en": "hospital: a known place — with the"
+            "ru": "запись на приём в известном месте",
+            "en": "appointment at known hospital"
           },
           "right": "She had an appointment at the hospital we visited last year."
         }
@@ -1350,35 +1387,35 @@
       "ruleId": "art-the-adjective",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with an example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "The + прилагательное: богатые",
-            "en": "The + adjective: rich people"
+            "ru": "люди с высокими доходами и налогами",
+            "en": "high-income people and taxes"
           },
           "right": "The rich should pay their fair share of taxes."
         },
         {
           "left": {
-            "ru": "The + прилагательное: молодые",
-            "en": "The + adjective: young people"
+            "ru": "молодое поколение и его мечты",
+            "en": "young generation and dreams"
           },
           "right": "The young often dream of changing the world."
         },
         {
           "left": {
-            "ru": "The + национальность на -ish",
-            "en": "The + nationality ending in -ish"
+            "ru": "народ, любящий чай",
+            "en": "tea-loving nation"
           },
           "right": "The British drink tea at five o'clock."
         },
         {
           "left": {
-            "ru": "A/an в обобщающем значении: любой представитель класса",
-            "en": "A/an for any member of a class"
+            "ru": "педагог как любой представитель профессии",
+            "en": "teacher as any member of profession"
           },
           "right": "A good teacher always listens to students."
         }
@@ -1398,35 +1435,35 @@
       "ruleId": "art-the-adjective",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте группу и пример.",
-        "en": "Match each group with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Богатые",
-            "en": "The rich"
+            "ru": "люди с большими возможностями",
+            "en": "people with many opportunities"
           },
           "right": "The rich often have more opportunities."
         },
         {
           "left": {
-            "ru": "Бедные",
-            "en": "The poor"
+            "ru": "те, кому нужна поддержка",
+            "en": "people who need support"
           },
           "right": "The poor need more support from the government."
         },
         {
           "left": {
-            "ru": "Молодые",
-            "en": "The young"
+            "ru": "люди с энергией и идеями",
+            "en": "people full of energy"
           },
           "right": "The young are full of energy and new ideas."
         },
         {
           "left": {
-            "ru": "Пожилые",
-            "en": "The old"
+            "ru": "те, кто заслуживает уважения",
+            "en": "people who deserve respect"
           },
           "right": "The old deserve our respect and care."
         }
@@ -1446,35 +1483,35 @@
       "ruleId": "art-the-adjective",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте национальность и пример.",
-        "en": "Match each nationality with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Британцы",
-            "en": "The British"
+            "ru": "народ, любящий говорить о погоде",
+            "en": "people who love talking about weather"
           },
           "right": "The British enjoy talking about the weather."
         },
         {
           "left": {
-            "ru": "Французы",
-            "en": "The French"
+            "ru": "народ, гордящийся кухней",
+            "en": "people proud of cuisine"
           },
           "right": "The French are proud of their cuisine."
         },
         {
           "left": {
-            "ru": "Китайцы",
-            "en": "The Chinese"
+            "ru": "народ, придумавший бумагу",
+            "en": "people who invented paper"
           },
           "right": "The Chinese invented paper and printing."
         },
         {
           "left": {
-            "ru": "Японцы",
-            "en": "The Japanese"
+            "ru": "народ с развитой техникой",
+            "en": "people known for technology"
           },
           "right": "The Japanese are known for their technology."
         }
@@ -1494,35 +1531,35 @@
       "ruleId": "art-the-adjective",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте пример и значение.",
-        "en": "Match each example with its meaning."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Любой врач",
-            "en": "Any doctor"
+            "ru": "медик, который слушает пациентов",
+            "en": "doctor who listens to patients"
           },
           "right": "A doctor should listen carefully to patients."
         },
         {
           "left": {
-            "ru": "Любой учитель",
-            "en": "Any teacher"
+            "ru": "наставник, которому нужно терпение",
+            "en": "mentor who needs patience"
           },
           "right": "A teacher needs a lot of patience."
         },
         {
           "left": {
-            "ru": "Любой ребёнок",
-            "en": "Any child"
+            "ru": "маленький человек, которому нужна забота",
+            "en": "small person who needs care"
           },
           "right": "A child needs love and attention."
         },
         {
           "left": {
-            "ru": "Любая хорошая книга",
-            "en": "Any good book"
+            "ru": "источник, способный изменить жизнь",
+            "en": "source that can change someone's life"
           },
           "right": "A good book can change your life."
         }
@@ -1542,35 +1579,35 @@
       "ruleId": "art-the-adjective",
       "level": "B2",
       "prompt": {
-        "ru": "Сопоставьте группу и пример.",
-        "en": "Match each group with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Безработные",
-            "en": "The unemployed"
+            "ru": "люди без работы",
+            "en": "people without work"
           },
           "right": "The unemployed often need retraining."
         },
         {
           "left": {
-            "ru": "Бездомные",
-            "en": "The homeless"
+            "ru": "люди без жилья",
+            "en": "people without homes"
           },
           "right": "The homeless need warm shelters in winter."
         },
         {
           "left": {
-            "ru": "Голландцы",
-            "en": "The Dutch"
+            "ru": "народ, который ездит на велосипедах",
+            "en": "people who ride bicycles"
           },
           "right": "The Dutch use bicycles every day."
         },
         {
           "left": {
-            "ru": "Любой инженер",
-            "en": "Any engineer"
+            "ru": "представитель инженерной профессии",
+            "en": "member of engineering profession"
           },
           "right": "An engineer must think carefully about safety."
         }

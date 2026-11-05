@@ -13,54 +13,66 @@
       "order": 40,
       "level": "A2",
       "title": {
-        "ru": "A/an: мера, частота и звуковые исключения",
-        "en": "A/an: measure, frequency and sound exceptions"
+        "ru": "a/an: мера, порядок слов и звуковые исключения",
+        "en": "a/an: measure, word order and sound exceptions"
       },
       "summary": {
-        "ru": "A/an называет один предмет или любого представителя класса и используется в выражениях меры и частоты; форма a или an зависит от первого звука следующего слова.",
-        "en": "A/an names one thing or any representative of a class and is used in expressions of measure and frequency; the form a or an depends on the first sound of the next word."
+        "ru": "Особые случаи неопределённого артикля: значение «за единицу», замена числа один, порядок слов с half/such/quite/what, выбор по звуку и аббревиатуры.",
+        "en": "Special cases of the indefinite article: the 'per unit' meaning, replacing the number one, word order with half/such/quite/what, sound-based choice and abbreviations."
       },
       "sections": [
         {
           "heading": {
-            "ru": "a/an в выражениях меры и частоты",
-            "en": "a/an in measures and frequency"
+            "ru": "Мера, частота и цена",
+            "en": "Measure, frequency and price"
           },
           "body": {
-            "ru": "В выражениях частоты, цены, скорости и расхода a/an значит «за один период или единицу». Он показывает, сколько раз действие происходит за неделю, день или час, и сколько стоит или расходуется единица.",
-            "en": "In expressions of frequency, price, speed and consumption, a/an means per one period or unit. It shows how often something happens in a week, a day or an hour, and how much one unit costs or uses."
+            "ru": "В выражениях частоты, цены, скорости и расхода a/an значит «за один период или единицу»: сколько раз действие происходит за неделю или день, сколько стоит единица и сколько расходуется за час.",
+            "en": "In frequency, price, speed and rate expressions, a/an means 'per one period or unit': how many times something happens per week or day, how much one unit costs and how much is used per hour."
           },
           "examples": [
             "twice a week",
             "60 kilometres an hour",
-            "three times a day",
+            "The car uses six litres a kilometre.",
             "two euros a kilo"
+          ],
+          "exampleTranslations": [
+            "дважды в неделю",
+            "60 километров в час",
+            "Машина расходует шесть литров на километр.",
+            "два евро за килограмм"
           ]
         },
         {
           "heading": {
-            "ru": "a/an и one",
-            "en": "a/an and one"
+            "ru": "A/an и число один",
+            "en": "A/an and the number one"
           },
           "body": {
-            "ru": "A/an часто заменяет число один: он называет один предмет или приблизительное количество. One звучит точнее и используется, когда важно подчеркнуть именно один, а не два или больше.",
-            "en": "A/an often replaces the number one: it names a single thing or a rough quantity. One sounds more exact and is used when it is important to stress one rather than two or more."
+            "ru": "A/an часто заменяет число один: он называет один предмет или приблизительное количество. One звучит точнее и подчёркивает именно один, а не два или больше; с hundred, dozen и couple обычно используют a/an.",
+            "en": "A/an often replaces the number one: it names one thing or an approximate quantity. One sounds more exact and emphasises exactly one, not two or more; with hundred, dozen and couple a/an is usual."
           },
           "examples": [
             "a hundred people",
             "a dozen eggs",
             "a couple of minutes",
             "one coffee, please"
+          ],
+          "exampleTranslations": [
+            "сто человек",
+            "дюжина яиц",
+            "пара минут",
+            "один кофе, пожалуйста"
           ]
         },
         {
           "heading": {
-            "ru": "Half, such, quite: порядок слов",
-            "en": "Half, such and quite: word order"
+            "ru": "Half, such, quite, what: порядок слов",
+            "en": "Half, such, quite, what: word order"
           },
           "body": {
-            "ru": "В сочетаниях со словами half, such и quite артикль a/an стоит после них, непосредственно перед прилагательным или существительным. Запомните порядок: сначала half, such или quite, затем a/an. В восклицаниях с исчисляемым существительным в единственном числе используется What a + прилагательное + существительное!",
-            "en": "In combinations with half, such and quite, a/an comes after them and directly before the adjective or noun. Remember the order: first half, such or quite, then a or an. In exclamations with a singular countable noun we use What a + adjective + noun!"
+            "ru": "Со словами half, such, quite и what артикль a/an стоит после них и непосредственно перед прилагательным или существительным. В восклицаниях с исчисляемым существительным используется What a …!",
+            "en": "With half, such, quite and what, the article a/an comes after them and directly before the adjective or noun. In exclamations with a countable noun we use What a …!"
           },
           "examples": [
             "half an hour",
@@ -68,23 +80,59 @@
             "such an interesting film",
             "quite a difficult test",
             "What a beautiful day!"
+          ],
+          "exampleTranslations": [
+            "полчаса",
+            "полкило",
+            "такой интересный фильм",
+            "довольно сложный тест",
+            "Какой прекрасный день!"
           ]
         },
         {
           "heading": {
-            "ru": "Звуковые исключения и аббревиатуры",
-            "en": "Sound exceptions and abbreviations"
+            "ru": "Немая h и звук «ю»",
+            "en": "Silent h and the 'yu' sound"
           },
           "body": {
-            "ru": "Выбор a или an зависит от первого звука следующего слова, а не от его первой буквы. Немая h даёт гласный звук. Буква u и сочетание eu могут звучать как «ю», как и w в слове one. Аббревиатуры читают по названиям букв, поэтому их первый звук тоже определяет артикль.",
-            "en": "The choice between a and an depends on the first sound, not the first letter. A silent h gives a vowel sound. The letter u and the combination eu may sound like \"y\", and so does w in the word one. Abbreviations are read letter by letter, so their first sound also decides the article."
+            "ru": "Артикль выбирается по первому звуку, а не по букве. Если h в начале не читается, нужен an. Слова с начальной u или eu могут читаться со звуком «ю» — это согласный звук, поэтому ставим a. Слово one начинается со звука [w], тоже согласного.",
+            "en": "The article depends on the first sound, not on the letter. If the h at the start is silent, we use an. Words beginning with u or eu can have the 'yu' sound — a consonant sound — so they take a. The word one begins with the /w/ sound, also a consonant."
           },
           "examples": [
             "an hour",
             "an honest man",
             "a university",
             "a European country",
-            "an MBA"
+            "a one-way street"
+          ],
+          "exampleTranslations": [
+            "час",
+            "честный человек",
+            "университет",
+            "европейская страна",
+            "улица с односторонним движением"
+          ]
+        },
+        {
+          "heading": {
+            "ru": "Аббревиатуры",
+            "en": "Abbreviations"
+          },
+          "body": {
+            "ru": "У аббревиатур артикль зависит от произношения первой буквы. Если название буквы начинается с гласного звука, ставим an; если с согласного — a.",
+            "en": "With abbreviations the article depends on how the first letter is pronounced. If the letter's name begins with a vowel sound, we use an; if it begins with a consonant sound, we use a."
+          },
+          "examples": [
+            "an MBA",
+            "an SMS",
+            "a UFO",
+            "an FBI agent"
+          ],
+          "exampleTranslations": [
+            "степень MBA",
+            "СМС",
+            "НЛО",
+            "агент ФБР"
           ]
         }
       ]
@@ -722,35 +770,35 @@
       "ruleId": "art-a-an-special",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте выражение частоты и пример.",
-        "en": "Match each frequency expression with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Раз в неделю",
-            "en": "Once a week"
+            "ru": "спортивное занятие каждые семь дней",
+            "en": "sport activity every seven days"
           },
           "right": "I play football once a week."
         },
         {
           "left": {
-            "ru": "Дважды в день",
-            "en": "Twice a day"
+            "ru": "уход за зеленью дважды в сутки",
+            "en": "care for greenery twice in twenty-four hours"
           },
           "right": "She waters the plants twice a day."
         },
         {
           "left": {
-            "ru": "Цена за единицу",
-            "en": "Price per unit"
+            "ru": "цена весовой единицы товара",
+            "en": "price of weighed goods unit"
           },
           "right": "These bananas cost two dollars a kilo."
         },
         {
           "left": {
-            "ru": "Скорость в час",
-            "en": "Speed per hour"
+            "ru": "скорость воздушного потока",
+            "en": "speed of air flow"
           },
           "right": "The wind was blowing at forty kilometres an hour."
         }
@@ -770,35 +818,35 @@
       "ruleId": "art-a-an-special",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте выражение частоты и пример.",
-        "en": "Match each frequency expression with the example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "раз в день",
-            "en": "once a day"
+            "ru": "приём добавки каждые сутки",
+            "en": "supplement intake every twenty-four hours"
           },
           "right": "She takes this vitamin once a day."
         },
         {
           "left": {
-            "ru": "дважды в месяц",
-            "en": "twice a month"
+            "ru": "время с пожилыми родственниками дважды за тридцать дней",
+            "en": "time with elderly relatives twice in thirty days"
           },
           "right": "We visit our grandparents twice a month."
         },
         {
           "left": {
-            "ru": "три раза в неделю",
-            "en": "three times a week"
+            "ru": "музыкальные занятия трижды за семь дней",
+            "en": "musical training three times in seven days"
           },
           "right": "He practises the guitar three times a week."
         },
         {
           "left": {
-            "ru": "четыре раза в год",
-            "en": "four times a year"
+            "ru": "выход журнального номера четырежды за двенадцать месяцев",
+            "en": "journal issue release four times in twelve months"
           },
           "right": "The magazine is published four times a year."
         }
@@ -818,35 +866,35 @@
       "ruleId": "art-a-an-special",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте единицу измерения и пример.",
-        "en": "Match each unit of measurement with the example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "цена за килограмм",
-            "en": "price per kilo"
+            "ru": "цена за единицу веса",
+            "en": "price per unit of weight"
           },
           "right": "These tomatoes cost two pounds a kilo."
         },
         {
           "left": {
-            "ru": "скорость в час",
-            "en": "speed per hour"
+            "ru": "скорость передвижения",
+            "en": "rate of movement"
           },
           "right": "The cyclist was riding at thirty kilometres an hour."
         },
         {
           "left": {
-            "ru": "расход в день",
-            "en": "rate per day"
+            "ru": "объём выпуска за сутки",
+            "en": "output in twenty-four hours"
           },
           "right": "The factory produces a thousand bottles a day."
         },
         {
           "left": {
-            "ru": "оплата в час",
-            "en": "pay per hour"
+            "ru": "оплата за шестьдесят минут",
+            "en": "payment for sixty minutes"
           },
           "right": "The babysitter earns ten pounds an hour."
         }
@@ -866,35 +914,35 @@
       "ruleId": "art-a-an-special",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте число раз и пример.",
-        "en": "Match each number of times with the example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "один раз в неделю",
-            "en": "once a week"
+            "ru": "занятие раз в семь дней",
+            "en": "activity once in seven days"
           },
           "right": "I have an English lesson once a week."
         },
         {
           "left": {
-            "ru": "дважды в день",
-            "en": "twice a day"
+            "ru": "процедура измерения каждые сутки",
+            "en": "measurement procedure every twenty-four hours"
           },
           "right": "The nurse checks his temperature twice a day."
         },
         {
           "left": {
-            "ru": "три раза в год",
-            "en": "three times a year"
+            "ru": "поход на культурное мероприятие ежеквартально",
+            "en": "cultural outing quarterly"
           },
           "right": "My parents go to the theatre three times a year."
         },
         {
           "left": {
-            "ru": "несколько раз в месяц",
-            "en": "several times a month"
+            "ru": "частые ужины вне дома",
+            "en": "frequent outside dining"
           },
           "right": "We eat out several times a month."
         }
@@ -914,35 +962,35 @@
       "ruleId": "art-a-an-special",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте пример и значение артикля a/an.",
-        "en": "Match each example with the meaning of a/an."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "частота: сколько раз за период",
-            "en": "frequency: how many times per period"
+            "ru": "сколько раз за период",
+            "en": "how many times per period"
           },
           "right": "She visits the gym twice a week."
         },
         {
           "left": {
-            "ru": "скорость: сколько за час",
-            "en": "speed: how much per hour"
+            "ru": "скорость движения",
+            "en": "movement speed"
           },
           "right": "The train travels at 120 kilometres an hour."
         },
         {
           "left": {
-            "ru": "цена: сколько за единицу",
-            "en": "price: how much per unit"
+            "ru": "цена единицы товара",
+            "en": "unit price of goods"
           },
           "right": "The grapes cost four euros a kilo."
         },
         {
           "left": {
-            "ru": "расход: сколько за день",
-            "en": "rate: how much per day"
+            "ru": "объём работы за сутки",
+            "en": "work volume in twenty-four hours"
           },
           "right": "The old machine prints five hundred pages a day."
         }
@@ -1587,35 +1635,35 @@
       "ruleId": "art-a-an-special",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Немая h",
-            "en": "Silent h"
+            "ru": "первый звук гласный из-за немой h",
+            "en": "vowel sound first because of silent h"
           },
           "right": "He gave an honest reply."
         },
         {
           "left": {
-            "ru": "Звук «ю» в начале слова",
-            "en": "The 'yu' sound at the start"
+            "ru": "первый звук «ю»",
+            "en": "'yu' sound first"
           },
           "right": "They bought a European map."
         },
         {
           "left": {
-            "ru": "Аббревиатура с гласным первым звуком",
-            "en": "Abbreviation with a vowel sound"
+            "ru": "первая буква сокращения с гласным звуком",
+            "en": "first letter of abbreviation, vowel sound"
           },
           "right": "My sister works for an IT company."
         },
         {
           "left": {
-            "ru": "Аббревиатура с согласным первым звуком",
-            "en": "Abbreviation with a consonant sound"
+            "ru": "первая буква сокращения с согласным звуком",
+            "en": "first letter of abbreviation, consonant sound"
           },
           "right": "He fixed a PC in the office."
         }
@@ -1635,35 +1683,35 @@
       "ruleId": "art-a-an-special",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте сочетание и пример.",
-        "en": "Match each combination with its example."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "an + hour (час)",
-            "en": "an + hour"
+            "ru": "немая h в начале",
+            "en": "silent h at start"
           },
           "right": "The concert started an hour late."
         },
         {
           "left": {
-            "ru": "a + university (университет)",
-            "en": "a + university"
+            "ru": "звук «ю» в начале",
+            "en": "'yu' sound at start"
           },
           "right": "She teaches at a university in Rome."
         },
         {
           "left": {
-            "ru": "a + one-way street (односторонняя улица)",
-            "en": "a + one-way street"
+            "ru": "звук [w] в начале",
+            "en": "/w/ sound at start"
           },
           "right": "They live on a one-way street."
         },
         {
           "left": {
-            "ru": "an + MBA (степень MBA)",
-            "en": "an + MBA"
+            "ru": "сокращение с гласным первым звуком",
+            "en": "abbreviation with vowel first sound"
           },
           "right": "My manager is taking an MBA course."
         }
@@ -1683,35 +1731,35 @@
       "ruleId": "art-a-an-special",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте звук и пример с артиклем.",
-        "en": "Match each sound with the example that needs that article."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "немая h — гласный звук",
-            "en": "silent h — a vowel sound"
+            "ru": "немая h в слове",
+            "en": "silent h in word"
           },
           "right": "It took us an hour to walk home."
         },
         {
           "left": {
-            "ru": "звук «ю» (u, eu) — согласный звук",
-            "en": "the 'yu' sound (u, eu) — a consonant sound"
+            "ru": "звук «ю» в слове",
+            "en": "'yu' sound in word"
           },
           "right": "They stayed in a European hotel."
         },
         {
           "left": {
-            "ru": "звук [w] — согласный звук",
-            "en": "the /w/ sound — a consonant sound"
+            "ru": "составное слово со звуком [w]",
+            "en": "compound word with /w/ sound"
           },
           "right": "We drove along a one-way road."
         },
         {
           "left": {
-            "ru": "аббревиатура с гласным первым звуком",
-            "en": "abbreviation with a vowel first sound"
+            "ru": "сокращение с гласным первым звуком",
+            "en": "abbreviation with vowel first sound"
           },
           "right": "She is studying for an MBA."
         }
@@ -1731,35 +1779,35 @@
       "ruleId": "art-a-an-special",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте слово и пример с правильным артиклем.",
-        "en": "Match each word with the example that uses the right article."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "honest — немая h",
-            "en": "honest — silent h"
+            "ru": "немая h в слове",
+            "en": "silent h in word"
           },
           "right": "We need an honest opinion, not a polite one."
         },
         {
           "left": {
-            "ru": "useful — звук «ю»",
-            "en": "useful — the 'yu' sound"
+            "ru": "звук «ю» в слове",
+            "en": "'yu' sound in word"
           },
           "right": "This is a useful map of the old town."
         },
         {
           "left": {
-            "ru": "one-hour — звук [w]",
-            "en": "one-hour — the /w/ sound"
+            "ru": "составное слово со звуком [w]",
+            "en": "compound word with /w/ sound"
           },
           "right": "They booked a one-hour tour of the castle."
         },
         {
           "left": {
-            "ru": "X-ray — аббревиатура с гласным звуком",
-            "en": "X-ray — abbreviation with a vowel sound"
+            "ru": "сокращение с гласным первым звуком",
+            "en": "abbreviation with vowel first sound"
           },
           "right": "She needed an X-ray after the fall."
         }
@@ -1779,35 +1827,35 @@
       "ruleId": "art-a-an-special",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте пример и правило выбора артикля.",
-        "en": "Match each example with the article rule."
+        "ru": "Сопоставьте описание употребления и пример.",
+        "en": "Match each usage description with the example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "an + немая h",
-            "en": "an + silent h"
+            "ru": "немая h в слове",
+            "en": "silent h in word"
           },
           "right": "The old man left his fortune to an heir."
         },
         {
           "left": {
-            "ru": "a + звук «ю»",
-            "en": "a + the 'yu' sound"
+            "ru": "звук «ю» в начале",
+            "en": "'yu' sound at start"
           },
           "right": "They live in a European capital."
         },
         {
           "left": {
-            "ru": "a + звук [w]",
-            "en": "a + the /w/ sound"
+            "ru": "слово со звуком [w] в начале",
+            "en": "word with /w/ sound at start"
           },
           "right": "The children made a one-minute video."
         },
         {
           "left": {
-            "ru": "an + аббревиатура с гласным звуком",
-            "en": "an + abbreviation with a vowel sound"
+            "ru": "сокращение с гласным первым звуком",
+            "en": "abbreviation with vowel first sound"
           },
           "right": "He confirmed the booking with an SMS message."
         }

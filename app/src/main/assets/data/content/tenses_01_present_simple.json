@@ -35,6 +35,12 @@
             "She does not work here.",
             "Does she work here?",
             "They play tennis."
+          ],
+          "exampleTranslations": [
+            "Она здесь работает.",
+            "Она здесь не работает.",
+            "Она здесь работает?",
+            "Они играют в теннис."
           ]
         },
         {
@@ -52,6 +58,13 @@
             "The train leaves at 7:30 tomorrow.",
             "My parents live in Bristol.",
             "The film starts at nine tonight."
+          ],
+          "exampleTranslations": [
+            "Я хожу в спортзал два раза в неделю.",
+            "Вода кипит при 100 градусах.",
+            "Поезд уходит завтра в 7:30.",
+            "Мои родители живут в Бристоле.",
+            "Фильм начинается сегодня в девять."
           ]
         },
         {
@@ -68,6 +81,12 @@
             "He never eats meat.",
             "They go hiking on Sundays.",
             "We meet twice a month."
+          ],
+          "exampleTranslations": [
+            "Обычно она ходит на работу пешком.",
+            "Он никогда не ест мясо.",
+            "По воскресеньям они ходят в походы.",
+            "Мы встречаемся два раза в месяц."
           ]
         }
       ]
@@ -771,42 +790,42 @@
       "ruleId": "tense-present-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте форму Present Simple и пример.",
-        "en": "Match each Present Simple form with the example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Утверждение, 3-е лицо",
-            "en": "Affirmative, third person"
+            "ru": "постоянная работа в банке",
+            "en": "a permanent job at a bank"
           },
           "right": "She works in a bank."
         },
         {
           "left": {
-            "ru": "Отрицание с do not",
-            "en": "Negative with do not"
+            "ru": "это для них неверно: они здесь не живут",
+            "en": "not true for them: they do not live in this place"
           },
           "right": "They do not live here."
         },
         {
           "left": {
-            "ru": "Вопрос с Does",
-            "en": "Question with Does"
+            "ru": "нужно узнать, играет ли он в шахматы",
+            "en": "asking whether he plays chess"
           },
           "right": "Does he play chess?"
         },
         {
           "left": {
-            "ru": "Краткий ответ",
-            "en": "Short answer"
+            "ru": "регулярная игра в теннис по выходным",
+            "en": "a regular weekend game of tennis"
           },
-          "right": "Yes, she does."
+          "right": "We play tennis every weekend."
         }
       ],
       "explanation": {
-        "ru": "Утверждение в третьем лице получает -s, отрицание строится с do not, вопрос — с Does, краткий ответ повторяет вспомогательный глагол.",
-        "en": "The third-person affirmative takes -s, the negative uses do not, the question uses Does, and the short answer repeats the auxiliary verb."
+        "ru": "Подсказки описывают ситуации, а примеры показывают их в Present Simple: постоянная работа, отрицание факта, вопрос и регулярное действие.",
+        "en": "The cues describe situations and the examples show them in the Present Simple: a permanent job, a negative fact, a question and a regular action."
       },
       "tags": [
         "tense-present-simple",
@@ -821,34 +840,34 @@
       "level": "A1",
       "prompt": {
         "ru": "Сопоставьте значение и пример.",
-        "en": "Match each meaning with the example."
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Привычка",
-            "en": "Habit"
+            "ru": "регулярная привычка",
+            "en": "a regular habit"
           },
           "right": "I go swimming twice a week."
         },
         {
           "left": {
-            "ru": "Общая истина",
-            "en": "General truth"
+            "ru": "факт, общий для всего мира",
+            "en": "a fact true for the whole world"
           },
           "right": "Water boils at 100 degrees."
         },
         {
           "left": {
-            "ru": "Расписание",
-            "en": "Timetable"
+            "ru": "событие по расписанию",
+            "en": "an event on a timetable"
           },
           "right": "The train leaves at 6:45."
         },
         {
           "left": {
-            "ru": "Постоянное состояние",
-            "en": "Permanent state"
+            "ru": "постоянное состояние",
+            "en": "a permanent state"
           },
           "right": "My parents live in Bristol."
         }
@@ -869,42 +888,42 @@
       "ruleId": "tense-present-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте маркер времени и пример.",
-        "en": "Match each time marker with the example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "always — всегда",
-            "en": "always"
+            "ru": "она всегда приходит рано",
+            "en": "she arrives early every time"
           },
           "right": "She always arrives early."
         },
         {
           "left": {
-            "ru": "never — никогда",
-            "en": "never"
+            "ru": "он никогда не ест мясо",
+            "en": "he does not eat meat at any time"
           },
           "right": "He never eats meat."
         },
         {
           "left": {
-            "ru": "every day — каждый день",
-            "en": "every day"
+            "ru": "я читаю перед сном каждый день",
+            "en": "I read before sleeping every day"
           },
           "right": "I read before bed every day."
         },
         {
           "left": {
-            "ru": "on Mondays — по понедельникам",
-            "en": "on Mondays"
+            "ru": "у нас встреча по понедельникам",
+            "en": "our meeting is on Mondays"
           },
           "right": "We have a meeting on Mondays."
         }
       ],
       "explanation": {
-        "ru": "Маркеры always, never, every day и on + день показывают, что действие регулярное.",
-        "en": "The markers always, never, every day and on + day show that the action is regular."
+        "ru": "Наречия и выражения частоты показывают, как часто происходит действие: always — всегда, never — никогда, every day — каждый день, on Mondays — по понедельникам.",
+        "en": "Frequency adverbs and phrases show how often an action happens: always, never, every day, on Mondays."
       },
       "tags": [
         "tense-present-simple",
@@ -918,42 +937,42 @@
       "ruleId": "tense-present-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте глагол в третьем лице и пример.",
-        "en": "Match each third-person verb with the example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "play → plays (3-е лицо)",
-            "en": "play → plays"
+            "ru": "у него есть хобби — игра на гитаре",
+            "en": "a hobby: playing the guitar"
           },
           "right": "He plays the guitar."
         },
         {
           "left": {
-            "ru": "watch → watches (3-е лицо)",
-            "en": "watch → watches"
+            "ru": "по вечерам она смотрит фильмы",
+            "en": "in the evenings she watches films"
           },
           "right": "She watches films in the evening."
         },
         {
           "left": {
-            "ru": "study → studies (3-е лицо)",
-            "en": "study → studies"
+            "ru": "её работа — преподавать французский",
+            "en": "her job is teaching French"
           },
-          "right": "He studies at home."
+          "right": "She teaches French."
         },
         {
           "left": {
-            "ru": "go → goes (3-е лицо)",
-            "en": "go → goes"
+            "ru": "на работу она добирается на автобусе",
+            "en": "she gets to work by bus"
           },
           "right": "She goes to work by bus."
         }
       ],
       "explanation": {
-        "ru": "В третьем лице единственного числа глагол получает -s или -es, а конечная -y после согласной переходит в -ies.",
-        "en": "In the third person singular the verb takes -s or -es, and a final -y after a consonant becomes -ies."
+        "ru": "Каждый пример описывает постоянную привычку или занятие, поэтому глаголы стоят в Present Simple.",
+        "en": "Each example describes a permanent habit or occupation, so the verbs are in the Present Simple."
       },
       "tags": [
         "tense-present-simple",
@@ -967,42 +986,42 @@
       "ruleId": "tense-present-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте правило и пример.",
-        "en": "Match each rule with the example."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Наречие частоты после be",
-            "en": "Frequency adverb after be"
+            "ru": "она постоянно опаздывает",
+            "en": "she is late every time"
           },
           "right": "She is always late."
         },
         {
           "left": {
-            "ru": "Наречие частоты перед смысловым глаголом",
-            "en": "Frequency adverb before the main verb"
+            "ru": "обычно они ходят на работу пешком",
+            "en": "they usually go to work on foot"
           },
           "right": "They usually walk to work."
         },
         {
           "left": {
-            "ru": "Глагол состояния без -ing",
-            "en": "State verb without -ing"
+            "ru": "я знаю ответ прямо сейчас",
+            "en": "the answer is known to me now"
           },
           "right": "I know the answer."
         },
         {
           "left": {
-            "ru": "Вопрос с Do",
-            "en": "Question with Do"
+            "ru": "нужно спросить, говоришь ли ты по-испански",
+            "en": "asking whether you speak Spanish"
           },
           "right": "Do you speak Spanish?"
         }
       ],
       "explanation": {
-        "ru": "Наречие частоты стоит после be и перед смысловым глаголом, глаголы состояния не употребляются с -ing, а вопрос с you начинается с Do.",
-        "en": "A frequency adverb goes after be and before the main verb, state verbs are not used with -ing, and a question with you begins with Do."
+        "ru": "Наречие частоты ставится после be (is always late), но перед смысловым глаголом (usually walk); глаголы состояния, такие как know, не употребляются в Continuous.",
+        "en": "A frequency adverb comes after be (is always late) but before the main verb (usually walk); state verbs like know are not used in the continuous form."
       },
       "tags": [
         "tense-present-simple",
@@ -3027,42 +3046,42 @@
       "ruleId": "tense-present-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте тип предложения и пример.",
-        "en": "Match each sentence type with the example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "(+) утверждение",
-            "en": "(+) affirmative"
+            "ru": "у них есть спортивная привычка на выходных",
+            "en": "a weekend sports habit of theirs"
           },
           "right": "They play tennis every weekend."
         },
         {
           "left": {
-            "ru": "(–) отрицание",
-            "en": "(–) negative"
+            "ru": "в еде она придерживается вегетарианства",
+            "en": "in food she follows a vegetarian diet"
           },
           "right": "She does not eat meat."
         },
         {
           "left": {
-            "ru": "(?) вопрос",
-            "en": "(?) question"
+            "ru": "неизвестно, живут ли они в Лондоне",
+            "en": "whether they live in London is unknown"
           },
           "right": "Do they live in London?"
         },
         {
           "left": {
-            "ru": "краткий ответ",
-            "en": "short answer"
+            "ru": "мой брат говорит на трёх языках",
+            "en": "my brother speaks three languages"
           },
-          "right": "No, she does not."
+          "right": "My brother speaks three languages."
         }
       ],
       "explanation": {
-        "ru": "Утверждение — V / V-s, отрицание — don't / doesn't + V, вопрос — Do / Does + V?, краткий ответ повторяет do/does.",
-        "en": "Affirmative is V / V-s, negative is don't / doesn't + V, question is Do / Does + V?, and the short answer repeats do/does."
+        "ru": "Примеры показывают утверждение, отрицание, вопрос и факт — все они передаются Present Simple.",
+        "en": "The examples show a statement, a negative, a question and a fact — all expressed with the Present Simple."
       },
       "tags": [
         "tense-present-simple",
@@ -3076,42 +3095,42 @@
       "ruleId": "tense-present-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте глагол и форму 3-го лица.",
-        "en": "Match each verb with its third-person form."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "форма: teach → teaches",
-            "en": "teach → teaches"
-          },
-          "right": "She teaches French."
-        },
-        {
-          "left": {
-            "ru": "форма: fly → flies",
-            "en": "fly → flies"
+            "ru": "самолёт летает в Париж по маршруту",
+            "en": "the plane flies to Paris on its route"
           },
           "right": "The plane flies to Paris."
         },
         {
           "left": {
-            "ru": "форма: miss → misses",
-            "en": "miss → misses"
+            "ru": "он скучает по семье",
+            "en": "he feels sad without his family"
           },
           "right": "He misses his family."
         },
         {
           "left": {
-            "ru": "форма: do → does",
-            "en": "do → does"
+            "ru": "она делает уроки",
+            "en": "she completes her homework"
           },
           "right": "She does her homework."
+        },
+        {
+          "left": {
+            "ru": "он хочет новый телефон",
+            "en": "he wants a new phone"
+          },
+          "right": "He wants a new phone."
         }
       ],
       "explanation": {
-        "ru": "В 3-м лице единственного числа: -s, -es, а конечная -y после согласной переходит в -ies.",
-        "en": "In the third person singular: -s, -es, and a final -y after a consonant becomes -ies."
+        "ru": "Это расписание, чувство, регулярное действие и постоянное состояние — все они передаются Present Simple.",
+        "en": "These are a timetable, a feeling, a regular action and a permanent state — all expressed with the Present Simple."
       },
       "tags": [
         "tense-present-simple",
@@ -3125,42 +3144,42 @@
       "ruleId": "tense-present-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте маркер и пример.",
-        "en": "Match each marker with the example."
+        "ru": "Сопоставьте ситуацию и пример.",
+        "en": "Match each situation with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "маркер: on Mondays",
-            "en": "on Mondays"
+            "ru": "магазин открывается поздно по понедельникам",
+            "en": "the shop opens late on Mondays"
           },
           "right": "The shop opens late on Mondays."
         },
         {
           "left": {
-            "ru": "маркер: twice a week",
-            "en": "twice a week"
+            "ru": "она навещает бабушку два раза в неделю",
+            "en": "she visits her grandmother twice a week"
           },
           "right": "She visits her grandmother twice a week."
         },
         {
           "left": {
-            "ru": "маркер: never",
-            "en": "never"
+            "ru": "он не пьёт кофе никогда",
+            "en": "he does not drink coffee at all"
           },
           "right": "He never drinks coffee."
         },
         {
           "left": {
-            "ru": "маркер: sometimes",
-            "en": "sometimes"
+            "ru": "иногда мы едим в кафе",
+            "en": "from time to time we eat out"
           },
           "right": "We sometimes eat out."
         }
       ],
       "explanation": {
-        "ru": "Маркеры every day, on Mondays, twice a week, never и sometimes показывают регулярное действие.",
-        "en": "The markers every day, on Mondays, twice a week, never and sometimes show a regular action."
+        "ru": "Маркеры частоты (on Mondays, twice a week, never, sometimes) подсказывают, что действие регулярное, и требуют Present Simple.",
+        "en": "Frequency markers (on Mondays, twice a week, never, sometimes) show that the action is regular and take the Present Simple."
       },
       "tags": [
         "tense-present-simple",
@@ -3175,41 +3194,41 @@
       "level": "A1",
       "prompt": {
         "ru": "Сопоставьте значение и пример.",
-        "en": "Match each meaning with the example."
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "расписание",
-            "en": "timetable"
+            "ru": "фильм начинается в восемь — событие по расписанию",
+            "en": "the film starts at eight — an event on a timetable"
           },
           "right": "The film starts at eight."
         },
         {
           "left": {
-            "ru": "факт",
-            "en": "fact"
+            "ru": "Земля вращается вокруг Солнца — научный факт",
+            "en": "the Earth goes around the Sun — a scientific fact"
           },
           "right": "The Earth goes around the Sun."
         },
         {
           "left": {
-            "ru": "привычка",
-            "en": "habit"
+            "ru": "отец читает газету каждый день — привычка",
+            "en": "my father reads the newspaper every day — a habit"
           },
           "right": "My father reads the newspaper every day."
         },
         {
           "left": {
-            "ru": "постоянное состояние",
-            "en": "permanent state"
+            "ru": "у неё два брата — постоянное состояние",
+            "en": "she has two brothers — a permanent state"
           },
           "right": "She has two brothers."
         }
       ],
       "explanation": {
-        "ru": "Present Simple называет расписания, факты, привычки и постоянные состояния.",
-        "en": "Present Simple names timetables, facts, habits and permanent states."
+        "ru": "Примеры показывают расписание, научный факт, привычку и постоянное состояние — всё это Present Simple.",
+        "en": "The examples show a timetable, a scientific fact, a habit and a permanent state — all in the present simple."
       },
       "tags": [
         "tense-present-simple",
@@ -3223,42 +3242,42 @@
       "ruleId": "tense-present-simple",
       "level": "A1",
       "prompt": {
-        "ru": "Сопоставьте ошибку и исправление.",
-        "en": "Match each mistake with the correct sentence."
+        "ru": "Сопоставьте значение и пример.",
+        "en": "Match each meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "Ошибка: He don't work here.",
-            "en": "He don't work here."
+            "ru": "для него это неверно: он здесь не работает",
+            "en": "this is not true for him: he does not work here"
           },
           "right": "He doesn't work here."
         },
         {
           "left": {
-            "ru": "Ошибка: She work in a shop.",
-            "en": "She work in a shop."
+            "ru": "её место работы — магазин",
+            "en": "her workplace is a shop"
           },
           "right": "She works in a shop."
         },
         {
           "left": {
-            "ru": "Ошибка: Does he works here?",
-            "en": "Does he works here?"
+            "ru": "интересуемся, работает ли он здесь",
+            "en": "we ask if he works here"
           },
           "right": "Does he work here?"
         },
         {
           "left": {
-            "ru": "Ошибка: They doesn't like tea.",
-            "en": "They doesn't like tea."
+            "ru": "им не нравится чай",
+            "en": "they do not like tea"
           },
           "right": "They don't like tea."
         }
       ],
       "explanation": {
-        "ru": "После he/she/it — doesn't и V-s; после does глагол стоит без -s; с they — don't.",
-        "en": "After he/she/it use doesn't and V-s; after does the verb has no -s; with they use don't."
+        "ru": "Примеры показывают отрицание факта, утверждение, вопрос и отношение к напитку — все они требуют Present Simple.",
+        "en": "The examples show a negative fact, a statement, a question and a preference — all expressed with the Present Simple."
       },
       "tags": [
         "tense-present-simple",

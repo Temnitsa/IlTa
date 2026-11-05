@@ -17,72 +17,128 @@
         "en": "Prepositions of movement and direction"
       },
       "summary": {
-        "ru": "Предлоги движения показывают, куда и как перемещается объект: цель (to), внутрь (into), на поверхность (onto), наружу (out of), с поверхности (off), сквозь (through), поперёк (across), вдоль (along), над (over), под (under), по направлению (towards), мимо (past) и вокруг (around/round).",
-        "en": "Prepositions of movement show where and how something moves: destination (to), inside (into), onto a surface (onto), out (out of), off a surface (off), through, across, along, over, under, towards, past and around/round."
+        "ru": "**To** — цель, **into** — внутрь, **onto** — на поверхность, **out of** — наружу, **off** — с поверхности; **through / across / along / over / under / towards / past** — путь; отдельно **to / at / in / into**, транспорт и **by**.",
+        "en": "**To** for a destination, **into** for entering, **onto** for a surface, **out of** for leaving, **off** from a surface; **through / across / along / over / under / towards / past** for the path; also **to / at / in / into**, transport and **by**."
       },
       "sections": [
         {
           "heading": {
-            "ru": "To, into, onto, out of, off — цель и направление",
-            "en": "To, into, onto, out of, off"
+            "ru": "To, at, in, into: движение и положение",
+            "en": "To, at, in, into: movement and position"
           },
           "body": {
-            "ru": "**To** называет конечную точку движения. **Into** означает движение внутрь пространства, **onto** — на поверхность. **Out of** — движение изнутри наружу, **off** — с поверхности или с транспорта.",
-            "en": "**To** names the end point **of** movement. **Into** means moving **inside** a space, **onto** means moving **onto** a surface. **Out of** means movement **from** **inside** **to** **outside**, and **off** means away **from** a surface or a vehicle."
+            "ru": "**To** after go, come, travel, return: **go to** Italy, **come to** the party.\nСравните: go **to** France (движение) — live **in** France (положение); come **to** the party — see you **at** the party.\n**Get to** a place; **arrive in** a city/country, **arrive at** a building (не arrive to).\n**Home** без предлога: go home, get home.\n**(I've) been to** = бывал где-то.",
+            "en": "**To** after go, come, travel, return: **go to** Italy, **come to** the party.\nCompare: go **to** France (movement) — live **in** France (position); come **to** the party — see you **at** the party.\n**Get to** a place; **arrive in** a city/country, **arrive at** a building (not arrive to).\n**Home** with no preposition: go home, get home.\n**Have been to** = have visited."
           },
           "examples": [
-            "**to** work",
-            "**into** the house",
-            "**onto** the table",
-            "**out of** the car",
-            "**off** the bike"
+            "We are going **to** Italy next summer.",
+            "They arrived **in** Madrid late at night.",
+            "We arrived **at** the airport early.",
+            "What time did you get **home**?",
+            "I've been **to** Paris twice."
+          ],
+          "exampleTranslations": [
+            "Следующим летом мы едем в Италию.",
+            "Они приехали в Мадрид поздно ночью.",
+            "Мы приехали в аэропорт рано.",
+            "Во сколько ты добрался домой?",
+            "Я дважды был в Париже."
           ]
         },
         {
           "heading": {
-            "ru": "Through, across, along — сквозь, поперёк, вдоль",
-            "en": "Through, across, along"
+            "ru": "Into / in, out of; on / off: вход и транспорт",
+            "en": "Into / in, out of; on / off: entering and transport"
           },
           "body": {
-            "ru": "**Through** — движение сквозь замкнутое пространство или внутри него. **Across** — с одной стороны на другую. **Along** — вдоль линии или поверхности.",
-            "en": "**Through** is movement **inside** an enclosed space or **from** one end **of** it **to** the other. **Across** is movement **from** one side **to** the other. **Along** is movement following a line or a surface."
+            "ru": "**Into** = enter: go **into** the room, get **into** the car, get **into** a building.\nС go/get/put часто **in**: get **in** the car, put it **in** the envelope.\nПротивоположность — **out of**: get **out of** the car, walk **out of** the building.\nАвтобус, поезд, самолёт: get **on** / get **off**; машина и такси: get **in** / get **out of**.",
+            "en": "**Into** = enter: go **into** the room, get **into** the car, get **into** a building.\nWith go/get/put we often use **in**: get **in** the car, put it **in** the envelope.\nThe opposite is **out of**: get **out of** the car, walk **out of** the building.\nBuses, trains, planes: get **on** / get **off**; cars and taxis: get **in** / get **out of**."
           },
           "examples": [
-            "**through** the tunnel",
-            "**across** the road",
-            "**along** the river",
-            "**through** the forest"
+            "She went **into** the room and closed the door.",
+            "He got **out of** the car and walked away.",
+            "We got **on** the bus at the station.",
+            "Get **off** the train at the next stop."
+          ],
+          "exampleTranslations": [
+            "Она вошла в комнату и закрыла дверь.",
+            "Он вышел из машины и ушёл.",
+            "Мы сели в автобус на станции.",
+            "Выйдите из поезда на следующей остановке."
           ]
         },
         {
           "heading": {
-            "ru": "Over, under, towards, past — над, под, к, мимо",
-            "en": "Over, under, towards, past"
+            "ru": "Направление, путь и движение вокруг",
+            "en": "Direction, path and movement around"
           },
           "body": {
-            "ru": "**Over** — над препятствием или через его верх, **under** — под чем-то. **Towards** показывает направление, но не обязательно достижение цели. Past — мимо чего-то с продолжением движения.",
-            "en": "**Over** is **above** an obstacle or **across** its top, and **under** is **below** something. **Towards** shows a direction **without** necessarily reaching the goal. Past means moving **by** something and continuing."
+            "ru": "**Направление:** **to** — конечная точка; **towards** — по направлению; **from … to** — маршрут.\n**Вход/выход:** **into** — внутрь; **onto** — на поверхность; **out of** — наружу; **off** — с поверхности.\n**Путь:** **through** — сквозь/внутри; **across** — с одной стороны на другую; **along** — вдоль; **over** — над; **under** — под; **past** — мимо; **around/round** — вокруг.",
+            "en": "**Direction:** **to** — the end point; **towards** — in the direction of; **from … to** — a route.\n**Entering/leaving:** **into** — inside; **onto** — to a top surface; **out of** — outside; **off** — away from a surface.\n**Path:** **through** — inside a space; **across** — from one side to the other; **along** — following a line; **over** — above; **under** — below; **past** — beyond; **around/round** — in a circle."
           },
           "examples": [
-            "**over** the fence",
-            "**under** the bridge",
-            "**towards** the station",
-            "past the school"
+            "He put the box **onto** the top shelf.",
+            "We walked **through** the tunnel.",
+            "They swam **across** the river.",
+            "The dog jumped **over** the fence.",
+            "She walked **towards** the station.",
+            "The path runs **along** the river."
+          ],
+          "exampleTranslations": [
+            "Он поставил коробку на верхнюю полку.",
+            "Мы прошли через туннель.",
+            "Они переплыли реку.",
+            "Собака перепрыгнула через забор.",
+            "Она пошла к станции.",
+            "Тропинка тянется вдоль реки."
           ]
         },
         {
           "heading": {
-            "ru": "Around/round и другие сочетания",
-            "en": "Around/round and other combinations"
+            "ru": "By + транспорт; in/on + транспорт; on foot",
+            "en": "By + transport; in/on + transport; on foot"
           },
           "body": {
-            "ru": "**Around**, а в британском английском и round, описывает круговое движение или движение вокруг чего-то. **From** … **to** называет начало и конец маршрута; в речи встречаются и другие пары предлогов.",
-            "en": "**Around** — and **in** British English also round — describes circular movement or movement surrounding something. **From** … **to** names the start and end **of** a route; other pairs **of** prepositions also occur **in** speech."
+            "ru": "**By** + транспорт без артикля: **by** car, **by** train, **by** bus, **by** plane, **by boat/ship**, **by** bike.\nНо: **in** my car, **in** a taxi; **on** the train, **on** the bus.\n**On foot** = пешком.\n**By** + способ: **by** post, **by** email, **by** card / cheque, **by** hand; но pay **cash** / pay **in cash**.",
+            "en": "**By** + transport with no article: **by** car, **by** train, **by** bus, **by** plane, **by boat/ship**, **by** bike.\nBut: **in** my car, **in** a taxi; **on** the train, **on** the bus.\n**On foot** = walking.\n**By** + method: **by** post, **by** email, **by** card / cheque, **by** hand; but pay **cash** / pay **in cash**."
           },
           "examples": [
-            "**around** the lake",
-            "round the garden",
-            "**from** the village **to** the coast"
+            "I usually go to work **by** bus.",
+            "They came **in** a taxi.",
+            "We travelled **on** the 6.45 train.",
+            "Did you come here **by** car or **on foot**?",
+            "We crossed the lake **by** boat."
+          ],
+          "exampleTranslations": [
+            "Обычно я езжу на работу на автобусе.",
+            "Они приехали на такси.",
+            "Мы ехали на поезде в 6:45.",
+            "Ты приехал сюда на машине или пришёл пешком?",
+            "Мы переплыли озеро на лодке."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "By: способ, автор, место и разница",
+            "en": "By: method, author, place and difference"
+          },
+          "body": {
+            "ru": "**By** + существительное без артикля: **by** mistake, **by** accident, **by** chance; намеренно — **on purpose**.\nАвтор: a play **by** Shakespeare, a painting **by** Rembrandt.\n**By** = рядом: the light switch **by** the door.\n**By** + разница: increased **by** ten per cent, won **by** five metres.\nПассив: done **by** somebody; инструмент — **with**: opened **with** a key.",
+            "en": "**By** + a noun with no article: **by** mistake, **by** accident, **by** chance; deliberately — **on purpose**.\nAuthor: a play **by** Shakespeare, a painting **by** Rembrandt.\n**By** = beside: the light switch **by** the door.\n**By** + difference: increased **by** ten per cent, won **by** five metres.\nPassive: done **by** somebody; the instrument takes **with**: opened **with** a key."
+          },
+          "examples": [
+            "We met **by** chance at the station.",
+            "I didn't break the glass **on purpose**.",
+            "Have you read any poems **by** Shakespeare?",
+            "Come and sit **by** me.",
+            "The door was opened **with** a key."
+          ],
+          "exampleTranslations": [
+            "Мы случайно встретились на вокзале.",
+            "Я не разбивал стакан нарочно.",
+            "Ты читал какие-нибудь стихи Шекспира?",
+            "Подойди и сядь рядом со мной.",
+            "Дверь открыли ключом."
           ]
         }
       ]
@@ -695,35 +751,35 @@
       "ruleId": "prep-movement",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте значение предлога и пример.",
-        "en": "Match each meaning of the preposition with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match the meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "to — направление к цели",
-            "en": "to — destination"
+            "ru": "конечный пункт маршрута",
+            "en": "the final point of a route"
           },
           "right": "We walked to the park after lunch."
         },
         {
           "left": {
-            "ru": "into — движение внутрь",
-            "en": "into — entering"
+            "ru": "перемещение в закрытое пространство",
+            "en": "movement inside an enclosed space"
           },
           "right": "The cat jumped into the box."
         },
         {
           "left": {
-            "ru": "onto — движение на поверхность",
-            "en": "onto — onto a surface"
+            "ru": "перемещение на поверхность",
+            "en": "movement to a top surface"
           },
           "right": "The children climbed onto the wall."
         },
         {
           "left": {
-            "ru": "out of — движение наружу",
-            "en": "out of — exiting"
+            "ru": "перемещение изнутри наружу",
+            "en": "movement from inside to outside"
           },
           "right": "The child pulled a toy out of the box."
         }
@@ -733,7 +789,8 @@
         "en": "To marks the destination, into means inside, onto means onto a surface, and out of means exiting."
       },
       "tags": [
-        "prep-movement"
+        "prep-movement",
+        "direction"
       ]
     },
     {
@@ -742,35 +799,35 @@
       "ruleId": "prep-movement",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте предлог пути и пример.",
-        "en": "Match each path preposition with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match the meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "through — сквозь, внутри чего-то",
-            "en": "through — through something enclosed"
+            "ru": "движение по внутренней части чего-то",
+            "en": "movement from one end to the other inside a space"
           },
           "right": "The train went through the tunnel."
         },
         {
           "left": {
-            "ru": "across — с одной стороны на другую",
-            "en": "across — from one side to the other"
+            "ru": "движение с одного края на другой",
+            "en": "movement from one side to the other"
           },
           "right": "The team swam across the lake."
         },
         {
           "left": {
-            "ru": "along — вдоль",
-            "en": "along — following a line"
+            "ru": "движение параллельно линии",
+            "en": "movement parallel to a line"
           },
           "right": "We cycled along the canal."
         },
         {
           "left": {
-            "ru": "over — над, через верх",
-            "en": "over — above something"
+            "ru": "движение выше препятствия",
+            "en": "movement above an obstacle"
           },
           "right": "The horse jumped over the low gate."
         }
@@ -780,7 +837,8 @@
         "en": "Through is inside a space, across goes from side to side, along follows a line, and over is above an obstacle."
       },
       "tags": [
-        "prep-movement"
+        "prep-movement",
+        "path"
       ]
     },
     {
@@ -789,35 +847,35 @@
       "ruleId": "prep-movement",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте значение и пример.",
-        "en": "Match each meaning with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match the meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "under — под чем-то",
-            "en": "under — below something"
+            "ru": "движение ниже препятствия",
+            "en": "movement below an obstacle"
           },
           "right": "The cat ran under the fence."
         },
         {
           "left": {
-            "ru": "towards — по направлению к",
-            "en": "towards — in the direction of"
+            "ru": "движение в сторону без достижения",
+            "en": "movement in the direction, without reaching"
           },
           "right": "She ran towards the bus but missed it."
         },
         {
           "left": {
-            "ru": "from … to — от … до",
-            "en": "from … to — between two points"
+            "ru": "маршрут с начальной и конечной точками",
+            "en": "a route with a start and an end"
           },
           "right": "We cycled from the village to the lake."
         },
         {
           "left": {
-            "ru": "off — с поверхности",
-            "en": "off — away from a surface"
+            "ru": "отделение от поверхности",
+            "en": "separation from a surface"
           },
           "right": "She took the picture off the wall."
         }
@@ -827,7 +885,8 @@
         "en": "Under means below, towards means in the direction of, from … to marks two points, and off means away from a surface."
       },
       "tags": [
-        "prep-movement"
+        "prep-movement",
+        "path"
       ]
     },
     {
@@ -836,37 +895,37 @@
       "ruleId": "prep-movement",
       "level": "B1",
       "prompt": {
-        "ru": "Сопоставьте значение предлога и пример.",
-        "en": "Match each meaning of the preposition with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match the meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "to — конечная точка маршрута",
-            "en": "to — the end of a route"
+            "ru": "прибытие в пункт назначения",
+            "en": "arrival at the destination"
           },
           "right": "After three hours we finally got to the village."
         },
         {
           "left": {
-            "ru": "into — проникновение внутрь",
-            "en": "into — getting inside something"
+            "ru": "вход в воду (движение внутрь)",
+            "en": "entering the water"
           },
           "right": "The boy dived into the river without checking the depth."
         },
         {
           "left": {
-            "ru": "onto — перемещение на поверхность",
-            "en": "onto — moving onto a surface"
+            "ru": "приземление на верхнюю поверхность",
+            "en": "landing on a top surface"
           },
           "right": "The monkey jumped onto the branch and hung there."
         },
         {
           "left": {
-            "ru": "out of — выход из закрытого пространства",
-            "en": "out of — leaving an enclosed space"
+            "ru": "движение мимо объекта",
+            "en": "movement beyond an object"
           },
-          "right": "The students rushed out of the classroom when the bell rang."
+          "right": "The dog ran past the gate and disappeared."
         }
       ],
       "explanation": {
@@ -874,7 +933,8 @@
         "en": "To is the end point, into means inside, onto means onto a surface, and out of means leaving an enclosed space."
       },
       "tags": [
-        "prep-movement"
+        "prep-movement",
+        "entering-and-leaving"
       ]
     },
     {
@@ -883,35 +943,35 @@
       "ruleId": "prep-movement",
       "level": "A2",
       "prompt": {
-        "ru": "Сопоставьте значение предлога и пример.",
-        "en": "Match each meaning of the preposition with its example."
+        "ru": "Сопоставьте смысл и пример.",
+        "en": "Match the meaning with its example."
       },
       "pairs": [
         {
           "left": {
-            "ru": "to — прибытие в пункт",
-            "en": "to — arrival at a place"
+            "ru": "достижение конечной точки",
+            "en": "reaching the end point"
           },
           "right": "We finally got to the campsite before dark."
         },
         {
           "left": {
-            "ru": "towards — движение в направлении",
-            "en": "towards — moving in a direction"
+            "ru": "движение в направлении озера",
+            "en": "moving in the direction of a lake"
           },
           "right": "The hikers walked towards the lake but turned back."
         },
         {
           "left": {
-            "ru": "into — вход в здание",
-            "en": "into — entering a building"
+            "ru": "вход внутрь здания",
+            "en": "entering a building"
           },
           "right": "She went into the bank to change some money."
         },
         {
           "left": {
-            "ru": "out of — выход из здания",
-            "en": "out of — leaving a building"
+            "ru": "выход из здания",
+            "en": "leaving a building"
           },
           "right": "The workers came out of the factory at six."
         }
@@ -921,7 +981,8 @@
         "en": "To shows arrival at a place, towards shows movement in a direction, into shows entering, and out of shows leaving."
       },
       "tags": [
-        "prep-movement"
+        "prep-movement",
+        "direction"
       ]
     },
     {

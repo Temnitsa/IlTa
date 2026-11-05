@@ -138,6 +138,18 @@ def validate_rule(rule, where: str, known_sections: set[str] | None,
                 probe = example.strip().lower()
                 if len(probe) >= 4 and (probe in body_ru_l or probe in body_en_l):
                     err(sw, f"body repeats the example {example!r}; examples belong only to `examples`")
+        translations = section.get("exampleTranslations")
+        if not isinstance(translations, list) or not translations:
+            err(sw, "`exampleTranslations` is required and must align with examples")
+        elif len(translations) != len(examples):
+            err(
+                sw,
+                f"`exampleTranslations` has {len(translations)} items but `examples` has {len(examples)}",
+            )
+        else:
+            for translation in translations:
+                if not isinstance(translation, str) or not translation.strip():
+                    err(sw, "`exampleTranslations` must contain non-empty strings")
 
 
 def validate_choice(question, where: str, section_id: str | None) -> None:
