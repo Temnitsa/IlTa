@@ -17,18 +17,18 @@
         "en": "Prepositions after adjectives"
       },
       "summary": {
-        "ru": "Предлоги после прилагательных: чувства и оценки, способности и качества, сходство и зависимость. Ключевые модели — прилагательное + предлог (afraid of, good at, interested in, similar to, dependent on).",
-        "en": "Prepositions after adjectives: feelings and opinions, abilities and qualities, similarity and dependence. The key pattern is adjective + preposition (afraid of, good at, interested in, similar to, dependent on)."
+        "ru": "Прилагательное + предлог: значение, основные схемы, сравнение похожих пар и остальные сочетания.",
+        "en": "Adjective + preposition: meaning, core patterns, contrasts between similar pairs and the remaining combinations."
       },
       "sections": [
         {
           "heading": {
-            "ru": "Чувства: страх, гнев, волнение",
-            "en": "Feelings: fear, anger, worry"
+            "ru": "1. Смысл",
+            "en": "1. Meaning"
           },
           "body": {
-            "ru": "Страх: **afraid / frightened / scared / terrified of**. Гнев и раздражение: **angry / annoyed / furious about** ситуация и **with somebody for** поступок. Волнение и восторг: **worried / nervous / excited / upset about**.",
-            "en": "Fear: **afraid / frightened / scared / terrified of**. Anger: **angry / annoyed / furious about** a situation and **with somebody for** an action. Worry and excitement: **worried / nervous / excited / upset about**."
+            "ru": "Прилагательное часто требует свой предлог.\nЕго нельзя угадать по русскому переводу.\nУчите сочетание целиком: прилагательное + предлог + объект.\nПосле предлога глагол стоит в форме -ing.",
+            "en": "An adjective often needs its own preposition.\nYou cannot guess it from another language.\nLearn the whole combination: adjective + preposition + object.\nAfter a preposition the verb takes the -ing form."
           },
           "examples": [
             "Are you afraid of spiders?",
@@ -45,94 +45,74 @@
         },
         {
           "heading": {
-            "ru": "Оценка человека и отношение",
-            "en": "Judging people and attitudes"
+            "ru": "2. Схема",
+            "en": "2. Pattern"
           },
           "body": {
-            "ru": "О поступке: **nice / kind / good / generous / polite / rude / honest / stupid / silly of somebody** (to do something); об отношении: **nice / kind / good / generous / friendly / polite / rude / cruel to somebody**. Недовольство: **fed up / bored with**, **tired of**. Сочувствие: **feel sorry for somebody**; сожаление: **sorry for / about** поступок, **I'm sorry I did it**.",
-            "en": "An action: **nice / kind / good / generous / polite / rude / honest / stupid / silly of somebody** (to do something); treatment: **nice / kind / good / generous / friendly / polite / rude / cruel to somebody**. Dissatisfaction: **fed up / bored with**, **tired of**. Sympathy: **feel sorry for somebody**; regret: **sorry for / about** something you did, **I'm sorry I did it**."
-          },
-          "examples": [
-            "It was very kind of you to help me.",
-            "They have always been nice to me.",
-            "I'm fed up with this cold weather.",
-            "I'm sorry about the mess."
-          ],
-          "exampleTranslations": [
-            "Было очень любезно с твоей стороны помочь мне.",
-            "Они всегда хорошо ко мне относились.",
-            "Мне надоела эта холодная погода.",
-            "Извини за беспорядок."
-          ]
-        },
-        {
-          "heading": {
-            "ru": "Способности, интересы, качества",
-            "en": "Abilities, interests, qualities"
-          },
-          "body": {
-            "ru": "Умение: **good / bad / brilliant / hopeless at**; возможность: **capable / incapable of**; интерес: **interested in**, **keen on**; успех: **successful in**. Качества: **patient with**, **famous / responsible for**, **typical of**, **proud / ashamed of**, **ready / late for**. После предлога глагол стоит в форме **-ing**: good at solving, capable of printing.",
-            "en": "Skill: **good / bad / brilliant / hopeless at**; ability: **capable / incapable of**; interest: **interested in**, **keen on**; success: **successful in**. Qualities: **patient with**, **famous / responsible for**, **typical of**, **proud / ashamed of**, **ready / late for**. After a preposition the verb takes the **-ing** form: good at solving, capable of printing."
+            "ru": "of — страх и стыд: afraid of · frightened of · ashamed of\nof — качества: capable of · proud of · typical of\nabout — тревоги и темы: serious about · curious about · worried about\nin / on — интерес и увлечение: interested in · successful in · keen on\nwith — черты: careful with · popular with · patient with\nfor — готовность: suitable for · grateful for · ready for / late for",
+            "en": "of — fear and shame: afraid of · frightened of · ashamed of\nof — qualities: capable of · proud of · typical of\nabout — worries and topics: serious about · curious about · worried about\nin / on — interest and enthusiasm: interested in · successful in · keen on\nwith — personal qualities: careful with · popular with · patient with\nfor — readiness: suitable for · grateful for · ready for / late for"
           },
           "examples": [
             "I'm not very good at repairing things.",
             "She is capable of doing the job well.",
             "He is interested in art.",
-            "Who was responsible for all that noise?",
-            "She is good at solving difficult puzzles."
+            "She is good at solving difficult puzzles.",
+            "Who was responsible for all that noise?"
           ],
           "exampleTranslations": [
             "Я не очень хорошо умею чинить вещи.",
             "Она способна хорошо справиться с этой работой.",
             "Он интересуется искусством.",
-            "Кто отвечал за весь этот шум?",
-            "Она хорошо умеет решать сложные головоломки."
+            "Она хорошо умеет решать сложные головоломки.",
+            "Кто отвечал за весь этот шум?"
           ]
         },
         {
           "heading": {
-            "ru": "Сходство, связь, зависимость",
-            "en": "Similarity, connection, dependence"
+            "ru": "3. Сравни",
+            "en": "3. Compare"
           },
           "body": {
-            "ru": "Сходство: **similar to**; различие: **different from / to**; связь: **married / engaged to**, **close to**, **fond of**; зависимость: **dependent on** (но **independent of**); осведомлённость: **aware / conscious of**, **certain / sure of / about**; количество: **full / short of**, **crowded with**.",
-            "en": "Similarity: **similar to**; difference: **different from / to**; connection: **married / engaged to**, **close to**, **fond of**; dependence: **dependent on** (but **independent of**); awareness: **aware / conscious of**, **certain / sure of / about**; quantity: **full / short of**, **crowded with**."
+            "ru": "**angry with somebody** — на человека, **angry about something** — на ситуацию\n**good at** — умение, **good to somebody** — доброта, **good for** — польза\n**kind / nice / good / generous / friendly / polite / rude / cruel to somebody** — отношение\n**nice / kind / honest / stupid / silly of somebody** — оценка\n**sorry about** — ситуация, **sorry for** — поступок; **I'm sorry I did it**\n**pleased / satisfied / disappointed with** — довольство",
+            "en": "**angry with somebody** = about a person, **angry about** = about a situation\n**good at** = skill, **good to** = kindness, **good for** = benefit\n**kind / nice / good / generous / friendly / polite / rude / cruel to somebody** = treatment\n**nice / kind / honest / stupid / silly of somebody** = judging an action\n**sorry about** a situation, **sorry for** an action; **I'm sorry I did it**\n**pleased / satisfied / disappointed with** = pleasure"
+          },
+          "examples": [
+            "It was very kind of you to help me.",
+            "They have always been nice to me.",
+            "I'm fed up with this cold weather.",
+            "I'm sorry about the mess.",
+            "He is generous with his time."
+          ],
+          "exampleTranslations": [
+            "Было очень любезно с твоей стороны помочь мне.",
+            "Они всегда хорошо ко мне относились.",
+            "Мне надоела эта холодная погода.",
+            "Извини за беспорядок.",
+            "Он щедро делится своим временем."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "4. Остальные случаи",
+            "en": "4. Other cases"
+          },
+          "body": {
+            "ru": "**similar to**, **different from / to**\n**married / engaged to**, **close to**, **fond of**, **allergic to**\n**dependent on** (но **independent of**)\n**aware / conscious of**, **certain / sure of / about**\n**full / short of**, **crowded with**\n**jealous / envious of**, **suspicious / critical / tolerant of**\n**surprised / shocked / amazed / astonished at / by**\n**prepared for**, **worry about**",
+            "en": "**similar to**, **different from / to**\n**married / engaged to**, **close to**, **fond of**, **allergic to**\n**dependent on** (but **independent of**)\n**aware / conscious of**, **certain / sure of / about**\n**full / short of**, **crowded with**\n**jealous / envious of**, **suspicious / critical / tolerant of**\n**surprised / shocked / amazed / astonished at / by**\n**prepared for**, **worry about**"
           },
           "examples": [
             "Your handwriting is similar to mine.",
             "The film was different from what I expected.",
             "Louise is married to an American.",
-            "The streets were crowded with tourists.",
-            "Many people are dependent on their phones."
+            "Many people are dependent on their phones.",
+            "I wasn't aware of that."
           ],
           "exampleTranslations": [
             "Твой почерк похож на мой.",
             "Фильм отличался от того, что я ожидал.",
             "Луиза замужем за американцем.",
-            "Улицы были заполнены туристами.",
-            "Многие люди зависят от своих телефонов."
-          ]
-        },
-        {
-          "heading": {
-            "ru": "Ревность, подозрение, удивление",
-            "en": "Jealousy, suspicion, surprise"
-          },
-          "body": {
-            "ru": "Ревность: **jealous / envious of**; подозрение: **suspicious / critical / tolerant of**; гордость, стыд: **proud / ashamed of**; удивление: **surprised / shocked / amazed / astonished at / by**; удовольствие: **pleased / satisfied / happy / delighted / disappointed with**; отношение к делу: **serious about**, **careful with**, **curious about**; оценка: **popular with**, **suitable for**; благодарность: **grateful for**; реакция: **allergic to**.",
-            "en": "Jealousy: **jealous / envious of**; suspicion: **suspicious / critical / tolerant of**; pride and shame: **proud / ashamed of**; surprise: **surprised / shocked / amazed / astonished at / by**; pleasure: **pleased / satisfied / happy / delighted / disappointed with**; attitude to work: **serious about**, **careful with**, **curious about**; evaluation: **popular with**, **suitable for**; gratitude: **grateful for**; reaction: **allergic to**."
-          },
-          "examples": [
-            "Why is he so jealous of other people?",
-            "I wasn't aware of that.",
-            "Everybody was surprised at the news.",
-            "They were delighted with the present."
-          ],
-          "exampleTranslations": [
-            "Почему он так завидует другим людям?",
-            "Я об этом не знал.",
-            "Все были удивлены этой новостью.",
-            "Они были в восторге от подарка."
+            "Многие люди зависят от своих телефонов.",
+            "Я об этом не знал."
           ]
         }
       ]

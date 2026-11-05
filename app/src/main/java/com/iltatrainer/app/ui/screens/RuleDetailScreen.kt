@@ -5,6 +5,8 @@ import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -51,6 +53,9 @@ import com.iltatrainer.app.ui.components.EmptyState
 import com.iltatrainer.app.ui.components.LevelChip
 import com.iltatrainer.app.ui.formatPercent
 import com.iltatrainer.app.ui.localized
+
+/** Temporary prototype switch: 1 = numbered lesson cards, 2 = single lesson sheet. */
+private const val RULE_STYLE_VARIANT = 1
 
 @Composable
 fun RuleDetailScreen(
@@ -126,8 +131,12 @@ private fun RuleDetailContent(
                 )
             }
         } else {
-            rule.sections.forEach { section ->
-                RuleSectionCard(section = section)
+            if (RULE_STYLE_VARIANT == 2) {
+                LessonSheet(sections = rule.sections)
+            } else {
+                rule.sections.forEachIndexed { index, section ->
+                    RuleSectionCard(section = section, index = index)
+                }
             }
         }
 
@@ -148,147 +157,340 @@ private fun RuleDetailContent(
 }
 
 @Composable
-private fun RuleSectionCard(section: RuleSection) {
-    val heading = section.heading.localized()
-    val body = section.body.localized()
-    val isFormula = heading.contains("Форм", ignoreCase = true) || heading.contains("Form", ignoreCase = true)
-
+private fun RuleSectionCard(section: RuleSection, index: Int) {
     AppCard {
-        if (heading.isNotBlank()) {
+        LessonHeading(index = index, heading = section.heading.localized())
+        Spacer(Modifier.height(10.dp))
+        LessonBody(section = section)
+        LessonExamples(section = section)
+    }
+}
+
+@Composable
+private fun LessonSheet(sections: List<RuleSection>) {
+    AppCard {
+        LessonPath(sections = sections)
+        Spacer(Modifier.height(18.dp))
+        sections.forEachIndexed { index, section ->
+            if (index > 0) {
+                Spacer(Modifier.height(18.dp))
+                HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.7f))
+                Spacer(Modifier.height(18.dp))
+            }
+            LessonHeading(index = index, heading = section.heading.localized(), large = true)
+            Spacer(Modifier.height(10.dp))
+            LessonBody(section = section)
+            LessonExamples(section = section)
+        }
+    }
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun LessonPath(sections: List<RuleSection>) {
+    FlowRow(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.spacedBy(6.dp),
+        verticalArrangement = Arrangement.spacedBy(6.dp),
+    ) {
+        sections.forEachIndexed { index, section ->
+            val title = section.heading.localized()
+                .replace(Regex("^\\d+\\.\\s*"), "")
+            Surface(
+                shape = RoundedCornerShape(8.dp),
+                color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.55f),
+            ) {
+                Row(
+                    modifier = Modifier.padding(horizontal = 8.dp, vertical = 6.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    Text(
+                        text = (index + 1).toString().padStart(2, '0'),
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.primary,
+                    )
+                    Spacer(Modifier.width(5.dp))
+                    Text(
+                        text = title,
+                        style = MaterialTheme.typography.labelMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        maxLines = 1,
+                    )
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun LessonHeading(index: Int, heading: String, large: Boolean = false) {
+    Row(verticalAlignment = Alignment.CenterVertically) {
+        Surface(
+            shape = RoundedCornerShape(8.dp),
+            color = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.65f),
+            contentColor = MaterialTheme.colorScheme.primary,
+        ) {
             Text(
-                text = heading,
-                style = MaterialTheme.typography.titleMedium.copy(lineBreak = LineBreak.Heading),
-                color = MaterialTheme.colorScheme.onSurface,
-                fontWeight = FontWeight.SemiBold,
+                text = (index + 1).toString().padStart(2, '0'),
+                style = MaterialTheme.typography.labelSmall,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier.padding(horizontal = 7.dp, vertical = 4.dp),
             )
         }
+        Spacer(Modifier.width(9.dp))
+        Text(
+            text = heading.replace(Regex("^\\d+\\.\\s*"), ""),
+            style = (if (large) MaterialTheme.typography.titleLarge else MaterialTheme.typography.titleMedium)
+                .copy(lineBreak = LineBreak.Heading),
+            color = MaterialTheme.colorScheme.onSurface,
+            fontWeight = FontWeight.SemiBold,
+        )
+    }
+}
 
-        if (body.isNotBlank()) {
-            Spacer(Modifier.height(10.dp))
-            if (isFormula) {
-                Surface(
-                    color = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.48f),
-                    shape = RoundedCornerShape(10.dp),
+@Composable
+private fun LessonBody(section: RuleSection) {
+    val heading = section.heading.localized()
+    val body = section.body.localized()
+    if (body.isBlank()) return
+    when {
+        heading.contains("Схема", ignoreCase = true) || heading.contains("Pattern", ignoreCase = true) -> {
+            Surface(
+                color = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.35f),
+                shape = RoundedCornerShape(10.dp),
+            ) {
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 12.dp, vertical = 11.dp),
+                    verticalArrangement = Arrangement.spacedBy(10.dp),
                 ) {
-                    Column(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(horizontal = 12.dp, vertical = 11.dp),
-                        verticalArrangement = Arrangement.spacedBy(6.dp),
-                    ) {
-                        body.lines().filter { it.isNotBlank() }.forEach { line ->
-                            Text(
-                                text = remember(line) { formatRuleText(line) },
-                                style = MaterialTheme.typography.bodyLarge.copy(
-                                    fontFamily = FontFamily.Monospace,
-                                    lineHeight = 22.sp,
-                                ),
-                            )
-                        }
+                    body.lines().filter { it.isNotBlank() }.forEach { line ->
+                        SchemeRow(line = line.trim())
                     }
                 }
-            } else {
-                val bodyLines = remember(body) {
-                    body.lines()
-                        .map { it.trim() }
-                        .filter { it.isNotBlank() }
-                        .flatMap { line ->
-                            val clean = line.removePrefix("•").trimStart()
-                            if (clean.length > 110) {
-                                clean.split(Regex("(?<=[.!?])\\s+")).filter { it.isNotBlank() }
-                            } else {
-                                listOf(clean)
+            }
+        }
+        heading.contains("Сравни", ignoreCase = true) || heading.contains("Compare", ignoreCase = true) -> {
+            val lines = body.lines().filter { it.isNotBlank() }
+            Column(verticalArrangement = Arrangement.spacedBy(7.dp)) {
+                lines.forEach { line ->
+                    val variants = line.split(";").map { it.trim() }.filter { it.isNotBlank() }
+                    variants.forEach { variant ->
+                        val parts = variant.split("—", limit = 2)
+                        if (parts.size == 2) {
+                            Surface(
+                                color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.34f),
+                                shape = RoundedCornerShape(8.dp),
+                            ) {
+                                Row(
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .padding(horizontal = 10.dp, vertical = 8.dp),
+                                    verticalAlignment = Alignment.Top,
+                                ) {
+                                    Text(
+                                        text = formatRuleText(parts[0].trim()),
+                                        style = MaterialTheme.typography.bodyMedium.copy(
+                                            fontFamily = FontFamily.Monospace,
+                                            lineHeight = 20.sp,
+                                        ),
+                                        modifier = Modifier.weight(1f),
+                                    )
+                                    Spacer(Modifier.width(10.dp))
+                                    Text(
+                                        text = formatRuleText(parts[1].trim()),
+                                        style = MaterialTheme.typography.bodySmall.copy(lineHeight = 18.sp),
+                                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                        modifier = Modifier.weight(1f),
+                                    )
+                                }
                             }
-                        }
-                }
-                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    bodyLines.forEach { line ->
-                        Row(verticalAlignment = Alignment.Top) {
+                        } else {
                             Text(
-                                text = "•",
-                                style = MaterialTheme.typography.bodyLarge,
-                                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                            )
-                            Spacer(Modifier.width(8.dp))
-                            Text(
-                                text = remember(line) { formatRuleText(line) },
-                                style = MaterialTheme.typography.bodyLarge.copy(
-                                    lineBreak = LineBreak.Heading,
-                                    lineHeight = 22.sp,
-                                ),
+                                text = formatRuleText(variant),
+                                style = MaterialTheme.typography.bodyLarge.copy(lineHeight = 22.sp),
                             )
                         }
                     }
                 }
             }
         }
+        else -> {
+            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                body.lines().filter { it.isNotBlank() }.forEach { rawLine ->
+                    val line = rawLine.trim().removePrefix("•").trimStart()
+                    Row(verticalAlignment = Alignment.Top) {
+                        Text(
+                            text = "•",
+                            style = MaterialTheme.typography.bodyLarge,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                        Spacer(Modifier.width(8.dp))
+                        Text(
+                            text = formatRuleText(line),
+                            style = MaterialTheme.typography.bodyLarge.copy(
+                                lineBreak = LineBreak.Heading,
+                                lineHeight = 22.sp,
+                            ),
+                        )
+                    }
+                }
+            }
+        }
+    }
+}
 
-        if (section.examples.isNotEmpty()) {
-            Spacer(Modifier.height(12.dp))
-            HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.7f))
-            Spacer(Modifier.height(9.dp))
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun SchemeRow(line: String) {
+    val colon = line.indexOf(':')
+    val dash = line.indexOf('—')
+    val label: String
+    val sense: String
+    val details: String
+    when {
+        dash >= 0 && colon > dash -> {
+            label = line.substring(0, dash).trim()
+            sense = line.substring(dash + 1, colon).trim()
+            details = line.substring(colon + 1).trim()
+        }
+        dash >= 0 -> {
+            label = line.substring(0, dash).trim()
+            sense = ""
+            details = line.substring(dash + 1).trim()
+        }
+        colon >= 0 -> {
+            label = line.substring(0, colon).trim()
+            sense = ""
+            details = line.substring(colon + 1).trim()
+        }
+        else -> {
+            label = ""
+            sense = ""
+            details = line.trim()
+        }
+    }
+    Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.Top) {
+        if (label.isNotBlank()) {
+            Column(modifier = Modifier.width(108.dp)) {
+                Text(
+                    text = formatRuleText(label),
+                    style = MaterialTheme.typography.bodyMedium.copy(
+                        fontWeight = FontWeight.SemiBold,
+                        lineHeight = 20.sp,
+                    ),
+                    color = MaterialTheme.colorScheme.primary,
+                )
+                if (sense.isNotBlank()) {
+                    Text(
+                        text = formatRuleText(sense),
+                        style = MaterialTheme.typography.bodySmall.copy(lineHeight = 16.sp),
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
+            }
+            Spacer(Modifier.width(8.dp))
+        }
+        val tokens = details.split("·").map { it.trim() }.filter { it.isNotBlank() }
+        if (tokens.size > 1) {
+            FlowRow(
+                modifier = Modifier.weight(1f),
+                horizontalArrangement = Arrangement.spacedBy(5.dp),
+                verticalArrangement = Arrangement.spacedBy(5.dp),
+            ) {
+                tokens.forEach { token ->
+                    Surface(
+                        color = MaterialTheme.colorScheme.surface.copy(alpha = 0.55f),
+                        shape = RoundedCornerShape(6.dp),
+                    ) {
+                        Text(
+                            text = formatRuleText(token),
+                            style = MaterialTheme.typography.bodySmall.copy(
+                                fontFamily = FontFamily.Monospace,
+                                lineHeight = 17.sp,
+                            ),
+                            modifier = Modifier.padding(horizontal = 7.dp, vertical = 4.dp),
+                        )
+                    }
+                }
+            }
+        } else {
             Text(
-                text = "Примеры",
-                style = MaterialTheme.typography.labelSmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                text = formatRuleText(details),
+                style = MaterialTheme.typography.bodyMedium.copy(lineHeight = 20.sp),
+                modifier = Modifier.weight(1f),
             )
-            Spacer(Modifier.height(6.dp))
-            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                section.examples.forEachIndexed { index, example ->
-                    val translation = section.exampleTranslations.getOrNull(index).orEmpty()
-                    val showTranslation = remember(example) { androidx.compose.runtime.mutableStateOf(false) }
-                    Column {
-                        Surface(
-                            color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.38f),
-                            shape = RoundedCornerShape(8.dp),
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .pointerInput(example, translation) {
-                                    detectTapGestures(
-                                        onTap = {
-                                            if (showTranslation.value) showTranslation.value = false
-                                        },
-                                        onLongPress = {
-                                            if (translation.isNotBlank()) showTranslation.value = true
-                                        },
-                                    )
+        }
+    }
+}
+
+@Composable
+private fun LessonExamples(section: RuleSection) {
+    if (section.examples.isEmpty()) return
+    Spacer(Modifier.height(12.dp))
+    HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.7f))
+    Spacer(Modifier.height(9.dp))
+    Text(
+        text = "Примеры",
+        style = MaterialTheme.typography.labelSmall,
+        color = MaterialTheme.colorScheme.onSurfaceVariant,
+    )
+    Spacer(Modifier.height(6.dp))
+    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        section.examples.forEachIndexed { index, example ->
+            val translation = section.exampleTranslations.getOrNull(index).orEmpty()
+            val showTranslation = remember(example) { androidx.compose.runtime.mutableStateOf(false) }
+            Column {
+                Surface(
+                    color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.38f),
+                    shape = RoundedCornerShape(8.dp),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .pointerInput(example, translation) {
+                            detectTapGestures(
+                                onTap = {
+                                    if (showTranslation.value) showTranslation.value = false
                                 },
-                        ) {
-                            Row(
-                                modifier = Modifier.padding(horizontal = 10.dp, vertical = 7.dp),
-                                verticalAlignment = Alignment.Top,
-                            ) {
-                                Text(
-                                    text = "→",
-                                    style = MaterialTheme.typography.bodyMedium,
-                                    color = MaterialTheme.colorScheme.primary,
-                                )
-                                Spacer(Modifier.width(7.dp))
-                                Text(
-                                    text = remember(example) { formatRuleText(example) },
-                                    style = MaterialTheme.typography.bodyMedium.copy(lineHeight = 20.sp),
-                                )
-                            }
-                        }
-                        if (showTranslation.value && translation.isNotBlank()) {
-                            Surface(
-                                color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.22f),
-                                shape = RoundedCornerShape(8.dp),
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .padding(top = 4.dp)
-                                    .pointerInput(translation) {
-                                        detectTapGestures(onTap = { showTranslation.value = false })
-                                    },
-                            ) {
-                                Text(
-                                    text = translation,
-                                    style = MaterialTheme.typography.bodyMedium.copy(lineHeight = 20.sp),
-                                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                                    modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
-                                )
-                            }
-                        }
+                                onLongPress = {
+                                    if (translation.isNotBlank()) showTranslation.value = true
+                                },
+                            )
+                        },
+                ) {
+                    Row(
+                        modifier = Modifier.padding(horizontal = 10.dp, vertical = 7.dp),
+                        verticalAlignment = Alignment.Top,
+                    ) {
+                        Text(
+                            text = "→",
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.primary,
+                        )
+                        Spacer(Modifier.width(7.dp))
+                        Text(
+                            text = remember(example) { formatRuleText(example) },
+                            style = MaterialTheme.typography.bodyMedium.copy(lineHeight = 20.sp),
+                        )
+                    }
+                }
+                if (showTranslation.value && translation.isNotBlank()) {
+                    Surface(
+                        color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.22f),
+                        shape = RoundedCornerShape(8.dp),
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(top = 4.dp)
+                            .pointerInput(translation) {
+                                detectTapGestures(onTap = { showTranslation.value = false })
+                            },
+                    ) {
+                        Text(
+                            text = translation,
+                            style = MaterialTheme.typography.bodyMedium.copy(lineHeight = 20.sp),
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
+                        )
                     }
                 }
             }

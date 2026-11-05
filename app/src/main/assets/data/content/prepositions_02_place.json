@@ -13,138 +13,98 @@
       "order": 20,
       "level": "A1",
       "title": {
-        "ru": "Предлоги места: at, on, in и другие",
-        "en": "Prepositions of place: at, on, in and more"
+        "ru": "Предлоги места: at, in, on и другие",
+        "en": "Prepositions of place: at, in, on and others"
       },
       "summary": {
-        "ru": "**At** — точка, **on** — поверхность, **in** — внутри; положение объектов (**next to, behind, in front of, opposite, above/below, inside/outside**), учреждения и события, транспорт и другие употребления.",
-        "en": "**At** for a point, **on** for a surface, **in** for the inside; position relative to objects (**next to, behind, in front of, opposite, above/below, inside/outside**), institutions and events, transport and other uses."
+        "ru": "Где находится предмет: at — точка, in — внутри, on — поверхность; остальные предлоги показывают положение относительно объектов.",
+        "en": "Where something is: at = point, in = inside, on = surface; other prepositions show position relative to objects."
       },
       "sections": [
         {
           "heading": {
-            "ru": "In, at, on: внутри, точка, поверхность",
-            "en": "In, at, on: inside, a point, a surface"
+            "ru": "1. Смысл",
+            "en": "1. Meaning"
           },
           "body": {
-            "ru": "**In** — внутри объёма или территории: **in** the room, **in** the box, **in** the garden.\n**At** — точка или место события: **at** the bus stop, **at** the door, **at** the traffic lights.\n**On** — поверхность или линия: **on** the table, **on** the wall, **on** the floor.\nСравните: **in** the shop (внутри) — turn left **at** the shop (точка); **in** the bottle — **on** the bottle.",
-            "en": "**In** for being inside a space or area: **in** the room, **in** the box, **in** the garden.\n**At** for a point or the place of an event: **at** the bus stop, **at** the door, **at** the traffic lights.\n**On** for a surface or line: **on** the table, **on** the wall, **on** the floor.\nCompare: **in** the shop (inside) — turn left **at** the shop (a point); **in** the bottle — **on** the bottle."
+            "ru": "Предлог места отвечает на вопрос «где?».\nОн показывает, как предмет расположен относительно места.\nСначала определите, что это за место: точка на карте, пространство внутри или поверхность.",
+            "en": "A preposition of place answers the question “where?”.\nIt shows how an object is located relative to a place.\nFirst decide what kind of place it is: a point on the map, a space inside, or a surface."
           },
           "examples": [
-            "There is no one **in** the room.",
-            "Wait for me **at** the bus stop.",
-            "Your keys are **on** the table.",
-            "I'll meet you **in** the hotel lobby."
+            "We met at the station.",
+            "The keys are in my bag.",
+            "The book is on the table."
           ],
           "exampleTranslations": [
-            "В комнате никого нет.",
-            "Подожди меня на автобусной остановке.",
-            "Твои ключи на столе.",
-            "Я встречу тебя в холле отеля."
+            "Мы встретились на вокзале.",
+            "Ключи в моей сумке.",
+            "Книга на столе."
           ]
         },
         {
           "heading": {
-            "ru": "In, at, on: положение 2",
-            "en": "In, at, on: position 2"
+            "ru": "2. Схема",
+            "en": "2. Pattern"
           },
           "body": {
-            "ru": "**In** — ряд, газета, небо: **in** a row, **in** the newspaper, **in** the sky.\n**On** — сторона, этаж, путь: **on** the left, **on** the way, **on** a river/coast, **on** a menu/list/page/website, **on** the front/back of an envelope.\n**At** — **at** the top/bottom/end of the street; **in the north of** a country.\n**At/on the corner**, **in the middle of**; части объекта: **in** the front of a car, **at** the back of a building.",
-            "en": "**In** — a row, a newspaper, the sky: **in** a row, **in** the newspaper.\n**On** — a side, a floor, the way: **on** the left, **on** the way, **on** a river/coast, **on** a menu/page/website, **on** the front/back of an envelope.\n**At** — **at** the top/bottom/end of the street; **in the north of** a country.\n**At/on the corner**, **in the middle of**; objects: **in** the front of a car, **at** the back of a building."
+            "ru": "at — точка: at the door · at the station · at work\nin — внутри: in the room · in Madrid · in the car\non — поверхность: on the table · on the wall · on the bus\non — линия или страница: on the page · on the map · on the river\nin — часть места: in the corner · in the middle · in the north\nat — событие или дом: at the party · at the doctor's · at my aunt's",
+            "en": "at — a point: at the door · at the station · at work\nin — inside: in the room · in Madrid · in the car\non — a surface: on the table · on the wall · on the bus\non — a line or page: on the page · on the map · on the river\nin — a part of a place: in the corner · in the middle · in the north\nat — an event or a home: at the party · at the doctor's · at my aunt's"
           },
           "examples": [
-            "Write your name **at** the top of the page.",
-            "Amy works **in** the sales department.",
-            "Our flat is **on** the second floor.",
-            "The garden is **at** the back of the house.",
-            "We had a picnic **on** the river bank.",
-            "I read the news **on** the website."
+            "Wait at the entrance.",
+            "She lives in Madrid.",
+            "The cup is on the table."
           ],
           "exampleTranslations": [
-            "Напишите своё имя вверху страницы.",
-            "Эми работает в отделе продаж.",
-            "Наша квартира на втором этаже.",
-            "Сад в задней части дома.",
-            "Мы устроили пикник на берегу реки.",
-            "Я прочитал новости на сайте."
+            "Подождите у входа.",
+            "Она живёт в Мадриде.",
+            "Чашка на столе."
           ]
         },
         {
           "heading": {
-            "ru": "In, at, on: учреждения, события, транспорт",
-            "en": "In, at, on: institutions, events, transport"
+            "ru": "3. Сравни",
+            "en": "3. Compare"
           },
           "body": {
-            "ru": "**In** bed / hospital / prison — участник ситуации.\n**At** home / work / school / university; **at** a party / concert / meeting.\n**At** somebody's house, **at** the doctor's, **at** the station/airport.\nЗдания: **at** — точка, **in** — внутри.\n**In** city/town; **at** — точка маршрута.\nТранспорт: **on** a bus/train/plane; **on** a bike/horse; **in** a car/taxi.",
-            "en": "**In** bed / hospital / prison — as a participant.\n**At** home / work / school / university; **at** a party / concert / meeting.\n**At** somebody's house, **at** the doctor's, **at** the station/airport.\nBuildings: **at** for a point, **in** for the inside.\n**In** city/town; **at** for a stop on a route.\nTransport: **on** a bus/train/plane; **on** a bike/horse; **in** a car/taxi."
+            "ru": "at the station — место встречи, точка; in the station — внутри здания\nat the party — событие; in the room — внутри комнаты\non the bus — поездка на транспорте; in the car — внутри машины",
+            "en": "at the station = meeting point; in the station = inside the building\nat the party = event; in the room = inside the room\non the bus = travelling by bus; in the car = inside the car"
           },
           "examples": [
-            "My brother is still **at** school.",
-            "We met **at** a party.",
-            "She lives **in** a small village.",
-            "There were too many people **on** the bus.",
-            "We stayed **at** my aunt's house.",
-            "I'll meet you **at** the station."
+            "I'll meet you at the station.",
+            "There is a café in the station.",
+            "We were on the bus for an hour.",
+            "The children are in the car."
           ],
           "exampleTranslations": [
-            "Мой брат ещё учится в школе.",
-            "Мы познакомились на вечеринке.",
-            "Она живёт в маленькой деревне.",
-            "В автобусе было слишком много людей.",
-            "Мы остановились у тёти.",
-            "Я встречу тебя на вокзале."
+            "Я встречу тебя на вокзале.",
+            "На вокзале есть кафе.",
+            "Мы ехали на автобусе час.",
+            "Дети в машине."
           ]
         },
         {
           "heading": {
-            "ru": "In, on, at: другие употребления",
-            "en": "In, on, at: other uses"
+            "ru": "4. Остальные предлоги",
+            "en": "4. Other prepositions"
           },
           "body": {
-            "ru": "**In**: in the sun, in the shade, in the dark, in the rain — на солнце, в тени, под дождём; **in** Russian — по-русски; **in** a mood; **in love** — влюблён; **in** a currency — в валюте.\n**On** TV/radio/phone; **on** fire; **on** purpose — нарочно; **on** the whole — в целом; **on** holiday/trip/tour/cruise/business/diet.\n**For**: **for a holiday** — на отдых.\n**At** the age of 16; **at** 100 degrees — при 100 градусах.",
-            "en": "**In**: in the sun, in the shade, in the dark, in the rain; **in** Russian; **in** a mood; **in love**; **in** a currency.\n**On** TV/radio/phone; **on** fire; **on** purpose; **on** the whole; **on** holiday/trip/tour/cruise/business/diet.\n**For**: **for a holiday**.\n**At** the age of 16; **at** 100 degrees."
+            "ru": "next to / beside / by — рядом\nbetween — между двумя\namong — среди многих\nopposite — напротив\nin front of / behind — перед / за\nabove / below, over / under — выше / ниже\ninside / outside — внутри / снаружи\nin the middle of — посередине\nin the north of — на севере",
+            "en": "next to / beside / by — near\nbetween — between two\namong — among many\nopposite — opposite\nin front of / behind — in front / behind\nabove / below, over / under — higher / lower\ninside / outside — inside / outside\nin the middle of — in the middle\nin the north of — in the north"
           },
           "examples": [
-            "Don't go out **in** the rain.",
-            "I heard the news **on** the radio.",
-            "My uncle is away **on** business.",
-            "Water boils **at** 100 degrees.",
-            "She is **in** love.",
-            "They are **on** a tour of Italy."
+            "The bank is next to the café.",
+            "The post office is opposite the cinema.",
+            "The car park is behind the hotel.",
+            "A lamp hangs above the table.",
+            "The cat is **under** the table."
           ],
           "exampleTranslations": [
-            "Не выходи из дома под дождь.",
-            "Я услышал новости по радио.",
-            "Мой дядя уехал в командировку.",
-            "Вода кипит при 100 градусах.",
-            "Она влюблена.",
-            "Они в туре по Италии."
-          ]
-        },
-        {
-          "heading": {
-            "ru": "Положение относительно объектов",
-            "en": "Position relative to objects"
-          },
-          "body": {
-            "ru": "**Рядом:** **next to**, **beside**, **by** (= рядом: **by** the door).\n**Сзади и спереди:** **behind**, **in front of**.\n**С другой стороны:** **opposite**.\n**Выше и ниже:** **above** (не касаясь), **below**; **over/under**.\n**Внутри и снаружи:** **inside**, **outside**.\n**В середине:** **in the middle of**; **between**, **among**.",
-            "en": "**Near:** **next to**, **beside**, **by** (= beside: **by** the door).\n**Back and front:** **behind**, **in front of**.\n**On the other side:** **opposite**.\n**Higher and lower:** **above** (not touching), **below**; **over/under**.\n**Inside and outside:** **inside**, **outside**.\n**In the middle:** **in the middle of**; **between**, **among**."
-          },
-          "examples": [
-            "Our house is **next to** the bakery.",
-            "The car park is **behind** the hotel.",
-            "A bus stop is **in front of** the museum.",
-            "The post office is **opposite** the cinema.",
-            "A lamp hangs **above** the table.",
-            "There is a small fountain **in the middle of** the square."
-          ],
-          "exampleTranslations": [
-            "Наш дом рядом с пекарней.",
-            "Парковка за отелем.",
-            "Перед музеем есть автобусная остановка.",
+            "Банк рядом с кафе.",
             "Почта напротив кинотеатра.",
+            "Парковка за отелем.",
             "Над столом висит лампа.",
-            "Посреди площади есть маленький фонтан."
+            "Кошка под столом."
           ]
         }
       ]

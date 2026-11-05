@@ -1,0 +1,20 @@
+# Design recheck — IlTa 3.4 «Схема» block (variant A)
+
+**Score: 9/10 — target met.** Both blockers from `docs/design-review-3.4.md` are fixed in the new schema renderer and content: rows are now a two-column layout (**label + Russian sense on the left**, English collocations as separate chips on the right, no row-to-row wrapping inside a collocation), and the three preposition themes use one identical row template. The `250_time_scheme_chips.png` capture (post-fix, 14:14) confirms the time theme visually; the place/verbs themes share the same renderer and the same parsed template (verified in code/content), so the format is now consistent. One edge case and two gallery/polish notes remain — none of them blocks 9.
+
+Read-only recheck: `art/screenshots/250_time_scheme_chips.png` (new, post-fix) + `231_lesson_a.png`, `240_lesson_time.png`, `241_lesson_verbs.png` (pre-fix captures for comparison), `RuleDetailScreen.kt` (`SchemeRow`, `LessonBody`), and the schema bodies of `prepositions_01_time.json` / `prepositions_02_place.json` / `prepositions_05_verbs.json`. Only this report was written; no gradle.
+
+## Blocker closure
+
+| Prior blocker | Status | Evidence |
+|---|---|---|
+| 1 — schema rows soft-wrap mid-collocation; unindented tails read as new rows | **Fixed** | 250: each row renders as `label` (primary, 14sp semibold) + `sense` (12sp grey) in a fixed 108dp left column, and the English collocations as **individual chips** in a `FlowRow` — chips wrap only *between* chips, never inside a collocation; row background is a light `primaryContainer` block, chips are white 6dp-radius monospace tags. E.g. «at / точный момент → [at 5 o'clock] [at noon] [at night]», «on / день или дата → [on Monday] [on 16 May] [on Friday morning]». No mid-collocation split anywhere in the time schema. Code: `SchemeRow()` parses `label — sense: token · token · token` and lays tokens out as `FlowRow` children (5dp gaps), so the fix is structural, not a one-off content reflow. |
+| 2 — schema template not consistent across the three themes | **Fixed** | All three schema bodies now use exactly one row grammar: `label — Russian sense: EN collocation · EN collocation · EN collocation`: place «at — точка: at the door · at the station · at work…», time «at — точный момент: at 5 o'clock · at noon · at night…», verbs «to — адресат: talk to · listen to · explain to…». The renderer consumes that grammar generically, so labels/meanings/chips look the same in every theme. |
+
+## Remaining notes (not blocking 9)
+
+1. **One verbs chip may still wrap inside itself (verify on device / re-capture 241).** The longest token is «apply to a company for a job» (28 chars): at 12sp monospace ≈7.2dp/char + 14dp chip padding it needs ≈216dp, while the chips area after the 108dp label column + 8dp gap is ≈209dp on the 393dp screenshots — a few dp over. If the real device confirms a wrap, split the token into two chips («apply for a job» · «apply to a company») or trim the label column to 96dp. The near-limit «discuss / care what/where» (~194dp) is safely inside.
+2. **Gallery captures:** 231/240/241 are pre-fix images (13:43–13:59) — only 250 shows the new schema block. For the final set, re-capture place and verbs post-fix (the same schema block, ideally one shot showing all rows) so all three themes demonstrate the approved format.
+3. **Optional polish on 250:** the 108dp label column makes longer senses wrap into two lines («длительный период», «начало и длительность», «срок и период»), which lets some rows grow taller than their neighbours; shortening the senses to one line («длительность», «старт и длина», «срок») would give an even row rhythm. The single trailing chips («at night», «in the morning», «on Friday morning») are inherent to a ragged-right FlowRow and read fine.
+
+**Bottom line:** 9/10 — both schema blockers are fixed and the approved variant A format now holds across the themes; only the one long verbs chip needs a device check (split it if it wraps) and the place/verbs captures should be refreshed for the gallery. That would put the format at 9.5.
