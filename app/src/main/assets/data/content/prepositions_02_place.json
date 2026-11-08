@@ -17,8 +17,8 @@
         "en": "Prepositions of place: at, in, on and others"
       },
       "summary": {
-        "ru": "Где находится предмет: at — точка, in — внутри, on — поверхность; остальные предлоги показывают положение относительно объектов.",
-        "en": "Where something is: at = point, in = inside, on = surface; other prepositions show position relative to objects."
+        "ru": "Где находится предмет: at — точка, in — внутри, on — поверхность; рядом, между, напротив, перед и за, выше и ниже, внутри и снаружи.",
+        "en": "Where an object is: at — a point, in — inside, on — a surface; next to, between, opposite, in front of, behind, above, below, inside and outside."
       },
       "sections": [
         {
@@ -43,8 +43,8 @@
         },
         {
           "heading": {
-            "ru": "2. Схема",
-            "en": "2. Pattern"
+            "ru": "2. At, in, on: точка, внутри, поверхность",
+            "en": "2. At, in, on: a point, inside, a surface"
           },
           "body": {
             "ru": "at — точка: at the door · at the station · at work\nin — внутри: in the room · in Madrid · in the car\non — поверхность: on the table · on the wall · on the bus\non — линия или страница: on the page · on the map · on the river\nin — часть места: in the corner · in the middle · in the north\nat — событие или дом: at the party · at the doctor's · at my aunt's",
@@ -53,40 +53,22 @@
           "examples": [
             "Wait at the entrance.",
             "She lives in Madrid.",
-            "The cup is on the table."
+            "The cup is on the table.",
+            "There is a boat **on** the river.",
+            "The shop is **at** the corner."
           ],
           "exampleTranslations": [
             "Подождите у входа.",
             "Она живёт в Мадриде.",
-            "Чашка на столе."
+            "Чашка на столе.",
+            "На реке лодка.",
+            "Магазин на углу."
           ]
         },
         {
           "heading": {
-            "ru": "3. Сравни",
-            "en": "3. Compare"
-          },
-          "body": {
-            "ru": "at the station — место встречи, точка; in the station — внутри здания\nat the party — событие; in the room — внутри комнаты\non the bus — поездка на транспорте; in the car — внутри машины",
-            "en": "at the station = meeting point; in the station = inside the building\nat the party = event; in the room = inside the room\non the bus = travelling by bus; in the car = inside the car"
-          },
-          "examples": [
-            "I'll meet you at the station.",
-            "There is a café in the station.",
-            "We were on the bus for an hour.",
-            "The children are in the car."
-          ],
-          "exampleTranslations": [
-            "Я встречу тебя на вокзале.",
-            "На вокзале есть кафе.",
-            "Мы ехали на автобусе час.",
-            "Дети в машине."
-          ]
-        },
-        {
-          "heading": {
-            "ru": "4. Остальные предлоги",
-            "en": "4. Other prepositions"
+            "ru": "3. Положение относительно объектов",
+            "en": "3. Position relative to objects"
           },
           "body": {
             "ru": "next to / beside / by — рядом\nbetween — между двумя\namong — среди многих\nopposite — напротив\nin front of / behind — перед / за\nabove / below, over / under — выше / ниже\ninside / outside — внутри / снаружи\nin the middle of — посередине\nin the north of — на севере",
@@ -105,6 +87,28 @@
             "Парковка за отелем.",
             "Над столом висит лампа.",
             "Кошка под столом."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "4. Сравни",
+            "en": "4. Compare"
+          },
+          "body": {
+            "ru": "at the station — место встречи, точка; in the station — внутри здания\nat the party — событие; in the room — внутри комнаты\non the bus — поездка на транспорте; in the car — внутри машины",
+            "en": "at the station = meeting point; in the station = inside the building\nat the party = event; in the room = inside the room\non the bus = travelling by bus; in the car = inside the car"
+          },
+          "examples": [
+            "I'll meet you at the station.",
+            "There is a café in the station.",
+            "We were on the bus for an hour.",
+            "The children are in the car."
+          ],
+          "exampleTranslations": [
+            "Я встречу тебя на вокзале.",
+            "На вокзале есть кафе.",
+            "Мы ехали на автобусе час.",
+            "Дети в машине."
           ]
         }
       ]

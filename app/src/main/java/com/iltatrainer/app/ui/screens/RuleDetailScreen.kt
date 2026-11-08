@@ -254,7 +254,8 @@ private fun LessonBody(section: RuleSection) {
     val body = section.body.localized()
     if (body.isBlank()) return
     when {
-        heading.contains("Схема", ignoreCase = true) || heading.contains("Pattern", ignoreCase = true) -> {
+        heading.contains("Схема", ignoreCase = true) || heading.contains("Pattern", ignoreCase = true) ||
+            (body.contains(" · ") && body.contains(" — ")) -> {
             Surface(
                 color = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.35f),
                 shape = RoundedCornerShape(10.dp),

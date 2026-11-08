@@ -17,8 +17,8 @@
         "en": "Prepositions of time: at, on, in, by, until"
       },
       "summary": {
-        "ru": "Время как точка, день или период: at — точный момент, on — день и дата, in — длительный промежуток; by, until, since, for, during и while уточняют срок и длительность.",
-        "en": "Time as a point, a day or a period: at — an exact moment, on — a day or date, in — a longer period; by, until, since, for, during and while show deadlines and duration."
+        "ru": "Время как точка, день или период: at — точный момент, on — день и дата, in — длительный промежуток; by, until, since, for, during, while — срок и длительность; устойчивые выражения времени.",
+        "en": "Time as a point, a day or a period: at — an exact moment, on — a day or date, in — a longer period; by, until, since, for, during, while — deadlines and duration; fixed time expressions."
       },
       "sections": [
         {
@@ -43,32 +43,58 @@
         },
         {
           "heading": {
-            "ru": "2. Схема",
-            "en": "2. Pattern"
+            "ru": "2. At, on, in: точка, день, период",
+            "en": "2. At, on, in: a point, a day, a period"
           },
           "body": {
-            "ru": "at — точный момент: at 5 o'clock · at noon · at night\non — день или дата: on Monday · on 16 May · on Friday morning\nin — длительный период: in July · in 2025 · in the morning\nby / until / during — срок и период: by Friday · until nine · during the lesson\nsince / for — начало и длительность: since 2018 · for two hours\nlast / next / this — без предлога: last week · next Friday · this morning",
-            "en": "at — an exact moment: at 5 o'clock · at noon · at night\non — a day or date: on Monday · on 16 May · on Friday morning\nin — a longer period: in July · in 2025 · in the morning\nby / until / during — a deadline or period: by Friday · until nine · during the lesson\nsince / for — a start point or duration: since 2018 · for two hours\nlast / next / this — no preposition: last week · next Friday · this morning"
+            "ru": "at — точка: at 5 o'clock · at noon · at night\non — день или дата: on Monday · on 16 May · on Friday morning\nin — период: in July · in 2025 · in the morning\nlast / next / this — без предлога: last week · next Friday · this morning",
+            "en": "at — a point: at 5 o'clock · at noon · at night\non — a day or date: on Monday · on 16 May · on Friday morning\nin — a period: in July · in 2025 · in the morning\nlast / next / this — no preposition: last week · next Friday · this morning"
+          },
+          "examples": [
+            "The film starts **at** eight o'clock.",
+            "We have lunch **at** noon.",
+            "Her birthday is **on** 3 June.",
+            "The course starts **in** July.",
+            "The new library opened **in** 2025."
+          ],
+          "exampleTranslations": [
+            "Фильм начинается в восемь часов.",
+            "Мы обедаем в полдень.",
+            "Её день рождения третьего июня.",
+            "Курс начинается в июле.",
+            "Новая библиотека открылась в 2025 году."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "3. Сроки и длительность: by, until, since, for, during, while",
+            "en": "3. Deadlines and duration: by, until, since, for, during, while"
+          },
+          "body": {
+            "ru": "by — не позже срока: by Friday · by Monday\nuntil — до момента: until nine · until midnight\nsince — с начала: since 2018 · since Monday\nfor — длительность: for two hours · for a week\nduring — внутри периода: during the lesson · during the film\nwhile — с предложением: while waiting · while I was reading",
+            "en": "by — not later than: by Friday · by Monday\nuntil — up to a moment: until nine · until midnight\nsince — from a start point: since 2018 · since Monday\nfor — duration: for two hours · for a week\nduring — inside a period: during the lesson · during the film\nwhile — with a clause: while waiting · while I was reading"
           },
           "examples": [
             "I will be back **in** two hours.",
             "Please send the report **by** Friday.",
             "The shop stays open **until** nine.",
             "I have lived here **for** five years and worked here **since** 2018.",
-            "I fell asleep **during** the lesson."
+            "I fell asleep **during** the lesson.",
+            "**While** we were waiting, the train left."
           ],
           "exampleTranslations": [
             "Я вернусь через два часа.",
             "Пожалуйста, пришлите отчёт не позднее пятницы.",
             "Магазин открыт до девяти.",
             "Я живу здесь пять лет и работаю здесь с 2018 года.",
-            "Я заснул во время урока."
+            "Я заснул во время урока.",
+            "Пока мы ждали, поезд ушёл."
           ]
         },
         {
           "heading": {
-            "ru": "3. Сравни",
-            "en": "3. Compare"
+            "ru": "4. Сравни",
+            "en": "4. Compare"
           },
           "body": {
             "ru": "**at night** — ночью вообще, **in the night** — в конкретную ночь\n**in the morning** — утром вообще, **on Friday morning** — в пятницу утром\n**on time** — по расписанию, **in time** — рано, чтобы успеть\n**at the end of** — в конце чего-то, **in the end** — в итоге\n**in two hours** — через два часа, **for two hours** — два часа подряд",
@@ -79,38 +105,40 @@
             "I'll see you **on** Friday morning.",
             "The train left **on time**.",
             "**In the end**, we chose the cheaper flat.",
-            "**While** we were waiting, the train left."
+            "She woke up **in** the night.",
+            "We arrived just **in time** for the film."
           ],
           "exampleTranslations": [
             "Увидимся утром.",
             "Увидимся в пятницу утром.",
             "Поезд отправился вовремя.",
             "В конце концов мы выбрали квартиру подешевле.",
-            "Пока мы ждали, поезд ушёл."
+            "Она проснулась посреди ночи.",
+            "Мы приехали как раз вовремя, чтобы успеть на фильм."
           ]
         },
         {
           "heading": {
-            "ru": "4. Остальные случаи",
-            "en": "4. Other cases"
+            "ru": "5. Устойчивые выражения времени",
+            "en": "5. Fixed time expressions"
           },
           "body": {
             "ru": "**at the moment / at the minute / at present / at this time** — сейчас\n**at the same time** — одновременно; **at the weekend** — на выходных\n**at Christmas**, но **on Christmas Day**; **on Fridays**\n**in the 1990s**, **in the past**; **in four weeks** — за четыре недели\n**by the time** + момент: к тому времени, когда\n**on** можно опустить: I'll see you Friday",
             "en": "**at the moment / at the minute / at present / at this time** = now\n**at the same time**; **at the weekend**\n**at Christmas**, but **on Christmas Day**; **on Fridays**\n**in the 1990s**, **in the past**; **in four weeks** = how long it takes\n**by the time** + a moment\n**on** can be left out: I'll see you Friday"
           },
           "examples": [
-            "She woke up **in** the night.",
             "We often go out **at** the weekend.",
             "My parents met **in** the 1990s.",
             "The manager is busy **at** the minute.",
-            "People lived in caves **in** the past."
+            "People lived in caves **in** the past.",
+            "I'll see you **Friday**."
           ],
           "exampleTranslations": [
-            "Она проснулась посреди ночи.",
             "Мы часто куда-нибудь ходим на выходных.",
             "Мои родители познакомились в 1990-х.",
             "Менеджер сейчас занят.",
-            "В прошлом люди жили в пещерах."
+            "В прошлом люди жили в пещерах.",
+            "Увидимся в пятницу."
           ]
         }
       ]

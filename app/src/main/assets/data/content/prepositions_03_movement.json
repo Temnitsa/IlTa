@@ -17,8 +17,8 @@
         "en": "Prepositions of movement and direction"
       },
       "summary": {
-        "ru": "Куда движется предмет: to — цель, into — внутрь, onto — на поверхность, out of — наружу, off — с поверхности; остальные предлоги показывают путь или способ передвижения.",
-        "en": "Where something moves: to — the goal, into — inside, onto — onto a surface, out of — outside, off — away from a surface; other prepositions show the path or means."
+        "ru": "Куда и как движется предмет: to, into, onto, out of, off — направление; through, across, along, over, under, towards, past, around — путь; by, in, on, on foot — способ передвижения.",
+        "en": "Where and how something moves: to, into, onto, out of, off — direction; through, across, along, over, under, towards, past, around — the path; by, in, on, on foot — the means of movement."
       },
       "sections": [
         {
@@ -27,90 +27,122 @@
             "en": "1. Meaning"
           },
           "body": {
-            "ru": "Предлоги движения отвечают на вопрос «куда?».\n**to** — цель или конечная точка.\n**into** — внутрь, **onto** — на поверхность, **out of** — наружу, **off** — с поверхности.\n**through, across, along, over, under, towards, past, around/round** — путь.\n**by** — способ передвижения.",
-            "en": "Prepositions of movement answer the question “where to?”.\n**to** — the goal or the end point.\n**into** — inside, **onto** — onto a surface, **out of** — outside, **off** — away from a surface.\n**through, across, along, over, under, towards, past, around/round** — the path.\n**by** — the means of transport."
+            "ru": "Предлоги движения отвечают на вопрос «куда?».\n**to** — цель или конечная точка.\n**into** — внутрь, **onto** — на поверхность, **out of** — наружу, **off** — с поверхности.\n**through, across, along, over, under, towards, past, around/round** — путь.\n**by, in, on, on foot** — способ передвижения.",
+            "en": "Prepositions of movement answer the question “where to?”.\n**to** — the goal or the end point.\n**into** — inside, **onto** — onto a surface, **out of** — outside, **off** — away from a surface.\n**through, across, along, over, under, towards, past, around/round** — the path.\n**by, in, on, on foot** — the means of movement."
           },
           "examples": [
             "We are going **to** Italy next summer.",
             "She went **into** the room and closed the door.",
-            "I usually go to work **by** bus."
+            "I've been **to** Paris twice."
           ],
           "exampleTranslations": [
             "Следующим летом мы едем в Италию.",
             "Она вошла в комнату и закрыла дверь.",
-            "Обычно я езжу на работу на автобусе."
+            "Я дважды был в Париже."
           ]
         },
         {
           "heading": {
-            "ru": "2. Схема",
-            "en": "2. Pattern"
+            "ru": "2. Куда: to, into, onto, out of, off",
+            "en": "2. Where to: to, into, onto, out of, off"
           },
           "body": {
-            "ru": "to — цель и маршрут: go to Italy · from the airport to the hotel\narrive in / at — прибытие: arrive in Madrid · arrive at the airport\nget to / home — добраться: get to the station · go home\ninto / out of — вход и выход: go into the room · get out of the car\non / off — транспорт: get on the bus · get off the train\nby / in / on — способ: by car · in my car · on foot",
-            "en": "to — a goal and a route: go to Italy · from the airport to the hotel\narrive in / at — arrival: arrive in Madrid · arrive at the airport\nget to / home — reaching a place: get to the station · go home\ninto / out of — entering and leaving: go into the room · get out of the car\non / off — transport: get on the bus · get off the train\nby / in / on — the means: by car · in my car · on foot"
+            "ru": "to / been to — цель и опыт: go to Italy · been to Paris\narrive in / at — прибытие: arrive in Madrid · arrive at the airport\nget to / home — добраться: get to the station · go home\ninto — внутрь: go into the room · get into the car\nonto — на поверхность: climb onto the roof · jump onto the table\nout of — наружу: get out of the car · walk out of the building\noff — с поверхности: get off the train · fall off the bike",
+            "en": "to / been to — goal and experience: go to Italy · been to Paris\narrive in / at — arrival: arrive in Madrid · arrive at the airport\nget to / home — reaching: get to the station · go home\ninto — inside: go into the room · get into the car\nonto — onto a surface: climb onto the roof · jump onto the table\nout of — outside: get out of the car · walk out of the building\noff — away from a surface: get off the train · fall off the bike"
           },
           "examples": [
             "They arrived **in** Madrid late at night.",
             "We arrived **at** the airport early.",
             "What time did you get **home**?",
-            "I've been **to** Paris twice.",
-            "We travelled **on** the 6.45 train."
+            "He put the box **onto** the top shelf.",
+            "He got **out of** the car and walked away.",
+            "Get **off** the train at the next stop."
           ],
           "exampleTranslations": [
             "Они приехали в Мадрид поздно ночью.",
             "Мы приехали в аэропорт рано.",
             "Во сколько ты добрался домой?",
-            "Я дважды был в Париже.",
-            "Мы ехали на поезде в 6:45."
+            "Он поставил коробку на верхнюю полку.",
+            "Он вышел из машины и ушёл.",
+            "Выйдите из поезда на следующей остановке."
           ]
         },
         {
           "heading": {
-            "ru": "3. Сравни",
-            "en": "3. Compare"
+            "ru": "3. Какой путь: through, across, along, over, under, towards, past, around",
+            "en": "3. Which path: through, across, along, over, under, towards, past, around"
           },
           "body": {
-            "ru": "**go to** France — **live in** France: движение и положение\n**come to** the party — **see you at** the party\n**get into** the car — **get out of** the car\n**get on** the bus — **get off** the bus\n**by train** — **on the train**; **by** — способ, **with** — инструмент",
-            "en": "**go to** France — **live in** France: movement and position\n**come to** the party — **see you at** the party\n**get into** the car — **get out of** the car\n**get on** the bus — **get off** the bus\n**by train** — **on the train**; **by** a method, **with** an instrument"
+            "ru": "through — сквозь: through the tunnel · through the city\nacross — поперёк: across the river · across the street\nalong — вдоль: along the beach · along the path\nover / under — над и под: over the fence · under the bridge\ntowards — к: towards the station · towards the exit\npast — мимо: past the house · past the shop\naround / round — вокруг: around the lake · round the world",
+            "en": "through — through: through the tunnel · through the city\nacross — across: across the river · across the street\nalong — along: along the beach · along the path\nover / under — above and below: over the fence · under the bridge\ntowards — towards: towards the station · towards the exit\npast — past: past the house · past the shop\naround / round — around: around the lake · round the world"
           },
           "examples": [
-            "He got **out of** the car and walked away.",
-            "We got **on** the bus at the station.",
-            "Get **off** the train at the next stop.",
-            "They came **in** a taxi.",
-            "The door was opened **with** a key."
+            "We walked **through** the tunnel.",
+            "They swam **across** the river.",
+            "The dog jumped **over** the fence.",
+            "She walked **towards** the station.",
+            "The path runs **along** the river.",
+            "The bus drove **past** our house."
           ],
           "exampleTranslations": [
-            "Он вышел из машины и ушёл.",
-            "Мы сели в автобус на станции.",
-            "Выйдите из поезда на следующей остановке.",
-            "Они приехали на такси.",
-            "Дверь открыли ключом."
+            "Мы прошли через туннель.",
+            "Они переплыли реку.",
+            "Собака перепрыгнула через забор.",
+            "Она пошла к станции.",
+            "Тропинка тянется вдоль реки.",
+            "Автобус проехал мимо нашего дома."
           ]
         },
         {
           "heading": {
-            "ru": "4. Остальные случаи",
-            "en": "4. Other cases"
+            "ru": "4. Как передвигаемся: by, in, on, on foot",
+            "en": "4. How we travel: by, in, on, on foot"
           },
           "body": {
-            "ru": "**by mistake / by accident / by chance** — без артикля\n**on purpose** — намеренно; **by** Shakespeare — автор\n**by** = рядом: **by** the door; increased **by** ten per cent\n**by post / by email / by card / by hand**; pay **cash**\nпассив: done **by** somebody",
-            "en": "**by mistake / by accident / by chance** with no article\n**on purpose** deliberately; **by** Shakespeare — the author\n**by** = beside: **by** the door; increased **by** ten per cent\n**by post / by email / by card / by hand**; pay **cash**\npassive: done **by** somebody"
+            "ru": "by — транспорт: by car · by train · by bus\nin — машина и такси: in my car · in a taxi\non — автобус и поезд: on the bus · on the train\non foot — пешком: on foot · go on foot",
+            "en": "by — transport: by car · by train · by bus\nin — cars and taxis: in my car · in a taxi\non — buses and trains: on the bus · on the train\non foot — walking: on foot · go on foot"
+          },
+          "examples": [
+            "I usually go to work **by** bus.",
+            "We travelled **on** the 6.45 train.",
+            "We got **on** the bus at the station.",
+            "They came **in** a taxi.",
+            "Did you come here **by** car or **on foot**?",
+            "We crossed the lake **by** boat."
+          ],
+          "exampleTranslations": [
+            "Обычно я езжу на работу на автобусе.",
+            "Мы ехали на поезде в 6:45.",
+            "Мы сели в автобус на станции.",
+            "Они приехали на такси.",
+            "Ты приехал сюда на машине или пришёл пешком?",
+            "Мы переплыли озеро на лодке."
+          ]
+        },
+        {
+          "heading": {
+            "ru": "5. By: способ, автор, место",
+            "en": "5. By: method, author, place"
+          },
+          "body": {
+            "ru": "by mistake / by accident / by chance — случайно: by mistake · by chance\non purpose — намеренно: do it on purpose · say it on purpose\nby — автор: a play by Shakespeare · a song by Lennon\nby — рядом: by the door · by the window\nby — разница: by ten per cent · by five metres\nby post / by card / by hand — способ: by post · by hand\nby — пассив: done by somebody · made by hand\nwith — инструмент: opened with a key · cut with a knife",
+            "en": "by mistake / by accident / by chance — by accident: by mistake · by chance\non purpose — deliberately: do it on purpose · say it on purpose\nby — author: a play by Shakespeare · a song by Lennon\nby — near: by the door · by the window\nby — difference: by ten per cent · by five metres\nby post / by card / by hand — the method: by post · by hand\nby — passive: done by somebody · made by hand\nwith — the instrument: opened with a key · cut with a knife"
           },
           "examples": [
             "We met **by** chance at the station.",
             "I didn't break the glass **on purpose**.",
             "Have you read any poems **by** Shakespeare?",
             "Come and sit **by** me.",
-            "The box was opened **by** a child."
+            "The box was opened **by** a child.",
+            "The door was opened **with** a key."
           ],
           "exampleTranslations": [
             "Мы случайно встретились на вокзале.",
             "Я не разбивал стакан нарочно.",
             "Ты читал какие-нибудь стихи Шекспира?",
             "Подойди и сядь рядом со мной.",
-            "Коробку открыл ребёнок."
+            "Коробку открыл ребёнок.",
+            "Дверь открыли ключом."
           ]
         }
       ]
