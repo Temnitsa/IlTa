@@ -41,7 +41,7 @@ class SessionBuilderTest {
             random = Random(42),
         )
         assertEquals(3, result.size)
-        assertEquals(3, result.map { it.id }.toSet().size)
+        assertEquals(3, result.map { it.question.id }.toSet().size)
     }
 
     @Test
@@ -64,7 +64,7 @@ class SessionBuilderTest {
             random = Random(1),
         )
         assertEquals(2, result.size)
-        assertTrue(result.all { it.ruleId == "rule-b" })
+        assertTrue(result.all { it.question.ruleId == "rule-b" })
     }
 
     @Test
@@ -82,9 +82,9 @@ class SessionBuilderTest {
             random = Random(5),
         )
         assertEquals(4, result.size)
-        assertTrue(result.any { it.id == "m1" })
-        assertEquals(3, result.count { it.id != "m1" })
-        assertTrue(result.filter { it.id != "m1" }.all { it.ruleId == "rule-a" })
+        assertTrue(result.any { it.question.id == "m1" })
+        assertEquals(3, result.count { it.question.id != "m1" })
+        assertTrue(result.filter { it.question.id != "m1" }.all { it.question.ruleId == "rule-a" })
         assertEquals(1, SessionBuilder.openMistakeCount(state))
         assertFalse(SessionBuilder.openMistakes(state).isEmpty())
     }
@@ -133,9 +133,9 @@ class SessionBuilderTest {
             random = Random(3),
         )
         assertEquals(4, result.size)
-        assertTrue(result.any { it.id == "nurse-original" })
-        assertTrue("similar nurse questions expected, got ${result.map { it.id }}",
-            result.any { it.id == "nurse-similar" } && result.any { it.id == "nurse-door" })
+        assertTrue(result.any { it.question.id == "nurse-original" })
+        assertTrue("similar nurse questions expected, got ${result.map { it.question.id }}",
+            result.any { it.question.id == "nurse-similar" } && result.any { it.question.id == "nurse-door" })
     }
 
     @Test
@@ -158,7 +158,7 @@ class SessionBuilderTest {
             state = ProgressState(),
             random = Random(11),
         )
-        assertEquals(listOf("q5", "q1"), result.map { it.id })
+        assertEquals(listOf("q5", "q1"), result.map { it.question.id })
     }
 
     @Test
@@ -180,8 +180,8 @@ class SessionBuilderTest {
             random = Random(6),
         )
         assertEquals(30, result.size)
-        assertEquals(15, result.count { it.type == "choice" })
-        assertEquals(15, result.count { it.type == "build" })
+        assertEquals(15, result.count { it.question.type == "choice" })
+        assertEquals(15, result.count { it.question.type == "build" })
     }
 
     @Test
@@ -194,12 +194,12 @@ class SessionBuilderTest {
             random = Random(4),
         )
         assertEquals(30, result.size)
-        assertEquals(30, result.count { it.type == "choice" })
-        assertEquals(30, result.map { it.id }.toSet().size)
+        assertEquals(30, result.count { it.question.type == "choice" })
+        assertEquals(30, result.map { it.question.id }.toSet().size)
     }
 
     @Test
-    fun `write session returns only choice questions`() {
+    fun `write only session types the answers of every choice question`() {
         val pool = questions + (1..3).map { index ->
             Question(
                 id = "b$index", type = "build", ruleId = "rule-a",
@@ -209,25 +209,94 @@ class SessionBuilderTest {
             )
         }
         val result = SessionBuilder.build(
-            config = SessionConfig(PracticeMode.WRITE, size = 10),
+            config = SessionConfig(PracticeMode.QUICK, size = 20, types = setOf("write")),
             questions = pool,
             state = ProgressState(),
             random = Random(9),
         )
-        assertEquals(pool.count { it.type == "choice" }, result.size)
-        assertTrue(result.all { it.isChoice })
+        assertEquals(pool.count { it.isChoice }, result.size)
+        assertTrue(result.all { it.question.isChoice })
+        assertTrue(result.all { it.typed })
+    }
+
+    @Test
+    fun `build only session never asks for typed answers`() {
+        val pool = questions + (1..3).map { index ->
+            Question(
+                id = "b$index", type = "build", ruleId = "rule-a",
+                words = listOf("I", "work", "here"),
+                answers = listOf(listOf("I", "work", "here")),
+                explanation = Bilingual(ru = "тест", en = "test"),
+            )
+        }
+        val result = SessionBuilder.build(
+            config = SessionConfig(PracticeMode.QUICK, size = 20, types = setOf("build")),
+            questions = pool,
+            state = ProgressState(),
+            random = Random(12),
+        )
+        assertEquals(3, result.size)
+        assertTrue(result.all { it.question.isBuild })
+        assertTrue(result.none { it.typed })
+    }
+
+    @Test
+    fun `choice and write split choice questions between options and typing`() {
+        val pool = (1..6).map { index -> question("c$index", "rule-a") }
+        val result = SessionBuilder.build(
+            config = SessionConfig(PracticeMode.QUICK, size = 6, types = setOf("choice", "write")),
+            questions = pool,
+            state = ProgressState(),
+            random = Random(8),
+        )
+        assertEquals(6, result.size)
+        assertEquals(3, result.count { it.typed })
+        assertEquals(3, result.count { !it.typed })
+    }
+
+    @Test
+    fun `all three types can be selected together`() {
+        val pool = (1..10).map { index -> question("c$index", "rule-a") } +
+            (1..10).map { index ->
+                Question(
+                    id = "b$index", type = "build", ruleId = "rule-a",
+                    words = listOf("I", "work", "here"),
+                    answers = listOf(listOf("I", "work", "here")),
+                    explanation = Bilingual(ru = "тест", en = "test"),
+                )
+            }
+        val result = SessionBuilder.build(
+            config = SessionConfig(
+                PracticeMode.QUICK,
+                size = 20,
+                types = setOf("choice", "write", "build"),
+            ),
+            questions = pool,
+            state = ProgressState(),
+            random = Random(2),
+        )
+        assertEquals(20, result.size)
+        assertEquals(10, result.count { it.question.isBuild })
+        assertEquals(10, result.count { it.question.isChoice })
+        assertEquals(5, result.count { it.typed })
     }
 
     @Test
     fun `write session respects selected topics`() {
         val result = SessionBuilder.build(
-            config = SessionConfig(PracticeMode.WRITE, size = 10, ruleIds = listOf("rule-b")),
+            config = SessionConfig(
+                PracticeMode.QUICK,
+                size = 10,
+                ruleIds = listOf("rule-b"),
+                types = setOf("write"),
+            ),
             questions = questions,
             state = ProgressState(),
             random = Random(10),
         )
         assertEquals(2, result.size)
-        assertTrue(result.all { it.ruleId == "rule-b" })
+        assertTrue(result.all { it.question.ruleId == "rule-b" })
+        assertTrue(result.all { it.typed })
     }
 
     @Test
@@ -242,7 +311,7 @@ class SessionBuilderTest {
             random = Random(13),
         )
         assertEquals(2, result.size)
-        assertFalse(result.any { it.id == "q1" })
+        assertFalse(result.any { it.question.id == "q1" })
     }
 
     @Test
@@ -254,7 +323,7 @@ class SessionBuilderTest {
             random = Random(21),
         )
         assertEquals(2, result.size)
-        assertTrue(result.all { it.ruleId == "rule-b" })
+        assertTrue(result.all { it.question.ruleId == "rule-b" })
     }
 
     @Test

@@ -1,656 +1,943 @@
 #!/usr/bin/env python3
 """Deterministic generator for the IlTa preposition illustrations.
 
-Renders 39 "positional" and "directional" preposition scenes in a consistent
-isometric 3D style (glossy blue cubes + glossy red spheres + red arrows,
-soft shadows, transparent background) with Pillow, at 4x supersampling,
-downsampled with LANCZOS to 512x512 RGBA PNGs.
+Renders 39 preposition scenes (22 positional + 17 directional) plus 2 aliases
+in one consistent isometric style:
+
+  * true 30 degree isometric projection (top face rhombus 1.732 : 1, vertical
+    edges equal to the cube edge -- no "squashed" cuboids),
+  * glossy deep-blue cubes with a linear gradient per face and thin light edges,
+  * glossy scarlet spheres with a radial gradient and a soft specular highlight,
+  * scarlet arrows / dashed trajectories with round caps,
+  * soft analytic shadows (radial gradient, squashed ellipses).
+
+Everything is drawn with Pillow + numpy at 3x supersampling and downsampled
+with LANCZOS to 1000x700 RGBA PNGs (10:7, transparent background).
 
 Outputs:
-  app/src/main/res/drawable-nodpi/prep_<key>.png   (39 scenes)
+  app/src/main/res/drawable-nodpi/prep_<key>.png   (41 files)
   docs/prep-art/preview.png                        (contact sheet)
 
-No network access, deterministic output (no randomness).
+Usage:
+  python3 tools/gen_prep_art.py              # everything
+  python3 tools/gen_prep_art.py --only pos_above dir_over
+  python3 tools/gen_prep_art.py --preview-only
+
+No network access, deterministic (no RNG).
 """
 import argparse
 import math
 import os
 import shutil
-import sys
 
 import numpy as np
-from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageDraw, ImageFont
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DRAWABLE_DIR = os.path.join(ROOT, "app", "src", "main", "res", "drawable-nodpi")
 DOCS_DIR = os.path.join(ROOT, "docs", "prep-art")
 
-SS = 4                      # supersampling factor
-SIZE = 512                  # final PNG size
-W = SIZE * SS               # render size
+SS = 3                       # supersampling factor
+W, H = 1000, 700             # final canvas (10:7)
+CW, CH = W * SS, H * SS
 
-# ----------------------------------------------------------------------------
-# palette (matched to the reference art)
-# ----------------------------------------------------------------------------
-TOP_C0 = (0x7D, 0xA9, 0xF9)
-TOP_C1 = (0x3A, 0x63, 0xD2)
-LEFT_C0 = (0x2C, 0x54, 0xC2)
-LEFT_C1 = (0x10, 0x21, 0x60)
-RIGHT_C0 = (0x3D, 0x73, 0xE5)
-RIGHT_C1 = (0x1B, 0x37, 0x90)
-EDGE_C = (0x0A, 0x14, 0x38, 165)
+COS30 = 0.8660254037844386
+SIN30 = 0.5
 
-RED = (0xD2, 0x2C, 0x2C)
-RED_DARK = (0x83, 0x13, 0x15)
-RED_LIGHT = (0xEE, 0x77, 0x6E)
+# ---------------------------------------------------------------------------
+# palette (spec colours)
+# ---------------------------------------------------------------------------
+TOP_C0 = (0x5F, 0x78, 0xFF)
+TOP_C1 = (0x44, 0x5A, 0xE8)
+LEFT_C0 = (0x18, 0x27, 0x9F)
+LEFT_C1 = (0x11, 0x1C, 0x86)
+RIGHT_C0 = (0x22, 0x33, 0xC4)
+RIGHT_C1 = (0x1A, 0x27, 0xAB)
+EDGE_C = (0x97, 0xA5, 0xFF)
 
-BAND_BLUE = (0x2E, 0x5C, 0xC6)
-BAND_DARK = (0x17, 0x2F, 0x7E)
-BAND_SHEEN = (0x63, 0x8F, 0xE8)
+RED = (0xE0, 0x24, 0x24)
+RED_D = (0x8C, 0x0F, 0x0F)
+RED_L = (0xFF, 0x6A, 0x5A)
 
-GLASS_SPHERE_ALPHA = 150
+BAND_C0 = (0x3A, 0x6B, 0xD8)
+BAND_C1 = (0x17, 0x2F, 0x7E)
+BAND_SHEEN = (0x6E, 0x99, 0xEE)
+BAND_EDGE = (0x10, 0x1F, 0x5A)
 
-
-# ----------------------------------------------------------------------------
-# small helpers
-# ----------------------------------------------------------------------------
-def bez(ctrl, n=64):
-    """Sample a cubic/quadratic Bezier curve given control points (512-space)."""
-    pts = []
-    m = len(ctrl) - 1
-    for i in range(n + 1):
-        t = i / n
-        p = [tuple(c) for c in ctrl]
-        for _ in range(m):
-            p = [((1 - t) * p[j][0] + t * p[j + 1][0],
-                  (1 - t) * p[j][1] + t * p[j + 1][1]) for j in range(len(p) - 1)]
-        pts.append(p[0])
-    return pts
+SHADOW_C = (25, 30, 55)
 
 
-def fill_grad(img, pts, c0, c1, v=(0.0, 1.0)):
-    """Fill a polygon with a linear gradient. `pts` in 512-space."""
-    pw = [(x * SS, y * SS) for x, y in pts]
-    xs = [p[0] for p in pw]
-    ys = [p[1] for p in pw]
-    x0 = max(0, int(math.floor(min(xs))))
-    y0 = max(0, int(math.floor(min(ys))))
-    x1 = min(W, int(math.ceil(max(xs))) + 1)
-    y1 = min(W, int(math.ceil(max(ys))) + 1)
+def _i(v):
+    return int(round(v * SS))
+
+
+# ---------------------------------------------------------------------------
+# canvas / compositing helpers
+# ---------------------------------------------------------------------------
+class Canvas:
+    def __init__(self):
+        self.img = Image.new("RGBA", (CW, CH), (0, 0, 0, 0))
+
+    def comp(self, lyr, x, y, opacity=1.0):
+        if opacity < 1.0:
+            a = lyr.getchannel("A").point(lambda v: int(round(v * opacity)))
+            lyr = lyr.copy()
+            lyr.putalpha(a)
+        self.img.alpha_composite(lyr, (int(round(x)), int(round(y))))
+
+
+def _bbox_layer(pts, pad=3):
+    xs = [p[0] for p in pts]
+    ys = [p[1] for p in pts]
+    x0 = max(0, int(math.floor(min(xs) * SS)) - pad)
+    y0 = max(0, int(math.floor(min(ys) * SS)) - pad)
+    x1 = min(CW, int(math.ceil(max(xs) * SS)) + pad)
+    y1 = min(CH, int(math.ceil(max(ys) * SS)) + pad)
     if x1 <= x0 or y1 <= y0:
+        return None
+    return x0, y0, x1 - x0, y1 - y0
+
+
+def poly_grad(cv, pts, c0, c1, v=(0.45, 0.89), alpha=1.0):
+    """Fill polygon `pts` (design coords) with a linear gradient."""
+    box = _bbox_layer(pts)
+    if box is None:
         return
-    w, h = x1 - x0, y1 - y0
+    x0, y0, w, h = box
+    P = [(p[0] * SS, p[1] * SS) for p in pts]
     mask = Image.new("L", (w, h), 0)
-    ImageDraw.Draw(mask).polygon([(p[0] - x0, p[1] - y0) for p in pw], fill=255)
-    yy, xx = np.mgrid[0:h, 0:w].astype(np.float32)
-    t = xx * v[0] + yy * v[1]
-    t = (t - t.min()) / (t.max() - t.min() + 1e-9)
+    ImageDraw.Draw(mask).polygon([(p[0] - x0, p[1] - y0) for p in P], fill=255)
+    if alpha < 1.0:
+        mask = mask.point(lambda t: int(round(t * alpha)))
+    ax = np.arange(w, dtype=np.float32) + x0
+    ay = np.arange(h, dtype=np.float32) + y0
+    proj = [p[0] * v[0] + p[1] * v[1] for p in P]
+    tmin, tmax = min(proj), max(proj)
+    T = np.clip(((ax[None, :] * v[0] + ay[:, None] * v[1]) - tmin) / (tmax - tmin + 1e-6), 0, 1)
     arr = np.empty((h, w, 4), np.uint8)
     for k in range(3):
-        arr[..., k] = np.clip(c0[k] * (1 - t) + c1[k] * t, 0, 255).astype(np.uint8)
+        arr[..., k] = np.clip(c0[k] * (1 - T) + c1[k] * T, 0, 255).astype(np.uint8)
     arr[..., 3] = 255
     tile = Image.fromarray(arr, "RGBA")
-    img.paste(tile, (x0, y0), mask)
+    tile.putalpha(mask)
+    cv.comp(tile, x0, y0)
 
 
+def stroke(cv, polylines, width, color, alpha=1.0, closed_caps=True):
+    """Draw thick polylines (design coords) with round caps."""
+    pts = [p for pl in polylines for p in pl]
+    if not pts:
+        return
+    box = _bbox_layer(pts, pad=int(width * SS) + 3)
+    if box is None:
+        return
+    x0, y0, w, h = box
+    lyr = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    d = ImageDraw.Draw(lyr)
+    fill = tuple(color) + (int(round(255 * alpha)),)
+    lw = max(1, int(round(width * SS)))
+    r = lw / 2.0
+    for pl in polylines:
+        if len(pl) < 2:
+            continue
+        P = [(p[0] * SS - x0, p[1] * SS - y0) for p in pl]
+        d.line(P, fill=fill, width=lw, joint="curve")
+        if closed_caps:
+            for p in (P[0], P[-1]):
+                d.ellipse([p[0] - r, p[1] - r, p[0] + r, p[1] + r], fill=fill)
+    cv.comp(lyr, x0, y0)
+
+
+# ---------------------------------------------------------------------------
+# sprites: sphere + shadow
+# ---------------------------------------------------------------------------
 _SPHERE_CACHE = {}
 
 
-def sphere_img(R, alpha=255):
-    """Pre-render a glossy red sphere of radius R (512-space)."""
-    key = (int(round(R * SS)), alpha)
+def sphere_sprite(R, dim=0.0):
+    key = (round(R, 2), round(dim, 3))
     if key in _SPHERE_CACHE:
         return _SPHERE_CACHE[key]
-    n = max(8, int(round(2 * R * SS)))
+    rad = R * SS
+    n = int(math.ceil(2 * rad)) + 4
     c = n / 2.0
     yy, xx = np.mgrid[0:n, 0:n].astype(np.float32)
-    dx = (xx - c) / c
-    dy = (yy - c) / c
-    r2 = dx * dx + dy * dy
+    u = (xx - c) / rad
+    v = (yy - c) / rad
+    r2 = u * u + v * v
     inside = r2 <= 1.0
     nz = np.sqrt(np.clip(1.0 - r2, 0.0, 1.0))
 
-    # diffuse shading with light from upper-left-front
-    L = np.array([-0.52, -0.62, 0.59], np.float32)
+    L = np.array([-0.42, -0.52, 0.74], np.float32)
     L /= np.linalg.norm(L)
-    diff = np.clip(dx * L[0] + dy * L[1] + nz * L[2], 0.0, 1.0)
+    lam = np.clip(u * L[0] + v * L[1] + nz * L[2], 0.0, 1.0)
+    t = lam ** 1.02
 
-    bright = np.array([0xEF, 0x4A, 0x45], np.float32)
-    dark = np.array([0x66, 0x08, 0x0C], np.float32)
-    col = dark + (bright - dark) * (diff ** 0.85)[..., None]
-    # extra warm core near the lit side
-    core = np.clip(dx * -0.55 + dy * -0.6, 0.0, 1.0) ** 2
-    col += np.array([0.10, 0.02, 0.015], np.float32) * core[..., None]
+    stops = ((0x62, 0x08, 0x08), (0xC8, 0x16, 0x16), (0xFF, 0x8C, 0x76))
+    pos = (0.0, 0.48, 1.0)
+    col = np.stack([np.interp(t, pos, [s[k] for s in stops]) for k in range(3)],
+                   axis=-1).astype(np.float32)
 
-    # white specular highlight (upper-left)
-    Hh = L + np.array([0.0, 0.0, 1.0], np.float32)
-    Hh /= np.linalg.norm(Hh)
-    spec = np.clip(dx * Hh[0] + dy * Hh[1] + nz * Hh[2], 0.0, 1.0) ** 34
-    col = col * (1.0 - 0.92 * spec[..., None]) + 255.0 * 0.92 * spec[..., None]
+    # warm core toward the light
+    core = np.exp(-(((u + 0.26) ** 2 + (v + 0.30) ** 2) / 0.24))
+    col += np.array([22, 8, 4], np.float32) * core[..., None]
 
-    # small secondary reflection lower-right
-    R2 = np.array([0.30, 0.36, 0.88], np.float32)
-    R2 /= np.linalg.norm(R2)
-    spec2 = np.clip(dx * R2[0] + dy * R2[1] + nz * R2[2], 0.0, 1.0) ** 12
-    col = col * (1.0 - 0.20 * spec2[..., None]) + \
-        np.array([255, 226, 220], np.float32) * 0.20 * spec2[..., None]
+    # specular: small hot spot + soft halo (glossy, not a white blob)
+    hs = np.exp(-(((u + 0.33) ** 2 + (v + 0.38) ** 2) / 0.0075))
+    hh_ = np.exp(-(((u + 0.31) ** 2 + (v + 0.36) ** 2) / 0.026))
+    hl = np.clip(0.60 * hs + 0.24 * hh_, 0.0, 1.0)
+    col = col * (1 - hl[..., None]) + np.array([255, 247, 243], np.float32) * hl[..., None]
 
-    # rim darkening
-    rim = (1.0 - nz) ** 2
-    col *= (1.0 - 0.45 * rim)[..., None]
+    # wide glossy band over the lit side
+    hb = np.exp(-(((u + 0.14) ** 2 / 0.20 + (v + 0.40) ** 2) / 0.26)) * 0.16
+    col = col * (1 - hb[..., None]) + np.array([255, 186, 172], np.float32) * hb[..., None]
 
-    arr = np.empty((n, n, 4), np.uint8)
+    # faint bounce light from below-right
+    br = np.exp(-(((u - 0.10) ** 2 + (v - 0.80) ** 2) / 0.070)) * 0.20
+    col = col * (1 - br[..., None]) + np.array([255, 158, 136], np.float32) * br[..., None]
+
+    # darkened rim
+    rim = np.clip((r2 - 0.76) / 0.24, 0.0, 1.0)
+    col *= (1.0 - 0.34 * rim ** 1.5)[..., None]
+
+    if dim > 0:
+        col *= (1.0 - 0.16 * dim)
+        col = col * (1.0 - 0.32 * dim) + np.array([0x2A, 0x39, 0xC0], np.float32) * 0.32 * dim
+
+    arr = np.zeros((n, n, 4), np.uint8)
     arr[..., :3] = np.clip(col, 0, 255).astype(np.uint8)
-    arr[..., 3] = (inside * alpha).astype(np.uint8)
+    arr[..., 3] = (inside * 255).astype(np.uint8)
     im = Image.fromarray(arr, "RGBA")
     _SPHERE_CACHE[key] = im
     return im
 
 
-# ----------------------------------------------------------------------------
-# scene renderer
-# ----------------------------------------------------------------------------
-class Scene:
-    def __init__(self):
-        self.img = Image.new("RGBA", (W, W), (0, 0, 0, 0))
-        self.d = ImageDraw.Draw(self.img)
-
-    def composite(self, lyr, pos=(0, 0)):
-        self.img.alpha_composite(lyr, pos)
-        self.d = ImageDraw.Draw(self.img)
-
-    # -- soft shadows --------------------------------------------------------
-    def soft_ellipse(self, center, rx, ry, alpha=80, blur=12,
-                     color=(18, 24, 46), angle=0.0):
-        pad = blur * 2.3
-        x0 = int(round((center[0] - rx - pad) * SS))
-        y0 = int(round((center[1] - ry - pad) * SS))
-        w = int(round(2 * (rx + pad) * SS))
-        h = int(round(2 * (ry + pad) * SS))
-        if w <= 2 or h <= 2:
-            return
-        lyr = Image.new("RGBA", (w, h), (0, 0, 0, 0))
-        d = ImageDraw.Draw(lyr)
-        d.ellipse([pad * SS, pad * SS, (pad + 2 * rx) * SS, (pad + 2 * ry) * SS],
-                  fill=color + (alpha,))
-        lyr = lyr.filter(ImageFilter.GaussianBlur(blur * SS))
-        self.composite(lyr, (x0, y0))
-
-    # -- sphere --------------------------------------------------------------
-    def sphere(self, center, R, alpha=255, shadow=False):
-        if shadow:
-            self.soft_ellipse((center[0] + 6, center[1] + R * 0.94),
-                              R * 0.98, R * 0.30, alpha=78, blur=10)
-        im = sphere_img(R, alpha)
-        n = im.width
-        left = int(round(center[0] * SS - n / 2.0))
-        top = int(round(center[1] * SS - n / 2.0))
-        self.composite(im, (left, top))
-
-    # -- cube ----------------------------------------------------------------
-    def cube(self, tc, a=115, b=38, h=100, shadow=True, edge=True):
-        cx, cy = tc
-        if shadow:
-            self.soft_ellipse((cx + 8, cy + b + h - 2), a * 1.03, 14 + b * 0.35,
-                              alpha=76, blur=13)
-        top = [(cx, cy - b), (cx + a, cy), (cx, cy + b), (cx - a, cy)]
-        right = [(cx + a, cy), (cx, cy + b), (cx, cy + b + h), (cx + a, cy + h)]
-        left = [(cx - a, cy), (cx, cy + b), (cx, cy + b + h), (cx - a, cy + h)]
-        fill_grad(self.img, left, LEFT_C0, LEFT_C1, v=(0.18, 1.0))
-        fill_grad(self.img, right, RIGHT_C0, RIGHT_C1, v=(0.0, 1.0))
-        fill_grad(self.img, top, TOP_C0, TOP_C1, v=(0.0, 1.0))
-        self.d = ImageDraw.Draw(self.img)
-        if edge:
-            segs = [(top[0], top[1]), (top[1], top[2]), (top[2], top[3]),
-                    (top[3], top[0]),
-                    (top[1], right[3]), (top[2], right[2]), (top[3], left[3]),
-                    (right[3], right[2]), (left[3], right[2])]
-            self.edge_lines(segs, width=1.7, color=EDGE_C)
-        return {"top": top, "right": right, "left": left,
-                "tc": (cx, cy), "a": a, "b": b, "h": h}
-
-    def edge_lines(self, segs, width=1.7, color=EDGE_C):
-        xs = [p[0] for s in segs for p in s]
-        ys = [p[1] for s in segs for p in s]
-        m = 6
-        x0 = int(round((min(xs) - m) * SS))
-        y0 = int(round((min(ys) - m) * SS))
-        w = int(round((max(xs) - min(xs) + 2 * m) * SS))
-        h = int(round((max(ys) - min(ys) + 2 * m) * SS))
-        if w <= 0 or h <= 0:
-            return
-        lyr = Image.new("RGBA", (w, h), (0, 0, 0, 0))
-        d = ImageDraw.Draw(lyr)
-        off = (-x0, -y0)
-        for p0, p1 in segs:
-            d.line([(p0[0] * SS + off[0], p0[1] * SS + off[1]),
-                    (p1[0] * SS + off[0], p1[1] * SS + off[1])],
-                   fill=color, width=max(1, int(round(width * SS))))
-        self.composite(lyr, (x0, y0))
-
-    # -- red rod (capsule) ---------------------------------------------------
-    def rod(self, p0, p1, width=15, color=RED, tip_alpha=255):
-        x0, y0 = p0[0] * SS, p0[1] * SS
-        x1, y1 = p1[0] * SS, p1[1] * SS
-        d = self.d
-        w = width * SS
-        # dark outline
-        d.line([(x0, y0), (x1, y1)], fill=RED_DARK + (255,), width=int(w + 6 * SS))
-        for px, py in ((x0, y0), (x1, y1)):
-            r = (w + 6 * SS) / 2.0
-            d.ellipse([px - r, py - r, px + r, py + r], fill=RED_DARK + (255,))
-        # body
-        d.line([(x0, y0), (x1, y1)], fill=color + (255,), width=int(w))
-        for px, py in ((x0, y0), (x1, y1)):
-            r = w / 2.0
-            d.ellipse([px - r, py - r, px + r, py + r], fill=color + (255,))
-        # cylindrical highlight (offset toward the light, upper-left)
-        vx, vy = x1 - x0, y1 - y0
-        ln = math.hypot(vx, vy) + 1e-9
-        nx, ny = -vy / ln, vx / ln
-        if ny > 0:
-            nx, ny = -nx, -ny
-        ox, oy = nx * w * 0.26, ny * w * 0.26
-        hw = max(1, int(w * 0.30))
-        d.line([(x0 + ox, y0 + oy), (x1 + ox, y1 + oy)],
-               fill=(0xF3, 0x8C, 0x82, 255), width=hw)
-        for px, py in ((x0 + ox, y0 + oy), (x1 + ox, y1 + oy)):
-            r = hw / 2.0
-            d.ellipse([px - r, py - r, px + r, py + r], fill=(0xF3, 0x8C, 0x82, 255))
-
-    # -- arrows --------------------------------------------------------------
-    def arrow(self, pts, width=13, head_len=44, head_w=42, head=True,
-              color=RED, dark=RED_DARK, light=RED_LIGHT):
-        path = [(x * SS, y * SS) for x, y in pts]
-        if len(path) < 2:
-            return
-        w = width * SS
-        d = self.d
-        shaft = list(path)
-        if head:
-            tip = np.array(path[-1], np.float64)
-            j = len(path) - 2
-            while j > 0 and np.linalg.norm(tip - np.array(path[j])) < 1e-6:
-                j -= 1
-            tvec = tip - np.array(path[j], np.float64)
-            tvec /= (np.linalg.norm(tvec) + 1e-9)
-            norm = np.array([-tvec[1], tvec[0]])
-            hl = head_len * SS
-            hw = head_w * SS
-            # keep the shaft behind the arrow head base
-            shaft = [tuple(p) for p in path
-                     if float(np.dot(tip - np.array(p, np.float64), tvec)) > hl * 0.62]
-            if not shaft:
-                shaft = [path[0]]
-            shaft.append(tuple(tip - tvec * hl * 0.55))
-
-        # outline pass
-        d.line(shaft, fill=dark + (255,), width=int(w + 3.4 * SS), joint="curve")
-        for px, py in (shaft[0], shaft[-1]):
-            r = (w + 3.4 * SS) / 2.0
-            d.ellipse([px - r, py - r, px + r, py + r], fill=dark + (255,))
-        # body
-        d.line(shaft, fill=color + (255,), width=int(w), joint="curve")
-        for px, py in (shaft[0], shaft[-1]):
-            r = w / 2.0
-            d.ellipse([px - r, py - r, px + r, py + r], fill=color + (255,))
-        # glossy centre line
-        hl_w = max(1, int(w * 0.30))
-        d.line(shaft, fill=(0xE9, 0x6B, 0x62, 255), width=hl_w, joint="curve")
-
-        if head:
-            tip_p = tuple(tip)
-            base_c = tip - tvec * hl
-            p1 = tuple(base_c + norm * hw / 2.0)
-            p2 = tuple(base_c - norm * hw / 2.0)
-            # dark outline triangle (slightly larger)
-            bo = tip - tvec * hl * 1.10
-            q1 = tuple(bo + norm * hw * 0.58)
-            q2 = tuple(bo - norm * hw * 0.58)
-            d.polygon([tip_p, q1, q2], fill=dark + (255,))
-            d.polygon([tip_p, p1, p2], fill=color + (255,))
-
-    # -- curved blue band ----------------------------------------------------
-    def band(self, ctrl, profile=(0.22, 0.75, 1.0, 0.78, 0.30), width=48,
-             color=BAND_BLUE):
-        path = bez(ctrl, 56)
-        path = [(x * SS, y * SS) for x, y in path]
-        n = len(path)
-        prof = np.interp(np.linspace(0, 1, n), np.linspace(0, 1, len(profile)),
-                         np.array(profile, np.float64)) * width * SS
-        self._taper(path, prof + 7 * SS, BAND_DARK)
-        self._taper(path, prof, color)
-        self._taper(path, prof * 0.36, BAND_SHEEN)
-
-    def _taper(self, path, widths, color):
-        d = self.d
-        for i in range(len(path) - 1):
-            w = (widths[i] + widths[i + 1]) / 2.0
-            d.line([path[i], path[i + 1]], fill=color + (255,),
-                   width=max(1, int(round(w))), joint="curve")
-            r = w / 2.0
-            d.ellipse([path[i][0] - r, path[i][1] - r,
-                       path[i][0] + r, path[i][1] + r], fill=color + (255,))
-        r = widths[-1] / 2.0
-        d.ellipse([path[-1][0] - r, path[-1][1] - r,
-                   path[-1][0] + r, path[-1][1] + r], fill=color + (255,))
-
-    # -- staircase of little cubes ------------------------------------------
-    def stairs(self, x0, ground, heights=(1, 2, 3), a=46, b=15, h=50,
-               shadow=True):
-        if shadow:
-            cx = x0 + (len(heights) - 1) * a / 2.0
-            self.soft_ellipse((cx + 10, ground + (len(heights) - 1) * b + 4),
-                              (len(heights) - 1) * a + a * 1.05, 22,
-                              alpha=74, blur=13)
-        tops = []
-        for i, k in enumerate(heights):
-            tcx = x0 + i * a
-            g = ground + i * b
-            tcy = g - b - k * h
-            for j in range(k - 1, -1, -1):
-                self.cube((tcx, tcy + j * h), a=a, b=b, h=h,
-                          shadow=False, edge=True)
-            tops.append((tcx, tcy))
-        return tops
-
-    # -- faint cross (the "not inside" marker) ------------------------------
-    def cross_mark(self, center, size=54, color=(0x7E, 0x2F, 0x93),
-                   alpha=95, width=6):
-        cx, cy = center
-        h = size / 2.0
-        segs = [((cx - h, cy - h), (cx + h, cy + h)),
-                ((cx + h, cy - h), (cx - h, cy + h))]
-        bb = (int((size + width * 2) * SS) + 4, ) * 2
-        pad = (size + width * 2) * SS / 2.0
-        x0 = int(round(cx * SS - pad))
-        y0 = int(round(cy * SS - pad))
-        lyr = Image.new("RGBA", bb, (0, 0, 0, 0))
-        d = ImageDraw.Draw(lyr)
-        for p0, p1 in segs:
-            d.line([(p0[0] * SS - x0, p0[1] * SS - y0),
-                    (p1[0] * SS - x0, p1[1] * SS - y0)],
-                   fill=color + (alpha,), width=int(width * SS))
-        self.composite(lyr, (x0, y0))
+_SHADOW_CACHE = {}
 
 
-# ============================================================================
-# POSITIONAL SCENES  (22)
-# ============================================================================
-def s_pos_above(s):
-    s.cube((255, 320), 115, 38, 100)
-    s.sphere((210, 180), 58)
+def shadow_sprite(rx, ry, alpha=0.40):
+    key = (round(rx, 1), round(ry, 1), round(alpha, 3))
+    if key in _SHADOW_CACHE:
+        return _SHADOW_CACHE[key]
+    w = int(math.ceil(2 * rx * SS)) + 4
+    h = int(math.ceil(2 * ry * SS)) + 4
+    yy, xx = np.mgrid[0:h, 0:w].astype(np.float32)
+    u = (xx - w / 2.0) / (rx * SS)
+    v = (yy - h / 2.0) / (ry * SS)
+    r2 = u * u + v * v
+    a = np.exp(-2.5 * r2)
+    e = math.exp(-2.5)
+    a = np.clip((a - e) / (1.0 - e), 0.0, 1.0) ** 1.25
+    arr = np.zeros((h, w, 4), np.uint8)
+    arr[..., :3] = SHADOW_C
+    arr[..., 3] = (a * alpha * 255.0).astype(np.uint8)
+    im = Image.fromarray(arr, "RGBA")
+    _SHADOW_CACHE[key] = im
+    return im
 
 
-def s_pos_across(s):
-    s.cube((152, 302), 82, 28, 76)
-    s.cube((364, 302), 82, 28, 76)
-    s.rod((104, 294), (414, 294), 15)
+def shadow(cv, x, y, rx, ry, alpha=0.40):
+    sp = shadow_sprite(rx, ry, alpha)
+    cv.comp(sp, x * SS - sp.width / 2.0, y * SS - sp.height / 2.0)
 
 
-def s_pos_against(s):
-    s.cube((232, 300), 112, 37, 98)
-    s.rod((292, 146), (402, 438), 16)
+def sphere(cv, x, y, R, contact=False, dim=0.0, squash=1.0, fa_shadow=0.40):
+    if contact:
+        shadow(cv, x + 2, y + R * 0.94, R * 1.02, R * 0.34, fa_shadow)
+    sp = sphere_sprite(R, dim)
+    if squash != 1.0:
+        sp = sp.resize((sp.width, max(1, int(round(sp.height * squash)))), Image.LANCZOS)
+    cv.comp(sp, x * SS - sp.width / 2.0, y * SS - sp.height / 2.0)
 
 
-def s_pos_among(s):
-    s.cube((256, 292), 62, 21, 56)
-    s.cube((148, 354), 62, 21, 56)
-    s.cube((360, 354), 62, 21, 56)
-    s.sphere((256, 372), 51)
-    s.cube((178, 428), 62, 21, 56)
-    s.cube((332, 428), 62, 21, 56)
+# ---------------------------------------------------------------------------
+# solids
+# ---------------------------------------------------------------------------
+def iso_xy(cx, cy, xi, yi):
+    """Project footprint coords (xi along +x iso axis, yi along +y) to screen.
+
+    (cx, cy) is the screen position of footprint centre (0, 0)."""
+    return (cx + COS30 * (xi - yi), cy + SIN30 * (xi + yi))
 
 
-def s_pos_around(s):
-    cx, cy = 256, 275
-    a, b, h = 105, 35, 94
-    ring = (256, 392, 188, 50)
+def soft_radial(cv, x, y, rx, ry, color, alpha=0.4, power=2.0):
+    """Soft elliptical glow / tinted pool in `color`."""
+    w = int(math.ceil(2 * rx * SS)) + 4
+    h = int(math.ceil(2 * ry * SS)) + 4
+    yy, xx = np.mgrid[0:h, 0:w].astype(np.float32)
+    u = (xx - w / 2.0) / (rx * SS)
+    v = (yy - h / 2.0) / (ry * SS)
+    r2 = u * u + v * v
+    a = np.clip(1.0 - r2, 0.0, 1.0) ** power
+    arr = np.zeros((h, w, 4), np.uint8)
+    arr[..., :3] = color
+    arr[..., 3] = (a * alpha * 255.0).astype(np.uint8)
+    cv.comp(Image.fromarray(arr, "RGBA"), x * SS - w / 2.0, y * SS - h / 2.0)
+
+
+def box_top(cv, cx, cy, a, b, h, alpha=1.0, shadow_a=0.0, edge_alpha=0.55,
+            glass=False, top_c0=TOP_C0, top_c1=TOP_C1, glass_alpha=0.40,
+            lift=0.0):
+    """Isometric cuboid whose TOP-FACE CENTRE is (cx, cy), extruded down h.
+
+    a = footprint size along the +x iso axis, b = along +y, h = height.
+    Screen offsets: +x -> (cos30, sin30), +y -> (-cos30, sin30), +z -> (0,-1).
+    """
+    u = np.array([COS30 * a, SIN30 * a], np.float64)
+    v = np.array([-COS30 * b, SIN30 * b], np.float64)
+    C = np.array([cx, cy], np.float64)
+    Q0 = C - (u + v) / 2.0          # back vertex
+    Q1 = C + (u - v) / 2.0          # right vertex
+    Q2 = C + (u + v) / 2.0          # front vertex
+    Q3 = C + (-u + v) / 2.0         # left vertex
+    down = np.array([0.0, h])
+    Q1d, Q2d, Q3d = Q1 + down, Q2 + down, Q3 + down
+
+    if shadow_a > 0:
+        rx = COS30 * (a + b) / 2.0 * 1.02
+        ry = SIN30 * (a + b) / 2.0 * 0.82
+        shadow(cv, cx + (a - b) * 0.10, cy + h + lift, rx, ry, shadow_a)
+
+    fa = alpha if not glass else 1.0
+    ga = glass_alpha if glass else 1.0
+    # right + left faces first, then the top face on top of the shared edges
+    poly_grad(cv, [Q1, Q2, Q2d, Q1d], RIGHT_C0, RIGHT_C1, v=(0.10, 0.99), alpha=ga * fa)
+    poly_grad(cv, [Q3, Q2, Q2d, Q3d], LEFT_C0, LEFT_C1, v=(0.0, 1.0), alpha=ga * fa)
+    poly_grad(cv, [Q0, Q1, Q2, Q3], top_c0, top_c1, v=(0.42, 0.91),
+              alpha=(ga * 0.88 if glass else 1.0) * fa)
+
+    stroke(cv, [
+        [Q0, Q1], [Q1, Q2], [Q2, Q3], [Q3, Q0],
+        [Q1, Q1d], [Q2, Q2d], [Q3, Q3d],
+        [Q1d, Q2d], [Q2d, Q3d],
+    ], 2.6, EDGE_C, alpha=edge_alpha)
+
+
+def cube(cv, cx, cy, s, alpha=1.0, glass=False, shadow_a=0.36, edge_alpha=0.55,
+         glass_alpha=0.40, lift=0.0):
+    box_top(cv, cx, cy, s, s, s, alpha=alpha, shadow_a=shadow_a,
+            edge_alpha=edge_alpha, glass=glass, glass_alpha=glass_alpha, lift=lift)
+
+
+def bar(cv, p0, p1, thick=34, alpha=1.0, color=RED, shade=RED_D, gloss=RED_L):
+    """Glossy red capsule (plank / rod)."""
+    p0 = np.array(p0, np.float64)
+    p1 = np.array(p1, np.float64)
+    d = p1 - p0
+    ln = np.linalg.norm(d)
+    if ln < 1e-6:
+        return
+    d = d / ln
+    n = np.array([-d[1], d[0]])
+    if n[1] > 0:
+        n = -n
+    stroke(cv, [[tuple(p0), tuple(p1)]], thick, color, alpha=alpha)
+    # rounded dark underside
+    stroke(cv, [[tuple(p0 - n * thick * 0.26 + d * thick * 0.42),
+                 tuple(p1 - n * thick * 0.26 - d * thick * 0.42)]],
+           thick * 0.42, shade, alpha=alpha * 0.55)
+    # specular sheen along the top
+    stroke(cv, [[tuple(p0 + n * thick * 0.22 + d * thick * 0.36),
+                 tuple(p1 + n * thick * 0.22 - d * thick * 0.36)]],
+           thick * 0.24, gloss, alpha=alpha * 0.65)
+    # bright rim
+    stroke(cv, [[tuple(p0 + n * thick * 0.40 + d * thick * 0.30),
+                 tuple(p1 + n * thick * 0.40 - d * thick * 0.30)]],
+           max(2.0, thick * 0.07), (255, 210, 200), alpha=alpha * 0.55)
+
+
+def table(cv, cx, cy, s, leg_h, th=30, leg_w=34, mid=None, shadow_a=0.34,
+          edge_alpha=0.50):
+    """Table: slab on four legs. `mid` is drawn between the back legs and the
+    front leg (so the front leg overlaps whatever is under the table)."""
+    hh = SIN30 * s
+    e = s / 2.0 - leg_w / 2.0 - 4.0
+    legs = {}
+    for sx in (-1, 1):
+        for sy in (-1, 1):
+            legs[(sx, sy)] = iso_xy(cx, cy, sx * e, sy * e)
+    # back, right, left legs go behind the under-table content
+    for k in ((-1, -1), (1, -1), (-1, 1)):
+        P = legs[k]
+        box_top(cv, P[0], P[1] + th, leg_w, leg_w, leg_h, shadow_a=0.0,
+                edge_alpha=edge_alpha * 0.85)
+    if mid:
+        mid()
+    box_top(cv, cx, cy, s, s, th, shadow_a=shadow_a, edge_alpha=edge_alpha)
+    # the near leg is drawn last: it cuts in front of the ball
+    P = legs[(1, 1)]
+    box_top(cv, P[0], P[1] + th, leg_w, leg_w, leg_h, shadow_a=0.0,
+            edge_alpha=edge_alpha * 0.85)
+    return legs
+
+
+def staircase(cv, base_x, base_y, steps=3, tread=120, width=120, rise=100,
+              axis="x", shadow_a=0.30):
+    """Stepped solid receding up-left (axis='x') or up-right (axis='y').
+
+    Returns the top-face centres of the steps, ordered from the lowest step to
+    the highest one."""
+    if axis == "x":
+        off = np.array([-COS30 * tread, -SIN30 * tread])
+    else:
+        off = np.array([COS30 * tread, -SIN30 * tread])
+    tops = []
+    for j in range(steps - 1, -1, -1):
+        h = (j + 1) * rise
+        fx = base_x + off[0] * j
+        fy = base_y + off[1] * j
+        a, b = (tread, width) if axis == "x" else (width, tread)
+        box_top(cv, fx, fy - h, a, b, h, shadow_a=0.0, edge_alpha=0.45)
+        tops.append((j, fx, fy - h))
+    if shadow_a > 0:
+        shadow(cv, base_x + (off[0] * (steps - 1)) / 2.0,
+               base_y + (off[1] * (steps - 1)) / 2.0,
+               tread * (steps * 0.78), tread * 0.42, shadow_a)
+    return [(x, y) for _, x, y in sorted(tops)]
+
+
+# ---------------------------------------------------------------------------
+# paths, dashes, arrows, ribbon
+# ---------------------------------------------------------------------------
+def bez(ctrl, n=90):
+    pts = [np.array(c, np.float64) for c in ctrl]
+    m = len(pts) - 1
+    out = []
+    for i in range(n + 1):
+        t = i / n
+        p = [q.copy() for q in pts]
+        for _ in range(m):
+            p = [(1 - t) * p[j] + t * p[j + 1] for j in range(len(p) - 1)]
+        out.append(tuple(p[0]))
+    return out
+
+
+def _resample(pts, step=1.5):
+    out = []
+    for i in range(len(pts) - 1):
+        p0 = np.array(pts[i], np.float64)
+        p1 = np.array(pts[i + 1], np.float64)
+        d = np.linalg.norm(p1 - p0)
+        n = max(1, int(math.ceil(d / step)))
+        for k in range(n):
+            out.append(tuple(p0 + (p1 - p0) * (k / n)))
+    out.append(tuple(np.array(pts[-1], np.float64)))
+    return out
+
+
+def _cumlen(pts):
+    cum = [0.0]
+    for i in range(1, len(pts)):
+        cum.append(cum[-1] + math.dist(pts[i - 1], pts[i]))
+    return cum
+
+
+def subpath(pts, cum, s0, s1):
+    """Slice polyline between arc lengths s0..s1."""
+    out = []
+    for i, p in enumerate(pts):
+        if s0 <= cum[i] <= s1:
+            out.append(p)
+    for i in range(1, len(pts)):
+        a, b = cum[i - 1], cum[i]
+        for s in (s0, s1):
+            if a < s < b:
+                t = (s - a) / (b - a + 1e-9)
+                out.append((pts[i - 1][0] + (pts[i][0] - pts[i - 1][0]) * t,
+                            pts[i - 1][1] + (pts[i][1] - pts[i - 1][1]) * t))
+    order = lambda p: None  # noqa: E731  (ordering handled by caller)
+    return out
+
+
+def _slice(pts, cum, s0, s1):
+    """Ordered slice of the polyline between arc lengths s0..s1."""
+    res = [pts[0]]
+    del res[:]
+    for i in range(len(pts) - 1):
+        a, b = cum[i], cum[i + 1]
+        seg_len = b - a
+        if seg_len <= 1e-9:
+            continue
+        lo, hi = max(a, s0), min(b, s1)
+        if hi <= lo:
+            continue
+        p0 = np.array(pts[i])
+        p1 = np.array(pts[i + 1])
+        t0 = (lo - a) / seg_len
+        t1 = (hi - a) / seg_len
+        res.append(tuple(p0 + (p1 - p0) * t0))
+        res.append(tuple(p0 + (p1 - p0) * t1))
+    return res
+
+
+def dashed(cv, pts, width=10, dash=26, gap=18, color=RED, alpha=1.0,
+           head=False, head_len=38, head_w=34, head_alpha=None, taper_ends=True):
+    pts = _resample(pts, 1.2)
+    cum = _cumlen(pts)
+    total = cum[-1]
+    if total < 1e-6:
+        return
+    head_len_eff = head_len if head else 0.0
+    stop = max(0.0, total - head_len_eff * 0.45)
+    polylines = []
+    s = 0.0
+    while s < stop:
+        e = min(s + dash, stop)
+        if e - s > 1.0:
+            pl = _slice(pts, cum, s, e)
+            if len(pl) >= 2:
+                polylines.append(pl)
+        s = e + gap
+    stroke(cv, polylines, width, color, alpha=alpha, closed_caps=True)
+    if head:
+        tip = np.array(pts[-1], np.float64)
+        j = len(pts) - 2
+        while j > 0 and np.linalg.norm(tip - np.array(pts[j])) < 1e-6:
+            j -= 1
+        tvec = tip - np.array(pts[j])
+        tvec /= (np.linalg.norm(tvec) + 1e-9)
+        norm = np.array([-tvec[1], tvec[0]])
+        base = tip - tvec * head_len
+        p1 = base + norm * head_w / 2.0
+        p2 = base - norm * head_w / 2.0
+        ha = alpha if head_alpha is None else head_alpha
+        poly_grad(cv, [tuple(tip), tuple(p1), tuple(p2)], RED_L, RED_D,
+                  v=(tvec[0], tvec[1]), alpha=ha)
+
+
+def arrow(cv, pts, width=13, head_len=40, head_w=36, alpha=1.0):
+    """Solid rounded arrow with a glossy sheen and a triangular head."""
+    pts = _resample(pts, 1.2)
+    cum = _cumlen(pts)
+    total = cum[-1]
+    tip = np.array(pts[-1], np.float64)
+    j = len(pts) - 2
+    while j > 0 and np.linalg.norm(tip - np.array(pts[j])) < 1e-6:
+        j -= 1
+    tvec = tip - np.array(pts[j])
+    tvec /= (np.linalg.norm(tvec) + 1e-9)
+    shaft = _slice(pts, cum, 0, max(0.0, total - head_len * 0.35))
+    stroke(cv, [shaft], width, RED, alpha=alpha)
+    # sheen
+    off = np.array([-tvec[1], tvec[0]]) * (-width * 0.22)
+    sh = [(p[0] + off[0], p[1] + off[1]) for p in shaft]
+    stroke(cv, [sh], width * 0.34, RED_L, alpha=alpha * 0.55)
+    norm = np.array([-tvec[1], tvec[0]])
+    base = tip - tvec * head_len
+    p1 = base + norm * head_w / 2.0
+    p2 = base - norm * head_w / 2.0
+    poly_grad(cv, [tuple(tip), tuple(p1), tuple(p2)], RED_L, RED_D,
+              v=(-tvec[0], -tvec[1]), alpha=alpha)
+
+
+def start_marker(cv, x, y, r=9.0, color=RED):
+    stroke(cv, [[(x - r, y), (x + r, y)]], 3.0, color, alpha=0.0)
+    cv_ring(cv, x, y, r, color)
+
+
+def cv_ring(cv, x, y, r, color, width=6.0):
+    box = _bbox_layer([(x - r - width, y - r - width), (x + r + width, y + r + width)], pad=3)
+    if box is None:
+        return
+    x0, y0, w, h = box
+    lyr = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    d = ImageDraw.Draw(lyr)
+    d.ellipse([(x - r) * SS - x0, (y - r) * SS - y0,
+               (x + r) * SS - x0, (y + r) * SS - y0],
+              outline=tuple(color) + (255,), width=int(round(width * SS)))
+    cv.comp(lyr, x0, y0)
+
+
+def ribbon(cv, ctrl, w0, w1, n=80, alpha=1.0, edge=True):
+    """Perspective road-like band following a bezier curve."""
+    pts = _resample(bez(ctrl, n), 3.0)
+    npts = len(pts)
+    left, right = [], []
+    for i, p in enumerate(pts):
+        t = i / (npts - 1.0)
+        hw = (w0 * (1 - t) + w1 * t) / 2.0
+        if i == 0:
+            a = np.array(pts[1]) - np.array(p)
+        elif i == npts - 1:
+            a = np.array(p) - np.array(pts[-2])
+        else:
+            a = np.array(pts[i + 1]) - np.array(pts[i - 1])
+        a /= (np.linalg.norm(a) + 1e-9)
+        nrm = np.array([-a[1], a[0]])
+        left.append(tuple(np.array(p) + nrm * hw))
+        right.append(tuple(np.array(p) - nrm * hw))
+    poly = left + right[::-1]
+    poly_grad(cv, poly, BAND_C0, BAND_C1, v=(0.2, 0.98), alpha=alpha)
+    if edge:
+        stroke(cv, [left, right], 2.2, BAND_EDGE, alpha=alpha * 0.55, closed_caps=False)
+        stroke(cv, [[tuple(np.array(p) + (np.array(l) - np.array(p)) * 0.62)
+                     for p, l in zip(pts, left)]], 5.0, BAND_SHEEN, alpha=alpha * 0.30)
+
+
+ROAD_C_FAR = (0x7C, 0x8F, 0xDC)
+ROAD_C_NEAR = (0x4E, 0x60, 0xC0)
+ROAD_EDGE = (0xA9, 0xB6, 0xF2)
+
+
+def road(cv, cx, cy, length, width, alpha=0.92):
+    """Flat road-like band lying on the ground plane (runs up-right).
+
+    Drawn as a parallelogram in the ground plane: `length` along the -y iso
+    axis, `width` across it."""
+    L, Wd = length / 2.0, width / 2.0
+    q = [iso_xy(cx, cy, xi, yi) for xi, yi in ((Wd, -L), (Wd, L), (-Wd, L), (-Wd, -L))]
+    poly_grad(cv, q, ROAD_C_FAR, ROAD_C_NEAR, v=(COS30, SIN30), alpha=alpha)
+    stroke(cv, [q[:2], q[2:]], 3.0, ROAD_EDGE, alpha=alpha * 0.55, closed_caps=False)
+    # faint shoulder line inside the near edge for depth
+    inner = [iso_xy(cx, cy, xi, yi) for xi, yi in
+             ((Wd * 0.62, -L * 0.97), (Wd * 0.62, L * 0.97))]
+    stroke(cv, [inner], 4.0, (0xC9, 0xD3, 0xF8), alpha=alpha * 0.22, closed_caps=False)
+
+
+# ---------------------------------------------------------------------------
+# scene helpers
+# ---------------------------------------------------------------------------
+def ball_on(cv, fx, fy, R, fa=0.34, squash=1.0):
+    """Ball resting on a horizontal surface at contact point (fx, fy)."""
+    shadow(cv, fx + 3, fy + 4, R * 1.00, R * 0.30, fa)
+    sphere(cv, fx, fy - R * squash, R, squash=squash)
+
+
+def glass_glow(cv, x, y, R, alpha=0.16):
+    """Warm pool of light where an object shows through a glass face."""
+    soft_radial(cv, x, y, R * 1.05, R * 1.05, (255, 104, 92), alpha=alpha, power=1.9)
+
+
+# ---------------------------------------------------------------------------
+# POSITIONAL SCENES (22)
+# ---------------------------------------------------------------------------
+def s_pos_above(cv):
+    """Cube low right, ball hanging high above it: no contact shadow."""
+    shadow(cv, 520, 656, 92, 27, 0.28)
+    cube(cv, 560, 352, 222, shadow_a=0.26)
+    sphere(cv, 520, 123, 84, contact=False)
+
+
+def s_pos_across(cv):
+    """Two cubic supports with a red plank-bridge lying across them."""
+    cube(cv, 270, 320, 250, shadow_a=0.32)
+    cube(cv, 730, 320, 250, shadow_a=0.32)
+    bar(cv, (96, 306), (904, 306), thick=38)
+
+
+def s_pos_against(cv):
+    """Red plank leaning ~45 deg, its end pressed against the cube face."""
+    cube(cv, 372, 300, 250)
+    soft_radial(cv, 506, 372, 34, 30, (20, 24, 60), alpha=0.28)
+    bar(cv, (800, 660), (492, 360), thick=42)
+
+
+def s_pos_among(cv):
+    """Far cubes behind, ball in the centre, near cubes overlap it partly."""
+    cube(cv, 300, 175, 150, shadow_a=0.0, edge_alpha=0.45)
+    cube(cv, 700, 175, 150, shadow_a=0.0, edge_alpha=0.45)
+    sphere(cv, 500, 375, 96, contact=True, fa_shadow=0.32)
+    cube(cv, 350, 430, 160, shadow_a=0.0)
+    cube(cv, 650, 430, 160, shadow_a=0.0)
+
+
+def s_pos_around(cv):
+    """Ball behind the cube, cube, then a ring of near balls in front."""
+    cx, cy = 500, 497
+    rx, ry = 330, 170
     back, front = [], []
     for k in range(8):
-        ang = math.radians(k * 45 + 22.5)
-        p = (ring[0] + ring[2] * math.cos(ang), ring[1] + ring[3] * math.sin(ang))
-        (back if math.sin(ang) < -0.05 else front).append(p)
+        ang = math.radians(12 + k * 45)
+        p = (cx + rx * math.cos(ang), cy + ry * math.sin(ang))
+        (back if math.sin(ang) < -0.15 else front).append(p)
     for p in back:
-        s.sphere(p, 44)
-    s.cube((cx, cy), a, b, h)
+        ball_on(cv, p[0], p[1], 62, fa=0.30)
+    cube(cv, 500, 265, 232)
     for p in front:
-        s.sphere(p, 44, shadow=True)
+        ball_on(cv, p[0], p[1], 62, fa=0.34)
 
 
-def s_pos_behind(s):
-    s.sphere((192, 252), 60)
-    s.cube((288, 316), 112, 37, 98)
+def s_pos_behind(cv):
+    """Sphere first, cube drawn over it: the sphere peeks out on the left."""
+    sphere(cv, 350, 390, 98, contact=True, fa_shadow=0.30)
+    cube(cv, 620, 290, 246)
 
 
-def s_pos_below(s):
-    s.cube((255, 235), 112, 37, 94)
-    s.sphere((255, 447), 52, shadow=True)
+def s_pos_below(cv):
+    """Cube lifted off the ground, ball on the floor strictly below it."""
+    cube(cv, 500, 130, 240, shadow_a=0.26, lift=110)
+    sphere(cv, 500, 596, 82, contact=True)
 
 
-def s_pos_beneath(s):
-    s.cube((255, 235), 112, 37, 94)
-    s.sphere((255, 420), 54)
+def s_pos_beneath(cv):
+    """Sphere directly under the bottom face; the cube hides its top part."""
+    sphere(cv, 500, 610, 90, contact=True, fa_shadow=0.26)
+    cube(cv, 500, 200, 240)
 
 
-def s_pos_under(s):
-    s.cube((240, 235), 112, 37, 94)
-    s.sphere((315, 406), 52)
+def s_pos_beside(cv):
+    """Cube with the ball beside it on its own contact patch."""
+    cube(cv, 380, 290, 250)
+    sphere(cv, 752, 570, 88, contact=True)
 
 
-def s_pos_underneath(s):
-    s.sphere((250, 414), 54)
-    s.cube((255, 240), 112, 37, 94)
+def s_pos_by(cv):
+    """Ball right at the outer edge of the cube face (closer than beside)."""
+    cube(cv, 392, 290, 250)
+    sphere(cv, 650, 510, 82, contact=True, fa_shadow=0.36)
 
 
-def s_pos_beside(s):
-    s.cube((200, 300), 112, 37, 98)
-    s.sphere((382, 394), 54, shadow=True)
+def s_pos_between(cv):
+    """Two tall columns left and right, the ball exactly between them."""
+    box_top(cv, 230, 255, 160, 160, 330, shadow_a=0.30)
+    box_top(cv, 770, 255, 160, 160, 330, shadow_a=0.30)
+    sphere(cv, 500, 500, 96, contact=True)
 
 
-def s_pos_by(s):
-    s.cube((238, 285), 112, 37, 98)
-    s.sphere((346, 404), 54, shadow=True)
+def s_pos_in(cv):
+    """Glass cube, ball just behind the front faces (shows through)."""
+    sphere(cv, 462, 470, 80, contact=False, dim=0.05)
+    cube(cv, 500, 290, 230, glass=True, glass_alpha=0.50, edge_alpha=0.85,
+         shadow_a=0.18)
+    glass_glow(cv, 462, 470, 80, 0.20)
 
 
-def s_pos_between(s):
-    s.cube((140, 290), 82, 28, 76)
-    s.cube((376, 290), 82, 28, 76)
-    s.sphere((258, 386), 51, shadow=True)
+def s_pos_in_front_of(cv):
+    """Full cube behind, the ball in front covers its lower vertex."""
+    cube(cv, 640, 215, 240)
+    sphere(cv, 600, 604, 92, contact=True)
 
 
-def s_pos_in(s):
-    s.cube((250, 295), 112, 37, 96)
-    s.sphere((250, 345), 46, alpha=GLASS_SPHERE_ALPHA)
+def s_pos_inside(cv):
+    """Ball deeper inside: stronger tint, darker ball, glass over it."""
+    sphere(cv, 516, 420, 78, contact=False, dim=0.19)
+    cube(cv, 500, 296, 236, glass=True, glass_alpha=0.52, edge_alpha=0.85,
+         shadow_a=0.16)
+    glass_glow(cv, 516, 420, 78, 0.12)
 
 
-def s_pos_in_front_of(s):
-    s.cube((262, 285), 112, 37, 98)
-    s.sphere((176, 402), 58, shadow=True)
+def s_pos_near(cv):
+    """Cube on the right, ball far away on the left: the gap is the meaning."""
+    cube(cv, 760, 220, 240)
+    sphere(cv, 200, 520, 94, contact=True)
 
 
-def s_pos_inside(s):
-    s.cube((250, 295), 112, 37, 96)
-    s.sphere((250, 370), 56, alpha=GLASS_SPHERE_ALPHA)
+def s_pos_next_to(cv):
+    """Ball right against the side face, the two contact shadows touch."""
+    cube(cv, 400, 290, 250)
+    sphere(cv, 690, 545, 86, contact=True, fa_shadow=0.40)
 
 
-def s_pos_near(s):
-    s.cube((190, 300), 112, 37, 98)
-    s.sphere((398, 390), 52, shadow=True)
+def s_pos_on(cv):
+    """Ball resting on the top face: contact shadow on the face, slight squash."""
+    cube(cv, 500, 215, 236)
+    ball_on(cv, 500, 215, 84, fa=0.34, squash=0.96)
 
 
-def s_pos_next_to(s):
-    s.cube((195, 300), 112, 37, 98)
-    s.sphere((360, 392), 54, shadow=True)
+def s_pos_outside(cv):
+    """Empty glass cube; the ball stays outside, bright and to the right."""
+    cube(cv, 350, 290, 250, glass=True, glass_alpha=0.56, edge_alpha=0.90,
+         shadow_a=0.20)
+    sphere(cv, 790, 540, 88, contact=True)
 
 
-def s_pos_on(s):
-    s.cube((255, 305), 112, 37, 98)
-    s.soft_ellipse((242, 318), 56, 19, alpha=62, blur=8)
-    s.sphere((238, 259), 54)
+def s_pos_over(cv):
+    """Ball right above the cube, casting a shadow on the top face."""
+    cube(cv, 480, 230, 232)
+    shadow(cv, 480, 240, 82, 26, 0.34)
+    sphere(cv, 480, 122, 90, contact=False)
 
 
-def s_pos_outside(s):
-    s.cube((195, 295), 104, 35, 92)
-    s.cross_mark((214, 356), 58)
-    s.sphere((392, 392), 52, shadow=True)
-
-
-def s_pos_over(s):
-    s.cube((255, 330), 112, 37, 98)
-    s.soft_ellipse((255, 340), 66, 22, alpha=52, blur=9)
-    s.sphere((250, 150), 52)
-
-
-def s_pos_through(s):
-    s.cube((250, 300), 112, 37, 98)
-    s.rod((92, 336), (416, 304), 16)
-
-
-# ============================================================================
-# DIRECTIONAL SCENES  (17)
-# ============================================================================
-def s_dir_across(s):
-    s.band([(112, 452), (190, 430), (270, 330), (356, 208)])
-    s.arrow(bez([(410, 240), (330, 285), (240, 340), (168, 372)]),
-            width=13, head_len=42, head_w=40)
-    s.sphere((330, 158), 49)
-
-
-def s_dir_against(s):
-    # sphere pressed flat against the right face of the block, two arrows
-    # pushing it from the right (heads point left, into the block)
-    s.cube((205, 300), 100, 33, 92)
-    s.sphere((346, 336), 46)
-    s.arrow(bez([(470, 302), (432, 311), (396, 322)]),
-            width=12, head_len=30, head_w=32)
-    s.arrow(bez([(470, 382), (432, 372), (396, 358)]),
-            width=12, head_len=30, head_w=32)
-
-
-def s_dir_along(s):
-    s.band([(150, 452), (120, 330), (210, 250), (292, 146)])
-    s.arrow(bez([(248, 416), (218, 320), (278, 255), (322, 198)]),
-            width=13, head_len=42, head_w=40)
-    s.sphere((300, 120), 46)
-
-
-def s_dir_around(s):
-    cx, cy, rx, ry = 250, 382, 172, 50
-    back = [(cx + rx * math.cos(math.radians(t)),
-             cy + ry * math.sin(math.radians(t)))
-            for t in np.linspace(190, 350, 40)]
-    front = [(cx + rx * math.cos(math.radians(t)),
-              cy + ry * math.sin(math.radians(t)))
-             for t in np.linspace(10, 168, 46)]
-    s.arrow(back, width=12, head=False)
-    s.cube((250, 280), 100, 33, 92)
-    s.arrow(front, width=12, head_len=40, head_w=38)
-    s.sphere((382, 398), 44, shadow=True)
-
-
-def s_dir_away_from(s):
-    s.cube((400, 175), 52, 17, 48)
-    s.sphere((168, 395), 60, shadow=True)
-    s.arrow(bez([(320, 300), (285, 322), (255, 345), (232, 362)]),
-            width=12, head_len=38, head_w=36)
-
-
-def s_dir_down(s):
-    s.stairs(150, 395, heights=(3, 2, 1))
-    s.sphere((320, 414), 44, shadow=True)
-    s.arrow(bez([(160, 150), (235, 205), (290, 285), (326, 358)]),
-            width=13, head_len=42, head_w=40)
-
-
-def s_dir_from(s):
-    s.cube((378, 190), 50, 17, 46)
-    s.sphere((190, 382), 58, shadow=True)
-    s.arrow(bez([(352, 244), (318, 272), (274, 306), (242, 332)]),
-            width=12, head_len=38, head_w=36)
-
-
-def s_dir_into(s):
-    s.cube((240, 300), 102, 34, 94)
-    s.sphere((240, 352), 44, alpha=GLASS_SPHERE_ALPHA)
-    s.arrow(bez([(415, 330), (470, 205), (370, 180), (300, 256)]),
-            width=13, head_len=42, head_w=40)
-
-
-def s_dir_off_of(s):
-    s.cube((225, 285), 104, 35, 94)
-    s.sphere((335, 400), 46, shadow=True)
-    s.arrow(bez([(300, 205), (400, 225), (442, 320), (392, 378)]),
-            width=13, head_len=42, head_w=40)
-
-
-def s_dir_onto(s):
-    s.cube((250, 315), 104, 35, 94)
-    s.soft_ellipse((240, 328), 52, 18, alpha=58, blur=8)
-    s.sphere((238, 274), 48)
-    s.arrow(bez([(425, 440), (490, 325), (430, 205), (340, 240)]),
-            width=13, head_len=42, head_w=40)
-
-
-def s_dir_out_of(s):
-    s.cube((190, 285), 98, 32, 90)
-    s.sphere((190, 330), 36, alpha=85)
-    s.sphere((368, 392), 48, shadow=True)
-    s.arrow(bez([(240, 290), (320, 175), (420, 285), (392, 348)]),
-            width=13, head_len=42, head_w=40)
-
-
-def s_dir_over(s):
-    s.cube((255, 320), 104, 35, 94)
-    s.arrow(bez([(118, 392), (150, 215), (350, 215), (398, 382)]),
-            width=13, head_len=42, head_w=40)
-    s.sphere((240, 150), 50)
-
-
-def s_dir_through(s):
-    s.cube((225, 280), 104, 34, 92)
-    hole = (173, 343)
-    lyr = Image.new("RGBA", (W, W), (0, 0, 0, 0))
-    d = ImageDraw.Draw(lyr)
-    d.ellipse([(hole[0] - 30) * SS, (hole[1] - 36) * SS,
-               (hole[0] + 30) * SS, (hole[1] + 36) * SS],
-              fill=(0x10, 0x1B, 0x45, 255))
-    s.composite(lyr)
-    s.sphere(hole, 23)
-    s.arrow(bez([(58, 316), (105, 334), (138, 342)]),
-            width=12, head_len=34, head_w=32)
-
-
-def s_dir_to(s):
-    s.cube((405, 175), 50, 16, 46)
-    s.sphere((175, 360), 52, shadow=True)
-    s.arrow(bez([(220, 330), (270, 300), (320, 265), (352, 240)]),
-            width=12, head_len=36, head_w=34)
-
-
-def s_dir_towards(s):
-    s.cube((405, 175), 50, 16, 46)
-    s.sphere((168, 372), 52, shadow=True)
-    s.arrow(bez([(212, 342), (250, 316), (284, 295), (304, 282)]),
-            width=12, head_len=36, head_w=34)
-
-
-def s_dir_under(s):
-    s.cube((245, 275), 104, 34, 92)
-    s.arrow(bez([(110, 395), (180, 470), (330, 480), (400, 390)]),
-            width=13, head_len=42, head_w=40)
-    s.sphere((300, 440), 42)
-
-
-def s_dir_up(s):
-    s.stairs(185, 430, heights=(1, 2, 3))
-    s.arrow(bez([(108, 440), (155, 380), (190, 330), (218, 298)]),
-            width=13, head_len=42, head_w=40)
-    s.sphere((277, 254), 44)
-
-
-# ============================================================================
+def s_pos_through(cv):
+    """Glass cube with a red plank passing horizontally through it."""
+    bar(cv, (140, 400), (860, 400), thick=38)
+    sphere(cv, 500, 402, 86, contact=False, dim=0.12)
+    glass_glow(cv, 500, 402, 86, 0.14)
+    cube(cv, 500, 300, 248, glass=True, glass_alpha=0.50, edge_alpha=0.85,
+         shadow_a=0.18)
+
+
+def s_pos_under(cv):
+    """Table: the ball sits on the floor under it, the front leg overlaps it."""
+
+    def mid():
+        sphere(cv, 408, 592, 88, contact=True, fa_shadow=0.28)
+
+    table(cv, 500, 215, 420, 195, th=26, leg_w=36, mid=mid)
+
+
+def s_pos_underneath(cv):
+    """A wide flat plate covers the ball from above; only the bottom shows."""
+    sphere(cv, 500, 585, 100, contact=True, fa_shadow=0.30)
+    box_top(cv, 500, 330, 460, 460, 34, shadow_a=0.24)
+
+
+# ---------------------------------------------------------------------------
+# DIRECTIONAL SCENES (17)
+# ---------------------------------------------------------------------------
+def s_dir_across(cv):
+    """Road band; the dashed path crosses it, the ball is on the far side."""
+    road(cv, 500, 430, 720, 250)
+    dashed(cv, [(230, 205), (465, 336), (700, 467)],
+           width=11, head=True, head_len=40, head_w=36)
+    sphere(cv, 762, 516, 82, contact=True)
+
+
+def s_dir_along(cv):
+    """Same road, the dashed path runs parallel to it, ball in the middle."""
+    road(cv, 500, 420, 760, 250)
+    dashed(cv, [(240, 570), (500, 420), (760, 270)],
+           width=11, head=True, head_len=40, head_w=36)
+    sphere(cv, 500, 420, 82, contact=True)
+
+
+def s_dir_against(cv):
+    """Ball runs into the cube face; short sparks fly at the impact point."""
+    cube(cv, 420, 300, 250)
+    dashed(cv, [(900, 310), (830, 348), (762, 382)], width=11, head=False)
+    sphere(cv, 700, 395, 86, contact=True)
+    for ang in (-72, -36, -4, 30, 66, 104):
+        a = math.radians(ang)
+        p0 = (614 + math.cos(a) * 16, 395 + math.sin(a) * 16)
+        p1 = (614 + math.cos(a) * 48, 395 + math.sin(a) * 48)
+        stroke(cv, [[p0, p1]], 7.0, RED, alpha=0.92)
+
+
+def s_dir_around(cv):
+    """Dashed elliptical orbit around the cube base; ball riding on it."""
+    cx, cy = 500, 526
+    rx, ry = 330, 160
+    back, front = [], []
+    for k in range(72):
+        ang = math.radians(-150 + k * 300 / 71.0)
+        p = (cx + rx * math.cos(ang), cy + ry * math.sin(ang))
+        (back if math.sin(ang) < -0.05 else front).append(p)
+    dashed(cv, back, width=10, head=False)
+    cube(cv, 500, 290, 236)
+    dashed(cv, front, width=10, head=True, head_len=36, head_w=32)
+    ball_on(cv, cx + rx * math.cos(math.radians(38)),
+            cy + ry * math.sin(math.radians(38)), 64, fa=0.34)
+
+
+def s_dir_away_from(cv):
+    """Cube on the right, the dashed path leaves to the left, ball far away."""
+    cube(cv, 780, 250, 215)
+    dashed(cv, [(640, 372), (546, 405), (452, 438)], width=11,
+           head=True, head_len=38, head_w=34)
+    sphere(cv, 280, 505, 92, contact=True)
+
+
+def s_dir_from(cv):
+    """Dashed path starts at the cube face (start marker), ball mid-way."""
+    cube(cv, 800, 250, 205)
+    dashed(cv, [(680, 320), (360, 506)], width=11,
+           head=True, head_len=38, head_w=34)
+    start_marker(cv, 680, 320, 13)
+    sphere(cv, 488, 431, 84, contact=True)
+
+
+def s_dir_into(cv):
+    """Glass cube: the dashed path enters through the front face, ball inside."""
+    sphere(cv, 492, 470, 80, contact=False, dim=0.12)
+    dashed(cv, [(900, 270), (800, 330), (700, 400), (610, 450)],
+           width=11, head=True, head_len=38, head_w=34)
+    cube(cv, 500, 286, 238, glass=True, glass_alpha=0.52, edge_alpha=0.85,
+         shadow_a=0.16)
+    glass_glow(cv, 492, 470, 80, 0.16)
+
+
+def s_dir_off_of(cv):
+    """Cube pedestal: the dashed path rolls off the edge, ball drops below it."""
+    cube(cv, 450, 215, 236)
+    dashed(cv, [(480, 200), (660, 235), (770, 300), (800, 400)],
+           width=11, head=True, head_len=38, head_w=34)
+    sphere(cv, 846, 510, 80, contact=True, fa_shadow=0.28)
+
+
+def s_dir_onto(cv):
+    """Arc from above landing on the top face; contact shadow on the face."""
+    cube(cv, 500, 215, 230)
+    dashed(cv, [(880, 150), (830, 62), (700, 70), (612, 148)],
+           width=11, head=True, head_len=38, head_w=34)
+    ball_on(cv, 500, 215, 82, fa=0.34, squash=0.97)
+
+
+def s_dir_out_of(cv):
+    """Dim ball starts inside, the path leaves through the right face."""
+    sphere(cv, 390, 420, 64, contact=False, dim=0.34)
+    dashed(cv, [(450, 430), (590, 455), (700, 480), (790, 500)],
+           width=11, head=True, head_len=38, head_w=34)
+    cube(cv, 390, 286, 240, glass=True, glass_alpha=0.52, edge_alpha=0.85,
+         shadow_a=0.16)
+    glass_glow(cv, 390, 420, 64, 0.10)
+    sphere(cv, 846, 540, 80, contact=True, fa_shadow=0.30)
+
+
+def s_dir_over(cv):
+    """The arc passes above the top vertex of the cube; ball hovers above it."""
+    cube(cv, 400, 340, 230)
+    dashed(cv, [(900, 470), (800, 180), (560, 105), (240, 300)],
+           width=11, head=True, head_len=38, head_w=34)
+    sphere(cv, 450, 140, 80, contact=False)
+
+
+def s_dir_through(cv):
+    """Glass cube; the dashed path goes right through, dimmed inside."""
+    dashed(cv, [(90, 430), (400, 340), (700, 270), (890, 230)],
+           width=11, head=True, head_len=38, head_w=34)
+    sphere(cv, 560, 322, 84, contact=False, dim=0.12)
+    glass_glow(cv, 560, 322, 84, 0.12)
+    cube(cv, 470, 210, 244, glass=True, glass_alpha=0.52, edge_alpha=0.85,
+         shadow_a=0.16)
+
+
+def s_dir_to(cv):
+    """The dashed path ends at the cube face; the ball reached its goal."""
+    cube(cv, 800, 240, 210)
+    dashed(cv, [(250, 540), (400, 510), (540, 478), (650, 452)],
+           width=11, head=True, head_len=38, head_w=34)
+    sphere(cv, 700, 470, 84, contact=True)
+
+
+def s_dir_towards(cv):
+    """Shorter path: the ball has not reached the cube yet, clear gap."""
+    cube(cv, 800, 230, 200)
+    dashed(cv, [(280, 560), (400, 530), (500, 505)],
+           width=11, head=True, head_len=36, head_w=32)
+    sphere(cv, 580, 485, 84, contact=True)
+
+
+def s_dir_under(cv):
+    """Table with legs; the dashed path runs under the top, ball under it."""
+
+    def mid():
+        dashed(cv, [(100, 640), (320, 610), (560, 600), (880, 570)],
+               width=11, head=True, head_len=38, head_w=34)
+        sphere(cv, 590, 600, 80, contact=True, fa_shadow=0.28)
+
+    table(cv, 500, 215, 420, 140, th=26, leg_w=36, mid=mid)
+
+
+def s_dir_up(cv):
+    """Staircase receding up-right; the path climbs it, ball on the top step."""
+    tops = staircase(cv, 300, 616, steps=3, tread=118, width=140, rise=96,
+                     axis="y")
+    dashed(cv, tops, width=11, head=True, head_len=38, head_w=34)
+    ball_on(cv, tops[-1][0], tops[-1][1], 72, fa=0.32, squash=0.97)
+
+
+def s_dir_down(cv):
+    """Staircase receding up-left; the path runs down it, ball at the foot."""
+    tops = staircase(cv, 676, 588, steps=3, tread=124, width=132, rise=104,
+                     axis="x")
+    dashed(cv, tops + [(716, 566)], width=11, head=True, head_len=38, head_w=34)
+    ball_on(cv, 776, 640, 80, fa=0.32)
+
+
+# ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
 SCENES = {
+    # positional
     "pos_above": s_pos_above,
     "pos_across": s_pos_across,
     "pos_against": s_pos_against,
@@ -673,6 +960,7 @@ SCENES = {
     "pos_through": s_pos_through,
     "pos_under": s_pos_under,
     "pos_underneath": s_pos_underneath,
+    # directional
     "dir_across": s_dir_across,
     "dir_against": s_dir_against,
     "dir_along": s_dir_along,
@@ -692,26 +980,43 @@ SCENES = {
     "dir_up": s_dir_up,
 }
 
-# The task spec names these dir_into / dir_onto; the UI content uses the
-# "in_to" / "on_to" spellings. Emit byte-identical aliases so both keys resolve
-# to a real R.drawable.prep_<key>.
+# The app keys dir_in_to / dir_on_to must exist as PNGs too.
 ALIASES = {"dir_in_to": "dir_into", "dir_on_to": "dir_onto"}
+
+# composition target (fraction of the 1000x700 canvas the content should fill)
+FILL_W, FILL_H = 0.92, 0.92
+SCALE_MIN, SCALE_MAX = 0.80, 1.12
 
 
 def render_one(key):
-    fn = SCENES.get(key)
-    if fn is None:
-        raise KeyError("unknown scene: " + key)
-    s = Scene()
-    fn(s)
-    out = s.img.resize((SIZE, SIZE), Image.LANCZOS)
-    return out
+    fn = SCENES[key]
+    cv = Canvas()
+    fn(cv)
+    im = cv.img
+    bb = im.getbbox()
+    if bb is None:
+        raise RuntimeError("empty scene: " + key)
+    x0, y0, x1, y1 = bb
+    bw, bh = (x1 - x0) / SS, (y1 - y0) / SS
+    scale = min(W * FILL_W / bw, H * FILL_H / bh)
+    scale = min(SCALE_MAX, max(SCALE_MIN, scale))
+    nw = max(1, int(round(bw * scale)))
+    nh = max(1, int(round(bh * scale)))
+    crop = im.crop(bb).resize((nw, nh), Image.LANCZOS)
+    out = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    out.alpha_composite(crop, ((W - nw) // 2, (H - nh) // 2))
+    meta = {"bbox": (round(bw, 1), round(bh, 1)), "scale": round(scale, 3),
+            "size": (nw, nh)}
+    return out, meta
 
 
+# ---------------------------------------------------------------------------
+# preview contact sheet
+# ---------------------------------------------------------------------------
 def _load_font(size):
     for path in ("/System/Library/Fonts/Supplemental/Arial.ttf",
                  "/System/Library/Fonts/Helvetica.ttc",
-                 "/System/Library/Fonts/Supplemental/Arial Unicode.ttf"):
+                 "/System/Library/Fonts/Supplemental/Verdana.ttf"):
         try:
             return ImageFont.truetype(path, size)
         except Exception:
@@ -719,53 +1024,69 @@ def _load_font(size):
     return ImageFont.load_default(size=size)
 
 
-def build_preview(out_path, keys=None):
-    keys = keys or list(SCENES.keys())
-    cols, cell_w, cell_h, im_size = 5, 304, 330, 280
+def build_preview(out_path):
+    keys = list(SCENES.keys()) + list(ALIASES.keys())
+    cols = 6
+    cell_w, img_w, img_h, cap_h = 236, 216, 151, 26
+    cell_h = img_h + cap_h
     rows = (len(keys) + cols - 1) // cols
-    sheet = Image.new("RGB", (cols * cell_w, rows * cell_h), (255, 255, 255))
+    sheet = Image.new("RGB", (cols * cell_w, rows * cell_h + 8), (255, 255, 255))
     d = ImageDraw.Draw(sheet)
-    font = _load_font(22)
+    font = _load_font(17)
     for i, key in enumerate(keys):
         r, c = divmod(i, cols)
-        x = c * cell_w + (cell_w - im_size) // 2
-        y = r * cell_h + 10
         path = os.path.join(DRAWABLE_DIR, "prep_%s.png" % key)
-        im = Image.open(path).convert("RGBA").resize((im_size, im_size), Image.LANCZOS)
+        im = Image.open(path).convert("RGBA")
+        im = im.resize((img_w, img_h), Image.LANCZOS)
         bg = Image.new("RGBA", im.size, (255, 255, 255, 255))
         bg.alpha_composite(im)
+        x = c * cell_w + (cell_w - img_w) // 2
+        y = r * cell_h + 4
         sheet.paste(bg.convert("RGB"), (x, y))
-        cap = key
-        tw = d.textlength(cap, font=font)
-        d.text((c * cell_w + (cell_w - tw) / 2.0, y + im_size + 10), cap,
-               fill=(38, 42, 50), font=font)
+        tw = d.textlength(key, font=font)
+        d.text((c * cell_w + (cell_w - tw) / 2.0, y + img_h + 4), key,
+               fill=(40, 44, 52), font=font)
     sheet.save(out_path)
     return out_path
 
 
+# ---------------------------------------------------------------------------
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", nargs="*", default=None)
     ap.add_argument("--preview-only", action="store_true")
+    ap.add_argument("--no-preview", action="store_true")
+    ap.add_argument("--report", action="store_true")
     args = ap.parse_args(argv)
 
     os.makedirs(DRAWABLE_DIR, exist_ok=True)
     os.makedirs(DOCS_DIR, exist_ok=True)
     keys = args.only or list(SCENES.keys())
 
+    total = 0
     if not args.preview_only:
         for key in keys:
-            im = render_one(key)
-            im.save(os.path.join(DRAWABLE_DIR, "prep_%s.png" % key))
-            print("wrote prep_%s.png" % key)
+            im, meta = render_one(key)
+            path = os.path.join(DRAWABLE_DIR, "prep_%s.png" % key)
+            im.save(path, optimize=True)
+            sz = os.path.getsize(path)
+            total += sz
+            print("wrote prep_%s.png  %4d KB  bbox=%s scale=%s out=%s"
+                  % (key, sz // 1024, meta["bbox"], meta["scale"], meta["size"]))
         for alias, target in ALIASES.items():
             src = os.path.join(DRAWABLE_DIR, "prep_%s.png" % target)
             dst = os.path.join(DRAWABLE_DIR, "prep_%s.png" % alias)
             shutil.copyfile(src, dst)
+            total += os.path.getsize(dst)
             print("wrote prep_%s.png (alias of %s)" % (alias, target))
 
-    build_preview(os.path.join(DOCS_DIR, "preview.png"))
-    print("wrote docs/prep-art/preview.png")
+    if not args.no_preview:
+        build_preview(os.path.join(DOCS_DIR, "preview.png"))
+        print("wrote docs/prep-art/preview.png")
+
+    pngs = [f for f in os.listdir(DRAWABLE_DIR) if f.startswith("prep_") and f.endswith(".png")]
+    total_all = sum(os.path.getsize(os.path.join(DRAWABLE_DIR, f)) for f in pngs)
+    print("total: %d files, %.2f MB" % (len(pngs), total_all / 1e6))
 
 
 if __name__ == "__main__":

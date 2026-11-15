@@ -18,12 +18,21 @@ enum class PracticeMode {
     /** Sentence-building exercises only. */
     BUILD,
 
-    /** Choice questions answered by typing the missing word ("Письмо" mode). */
-    WRITE,
-
     /** Explicit list of question ids (for "retry these mistakes"). */
     RETRY,
 }
+
+/**
+ * One session entry: the question and the way it is presented.
+ *
+ * «Письмо» is not a separate question bank: the same choice questions can be answered by
+ * typing instead of picking an option, so the presentation is decided per question.
+ */
+data class SessionItem(
+    val question: Question,
+    /** Choice question answered by typing the missing word instead of choosing an option. */
+    val typed: Boolean = false,
+)
 
 data class SessionConfig(
     val mode: PracticeMode,
@@ -32,10 +41,11 @@ data class SessionConfig(
     val ruleIds: List<String> = emptyList(),
     val size: Int = 10,
     val questionIds: List<String> = emptyList(),
-    /** Optional exercise-type filter (choice/build); empty = all types. */
+    /**
+     * Exercise types for quick practice: "choice" (pick an option), "write" (type the answer
+     * for a choice question) and "build" (sentence building); empty = all types.
+     */
     val types: Set<String> = emptySet(),
-    /** Render choice questions as a text input instead of options ("Письмо"). */
-    val typedAnswers: Boolean = false,
 )
 
 data class SessionMistake(
@@ -62,11 +72,11 @@ object SessionBuilder {
         questions: List<Question>,
         state: ProgressState,
         random: Random = Random.Default,
-    ): List<Question> {
+    ): List<SessionItem> {
         val size = config.size.coerceAtLeast(1)
         val byId = questions.associateBy { it.id }
 
-        val selected = when (config.mode) {
+        val picked = when (config.mode) {
             PracticeMode.RETRY -> config.questionIds.mapNotNull { byId[it] }.take(size)
             PracticeMode.TOPIC -> buildTopicSession(
                 pool = questions.filter { it.ruleId == config.ruleId },
@@ -76,24 +86,39 @@ object SessionBuilder {
             )
             PracticeMode.MISTAKES -> buildMistakeReview(state, questions, size, random)
             PracticeMode.BUILD -> weightedPick(questions.filter { it.isBuild }, state, size, random)
-            PracticeMode.WRITE -> weightedPick(
-                questions
-                    .filter { config.ruleIds.isEmpty() || it.ruleId in config.ruleIds }
-                    .filter { it.isChoice },
-                state,
-                size,
-                random,
-            )
-            PracticeMode.QUICK -> weightedPick(
-                questions
-                    .filter { config.ruleIds.isEmpty() || it.ruleId in config.ruleIds }
-                    .filter { config.types.isEmpty() || it.type in config.types },
-                state,
-                size,
-                random,
-            )
+            PracticeMode.QUICK -> {
+                val types = config.types
+                val allowsChoice = types.isEmpty() || "choice" in types || "write" in types
+                val allowsBuild = types.isEmpty() || "build" in types
+                weightedPick(
+                    questions
+                        .filter { config.ruleIds.isEmpty() || it.ruleId in config.ruleIds }
+                        .filter { question ->
+                            when {
+                                question.isBuild -> allowsBuild
+                                question.isChoice -> allowsChoice
+                                else -> false
+                            }
+                        },
+                    state,
+                    size,
+                    random,
+                )
+            }
         }
-        return selected
+
+        // «Письмо» selected: choice questions are answered by typing. When both «Выбор» and
+        // «Письмо» are on, every other choice question is presented as a text input.
+        val typedIds: Set<String> = if (config.mode == PracticeMode.QUICK && "write" in config.types) {
+            val choiceIds = picked.filter { it.isChoice }.map { it.id }
+            when {
+                "choice" in config.types -> choiceIds.filterIndexed { index, _ -> index % 2 == 0 }.toSet()
+                else -> choiceIds.toSet()
+            }
+        } else {
+            emptySet()
+        }
+        return picked.map { SessionItem(it, typed = it.id in typedIds) }
     }
 
     /** Open mistakes, oldest first. */

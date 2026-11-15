@@ -144,26 +144,14 @@ private fun AppContent(container: AppContainer, content: ContentLoadResult) {
                     progress = progress,
                     contentErrors = content.errors,
                     onStartQuickPractice = { ruleIds, types ->
-                        val writing = "write" in types
-                        val effectiveTypes = if (writing) (types - "write") + "choice" else types
                         startPractice(
                             SessionConfig(
                                 mode = PracticeMode.QUICK,
                                 size = progress.settings.sessionSize,
                                 ruleIds = ruleIds,
-                                types = effectiveTypes,
-                                typedAnswers = writing,
+                                types = types,
                             ),
                             "Быстрая тренировка",
-                        )
-                    },
-                    onStartWriting = {
-                        startPractice(
-                            SessionConfig(
-                                mode = PracticeMode.WRITE,
-                                size = progress.settings.sessionSize,
-                            ),
-                            "Письмо",
                         )
                     },
                     onStartMistakes = {
@@ -227,7 +215,6 @@ private fun AppContent(container: AppContainer, content: ContentLoadResult) {
                         questions = content.questions.filter { it.ruleId == ruleId },
                         progress = progress,
                         onBack = { navigator.pop() },
-                        onOpenTheory = { navigator.push(Screen.RuleDetail(ruleId)) },
                         onTrain = {
                             startPractice(
                                 SessionConfig(

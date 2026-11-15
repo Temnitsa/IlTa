@@ -65,7 +65,6 @@ import com.iltatrainer.app.data.ProgressState
 import com.iltatrainer.app.data.Question
 import com.iltatrainer.app.data.Rule
 import com.iltatrainer.app.domain.AnswerChecker
-import com.iltatrainer.app.domain.PracticeMode
 import com.iltatrainer.app.domain.SessionBuilder
 import com.iltatrainer.app.domain.SessionConfig
 import com.iltatrainer.app.domain.SessionMistake
@@ -90,11 +89,11 @@ fun PracticeScreen(
     onExit: () -> Unit,
     onFinish: (SessionResult) -> Unit,
 ) {
-    val questions = remember(config) {
+    val items = remember(config) {
         SessionBuilder.build(config, allQuestions, progress, Random.Default)
     }
 
-    if (questions.isEmpty()) {
+    if (items.isEmpty()) {
         BackHandler { onExit() }
         Column(
             modifier = Modifier
@@ -124,9 +123,10 @@ fun PracticeScreen(
     val mistakes = remember { mutableStateListOf<SessionMistake>() }
     var showExitDialog by remember { mutableStateOf(false) }
 
-    val current = questions[index]
+    val currentItem = items[index]
+    val current = currentItem.question
     val questionStartedAt = remember(current.id) { SystemClock.elapsedRealtime() }
-    val isLast = index == questions.lastIndex
+    val isLast = index == items.lastIndex
 
     BackHandler { showExitDialog = true }
 
@@ -137,8 +137,8 @@ fun PracticeScreen(
     ) {
         PracticeTopBar(
             title = title,
-            counter = "${index + 1}/${questions.size}",
-            fraction = (index + 1).toFloat() / questions.size,
+            counter = "${index + 1}/${items.size}",
+            fraction = (index + 1).toFloat() / items.size,
             onClose = { showExitDialog = true },
         )
         key(current.id) {
@@ -146,7 +146,7 @@ fun PracticeScreen(
                 question = current,
                 rule = rulesById[current.ruleId],
                 language = language,
-                typed = config.typedAnswers || config.mode == PracticeMode.WRITE,
+                typed = currentItem.typed,
                 isLast = isLast,
                 modifier = Modifier.weight(1f),
                 onAnswered = { correct, userInput ->
@@ -168,7 +168,7 @@ fun PracticeScreen(
                     if (isLast) {
                         onFinish(
                             SessionResult(
-                                total = questions.size,
+                                total = items.size,
                                 correct = correctCount,
                                 mistakes = mistakes.toList(),
                             ),

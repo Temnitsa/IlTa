@@ -26,7 +26,6 @@ import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
@@ -60,6 +59,7 @@ import com.iltatrainer.app.ui.questionsLabel
 
 /** Exercise types available in the quick-practice filter. "write" reuses choice questions. */
 private val DEFAULT_EXERCISE_TYPES = setOf("choice", "build")
+private val ALL_EXERCISE_TYPES = setOf("choice", "write", "build")
 private val TYPE_LABELS = listOf(
     "choice" to "Выбор",
     "write" to "Письмо",
@@ -74,7 +74,6 @@ fun TopicsScreen(
     progress: ProgressState,
     contentErrors: List<String>,
     onStartQuickPractice: (selectedRuleIds: List<String>, selectedTypes: Set<String>) -> Unit,
-    onStartWriting: () -> Unit,
     onStartMistakes: () -> Unit,
     onOpenSection: (sectionId: String) -> Unit,
     modifier: Modifier = Modifier,
@@ -117,36 +116,22 @@ fun TopicsScreen(
         }
 
         item(key = "quick-practice") {
-            Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                Button(
-                    onClick = { showPicker = true },
-                    shape = RoundedCornerShape(10.dp),
-                    modifier = Modifier
-                        .weight(1.35f)
-                        .height(46.dp),
-                ) {
-                    Text(
-                        text = "Тренировка",
-                        style = MaterialTheme.typography.titleMedium,
-                        modifier = Modifier.weight(1f),
-                    )
-                    Text(
-                        text = questionsLabel(sessionSize),
-                        style = MaterialTheme.typography.labelSmall,
-                    )
-                }
-                OutlinedButton(
-                    onClick = onStartWriting,
-                    shape = RoundedCornerShape(10.dp),
-                    modifier = Modifier
-                        .weight(1f)
-                        .height(46.dp),
-                ) {
-                    Text(
-                        text = "Письмо",
-                        style = MaterialTheme.typography.titleMedium,
-                    )
-                }
+            Button(
+                onClick = { showPicker = true },
+                shape = RoundedCornerShape(10.dp),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(46.dp),
+            ) {
+                Text(
+                    text = "Тренировка",
+                    style = MaterialTheme.typography.titleMedium,
+                    modifier = Modifier.weight(1f),
+                )
+                Text(
+                    text = questionsLabel(sessionSize),
+                    style = MaterialTheme.typography.labelSmall,
+                )
             }
         }
 
@@ -207,13 +192,7 @@ fun TopicsScreen(
             onClearAll = { selectedRuleIds = emptyList() },
             onToggleSection = { sectionId -> toggleSection(sectionId) },
             onToggleType = { type ->
-                selectedTypes = when {
-                    type in selectedTypes -> selectedTypes - type
-                    // "Выбор" and "Письмо" both drill the same choice questions, so only one is active.
-                    type == "write" -> (selectedTypes - "choice") + "write"
-                    type == "choice" -> (selectedTypes - "write") + "choice"
-                    else -> selectedTypes + type
-                }
+                selectedTypes = if (type in selectedTypes) selectedTypes - type else selectedTypes + type
             },
             onDismiss = { showPicker = false },
             onStart = {
@@ -374,12 +353,18 @@ private fun QuickPracticePickerSheet(
     val selectedRuleIdSet = remember(selectedRuleIds) { selectedRuleIds.toSet() }
     var expandedSectionIds by remember { mutableStateOf(emptySet<String>()) }
     val typeOptions = TYPE_LABELS
-    val effectiveTypes = if ("write" in selectedTypes) (selectedTypes - "write") + "choice" else selectedTypes
+    // "Письмо" and "Выбор" drill the same choice questions, so both map to the "choice" pool.
+    val effectiveTypes = remember(selectedTypes) {
+        buildSet {
+            if ("choice" in selectedTypes || "write" in selectedTypes) add("choice")
+            if ("build" in selectedTypes) add("build")
+        }
+    }
     val selectedQuestionCount = remember(selectedRuleIds, effectiveTypes, questions) {
         questions.count { it.ruleId in selectedRuleIdSet && it.type in effectiveTypes }
     }
     val selectedCount = selectedRuleIds.size
-    val allTypesSelected = selectedTypes == DEFAULT_EXERCISE_TYPES
+    val allTypesSelected = selectedTypes == ALL_EXERCISE_TYPES
     val selectedSummary = "Выбрано: $selectedCount " +
         pluralRu(selectedCount, "тема", "темы", "тем") + " · " + questionsLabel(selectedQuestionCount)
     val typesSummary = if (!allTypesSelected) {

@@ -1,5 +1,6 @@
 package com.iltatrainer.app.ui.screens
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -20,8 +21,8 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -31,20 +32,21 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import kotlin.math.round
+import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
+import androidx.compose.ui.window.DialogProperties
+import com.iltatrainer.app.core.AppLanguage
 import com.iltatrainer.app.data.PrepositionEntry
 import com.iltatrainer.app.data.PrepositionTopic
 import com.iltatrainer.app.data.ProgressState
 import com.iltatrainer.app.data.Question
 import com.iltatrainer.app.data.Rule
-import com.iltatrainer.app.core.AppLanguage
 import com.iltatrainer.app.domain.StatsCalculator
 import com.iltatrainer.app.ui.components.AccuracyBar
 import com.iltatrainer.app.ui.components.AppCard
@@ -54,10 +56,11 @@ import com.iltatrainer.app.ui.components.LevelChip
 import com.iltatrainer.app.ui.components.PrepositionArt
 import com.iltatrainer.app.ui.components.SectionHeader
 import com.iltatrainer.app.ui.tr
+import kotlin.math.round
 
 /**
  * Visual dictionary of prepositions: adaptive picture tiles (blue cube + red sphere artwork).
- * Tapping a tile opens a dialog with translation, explanation and English examples.
+ * Tapping a tile opens a card with the word, its translation, an explanation and examples.
  */
 @Composable
 fun PrepositionTopicScreen(
@@ -66,7 +69,6 @@ fun PrepositionTopicScreen(
     questions: List<Question>,
     progress: ProgressState,
     onBack: () -> Unit,
-    onOpenTheory: () -> Unit,
     onTrain: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
@@ -92,7 +94,7 @@ fun PrepositionTopicScreen(
         LazyVerticalGrid(
             columns = GridCells.Adaptive(minSize = 150.dp),
             modifier = Modifier.fillMaxSize(),
-            contentPadding = PaddingValues(16.dp),
+            contentPadding = PaddingValues(horizontal = 14.dp, vertical = 14.dp),
             horizontalArrangement = Arrangement.spacedBy(10.dp),
             verticalArrangement = Arrangement.spacedBy(10.dp),
         ) {
@@ -145,25 +147,14 @@ fun PrepositionTopicScreen(
                             LevelChip(level = rule?.level ?: "A1")
                         }
                         Spacer(Modifier.height(14.dp))
-                        Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                            OutlinedButton(
-                                onClick = onOpenTheory,
-                                modifier = Modifier
-                                    .weight(1f)
-                                    .height(44.dp),
-                                shape = RoundedCornerShape(12.dp),
-                            ) {
-                                Text(tr("Правила", "Rules"))
-                            }
-                            Button(
-                                onClick = onTrain,
-                                modifier = Modifier
-                                    .weight(1f)
-                                    .height(44.dp),
-                                shape = RoundedCornerShape(12.dp),
-                            ) {
-                                Text(tr("Тренировать", "Train"))
-                            }
+                        Button(
+                            onClick = onTrain,
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(44.dp),
+                            shape = RoundedCornerShape(12.dp),
+                        ) {
+                            Text(tr("Тренировать", "Train"))
                         }
                     }
                     SectionHeader(
@@ -185,18 +176,25 @@ fun PrepositionTopicScreen(
 @Composable
 private fun PrepositionTile(entry: PrepositionEntry, onClick: () -> Unit) {
     val drawable = PrepositionArt.drawableFor(entry.key)
-    AppCard(onClick = onClick) {
+    Surface(
+        onClick = onClick,
+        modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(14.dp),
+        color = MaterialTheme.colorScheme.surface,
+        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
+    ) {
         Column(
-            modifier = Modifier.fillMaxWidth(),
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(6.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.spacedBy(6.dp),
         ) {
             Surface(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .aspectRatio(1.15f),
+                    .aspectRatio(10f / 7f),
                 shape = RoundedCornerShape(10.dp),
-                color = MaterialTheme.colorScheme.surfaceVariant,
+                color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.45f),
             ) {
                 if (drawable != null) {
                     Image(
@@ -204,24 +202,19 @@ private fun PrepositionTile(entry: PrepositionEntry, onClick: () -> Unit) {
                         contentDescription = entry.label,
                         modifier = Modifier
                             .fillMaxSize()
-                            .padding(4.dp),
+                            .padding(2.dp),
                         contentScale = ContentScale.Fit,
                     )
                 }
             }
+            Spacer(Modifier.height(6.dp))
             Text(
                 text = entry.label,
-                style = MaterialTheme.typography.titleSmall,
+                style = MaterialTheme.typography.titleMedium,
                 fontWeight = FontWeight.SemiBold,
                 maxLines = 2,
                 textAlign = TextAlign.Center,
-            )
-            Text(
-                text = entry.translation,
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                maxLines = 2,
-                textAlign = TextAlign.Center,
+                modifier = Modifier.padding(bottom = 2.dp),
             )
         }
     }
@@ -229,76 +222,121 @@ private fun PrepositionTile(entry: PrepositionEntry, onClick: () -> Unit) {
 
 @Composable
 private fun PrepositionDialog(entry: PrepositionEntry, onDismiss: () -> Unit) {
-    Dialog(onDismissRequest = onDismiss) {
+    Dialog(
+        onDismissRequest = onDismiss,
+        properties = DialogProperties(usePlatformDefaultWidth = false),
+    ) {
         Surface(
-            shape = RoundedCornerShape(20.dp),
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 20.dp),
+            shape = RoundedCornerShape(24.dp),
             color = MaterialTheme.colorScheme.surface,
         ) {
             Column(
                 modifier = Modifier
                     .verticalScroll(rememberScrollState())
                     .padding(20.dp),
-                verticalArrangement = Arrangement.spacedBy(10.dp),
             ) {
                 val drawable = PrepositionArt.drawableFor(entry.key)
-                if (drawable != null) {
-                    Image(
-                        painter = painterResource(drawable),
-                        contentDescription = entry.label,
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .height(170.dp)
-                            .clip(RoundedCornerShape(12.dp)),
-                        contentScale = ContentScale.Fit,
-                    )
+                Surface(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .aspectRatio(10f / 7f),
+                    shape = RoundedCornerShape(16.dp),
+                    color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f),
+                ) {
+                    if (drawable != null) {
+                        Image(
+                            painter = painterResource(drawable),
+                            contentDescription = entry.label,
+                            modifier = Modifier
+                                .fillMaxSize()
+                                .padding(10.dp),
+                            contentScale = ContentScale.Fit,
+                        )
+                    }
                 }
+
+                Spacer(Modifier.height(16.dp))
                 Text(
                     text = entry.label,
                     style = MaterialTheme.typography.headlineSmall,
                     fontWeight = FontWeight.Bold,
                 )
-                Text(
-                    text = entry.translation,
-                    style = MaterialTheme.typography.titleMedium,
-                    color = MaterialTheme.colorScheme.primary,
-                    fontWeight = FontWeight.SemiBold,
-                )
+                Spacer(Modifier.height(8.dp))
+                Surface(
+                    shape = RoundedCornerShape(9.dp),
+                    color = MaterialTheme.colorScheme.primaryContainer,
+                ) {
+                    Text(
+                        text = entry.translation,
+                        style = MaterialTheme.typography.titleSmall,
+                        fontWeight = FontWeight.SemiBold,
+                        color = MaterialTheme.colorScheme.onPrimaryContainer,
+                        modifier = Modifier.padding(horizontal = 10.dp, vertical = 6.dp),
+                    )
+                }
                 if (entry.short.isNotBlank()) {
+                    Spacer(Modifier.height(10.dp))
                     Text(
                         text = entry.short,
                         style = MaterialTheme.typography.bodyMedium,
+                        fontStyle = FontStyle.Italic,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        lineHeight = 20.sp,
                     )
                 }
-                Text(text = entry.explanation, style = MaterialTheme.typography.bodyMedium)
+
+                Spacer(Modifier.height(16.dp))
+                HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+                Spacer(Modifier.height(16.dp))
+                Text(
+                    text = entry.explanation,
+                    style = MaterialTheme.typography.bodyMedium,
+                    lineHeight = 23.sp,
+                )
+
                 if (entry.examples.isNotEmpty()) {
-                    Spacer(Modifier.height(2.dp))
+                    Spacer(Modifier.height(20.dp))
                     Text(
                         text = tr("Примеры", "Examples"),
                         style = MaterialTheme.typography.titleSmall,
-                        fontWeight = FontWeight.SemiBold,
+                        fontWeight = FontWeight.Bold,
                     )
-                    entry.examples.forEach { example ->
-                        Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
-                            Text(
-                                text = example.en,
-                                style = MaterialTheme.typography.bodyMedium,
-                                fontWeight = FontWeight.Medium,
-                            )
-                            Text(
-                                text = example.ru,
-                                style = MaterialTheme.typography.bodySmall,
-                                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                            )
+                    Spacer(Modifier.height(10.dp))
+                    entry.examples.forEachIndexed { index, example ->
+                        Surface(
+                            modifier = Modifier.fillMaxWidth(),
+                            shape = RoundedCornerShape(12.dp),
+                            color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.45f),
+                        ) {
+                            Column(modifier = Modifier.padding(12.dp)) {
+                                Text(
+                                    text = "${index + 1}. ${example.en}",
+                                    style = MaterialTheme.typography.bodyMedium,
+                                    fontWeight = FontWeight.SemiBold,
+                                    lineHeight = 21.sp,
+                                )
+                                Spacer(Modifier.height(4.dp))
+                                Text(
+                                    text = example.ru,
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                    lineHeight = 18.sp,
+                                )
+                            }
                         }
+                        Spacer(Modifier.height(8.dp))
                     }
                 }
-                Spacer(Modifier.height(6.dp))
+
+                Spacer(Modifier.height(12.dp))
                 Button(
                     onClick = onDismiss,
                     modifier = Modifier
                         .fillMaxWidth()
-                        .height(44.dp),
+                        .height(46.dp),
                     shape = RoundedCornerShape(12.dp),
                 ) {
                     Text(tr("Понятно", "Got it"))
