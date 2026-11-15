@@ -1,13 +1,13 @@
-# Rule catalog — 16 topics in 2 sections
+# Rule catalog — 23 topics in 3 sections
 
 Levels: A1, A2, B1, B2. `order` values are assigned in increments of 10.
 Every rule belongs to a section via `sectionId`.
 
 Article themes are intentionally consolidated: each theme covers a coherent area of article
 usage, its rule text is based on *English Grammar in Use*, and its pool
-contains **70 questions**. A topic training session shows **30** of them (5 match + 25 choice).
+contains **55–60 questions**. A topic training session shows **30** of them (all `choice`).
 
-## Section `articles` — Артикли / Articles (9 themes, 630 questions)
+## Section `articles` — Артикли / Articles (9 themes, 530 questions)
 
 | id | order | level | title (ru) | scope |
 |---|---|---|---|---|
@@ -21,26 +21,28 @@ contains **70 questions**. A topic training session shows **30** of them (5 matc
 | art-contrasts | 80 | B2 | Устойчивые выражения и контрасты | fixed phrases with the (instruments, parts of day, weekend, seaside, sides, linkers); fixed a/an phrases (illness, hurry, decisions, quantity, rule); a few/a little vs few/little; take place vs take the place of; in front of vs in the front of; in the end vs at the end of; out of the question; names, organisations and unique roles |
 | art-academic | 90 | B2 | Артикли в связном тексте: общее, конкретное, связность | general vs specific meaning, abstract nouns (life/experience), specification by of-phrases/relative clauses/descriptions, superlatives and ordinals, cohesion and repeated mention |
 
-## Section `prepositions` — Предлоги / Prepositions (6 themes, 310 questions)
+## Section `prepositions` — Предлоги / Prepositions (2 themes, 90 questions)
 
-Each preposition theme has a pool of 50–60 questions; a training session shows 30 of them
-(5 match + 25 choice).
+The two preposition themes are **visual dictionaries**: every preposition is a picture tile
+(blue isometric cube + red sphere, matching the reference art), tapping it opens a dialog with
+translation, explanation and English examples with Russian translations. Each theme has a pool
+of **exactly 45 `choice` questions**; a training session shows 30 of them.
 
-| id | order | level | title (ru) | scope |
+| id | order | level | title (ru) | prepositions |
 |---|---|---|---|---|
-| prep-time | 10 | A1 | Предлоги времени: at, on, in, by, until | at 7 o'clock, at night, at the weekend; on Monday, on 5 May; in July, in 2026, in the morning; by/until, for/since/during; last/next/this without a preposition |
-| prep-place | 20 | A1 | Предлоги места и положения | at/on/in; above/below, over/under; between/among, by/beside, opposite; in front of/behind, next to; inside/outside, on the left/right, at the top/bottom |
-| prep-movement | 30 | A2 | Предлоги движения и направления | to/into/onto/out of/off; through/across/along; over/under, towards, past; around/round, from…to |
-| prep-adjectives | 40 | A2 | Предлог после прилагательного | afraid of, proud of, interested in, good at, famous for, different from, similar to, worried about, full of, keen on, patient with and more |
-| prep-verbs | 50 | A2 | Предлог после глагола | depend on, wait for, listen to, look at, arrive at/in, belong to, apologise for; no preposition: discuss, enter, reach, marry |
-| prep-fixed | 60 | B1 | Устойчивые выражения и тонкие случаи | fixed phrases, on time/in time, during/for, by/with/in, between/among, except, at the end/in the end, by the time, questions ending with a preposition |
+| prep-position | 20 | A1 | Позиционные предлоги | above, across, against, among, around, behind, below, beneath, beside, between, by, in, in front of, inside, near, next to, on, outside, over, through, under, underneath (22) |
+| prep-direction | 30 | A1 | Предлоги направления | across, against, along, around, away (from), down, from, in(to), off (of), on(to), out (of), over, through, to, toward(s), under, up (17) |
+
+The dictionary data lives in `app/src/main/assets/data/preposition_reference.json`, the picture
+assets in `app/src/main/res/drawable-nodpi/prep_<key>.png`.
 
 Question ids are globally unique; article questions are tagged with their original subtopic and
-optional pattern tags; preposition questions are tagged with the theme and a pattern label.
+optional pattern tags; preposition questions are tagged with the theme.
 
-## Section `tenses` — Времена / Tenses (12 themes, 360 questions)
+## Section `tenses` — Времена / Tenses (12 themes, 960 questions)
 
-Each tense theme has a pool of 90 questions: 20 choice + 10 match + 60 build; a training session draws 10 choice + 5 match + 15 build.
+Each tense theme has a pool of **80 questions**: 20 `choice` + 60 `build`; a training session
+draws 15 `choice` + 15 `build`.
 Build questions are assembled from word tiles; accepted word orders are stored in `answers`.
 
 | id | order | level | title (ru) | scope |

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "package": "prepositions_03_movement",
+    "package": "prepositions_02_direction",
     "version": 2,
     "authors": [
       "content-team"
@@ -8,17 +8,17 @@
   },
   "rules": [
     {
-      "id": "prep-movement",
+      "id": "prep-direction",
       "sectionId": "prepositions",
-      "order": 30,
-      "level": "A2",
+      "order": 21,
+      "level": "A1",
       "title": {
-        "ru": "Предлоги движения и направления",
-        "en": "Prepositions of movement and direction"
+        "ru": "Предлоги направления",
+        "en": "Prepositions of direction"
       },
       "summary": {
-        "ru": "Куда и как движется предмет: to, into, onto, out of, off — направление; through, across, along, over, under, towards, past, around — путь; by, in, on, on foot — способ передвижения.",
-        "en": "Where and how something moves: to, into, onto, out of, off — direction; through, across, along, over, under, towards, past, around — the path; by, in, on, on foot — the means of movement."
+        "ru": "Куда движется предмет: from и to, into и out of, onto и off, через, вдоль, вокруг, вверх и вниз.",
+        "en": "Where an object moves: from and to, into and out of, onto and off, across, along, around, up and down."
       },
       "sections": [
         {
@@ -152,7 +152,7 @@
     {
       "id": "prep2-0001",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "My father leaves the house at six and drives ___ work.",
       "translation": {
@@ -170,13 +170,13 @@
         "en": "To marks the destination: drive to work. From would mean the opposite direction, which contradicts the first part of the sentence."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0005",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The thief opened the window and climbed ___ the house to steal the jewels.",
       "translation": {
@@ -194,13 +194,13 @@
         "en": "Into shows movement inside: climbed into the house. The purpose to steal the jewels confirms that he got inside, while out of would mean he was getting out."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0009",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "B1",
       "sentence": "The rain was so heavy that we ran ___ the nearest shop to stay dry.",
       "translation": {
@@ -218,13 +218,13 @@
         "en": "Into shows going inside a place: ran into the shop. Under and across do not express entering."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0010",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The cat jumped ___ the table and knocked over a glass.",
       "translation": {
@@ -242,13 +242,13 @@
         "en": "Onto shows movement onto a surface: jump onto the table. Into means inside, through means through, and out of means out."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0012",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "B1",
       "sentence": "When the train stopped, we stepped ___ the platform and looked for the exit.",
       "translation": {
@@ -266,13 +266,13 @@
         "en": "Step onto means to move onto a surface: onto the platform. Into would mean inside, over means above, and under means below."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0014",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The children ran ___ the house to catch the school bus.",
       "translation": {
@@ -290,13 +290,13 @@
         "en": "Out of shows movement from inside to outside: run out of the house. Into would mean the opposite direction, and onto and off do not fit."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0017",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "B1",
       "sentence": "We got ___ the car and walked towards the beach.",
       "translation": {
@@ -314,13 +314,13 @@
         "en": "Get out of the car means to leave it; the next clause about walking to the beach shows it is exiting, not entering."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0018",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "B1",
       "sentence": "We drove ___ the tunnel and came out on the other side of the mountain.",
       "translation": {
@@ -338,13 +338,13 @@
         "en": "Through is used for movement inside an enclosed space: drive through a tunnel. Across is for surfaces, over means above, and along means following a line."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0022",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "Look both ways before you walk ___ the busy road to the other side.",
       "translation": {
@@ -362,13 +362,13 @@
         "en": "Across means from one side to the other: walk across the road. The phrase to the other side makes the crossing explicit, so along and under do not fit."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0025",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "We walked ___ the river until we reached the old bridge.",
       "translation": {
@@ -386,13 +386,13 @@
         "en": "Along means following a line: walk along the river. Across means from side to side, through means inside something, and over means above."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0028",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The dog jumped ___ the fence and ran into the garden.",
       "translation": {
@@ -410,13 +410,13 @@
         "en": "Over means above an obstacle: jump over the fence. Under, through and into do not fit the meaning here."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0032",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The cat hid ___ the table so that nobody could see it.",
       "translation": {
@@ -434,13 +434,13 @@
         "en": "Under means below something: hide under the table. On would mean on the table, where the cat would be visible, and over and into do not fit."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0035",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The dog ran ___ the postman, wagging its tail happily.",
       "translation": {
@@ -458,13 +458,13 @@
         "en": "Towards means in the direction of: run towards the postman. From would mean away, which contradicts the happy tail."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0038",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The shop is open ___ Monday to Friday, but it closes at noon on Saturday.",
       "translation": {
@@ -482,13 +482,13 @@
         "en": "From … to is the pattern for a range: from Monday to Friday. At and since do not fit this paired construction with to."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0040",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The little boy fell ___ his bike and hurt his knee.",
       "translation": {
@@ -506,13 +506,13 @@
         "en": "Off means away from a surface: fall off a bike. Onto, under and along do not combine with fall in this meaning."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0047",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "We drove ___ the beach and spent the afternoon swimming.",
       "translation": {
@@ -530,13 +530,13 @@
         "en": "To marks the destination: drove to the beach. At, under and from do not fit here."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0048",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The nurse walked ___ the room and sat down by the bed.",
       "translation": {
@@ -554,13 +554,13 @@
         "en": "Into shows movement inside a room: walked into the room and sat down by the bed. Out of would mean leaving the room, and onto and along do not fit."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0049",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The dog jumped ___ the sofa and fell asleep.",
       "translation": {
@@ -578,13 +578,13 @@
         "en": "Onto shows movement onto a surface: jumped onto the sofa. Into, out of and through do not fit here."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0050",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The teacher walked ___ the classroom and the lesson ended.",
       "translation": {
@@ -602,13 +602,13 @@
         "en": "Out of shows movement from inside to outside: walked out of the classroom. Into would mean entering, and onto and over do not fit."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0051",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The river runs ___ the city centre, dividing it into two halves.",
       "translation": {
@@ -626,13 +626,13 @@
         "en": "Through means across an area: runs through the city centre. The river divides the centre into two halves, so towards (in the direction of) does not fit."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0052",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The team rowed ___ the lake to reach the island.",
       "translation": {
@@ -650,13 +650,13 @@
         "en": "Across means from one side to the other: rowed across the lake. Along, through and over do not express crossing the lake."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0053",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "We cycled ___ the riverbank for an hour before we found a cafe.",
       "translation": {
@@ -674,13 +674,13 @@
         "en": "Along means following a line: cycled along the riverbank. Across, through and over do not express movement parallel to the bank."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0054",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The cat climbed ___ the garden wall and jumped down.",
       "translation": {
@@ -698,13 +698,13 @@
         "en": "Over means above an obstacle: climbed over the wall. Under, through and into do not fit here."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0055",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The fish swam ___ our boat and we could see them clearly.",
       "translation": {
@@ -722,13 +722,13 @@
         "en": "Under means below something: swam under our boat. Over, across and along do not express position below the boat."
       },
       "tags": [
-        "prep-movement"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0056",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The little girl ran ___ her father when she saw him at the airport.",
       "translation": {
@@ -746,253 +746,13 @@
         "en": "Towards means in the direction of: ran towards her father. From would mean away, and over and under do not fit."
       },
       "tags": [
-        "prep-movement"
-      ]
-    },
-    {
-      "id": "prep2-0042",
-      "type": "match",
-      "ruleId": "prep-movement",
-      "level": "A2",
-      "prompt": {
-        "ru": "Сопоставьте смысл и пример.",
-        "en": "Match the meaning with its example."
-      },
-      "pairs": [
-        {
-          "left": {
-            "ru": "конечный пункт маршрута",
-            "en": "the final point of a route"
-          },
-          "right": "We walked to the park after lunch."
-        },
-        {
-          "left": {
-            "ru": "перемещение в закрытое пространство",
-            "en": "movement inside an enclosed space"
-          },
-          "right": "The cat jumped into the box."
-        },
-        {
-          "left": {
-            "ru": "перемещение на поверхность",
-            "en": "movement to a top surface"
-          },
-          "right": "The children climbed onto the wall."
-        },
-        {
-          "left": {
-            "ru": "перемещение изнутри наружу",
-            "en": "movement from inside to outside"
-          },
-          "right": "The child pulled a toy out of the box."
-        }
-      ],
-      "explanation": {
-        "ru": "To указывает на цель движения, into — внутрь, onto — на поверхность, out of — наружу.",
-        "en": "To marks the destination, into means inside, onto means onto a surface, and out of means exiting."
-      },
-      "tags": [
-        "prep-movement",
-        "direction"
-      ]
-    },
-    {
-      "id": "prep2-0043",
-      "type": "match",
-      "ruleId": "prep-movement",
-      "level": "A2",
-      "prompt": {
-        "ru": "Сопоставьте смысл и пример.",
-        "en": "Match the meaning with its example."
-      },
-      "pairs": [
-        {
-          "left": {
-            "ru": "движение по внутренней части чего-то",
-            "en": "movement from one end to the other inside a space"
-          },
-          "right": "The train went through the tunnel."
-        },
-        {
-          "left": {
-            "ru": "движение с одного края на другой",
-            "en": "movement from one side to the other"
-          },
-          "right": "The team swam across the lake."
-        },
-        {
-          "left": {
-            "ru": "движение параллельно линии",
-            "en": "movement parallel to a line"
-          },
-          "right": "We cycled along the canal."
-        },
-        {
-          "left": {
-            "ru": "движение выше препятствия",
-            "en": "movement above an obstacle"
-          },
-          "right": "The horse jumped over the low gate."
-        }
-      ],
-      "explanation": {
-        "ru": "Through — сквозь пространство, across — поперёк, along — вдоль, over — над препятствием.",
-        "en": "Through is inside a space, across goes from side to side, along follows a line, and over is above an obstacle."
-      },
-      "tags": [
-        "prep-movement",
-        "path"
-      ]
-    },
-    {
-      "id": "prep2-0044",
-      "type": "match",
-      "ruleId": "prep-movement",
-      "level": "B1",
-      "prompt": {
-        "ru": "Сопоставьте смысл и пример.",
-        "en": "Match the meaning with its example."
-      },
-      "pairs": [
-        {
-          "left": {
-            "ru": "движение ниже препятствия",
-            "en": "movement below an obstacle"
-          },
-          "right": "The cat ran under the fence."
-        },
-        {
-          "left": {
-            "ru": "движение в сторону без достижения",
-            "en": "movement in the direction, without reaching"
-          },
-          "right": "She ran towards the bus but missed it."
-        },
-        {
-          "left": {
-            "ru": "маршрут с начальной и конечной точками",
-            "en": "a route with a start and an end"
-          },
-          "right": "We cycled from the village to the lake."
-        },
-        {
-          "left": {
-            "ru": "отделение от поверхности",
-            "en": "separation from a surface"
-          },
-          "right": "She took the picture off the wall."
-        }
-      ],
-      "explanation": {
-        "ru": "Under — под, towards — по направлению, from … to — от … до, off — с поверхности.",
-        "en": "Under means below, towards means in the direction of, from … to marks two points, and off means away from a surface."
-      },
-      "tags": [
-        "prep-movement",
-        "path"
-      ]
-    },
-    {
-      "id": "prep2-0045",
-      "type": "match",
-      "ruleId": "prep-movement",
-      "level": "B1",
-      "prompt": {
-        "ru": "Сопоставьте смысл и пример.",
-        "en": "Match the meaning with its example."
-      },
-      "pairs": [
-        {
-          "left": {
-            "ru": "прибытие в пункт назначения",
-            "en": "arrival at the destination"
-          },
-          "right": "After three hours we finally got to the village."
-        },
-        {
-          "left": {
-            "ru": "вход в воду (движение внутрь)",
-            "en": "entering the water"
-          },
-          "right": "The boy dived into the river without checking the depth."
-        },
-        {
-          "left": {
-            "ru": "приземление на верхнюю поверхность",
-            "en": "landing on a top surface"
-          },
-          "right": "The monkey jumped onto the branch and hung there."
-        },
-        {
-          "left": {
-            "ru": "движение мимо объекта",
-            "en": "movement beyond an object"
-          },
-          "right": "The dog ran past the gate and disappeared."
-        }
-      ],
-      "explanation": {
-        "ru": "To — конечная точка, into — внутрь, onto — на поверхность, out of — наружу.",
-        "en": "To is the end point, into means inside, onto means onto a surface, and out of means leaving an enclosed space."
-      },
-      "tags": [
-        "prep-movement",
-        "entering-and-leaving"
-      ]
-    },
-    {
-      "id": "prep2-0046",
-      "type": "match",
-      "ruleId": "prep-movement",
-      "level": "A2",
-      "prompt": {
-        "ru": "Сопоставьте смысл и пример.",
-        "en": "Match the meaning with its example."
-      },
-      "pairs": [
-        {
-          "left": {
-            "ru": "достижение конечной точки",
-            "en": "reaching the end point"
-          },
-          "right": "We finally got to the campsite before dark."
-        },
-        {
-          "left": {
-            "ru": "движение в направлении озера",
-            "en": "moving in the direction of a lake"
-          },
-          "right": "The hikers walked towards the lake but turned back."
-        },
-        {
-          "left": {
-            "ru": "вход внутрь здания",
-            "en": "entering a building"
-          },
-          "right": "She went into the bank to change some money."
-        },
-        {
-          "left": {
-            "ru": "выход из здания",
-            "en": "leaving a building"
-          },
-          "right": "The workers came out of the factory at six."
-        }
-      ],
-      "explanation": {
-        "ru": "To показывает прибытие в пункт, towards — движение в направлении, into — вход внутрь, out of — выход наружу.",
-        "en": "To shows arrival at a place, towards shows movement in a direction, into shows entering, and out of shows leaving."
-      },
-      "tags": [
-        "prep-movement",
-        "direction"
+        "prep-direction"
       ]
     },
     {
       "id": "prep2-0057",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "After the party we walked ___ the station to catch the last train.",
       "translation": {
@@ -1010,14 +770,14 @@
         "en": "To marks the destination: walked to the station."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "to-into-onto"
       ]
     },
     {
       "id": "prep2-0058",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The waiter placed the plate ___ the table.",
       "translation": {
@@ -1035,14 +795,14 @@
         "en": "Onto shows movement onto a surface: placed the plate onto the table."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "to-into-onto"
       ]
     },
     {
       "id": "prep2-0059",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The child climbed ___ the chair to reach the shelf.",
       "translation": {
@@ -1060,14 +820,14 @@
         "en": "The end point is the surface of the chair, so we use onto: climbed onto the chair."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "to-into-onto"
       ]
     },
     {
       "id": "prep2-0060",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "He took his wallet ___ his pocket.",
       "translation": {
@@ -1085,14 +845,14 @@
         "en": "Out of shows movement from inside to outside: took his wallet out of his pocket."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "out-of-off"
       ]
     },
     {
       "id": "prep2-0061",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The ferry moved slowly ___ the harbour and out to sea.",
       "translation": {
@@ -1110,14 +870,14 @@
         "en": "Out of the harbour shows movement from inside to outside."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "out-of-off"
       ]
     },
     {
       "id": "prep2-0062",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The cat jumped ___ the box and landed on the floor.",
       "translation": {
@@ -1135,14 +895,14 @@
         "en": "The cat was in the box and ended up on the floor, so the movement was from inside to outside — out of."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "out-of-off"
       ]
     },
     {
       "id": "prep2-0063",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "He fell ___ the ladder and broke his arm.",
       "translation": {
@@ -1160,14 +920,14 @@
         "en": "Off means away from a surface: fell off the ladder."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "out-of-off"
       ]
     },
     {
       "id": "prep2-0064",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The sunlight came ___ the window and woke me up.",
       "translation": {
@@ -1185,14 +945,14 @@
         "en": "Through means inside a space: came through the window."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "through-across-along"
       ]
     },
     {
       "id": "prep2-0065",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "He swam ___ the river to the other bank.",
       "translation": {
@@ -1210,14 +970,14 @@
         "en": "Across means from one side to the other: swam across the river. The phrase to the other bank confirms the crossing."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "through-across-along"
       ]
     },
     {
       "id": "prep2-0066",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "We drove ___ the coast road for an hour.",
       "translation": {
@@ -1235,14 +995,14 @@
         "en": "Along means following a line: drove along the coast road."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "through-across-along"
       ]
     },
     {
       "id": "prep2-0067",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The balloon rose and floated ___ the houses.",
       "translation": {
@@ -1260,14 +1020,14 @@
         "en": "Over means above something: floated over the houses. Under would mean below, and through would mean inside."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "over-under-towards"
       ]
     },
     {
       "id": "prep2-0068",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The ball rolled ___ the sofa, and we could see it underneath.",
       "translation": {
@@ -1285,14 +1045,14 @@
         "en": "Underneath confirms that the ball went below the sofa: rolled under the sofa."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "over-under-towards"
       ]
     },
     {
       "id": "prep2-0069",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The dog ran ___ the fence and escaped into the field.",
       "translation": {
@@ -1310,14 +1070,14 @@
         "en": "Under the fence means below it: the dog got through underneath, so we use under."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "over-under-towards"
       ]
     },
     {
       "id": "prep2-0070",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The children ran ___ the ice-cream van as soon as they saw it.",
       "translation": {
@@ -1335,14 +1095,14 @@
         "en": "Towards means in the direction of: ran towards the ice-cream van. From would mean away."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "over-under-towards"
       ]
     },
     {
       "id": "prep2-0071",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The bus drove ___ our house without stopping.",
       "translation": {
@@ -1360,14 +1120,14 @@
         "en": "Past means moving by something: drove past our house. Through would mean inside the house."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "past"
       ]
     },
     {
       "id": "prep2-0072",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "We walked ___ the post office and turned left.",
       "translation": {
@@ -1385,14 +1145,14 @@
         "en": "Past means moving by something and continuing: walked past the post office."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "past"
       ]
     },
     {
       "id": "prep2-0073",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The children sat ___ the fire and told stories.",
       "translation": {
@@ -1410,14 +1170,14 @@
         "en": "Around means surrounding something: sat around the fire."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "around-round"
       ]
     },
     {
       "id": "prep2-0074",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "She turned ___ and walked away without a word.",
       "translation": {
@@ -1435,14 +1195,14 @@
         "en": "Turn round is the British phrase for turning to face the other way."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "around-round"
       ]
     },
     {
       "id": "prep2-0075",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "She dived ___ the swimming pool.",
       "translation": {
@@ -1460,14 +1220,14 @@
         "en": "Into shows movement inside: dived into the pool."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "to-into-onto"
       ]
     },
     {
       "id": "prep2-0076",
       "type": "choice",
-      "ruleId": "prep-movement",
+      "ruleId": "prep-direction",
       "level": "A2",
       "sentence": "The road runs ___ the village to the coast.",
       "translation": {
@@ -1485,7 +1245,7 @@
         "en": "From … to marks a route; with to the starting point is introduced by from."
       },
       "tags": [
-        "prep-movement",
+        "prep-direction",
         "from-to"
       ]
     }

@@ -1,0 +1,838 @@
+{
+  "version": 1,
+  "topics": [
+    {
+      "ruleId": "prep-position",
+      "title": "Позиционные предлоги",
+      "subtitle": "Где находится предмет",
+      "prepositions": [
+        {
+          "key": "pos_above",
+          "label": "above",
+          "translation": "над, выше",
+          "short": "выше предмета, не касаясь его",
+          "explanation": "above значит «над, выше»: предмет находится на более высоком уровне, но не обязательно прямо над другим предметом и не касается его. В отличие от on, above не предполагает опоры или контакта, а в отличие от over — не подчёркивает, что предмет нависает и накрывает что-то. Часто используется для уровня, температуры и положения в пространстве.",
+          "examples": [
+            {
+              "en": "The lamp hangs above the table.",
+              "ru": "Лампа висит над столом."
+            },
+            {
+              "en": "The plane flew above the clouds.",
+              "ru": "Самолёт летел над облаками."
+            },
+            {
+              "en": "It is three degrees above zero.",
+              "ru": "Сейчас три градуса выше нуля."
+            }
+          ]
+        },
+        {
+          "key": "pos_across",
+          "label": "across",
+          "translation": "через, поперёк, на той стороне",
+          "short": "на другой стороне или поперёк чего-то",
+          "explanation": "В позиционном значении across показывает, что предмет находится на другой стороне дороги, реки или улицы либо лежит поперёк чего-то. В отличие от through, across — это положение по поверхности или поперёк линии, а through — внутри объёма. Часто используется с глаголом-связкой: магазин через дорогу.",
+          "examples": [
+            {
+              "en": "The bank is across the street.",
+              "ru": "Банк на другой стороне улицы."
+            },
+            {
+              "en": "There is a bridge across the river.",
+              "ru": "Через реку перекинут мост."
+            },
+            {
+              "en": "She lives across the road from us.",
+              "ru": "Она живёт через дорогу от нас."
+            }
+          ]
+        },
+        {
+          "key": "pos_against",
+          "label": "against",
+          "translation": "к, у, прислонившись",
+          "short": "прислонившись к чему-то, с опорой",
+          "explanation": "В позиционном значении against используется, когда предмет касается чего-то и опирается на это: стена, дверь, спинка стула. Это контакт с опорой, в отличие от on, где предмет находится на верхней поверхности.",
+          "examples": [
+            {
+              "en": "The bicycle is leaning against the wall.",
+              "ru": "Велосипед прислонён к стене."
+            },
+            {
+              "en": "She sat with her back against the tree.",
+              "ru": "Она сидела, прислонившись спиной к дереву."
+            },
+            {
+              "en": "She leaned the bike against the fence.",
+              "ru": "Она прислонила велосипед к забору."
+            }
+          ]
+        },
+        {
+          "key": "pos_among",
+          "label": "among",
+          "translation": "среди, между (многими)",
+          "short": "среди нескольких предметов или людей",
+          "explanation": "among означает «среди»: предмет находится в окружении трёх или более других предметов или людей. В отличие от between, among используется для группы, а не для двух предметов. После among обычно стоит существительное во множественном числе или собирательное слово.",
+          "examples": [
+            {
+              "en": "She found her keys among the papers on the desk.",
+              "ru": "Она нашла ключи среди бумаг на столе."
+            },
+            {
+              "en": "He was standing among a crowd of tourists.",
+              "ru": "Он стоял среди толпы туристов."
+            },
+            {
+              "en": "Our house is hidden among the trees.",
+              "ru": "Наш дом спрятан среди деревьев."
+            }
+          ]
+        },
+        {
+          "key": "pos_around",
+          "label": "around",
+          "translation": "вокруг, кругом",
+          "short": "по кругу вокруг чего-то",
+          "explanation": "around показывает, что предметы расположены по кругу или с разных сторон вокруг центрального предмета. Это положение по периметру, а не в одной точке. В отличие от near и next to, around описывает не соседство с предметом, а расположение вокруг него.",
+          "examples": [
+            {
+              "en": "There are chairs around the table.",
+              "ru": "Вокруг стола стоят стулья."
+            },
+            {
+              "en": "The children sat around the fire.",
+              "ru": "Дети сидели вокруг костра."
+            },
+            {
+              "en": "There is a fence around the garden.",
+              "ru": "Вокруг сада есть забор."
+            }
+          ]
+        },
+        {
+          "key": "pos_behind",
+          "label": "behind",
+          "translation": "за, позади",
+          "short": "сзади, за чем-то",
+          "explanation": "behind означает «за, позади»: предмет находится с задней стороны другого предмета, который может его закрывать. Это противоположность in front of.",
+          "examples": [
+            {
+              "en": "The cat is hiding behind the sofa.",
+              "ru": "Кошка прячется за диваном."
+            },
+            {
+              "en": "The garden is behind the house.",
+              "ru": "Сад за домом."
+            },
+            {
+              "en": "He stood behind me in the queue.",
+              "ru": "Он стоял позади меня в очереди."
+            }
+          ]
+        },
+        {
+          "key": "pos_below",
+          "label": "below",
+          "translation": "ниже, под",
+          "short": "ниже чего-то, на более низком уровне",
+          "explanation": "below означает «ниже, под»: предмет находится на более низком уровне, но не обязательно прямо под другим предметом. В отличие от under, below может означать просто «ниже по уровню» — например, ниже нуля или ниже среднего.",
+          "examples": [
+            {
+              "en": "The temperature is five degrees below zero.",
+              "ru": "Температура пять градусов ниже нуля."
+            },
+            {
+              "en": "Her flat is two floors below mine.",
+              "ru": "Её квартира на два этажа ниже моей."
+            },
+            {
+              "en": "The village is below the mountain.",
+              "ru": "Деревня расположена ниже горы."
+            }
+          ]
+        },
+        {
+          "key": "pos_beneath",
+          "label": "beneath",
+          "translation": "под, внизу под",
+          "short": "прямо под чем-то, внизу",
+          "explanation": "beneath — книжный вариант предлога under: предмет находится прямо под другим, часто вплотную к его нижней стороне. В разговорной речи вместо beneath обычно говорят under.",
+          "examples": [
+            {
+              "en": "The boat sank beneath the waves.",
+              "ru": "Лодка затонула под волнами."
+            },
+            {
+              "en": "He felt the cold earth beneath his feet.",
+              "ru": "Он чувствовал холодную землю под ногами."
+            },
+            {
+              "en": "There was a small cellar beneath the house.",
+              "ru": "Под домом был маленький подвал."
+            }
+          ]
+        },
+        {
+          "key": "pos_beside",
+          "label": "beside",
+          "translation": "рядом с, около",
+          "short": "рядом, сбоку от чего-то",
+          "explanation": "beside означает «рядом, сбоку»: предмет находится у стороны другого предмета, обычно на одном уровне с ним. Между ними может быть небольшое расстояние, а касания нет. В отличие от near, beside предполагает более близкое соседство; синонимы — next to и by.",
+          "examples": [
+            {
+              "en": "She sat beside her mother on the bench.",
+              "ru": "Она сидела рядом с матерью на скамейке."
+            },
+            {
+              "en": "There is a small shop beside the school.",
+              "ru": "Рядом со школой есть маленький магазин."
+            },
+            {
+              "en": "He parked the car beside the house.",
+              "ru": "Он припарковал машину рядом с домом."
+            }
+          ]
+        },
+        {
+          "key": "pos_between",
+          "label": "between",
+          "translation": "между",
+          "short": "между двумя предметами",
+          "explanation": "between используется, когда предмет находится между двумя предметами или людьми — с одной стороны и с другой. Для группы из трёх и более предметов чаще употребляют among. Также between может обозначать промежуток времени или расстояние.",
+          "examples": [
+            {
+              "en": "The café is between the bank and the post office.",
+              "ru": "Кафе находится между банком и почтой."
+            },
+            {
+              "en": "She sat between her two brothers.",
+              "ru": "Она сидела между двумя братьями."
+            },
+            {
+              "en": "The ball is between the chairs.",
+              "ru": "Мяч между стульями."
+            }
+          ]
+        },
+        {
+          "key": "pos_by",
+          "label": "by",
+          "translation": "у, около, рядом с",
+          "short": "у самого края, около",
+          "explanation": "by значит «у, около»: предмет находится очень близко к другому, часто у его края или у поверхности — у окна, у двери, у реки. Это ближе, чем near, но не обязательно такое же близкое соседство, как next to.",
+          "examples": [
+            {
+              "en": "She is sitting by the window.",
+              "ru": "Она сидит у окна."
+            },
+            {
+              "en": "The house stands by the river.",
+              "ru": "Дом стоит у реки."
+            },
+            {
+              "en": "He waited by the door.",
+              "ru": "Он ждал у двери."
+            }
+          ]
+        },
+        {
+          "key": "pos_in",
+          "label": "in",
+          "translation": "в, внутри",
+          "short": "внутри пространства или объёма",
+          "explanation": "in означает «в, внутри»: предмет находится внутри чего-то — комнаты, дома, коробки, города. Это объём или пространство, в отличие от on, где предмет находится на поверхности.",
+          "examples": [
+            {
+              "en": "The keys are in my bag.",
+              "ru": "Ключи в моей сумке."
+            },
+            {
+              "en": "She is in the kitchen.",
+              "ru": "Она на кухне."
+            },
+            {
+              "en": "There is some milk in the fridge.",
+              "ru": "В холодильнике есть немного молока."
+            }
+          ]
+        },
+        {
+          "key": "pos_in_front_of",
+          "label": "in front of",
+          "translation": "перед, впереди",
+          "short": "перед чем-то, спереди",
+          "explanation": "in front of означает «перед»: предмет находится перед лицевой или главной стороной другого предмета. Это противоположность behind.",
+          "examples": [
+            {
+              "en": "The car is parked in front of the house.",
+              "ru": "Машина припаркована перед домом."
+            },
+            {
+              "en": "The teacher stood in front of the class.",
+              "ru": "Учитель стоял перед классом."
+            },
+            {
+              "en": "There is a small garden in front of the building.",
+              "ru": "Перед зданием есть небольшой сад."
+            }
+          ]
+        },
+        {
+          "key": "pos_inside",
+          "label": "inside",
+          "translation": "внутри, в",
+          "short": "внутри, в глубине чего-то",
+          "explanation": "inside подчёркивает, что предмет находится внутри закрытого или ограниченного пространства, — это сильнее, чем in. Часто слово используется, когда важно противопоставление outside: внутри дома, внутри коробки.",
+          "examples": [
+            {
+              "en": "The children are playing inside the house.",
+              "ru": "Дети играют в доме."
+            },
+            {
+              "en": "There was nothing inside the box.",
+              "ru": "Внутри коробки ничего не было."
+            },
+            {
+              "en": "Let us wait inside the station.",
+              "ru": "Давай подождём внутри вокзала."
+            }
+          ]
+        },
+        {
+          "key": "pos_near",
+          "label": "near",
+          "translation": "около, недалеко от",
+          "short": "недалеко от чего-то, близко",
+          "explanation": "near показывает, что предмет находится недалеко от другого, но не обязательно вплотную. В отличие от next to и by, near допускает заметное расстояние между предметами.",
+          "examples": [
+            {
+              "en": "We live near the station.",
+              "ru": "Мы живём недалеко от вокзала."
+            },
+            {
+              "en": "There is a good restaurant near here.",
+              "ru": "Здесь недалеко есть хороший ресторан."
+            },
+            {
+              "en": "The school is near the park.",
+              "ru": "Школа недалеко от парка."
+            }
+          ]
+        },
+        {
+          "key": "pos_next_to",
+          "label": "next to",
+          "translation": "рядом с, около",
+          "short": "рядом, вплотную к чему-то",
+          "explanation": "next to означает «рядом с»: предметы стоят непосредственно друг возле друга, часто касаясь или почти касаясь. В отличие от near, next to предполагает самое близкое соседство; это ближайший синоним из ряда beside, by и near.",
+          "examples": [
+            {
+              "en": "The pharmacy is next to the bank.",
+              "ru": "Аптека рядом с банком."
+            },
+            {
+              "en": "She sat next to me on the bus.",
+              "ru": "Она сидела рядом со мной в автобусе."
+            },
+            {
+              "en": "Our hotel is next to the beach.",
+              "ru": "Наш отель рядом с пляжем."
+            }
+          ]
+        },
+        {
+          "key": "pos_on",
+          "label": "on",
+          "translation": "на, на поверхности",
+          "short": "на поверхности чего-то",
+          "explanation": "on означает, что предмет находится на поверхности другого и обычно касается её: на столе, на стене, на полу. В отличие от above и over, on предполагает опору или контакт с поверхностью.",
+          "examples": [
+            {
+              "en": "The book is on the table.",
+              "ru": "Книга на столе."
+            },
+            {
+              "en": "There is a picture on the wall.",
+              "ru": "На стене висит картина."
+            },
+            {
+              "en": "She was sitting on the floor.",
+              "ru": "Она сидела на полу."
+            }
+          ]
+        },
+        {
+          "key": "pos_outside",
+          "label": "outside",
+          "translation": "снаружи, вне",
+          "short": "снаружи, за пределами чего-то",
+          "explanation": "outside означает «снаружи, вне»: предмет находится за пределами помещения или здания. Это противоположность inside; часто используется и форма outside of.",
+          "examples": [
+            {
+              "en": "The children are playing outside the house.",
+              "ru": "Дети играют снаружи дома."
+            },
+            {
+              "en": "There is a taxi waiting outside the station.",
+              "ru": "Снаружи вокзала ждёт такси."
+            },
+            {
+              "en": "The dog is outside the gate.",
+              "ru": "Собака за воротами."
+            }
+          ]
+        },
+        {
+          "key": "pos_over",
+          "label": "over",
+          "translation": "над, поверх",
+          "short": "прямо над чем-то, накрывая его",
+          "explanation": "over значит «над, поверх»: предмет находится прямо над другим, часто накрывает или закрывает его и может касаться. В отличие от above, over подчёркивает положение прямо сверху или накрытие; в отличие от on, over может не предполагать опоры.",
+          "examples": [
+            {
+              "en": "A cloud of smoke hung over the city.",
+              "ru": "Над городом висело облако дыма."
+            },
+            {
+              "en": "She held an umbrella over her head.",
+              "ru": "Она держала зонт над головой."
+            },
+            {
+              "en": "He put a blanket over the child.",
+              "ru": "Он накрыл ребёнка одеялом."
+            }
+          ]
+        },
+        {
+          "key": "pos_through",
+          "label": "through",
+          "translation": "сквозь, через, насквозь",
+          "short": "сквозь что-то, на другую сторону",
+          "explanation": "В позиционном значении through показывает, что предмет проходит сквозь что-то или тянется внутри на другую сторону: дорога через лес, стержень сквозь куб. В отличие от across, through — это положение внутри объёма, а не по поверхности.",
+          "examples": [
+            {
+              "en": "There is a tunnel through the mountain.",
+              "ru": "Сквозь гору проходит туннель."
+            },
+            {
+              "en": "The road goes through the forest.",
+              "ru": "Дорога идёт через лес."
+            },
+            {
+              "en": "She could see the garden through the window.",
+              "ru": "Через окно она видела сад."
+            }
+          ]
+        },
+        {
+          "key": "pos_under",
+          "label": "under",
+          "translation": "под, ниже",
+          "short": "под чем-то, на более низком уровне",
+          "explanation": "under означает «под»: предмет находится ниже другого, часто прямо под ним. Между ними может быть расстояние — под столом, под кроватью, под водой. В отличие от beneath и underneath, under стилистически нейтрален и употребляется чаще всего.",
+          "examples": [
+            {
+              "en": "The cat is sleeping under the table.",
+              "ru": "Кошка спит под столом."
+            },
+            {
+              "en": "The keys are under the bed.",
+              "ru": "Ключи под кроватью."
+            },
+            {
+              "en": "The children hid under the blanket.",
+              "ru": "Дети спрятались под одеялом."
+            }
+          ]
+        },
+        {
+          "key": "pos_underneath",
+          "label": "underneath",
+          "translation": "под, снизу",
+          "short": "под чем-то, у нижней стороны",
+          "explanation": "underneath — вариант under, который подчёркивает, что предмет находится прямо под другим, у его нижней стороны, часто скрытый им. Слово чаще используется в разговорной речи для выделения, чем нейтральное under.",
+          "examples": [
+            {
+              "en": "There is a label underneath the box.",
+              "ru": "Под коробкой есть наклейка."
+            },
+            {
+              "en": "The dog was sleeping underneath the chair.",
+              "ru": "Собака спала под стулом."
+            },
+            {
+              "en": "She found her phone underneath the pile of clothes.",
+              "ru": "Она нашла телефон под кучей одежды."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ruleId": "prep-direction",
+      "title": "Предлоги направления",
+      "subtitle": "Куда движется предмет",
+      "prepositions": [
+        {
+          "key": "dir_across",
+          "label": "across",
+          "translation": "через, поперёк, на другую сторону",
+          "short": "движение на другую сторону чего-то",
+          "explanation": "across показывает движение от одной стороны к другой по поверхности или через линию: через дорогу, через мост, через поле. Это движение «поперёк», в отличие от along — «вдоль».",
+          "examples": [
+            {
+              "en": "The old man walked slowly across the road.",
+              "ru": "Старик медленно перешёл дорогу."
+            },
+            {
+              "en": "We swam across the river.",
+              "ru": "Мы переплыли реку."
+            },
+            {
+              "en": "She ran across the field to meet us.",
+              "ru": "Она побежала через поле навстречу нам."
+            }
+          ]
+        },
+        {
+          "key": "dir_against",
+          "label": "against",
+          "translation": "на, об, против",
+          "short": "движение с ударом или давлением на что-то",
+          "explanation": "В значении направления against показывает движение в сторону чего-то с ударом, давлением или сопротивлением: наткнуться на дверь, опереться на стену, плыть против течения. В отличие от to, against обозначает движение к препятствию, а не к цели.",
+          "examples": [
+            {
+              "en": "He hit his head against the low door.",
+              "ru": "Он ударился головой о низкую дверь."
+            },
+            {
+              "en": "The rain beat against the window.",
+              "ru": "Дождь бил в окно."
+            },
+            {
+              "en": "We swam against the current.",
+              "ru": "Мы плыли против течения."
+            }
+          ]
+        },
+        {
+          "key": "dir_along",
+          "label": "along",
+          "translation": "вдоль, по",
+          "short": "движение вдоль чего-то длинного",
+          "explanation": "along означает «вдоль, по»: движение по линии или рядом с длинным предметом — вдоль дороги, вдоль реки, вдоль пляжа. В отличие от across, along не пересекает предмет, а следует его направлению.",
+          "examples": [
+            {
+              "en": "We walked along the beach in the evening.",
+              "ru": "Вечером мы гуляли по пляжу."
+            },
+            {
+              "en": "The car drove slowly along the narrow street.",
+              "ru": "Машина медленно ехала по узкой улице."
+            },
+            {
+              "en": "They cycled along the river.",
+              "ru": "Они ехали на велосипеде вдоль реки."
+            }
+          ]
+        },
+        {
+          "key": "dir_around",
+          "label": "around",
+          "translation": "вокруг, по кругу, за",
+          "short": "движение по кругу или вокруг чего-то",
+          "explanation": "around означает движение по кругу или вокруг чего-то: обойти дом, объехать площадь, путешествовать по стране. В отличие от across, around не пересекает предмет, а огибает его. Также around может значить «за» — повернуть за угол.",
+          "examples": [
+            {
+              "en": "We walked around the lake.",
+              "ru": "Мы обошли озеро."
+            },
+            {
+              "en": "The earth moves around the sun.",
+              "ru": "Земля движется вокруг Солнца."
+            },
+            {
+              "en": "The bus drove around the square.",
+              "ru": "Автобус объехал площадь."
+            }
+          ]
+        },
+        {
+          "key": "dir_away_from",
+          "label": "away (from)",
+          "translation": "от, прочь от",
+          "short": "движение от чего-то в сторону",
+          "explanation": "away from показывает удаление от места или предмета: уйти от дома, отбежать от собаки, уехать из города. Это противоположность to и towards, которые показывают приближение.",
+          "examples": [
+            {
+              "en": "The child ran away from the dog.",
+              "ru": "Ребёнок убежал от собаки."
+            },
+            {
+              "en": "The train moved slowly away from the station.",
+              "ru": "Поезд медленно отошёл от вокзала."
+            },
+            {
+              "en": "She walked away from the crowd without looking back.",
+              "ru": "Она ушла от толпы, не оглядываясь."
+            }
+          ]
+        },
+        {
+          "key": "dir_down",
+          "label": "down",
+          "translation": "вниз, вниз по",
+          "short": "движение вниз, по лестнице или склону",
+          "explanation": "down означает движение вниз: вниз по лестнице, с горы, по реке. Противоположность — up; слово часто используется с глаголами движения.",
+          "examples": [
+            {
+              "en": "He walked slowly down the stairs.",
+              "ru": "Он медленно спустился по лестнице."
+            },
+            {
+              "en": "The ball rolled down the hill.",
+              "ru": "Мяч скатился с холма."
+            },
+            {
+              "en": "We drove down the mountain road.",
+              "ru": "Мы ехали вниз по горной дороге."
+            }
+          ]
+        },
+        {
+          "key": "dir_from",
+          "label": "from",
+          "translation": "от, из, с",
+          "short": "движение от исходной точки",
+          "explanation": "from показывает исходную точку движения: откуда предмет начинает двигаться — из дома, с вокзала, от друга. Это противоположность to, который обозначает конечную точку.",
+          "examples": [
+            {
+              "en": "He took a book from the shelf.",
+              "ru": "Он взял книгу с полки."
+            },
+            {
+              "en": "She came home from work late.",
+              "ru": "Она поздно пришла с работы."
+            },
+            {
+              "en": "The bus from the airport leaves every hour.",
+              "ru": "Автобус из аэропорта отправляется каждый час."
+            }
+          ]
+        },
+        {
+          "key": "dir_into",
+          "label": "in(to)",
+          "translation": "в, внутрь",
+          "short": "движение внутрь чего-то",
+          "explanation": "in(to) показывает движение внутрь: войти в комнату, прыгнуть в воду, положить в коробку. В отличие от позиционного in, здесь важно направление, а не положение. С глаголами движения выбирайте эту форму, а не in.",
+          "examples": [
+            {
+              "en": "She walked into the room and closed the door.",
+              "ru": "Она вошла в комнату и закрыла дверь."
+            },
+            {
+              "en": "The cat jumped into the box.",
+              "ru": "Кошка прыгнула в коробку."
+            },
+            {
+              "en": "He poured some milk into the glass.",
+              "ru": "Он налил немного молока в стакан."
+            }
+          ]
+        },
+        {
+          "key": "dir_off_of",
+          "label": "off (of)",
+          "translation": "с, с поверхности, прочь",
+          "short": "движение с поверхности, вниз с чего-то",
+          "explanation": "off (of) показывает движение с поверхности, отделение от неё: упасть со стола, снять куртку, съехать с дороги. Это противоположность on(to).",
+          "examples": [
+            {
+              "en": "The cup fell off the table.",
+              "ru": "Чашка упала со стола."
+            },
+            {
+              "en": "The cat jumped off the sofa.",
+              "ru": "Кошка спрыгнула с дивана."
+            },
+            {
+              "en": "He wiped the dust off the shelf.",
+              "ru": "Он стёр пыль с полки."
+            }
+          ]
+        },
+        {
+          "key": "dir_onto",
+          "label": "on(to)",
+          "translation": "на, на поверхность",
+          "short": "движение на поверхность чего-то",
+          "explanation": "on(to) показывает движение на поверхность: поставить чашку на стол, прыгнуть на кровать, выйти на сцену. В отличие от позиционного on, здесь важно направление на поверхность, а не положение на ней.",
+          "examples": [
+            {
+              "en": "She put the cup onto the table.",
+              "ru": "Она поставила чашку на стол."
+            },
+            {
+              "en": "The ball bounced onto the roof.",
+              "ru": "Мяч отскочил на крышу."
+            },
+            {
+              "en": "He walked onto the stage.",
+              "ru": "Он вышел на сцену."
+            }
+          ]
+        },
+        {
+          "key": "dir_out_of",
+          "label": "out (of)",
+          "translation": "из, наружу из",
+          "short": "движение изнутри наружу",
+          "explanation": "out (of) показывает движение изнутри наружу: выйти из дома, достать из сумки, выпрыгнуть из окна. Это противоположность in(to).",
+          "examples": [
+            {
+              "en": "She took the keys out of her bag.",
+              "ru": "Она достала ключи из сумки."
+            },
+            {
+              "en": "The dog ran out of the house.",
+              "ru": "Собака выбежала из дома."
+            },
+            {
+              "en": "He walked out of the room without a word.",
+              "ru": "Он вышел из комнаты, не сказав ни слова."
+            }
+          ]
+        },
+        {
+          "key": "dir_over",
+          "label": "over",
+          "translation": "через, поверх, за",
+          "short": "движение поверх или через препятствие",
+          "explanation": "В значении направления over показывает движение поверх или через препятствие: перепрыгнуть через забор, перелететь через горы, перейти через дорогу. Это движение по дуге сверху, в отличие от through — сквозь объём.",
+          "examples": [
+            {
+              "en": "The horse jumped over the fence.",
+              "ru": "Лошадь перепрыгнула через забор."
+            },
+            {
+              "en": "The plane flew over the mountains.",
+              "ru": "Самолёт перелетел через горы."
+            },
+            {
+              "en": "She climbed over the wall.",
+              "ru": "Она перелезла через стену."
+            }
+          ]
+        },
+        {
+          "key": "dir_through",
+          "label": "through",
+          "translation": "через, сквозь",
+          "short": "движение сквозь что-то, внутри и наружу",
+          "explanation": "through показывает движение сквозь что-то: через лес, через туннель, сквозь толпу. Предмет начинает снаружи, проходит внутри и выходит с другой стороны. В отличие от across, движение идёт внутри объёма, а не по поверхности.",
+          "examples": [
+            {
+              "en": "We walked through the forest.",
+              "ru": "Мы шли через лес."
+            },
+            {
+              "en": "The train went through a long tunnel.",
+              "ru": "Поезд прошёл через длинный туннель."
+            },
+            {
+              "en": "She pushed her way through the crowd.",
+              "ru": "Она пробралась сквозь толпу."
+            }
+          ]
+        },
+        {
+          "key": "dir_to",
+          "label": "to",
+          "translation": "к, в, до",
+          "short": "движение к цели или месту",
+          "explanation": "to обозначает конечную точку движения: подойти к двери, поехать в город, полететь в Москву. В отличие от towards, to предполагает, что предмет достигает цели, а не просто движется в её сторону.",
+          "examples": [
+            {
+              "en": "She walked to the door and opened it.",
+              "ru": "Она подошла к двери и открыла её."
+            },
+            {
+              "en": "We flew to Moscow last summer.",
+              "ru": "Прошлым летом мы летали в Москву."
+            },
+            {
+              "en": "He ran to the bus stop.",
+              "ru": "Он побежал к автобусной остановке."
+            }
+          ]
+        },
+        {
+          "key": "dir_towards",
+          "label": "toward(s)",
+          "translation": "к, по направлению к",
+          "short": "движение в сторону чего-то, не достигая",
+          "explanation": "towards показывает движение в сторону цели, но не обязательно до неё: идти к дому, плыть к берегу, бежать к детям. В отличие от to, цель ещё не достигнута. В британском английском чаще пишут towards, в американском — toward.",
+          "examples": [
+            {
+              "en": "He walked slowly towards the door.",
+              "ru": "Он медленно направился к двери."
+            },
+            {
+              "en": "The boat moved towards the shore.",
+              "ru": "Лодка двинулась к берегу."
+            },
+            {
+              "en": "He ran towards the children.",
+              "ru": "Он побежал к детям."
+            }
+          ]
+        },
+        {
+          "key": "dir_under",
+          "label": "under",
+          "translation": "под, вниз под",
+          "short": "движение под что-то, вниз",
+          "explanation": "В значении направления under показывает движение под что-то: залезть под стол, спрятаться под одеяло, проплыть под мостом. В отличие от позиционного under, здесь важно движение вниз, под поверхность или внутрь укрытия.",
+          "examples": [
+            {
+              "en": "The cat crawled under the bed.",
+              "ru": "Кошка залезла под кровать."
+            },
+            {
+              "en": "The children ran under the tree to hide from the rain.",
+              "ru": "Дети побежали под дерево, чтобы спрятаться от дождя."
+            },
+            {
+              "en": "The boat sailed under the bridge.",
+              "ru": "Лодка проплыла под мостом."
+            }
+          ]
+        },
+        {
+          "key": "dir_up",
+          "label": "up",
+          "translation": "вверх, вверх по",
+          "short": "движение вверх, по лестнице или склону",
+          "explanation": "up означает движение вверх: вверх по лестнице, на гору, по реке. Противоположность — down; слово часто используется с глаголами движения.",
+          "examples": [
+            {
+              "en": "She carried the box up the stairs.",
+              "ru": "Она понесла коробку вверх по лестнице."
+            },
+            {
+              "en": "We climbed up the hill.",
+              "ru": "Мы поднялись на холм."
+            },
+            {
+              "en": "The smoke rose up the chimney.",
+              "ru": "Дым поднимался вверх по трубе."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

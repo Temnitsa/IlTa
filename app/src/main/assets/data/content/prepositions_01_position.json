@@ -1,6 +1,6 @@
 {
   "meta": {
-    "package": "prepositions_02_place",
+    "package": "prepositions_01_position",
     "version": 2,
     "authors": [
       "content-team"
@@ -8,17 +8,17 @@
   },
   "rules": [
     {
-      "id": "prep-place",
+      "id": "prep-position",
       "sectionId": "prepositions",
       "order": 20,
       "level": "A1",
       "title": {
-        "ru": "Предлоги места: at, in, on и другие",
-        "en": "Prepositions of place: at, in, on and others"
+        "ru": "Позиционные предлоги",
+        "en": "Prepositions of position"
       },
       "summary": {
-        "ru": "Где находится предмет: at — точка, in — внутри, on — поверхность; рядом, между, напротив, перед и за, выше и ниже, внутри и снаружи.",
-        "en": "Where an object is: at — a point, in — inside, on — a surface; next to, between, opposite, in front of, behind, above, below, inside and outside."
+        "ru": "Где находится предмет: выше и ниже, внутри и снаружи, рядом, между, перед и за.",
+        "en": "Where an object is: above and below, inside and outside, next to, between, in front of and behind."
       },
       "sections": [
         {
@@ -118,7 +118,7 @@
     {
       "id": "prep1-0044",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "We are waiting ___ the bus stop.",
       "translation": {
@@ -135,13 +135,13 @@
         "en": "A bus stop is a point, not a space, so we use at the bus stop."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0045",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "My grandparents usually stay ___ home in the evening.",
       "translation": {
@@ -158,13 +158,13 @@
         "en": "At home is a fixed expression, so we use at."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0047",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "There were about thirty people ___ the birthday party.",
       "translation": {
@@ -181,13 +181,13 @@
         "en": "The place of an event takes at: at the party."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0048",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The children are playing ___ the garden.",
       "translation": {
@@ -204,13 +204,13 @@
         "en": "A garden is an enclosed space, so we use in the garden."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0049",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "There are three big windows ___ the room.",
       "translation": {
@@ -227,13 +227,13 @@
         "en": "The windows are inside the room, so we use in the room."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0050",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "My aunt lives ___ a small city in the north.",
       "translation": {
@@ -250,13 +250,13 @@
         "en": "A city is a large space, so we use in a city."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0051",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "There is a big map ___ the wall.",
       "translation": {
@@ -273,13 +273,13 @@
         "en": "A wall is a surface, so we use on the wall."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0054",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The moon is ___ the clouds tonight, so we cannot see it.",
       "translation": {
@@ -296,13 +296,13 @@
         "en": "Behind means at the back: the clouds hide the moon, so we cannot see it."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0055",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The car is parked ___ the house, so we can see it from the front window.",
       "translation": {
@@ -319,13 +319,13 @@
         "en": "In front of means in the space before the house, so the car is visible from the front window."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0056",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The boat is passing ___ the bridge.",
       "translation": {
@@ -342,13 +342,13 @@
         "en": "Under means below: the boat is lower than the bridge."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0058",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "Our house is ___ the school and the park.",
       "translation": {
@@ -365,13 +365,13 @@
         "en": "Between is used for something in the middle of two objects."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0060",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "There were four people ___ the car, so it was very crowded.",
       "translation": {
@@ -388,13 +388,13 @@
         "en": "Inside a car we use in the car: it is an enclosed space."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0063",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A2",
       "sentence": "The bus stop is ___ the bank, on the other side of the road.",
       "translation": {
@@ -412,13 +412,13 @@
         "en": "Opposite means on the other side, and the phrase on the other side of the road confirms it."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0065",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A2",
       "sentence": "Our flat is ___ the third floor.",
       "translation": {
@@ -435,13 +435,13 @@
         "en": "A floor of a building takes on: on the third floor."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0078",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A2",
       "sentence": "The table stands ___ the middle of the kitchen.",
       "translation": {
@@ -458,13 +458,13 @@
         "en": "In the middle of is a fixed phrase with in."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0098",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "My father is ___ work until late tonight.",
       "translation": {
@@ -481,13 +481,13 @@
         "en": "At work is a fixed expression: at treats the place as a point. In and on are not used here."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0099",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The keys are ___ my bag, so I cannot open the door.",
       "translation": {
@@ -504,13 +504,13 @@
         "en": "A bag is an enclosed space, so we use in: in my bag."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0100",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The children sat ___ the floor and listened to the story.",
       "translation": {
@@ -527,13 +527,13 @@
         "en": "The floor is a surface, so we use on: on the floor."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0101",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "My grandmother grows tomatoes and carrots ___ her garden.",
       "translation": {
@@ -550,13 +550,13 @@
         "en": "A garden is a limited area, so we use in: in her garden."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0102",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The museum is ___ the left, opposite the park.",
       "translation": {
@@ -573,13 +573,13 @@
         "en": "The fixed phrase for a side takes on: on the left."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0103",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "Someone is waiting ___ the door.",
       "translation": {
@@ -596,13 +596,13 @@
         "en": "The door is treated as a point here, so we use at: at the door."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0104",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "Our house is ___ the post office, so it is easy to find.",
       "translation": {
@@ -619,13 +619,13 @@
         "en": "Next to means beside: the two buildings stand side by side."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0105",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The library is ___ the town hall and the museum.",
       "translation": {
@@ -642,13 +642,13 @@
         "en": "Between is used when something is in the middle of two objects: between the town hall and the museum."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0106",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The ball rolled ___ the sofa, so we cannot reach it.",
       "translation": {
@@ -665,13 +665,13 @@
         "en": "Behind means at the back of something: the ball rolled behind the sofa."
       },
       "tags": [
-        "prep-place"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0107",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The old photographs are ___ a small box in the attic.",
       "translation": {
@@ -688,253 +688,13 @@
         "en": "A box is an enclosed space, so we use in: in a small box."
       },
       "tags": [
-        "prep-place"
-      ]
-    },
-    {
-      "id": "prep1-0082",
-      "type": "match",
-      "ruleId": "prep-place",
-      "level": "A1",
-      "prompt": {
-        "ru": "Сопоставьте смысл и пример.",
-        "en": "Match the meaning with its example."
-      },
-      "pairs": [
-        {
-          "left": {
-            "ru": "место события",
-            "en": "the place of an event"
-          },
-          "right": "We met at the party."
-        },
-        {
-          "left": {
-            "ru": "внутренняя часть предмета",
-            "en": "the inside of a thing"
-          },
-          "right": "The keys are in my bag."
-        },
-        {
-          "left": {
-            "ru": "верхняя поверхность предмета",
-            "en": "the top surface of a thing"
-          },
-          "right": "The book is on the table."
-        },
-        {
-          "left": {
-            "ru": "населённый пункт",
-            "en": "a city or town"
-          },
-          "right": "My uncle lives in London."
-        }
-      ],
-      "explanation": {
-        "ru": "At — место события, in — внутри и в городе, on — на поверхности.",
-        "en": "At is for the place of an event, in for inside a thing and for a city, on for a surface."
-      },
-      "tags": [
-        "prep-place",
-        "in-at-on-core"
-      ]
-    },
-    {
-      "id": "prep1-0083",
-      "type": "match",
-      "ruleId": "prep-place",
-      "level": "A1",
-      "prompt": {
-        "ru": "Сопоставьте смысл и пример.",
-        "en": "Match the meaning with its example."
-      },
-      "pairs": [
-        {
-          "left": {
-            "ru": "непосредственное соседство",
-            "en": "immediately adjacent"
-          },
-          "right": "The bank is next to the post office."
-        },
-        {
-          "left": {
-            "ru": "положение ниже предмета",
-            "en": "lower than a thing"
-          },
-          "right": "The ball rolled under the car."
-        },
-        {
-          "left": {
-            "ru": "задняя сторона предмета",
-            "en": "the back side of a thing"
-          },
-          "right": "The garden is behind the house."
-        },
-        {
-          "left": {
-            "ru": "передняя сторона предмета",
-            "en": "the front side of a thing"
-          },
-          "right": "There is a tall tree in front of the school."
-        }
-      ],
-      "explanation": {
-        "ru": "Next to — рядом, under — под, behind — за, in front of — перед.",
-        "en": "Next to means beside, under means below, behind means at the back and in front of means before."
-      },
-      "tags": [
-        "prep-place",
-        "spatial-relations"
-      ]
-    },
-    {
-      "id": "prep1-0084",
-      "type": "match",
-      "ruleId": "prep-place",
-      "level": "A2",
-      "prompt": {
-        "ru": "Сопоставьте смысл и пример.",
-        "en": "Match the meaning with its example."
-      },
-      "pairs": [
-        {
-          "left": {
-            "ru": "положение двух объектов по обе стороны",
-            "en": "two objects on either side"
-          },
-          "right": "There is a narrow path between the two houses."
-        },
-        {
-          "left": {
-            "ru": "в окружении многих объектов",
-            "en": "surrounded by many objects"
-          },
-          "right": "She found the letter among the old papers."
-        },
-        {
-          "left": {
-            "ru": "с другой стороны улицы",
-            "en": "on the other side of the street"
-          },
-          "right": "The cafe is opposite the station."
-        },
-        {
-          "left": {
-            "ru": "этаж здания",
-            "en": "a floor level of a building"
-          },
-          "right": "The meeting room is on the second floor."
-        }
-      ],
-      "explanation": {
-        "ru": "Between — между двумя, among — среди многих, opposite — напротив, on — для этажа здания.",
-        "en": "Between is for two objects, among for many, opposite means across from, and on is used for a floor of a building."
-      },
-      "tags": [
-        "prep-place",
-        "spatial-relations"
-      ]
-    },
-    {
-      "id": "prep1-0085",
-      "type": "match",
-      "ruleId": "prep-place",
-      "level": "A2",
-      "prompt": {
-        "ru": "Сопоставьте смысл и пример.",
-        "en": "Match the meaning with its example."
-      },
-      "pairs": [
-        {
-          "left": {
-            "ru": "финальная точка улицы",
-            "en": "the final point of a street"
-          },
-          "right": "The pharmacy is at the end of the street."
-        },
-        {
-          "left": {
-            "ru": "внутренний угол комнаты",
-            "en": "the inside angle of a room"
-          },
-          "right": "There is an old armchair in the corner of the room."
-        },
-        {
-          "left": {
-            "ru": "северная часть страны",
-            "en": "the northern part of a country"
-          },
-          "right": "Their farm is in the north of Scotland."
-        },
-        {
-          "left": {
-            "ru": "полка как поверхность",
-            "en": "a shelf as a surface"
-          },
-          "right": "The cups are on the shelf above the sink."
-        }
-      ],
-      "explanation": {
-        "ru": "At the end of the street — конец улицы, in the corner of the room — угол комнаты, in the north of Scotland — часть страны, on the shelf — на полке.",
-        "en": "At the end of the street, in the corner of the room, in the north of Scotland and on the shelf each keep their own preposition."
-      },
-      "tags": [
-        "prep-place",
-        "position-in-space"
-      ]
-    },
-    {
-      "id": "prep1-0087",
-      "type": "match",
-      "ruleId": "prep-place",
-      "level": "A2",
-      "prompt": {
-        "ru": "Сопоставьте смысл и пример.",
-        "en": "Match the meaning with its example."
-      },
-      "pairs": [
-        {
-          "left": {
-            "ru": "левая сторона",
-            "en": "the left-hand side"
-          },
-          "right": "The post office is on the left."
-        },
-        {
-          "left": {
-            "ru": "центральная часть пространства",
-            "en": "the central part of a space"
-          },
-          "right": "There is a round table in the middle of the room."
-        },
-        {
-          "left": {
-            "ru": "верхняя часть здания",
-            "en": "the upper part of a building"
-          },
-          "right": "Our flat is at the top of the building."
-        },
-        {
-          "left": {
-            "ru": "пересечение улиц",
-            "en": "a street intersection"
-          },
-          "right": "There is a small cafe on the corner."
-        }
-      ],
-      "explanation": {
-        "ru": "On указывает на сторону и на угол, in — на середину пространства, at — на верхнюю часть.",
-        "en": "On marks a side or a corner, in marks the middle of a space, and at marks the top part."
-      },
-      "tags": [
-        "prep-place",
-        "position-in-space"
+        "prep-position"
       ]
     },
     {
       "id": "prep1-0201",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The plane is flying ___ the clouds, so the passengers can see the sun.",
       "translation": {
@@ -951,14 +711,14 @@
         "en": "Above means higher than: the plane is over the clouds, so the passengers can see the sun."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "above"
       ]
     },
     {
       "id": "prep1-0202",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The small village is ___ the mountain, in the valley.",
       "translation": {
@@ -975,14 +735,14 @@
         "en": "Below means lower than: the village is in the valley, so it is lower than the mountain."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "below"
       ]
     },
     {
       "id": "prep1-0203",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The cat is hiding ___ the warm blanket, so we cannot see it.",
       "translation": {
@@ -999,14 +759,14 @@
         "en": "Under means below: the blanket covers the cat, so we cannot see it."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "under"
       ]
     },
     {
       "id": "prep1-0204",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The boy climbed ___ the garden wall to get his ball.",
       "translation": {
@@ -1023,14 +783,14 @@
         "en": "Over means across the top of something: the boy climbed across the top of the wall."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "over"
       ]
     },
     {
       "id": "prep1-0205",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The cafe is ___ the bank and the library.",
       "translation": {
@@ -1047,14 +807,14 @@
         "en": "Between is used for something in the middle of two objects."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "between"
       ]
     },
     {
       "id": "prep1-0206",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "He was the only boy ___ the twenty girls in the class.",
       "translation": {
@@ -1071,14 +831,14 @@
         "en": "Among means in the middle of many; between would be used for just two."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "among"
       ]
     },
     {
       "id": "prep1-0207",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "We had a picnic ___ the river.",
       "translation": {
@@ -1095,14 +855,14 @@
         "en": "By means near or beside: the picnic was on the river bank."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "by"
       ]
     },
     {
       "id": "prep1-0208",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The bride stood ___ her father at the altar.",
       "translation": {
@@ -1119,14 +879,14 @@
         "en": "Beside means next to; above and below describe height, not position alongside."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "beside"
       ]
     },
     {
       "id": "prep1-0209",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "Our school is ___ the park, on the opposite side of the road.",
       "translation": {
@@ -1144,14 +904,14 @@
         "en": "Opposite means on the other side, and on the opposite side of the road confirms it."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "opposite"
       ]
     },
     {
       "id": "prep1-0210",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The two shops are ___ each other, across the road.",
       "translation": {
@@ -1168,14 +928,14 @@
         "en": "Across the road shows that the shops are on different sides, so opposite is right."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "opposite"
       ]
     },
     {
       "id": "prep1-0211",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The teacher stood ___ the class so everyone could see her.",
       "translation": {
@@ -1192,14 +952,14 @@
         "en": "In front of means before: that is why the class can see the teacher."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "in-front-of"
       ]
     },
     {
       "id": "prep1-0212",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The garage is ___ the house, at the back.",
       "translation": {
@@ -1216,14 +976,14 @@
         "en": "Behind means at the back, and at the back confirms the position."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "behind"
       ]
     },
     {
       "id": "prep1-0213",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The post office is ___ the bank; they share the same side wall.",
       "translation": {
@@ -1240,14 +1000,14 @@
         "en": "Next to means beside; the shared side wall shows the buildings stand side by side."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "next-to"
       ]
     },
     {
       "id": "prep1-0214",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "Our house is ___ the park, so we walk there in two minutes.",
       "translation": {
@@ -1264,14 +1024,14 @@
         "en": "Next to means right beside, which is why the park is so close."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "next-to"
       ]
     },
     {
       "id": "prep1-0215",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "It is raining, so let's stay ___ the house.",
       "translation": {
@@ -1288,14 +1048,14 @@
         "en": "Inside means within a place: because of the rain we stay in the house."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "inside"
       ]
     },
     {
       "id": "prep1-0216",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The children are playing ___ the house in the garden, so they cannot hear us.",
       "translation": {
@@ -1312,14 +1072,14 @@
         "en": "Outside means not inside a building; in the garden means out of the house."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "outside"
       ]
     },
     {
       "id": "prep1-0217",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "Walk down this street and you will see the pharmacy ___ the right.",
       "translation": {
@@ -1336,14 +1096,14 @@
         "en": "On the right is the fixed phrase for position at a side, so we use on."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "on-the-right"
       ]
     },
     {
       "id": "prep1-0218",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The restaurant is ___ the left, just after the bridge.",
       "translation": {
@@ -1360,14 +1120,14 @@
         "en": "On the left is a fixed phrase: a side of something takes on."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "on-the-left"
       ]
     },
     {
       "id": "prep1-0219",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "Write your name ___ the top of the page.",
       "translation": {
@@ -1384,14 +1144,14 @@
         "en": "At the top of the page is the standard phrase for the top part of a page."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "at-the-top"
       ]
     },
     {
       "id": "prep1-0220",
       "type": "choice",
-      "ruleId": "prep-place",
+      "ruleId": "prep-position",
       "level": "A1",
       "sentence": "The kitchen is ___ the bottom of the stairs.",
       "translation": {
@@ -1408,7 +1168,7 @@
         "en": "At the bottom of the stairs is the fixed phrase for the lowest part."
       },
       "tags": [
-        "prep-place",
+        "prep-position",
         "at-the-bottom"
       ]
     }

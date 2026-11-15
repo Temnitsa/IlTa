@@ -17,7 +17,10 @@ object AnswerChecker {
 
     fun canonicalAnswer(question: Question): String = normalize(question.answer.orEmpty())
 
-    /** Only `choice` questions are checked here; match questions are graded inside the matching UI. */
+    /**
+     * Checks a typed or tapped answer for a `choice` question. The same normalization is used by
+     * the "Письмо" mode, so `at`/`At`/` at ` are all accepted. Other question types return false.
+     */
     fun isCorrect(question: Question, userInput: String): Boolean {
         if (question.type != "choice") return false
         return normalize(userInput) == canonicalAnswer(question)

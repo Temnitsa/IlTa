@@ -20,6 +20,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
@@ -30,10 +32,12 @@ import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.key
 import androidx.compose.runtime.mutableIntStateOf
@@ -45,8 +49,13 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.text.style.LineBreak
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -56,6 +65,7 @@ import com.iltatrainer.app.data.ProgressState
 import com.iltatrainer.app.data.Question
 import com.iltatrainer.app.data.Rule
 import com.iltatrainer.app.domain.AnswerChecker
+import com.iltatrainer.app.domain.PracticeMode
 import com.iltatrainer.app.domain.SessionBuilder
 import com.iltatrainer.app.domain.SessionConfig
 import com.iltatrainer.app.domain.SessionMistake
@@ -136,6 +146,7 @@ fun PracticeScreen(
                 question = current,
                 rule = rulesById[current.ruleId],
                 language = language,
+                typed = config.typedAnswers || config.mode == PracticeMode.WRITE,
                 isLast = isLast,
                 modifier = Modifier.weight(1f),
                 onAnswered = { correct, userInput ->
@@ -251,6 +262,7 @@ private fun QuestionBody(
     question: Question,
     rule: Rule?,
     language: AppLanguage,
+    typed: Boolean,
     isLast: Boolean,
     modifier: Modifier,
     onAnswered: (Boolean, String) -> Unit,
@@ -277,22 +289,34 @@ private fun QuestionBody(
     ) {
         Text(
             text = when {
+                question.isChoice && typed && sectionId == "articles" ->
+                    tr("Введите правильный артикль", "Type the correct article")
+                question.isChoice && typed && sectionId == "prepositions" ->
+                    tr("Введите правильный предлог", "Type the correct preposition")
+                question.isChoice && typed ->
+                    tr("Введите пропущенное слово", "Type the missing word")
                 question.isChoice && sectionId == "articles" ->
                     tr("Выберите правильный артикль", "Choose the correct article")
                 question.isChoice && sectionId == "prepositions" ->
                     tr("Выберите правильный предлог", "Choose the correct preposition")
                 question.isChoice ->
                     tr("Выберите правильный вариант", "Choose the correct option")
-                question.isBuild ->
+                else ->
                     tr("Переведите предложение на английский", "Translate the sentence into English")
-                else -> question.prompt?.text(language)
-                    ?: tr("Сопоставьте правило и пример", "Match each rule with its example")
             },
             style = MaterialTheme.typography.titleMedium,
         )
         Spacer(Modifier.height(12.dp))
 
         when {
+            question.isChoice && typed -> WritingBody(
+                question = question,
+                sectionId = sectionId,
+                answered = answered,
+                userInput = userInput,
+                onSubmit = submit,
+            )
+
             question.isChoice -> ChoiceBody(
                 question = question,
                 sectionId = sectionId,
@@ -307,12 +331,7 @@ private fun QuestionBody(
                 onSubmit = submit,
             )
 
-            else -> MatchBody(
-                question = question,
-                language = language,
-                answered = answered,
-                onSubmit = submit,
-            )
+            else -> Unit
         }
 
         if (answered) {
@@ -429,161 +448,75 @@ private fun AnswerOption(
     }
 }
 
-private enum class MatchState { Idle, Selected, Matched, Flash }
-
 @Composable
-private fun MatchBody(
+private fun WritingBody(
     question: Question,
-    language: AppLanguage,
+    sectionId: String,
     answered: Boolean,
+    userInput: String,
     onSubmit: (Boolean, String) -> Unit,
 ) {
-    val pairs = question.pairs
-    val leftOrder = remember(question.id) { pairs.indices.shuffled() }
-    val rightOrder = remember(question.id) { pairs.indices.shuffled() }
-    var selectedLeft by remember { mutableStateOf<Int?>(null) }
-    var matched by remember { mutableStateOf<Set<Int>>(emptySet()) }
-    var wrongAttempts by remember { mutableIntStateOf(0) }
-    var flashPair by remember { mutableStateOf<Pair<Int, Int>?>(null) }
-    val scope = rememberCoroutineScope()
+    var input by remember(question.id) { mutableStateOf("") }
+    val canonical = AnswerChecker.canonicalAnswer(question)
+    val focusRequester = remember { FocusRequester() }
+    val keyboard = LocalSoftwareKeyboardController.current
+    val isWrong = answered && AnswerChecker.normalize(userInput) != canonical
 
-    val handleRight: (Int) -> Unit = { rightOriginal ->
-        val left = selectedLeft
-        if (left != null && !answered && rightOriginal !in matched) {
-            if (left == rightOriginal) {
-                val next = matched + rightOriginal
-                matched = next
-                selectedLeft = null
-                if (next.size == pairs.size) {
-                    onSubmit(wrongAttempts == 0, "")
-                }
-            } else {
-                wrongAttempts += 1
-                flashPair = left to rightOriginal
-                selectedLeft = null
-                scope.launch {
-                    delay(450)
-                    flashPair = null
-                }
-            }
+    LaunchedEffect(question.id) { focusRequester.requestFocus() }
+
+    val submitAnswer: () -> Unit = {
+        if (!answered && input.isNotBlank()) {
+            keyboard?.hide()
+            onSubmit(AnswerChecker.isCorrect(question, input), input.trim())
         }
     }
 
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            Column(
-                modifier = Modifier.weight(1f),
-                verticalArrangement = Arrangement.spacedBy(10.dp),
-            ) {
-                Text(
-                    tr("Значение", "Meaning"),
-                    style = MaterialTheme.typography.labelLarge,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
-                leftOrder.forEach { pairIndex ->
-                    MatchCard(
-                        text = pairs[pairIndex].left.text(language),
-                        state = when {
-                            pairIndex in matched -> MatchState.Matched
-                            flashPair?.first == pairIndex -> MatchState.Flash
-                            selectedLeft == pairIndex -> MatchState.Selected
-                            else -> MatchState.Idle
-                        },
-                        enabled = !answered && pairIndex !in matched,
-                        onClick = {
-                            if (!answered && pairIndex !in matched) {
-                                selectedLeft = pairIndex
-                            }
-                        },
-                    )
-                }
-            }
-            Column(
-                modifier = Modifier.weight(1f),
-                verticalArrangement = Arrangement.spacedBy(10.dp),
-            ) {
-                Text(
-                    tr("Пример", "Example"),
-                    style = MaterialTheme.typography.labelLarge,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
-                rightOrder.forEach { pairIndex ->
-                    MatchCard(
-                        text = pairs[pairIndex].right,
-                        state = when {
-                            pairIndex in matched -> MatchState.Matched
-                            flashPair?.second == pairIndex -> MatchState.Flash
-                            else -> MatchState.Idle
-                        },
-                        enabled = !answered && pairIndex !in matched,
-                        onClick = { handleRight(pairIndex) },
-                    )
-                }
-            }
-        }
-        if (!answered) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(
-                    tr(
-                        "Нажмите описание слева, затем пример справа.",
-                        "Tap a rule on the left, then its example on the right.",
-                    ),
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.weight(1f),
-                )
-                if (wrongAttempts > 0) {
-                    Text(
-                        tr("Ошибок: $wrongAttempts", "Mistakes: $wrongAttempts"),
-                        style = MaterialTheme.typography.labelSmall,
-                        color = MaterialTheme.colorScheme.error,
-                    )
-                }
-            }
-        }
-    }
-}
-
-@Composable
-private fun MatchCard(
-    text: String,
-    state: MatchState,
-    enabled: Boolean,
-    onClick: () -> Unit,
-) {
-    val borderColor = when (state) {
-        MatchState.Selected, MatchState.Matched -> MaterialTheme.colorScheme.primary
-        MatchState.Flash -> MaterialTheme.colorScheme.error
-        MatchState.Idle -> MaterialTheme.colorScheme.outlineVariant
-    }
-    val containerColor = when (state) {
-        MatchState.Selected -> MaterialTheme.colorScheme.secondaryContainer
-        MatchState.Matched -> MaterialTheme.colorScheme.primaryContainer
-        MatchState.Flash -> MaterialTheme.colorScheme.errorContainer
-        MatchState.Idle -> MaterialTheme.colorScheme.surface
-    }
-    val contentColor = when (state) {
-        MatchState.Selected -> MaterialTheme.colorScheme.onSecondaryContainer
-        MatchState.Matched -> MaterialTheme.colorScheme.onPrimaryContainer
-        MatchState.Flash -> MaterialTheme.colorScheme.onErrorContainer
-        MatchState.Idle -> MaterialTheme.colorScheme.onSurface
-    }
-    Surface(
-        onClick = onClick,
-        enabled = enabled,
-        shape = RoundedCornerShape(14.dp),
-        color = containerColor,
-        contentColor = contentColor,
-        border = BorderStroke(if (state == MatchState.Idle) 1.dp else 2.dp, borderColor),
-    ) {
-        Text(
-            text = if (state == MatchState.Matched) "✓ $text" else text,
-            style = MaterialTheme.typography.bodyMedium,
+        SentenceCard(
+            sentence = question.sentence.orEmpty(),
+            filled = if (answered) canonical else null,
+        )
+        OutlinedTextField(
+            value = input,
+            onValueChange = { if (!answered) input = it },
+            enabled = !answered,
+            singleLine = true,
+            isError = isWrong,
+            label = {
+                Text(tr("Пропущенное слово", "Missing word"))
+            },
+            keyboardOptions = KeyboardOptions(
+                capitalization = KeyboardCapitalization.None,
+                autoCorrectEnabled = false,
+                imeAction = ImeAction.Done,
+            ),
+            keyboardActions = KeyboardActions(onDone = { submitAnswer() }),
             modifier = Modifier
                 .fillMaxWidth()
-                .heightIn(min = 52.dp)
-                .padding(10.dp),
+                .focusRequester(focusRequester),
         )
+        if (answered && isWrong) {
+            Text(
+                text = tr(
+                    "Вы ввели: $userInput",
+                    "You typed: $userInput",
+                ),
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.error,
+            )
+        }
+        if (!answered) {
+            Button(
+                onClick = submitAnswer,
+                enabled = input.isNotBlank(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(46.dp),
+                shape = RoundedCornerShape(12.dp),
+            ) {
+                Text(tr("Проверить", "Check"), style = MaterialTheme.typography.titleMedium)
+            }
+        }
     }
 }
 
@@ -805,17 +738,10 @@ private fun FeedbackCard(
                 }
             } else if (!correct) {
                 Text(
-                    text = if (question.isMatch) {
-                        tr(
-                            "Не все пары были соединены правильно.",
-                            "Some pairs were matched incorrectly.",
-                        )
-                    } else {
-                        tr(
-                            "Правильный ответ: ${itemLabel(AnswerChecker.canonicalAnswer(question), sectionId)}",
-                            "Correct answer: ${itemLabel(AnswerChecker.canonicalAnswer(question), sectionId)}",
-                        )
-                    },
+                    text = tr(
+                        "Правильный ответ: ${itemLabel(AnswerChecker.canonicalAnswer(question), sectionId)}",
+                        "Correct answer: ${itemLabel(AnswerChecker.canonicalAnswer(question), sectionId)}",
+                    ),
                     style = MaterialTheme.typography.labelLarge,
                     color = content.copy(alpha = 0.9f),
                 )

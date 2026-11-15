@@ -47,6 +47,7 @@ import com.iltatrainer.app.domain.TOPIC_SESSION_SIZE
 import com.iltatrainer.app.ui.components.EmptyState
 import com.iltatrainer.app.ui.components.StatsBarIcon
 import com.iltatrainer.app.ui.screens.PracticeScreen
+import com.iltatrainer.app.ui.screens.PrepositionTopicScreen
 import com.iltatrainer.app.ui.screens.ResultScreen
 import com.iltatrainer.app.ui.screens.RuleDetailScreen
 import com.iltatrainer.app.ui.screens.SectionScreen
@@ -143,14 +144,26 @@ private fun AppContent(container: AppContainer, content: ContentLoadResult) {
                     progress = progress,
                     contentErrors = content.errors,
                     onStartQuickPractice = { ruleIds, types ->
+                        val writing = "write" in types
+                        val effectiveTypes = if (writing) (types - "write") + "choice" else types
                         startPractice(
                             SessionConfig(
                                 mode = PracticeMode.QUICK,
                                 size = progress.settings.sessionSize,
                                 ruleIds = ruleIds,
-                                types = types,
+                                types = effectiveTypes,
+                                typedAnswers = writing,
                             ),
                             "Быстрая тренировка",
+                        )
+                    },
+                    onStartWriting = {
+                        startPractice(
+                            SessionConfig(
+                                mode = PracticeMode.WRITE,
+                                size = progress.settings.sessionSize,
+                            ),
+                            "Письмо",
                         )
                     },
                     onStartMistakes = {
@@ -175,7 +188,14 @@ private fun AppContent(container: AppContainer, content: ContentLoadResult) {
                         progress = progress,
                         sessionSize = progress.settings.sessionSize,
                         onBack = { navigator.pop() },
-                        onOpenRule = { ruleId -> navigator.push(Screen.RuleDetail(ruleId)) },
+                        onOpenRule = { ruleId ->
+                            val target = if (sectionId == "prepositions") {
+                                Screen.PrepositionTopic(ruleId)
+                            } else {
+                                Screen.RuleDetail(ruleId)
+                            }
+                            navigator.push(target)
+                        },
                         onPracticeSection = {
                             if (sectionId.isNotBlank()) {
                                 val ids = content.questionsForSection(sectionId)
@@ -193,6 +213,30 @@ private fun AppContent(container: AppContainer, content: ContentLoadResult) {
                                     )
                                 }
                             }
+                        },
+                    )
+                }
+
+                is Screen.PrepositionTopic -> {
+                    val ruleId = screen.ruleId
+                    val topic = content.prepositions.topicFor(ruleId)
+                    val rule = content.rulesById[ruleId]
+                    PrepositionTopicScreen(
+                        rule = rule,
+                        topic = topic,
+                        questions = content.questions.filter { it.ruleId == ruleId },
+                        progress = progress,
+                        onBack = { navigator.pop() },
+                        onOpenTheory = { navigator.push(Screen.RuleDetail(ruleId)) },
+                        onTrain = {
+                            startPractice(
+                                SessionConfig(
+                                    mode = PracticeMode.TOPIC,
+                                    ruleId = ruleId,
+                                    size = TOPIC_SESSION_SIZE,
+                                ),
+                                rule?.title?.text(AppLanguage.RU)?.let { "Тренировка: $it" } ?: "Тренировка",
+                            )
                         },
                     )
                 }

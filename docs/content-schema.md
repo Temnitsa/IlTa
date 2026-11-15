@@ -1,8 +1,8 @@
 # Content schema — IlTa trainer (v2)
 
 App: **IlTa** — offline Android trainer for English grammar.
-Two sections are supported: **Articles** (`articles`) and **Prepositions** (`prepositions`),
-and new sections can be added later through `sections.json`.
+Three sections are supported: **Articles** (`articles`), **Prepositions** (`prepositions`)
+and **Tenses** (`tenses`); new sections can be added later through `sections.json`.
 
 All learning content lives in `app/src/main/assets/data/`:
 
@@ -12,7 +12,7 @@ data/
 └── content/
     ├── 01_indefinite_article.json
     ├── ...
-    └── prepositions_03_fixed_advanced.json
+    └── tenses_12_future_perfect_continuous.json
 ```
 
 The app loads **every** `*.json` file in `data/content`, so different authors work on
@@ -43,8 +43,8 @@ separate files in parallel.
       "title": { "ru": "Предлоги", "en": "Prepositions" },
       "short": { "ru": "at / on / in / to / …", "en": "at / on / in / to / …" },
       "description": {
-        "ru": "Предлоги времени, места, движения, зависимости после прилагательных и глаголов, устойчивые сочетания.",
-        "en": "Prepositions of time, place, movement, dependent prepositions after adjectives and verbs, fixed phrases."
+        "ru": "Визуальный словарь: позиционные предлоги и предлоги направления — картинки, перевод, объяснения и примеры.",
+        "en": "A visual dictionary: positional prepositions and prepositions of direction — pictures, translation, explanations and examples."
       }
     }
   ]
@@ -113,30 +113,28 @@ Required: `id`, `sectionId`, `order`, `level` (A1|A2|B1|B2), `title.ru/en`,
 
 ## 3. Question quotas (fixed per theme)
 
-**Article themes** (section `articles`) have a larger pool of **exactly 70 questions**:
-- at least **25 `choice`** questions;
-- at least **5 `match`** questions (each with 4 pairs).
+**Article themes** (section `articles`) have a pool of **55–60 `choice` questions**.
 
-A topic training session draws **30 questions** from the pool: all five matching questions plus
-25 choice questions (weak/unseen questions are preferred). The pool stays 70, so different
-sessions show different examples.
+**Tense themes** (section `tenses`) have a pool of **exactly 80 questions**:
+20 `choice` + 60 `build`. A tense theme session draws **15 choice + 15 build** = 30 questions.
 
-**Tense themes** (section `tenses`) have a pool of **exactly 90 questions**:
-20 `choice` + 10 `match` + 60 `build`. A tense theme session draws
-**10 choice + 5 match + 15 build** = 30 questions.
-
-**Preposition themes** (section `prepositions`) have a pool of **50–60 questions**
-(at least 25 `choice` and 5 `match`). A topic session draws **30** questions: all five matching
-questions plus 25 choice questions.
+**Preposition themes** (section `prepositions`) are the two visual-dictionary topics
+(`prep-position`, `prep-direction`) with **exactly 45 `choice` questions** each.
+A topic session draws **30** questions from that pool.
 
 This is enforced by `scripts/validate_content.py`. The full set is
-9 article themes × 70 + 12 tense themes × 90 + 6 preposition themes × 50/60 = **2020 questions**.
+9 article themes (530) + 2 preposition themes (90) + 12 tense themes (960) = **1580 questions**.
 The “Длина сессии” setting does not affect topic training.
 
-## 4. Question objects — **choice**, **match** and **build**
+The visual dictionary itself is a separate file, `data/preposition_reference.json`
+(`PrepositionCatalog`): `topics[]` with `ruleId`, `title`, `subtitle` and `prepositions[]`;
+each entry has `key` (snake_case, matches the drawable `prep_<key>`), `label`, `translation`,
+`short`, `explanation` and 2–4 `examples` with `en`/`ru`.
 
-There are **no typing exercises**. Every question is multiple choice, matching or sentence
-building (tap word tiles to assemble the sentence).
+## 4. Question objects — **choice** and **build**
+
+Every question is multiple choice (also used by the typing mode «Письмо») or sentence
+building (tap word tiles to assemble the sentence). The old `match` type was removed in 3.6.0.
 
 ### 4.1 `choice` — pick the missing item
 
@@ -181,6 +179,8 @@ Preposition example:
 Requirements:
 - `sentence` contains exactly one blank marker `___`.
 - `translation.ru` — natural Russian translation of the whole sentence.
+- The «Письмо» mode renders the same items as a text field: the learner types the missing
+  word, and `AnswerChecker` compares it case-insensitively after whitespace normalization.
 - `options` — exactly **4** distinct values for article questions (always `a`, `an`, `the`, `—`)
   and **3–4** distinct plausible values for preposition questions (real prepositions;
   the em dash `—` may be one of the options only when the correct answer is “no preposition”).
@@ -192,33 +192,7 @@ For preposition questions the em dash `—` means “no preposition is needed”
 (e.g. *We discussed ___ the problem.* → answer `—`). The app shows it as
 “— (без предлога)” / “— (no preposition)”.
 
-### 4.2 `match` — rule ↔ example
-
-```json
-{
-  "id": "prep2-0020",
-  "type": "match",
-  "ruleId": "prep-adjectives",
-  "level": "B1",
-  "prompt": { "ru": "Сопоставьте прилагательное и подходящий предлог.", "en": "Match each adjective with its preposition." },
-  "pairs": [
-    { "left": { "ru": "interested ___", "en": "interested ___" }, "right": "She is interested in modern art." },
-    { "left": { "ru": "good ___", "en": "good ___" }, "right": "He is good at maths." },
-    { "left": { "ru": "afraid ___", "en": "afraid ___" }, "right": "My sister is afraid of the dark." },
-    { "left": { "ru": "famous ___", "en": "famous ___" }, "right": "The city is famous for its bridges." }
-  ],
-  "explanation": {
-    "ru": "Каждое прилагательное закреплено за своим предлогом: interested in, good at, afraid of, famous for.",
-    "en": "Each adjective is fixed with its preposition: interested in, good at, afraid of, famous for."
-  }
-}
-```
-
-Requirements: `prompt.ru/en`; `pairs` — 4 (3–5 allowed); each `left.ru/en`;
-`right` — a full English sentence **without** `___`; all left values distinct,
-all right values distinct; every left unambiguously corresponds to exactly one right.
-
-### 4.3 `build` — assemble the sentence from word tiles
+### 4.2 `build` — assemble the sentence from word tiles
 
 ```json
 {
@@ -258,48 +232,44 @@ Rules:
   second preposition sounds natural in the sentence. If it does, rewrite the sentence.
 - Distractors are real, plausible words of the same type (other articles / other prepositions),
   never random or obviously wrong by part of speech.
-- No duplicate sentences, ids or match pairs anywhere in the content set.
+- No duplicate sentences or ids anywhere in the content set.
 - `translation.ru` is a natural Russian translation, not a word-for-word gloss.
 - Explanations must teach the pattern, not just restate the answer.
 - Russian text: correct punctuation, «ё» where appropriate.
 - Sentences: 5–20 words for choice questions.
-- Article themes have 70 pool questions; preposition themes have 50–60; a topic session always
-  draws 30 (5 match + 25 choice). `tags` are optional pattern labels used to pick truly similar
-  questions during mistake review.
+- Article themes have 55–60 pool questions, preposition themes 45, tense themes 80; a topic
+  session always draws 30 (15 choice + 15 build for tenses). `tags` are optional pattern labels
+  used to pick truly similar questions during mistake review.
 
 ## Current content files and ownership
 
 | File | Rule | Questions |
 |---|---|---|
-| articles_01_system.json | art-system | 70 |
-| articles_02_a_an.json | art-a-an | 70 |
-| articles_03_the_known.json | art-the-known | 70 |
-| articles_04_a_an_special.json | art-a-an-special | 70 |
-| articles_05_zero.json | art-zero | 70 |
-| articles_06_names_geo.json | art-names-geo | 70 |
-| articles_07_the_adjective.json | art-the-adjective | 70 |
-| articles_08_contrasts.json | art-contrasts | 70 |
-| articles_09_academic.json | art-academic | 70 |
-| prepositions_01_time.json | prep-time | 50 |
-| prepositions_02_place.json | prep-place | 50 |
-| prepositions_03_movement.json | prep-movement | 50 |
-| prepositions_04_adjectives.json | prep-adjectives | 50 |
-| prepositions_05_verbs.json | prep-verbs | 50 |
-| prepositions_06_fixed_advanced.json | prep-fixed | 60 |
-| tenses_01_present_simple.json | tense-present-simple | 90 |
-| tenses_02_present_continuous.json | tense-present-continuous | 30 |
-| tenses_03_present_perfect.json | tense-present-perfect | 30 |
-| tenses_04_present_perfect_continuous.json | tense-present-perfect-continuous | 30 |
-| tenses_05_past_simple.json | tense-past-simple | 30 |
-| tenses_06_past_continuous.json | tense-past-continuous | 30 |
-| tenses_07_past_perfect.json | tense-past-perfect | 30 |
-| tenses_08_past_perfect_continuous.json | tense-past-perfect-continuous | 30 |
-| tenses_09_future_simple.json | tense-future-simple | 30 |
-| tenses_10_future_continuous.json | tense-future-continuous | 30 |
-| tenses_11_future_perfect.json | tense-future-perfect | 30 |
-| tenses_12_future_perfect_continuous.json | tense-future-perfect-continuous | 30 |
+| articles_01_system.json | art-system | 60 |
+| articles_02_a_an.json | art-a-an | 60 |
+| articles_03_the_known.json | art-the-known | 60 |
+| articles_04_a_an_special.json | art-a-an-special | 60 |
+| articles_05_zero.json | art-zero | 60 |
+| articles_06_names_geo.json | art-names-geo | 55 |
+| articles_07_the_adjective.json | art-the-adjective | 60 |
+| articles_08_contrasts.json | art-contrasts | 60 |
+| articles_09_academic.json | art-academic | 55 |
+| prepositions_01_position.json | prep-position | 45 |
+| prepositions_02_direction.json | prep-direction | 45 |
+| tenses_01_present_simple.json | tense-present-simple | 80 |
+| tenses_02_present_continuous.json | tense-present-continuous | 80 |
+| tenses_03_present_perfect.json | tense-present-perfect | 80 |
+| tenses_04_present_perfect_continuous.json | tense-present-perfect-continuous | 80 |
+| tenses_05_past_simple.json | tense-past-simple | 80 |
+| tenses_06_past_continuous.json | tense-past-continuous | 80 |
+| tenses_07_past_perfect.json | tense-past-perfect | 80 |
+| tenses_08_past_perfect_continuous.json | tense-past-perfect-continuous | 80 |
+| tenses_09_future_simple.json | tense-future-simple | 80 |
+| tenses_10_future_continuous.json | tense-future-continuous | 80 |
+| tenses_11_future_perfect.json | tense-future-perfect | 80 |
+| tenses_12_future_perfect_continuous.json | tense-future-perfect-continuous | 80 |
 
-Target: **2020 questions total** (9×70 articles + 12×90 tenses + 5×50 + 60 prepositions), 27 rules, 3 sections.
+Target: **1580 questions total** (9 article themes, 530; 2 preposition themes, 90; 12 tense themes, 960), 23 rules, 3 sections.
 
 ## Validation
 

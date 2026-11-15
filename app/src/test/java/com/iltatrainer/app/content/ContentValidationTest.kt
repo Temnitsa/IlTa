@@ -5,6 +5,7 @@ import com.iltatrainer.app.data.Question
 import com.iltatrainer.app.data.Section
 import com.iltatrainer.app.data.SectionsFile
 import com.iltatrainer.app.domain.AnswerChecker
+import com.iltatrainer.app.ui.components.PrepositionArt
 import kotlinx.serialization.json.Json
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
@@ -14,8 +15,9 @@ import org.junit.Test
 import java.io.File
 
 /**
- * Validates the bundled IlTa content: 9 article themes × 70 pool questions and
- * 7 preposition themes × 30 questions, clean rule texts and consistent question shape.
+ * Validates the bundled IlTa content: 9 article themes (55..60 questions), 2 visual preposition
+ * themes (45 questions each), 12 tense themes (20 choice + 60 build) and the preposition
+ * reference dictionary shown in the visual dictionary screens.
  */
 class ContentValidationTest {
 
@@ -65,14 +67,15 @@ class ContentValidationTest {
         val questions = packages.flatMap { it.questions }
         val ruleIds = rules.map { it.id }.toSet()
 
-        assertEquals(27, rules.size)
+        assertEquals(23, rules.size)
         assertEquals(9, rules.count { it.sectionId == "articles" })
-        assertEquals(6, rules.count { it.sectionId == "prepositions" })
+        assertEquals(2, rules.count { it.sectionId == "prepositions" })
         assertEquals(12, rules.count { it.sectionId == "tenses" })
-        assertEquals(2020, questions.size)
-        assertEquals(630, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "articles" })
-        assertEquals(310, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "prepositions" })
-        assertEquals(1080, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "tenses" })
+        assertEquals(1580, questions.size)
+        assertEquals(530, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "articles" })
+        assertEquals(90, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "prepositions" })
+        assertEquals(960, questions.count { rule -> rules.firstOrNull { it.id == rule.ruleId }?.sectionId == "tenses" })
+        assertEquals("match questions were removed", 0, questions.count { it.type == "match" })
 
         assertEquals("rule ids must be unique", rules.size, ruleIds.size)
         assertEquals("question ids must be unique", questions.size, questions.map { it.id }.toSet().size)
@@ -90,18 +93,15 @@ class ContentValidationTest {
         rules.forEach { rule ->
             val ofRule = questions.filter { it.ruleId == rule.id }
             if (rule.sectionId == "tenses") {
-                assertEquals("tense theme ${rule.id} must have exactly 90 questions", 90, ofRule.size)
+                assertEquals("tense theme ${rule.id} must have exactly 80 questions", 80, ofRule.size)
                 assertEquals("tense theme ${rule.id} must have 20 choice questions", 20, ofRule.count { it.type == "choice" })
-                assertEquals("tense theme ${rule.id} must have 10 match questions", 10, ofRule.count { it.type == "match" })
                 assertEquals("tense theme ${rule.id} must have 60 build questions", 60, ofRule.count { it.type == "build" })
             } else if (rule.sectionId == "articles") {
-                assertEquals("article theme ${rule.id} must have exactly 70 pool questions", 70, ofRule.size)
-                assertTrue("article theme ${rule.id} needs at least 25 choice questions", ofRule.count { it.type == "choice" } >= 25)
-                assertTrue("article theme ${rule.id} needs at least 5 match questions", ofRule.count { it.type == "match" } >= 5)
+                assertTrue("article theme ${rule.id} must have 55..60 questions", ofRule.size in 55..60)
+                assertEquals("article theme ${rule.id} must contain only choice questions", ofRule.size, ofRule.count { it.type == "choice" })
             } else {
-                assertTrue("preposition theme ${rule.id} must have 50..60 questions", ofRule.size in 50..60)
-                assertTrue("preposition theme ${rule.id} needs at least 25 choice", ofRule.count { it.type == "choice" } >= 25)
-                assertTrue("preposition theme ${rule.id} needs at least 5 match", ofRule.count { it.type == "match" } >= 5)
+                assertEquals("preposition theme ${rule.id} must have exactly 45 questions", 45, ofRule.size)
+                assertEquals("preposition theme ${rule.id} must contain only choice questions", 45, ofRule.count { it.type == "choice" })
             }
         }
     }
@@ -177,35 +177,74 @@ class ContentValidationTest {
     }
 
     @Test
-    fun `match questions are well formed`() {
-        loadPackages().flatMap { it.questions }.filter { it.type == "match" }.forEach { question ->
-            assertEquals("${question.id} must have exactly 4 pairs", 4, question.pairs.size)
-            val lefts = question.pairs.map { it.left.en.ifBlank { it.left.ru } }
-            val rights = question.pairs.map { it.right }
-            assertEquals("${question.id}: duplicate left values", lefts.size, lefts.toSet().size)
-            assertEquals("${question.id}: duplicate right values", rights.size, rights.toSet().size)
-            assertTrue("${question.id}: match texts must be filled", lefts.all { it.isNotBlank() } && rights.all { it.isNotBlank() })
-            assertFalse("${question.id}: blank in match text", rights.any { it.contains("___") })
-            assertTrue("${question.id}: match needs an explanation", question.explanation.ru.isNotBlank())
+    fun `sentences are unique across the whole content set`() {
+        val seenSentences = mutableMapOf<String, String>()
+        loadPackages().flatMap { it.questions }.filter { it.type == "choice" }.forEach { question ->
+            val key = question.sentence.orEmpty().trim().lowercase().replace(Regex("\\s+"), " ")
+            val previous = seenSentences.put(key, question.id)
+            assertTrue("duplicate sentence in ${question.id} (also used by $previous)", previous == null)
         }
     }
 
     @Test
-    fun `sentences and match examples are unique across the whole content set`() {
-        val seenSentences = mutableMapOf<String, String>()
-        val seenRights = mutableMapOf<String, String>()
-        loadPackages().flatMap { it.questions }.forEach { question ->
-            if (question.type == "choice") {
-                val key = question.sentence.orEmpty().trim().lowercase().replace(Regex("\\s+"), " ")
-                val previous = seenSentences.put(key, question.id)
-                assertTrue("duplicate sentence in ${question.id} (also used by $previous)", previous == null)
-            } else {
-                question.pairs.forEach { pair ->
-                    val key = pair.right.trim().lowercase().replace(Regex("\\s+"), " ")
-                    val previous = seenRights.put(key, question.id)
-                    assertTrue("duplicate match example in ${question.id} (also used by $previous)", previous == null)
+    fun `preposition reference covers both preposition themes`() {
+        val file = File(dataDir, "preposition_reference.json")
+        assertTrue("Missing preposition_reference.json: ${file.absolutePath}", file.isFile)
+        val catalog = json.decodeFromString<com.iltatrainer.app.data.PrepositionCatalog>(file.readText(Charsets.UTF_8))
+        val rules = loadPackages().flatMap { it.rules }.filter { it.sectionId == "prepositions" }
+        assertEquals("two preposition topics expected", 2, catalog.topics.size)
+        assertEquals(
+            "reference topics must match preposition rules",
+            rules.map { it.id }.toSet(),
+            catalog.topics.map { it.ruleId }.toSet(),
+        )
+        assertEquals(
+            "positional preposition list must match the product spec",
+            listOf(
+                "above", "across", "against", "among", "around", "behind", "below", "beneath",
+                "beside", "between", "by", "in", "in front of", "inside", "near", "next to",
+                "on", "outside", "over", "through", "under", "underneath",
+            ),
+            catalog.topics.first { it.ruleId == "prep-position" }.prepositions.map { it.label },
+        )
+        assertEquals(
+            "directional preposition list must match the product spec",
+            listOf(
+                "across", "against", "along", "around", "away (from)", "down", "from", "in(to)",
+                "off (of)", "on(to)", "out (of)", "over", "through", "to", "toward(s)", "under", "up",
+            ),
+            catalog.topics.first { it.ruleId == "prep-direction" }.prepositions.map { it.label },
+        )
+        catalog.topics.forEach { topic ->
+            assertTrue("topic ${topic.ruleId} needs a title", topic.title.isNotBlank())
+            assertTrue("topic ${topic.ruleId} needs a subtitle", topic.subtitle.isNotBlank())
+            assertTrue("topic ${topic.ruleId} has too few entries", topic.prepositions.size >= 15)
+            assertEquals(
+                "topic ${topic.ruleId} has duplicate keys",
+                topic.prepositions.size,
+                topic.prepositions.map { it.key }.toSet().size,
+            )
+            topic.prepositions.forEach { entry ->
+                assertTrue("${topic.ruleId}/${entry.key} needs a label", entry.label.isNotBlank())
+                assertTrue("${topic.ruleId}/${entry.key} needs a translation", entry.translation.isNotBlank())
+                assertTrue("${topic.ruleId}/${entry.key} needs a short hint", entry.short.isNotBlank())
+                assertTrue("${topic.ruleId}/${entry.key} needs an explanation", entry.explanation.isNotBlank())
+                assertTrue("${topic.ruleId}/${entry.key} needs 2..4 examples", entry.examples.size in 2..4)
+                entry.examples.forEach { example ->
+                    assertTrue("${topic.ruleId}/${entry.key} example needs English", example.en.isNotBlank())
+                    assertTrue("${topic.ruleId}/${entry.key} example needs Russian", example.ru.isNotBlank())
                 }
             }
+        }
+    }
+
+    @Test
+    fun `every dictionary entry has an illustration`() {
+        val file = File(dataDir, "preposition_reference.json")
+        assertTrue("Missing preposition_reference.json", file.isFile)
+        val catalog = json.decodeFromString<com.iltatrainer.app.data.PrepositionCatalog>(file.readText(Charsets.UTF_8))
+        catalog.topics.flatMap { it.prepositions }.forEach { entry ->
+            assertNotNull("no drawable generated for ${entry.key}", PrepositionArt.drawableFor(entry.key))
         }
     }
 }

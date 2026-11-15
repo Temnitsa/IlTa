@@ -225,12 +225,6 @@ private fun MistakeCard(
                 style = MaterialTheme.typography.labelMedium,
                 color = MaterialTheme.colorScheme.error,
             )
-        } else if (question.isMatch) {
-            Text(
-                text = question.prompt?.text(language)
-                    ?: tr("Сопоставление правила и примера", "Rule ↔ example matching"),
-                style = MaterialTheme.typography.titleMedium,
-            )
         } else {
             SentenceText(
                 sentence = question.sentence.orEmpty(),

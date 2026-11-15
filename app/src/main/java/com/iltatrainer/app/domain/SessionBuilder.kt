@@ -18,6 +18,9 @@ enum class PracticeMode {
     /** Sentence-building exercises only. */
     BUILD,
 
+    /** Choice questions answered by typing the missing word ("Письмо" mode). */
+    WRITE,
+
     /** Explicit list of question ids (for "retry these mistakes"). */
     RETRY,
 }
@@ -29,8 +32,10 @@ data class SessionConfig(
     val ruleIds: List<String> = emptyList(),
     val size: Int = 10,
     val questionIds: List<String> = emptyList(),
-    /** Optional exercise-type filter (choice/match/build); empty = all types. */
+    /** Optional exercise-type filter (choice/build); empty = all types. */
     val types: Set<String> = emptySet(),
+    /** Render choice questions as a text input instead of options ("Письмо"). */
+    val typedAnswers: Boolean = false,
 )
 
 data class SessionMistake(
@@ -71,6 +76,14 @@ object SessionBuilder {
             )
             PracticeMode.MISTAKES -> buildMistakeReview(state, questions, size, random)
             PracticeMode.BUILD -> weightedPick(questions.filter { it.isBuild }, state, size, random)
+            PracticeMode.WRITE -> weightedPick(
+                questions
+                    .filter { config.ruleIds.isEmpty() || it.ruleId in config.ruleIds }
+                    .filter { it.isChoice },
+                state,
+                size,
+                random,
+            )
             PracticeMode.QUICK -> weightedPick(
                 questions
                     .filter { config.ruleIds.isEmpty() || it.ruleId in config.ruleIds }
@@ -165,11 +178,6 @@ object SessionBuilder {
             addAll(tokens(prompt.en))
             addAll(tokens(prompt.ru))
         }
-        question.pairs.forEach { pair ->
-            addAll(tokens(pair.left.en))
-            addAll(tokens(pair.left.ru))
-            addAll(tokens(pair.right))
-        }
     }
 
     private fun explanationTokens(question: Question): Set<String> = tokens(question.explanation.en)
@@ -181,9 +189,9 @@ object SessionBuilder {
             .toSet()
 
     /**
-     * Topic training always has 30 questions: all five matching questions are included,
-     * and the remaining slots are filled with the weakest/unseen choice questions.
-     * Pool of each article theme is larger (70), so different sessions show different items.
+     * Topic training always has 30 questions: fifteen sentence-building questions (for tense
+     * themes) and the rest are the weakest/unseen choice questions. Pools are larger than a
+     * session (55..90), so different sessions show different items.
      */
     private fun buildTopicSession(
         pool: List<Question>,
@@ -193,16 +201,12 @@ object SessionBuilder {
     ): List<Question> {
         if (pool.size <= size) return pool.shuffled(random)
         if (pool.any { it.isBuild }) {
-            val matches = pool.filter { it.isMatch }.shuffled(random).take(5.coerceAtMost(pool.count { it.isMatch }))
             val builds = pool.filter { it.isBuild }.shuffled(random).take(15.coerceAtMost(pool.count { it.isBuild }))
-            val choiceCount = (size - matches.size - builds.size).coerceAtLeast(0)
+            val choiceCount = (size - builds.size).coerceAtLeast(0)
             val choices = weightedPick(pool.filter { it.isChoice }, state, choiceCount, random)
-            return (matches + builds + choices).shuffled(random)
+            return (builds + choices).shuffled(random)
         }
-        val matches = pool.filter { it.isMatch }.shuffled(random).take(5)
-        val choiceCount = (size - matches.size).coerceAtLeast(0)
-        val choices = weightedPick(pool.filter { it.isChoice }, state, choiceCount, random)
-        return (matches + choices).shuffled(random)
+        return weightedPick(pool.filter { it.isChoice }, state, size, random)
     }
 
     private fun accuracy(state: ProgressState, questionId: String): Float {

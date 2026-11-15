@@ -79,12 +79,41 @@ class ContentRepository(private val assets: AssetManager) {
             ),
         )
 
+        val prepositions = loadPrepositions(errors, ruleIds = rules.keys)
+
         return ContentLoadResult(
             sections = sections,
             rules = sortedRules,
             questions = usableQuestions,
             errors = errors,
+            prepositions = prepositions,
         )
+    }
+
+    /** Loads the visual preposition dictionary (`assets/data/preposition_reference.json`). */
+    private fun loadPrepositions(
+        errors: MutableList<String>,
+        ruleIds: Set<String>,
+    ): PrepositionCatalog {
+        val catalog = try {
+            val raw = assets.open(PREPOSITION_REFERENCE_PATH)
+                .bufferedReader(Charsets.UTF_8)
+                .use { it.readText() }
+            json.decodeFromString<PrepositionCatalog>(raw)
+        } catch (t: Throwable) {
+            errors += "Cannot load $PREPOSITION_REFERENCE_PATH: ${t.message ?: t.javaClass.simpleName}"
+            return PrepositionCatalog()
+        }
+        catalog.topics.forEach { topic ->
+            when {
+                topic.ruleId.isBlank() -> errors += "preposition topic with empty ruleId skipped"
+                topic.ruleId !in ruleIds ->
+                    errors += "preposition topic '${topic.ruleId}' refers to unknown rule"
+                topic.prepositions.isEmpty() ->
+                    errors += "preposition topic '${topic.ruleId}' has no entries"
+            }
+        }
+        return catalog
     }
 
     private fun loadSections(errors: MutableList<String>): List<Section> {
@@ -129,9 +158,6 @@ class ContentRepository(private val assets: AssetManager) {
             question.answer in question.options &&
             question.explanation.ru.isNotBlank() &&
             question.explanation.en.isNotBlank()
-        "match" -> question.pairs.size >= 2 && question.pairs.all { it.right.isNotBlank() } &&
-            question.explanation.ru.isNotBlank() &&
-            question.explanation.en.isNotBlank()
         "build" -> question.words.size in 3..20 &&
             question.answers.isNotEmpty() &&
             question.answers.all { answer -> answer.sorted() == question.words.sorted() } &&
@@ -144,6 +170,7 @@ class ContentRepository(private val assets: AssetManager) {
         const val DATA_DIR = "data"
         const val SECTIONS_PATH = "$DATA_DIR/sections.json"
         const val CONTENT_DIR = "$DATA_DIR/content"
-        val SUPPORTED_TYPES = setOf("choice", "match", "build")
+        val SUPPORTED_TYPES = setOf("choice", "build")
+        const val PREPOSITION_REFERENCE_PATH = "$DATA_DIR/preposition_reference.json"
     }
 }

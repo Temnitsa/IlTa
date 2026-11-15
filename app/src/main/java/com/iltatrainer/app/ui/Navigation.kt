@@ -11,6 +11,9 @@ sealed interface Screen {
     data object Topics : Screen
     data class Section(val sectionId: String) : Screen
     data class RuleDetail(val ruleId: String) : Screen
+
+    /** Visual dictionary of prepositions for one rule (position or direction). */
+    data class PrepositionTopic(val ruleId: String) : Screen
     data class Practice(val config: SessionConfig, val title: String) : Screen
     data class Result(val result: SessionResult, val title: String) : Screen
     data object Stats : Screen

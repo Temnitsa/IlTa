@@ -26,6 +26,7 @@ import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
@@ -57,8 +58,13 @@ import com.iltatrainer.app.ui.localized
 import com.iltatrainer.app.ui.pluralRu
 import com.iltatrainer.app.ui.questionsLabel
 
-/** Exercise types available in the quick-practice filter (Question.type values). */
-private val ALL_EXERCISE_TYPES = setOf("choice", "match", "build")
+/** Exercise types available in the quick-practice filter. "write" reuses choice questions. */
+private val DEFAULT_EXERCISE_TYPES = setOf("choice", "build")
+private val TYPE_LABELS = listOf(
+    "choice" to "Выбор",
+    "write" to "Письмо",
+    "build" to "Сборка",
+)
 
 @Composable
 fun TopicsScreen(
@@ -68,6 +74,7 @@ fun TopicsScreen(
     progress: ProgressState,
     contentErrors: List<String>,
     onStartQuickPractice: (selectedRuleIds: List<String>, selectedTypes: Set<String>) -> Unit,
+    onStartWriting: () -> Unit,
     onStartMistakes: () -> Unit,
     onOpenSection: (sectionId: String) -> Unit,
     modifier: Modifier = Modifier,
@@ -79,7 +86,7 @@ fun TopicsScreen(
 
     var showPicker by rememberSaveable { mutableStateOf(false) }
     var selectedRuleIds by rememberSaveable { mutableStateOf(rules.map { it.id }) }
-    var selectedTypes by rememberSaveable { mutableStateOf(ALL_EXERCISE_TYPES) }
+    var selectedTypes by rememberSaveable { mutableStateOf(DEFAULT_EXERCISE_TYPES) }
 
     fun toggleSection(sectionId: String) {
         val sectionRuleIds = rulesBySection[sectionId].orEmpty().map { it.id }
@@ -110,22 +117,36 @@ fun TopicsScreen(
         }
 
         item(key = "quick-practice") {
-            Button(
-                onClick = { showPicker = true },
-                shape = RoundedCornerShape(10.dp),
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(46.dp),
-            ) {
-                Text(
-                    text = "Тренировка",
-                    style = MaterialTheme.typography.titleMedium,
-                    modifier = Modifier.weight(1f),
-                )
-                Text(
-                    text = questionsLabel(sessionSize),
-                    style = MaterialTheme.typography.labelSmall,
-                )
+            Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                Button(
+                    onClick = { showPicker = true },
+                    shape = RoundedCornerShape(10.dp),
+                    modifier = Modifier
+                        .weight(1.35f)
+                        .height(46.dp),
+                ) {
+                    Text(
+                        text = "Тренировка",
+                        style = MaterialTheme.typography.titleMedium,
+                        modifier = Modifier.weight(1f),
+                    )
+                    Text(
+                        text = questionsLabel(sessionSize),
+                        style = MaterialTheme.typography.labelSmall,
+                    )
+                }
+                OutlinedButton(
+                    onClick = onStartWriting,
+                    shape = RoundedCornerShape(10.dp),
+                    modifier = Modifier
+                        .weight(1f)
+                        .height(46.dp),
+                ) {
+                    Text(
+                        text = "Письмо",
+                        style = MaterialTheme.typography.titleMedium,
+                    )
+                }
             }
         }
 
@@ -171,6 +192,7 @@ fun TopicsScreen(
         QuickPracticePickerSheet(
             sections = sections,
             rules = rules,
+            questions = questions,
             questionsByRule = questionsByRule,
             selectedRuleIds = selectedRuleIds,
             selectedTypes = selectedTypes,
@@ -185,7 +207,13 @@ fun TopicsScreen(
             onClearAll = { selectedRuleIds = emptyList() },
             onToggleSection = { sectionId -> toggleSection(sectionId) },
             onToggleType = { type ->
-                selectedTypes = if (type in selectedTypes) selectedTypes - type else selectedTypes + type
+                selectedTypes = when {
+                    type in selectedTypes -> selectedTypes - type
+                    // "Выбор" and "Письмо" both drill the same choice questions, so only one is active.
+                    type == "write" -> (selectedTypes - "choice") + "write"
+                    type == "choice" -> (selectedTypes - "write") + "choice"
+                    else -> selectedTypes + type
+                }
             },
             onDismiss = { showPicker = false },
             onStart = {
@@ -330,6 +358,7 @@ private fun SectionCard(
 private fun QuickPracticePickerSheet(
     sections: List<Section>,
     rules: List<Rule>,
+    questions: List<Question>,
     questionsByRule: Map<String, Int>,
     selectedRuleIds: List<String>,
     selectedTypes: Set<String>,
@@ -344,16 +373,13 @@ private fun QuickPracticePickerSheet(
     val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)
     val selectedRuleIdSet = remember(selectedRuleIds) { selectedRuleIds.toSet() }
     var expandedSectionIds by remember { mutableStateOf(emptySet<String>()) }
-    val typeOptions = listOf(
-        "choice" to "Выбор",
-        "match" to "Соответствие",
-        "build" to "Сборка",
-    )
-    val selectedQuestionCount = remember(selectedRuleIds, questionsByRule) {
-        selectedRuleIds.sumOf { ruleId -> questionsByRule[ruleId] ?: 0 }
+    val typeOptions = TYPE_LABELS
+    val effectiveTypes = if ("write" in selectedTypes) (selectedTypes - "write") + "choice" else selectedTypes
+    val selectedQuestionCount = remember(selectedRuleIds, effectiveTypes, questions) {
+        questions.count { it.ruleId in selectedRuleIdSet && it.type in effectiveTypes }
     }
     val selectedCount = selectedRuleIds.size
-    val allTypesSelected = selectedTypes.size == ALL_EXERCISE_TYPES.size
+    val allTypesSelected = selectedTypes == DEFAULT_EXERCISE_TYPES
     val selectedSummary = "Выбрано: $selectedCount " +
         pluralRu(selectedCount, "тема", "темы", "тем") + " · " + questionsLabel(selectedQuestionCount)
     val typesSummary = if (!allTypesSelected) {

@@ -162,9 +162,8 @@ class SessionBuilderTest {
     }
 
     @Test
-    fun `tense topic session contains ten choice five match and fifteen build questions`() {
+    fun `tense topic session contains fifteen choice and fifteen build questions`() {
         val pool = (1..20).map { i -> question("c$i", "tense-pool") } +
-            (1..10).map { i -> question("m$i", "tense-pool").copy(type = "match") } +
             (1..60).map { i ->
                 Question(
                     id = "b$i", type = "build", ruleId = "tense-pool",
@@ -181,29 +180,13 @@ class SessionBuilderTest {
             random = Random(6),
         )
         assertEquals(30, result.size)
-        assertEquals(10, result.count { it.type == "choice" })
-        assertEquals(5, result.count { it.type == "match" })
+        assertEquals(15, result.count { it.type == "choice" })
         assertEquals(15, result.count { it.type == "build" })
     }
 
     @Test
-    fun `topic session contains five matches and twenty five choice questions from a pool`() {
-        val pool = (1..5).map { index ->
-            Question(
-                id = "m$index",
-                type = "match",
-                ruleId = "art-pool",
-                sentence = null,
-                prompt = Bilingual(ru = "Сопоставьте $index", en = "Match $index"),
-                pairs = (1..4).map { pair ->
-                    com.iltatrainer.app.data.MatchPair(
-                        left = Bilingual(ru = "левая $pair", en = "left $pair"),
-                        right = "right $pair",
-                    )
-                },
-                explanation = Bilingual(ru = "тест", en = "test"),
-            )
-        } + (1..65).map { index -> question("c$index", "art-pool") }
+    fun `article topic session contains thirty choice questions from a pool`() {
+        val pool = (1..55).map { index -> question("c$index", "art-pool") }
         val result = SessionBuilder.build(
             config = SessionConfig(PracticeMode.TOPIC, ruleId = "art-pool", size = 30),
             questions = pool,
@@ -211,9 +194,40 @@ class SessionBuilderTest {
             random = Random(4),
         )
         assertEquals(30, result.size)
-        assertEquals(5, result.count { it.type == "match" })
-        assertEquals(25, result.count { it.type == "choice" })
+        assertEquals(30, result.count { it.type == "choice" })
         assertEquals(30, result.map { it.id }.toSet().size)
+    }
+
+    @Test
+    fun `write session returns only choice questions`() {
+        val pool = questions + (1..3).map { index ->
+            Question(
+                id = "b$index", type = "build", ruleId = "rule-a",
+                words = listOf("I", "work", "here"),
+                answers = listOf(listOf("I", "work", "here")),
+                explanation = Bilingual(ru = "тест", en = "test"),
+            )
+        }
+        val result = SessionBuilder.build(
+            config = SessionConfig(PracticeMode.WRITE, size = 10),
+            questions = pool,
+            state = ProgressState(),
+            random = Random(9),
+        )
+        assertEquals(pool.count { it.type == "choice" }, result.size)
+        assertTrue(result.all { it.isChoice })
+    }
+
+    @Test
+    fun `write session respects selected topics`() {
+        val result = SessionBuilder.build(
+            config = SessionConfig(PracticeMode.WRITE, size = 10, ruleIds = listOf("rule-b")),
+            questions = questions,
+            state = ProgressState(),
+            random = Random(10),
+        )
+        assertEquals(2, result.size)
+        assertTrue(result.all { it.ruleId == "rule-b" })
     }
 
     @Test

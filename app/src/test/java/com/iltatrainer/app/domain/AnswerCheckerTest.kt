@@ -1,7 +1,6 @@
 package com.iltatrainer.app.domain
 
 import com.iltatrainer.app.data.Bilingual
-import com.iltatrainer.app.data.MatchPair
 import com.iltatrainer.app.data.Question
 import com.iltatrainer.app.data.Translation
 import org.junit.Assert.assertEquals
@@ -90,24 +89,33 @@ class AnswerCheckerTest {
             answer = "\u2014",
             options = listOf("on", "about", "\u2014", "for"),
             sentence = "We discussed ___ the problem for an hour.",
-            ruleId = "prep-verbs",
+            ruleId = "prep-position",
         )
         assertTrue(AnswerChecker.isCorrect(question, "\u2014"))
         assertFalse(AnswerChecker.isCorrect(question, "about"))
     }
 
     @Test
-    fun `match questions are never auto checked`() {
-        val match = Question(
-            id = "q3",
-            type = "match",
-            ruleId = "the-unique",
-            level = "A2",
-            pairs = listOf(MatchPair(left = Bilingual("правило", "rule"), right = "The sun is hot.")),
+    fun `typed answers are checked case and space insensitively`() {
+        val question = choice(
+            answer = "a",
+            options = listOf("a", "the"),
+            sentence = "I saw ___ cat.",
+        )
+        assertTrue(AnswerChecker.isCorrect(question, " A "))
+        assertFalse(AnswerChecker.isCorrect(question, "the"))
+        assertFalse(AnswerChecker.isCorrect(question, ""))
+    }
+
+    @Test
+    fun `build questions are not auto checked`() {
+        val question = Question(
+            id = "b9", type = "build", ruleId = "tense-present-simple",
+            words = listOf("I", "work", "here"),
+            answers = listOf(listOf("I", "work", "here")),
             explanation = Bilingual(ru = "тест", en = "test"),
         )
-        assertFalse(AnswerChecker.isCorrect(match, "a"))
-        assertFalse(AnswerChecker.isCorrect(match, ""))
+        assertFalse(AnswerChecker.isCorrect(question, "I work here"))
     }
 
     @Test

@@ -60,15 +60,10 @@ data class SectionsFile(
     val sections: List<Section> = emptyList(),
 )
 
-@Serializable
-data class MatchPair(
-    val left: Bilingual = Bilingual(),
-    val right: String = "",
-)
-
 /**
- * One exercise. [type] is one of "choice", "fill", "match"; the remaining fields
- * are used depending on the type (the JSON schema is documented in docs/content-schema.md).
+ * One exercise. [type] is "choice" or "build"; the remaining fields are used depending on
+ * the type (the JSON schema is documented in docs/content-schema.md). Choice questions are
+ * also used by the "Письмо" (writing) mode, where the learner types the missing word.
  */
 @Serializable
 data class Question(
@@ -81,7 +76,6 @@ data class Question(
     val options: List<String> = emptyList(),
     val answer: String? = null,
     val prompt: Bilingual? = null,
-    val pairs: List<MatchPair> = emptyList(),
     val explanation: Bilingual = Bilingual(),
     /** Optional pattern tags used to pick truly similar questions for mistake review. */
     val tags: List<String> = emptyList(),
@@ -92,7 +86,6 @@ data class Question(
     val answers: List<List<String>> = emptyList(),
 ) {
     val isChoice: Boolean get() = type == "choice"
-    val isMatch: Boolean get() = type == "match"
     val isBuild: Boolean get() = type == "build"
 
     /** Sentence with the blank marker replaced by [filler] (used by the UI). */
@@ -106,11 +99,45 @@ data class ContentPackage(
     val questions: List<Question> = emptyList(),
 )
 
+/** One dictionary entry shown in a preposition tile/popup. */
+@Serializable
+data class PrepositionExample(
+    val en: String = "",
+    val ru: String = "",
+)
+
+@Serializable
+data class PrepositionEntry(
+    val key: String,
+    val label: String = "",
+    val translation: String = "",
+    val short: String = "",
+    val explanation: String = "",
+    val examples: List<PrepositionExample> = emptyList(),
+)
+
+@Serializable
+data class PrepositionTopic(
+    val ruleId: String,
+    val title: String = "",
+    val subtitle: String = "",
+    val prepositions: List<PrepositionEntry> = emptyList(),
+)
+
+@Serializable
+data class PrepositionCatalog(
+    val version: Int = 1,
+    val topics: List<PrepositionTopic> = emptyList(),
+) {
+    fun topicFor(ruleId: String): PrepositionTopic? = topics.firstOrNull { it.ruleId == ruleId }
+}
+
 data class ContentLoadResult(
     val sections: List<Section>,
     val rules: List<Rule>,
     val questions: List<Question>,
     val errors: List<String>,
+    val prepositions: PrepositionCatalog = PrepositionCatalog(),
 ) {
     val sectionsById: Map<String, Section> = sections.associateBy { it.id }
     val rulesById: Map<String, Rule> = rules.associateBy { it.id }

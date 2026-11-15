@@ -17,7 +17,7 @@ from pathlib import Path
 
 ARTICLES = {"a", "an", "the", "\u2014"}
 LEVELS = {"A1", "A2", "B1", "B2"}
-TYPES = {"choice", "match", "build"}
+TYPES = {"choice", "build"}
 ARTICLE_SECTION = "articles"
 RU_LETTERS = re.compile(r"[А-Яа-яЁё]")
 
@@ -186,42 +186,6 @@ def validate_choice(question, where: str, section_id: str | None) -> None:
                 err(where, f"preposition option looks invalid: {option!r}")
 
 
-def validate_match(question, where: str, seen_match_rights: dict[str, str] | None = None) -> None:
-    check_bilingual(question.get("prompt"), where, "prompt", min_len=3)
-    pairs = question.get("pairs")
-    if not isinstance(pairs, list) or not (3 <= len(pairs) <= 5):
-        err(where, "`pairs` must contain 3..5 pairs")
-        return
-    lefts: set[str] = set()
-    rights: set[str] = set()
-    for index, pair in enumerate(pairs):
-        pw = f"{where} pair[{index}]"
-        if not isinstance(pair, dict):
-            err(pw, "pair must be an object")
-            continue
-        check_bilingual(pair.get("left"), pw, "left", min_len=2)
-        right = pair.get("right")
-        if nonempty_str(right, pw, "right", min_len=5):
-            if "___" in right:
-                err(pw, "`right` must be a full example without `___`")
-            if not re.search(r"[A-Za-z]", right):
-                err(pw, "`right` must contain English text")
-            left_ru = pair.get("left", {}).get("ru") if isinstance(pair.get("left"), dict) else None
-            if left_ru in lefts:
-                err(pw, f"duplicate left value {left_ru!r}")
-            if right in rights:
-                err(pw, f"duplicate right value {right!r}")
-            if seen_match_rights is not None and isinstance(right, str):
-                key = re.sub(r"\s+", " ", right.strip().lower())
-                existing = seen_match_rights.get(key)
-                if existing is not None:
-                    err(pw, f"duplicate match example (also used by {existing})")
-                else:
-                    seen_match_rights[key] = str(question.get("id"))
-            lefts.add(left_ru)
-            rights.add(right)
-
-
 def validate_build(question, where: str) -> None:
     if question.get("buildKind") not in ("affirmative", "negative", "question"):
         err(where, "`buildKind` must be affirmative, negative or question")
@@ -254,8 +218,7 @@ def validate_build(question, where: str) -> None:
 
 
 def validate_question(question, where: str, known_rules: dict[str, str] | None,
-                      seen_question_ids: set[str], seen_sentences: dict[str, str],
-                      seen_match_rights: dict[str, str] | None = None) -> None:
+                      seen_question_ids: set[str], seen_sentences: dict[str, str]) -> None:
     if not isinstance(question, dict):
         err(where, "question must be an object")
         return
@@ -300,7 +263,79 @@ def validate_question(question, where: str, known_rules: dict[str, str] | None,
             else:
                 seen_sentences[key] = str(question_id)
     else:
-        validate_match(question, where, seen_match_rights)
+        err(where, f"unsupported question type {question_type!r}")
+
+
+def validate_preposition_reference(data_dir: Path, rule_sections: dict[str, str]) -> None:
+    """Checks data/preposition_reference.json used by the visual dictionary screens."""
+    path = data_dir / "preposition_reference.json"
+    if not path.is_file():
+        err(path.name, "file is missing")
+        return
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception as exc:  # noqa: BLE001 - report bad JSON as content error
+        err(path.name, f"invalid JSON: {exc}")
+        return
+    topics = data.get("topics")
+    if not isinstance(topics, list) or not topics:
+        err(path.name, "`topics` must be a non-empty list")
+        return
+    if len(topics) != 2:
+        err(path.name, f"expected exactly 2 preposition topics, found {len(topics)}")
+    seen_rule_ids = set()
+    for index, topic in enumerate(topics):
+        where = f"{path.name} topics[{index}]"
+        if not isinstance(topic, dict):
+            err(where, "topic must be an object")
+            continue
+        rule_id = topic.get("ruleId")
+        if not nonempty_str(rule_id, where, "ruleId"):
+            continue
+        if rule_id in seen_rule_ids:
+            err(where, f"duplicate topic ruleId `{rule_id}`")
+        seen_rule_ids.add(rule_id)
+        if rule_sections.get(rule_id) != "prepositions":
+            err(where, f"topic ruleId `{rule_id}` must reference a prepositions rule")
+        nonempty_str(topic.get("title"), where, "title", min_len=3)
+        nonempty_str(topic.get("subtitle"), where, "subtitle", min_len=3)
+        prepositions = topic.get("prepositions")
+        if not isinstance(prepositions, list) or not prepositions:
+            err(where, "`prepositions` must be a non-empty list")
+            continue
+        seen_keys = set()
+        for entry_index, entry in enumerate(prepositions):
+            ew = f"{where} prepositions[{entry_index}]"
+            if not isinstance(entry, dict):
+                err(ew, "entry must be an object")
+                continue
+            key = entry.get("key")
+            if not nonempty_str(key, ew, "key"):
+                continue
+            if not re.fullmatch(r"[a-z0-9_]+", key):
+                err(ew, f"key must be snake_case ascii, got {key!r}")
+            if key in seen_keys:
+                err(ew, f"duplicate key `{key}`")
+            seen_keys.add(key)
+            for field, min_len in (("label", 2), ("translation", 2), ("short", 3), ("explanation", 15)):
+                nonempty_str(entry.get(field), ew, field, min_len=min_len)
+            examples = entry.get("examples")
+            if not isinstance(examples, list) or not (2 <= len(examples) <= 4):
+                err(ew, "`examples` must contain 2..4 entries")
+                continue
+            for example_index, example in enumerate(examples):
+                xw = f"{ew} examples[{example_index}]"
+                if not isinstance(example, dict):
+                    err(xw, "example must be an object")
+                    continue
+                en = example.get("en")
+                ru = example.get("ru")
+                if not nonempty_str(en, xw, "en", min_len=5):
+                    continue
+                if "___" in en:
+                    err(xw, "example must be a full sentence without `___`")
+                if not RU_LETTERS.search(ru if isinstance(ru, str) else ""):
+                    err(xw, "example `ru` must contain Russian text")
 
 
 def find_sections_path(target: Path) -> Path | None:
@@ -393,9 +428,8 @@ def main(argv: list[str]) -> int:
     # pass 2: questions
     seen_question_ids: set[str] = set()
     seen_sentences: dict[str, str] = {}
-    seen_match_rights: dict[str, str] = {}
     total_questions = 0
-    type_counts = {"choice": 0, "match": 0, "build": 0}
+    type_counts = {"choice": 0, "build": 0}
     level_counts = {level: 0 for level in LEVELS}
     section_counts: dict[str, int] = {}
 
@@ -413,7 +447,6 @@ def main(argv: list[str]) -> int:
                 known_rule_sections if directory_mode else None,
                 seen_question_ids,
                 seen_sentences,
-                seen_match_rights if directory_mode else None,
             )
             total_questions += 1
             if isinstance(question, dict):
@@ -428,7 +461,7 @@ def main(argv: list[str]) -> int:
                 rule_id = question.get("ruleId")
                 if rule_id:
                     rule_question_counts[rule_id] = rule_question_counts.get(rule_id, 0) + 1
-                    type_counter = rule_type_counts.setdefault(rule_id, {"choice": 0, "match": 0, "build": 0})
+                    type_counter = rule_type_counts.setdefault(rule_id, {"choice": 0, "build": 0})
                     if question_type in type_counter:
                         type_counter[question_type] += 1
                     section_id = known_rule_sections.get(rule_id)
@@ -446,40 +479,36 @@ def main(argv: list[str]) -> int:
     if not skip_quotas:
         for rule_id in sorted(known_rule_sections):
             total = rule_question_counts.get(rule_id, 0)
-            types = rule_type_counts.get(rule_id, {"choice": 0, "match": 0, "build": 0})
+            types = rule_type_counts.get(rule_id, {"choice": 0, "build": 0})
             rule_section = known_rule_sections.get(rule_id)
             is_article_theme = rule_section == "articles"
             is_tense_theme = rule_section == "tenses"
             if is_tense_theme:
-                if total != 90:
-                    err("quotas", f"tense theme `{rule_id}` must have exactly 90 questions, found {total}")
+                if total != 80:
+                    err("quotas", f"tense theme `{rule_id}` must have exactly 80 questions, found {total}")
                 if types.get("choice", 0) != 20:
                     err("quotas", f"tense theme `{rule_id}` must have 20 choice questions, found {types.get('choice', 0)}")
-                if types.get("match", 0) != 10:
-                    err("quotas", f"tense theme `{rule_id}` must have 10 match questions, found {types.get('match', 0)}")
                 if types.get("build", 0) != 60:
                     err("quotas", f"tense theme `{rule_id}` must have 60 build questions, found {types.get('build', 0)}")
             elif is_article_theme:
-                if total != 70:
-                    err("quotas", f"article theme `{rule_id}` must have exactly 70 questions, found {total}")
-                if types.get("choice", 0) < 25:
-                    err("quotas", f"article theme `{rule_id}` needs at least 25 choice questions, found {types.get('choice', 0)}")
-                if types.get("match", 0) < 5:
-                    err("quotas", f"article theme `{rule_id}` needs at least 5 match questions, found {types.get('match', 0)}")
+                if not (55 <= total <= 60):
+                    err("quotas", f"article theme `{rule_id}` must have 55..60 questions, found {total}")
+                if types.get("choice", 0) != total:
+                    err("quotas", f"article theme `{rule_id}` must contain only choice questions, found {types.get('choice', 0)}")
             else:
-                if not (50 <= total <= 60):
-                    err("quotas", f"preposition theme `{rule_id}` must have 50..60 questions, found {total}")
-                if types.get("choice", 0) < 25:
-                    err("quotas", f"preposition theme `{rule_id}` needs at least 25 choice questions, found {types.get('choice', 0)}")
-                if types.get("match", 0) < 5:
-                    err("quotas", f"preposition theme `{rule_id}` needs at least 5 match questions, found {types.get('match', 0)}")
+                if total != 45:
+                    err("quotas", f"preposition theme `{rule_id}` must have exactly 45 questions, found {total}")
+                if types.get("choice", 0) != 45:
+                    err("quotas", f"preposition theme `{rule_id}` must contain only choice questions, found {types.get('choice', 0)}")
     for rule_id, count in sorted(rule_question_counts.items()):
         if count == 0:
             warn("rules", f"rule `{rule_id}` has no questions")
 
     if directory_mode:
-        if total_questions < 2020:
-            warn("content", f"expected 2020 questions, found {total_questions}")
+        if total_questions != 1580:
+            warn("content", f"expected 1580 questions, found {total_questions}")
+        data_dir = sections_path.parent if sections_path is not None else target.parent
+        validate_preposition_reference(data_dir, known_rule_sections)
         for section_id, count in sorted(section_counts.items()):
             print(f"section `{section_id}`: {count} questions")
 
